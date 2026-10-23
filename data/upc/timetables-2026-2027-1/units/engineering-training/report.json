@@ -1,0 +1,38 @@
+{
+  "slug": "engineering-training",
+  "sourceUnit": "石油工业训练中心",
+  "collegeCode": "upc-17",
+  "status": "active",
+  "sourceDir": "石油工业训练中心",
+  "rawBlocks": 81,
+  "candidates": 13,
+  "verified": 13,
+  "officialVerified": 8,
+  "timetableVerified": 5,
+  "unresolved": 0,
+  "unresolvedDetails": [],
+  "excludedBlocks": 0,
+  "excludedBlockReasons": {},
+  "coursesRaw": 6,
+  "sourceFile": {
+    "path": "课表/石油工业训练中心/课表打印.xls",
+    "bytes": 34816,
+    "sha256": "86426e2e9497d75c5c8211acc4a266facff4ffae9b9e4ee6231b57f1716b4419",
+    "format": "BIFF8/OLE2",
+    "title": "中国石油大学（华东） 石油工业训练中心  教研室课表",
+    "term": "2026-2027-1",
+    "sheets": [
+      {
+        "name": "Sheet4",
+        "rows": 9,
+        "cols": 256,
+        "headerRow": 3,
+        "blocks": 81,
+        "anomalies": []
+      }
+    ]
+  },
+  "courses": 6,
+  "offerings": 25,
+  "importFile": "units/engineering-training/import.json"
+}

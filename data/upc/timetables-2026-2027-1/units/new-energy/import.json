@@ -1,0 +1,1531 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-new-energy-2026-2027-1-timetable-20261023",
+  "source": "课表/石大山能新能源学院/课表打印.xls sha256:e2a5f0d386bbfd55fe2e0661c6b0697e7e47284693349477c326a66f4ed96465; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "ne-c15052-a218948",
+      "name": "丁斌",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE210311031",
+          "name": "传热学",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE211511010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a352670",
+      "name": "万娱",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE121112200",
+          "name": "过程设备设计(2-2)",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a342299",
+      "name": "严庆增",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321811010",
+          "name": "电气工程新技术专题",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE325211040",
+          "name": "现代电力电子技术",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a301149",
+      "name": "仉志华",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE323611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE323911030",
+          "name": "电力工程基础",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15060-a219643",
+      "name": "代鹏程",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE422011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE422111010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE428821020",
+          "name": "储能原理与技术",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE434511040",
+          "name": "储能化学基础（1）",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a344781",
+      "name": "任晓",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE211511010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE223821020",
+          "name": "新能源技术",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE234411020",
+          "name": "太阳能热利用原理与技术",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a320445",
+      "name": "冯兴田",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321011030",
+          "name": "电力拖动自动控制系统",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a348731",
+      "name": "冯洪庆",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE210311031",
+          "name": "传热学",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE211411010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c18561-a219642",
+      "name": "刘丹丹",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE211021020",
+          "name": "洁净煤技术",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE422321020",
+          "name": "制氢工艺与技术",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE431511020",
+          "name": "储能化学基础（2）",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a214234",
+      "name": "刘兆增",
+      "title": "高级工程师",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE121011025",
+          "name": "过程流体机械",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a218936",
+      "name": "刘安源",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE210311032",
+          "name": "传热学",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE226111025",
+          "name": "燃烧与污染控制",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a345997",
+      "name": "周凡",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE122211020",
+          "name": "化工设备设计基础",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a352660",
+      "name": "周昌静",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE120311020",
+          "name": "泵与压缩机",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE136321020",
+          "name": "泵与压缩机",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a352656",
+      "name": "国亚东",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE122211020",
+          "name": "化工设备设计基础",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a354439",
+      "name": "姜烨",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE210621030",
+          "name": "工程热力学",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE211021020",
+          "name": "洁净煤技术",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a352672",
+      "name": "孙治谦",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE110611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE112512200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE122812200",
+          "name": "环保设备设计(2-2)",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE136411015",
+          "name": "装备制造工程基础",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a352666",
+      "name": "孙鑫晖",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE123411021",
+          "name": "控制工程基础",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE124411020",
+          "name": "现代测控仪表",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a219644",
+      "name": "孟庆伟",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321811010",
+          "name": "电气工程新技术专题",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE323911030",
+          "name": "电力工程基础",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a460689",
+      "name": "宿嘉磊",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321711035",
+          "name": "电路分析",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE321811010",
+          "name": "电气工程新技术专题",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE339512100",
+          "name": "电路与电子技术（2-1）",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a352663",
+      "name": "左海强",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE121112200",
+          "name": "过程设备设计(2-2)",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE123411021",
+          "name": "控制工程基础",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a315944",
+      "name": "巩亮",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE211411010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a342298",
+      "name": "康伟",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321121020",
+          "name": "电力系统仿真与分析",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE323911030",
+          "name": "电力工程基础",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a213969",
+      "name": "张丽霞",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE323021020",
+          "name": "柔性输配电技术",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE323911030",
+          "name": "电力工程基础",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a354436",
+      "name": "张伟",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE232711040",
+          "name": "新能源热力发电原理及系统",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a218927",
+      "name": "张克舫",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE210311032",
+          "name": "传热学",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE232711040",
+          "name": "新能源热力发电原理及系统",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a226900",
+      "name": "张兰",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE123411021",
+          "name": "控制工程基础",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a214237",
+      "name": "张松",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE125231022",
+          "name": "微型啤酒精酿技术",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c18561-a224981",
+      "name": "张梦迪",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE420321021",
+          "name": "电化学原理",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE420621020",
+          "name": "新型碳材料",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE421311021",
+          "name": "化学电源技术",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a342308",
+      "name": "张玉财",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE122211020",
+          "name": "化工设备设计基础",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a213970",
+      "name": "张磊",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321711035",
+          "name": "电路分析",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a226508",
+      "name": "张立强",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE211511010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE223821020",
+          "name": "新能源技术",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE227321021",
+          "name": "生物质热化学转化原理与技术",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE232711040",
+          "name": "新能源热力发电原理及系统",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a369442",
+      "name": "张龙龙",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321011030",
+          "name": "电力拖动自动控制系统",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE324011040",
+          "name": "现代电机控制系统",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15060-a310539",
+      "name": "徐文刚",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE434511040",
+          "name": "储能化学基础（1）",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a345743",
+      "name": "徐海亮",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE323321020",
+          "name": "微电网分析与控制",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE323611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a342294",
+      "name": "朱明晓",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321811010",
+          "name": "电气工程新技术专题",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE323821020",
+          "name": "专业英语",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a342310",
+      "name": "朱晓丽",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE128312200",
+          "name": "流体力学(2-2)",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a352673",
+      "name": "李强",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE110511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE121011025",
+          "name": "过程流体机械",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE131811020",
+          "name": "工程流体力学",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c18561-a352675",
+      "name": "李禹彤",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE420321021",
+          "name": "电化学原理",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE422011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE422111010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE438812200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c18561-a352607",
+      "name": "李良军",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE421111020",
+          "name": "工程概论",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE421511021",
+          "name": "氢能技术与应用",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a213981",
+      "name": "李鹏",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321811010",
+          "name": "电气工程新技术专题",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE323821020",
+          "name": "专业英语",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE325211040",
+          "name": "现代电力电子技术",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a327884",
+      "name": "杨正大",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE210411021",
+          "name": "工程概论",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE211511010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE211721020",
+          "name": "专业外语",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a342304",
+      "name": "杨滨",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE110511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE121112200",
+          "name": "过程设备设计(2-2)",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE122211020",
+          "name": "化工设备设计基础",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a324969",
+      "name": "林日亿",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE211411010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a218945",
+      "name": "段欣悦",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE210311032",
+          "name": "传热学",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a450262",
+      "name": "殷英",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE210411021",
+          "name": "工程概论",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE211511010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE223821020",
+          "name": "新能源技术",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a347947",
+      "name": "王君",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE110511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE110611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE121011025",
+          "name": "过程流体机械",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a352669",
+      "name": "王宗明",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE121011025",
+          "name": "过程流体机械",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a331949",
+      "name": "王建军",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE121112200",
+          "name": "过程设备设计(2-2)",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE131811020",
+          "name": "工程流体力学",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a214228",
+      "name": "王振波",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE110511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE110611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE121011025",
+          "name": "过程流体机械",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE122812200",
+          "name": "环保设备设计(2-2)",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c18561-a449977",
+      "name": "王文冉",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE421111020",
+          "name": "工程概论",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c18561-a364939",
+      "name": "王旻",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE422011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE422111010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a213975",
+      "name": "王永军",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE320321020",
+          "name": "电动钻机电气控制技术",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE321921026",
+          "name": "电气控制及可编程控制技术",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a354438",
+      "name": "王照亮",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE211411010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE223621010",
+          "name": "先进热管理技术",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a344885",
+      "name": "王玉彬",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE323611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a352661",
+      "name": "王胜军",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE110611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE120311020",
+          "name": "泵与压缩机",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE136321020",
+          "name": "泵与压缩机",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a411945",
+      "name": "王胜昆",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE121112200",
+          "name": "过程设备设计(2-2)",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-07-001",
+      "name": "王阳",
+      "title": null,
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE431511020",
+          "name": "储能化学基础（2）",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a301580",
+      "name": "白章",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE210411021",
+          "name": "工程概论",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE211511010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE223821020",
+          "name": "新能源技术",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE234411020",
+          "name": "太阳能热利用原理与技术",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-07-002",
+      "name": "秦政",
+      "title": null,
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE112512200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a342312",
+      "name": "章大海",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE110611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE128312200",
+          "name": "流体力学(2-2)",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE136321020",
+          "name": "泵与压缩机",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a382398",
+      "name": "翟俊义",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321811010",
+          "name": "电气工程新技术专题",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE323721020",
+          "name": "智能电网导论",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c18561-a363122",
+      "name": "脱永笑",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE421511021",
+          "name": "氢能技术与应用",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE422111010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a410616",
+      "name": "苑昆鹏",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE211511010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE223621010",
+          "name": "先进热管理技术",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a391062",
+      "name": "葛平娟",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321811010",
+          "name": "电气工程新技术专题",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE323321020",
+          "name": "微电网分析与控制",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a213991",
+      "name": "董磊",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321921026",
+          "name": "电气控制及可编程控制技术",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a214243",
+      "name": "蒋文春",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE110611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-07-003",
+      "name": "薛松",
+      "title": null,
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE420321021",
+          "name": "电化学原理",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE422011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE422111010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a218931",
+      "name": "许康",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE210411021",
+          "name": "工程概论",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE210711036",
+          "name": "工程热力学",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a346913",
+      "name": "赵东亚",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE110511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE110611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a332696",
+      "name": "赵延灵",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE136411015",
+          "name": "装备制造工程基础",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a481441",
+      "name": "赵晨辰",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321811010",
+          "name": "电气工程新技术专题",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE323821020",
+          "name": "专业英语",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-07-004",
+      "name": "郭晓静",
+      "title": null,
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE112512200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a213992",
+      "name": "陈荣",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321011030",
+          "name": "电力拖动自动控制系统",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE323111020",
+          "name": "石油石化电气节能技术",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a354440",
+      "name": "韩昕璐",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE211511010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE222621020",
+          "name": "燃气轮机与联合循环",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c18561-a354441",
+      "name": "顾鑫",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE421311021",
+          "name": "化学电源技术",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE422111010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a213978",
+      "name": "马文忠",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE323611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a218935",
+      "name": "马永",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE229012101",
+          "name": "热力学（2-1）",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-07-005",
+      "name": "骆浩冉",
+      "title": null,
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE438812200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a219647",
+      "name": "高春侠",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE321711035",
+          "name": "电路分析",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE322521020",
+          "name": "高等电路分析",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE339512100",
+          "name": "电路与电子技术（2-1）",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a218940",
+      "name": "黄善波",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE210311032",
+          "name": "传热学",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15054-a342315",
+      "name": "齐建涛",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE124011021",
+          "name": "环境工程材料",
+          "collegeCode": "upc-07"
+        }
+      ]
+    }
+  ]
+}

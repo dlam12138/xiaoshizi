@@ -1,26 +1,16 @@
 import { ModalFrame } from './ModalFrame';
-import { RATING_DIMENSIONS } from '../lib/ratings';
+import {
+  NEW_RATING_HINT, RATING_DIMENSIONS, formatNewRatingInput,
+  parseNewRatingInput, validateNewRatingDimensions, validateNewRatingInput,
+} from '../lib/ratings';
 import React, { useState, useEffect, useMemo } from 'react';
-import { Teacher, Review, Course } from '../types';
-import { X, CheckCircle, ShieldCheck, AlertTriangle, EyeOff, User } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { Teacher, Review, Term } from '../types';
+import { X, ShieldCheck, AlertTriangle, EyeOff, User } from 'lucide-react';
+import { motion } from 'motion/react';
 import { AnimatedDropdown } from './AnimatedDropdown';
-import { checkSensitiveContent } from '../utils/sensitiveFilter';
 import { supabaseService } from '../services/supabaseService';
 import { useTeacherSearch } from '../hooks/useTeacherSearch';
-import { usePagedQuery } from '../hooks/usePagedQuery';
 import { PageFeedback } from './Pagination';
-
-export const SEMESTER_OPTIONS = [
-  { value: '2026-2027第一学期', label: '2026-2027第一学期 (当前学期)' },
-  { value: '2025-2026第二学期', label: '2025-2026第二学期' },
-  { value: '2025-2026第一学期', label: '2025-2026第一学期' },
-  { value: '2024-2025第二学期', label: '2024-2025第二学期' },
-  { value: '2024-2025第一学期', label: '2024-2025第一学期' },
-  { value: '2023-2024第二学期', label: '2023-2024第二学期' },
-  { value: '2023-2024第一学期', label: '2023-2024第一学期' },
-  { value: '2022-2023及更早', label: '2022-2023及更早' },
-];
 
 interface ReviewModalProps {
   isOpen: boolean;
@@ -32,6 +22,7 @@ interface ReviewModalProps {
 }
 
 export const ReviewModal: React.FC<ReviewModalProps> = ({
+  isOpen,
   onClose,
   teachers,
   preselectedTeacher,
@@ -42,121 +33,147 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
     preselectedTeacher?.id || ''
   );
   const [teacherKeyword, setTeacherKeyword] = useState('');
-  const [courseKeyword, setCourseKeyword] = useState('');
   const [chosenTeacher, setChosenTeacher] = useState<Teacher | undefined>(preselectedTeacher || undefined);
   const teacherSearch = useTeacherSearch(teachers, { query: teacherKeyword }, Boolean(teacherKeyword.trim()));
-  const courseSearch = usePagedQuery<Course>(courseKeyword, (_page, signal) => supabaseService.getCoursesPage(courseKeyword, signal), Boolean(courseKeyword.trim()));
-  const allCourses = courseSearch.items;
   const [selectedCourseId, setSelectedCourseId] = useState<string>('');
-  const [selectedCourseName, setSelectedCourseName] = useState<string>(
-    preselectedTeacher?.courses[0] || ''
-  );
-  const [yearTerm, setYearTerm] = useState<string>('2026-2027第一学期');
-  const [comment, setComment] = useState<string>('');
+  const [selectedCourseName, setSelectedCourseName] = useState<string>('');
+  const [terms, setTerms] = useState<Term[]>([]);
+  const [termsLoading, setTermsLoading] = useState(true);
+  const [termsError, setTermsError] = useState<string | null>(null);
+  const [termId, setTermId] = useState('');
+  const [yearTerm, setYearTerm] = useState('');
   const [isAnonymous, setIsAnonymous] = useState<boolean>(true);
   const [customNickname, setCustomNickname] = useState<string>(
-    currentUser?.user_metadata?.nickname || '交大学子'
+    currentUser?.user_metadata?.nickname || '石大学子'
   );
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
   const [successNotice, setSuccessNotice] = useState<boolean>(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
-  const [sensitiveBlockNotice, setSensitiveBlockNotice] = useState<{
-    violations: string[];
-    reason: string;
-  } | null>(null);
 
-  // 6 dimensions state
-  const [dimensions, setDimensions] = useState({
-    attendanceStrictness: 3,
-    gradingLeniency: 4,
-    effortMatters: 4,
-    workloadDifficulty: 3,
-    approachability: 4,
-    teachingQuality: 4,
-  });
+  // Six independent decimal inputs. Empty by design: no score is preselected.
+  const emptyRatingInputs = {
+    attendanceStrictness: '',
+    gradingLeniency: '',
+    effortMatters: '',
+    workloadDifficulty: '',
+    approachability: '',
+    teachingQuality: '',
+  };
+  const [ratingInputs, setRatingInputs] = useState<Record<keyof typeof emptyRatingInputs, string>>(emptyRatingInputs);
+  const [ratingErrors, setRatingErrors] = useState<Partial<Record<keyof typeof emptyRatingInputs, string>>>({});
 
   const currentTeacher = chosenTeacher || teachers.find((t) => t.id === selectedTeacherId);
   const teacherChoices = teacherKeyword.trim() ? teacherSearch.items : currentTeacher ? [currentTeacher] : [];
 
-  // Course dropdown options
+  // Only real teacher × course offerings can be reviewed. There is no free-text
+  // course fallback and no "first course in the catalog" guess.
   const courseOptions = useMemo(() => {
     const options: Array<{ value: string; label: string; badge?: string }> = [];
-    const teacherCourseNames = new Set(currentTeacher?.courses || []);
-
-    // 1. First add teacher's specific courses (with IDs if available)
-    if (currentTeacher?.courseOfferings && currentTeacher.courseOfferings.length > 0) {
-      for (const off of currentTeacher.courseOfferings) {
-        if (options.some(o => o.value === off.courseId)) continue;
-        options.push({
-          value: off.courseId,
-          label: off.courseName,
-          badge: '主讲课程',
-        });
-      }
-    } else if (currentTeacher?.courses && currentTeacher.courses.length > 0) {
-      for (const cName of currentTeacher.courses) {
-        const matched = allCourses.find((c) => c.name === cName);
-        options.push({
-          value: matched?.id || cName,
-          label: cName,
-          badge: '主讲课程',
-        });
-      }
-    }
-
-    // 2. Add other available courses
-    for (const c of allCourses) {
-      if (!teacherCourseNames.has(c.name) && !options.some((o) => o.value === c.id || o.label === c.name)) {
-        options.push({
-          value: c.id,
-          label: c.name,
-        });
-      }
-    }
-
-    // Keep a selected course when another search replaces the remote suggestions.
-    if (selectedCourseId && selectedCourseName && !options.some(o => o.value === selectedCourseId)) {
-      options.push({ value: selectedCourseId, label: selectedCourseName });
+    const seen = new Set<string>();
+    if (!termId) return options;
+    for (const off of currentTeacher?.courseOfferings || []) {
+      if (!off.courseId || seen.has(off.courseId)) continue;
+      // Only offer courses that belong to the selected term. A teacher can have
+      // historical offerings while the default current term has none.
+      if (off.termId !== termId) continue;
+      seen.add(off.courseId);
+      options.push({
+        value: off.courseId,
+        label: off.courseName,
+        badge: off.isCurrentTerm ? '本学期开课' : '历史开课',
+      });
     }
     return options;
-  }, [currentTeacher, allCourses, selectedCourseId, selectedCourseName]);
+  }, [currentTeacher, termId]);
 
-  // Sync default selected course on mount or teacher change
   useEffect(() => {
-    if (courseOptions.length > 0) {
-      const currentExists = courseOptions.find(
-        (o) => o.value === selectedCourseId || o.label === selectedCourseName
-      );
-      if (!currentExists) {
-        setSelectedCourseId(courseOptions[0].value);
-        setSelectedCourseName(courseOptions[0].label);
-      } else if (selectedCourseId !== currentExists.value) {
-        setSelectedCourseId(currentExists.value);
-      }
+    if (courseOptions.length === 0) {
+      setSelectedCourseId('');
+      setSelectedCourseName('');
+      return;
     }
-  }, [courseOptions, selectedCourseId, selectedCourseName]);
+    const currentExists = courseOptions.find((o) => o.value === selectedCourseId);
+    if (!currentExists) {
+      setSelectedCourseId(courseOptions[0].value);
+      setSelectedCourseName(courseOptions[0].label);
+    }
+  }, [courseOptions, selectedCourseId]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+    let active = true;
+    setTermsLoading(true);
+    setTermsError(null);
+    supabaseService.getTerms()
+      .then((list) => {
+        if (!active) return;
+        setTerms(list);
+        if (list.length === 0) {
+          setTermsError('学期字典尚未初始化，请联系管理员导入学期后再提交评价。');
+          setTermId('');
+          setYearTerm('');
+          return;
+        }
+        const selected = list.find((term) => term.id === termId)
+          || list.find((term) => term.isCurrent)
+          || list[0];
+        setTermId(selected.id);
+        setYearTerm(selected.yearTerm);
+      })
+      .catch((error) => {
+        if (!active) return;
+        setTermsError(error instanceof Error ? error.message : '学期字典加载失败');
+        setTerms([]);
+      })
+      .finally(() => {
+        if (active) setTermsLoading(false);
+      });
+    return () => { active = false; };
+  }, [isOpen]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+    setRatingInputs({ ...emptyRatingInputs });
+    setRatingErrors({});
+    setSubmitError(null);
+    // emptyRatingInputs is intentionally a stable six-key literal.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isOpen]);
 
   const handleTeacherChange = (teacherId: string) => {
     setSelectedTeacherId(teacherId);
     setChosenTeacher(teacherChoices.find(t => t.id === teacherId));
     setSelectedCourseId('');
     setSelectedCourseName('');
-    setCourseKeyword('');
   };
 
   const handleCourseChange = (val: string) => {
     const matched = courseOptions.find((o) => o.value === val);
-    if (matched) {
-      setSelectedCourseId(matched.value);
-      setSelectedCourseName(matched.label);
-    } else {
-      setSelectedCourseId(val);
-      setSelectedCourseName(val);
-    }
+    if (!matched) return;
+    setSelectedCourseId(matched.value);
+    setSelectedCourseName(matched.label);
   };
 
-  const handleDimensionChange = (key: keyof typeof dimensions, value: number) => {
-    setDimensions((prev) => ({ ...prev, [key]: value }));
+  const handleTermChange = (nextTermId: string) => {
+    const term = terms.find((item) => item.id === nextTermId);
+    if (!term) return;
+    setTermId(term.id);
+    setYearTerm(term.yearTerm);
+  };
+
+  const handleRatingInput = (key: keyof typeof emptyRatingInputs, value: string) => {
+    setRatingInputs((prev) => ({ ...prev, [key]: value }));
+    setRatingErrors((prev) => ({ ...prev, [key]: undefined }));
+  };
+
+  const handleRatingBlur = (key: keyof typeof emptyRatingInputs) => {
+    const error = validateNewRatingInput(ratingInputs[key]);
+    if (error) {
+      setRatingErrors((prev) => ({ ...prev, [key]: error }));
+      return;
+    }
+    setRatingInputs((prev) => ({ ...prev, [key]: formatNewRatingInput(prev[key]) }));
+    setRatingErrors((prev) => ({ ...prev, [key]: undefined }));
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -168,21 +185,32 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
       return;
     }
 
-    if (comment.trim()) {
-      if (comment.trim().length < 5) {
-        alert('评价文字略显单薄，请至少写出5个字以上的具体上课或考核体验，避免空泛注水哦！');
-        return;
-      }
+    if (!termId || !yearTerm) {
+      setSubmitError('请选择有效学期；学期字典未初始化时不能提交评价。');
+      return;
+    }
 
-      // Automated Sensitive Content Pre-screening
-      const scanResult = checkSensitiveContent(comment);
-      if (!scanResult.isClean) {
-        setSensitiveBlockNotice({
-          violations: scanResult.violations,
-          reason: scanResult.reason,
-        });
-        return;
-      }
+    if (!selectedCourseId) {
+      setSubmitError('该教师暂无已导入的开课关系，暂不能提交评价。');
+      return;
+    }
+
+    const nextErrors: Partial<Record<keyof typeof emptyRatingInputs, string>> = {};
+    const nextDimensions = {} as Record<keyof typeof emptyRatingInputs, number>;
+    for (const dimension of RATING_DIMENSIONS) {
+      const error = validateNewRatingInput(ratingInputs[dimension.key]);
+      if (error) nextErrors[dimension.key] = error;
+      else nextDimensions[dimension.key] = parseNewRatingInput(ratingInputs[dimension.key])!;
+    }
+    if (Object.keys(nextErrors).length > 0) {
+      setRatingErrors(nextErrors);
+      setSubmitError('请先完成六项评分，每项填写 4.0–5.0 且最多一位小数。');
+      return;
+    }
+    const dimensionError = validateNewRatingDimensions(nextDimensions);
+    if (dimensionError) {
+      setSubmitError(dimensionError);
+      return;
     }
 
     setIsSubmitting(true);
@@ -191,13 +219,14 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
       const res = await onSubmitReview({
         teacherId: selectedTeacherId,
         courseId: selectedCourseId,
-        courseName: selectedCourseName || currentTeacher?.courses[0] || '大学核心课程',
+        courseName: selectedCourseName,
+        termId,
         yearTerm,
-        dimensions,
-        comment: comment.trim() || undefined,
+        dimensions: nextDimensions,
+        comment: undefined,
         authorNickname: isAnonymous
-          ? '匿名学子'
-          : (customNickname.trim() || currentUser?.user_metadata?.nickname || '交大学子'),
+          ? '匿名石大学子'
+          : (customNickname.trim() || currentUser?.user_metadata?.nickname || '石大学子'),
         isHistoricalMigrated: false,
         status: 'pending', // <--- Initial status: pending
       });
@@ -244,7 +273,7 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
         {/* Header */}
         <div className="shrink-0 p-5 border-b border-gray-100 flex items-center justify-between bg-gradient-to-r from-gray-50 to-white">
           <div>
-            <h3 className="text-lg font-bold text-gray-900">撰写教师评价 & 打分</h3>
+            <h3 className="text-lg font-bold text-gray-900">撰写课堂反馈 & 打分</h3>
             <p className="text-xs text-gray-500">
               六维评分，越高越好 · 审核通过可获得 <strong className="text-amber-600">+20 积分</strong>
             </p>
@@ -276,7 +305,7 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
             </motion.div>
             <h4 className="text-xl font-bold text-gray-900">评价已提交审核！</h4>
             <p className="text-xs text-gray-500 max-w-sm leading-relaxed">
-              根据评教规范，评价正进入学工/学生审核组复核流程（预计24小时内公示）。
+              根据审核规范，评价正进入学工/学生审核组复核流程（预计24小时内公示）。
               <br />
               <strong>审核通过后将自动计入教师主页，并即时发放 <span className="text-amber-600 font-bold">+20 积分</span> 奖励！</strong>
             </p>
@@ -337,17 +366,20 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
                     className="w-full"
                     value={selectedCourseId}
                     onChange={handleCourseChange}
-                    options={courseKeyword.trim() ? courseOptions.filter(o => o.label.toLowerCase().includes(courseKeyword.trim().toLowerCase())) : courseOptions}
+                    options={courseOptions}
                     selectedOption={courseOptions.find(o => o.value === selectedCourseId)}
-                    searchable
-                    onSearchChange={setCourseKeyword}
-                    searchPlaceholder="输入课程名搜索"
-                    loading={courseSearch.loading}
-                    placeholder="请选择修读课程..."
+                    placeholder={currentTeacher ? '该教师暂无已导入的开课关系' : '请先选择教师'}
+                    emptyMessage="该教师暂无已导入的开课关系"
                     buttonClassName="w-full bg-gray-50 hover:bg-gray-100/90 text-gray-800 rounded-xl px-3.5 py-2.5 border border-gray-200"
                     menuClassName="w-full"
                   />
-                  <PageFeedback loading={false} error={courseSearch.error} onRetry={courseSearch.reload} />
+                  {currentTeacher && courseOptions.length === 0 && (
+                    <p className="mt-1 text-2xs text-amber-700 leading-relaxed">
+                      {termId
+                        ? '该学期没有已导入的开课关系，请切换学期或联系管理员导入教师 × 课程 × 学期数据。'
+                        : '请先选择学期；没有开课关系时不能提交评价。'}
+                    </p>
+                  )}
                 </div>
               </div>
 
@@ -358,13 +390,27 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
                   <AnimatedDropdown
                     id="review-term-select"
                     className="w-full"
-                    value={yearTerm}
-                    selectedOption={SEMESTER_OPTIONS.find((o) => o.value === yearTerm)}
-                    onChange={setYearTerm}
-                    options={SEMESTER_OPTIONS}
+                    value={termId}
+                    selectedOption={terms.find((term) => term.id === termId)
+                      ? {
+                        value: termId,
+                        label: `${yearTerm}${terms.find((term) => term.id === termId)?.isCurrent ? '（当前学期）' : ''}`,
+                      }
+                      : undefined}
+                    onChange={handleTermChange}
+                    options={terms.map((term) => ({
+                      value: term.id,
+                      label: `${term.yearTerm}${term.isCurrent ? '（当前学期）' : ''}`,
+                    }))}
+                    loading={termsLoading}
+                    placeholder="请选择学期..."
+                    emptyMessage="学期字典尚未初始化"
                     buttonClassName="w-full bg-gray-50 hover:bg-gray-100/90 text-gray-800 rounded-xl px-3.5 py-2.5 text-xs border border-gray-200"
                     menuClassName="w-full max-h-56"
                   />
+                  {termsError && (
+                    <p className="mt-1 text-2xs text-rose-600 leading-relaxed">{termsError}</p>
+                  )}
                 </div>
                 <div>
                   <label className="block text-xs font-bold text-gray-700 mb-1">发布身份</label>
@@ -414,68 +460,55 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
                 </div>
               </div>
 
-              {/* 6 Dimension Sliders / Buttons */}
+              {/* Six required decimal scores; deliberately not a 1–5 button picker. */}
               <div className="space-y-3 pt-2">
-                <div className="flex items-center justify-between border-b border-gray-100 pb-2">
-                  <h4 className="text-sm font-bold text-gray-900">多维度真实打分 (必填，1-5分)</h4>
-                  <span className="text-2xs text-gray-400">独立打分互不排斥</span>
+                <div className="flex flex-wrap items-center justify-between gap-1 border-b border-gray-100 pb-2">
+                  <h4 className="text-sm font-bold text-gray-900">六项课堂评分（必填）</h4>
+                  <span className="text-2xs text-gray-500">{NEW_RATING_HINT}</span>
                 </div>
 
-                <div className="space-y-3">
-                  {dimensionDefinitions.map((item) => (
-                    <div 
-                      key={item.key} 
-                      className="p-3 bg-gray-50/70 rounded-2xl border border-gray-100 space-y-1"
-                    >
-                      <div className="flex items-center justify-between text-xs">
-                        <span className="font-bold text-gray-800">{item.label}</span>
-                        <span className="font-bold text-indigo-600 text-sm">
-                          {dimensions[item.key]} 分
-                        </span>
-                      </div>
-                      <div className="flex items-center gap-3 pt-1">
-                        <span className="text-2xs text-gray-400 w-12 shrink-0">{item.lowDesc}</span>
-                        <div className="flex-1 min-w-0 flex justify-between gap-1">
-                          {[1, 2, 3, 4, 5].map((score) => (
-                            <motion.button
-                              type="button"
-                              key={score}
-                              whileTap={{ scale: 0.85 }}
-                              whileHover={{ scale: 1.05 }}
-                              onClick={() => handleDimensionChange(item.key, score)}
-                              className={`flex-1 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                                dimensions[item.key] === score
-                                  ? 'bg-indigo-600 text-white shadow-xs'
-                                  : 'bg-white hover:bg-gray-100 text-gray-600 border border-gray-200'
-                              }`}
-                            >
-                              {score}
-                            </motion.button>
-                          ))}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {dimensionDefinitions.map((item) => {
+                    const error = ratingErrors[item.key];
+                    const inputId = `review-rating-${item.key}`;
+                    const errorId = `${inputId}-error`;
+                    return (
+                      <div key={item.key} className="p-3 bg-gray-50/70 rounded-2xl border border-gray-100">
+                        <div className="flex items-start justify-between gap-2">
+                          <label htmlFor={inputId} className="text-xs font-bold text-gray-800">
+                            {item.label}
+                          </label>
+                          <span className="text-2xs text-gray-400 text-right">{item.highDesc}</span>
                         </div>
-                        <span className="text-2xs text-gray-400 w-14 shrink-0 text-right">{item.highDesc}</span>
+                        <div className="mt-2 flex items-center gap-2">
+                          <input
+                            id={inputId}
+                            type="text"
+                            inputMode="decimal"
+                            autoComplete="off"
+                            maxLength={4}
+                            value={ratingInputs[item.key]}
+                            onChange={(e) => handleRatingInput(item.key, e.target.value)}
+                            onBlur={() => handleRatingBlur(item.key)}
+                            placeholder="4.0"
+                            aria-invalid={Boolean(error)}
+                            aria-describedby={error ? errorId : undefined}
+                            className={`w-24 rounded-xl border bg-white px-3 py-2 text-sm font-semibold text-gray-900 tabular-nums outline-hidden transition-colors focus:border-indigo-500 ${
+                              error ? 'border-rose-300 focus:border-rose-500' : 'border-gray-200'
+                            }`}
+                          />
+                          <span className="text-xs text-gray-500">分</span>
+                        </div>
+                        {error && (
+                          <p id={errorId} role="alert" className="mt-1.5 text-2xs font-medium text-rose-600">
+                            {error}
+                          </p>
+                        )}
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
-              </div>
-
-              {/* Optional Text Comment */}
-              <div className="space-y-1.5 pt-1">
-                <div className="flex items-center justify-between">
-                  <label className="text-xs font-bold text-gray-700">
-                    课程评价文字（选填，打分与文字独立）
-                  </label>
-                  <span className="text-2xs text-emerald-600 font-medium">写文字上课体验更容易过审</span>
-                </div>
-                <textarea
-                  id="review-comment-textarea"
-                  value={comment}
-                  onChange={(e) => setComment(e.target.value)}
-                  placeholder="写下真实的考核方式、平时作业量、大作业要求、期末划重点情况等..."
-                  rows={3}
-                  className="w-full px-4 py-3 bg-gray-50 rounded-2xl border border-gray-200 text-xs text-gray-800 focus:outline-hidden focus:border-indigo-500 focus:bg-white resize-none"
-                />
+                <p className="text-2xs text-gray-400">可输入 4、4.1、5 等；失焦后统一显示一位小数，六项均需填写。</p>
               </div>
 
               {/* Policy note */}
@@ -502,8 +535,8 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
                 type="submit"
                 whileTap={{ scale: 0.95 }}
                 whileHover={{ scale: 1.02 }}
-                disabled={isSubmitting}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 disabled:opacity-50 text-white rounded-xl text-sm font-semibold shadow-md shadow-indigo-100 transition-all flex items-center gap-1.5 cursor-pointer"
+                disabled={isSubmitting || !termId || !selectedCourseId}
+                className="px-6 py-2.5 bg-blue-900 hover:bg-blue-800 active:bg-blue-950 disabled:opacity-50 text-white rounded-xl text-sm font-semibold shadow-md shadow-blue-100 transition-all flex items-center gap-1.5 cursor-pointer disabled:cursor-not-allowed"
               >
                 {isSubmitting ? '正在提交...' : '提交审核 (+20分待审)'}
               </motion.button>
@@ -512,58 +545,6 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
         )}
       </motion.div>
 
-      {/* Sensitive Words Interception Modal */}
-      <AnimatePresence>
-        {sensitiveBlockNotice && (
-          <div className="fixed inset-0 z-70 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs">
-            <motion.div
-              initial={{ opacity: 0, scale: 0.92 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.92 }}
-              className="bg-white rounded-3xl p-6 max-w-md w-full shadow-2xl border border-rose-100 space-y-4 text-center"
-            >
-              <div className="w-14 h-14 rounded-2xl bg-rose-50 text-rose-600 mx-auto flex items-center justify-center border border-rose-100">
-                <AlertTriangle className="w-7 h-7" />
-              </div>
-
-              <div className="space-y-2">
-                <h4 className="text-base font-bold text-gray-900">
-                  评价内容未通过自动化安全合规初筛
-                </h4>
-                <p className="text-xs text-gray-600 leading-relaxed text-left bg-rose-50/60 p-3 rounded-2xl border border-rose-100">
-                  {sensitiveBlockNotice.reason}
-                </p>
-              </div>
-
-              <div className="space-y-1.5 text-left">
-                <span className="text-xs font-semibold text-gray-500">检测到的违规词/违规项：</span>
-                <div className="flex flex-wrap gap-1.5">
-                  {sensitiveBlockNotice.violations.map((v, i) => (
-                    <span
-                      key={i}
-                      className="px-2 py-0.5 rounded-lg bg-rose-100 text-rose-700 text-xs font-mono font-bold border border-rose-200"
-                    >
-                      {v}
-                    </span>
-                  ))}
-                </div>
-              </div>
-
-              <p className="text-2xs text-gray-400 text-left">
-                提示：请修改或移除上述涉嫌不当、隐私泄露或广告的内容后重新提交。
-              </p>
-
-              <button
-                type="button"
-                onClick={() => setSensitiveBlockNotice(null)}
-                className="w-full py-2.5 bg-rose-600 hover:bg-rose-700 text-white rounded-xl text-xs font-bold transition-all shadow-xs"
-              >
-                返回修改评价文字
-              </button>
-            </motion.div>
-          </div>
-        )}
-      </AnimatePresence>
     </ModalFrame>
   );
 };

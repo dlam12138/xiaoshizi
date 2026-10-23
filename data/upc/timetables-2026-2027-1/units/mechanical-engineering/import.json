@@ -1,0 +1,2095 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-mechanical-engineering-2026-2027-1-timetable-20261023",
+  "source": "课表/机电工程学院/课表打印.xls sha256:c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "cmee-c21433-a424254",
+      "name": "于蕾艳",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE210611042",
+          "name": "机械设计基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE220211040",
+          "name": "车辆结构与设计",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE225611020",
+          "name": "工程概论",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424379",
+      "name": "付建民",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE421211020",
+          "name": "安全系统工程",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE422721020",
+          "name": "事故调查与案例分析",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE423211010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE423421010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424791",
+      "name": "伊鹏",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE112711010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE310512100",
+          "name": "画法几何与工程制图(2-1)",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE323921020",
+          "name": "智能工程",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-04-004",
+      "name": "何冬青",
+      "title": null,
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310211030",
+          "name": "工程制图",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424792",
+      "name": "余焱群",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310211030",
+          "name": "工程制图",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21435-a429240",
+      "name": "余相",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE520712100",
+          "name": "船舶原理Ⅰ",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-04-001",
+      "name": "冯德华",
+      "title": null,
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE330461030",
+          "name": "AI平面设计实战",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424241",
+      "name": "刘健",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE221611020",
+          "name": "汽车电子控制技术",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE223621020",
+          "name": "汽车电子控制技术",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424786",
+      "name": "刘广斗",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE120321020",
+          "name": "海洋石油装备概论",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE310211040",
+          "name": "工程制图",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE310512100",
+          "name": "画法几何与工程制图(2-1)",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE329321020",
+          "name": "先进成图技术",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424370",
+      "name": "刘康",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE420621020",
+          "name": "安全行为学",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE423211010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE423421010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424787",
+      "name": "刘敬",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE112711010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE321621020",
+          "name": "企业形象设计",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE323431020",
+          "name": "创意与设计",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE329231021",
+          "name": "非遗民俗文化赏析与设计",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424797",
+      "name": "刘旭堂",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE322511020",
+          "name": "设计心理学",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE323431020",
+          "name": "创意与设计",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424240",
+      "name": "刘永红",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE111311025",
+          "name": "机械制造工程基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE112711010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424221",
+      "name": "刘秀全",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE120321020",
+          "name": "海洋石油装备概论",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE121011020",
+          "name": "机电系统设计",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE128811030",
+          "name": "智能工程基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424220",
+      "name": "刘静",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE111811021",
+          "name": "控制工程基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE113711020",
+          "name": "工程概论",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE120821020",
+          "name": "机电传动与控制",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21435-a424278",
+      "name": "包兴先",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE521011020",
+          "name": "工程概论",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE521411030",
+          "name": "海洋工程环境",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424251",
+      "name": "吴宝贵",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE112711010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE224431020",
+          "name": "工程实践与创新",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE225212100",
+          "name": "机械工程基础Ⅰ",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE225611020",
+          "name": "工程概论",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE228912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21435-a424280",
+      "name": "吴磊",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE221221020",
+          "name": "海洋工程结构可靠性",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424263",
+      "name": "周先军",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE210612200",
+          "name": "机械设计基础（2-2）",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424217",
+      "name": "姜浩",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE111811021",
+          "name": "控制工程基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21435-a424213",
+      "name": "娄敏",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE521011020",
+          "name": "工程概论",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE522211010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424788",
+      "name": "娄晖",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310211030",
+          "name": "工程制图",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424369",
+      "name": "孔得朋",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE421911020",
+          "name": "工业安全技术",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE422411020",
+          "name": "燃烧与爆炸学",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE423211010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE423421010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE427512200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424318",
+      "name": "孙少华",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE211121020",
+          "name": "汽车试验学",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-04-005",
+      "name": "宋金",
+      "title": null,
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE330361020",
+          "name": "平面设计基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE330461030",
+          "name": "AI平面设计实战",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424230",
+      "name": "崔俊国",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE210612200",
+          "name": "机械设计基础（2-2）",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE211321020",
+          "name": "石油特车设计",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE225611020",
+          "name": "工程概论",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE226041020",
+          "name": "机电创新与实践",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424316",
+      "name": "崔运静",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE210611040",
+          "name": "机械设计基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE229011010",
+          "name": "工程热力学基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21435-a499552",
+      "name": "师长",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE520712100",
+          "name": "船舶原理Ⅰ",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-04-006",
+      "name": "庄晶云",
+      "title": null,
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE228912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE427512200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE522112200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424245",
+      "name": "庞罕",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE211221021",
+          "name": "人机工程学",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE223331015",
+          "name": "人因工程——因人而设",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21435-a424282",
+      "name": "张亚",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE521411030",
+          "name": "海洋工程环境",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a441168",
+      "name": "张君宇",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE423321022",
+          "name": "信息安全技术",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE427121015",
+          "name": "工程有限元建模与数值模拟",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21435-a474012",
+      "name": "张天泽",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE221221020",
+          "name": "海洋工程结构可靠性",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424779",
+      "name": "张宗波",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310512100",
+          "name": "画法几何与工程制图(2-1)",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424247",
+      "name": "张彦廷",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE111911025",
+          "name": "流体力学与流体传动",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE112711010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424248",
+      "name": "张彦振",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE112421026",
+          "name": "微控制器原理与接口技术",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a438440",
+      "name": "张振全",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE121011020",
+          "name": "机电系统设计",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21435-a424281",
+      "name": "张敬",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE510321020",
+          "name": "海洋工程施工与安全",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424373",
+      "name": "张新梅",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE422321020",
+          "name": "量化风险评估",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424794",
+      "name": "张旭强",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310512100",
+          "name": "画法几何与工程制图(2-1)",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424244",
+      "name": "张立军",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE112711010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424801",
+      "name": "张芬娜",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310211030",
+          "name": "工程制图",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE323921020",
+          "name": "智能工程",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21436-a424600",
+      "name": "张鹏",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE228912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE427512200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE522112200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424383",
+      "name": "徐长航",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE423211010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE424221015",
+          "name": "智能安全工程",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-04-002",
+      "name": "戴昀",
+      "title": null,
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE329231021",
+          "name": "非遗民俗文化赏析与设计",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21435-a466125",
+      "name": "曲铭",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE222331020",
+          "name": "海洋学",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424795",
+      "name": "曹清园",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310211030",
+          "name": "工程制图",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE310621020",
+          "name": "机械CAD基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424225",
+      "name": "曹爱请",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE111811021",
+          "name": "控制工程基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE112421026",
+          "name": "微控制器原理与接口技术",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424376",
+      "name": "朱渊",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE421621021",
+          "name": "工程计算与仿真",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE423211010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE423421010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424380",
+      "name": "朱红卫",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE420221020",
+          "name": "安全工程概论",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE421711020",
+          "name": "工程流体力学",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE423211010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE423421010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424239",
+      "name": "李伟",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE128811030",
+          "name": "智能工程基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a437389",
+      "name": "李国英",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310411020",
+          "name": "画法几何",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424218",
+      "name": "李小朋",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0419599",
+          "name": "机械制造工程基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE111311025",
+          "name": "机械制造工程基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE113711020",
+          "name": "工程概论",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21435-a424279",
+      "name": "李昌良",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE522211010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE526312100",
+          "name": "船舶与海洋工程结构力学Ⅰ",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "SPE222331020",
+          "name": "海洋学",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424219",
+      "name": "李肖",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE122911020",
+          "name": "智能运维与管理",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE310921020",
+          "name": "智能化集成制造系统",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424785",
+      "name": "李雨桐",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310211030",
+          "name": "工程制图",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424783",
+      "name": "李静",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310211040",
+          "name": "工程制图",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE329321020",
+          "name": "先进成图技术",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424871",
+      "name": "杜洋",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE422411020",
+          "name": "燃烧与爆炸学",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424799",
+      "name": "束奇",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE113711020",
+          "name": "工程概论",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE323431020",
+          "name": "创意与设计",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21436-a424593",
+      "name": "柏胜昔",
+      "title": null,
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE228912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE427512200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE522112200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424222",
+      "name": "沈蓉",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0413599",
+          "name": "控制工程基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE111811021",
+          "name": "控制工程基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424778",
+      "name": "牛文杰",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310211040",
+          "name": "工程制图",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424819",
+      "name": "王伟",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE113711020",
+          "name": "工程概论",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21436-a424599",
+      "name": "王宁",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE128912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424315",
+      "name": "王小楠",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE210521031",
+          "name": "机械设计基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE225611020",
+          "name": "工程概论",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21435-a424261",
+      "name": "王川",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE520712100",
+          "name": "船舶原理Ⅰ",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE522112200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE536131020",
+          "name": "海洋与当代中国",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424382",
+      "name": "王彦富",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE423711030",
+          "name": "油气安全工程",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424246",
+      "name": "王新庆",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE210611042",
+          "name": "机械设计基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE221611020",
+          "name": "汽车电子控制技术",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE223621020",
+          "name": "汽车电子控制技术",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE226041020",
+          "name": "机电创新与实践",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424371",
+      "name": "王明达",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE421011030",
+          "name": "安全检测与监控",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE423211010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE426521015",
+          "name": "安全业务大数据平台设计",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424381",
+      "name": "王海清",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE423821015",
+          "name": "油气设施完整性管理",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-04-003",
+      "name": "王灵芝",
+      "title": null,
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE329231021",
+          "name": "非遗民俗文化赏析与设计",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424789",
+      "name": "王珉",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310211040",
+          "name": "工程制图",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE310621020",
+          "name": "机械CAD基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424378",
+      "name": "王超杰",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE421211020",
+          "name": "安全系统工程",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21435-a424262",
+      "name": "王阳阳",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE510321020",
+          "name": "海洋工程施工与安全",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a436636",
+      "name": "王隆扬",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE121011020",
+          "name": "机电系统设计",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE122521020",
+          "name": "智能传感器与检测技术",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a438669",
+      "name": "畅元江",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE111811021",
+          "name": "控制工程基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424235",
+      "name": "相恒富",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE112621020",
+          "name": "现代数控机床",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424267",
+      "name": "石永军",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE112711010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE210611042",
+          "name": "机械设计基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE220211040",
+          "name": "车辆结构与设计",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE226041020",
+          "name": "机电创新与实践",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424234",
+      "name": "秦冬黎",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE111311025",
+          "name": "机械制造工程基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424798",
+      "name": "秦臻",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE321421020",
+          "name": "空间展示设计",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE323431020",
+          "name": "创意与设计",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE323921020",
+          "name": "智能工程",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE324311030",
+          "name": "AI辅助工业设计",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424377",
+      "name": "章博",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE423421010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424237",
+      "name": "纪仁杰",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE110611021",
+          "name": "互换性与测量技术基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE111311025",
+          "name": "机械制造工程基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424232",
+      "name": "纪佳馨",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE210611042",
+          "name": "机械设计基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE220211040",
+          "name": "车辆结构与设计",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE225611020",
+          "name": "工程概论",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a437433",
+      "name": "胡国庆",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE110611021",
+          "name": "互换性与测量技术基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21436-a424594",
+      "name": "董建党",
+      "title": null,
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE128912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a420740",
+      "name": "蔡宝平",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE120721020",
+          "name": "机床电气控制",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a425270",
+      "name": "薛博策",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE111911025",
+          "name": "流体力学与流体传动",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424793",
+      "name": "袁宝民",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310621020",
+          "name": "机械CAD基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE329321020",
+          "name": "先进成图技术",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424224",
+      "name": "袁新安",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE121011020",
+          "name": "机电系统设计",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE122521020",
+          "name": "智能传感器与检测技术",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424223",
+      "name": "许志倩",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE112821020",
+          "name": "虚拟样机技术",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424320",
+      "name": "贠平利",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE210521031",
+          "name": "机械设计基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE210611040",
+          "name": "机械设计基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424780",
+      "name": "贺庆强",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310211030",
+          "name": "工程制图",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424321",
+      "name": "赵学进",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE210521030",
+          "name": "机械设计基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE210612200",
+          "name": "机械设计基础（2-2）",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE225611020",
+          "name": "工程概论",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE227621015",
+          "name": "汽车微控制器原理与应用",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424953",
+      "name": "赵海晖",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310211030",
+          "name": "工程制图",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE323221020",
+          "name": "专业外语",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE323711010",
+          "name": "设计文化思潮",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424214",
+      "name": "车家琪",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE128912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424265",
+      "name": "邹宇鹏",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE112711010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE210611042",
+          "name": "机械设计基础",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE225611020",
+          "name": "工程概论",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE226041020",
+          "name": "机电创新与实践",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE228211020",
+          "name": "控制工程基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-04-007",
+      "name": "郑超",
+      "title": null,
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE112121020",
+          "name": "石油工程流体机械",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a437391",
+      "name": "郭福州",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310321030",
+          "name": "工程制图",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a424317",
+      "name": "郭颖",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE210611042",
+          "name": "机械设计基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424781",
+      "name": "金涛",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE323011020",
+          "name": "形态设计",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE323431015",
+          "name": "创意改变生活",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424372",
+      "name": "闫怡飞",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE423321022",
+          "name": "信息安全技术",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE423421010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424790",
+      "name": "闫成新",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310621020",
+          "name": "机械CAD基础",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a437392",
+      "name": "陈凡宝",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE421911020",
+          "name": "工业安全技术",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424215",
+      "name": "陈敬凯",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE125921020",
+          "name": "数字仿真与应用",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a424236",
+      "name": "陈玉莹",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE422321020",
+          "name": "量化风险评估",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE423211010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE423421010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21434-a424796",
+      "name": "陈福忠",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE310211030",
+          "name": "工程制图",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21436-a424595",
+      "name": "霍添",
+      "title": null,
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE228912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE427512200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE522112200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21296-a466528",
+      "name": "靳国栋",
+      "title": "助教",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "ETC020731015",
+          "name": "摄影技艺",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE320421020",
+          "name": "产品摄影表达",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21433-a425297",
+      "name": "马宁",
+      "title": "工程师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE223931020",
+          "name": "智电汽车与未来星球",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE225611020",
+          "name": "工程概论",
+          "collegeCode": "upc-04"
+        },
+        {
+          "code": "MEE226131020",
+          "name": "新能源汽车技术",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21432-a464502",
+      "name": "马慧心",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE427121015",
+          "name": "工程有限元建模与数值模拟",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424216",
+      "name": "高雷雷",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE111721020",
+          "name": "计算机辅助机械工程",
+          "collegeCode": "upc-04"
+        }
+      ]
+    },
+    {
+      "sourceId": "cmee-c21292-a424229",
+      "name": "黄鲁蒙",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MEE111911025",
+          "name": "流体力学与流体传动",
+          "collegeCode": "upc-04"
+        }
+      ]
+    }
+  ]
+}

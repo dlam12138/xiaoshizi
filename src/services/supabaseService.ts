@@ -1,56 +1,30 @@
 import { supabase, isSupabaseConfigured } from '../lib/supabase';
-import { Teacher, Review, UserPointTransaction, Course, Term, PointRule, TeacherCourseOffering, TeacherQuery, ReviewQuery, DataPage, TeacherWithSections, CourseSection } from '../types';
-import { POPULAR_COURSES } from '../data/mockTeachers';
-import { normalizeRatingRecord, readRating, RATING_VERSION } from '../lib/ratings';
+import {
+  Teacher, Review, UserPointTransaction, Course, Term, PointRule, TeacherCourseOffering,
+  TeacherQuery, ReviewQuery, DataPage,
+} from '../types';
+import { normalizeRatingRecord, readRating, RATING_VERSION, validateNewRatingDimensions } from '../lib/ratings';
 import { cacheApiEnabled, cacheQuery, cacheRequest } from '../lib/cacheApi';
-import { SCHEDULE_SELECT, buildTimetableSections, normalizeCampus, timetableOptions, timetableRecommendations } from '../../server/timetable.mjs';
 
 /**
- * Supabase Data Service
- * Provides real database persistence with graceful local fallback & instant caching
+ * Supabase data service for the UPC deployment.
+ *
+ * There is deliberately no local-review, mock-teacher or old-project fallback:
+ * a missing database must fail closed and surface a configuration error.
  */
 
 const DEFAULT_ACTION_LABELS: Record<string, string> = {
-  welcome_gift: '新用户注册赠送',
-  register_init: '新用户注册赠送',
   new_user_welcome: '新用户注册欢迎礼',
   daily_checkin: '每日签到奖励',
-  review_approved: '撰写教师评价审核通过',
-  ai_question: 'AI 智能问答提问',
-  smart_filter: '智能筛选推荐',
-  guide_unlock: '攻略类内容解锁',
-  recommend_query: '智能偏好选课推荐',
-  experience_guide: '解锁经验攻略内容',
-  invite_bonus: '邀请校友注册奖励',
+  review_approved: '撰写课堂反馈审核通过',
 };
 
-const getStorageKey = (key: string) => `swjtu_${key}`;
-
-function getLocalItem<T>(key: string, defaultValue: T): T {
-  try {
-    if (typeof window === 'undefined') return defaultValue;
-    const val = localStorage.getItem(getStorageKey(key));
-    return val ? JSON.parse(val) : defaultValue;
-  } catch {
-    return defaultValue;
-  }
-}
-
-function setLocalItem<T>(key: string, value: T): void {
-  try {
-    if (typeof window === 'undefined') return;
-    localStorage.setItem(getStorageKey(key), JSON.stringify(value));
-  } catch (e) {
-    console.warn('[LocalStorage] Write failed:', e);
-  }
-}
-
-type RowPage = { data: any[] | null; error: { message: string } | null; count?: number | null };
-
-const TEACHER_SELECT = '*,colleges(id,name),course_offerings(course_id,courses(id,name),term_id,terms(id,year_term,is_current))';
+const TEACHER_SELECT =
+  '*,colleges(id,name),course_offerings(course_id,courses(id,name),term_id,terms(id,year_term,is_current))';
 const REVIEW_SELECT = '*,courses(id,name),teachers(name)';
+const CAMPUS_VALUES = new Set(['唐岛湾校区', '古镇口校区', '东营科教园区']);
+
 const searchPattern = (text: string) => `%${text.replace(/[\\%_*]/g, '\\$&')}%`;
-// Quote PostgREST filter values, including punctuation in course/teacher names.
 const filterValue = (value: string) => `"${value.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
 const pageBounds = (page = 0, size = 20) => {
   const pageSize = Math.min(100, Math.max(1, Math.floor(size) || 20));
@@ -58,8 +32,25 @@ const pageBounds = (page = 0, size = 20) => {
   return { from, to: from + pageSize - 1 };
 };
 
-// PostgREST caps a response at 1,000 rows. Read every page before publishing a
-// result; a later-page failure must not look like a complete teacher/review list.
+function decodeRatingVersion(value: unknown): number {
+  return Number(value) === 1 ? 1 : 2;
+}
+
+function readJsonArray(value: unknown): string[] {
+  if (Array.isArray(value)) return value.filter((item): item is string => typeof item === 'string');
+  if (typeof value === 'string' && value.trim()) {
+    try {
+      const parsed = JSON.parse(value);
+      return Array.isArray(parsed) ? parsed.filter((item): item is string => typeof item === 'string') : [];
+    } catch {
+      return [];
+    }
+  }
+  return [];
+}
+
+type RowPage = { data: any[] | null; error: { message: string } | null; count?: number | null };
+
 async function readAllRows(loadPage: (from: number, to: number) => PromiseLike<RowPage>): Promise<any[]> {
   const readPage = async (from: number, to: number) => {
     const result = await loadPage(from, to);
@@ -71,18 +62,23 @@ async function readAllRows(loadPage: (from: number, to: number) => PromiseLike<R
   const rows = [...first.rows];
   if (typeof first.count === 'number') {
     if (!rows.length && first.count > 0) throw new Error('数据库分页结果不完整');
-    // Use the observed page size if the server is configured below 1,000.
     const pageSize = first.rows.length || 1000;
     for (let from = rows.length; from < first.count; from += pageSize * 4) {
-      const offsets = Array.from({ length: Math.min(4, Math.ceil((first.count - from) / pageSize)) }, (_, i) => from + i * pageSize);
-      const pages = await Promise.all(offsets.map(offset => readPage(offset, Math.min(offset + pageSize, first.count!) - 1)));
+      const offsets = Array.from(
+        { length: Math.min(4, Math.ceil((first.count - from) / pageSize)) },
+        (_, i) => from + i * pageSize,
+      );
+      const pages = await Promise.all(
+        offsets.map((offset) => readPage(offset, Math.min(offset + pageSize, first.count!) - 1)),
+      );
       for (let i = 0; i < pages.length; i++) {
-        if (pages[i].rows.length !== Math.min(pageSize, first.count - offsets[i])) throw new Error('数据在读取期间发生变化，请刷新重试');
+        if (pages[i].rows.length !== Math.min(pageSize, first.count - offsets[i])) {
+          throw new Error('数据在读取期间发生变化，请刷新重试');
+        }
         rows.push(...pages[i].rows);
       }
     }
   } else {
-    // Older endpoints may omit counts; continue until an empty page.
     while (rows.length) {
       const page = await readPage(rows.length, rows.length + 999);
       if (!page.rows.length) break;
@@ -93,107 +89,103 @@ async function readAllRows(loadPage: (from: number, to: number) => PromiseLike<R
 }
 
 function mapTeacherRow(row: any): Teacher {
-        // College name resolution: from colleges.name join, or row.college fallback
-        const collegeName = row.colleges?.name || row.college || '西南交通大学';
+  const collegeName = row.colleges?.name || '未标注学院';
+  const rawOfferings: any[] = Array.isArray(row.course_offerings) ? row.course_offerings : [];
+  const offerings: TeacherCourseOffering[] = [];
+  const courseNames = new Set<string>();
+  const seenOfferings = new Set<string>();
+  let isTeachingCurrentTerm = false;
 
-        // Course offerings resolution from course_offerings join
-        const rawOfferings: any[] = Array.isArray(row.course_offerings) ? row.course_offerings : [];
-        const offerings: TeacherCourseOffering[] = [];
-        const courseNamesSet = new Set<string>();
-        let isTeachingCurrentTerm = false;
+  for (const off of rawOfferings) {
+    const courseName = off.courses?.name;
+    const courseId = off.course_id || off.courses?.id;
+    if (!courseName || !courseId) continue;
+    const key = `${courseId}:${off.term_id || ''}`;
+    if (seenOfferings.has(key)) continue;
+    seenOfferings.add(key);
+    courseNames.add(courseName);
+    const isCurrent = Boolean(off.terms?.is_current);
+    if (isCurrent) isTeachingCurrentTerm = true;
+    offerings.push({
+      courseId,
+      courseName,
+      termId: off.term_id,
+      yearTerm: off.terms?.year_term,
+      isCurrentTerm: isCurrent,
+    });
+  }
 
-        for (const off of rawOfferings) {
-          const cName = off.courses?.name;
-          const cId = off.course_id || off.courses?.id;
-          const isCurr = Boolean(off.terms?.is_current);
-          if (isCurr) isTeachingCurrentTerm = true;
-          if (cName) {
-            courseNamesSet.add(cName);
-            offerings.push({
-              courseId: cId,
-              courseName: cName,
-              termId: off.term_id,
-              yearTerm: off.terms?.year_term,
-              isCurrentTerm: isCurr,
-            });
-          }
-        }
+  const hasRatingData = Number(row.review_count) > 0 || row.has_historical_data === true;
+  const rating = (value: unknown) => (hasRatingData ? readRating(value) : null);
+  const campus = typeof row.campus === 'string' && CAMPUS_VALUES.has(row.campus) ? row.campus : null;
 
-        // Fallback for mock/legacy courses if course_offerings was empty in database
-        const fallbackCourses = Array.isArray(row.courses)
-          ? row.courses
-          : (typeof row.courses === 'string' ? JSON.parse(row.courses) : []);
-
-        const finalCourses = courseNamesSet.size > 0
-          ? Array.from(courseNamesSet)
-          : fallbackCourses;
-
-        const isTeachingThisTerm = rawOfferings.length > 0
-          ? isTeachingCurrentTerm
-          : Boolean(row.is_teaching_this_term ?? (finalCourses.length > 0));
-
-        // New teachers have numeric database defaults even before any rating exists.
-        // Only review statistics or explicitly imported history establish rating data.
-        const hasRatingData = Number(row.review_count) > 0 || row.has_historical_data === true;
-        const rating = (value: unknown) => hasRatingData ? readRating(value) : null;
-        return normalizeRatingRecord({
-          ratingVersion: row.rating_version ?? 1,
-          id: row.id,
-          name: row.name,
-          title: row.title || '教师',
-          college: collegeName,
-          collegeId: row.college_id || row.colleges?.id || undefined,
-          campus: normalizeCampus(row.campus) || '犀浦校区',
-          courses: finalCourses,
-          courseOfferings: offerings,
-          isTeachingThisTerm,
-          overallScore: rating(row.overall_score),
-          reviewCount: Number(row.review_count) || 0,
-          dimensions: {
-            attendanceStrictness: rating(row.attendance_strictness),
-            gradingLeniency: rating(row.grading_leniency),
-            effortMatters: rating(row.effort_matters),
-            workloadDifficulty: rating(row.workload_difficulty),
-            approachability: rating(row.approachability),
-            teachingQuality: rating(row.teaching_quality),
-          },
-          hasHistoricalData: Boolean(row.has_historical_data),
-          tags: Array.isArray(row.tags) ? row.tags : (typeof row.tags === 'string' ? JSON.parse(row.tags) : []),
-          recentTermCourses: row.recent_term_courses || [],
-        });
+  return normalizeRatingRecord({
+    ratingVersion: decodeRatingVersion(row.rating_version),
+    id: row.id,
+    name: row.name,
+    title: typeof row.title === 'string' && row.title.trim() ? row.title.trim() : null,
+    college: collegeName,
+    collegeId: row.college_id || row.colleges?.id || undefined,
+    identityKind: (row.identity_kind === 'timetable_unit_name'
+      || String(row.source_id || '').startsWith('tt-')) ? 'timetable_unit_name' : 'official_profile',
+    campus,
+    courses: Array.from(courseNames),
+    courseOfferings: offerings,
+    isTeachingThisTerm: isTeachingCurrentTerm,
+    overallScore: rating(row.overall_score),
+    reviewCount: Number(row.review_count) || 0,
+    dimensions: {
+      attendanceStrictness: rating(row.attendance_strictness),
+      gradingLeniency: rating(row.grading_leniency),
+      effortMatters: rating(row.effort_matters),
+      workloadDifficulty: rating(row.workload_difficulty),
+      approachability: rating(row.approachability),
+      teachingQuality: rating(row.teaching_quality),
+    },
+    hasHistoricalData: Boolean(row.has_historical_data),
+    tags: readJsonArray(row.tags),
+    recentTermCourses: readJsonArray(row.recent_term_courses),
+  });
 }
 
 function mapReviewRow(row: any): Review {
   return normalizeRatingRecord({
-            ratingVersion: row.rating_version ?? 1,
-            remote: true,
-            id: row.id,
-            teacherId: row.teacher_id,
-            courseId: row.course_id || row.courses?.id || undefined,
-            courseName: row.courses?.name || row.course_name || '大学核心课程',
-            yearTerm: row.year_term || '2024-2025第1学期',
-            dimensions: {
-              attendanceStrictness: row.attendance_strictness,
-              gradingLeniency: row.grading_leniency,
-              effortMatters: row.effort_matters,
-              workloadDifficulty: row.workload_difficulty,
-              approachability: row.approachability,
-              teachingQuality: row.teaching_quality,
-            },
-            comment: row.comment || '',
-            authorNickname: row.author_nickname || '匿名交大学子',
-            userId: row.user_id,
-            userEmail: row.user_email,
-            isHistoricalMigrated: Boolean(row.is_historical_migrated),
-            status: row.status || 'approved',
-            rejectReason: row.reject_reason || row.rejection_reason || undefined,
-            rejectionReason: row.reject_reason || row.rejection_reason || undefined,
-            reviewerId: row.reviewer_id || undefined,
-            reviewedAt: row.reviewed_at || undefined,
-            createdAt: row.created_at || new Date().toISOString(),
-            likes: Number(row.likes) || 0,
-    teacherName: row.teachers?.name,
+    ratingVersion: decodeRatingVersion(row.rating_version),
+    remote: true,
+    id: row.id,
+    teacherId: row.teacher_id,
+    termId: row.term_id || undefined,
+    courseId: row.course_id || row.courses?.id || undefined,
+    courseName: row.courses?.name || row.course_name || '',
+    yearTerm: row.year_term || '',
+    dimensions: {
+      attendanceStrictness: row.attendance_strictness,
+      gradingLeniency: row.grading_leniency,
+      effortMatters: row.effort_matters,
+      workloadDifficulty: row.workload_difficulty,
+      approachability: row.approachability,
+      teachingQuality: row.teaching_quality,
+    },
+    comment: row.comment || '',
+    authorNickname: row.author_nickname || '匿名石大学子',
+    userId: row.user_id,
+    isHistoricalMigrated: Boolean(row.is_historical_migrated),
+    status: row.status || 'pending',
+    rejectReason: row.reject_reason || undefined,
+    rejectionReason: row.reject_reason || undefined,
+    reviewerId: row.reviewer_id || undefined,
+    reviewedAt: row.reviewed_at || undefined,
+    createdAt: row.created_at || new Date().toISOString(),
+    likes: Number(row.likes) || 0,
+    teacherName: row.teachers?.name || row.teacher_name,
   });
+}
+
+function requireDatabase() {
+  if (!isSupabaseConfigured || !supabase) {
+    throw new Error('UPC 数据库尚未配置，请设置 VITE_SUPABASE_URL 与 VITE_SUPABASE_ANON_KEY');
+  }
+  return supabase;
 }
 
 export const supabaseService = {
@@ -202,24 +194,27 @@ export const supabaseService = {
       const data = await cacheRequest<DataPage<any>>(`/teachers?${cacheQuery({ ...options })}`, { signal });
       return { items: data.items.map(mapTeacherRow), total: data.total };
     }
-    if (!isSupabaseConfigured || !supabase) throw new Error('数据库尚未连接');
+    const db = requireDatabase();
     const text = options.query?.trim() || '';
     const { from, to } = pageBounds(options.page, options.pageSize);
     let select = TEACHER_SELECT;
     if (text) select += ',course_matches:course_offerings(courses!inner())';
     if (options.onlyThisTerm) select += ',current_offerings:course_offerings!inner(terms!inner())';
-    let query = supabase.from('teachers').select(select, { count: 'exact' });
+    let query = db.from('teachers').select(select, { count: 'exact' });
     if (text) {
       const pattern = searchPattern(text);
       query = query.ilike('course_matches.courses.name', pattern);
-      query = options.courseOnly ? query.not('course_matches', 'is', null)
+      query = options.courseOnly
+        ? query.not('course_matches', 'is', null)
         : query.or(`name.ilike.${filterValue(pattern)},tags.cs.${filterValue(JSON.stringify([text]))},course_matches.not.is.null`);
     }
     if (options.collegeId && options.collegeId !== 'all') query = query.eq('college_id', options.collegeId);
     if (options.onlyThisTerm) query = query.eq('current_offerings.terms.is_current', true);
-    const sortColumns = { overall: 'overall_score', leniency: 'grading_leniency', quality: 'teaching_quality', attendance: 'attendance_strictness' };
-    query = query.order(sortColumns[options.sortBy || 'overall'], { ascending: false, nullsFirst: false })
-      .order('review_count', { ascending: false }).order('id', { ascending: true }).range(from, to);
+    // Stable, score-independent order. The unique ID is the pagination tie-breaker.
+    query = query
+      .order('name', { ascending: true })
+      .order('id', { ascending: true })
+      .range(from, to);
     if (signal) query = query.abortSignal(signal);
     const { data, error, count } = await query;
     if (error) throw new Error(error.message);
@@ -231,74 +226,70 @@ export const supabaseService = {
       const row = await cacheRequest<any>(`/teachers/${encodeURIComponent(id)}`);
       return row ? mapTeacherRow(row) : null;
     }
-    if (!isSupabaseConfigured || !supabase) return null;
-    const { data, error } = await supabase.from('teachers').select(TEACHER_SELECT).eq('id', id).maybeSingle();
+    const db = requireDatabase();
+    const { data, error } = await db.from('teachers').select(TEACHER_SELECT).eq('id', id).maybeSingle();
     if (error) throw new Error(error.message);
     return data ? mapTeacherRow(data) : null;
   },
 
-  async getTeachersForCourse(query: string, collegeId?: string, signal?: AbortSignal): Promise<Teacher[]> {
-    if (!query.trim()) return [];
-    const options = { query, collegeId, courseOnly: true, onlyThisTerm: true, pageSize: 100 };
-    const first = await this.getTeachersPage(options, signal);
-    const items = [...first.items];
-    // Rank the complete candidate pool for this course, never just its first page.
-    for (let page = 1; items.length < first.total; page++) {
-      const next = await this.getTeachersPage({ ...options, page }, signal);
-      if (!next.items.length) break;
-      items.push(...next.items);
-    }
-    return items;
+  async getTeachers(): Promise<Teacher[]> {
+    const db = requireDatabase();
+    const rows = await readAllRows((from, to) =>
+      db.from('teachers').select(TEACHER_SELECT, { count: from === 0 ? 'exact' : undefined })
+        .order('name', { ascending: true })
+        .order('id', { ascending: true })
+        .range(from, to),
+    );
+    return rows.map(mapTeacherRow);
   },
 
-  async getTimetableCourseRecommendations(
-    courseQuery: string,
-    campus?: string,
-    collegeId?: string,
-    weekday?: number | string,
-    preferred?: string,
-    signal?: AbortSignal
-  ): Promise<TeacherWithSections[]> {
-    const options = timetableOptions({ query: courseQuery, campus, collegeId, weekday, preferred });
-    if (cacheApiEnabled) {
-      const rows = await cacheRequest<Array<{ teacher: any; sections: CourseSection[] }>>(
-        `/timetable/recommendations?${cacheQuery(options as unknown as Record<string, unknown>)}`, { signal }
-      );
-      return rows.map(row => ({ teacher: mapTeacherRow(row.teacher), sections: row.sections }));
-    }
-    if (!supabase) return [];
-    const { data: terms, error: termError } = await supabase.from('terms')
-      .select('id,year_term').eq('is_current', true).abortSignal(signal);
-    if (termError) throw new Error(termError.message);
-    if (terms?.length !== 1) throw new Error('请先设置唯一的当前学期');
-    const rows = await readAllRows((from, to) => supabase.from('timetable_schedule')
-      .select(SCHEDULE_SELECT, { count: from === 0 ? 'exact' : undefined })
-      .eq('term_id', terms[0].id).order('section_id')
-      .order('meeting_id', { nullsFirst: true }).range(from, to).abortSignal(signal));
-    if (!rows.length) return [];
-    const teacherIds = [...new Set(rows.map(row => row.teacher_id).filter(Boolean))];
-    const teachers: any[] = [];
-    // Keep ID lists bounded while reading every profile page in each batch.
-    for (let offset = 0; offset < teacherIds.length; offset += 100) {
-      const ids = teacherIds.slice(offset, offset + 100);
-      teachers.push(...await readAllRows((from, to) => supabase.from('teachers')
-        .select(TEACHER_SELECT, { count: from === 0 ? 'exact' : undefined })
-        .in('id', ids).order('id').range(from, to).abortSignal(signal)));
-    }
-    return timetableRecommendations(buildTimetableSections(rows), teachers, options)
-      .map(row => ({ teacher: mapTeacherRow(row.teacher), sections: row.sections }));
+  async getReviews(teacherId?: string, scope?: { userId?: string }): Promise<Review[]> {
+    const db = requireDatabase();
+    const rows = await readAllRows((from, to) => {
+      let query = db.from('reviews')
+        .select(REVIEW_SELECT, { count: from === 0 ? 'exact' : undefined })
+        .order('created_at', { ascending: false })
+        .order('id', { ascending: true });
+      if (teacherId) query = query.eq('teacher_id', teacherId);
+      if (scope?.userId) query = query.eq('user_id', scope.userId);
+      return query.range(from, to);
+    });
+    return rows.map(mapReviewRow);
   },
 
   async getReviewsPage(options: ReviewQuery, signal?: AbortSignal): Promise<DataPage<Review>> {
-    if (cacheApiEnabled && options.teacherId && options.status === 'approved' && !options.userId && !options.query) {
+    if (options.status && options.status !== 'approved') {
+      throw new Error('非公开评价只能通过管理员审核接口读取');
+    }
+    if (cacheApiEnabled && options.teacherId && !options.userId && !options.query) {
       const query = cacheQuery({ page: options.page, pageSize: options.pageSize });
-      const data = await cacheRequest<DataPage<any>>(`/teachers/${encodeURIComponent(options.teacherId)}/reviews?${query}`, { signal });
+      const data = await cacheRequest<DataPage<any>>(
+        `/teachers/${encodeURIComponent(options.teacherId)}/reviews?${query}`,
+        { signal },
+      );
       return { items: data.items.map(mapReviewRow), total: data.total };
     }
-    if (!isSupabaseConfigured || !supabase) throw new Error('数据库尚未连接');
+    const db = requireDatabase();
+    const { from, to } = pageBounds(options.page, options.pageSize);
+    // review_feed exposes only approved, non-identifying columns. The base table
+    // is reserved for the author and active reviewers.
+    let query = db.from('review_feed').select('*', { count: 'exact' });
+    if (options.teacherId) query = query.eq('teacher_id', options.teacherId);
+    query = query.order('created_at', { ascending: false }).order('id', { ascending: true }).range(from, to);
+    if (signal) query = query.abortSignal(signal);
+    const { data, error, count } = await query;
+    if (error) throw new Error(error.message);
+    return { items: (data || []).map(mapReviewRow), total: count ?? 0 };
+  },
+
+  async getAdminReviewsPage(options: ReviewQuery, signal?: AbortSignal): Promise<DataPage<Review>> {
+    const db = requireDatabase();
     const { from, to } = pageBounds(options.page, options.pageSize);
     const text = options.query?.trim();
-    let query = supabase.from('reviews').select(REVIEW_SELECT + (text ? ',teacher_match:teachers(),course_match:courses()' : ''), { count: 'exact' });
+    let query = db.from('reviews').select(
+      REVIEW_SELECT + (text ? ',teacher_match:teachers(),course_match:courses()' : ''),
+      { count: 'exact' },
+    );
     if (options.teacherId) query = query.eq('teacher_id', options.teacherId);
     if (options.userId) query = query.eq('user_id', options.userId);
     if (options.status && options.status !== 'all') query = query.eq('status', options.status);
@@ -315,90 +306,339 @@ export const supabaseService = {
   },
 
   async getReviewCounts(): Promise<Record<Review['status'], number>> {
-    if (!isSupabaseConfigured || !supabase) throw new Error('数据库尚未连接');
+    const db = requireDatabase();
     const statuses = ['pending', 'approved', 'rejected'] as const;
-    const results = await Promise.all(statuses.map(status => supabase!.from('reviews').select('id', { count: 'exact', head: true }).eq('status', status)));
+    const results = await Promise.all(
+      statuses.map((status) =>
+        db.from('reviews').select('id', { count: 'exact', head: true }).eq('status', status)),
+    );
     for (const result of results) if (result.error) throw new Error(result.error.message);
     return Object.fromEntries(statuses.map((status, i) => [status, results[i].count ?? 0])) as Record<Review['status'], number>;
   },
 
   async getCoursesPage(text: string, signal?: AbortSignal): Promise<DataPage<Course>> {
-    if (!isSupabaseConfigured || !supabase) return { items: [], total: 0 };
-    let query = supabase.from('courses').select('id,name,college_id', { count: 'exact' })
+    const db = requireDatabase();
+    let query = db.from('courses').select('id,name,college_id', { count: 'exact' })
       .ilike('name', searchPattern(text.trim())).order('name').order('id').range(0, 19);
     if (signal) query = query.abortSignal(signal);
     const { data, error, count } = await query;
     if (error) throw new Error(error.message);
-    return { items: (data || []).map(c => ({ id: c.id, name: c.name, collegeId: c.college_id })), total: count ?? 0 };
+    return { items: (data || []).map((c: any) => ({ id: c.id, name: c.name, collegeId: c.college_id })), total: count ?? 0 };
   },
-  /**
-   * Local storage helpers for reviews & user points
-   */
-  getLocalReviews(): Review[] {
-    const local = getLocalItem<Review[]>('submitted_reviews', []).map(normalizeRatingRecord);
-    if (local.length === 0) {
-      try {
-        const legacy = localStorage.getItem('swjtu_local_reviews');
-        if (legacy) {
-          const parsed = JSON.parse(legacy);
-          if (Array.isArray(parsed) && parsed.length > 0) {
-            setLocalItem('submitted_reviews', parsed);
-            localStorage.removeItem('swjtu_local_reviews');
-            return parsed.map(normalizeRatingRecord);
-          }
-        }
-      } catch (e) {
-        // ignore legacy parsing error
-      }
+
+  async getCourses(collegeId?: string): Promise<Course[]> {
+    const db = requireDatabase();
+    const rows = await readAllRows((from, to) => {
+      let query = db.from('courses').select('*', { count: from === 0 ? 'exact' : undefined })
+        .order('name').order('id', { ascending: true });
+      if (collegeId && collegeId !== 'all') query = query.eq('college_id', collegeId);
+      return query.range(from, to);
+    });
+    return rows.map((c: any) => ({
+      id: c.id,
+      name: c.name,
+      collegeId: c.college_id,
+      createdAt: c.created_at,
+    }));
+  },
+
+  async getColleges(): Promise<Array<{ id: string; name: string; code?: string; campus?: string | null }> | null> {
+    if (!isSupabaseConfigured || !supabase) return null;
+    try {
+      const { data, error } = await supabase.from('colleges').select('*').order('code');
+      if (error) throw new Error(error.message);
+      return (data || []).map((college: any) => ({
+        id: college.id,
+        name: college.name,
+        code: college.code,
+        campus: college.campus,
+      }));
+    } catch (err) {
+      console.warn('[Supabase] 学院字典读取失败:', err);
+      return null;
     }
-    return local;
   },
 
-  saveLocalReview(review: Review): void {
-    const existing = this.getLocalReviews();
-    const updated = [{ ...review, ratingVersion: RATING_VERSION }, ...existing.filter((r) => r.id !== review.id)];
-    setLocalItem('submitted_reviews', updated);
+  async getTerms(): Promise<Term[]> {
+    const db = requireDatabase();
+    const { data, error } = await db.from('terms').select('*').order('is_current', { ascending: false }).order('code');
+    if (error) throw new Error(error.message);
+    return (data || []).map((t: any) => ({
+      id: t.id,
+      code: t.code,
+      yearTerm: t.year_term,
+      isCurrent: Boolean(t.is_current),
+      createdAt: t.created_at,
+    }));
   },
 
-  getLocalUserPoints(userId: string): { points: number; transactions: UserPointTransaction[] } | null {
-    const cache = getLocalItem<{ points: number; transactions: UserPointTransaction[] } | null>(
-      `points_${userId}`,
-      null
-    );
-    return cache;
+  async getPointRules(): Promise<PointRule[]> {
+    const db = requireDatabase();
+    const { data, error } = await db.from('point_rules').select('*').order('points_delta', { ascending: false });
+    if (error) throw new Error(error.message);
+    return (data || []).map((r: any) => ({
+      actionCode: r.action_code,
+      label: r.label,
+      pointsDelta: Number(r.points_delta),
+      isActive: Boolean(r.is_active),
+      description: r.description,
+    }));
   },
 
-  saveLocalUserPoints(userId: string, points: number, transactions: UserPointTransaction[]): void {
-    setLocalItem(`points_${userId}`, { points, transactions });
+  async submitReview(review: Review): Promise<{ success: boolean; message?: string }> {
+    if (!isSupabaseConfigured || !supabase) {
+      return { success: false, message: '数据库未配置，评价未提交。请设置 UPC Supabase 环境变量后重试。' };
+    }
+    try {
+      const sessionUser = (await supabase.auth.getUser())?.data?.user;
+      if (!sessionUser) return { success: false, message: '提交未通过安全校验：请先登录后再提交反馈。' };
+
+      if (!review.teacherId) return { success: false, message: '提交失败：请选择教师。' };
+      if (!review.courseId) return { success: false, message: '提交失败：请选择该教师的开课课程。' };
+      const ratingError = validateNewRatingDimensions(review.dimensions);
+      if (ratingError) return { success: false, message: `提交失败：${ratingError}` };
+
+      const term = await this.resolveReviewTerm(review.termId, review.yearTerm);
+      if (!term) return { success: false, message: '提交失败：未找到有效学期，请联系管理员初始化学期字典。' };
+
+      const offering = await this.findOffering(review.teacherId, review.courseId, term.id);
+      if (!offering) {
+        return { success: false, message: '提交失败：所选课程不在该教师的开课关系中，请刷新后重新选择。' };
+      }
+
+      const validCreatedAt = review.createdAt && !Number.isNaN(Date.parse(review.createdAt))
+        ? new Date(review.createdAt).toISOString()
+        : new Date().toISOString();
+
+      const insertPayload: any = {
+        rating_version: RATING_VERSION,
+        id: review.id,
+        teacher_id: review.teacherId,
+        course_id: review.courseId,
+        term_id: term.id,
+        year_term: term.yearTerm,
+        attendance_strictness: review.dimensions.attendanceStrictness,
+        grading_leniency: review.dimensions.gradingLeniency,
+        effort_matters: review.dimensions.effortMatters,
+        workload_difficulty: review.dimensions.workloadDifficulty,
+        approachability: review.dimensions.approachability,
+        teaching_quality: review.dimensions.teachingQuality,
+        comment: review.comment?.trim() || null,
+        author_nickname: review.authorNickname,
+        user_id: sessionUser.id,
+        is_historical_migrated: false,
+        status: 'pending',
+        created_at: validCreatedAt,
+        likes: 0,
+      };
+
+      const { error } = await supabase.from('reviews').insert(insertPayload);
+      if (error) {
+        let userMsg = error.message;
+        if (error.code === '42501' || userMsg.includes('row-level security')) {
+          userMsg = '数据库安全策略拒绝了写入，请确认已登录且评价字段符合当前规则。';
+        }
+        return { success: false, message: userMsg };
+      }
+      return { success: true };
+    } catch (err: any) {
+      return { success: false, message: err?.message || '网络连接异常，未能存入数据库' };
+    }
   },
 
-  /**
-   * Check-in date tracking (local and remote)
-   */
-  getLocalDateString(): string {
-    // Campus check-ins use the same calendar day as the database (Asia/Shanghai).
-    return new Intl.DateTimeFormat('en-CA', {
-      timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit',
-    }).format(new Date());
+  async updateMyReview(review: Review): Promise<{ success: boolean; message?: string }> {
+    if (!isSupabaseConfigured || !supabase) return { success: false, message: '数据库未配置，评价未保存。' };
+    try {
+      const sessionUser = (await supabase.auth.getUser())?.data?.user;
+      if (!sessionUser) return { success: false, message: '请先登录' };
+
+      if (!review.courseId) return { success: false, message: '请选择该教师的开课课程' };
+      const ratingError = validateNewRatingDimensions(review.dimensions);
+      if (ratingError) return { success: false, message: ratingError };
+      const term = await this.resolveReviewTerm(review.termId, review.yearTerm);
+      if (!term) return { success: false, message: '未找到有效学期，请刷新后重试' };
+      if (!(await this.findOffering(review.teacherId, review.courseId, term.id))) {
+        return { success: false, message: '所选课程不在该教师的开课关系中' };
+      }
+
+      const updatePayload: any = {
+        rating_version: RATING_VERSION,
+        course_id: review.courseId,
+        term_id: term.id,
+        year_term: term.yearTerm,
+        attendance_strictness: review.dimensions.attendanceStrictness,
+        grading_leniency: review.dimensions.gradingLeniency,
+        effort_matters: review.dimensions.effortMatters,
+        workload_difficulty: review.dimensions.workloadDifficulty,
+        approachability: review.dimensions.approachability,
+        teaching_quality: review.dimensions.teachingQuality,
+        comment: review.comment?.trim() || null,
+        status: 'pending',
+        reject_reason: null,
+      };
+
+      if (cacheApiEnabled) {
+        await cacheRequest(`/reviews/${encodeURIComponent(review.id)}`, {
+          method: 'PATCH', authenticated: true, body: updatePayload,
+        });
+      } else {
+        const { error } = await supabase.from('reviews').update(updatePayload)
+          .eq('id', review.id).eq('user_id', sessionUser.id);
+        if (error) return { success: false, message: error.message };
+      }
+      return { success: true };
+    } catch (err: any) {
+      return { success: false, message: err.message };
+    }
   },
 
-  getLocalCheckInDate(userId: string): string | null {
-    return getLocalItem<string | null>(`last_checkin_${userId}`, null);
+  async resolveReviewTerm(termId?: string, yearTerm?: string): Promise<Term | null> {
+    if (!supabase) return null;
+    let query = supabase.from('terms').select('*');
+    query = termId ? query.eq('id', termId) : query.eq('year_term', yearTerm || '');
+    const { data, error } = await query.maybeSingle();
+    if (error) throw new Error(error.message);
+    if (!data) return null;
+    return {
+      id: data.id,
+      code: data.code,
+      yearTerm: data.year_term,
+      isCurrent: Boolean(data.is_current),
+      createdAt: data.created_at,
+    };
   },
 
-  saveLocalCheckInDate(userId: string, dateStr: string): void {
-    setLocalItem(`last_checkin_${userId}`, dateStr);
+  async findOffering(teacherId: string, courseId: string, termId: string): Promise<boolean> {
+    if (!supabase) return false;
+    const { data, error } = await supabase.from('course_offerings').select('id')
+      .eq('teacher_id', teacherId).eq('course_id', courseId).eq('term_id', termId).maybeSingle();
+    if (error) throw new Error(error.message);
+    return Boolean(data);
   },
 
-  async hasUserCheckedInToday(userId: string): Promise<boolean> {
-    const data = await this.getUserPoints(userId);
-    return data.hasCheckedInToday === true;
+  async approveReview(reviewId: string): Promise<{ success: boolean; message?: string }> {
+    if (!isSupabaseConfigured || !supabase) return { success: false, message: '数据库未连接，无法审核' };
+    try {
+      const { data, error } = cacheApiEnabled
+        ? { data: await cacheRequest<any>(`/reviews/${encodeURIComponent(reviewId)}/approve`, { method: 'POST', authenticated: true }), error: null }
+        : await supabase.rpc('approve_review', { p_review_id: reviewId });
+      if (error || data?.success !== true) {
+        return { success: false, message: error?.message || data?.message || '审核未完成，请刷新后重试' };
+      }
+      return { success: true, message: data.message || '评价已通过审核' };
+    } catch (err: any) {
+      return { success: false, message: err?.message || '审核结果无法确认，请刷新后重试' };
+    }
   },
 
-  /**
-   * Execute Daily Check-in via Supabase Database Function `handle_daily_checkin`
-   * Only a confirmed server response updates the local cache.
-   */
+  async rejectReview(reviewId: string, reason: string): Promise<{ success: boolean; message?: string }> {
+    if (!isSupabaseConfigured || !supabase) return { success: false, message: '数据库未连接，无法审核' };
+    try {
+      const { data, error } = cacheApiEnabled
+        ? {
+          data: await cacheRequest<any>(`/reviews/${encodeURIComponent(reviewId)}/reject`, {
+            method: 'POST', authenticated: true,
+            body: { reason: reason || '内容不符合审核规范，请修改后重新提交' },
+          }), error: null,
+        }
+        : await supabase.rpc('reject_review', {
+          p_review_id: reviewId,
+          p_reason: reason || '内容不符合审核规范，请修改后重新提交',
+        });
+      if (error || data?.success !== true) {
+        return { success: false, message: error?.message || data?.message || '驳回未完成，请刷新后重试' };
+      }
+      return { success: true, message: data.message || '评价已被驳回' };
+    } catch (err: any) {
+      return { success: false, message: err?.message || '驳回结果无法确认，请刷新后重试' };
+    }
+  },
+
+  async updateReviewStatus(
+    reviewId: string,
+    status: 'approved' | 'rejected',
+    rejectionReason?: string,
+  ): Promise<boolean> {
+    const result = status === 'approved'
+      ? await this.approveReview(reviewId)
+      : await this.rejectReview(reviewId, rejectionReason || '未说明驳回理由');
+    return result.success;
+  },
+
+  async deleteReview(reviewId: string): Promise<boolean> {
+    if (!isSupabaseConfigured || !supabase) return false;
+    try {
+      if (cacheApiEnabled) {
+        await cacheRequest(`/reviews/${encodeURIComponent(reviewId)}`, { method: 'DELETE', authenticated: true });
+        return true;
+      }
+      const { error, count } = await supabase.from('reviews')
+        .delete({ count: 'exact' }).eq('id', reviewId);
+      return !error && count === 1;
+    } catch (err) {
+      console.warn('[Supabase] 删除评价失败:', err);
+      return false;
+    }
+  },
+
+  subscribeToReviews(onChange: () => void): { unsubscribe: () => void } {
+    if (!isSupabaseConfigured || !supabase) return { unsubscribe: () => {} };
+    try {
+      const channel = supabase
+        .channel('reviews_realtime_' + Date.now())
+        .on('postgres_changes', { event: '*', schema: 'public', table: 'reviews' }, () => onChange())
+        .subscribe();
+      return {
+        unsubscribe: () => {
+          try { supabase?.removeChannel(channel); } catch (e) { console.warn('[Supabase Realtime]', e); }
+        },
+      };
+    } catch (e) {
+      console.warn('[Supabase Realtime] 订阅失败:', e);
+      return { unsubscribe: () => {} };
+    }
+  },
+
+  async getUserPoints(userId: string): Promise<{
+    points: number; transactions: UserPointTransaction[]; hasCheckedInToday: boolean;
+  }> {
+    const db = requireDatabase();
+    const { data: auth, error: authError } = await db.auth.getUser();
+    if (authError || !auth.user || auth.user.id !== userId) throw new Error('请重新登录后查看积分');
+    const [userRes, txRes] = await Promise.all([
+      db.from('user_profiles').select('points, last_checkin_date').eq('id', userId).maybeSingle(),
+      db.from('point_transactions').select('*').eq('user_id', userId).order('timestamp', { ascending: false }),
+    ]);
+    if (userRes.error) throw new Error(userRes.error.message);
+    if (txRes.error) throw new Error(txRes.error.message);
+    if (!userRes.data || !Number.isSafeInteger(userRes.data.points) || userRes.data.points < 0) {
+      throw new Error('未找到有效积分账户，请确认数据库初始化已完成');
+    }
+    const transactions: UserPointTransaction[] = (txRes.data || []).map((t: any) => ({
+      id: t.id,
+      actionCode: t.action_code,
+      // Old point rows store the label text. Re-map the known code so historical
+      // transactions do not keep exposing the retired brand wording.
+      action: t.action_code && DEFAULT_ACTION_LABELS[t.action_code]
+        ? DEFAULT_ACTION_LABELS[t.action_code]
+        : (t.action || '积分变动'),
+      amount: Number(t.amount),
+      timestamp: t.timestamp
+        ? new Date(t.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+        : '刚刚',
+      balanceAfter: Number(t.balance_after),
+      relatedReviewId: t.related_review_id || undefined,
+    }));
+    const checkinDate = userRes.data.last_checkin_date
+      ? String(userRes.data.last_checkin_date).slice(0, 10)
+      : null;
+    return {
+      points: userRes.data.points,
+      transactions,
+      hasCheckedInToday: checkinDate === this.getLocalDateString(),
+    };
+  },
+
   async handleDailyCheckin(userId: string): Promise<{
     success: boolean; points: number; alreadyCheckedIn: boolean; message?: string;
   }> {
@@ -407,665 +647,107 @@ export const supabaseService = {
     try {
       const { data: auth, error: authError } = await supabase.auth.getUser();
       if (authError || !auth.user || auth.user.id !== userId) return failure('请重新登录后签到');
-      // Never replace an uncertain RPC result with a client-side balance write.
       const { data, error } = await supabase.rpc('handle_daily_checkin');
       if (error) return failure(error.message || '签到失败，请稍后重试');
       const res = Array.isArray(data) ? data[0] : data;
       if (!res || !Number.isSafeInteger(res.points) || res.points < 0 || typeof res.already_checked_in !== 'boolean') {
         return failure('签到结果无法确认，请刷新积分后重试');
       }
-      const local = this.getLocalUserPoints(userId);
-      this.saveLocalUserPoints(userId, res.points, local?.transactions || []);
-      this.saveLocalCheckInDate(userId, res.checkin_date || this.getLocalDateString());
       return { success: true, points: res.points, alreadyCheckedIn: res.already_checked_in };
     } catch (err: any) {
       return failure(err?.message || '签到结果无法确认，请刷新积分后重试');
     }
   },
 
-  async recordCheckIn(userId: string, _added: number, _newBalance: number): Promise<boolean> {
-    const res = await this.handleDailyCheckin(userId);
-    return res.success;
-  },
-
-  /**
-   * Fetch all teachers from Supabase
-   * Aligned with new schema: joins colleges & course_offerings(courses, terms)
-   */
-  async getTeachers(): Promise<Teacher[] | null> {
-    if (!isSupabaseConfigured || !supabase) return null;
-    try {
-      let teachersData: any[] = [];
-      
-      const loadTeachers = (select: string) => readAllRows((from, to) => supabase!
-        .from('teachers')
-        .select(select, { count: from === 0 ? 'exact' : undefined })
-        .order('overall_score', { ascending: false, nullsFirst: false })
-        .order('id', { ascending: true })
-        .range(from, to));
-      // Try relational query first; restart all pages if joins are unavailable.
-      try {
-        teachersData = await loadTeachers(`
-          *,
-          colleges ( id, name ),
-          course_offerings (
-            course_id,
-            courses ( id, name ),
-            term_id,
-            terms ( id, year_term, is_current )
-          )
-        `);
-      } catch (error) {
-        console.warn('[Supabase] Relational teachers query note:', error);
-        teachersData = await loadTeachers('*');
-      }
-
-      if (!teachersData || teachersData.length === 0) return null;
-
-      // Transform snake_case columns & relation objects to camelCase TypeScript model
-      return teachersData.map(mapTeacherRow);
-    } catch (err) {
-      console.warn('[Supabase] Failed to connect to teachers table:', err);
-      return null;
-    }
-  },
-
-  /**
-   * Fetch reviews: Merges remote Supabase records with local user-submitted reviews
-   * Aligned with new schema: joins courses(id, name) and reads reject_reason
-   */
-  async getReviews(teacherId?: string, scope?: { userId?: string }): Promise<Review[] | null> {
-    let remoteReviews: Review[] = [];
-    let remoteLoaded = false;
-
-    if (isSupabaseConfigured && supabase) {
-      try {
-        const loadReviews = (select: string) => readAllRows((from, to) => {
-          let query = supabase!.from('reviews')
-            .select(select, { count: from === 0 ? 'exact' : undefined })
-            .order('created_at', { ascending: false })
-            .order('id', { ascending: true });
-          if (teacherId) query = query.eq('teacher_id', teacherId);
-          if (scope?.userId) query = query.eq('user_id', scope.userId);
-          return query.range(from, to);
-        });
-        let data: any[];
-        try {
-          data = await loadReviews(REVIEW_SELECT);
-        } catch (error) {
-          console.warn('[Supabase] getReviews relational query warning:', error);
-          // The fallback must retain both the teacher filter and pagination.
-          data = await loadReviews('*');
-        }
-        remoteReviews = data.map(mapReviewRow);
-        remoteLoaded = true;
-      } catch (err) {
-        console.warn('[Supabase] Failed to fetch remote reviews:', err);
-      }
-    }
-
-    // Always include locally saved user reviews so they are never lost on reload
-    let localReviews = this.getLocalReviews();
-    if (teacherId) {
-      localReviews = localReviews.filter((r) => r.teacherId === teacherId);
-    }
-    if (scope?.userId) localReviews = localReviews.filter(r => r.userId === scope.userId);
-
-    // Merge deduplicated by id:
-    // Remote database (Supabase) is the single source of truth for moderation and audit status.
-    // Local reviews are only used to supplement newly submitted reviews that have not synced yet.
-    const reviewMap = new Map<string, Review>();
-    
-    // 1. Insert local reviews first
-    for (const r of localReviews) {
-      reviewMap.set(r.id, r);
-    }
-
-    // 2. Remote reviews take absolute precedence and overwrite local status
-    let hasLocalUpdates = false;
-    const allLocal = this.getLocalReviews();
-
-    for (const r of remoteReviews) {
-      reviewMap.set(r.id, r);
-
-      // If this review exists locally, sync the remote audit status & likes back to localStorage
-      const localIdx = allLocal.findIndex((lr) => lr.id === r.id);
-      if (localIdx >= 0) {
-        if (
-          allLocal[localIdx].status !== r.status ||
-          allLocal[localIdx].likes !== r.likes ||
-          allLocal[localIdx].rejectionReason !== r.rejectionReason
-        ) {
-          allLocal[localIdx] = {
-            ...allLocal[localIdx],
-            status: r.status,
-            rejectionReason: r.rejectionReason,
-            likes: r.likes,
-          };
-          hasLocalUpdates = true;
-        }
-      }
-    }
-
-    if (hasLocalUpdates) {
-      setLocalItem('submitted_reviews', allLocal);
-    }
-
-    const merged = Array.from(reviewMap.values()).map(normalizeRatingRecord);
-    return merged.length > 0 || (scope?.userId && remoteLoaded) ? merged : null;
-  },
-
-  /**
-   * Submit a new teacher review to Supabase & Local Cache
-   * Aligned with new schema & security policies:
-   * - Requires course_id (NOT NULL, FK -> courses)
-   * - Requires authenticated user (user_id = auth.uid())
-   * - Forces status = 'pending'
-   * - Does NOT write course_name or user_email (removed from DB)
-   * - Does NOT write to teachers table (read-only for normal users)
-   */
-  async submitReview(review: Review): Promise<{ success: boolean; message?: string }> {
-    // 1. If Supabase is not configured, fall back to purely local storage
-    if (!isSupabaseConfigured || !supabase) {
-      this.saveLocalReview(review);
-      return { success: true };
-    }
-
-    try {
-      let validCreatedAt: string = new Date().toISOString();
-      if (review.createdAt && !isNaN(Date.parse(review.createdAt))) {
-        validCreatedAt = new Date(review.createdAt).toISOString();
-      }
-
-      // Security Policy Requirement: user must be authenticated, user_id = auth.uid()
-      const sessionUser = (await supabase.auth.getUser())?.data?.user;
-      const currentUserId = sessionUser?.id || review.userId;
-
-      if (!sessionUser || !currentUserId) {
-        return {
-          success: false,
-          message: '提交未通过安全校验：请先登录您的西南交大账号后再提交评教。',
-        };
-      }
-
-      // Resolve valid course_id
-      let resolvedCourseId = review.courseId;
-      if (!resolvedCourseId && review.courseName) {
-        const found = await this.findCourseByName(review.courseName);
-        if (found) resolvedCourseId = found.id;
-      }
-      if (!resolvedCourseId) {
-        const allCourses = await this.getCourses();
-        if (allCourses && allCourses.length > 0) {
-          resolvedCourseId = allCourses[0].id;
-        }
-      }
-
-      if (!resolvedCourseId) {
-        return {
-          success: false,
-          message: '提交失败：未匹配到有效的课程记录，请选择一门授课课程。',
-        };
-      }
-
-      const insertPayload: any = {
-        rating_version: RATING_VERSION,
-        id: review.id,
-        teacher_id: review.teacherId,
-        course_id: resolvedCourseId,
-        year_term: review.yearTerm,
-        attendance_strictness: review.dimensions.attendanceStrictness,
-        grading_leniency: review.dimensions.gradingLeniency,
-        effort_matters: review.dimensions.effortMatters,
-        workload_difficulty: review.dimensions.workloadDifficulty,
-        approachability: review.dimensions.approachability,
-        teaching_quality: review.dimensions.teachingQuality,
-        comment: review.comment,
-        author_nickname: review.authorNickname,
-        user_id: currentUserId,
-        is_historical_migrated: false,
-        status: 'pending', // Strictly 'pending' per database RLS policy
-        created_at: validCreatedAt,
-        likes: 0,
-      };
-
-      const { error } = await supabase.from('reviews').insert(insertPayload);
-
-      if (error) {
-        console.error('[Supabase] Error submitting review to remote:', error.message);
-        let userMsg = error.message;
-        if (error.code === '42501' || userMsg.includes('row-level security')) {
-          userMsg = '云端数据库安全策略拒绝写入，请确认已在 Supabase 运行最新的 reviews 权限策略且处于登录状态。';
-        }
-        return { success: false, message: userMsg };
-      }
-
-      // Save locally only after cloud accepted it
-      this.saveLocalReview(review);
-      return { success: true };
-    } catch (err: any) {
-      console.warn('[Supabase] Review remote submission exception:', err);
-      return { success: false, message: err?.message || '网络连接异常，未能存入云端' };
-    }
-  },
-
-  /**
-   * Update local review status in browser storage
-   */
-  updateLocalReviewStatus(reviewId: string, status: 'approved' | 'rejected', rejectionReason?: string) {
-    const local = this.getLocalReviews();
-    const updated = local.map((r) =>
-      r.id === reviewId ? { ...r, status, rejectionReason: status === 'rejected' ? rejectionReason : undefined } : r
-    );
-    try {
-      setLocalItem('submitted_reviews', updated);
-      localStorage.removeItem('swjtu_local_reviews');
-    } catch (e) {
-      console.warn('Failed to update review in local storage:', e);
-    }
-  },
-
-  /**
-   * Approve a review
-   * Uses the database RPC `approve_review` exclusively.
-   * RPC failure is returned to the caller without any direct table writes.
-   */
-  async approveReview(reviewId: string): Promise<{ success: boolean; message?: string }> {
-    if (!isSupabaseConfigured || !supabase) return { success: false, message: '数据库未连接，无法审核' };
-    try {
-      // Authorization, status transition and reward are one database transaction.
-      const { data, error } = cacheApiEnabled
-        ? { data: await cacheRequest<any>(`/reviews/${encodeURIComponent(reviewId)}/approve`, { method: 'POST', authenticated: true }), error: null }
-        : await supabase.rpc('approve_review', { p_review_id: reviewId });
-      if (error || data?.success !== true) {
-        return { success: false, message: error?.message || data?.message || '审核未完成，请刷新后重试' };
-      }
-      this.updateLocalReviewStatus(reviewId, 'approved');
-      return { success: true, message: data.message || '评价已通过审核' };
-    } catch (err: any) {
-      return { success: false, message: err?.message || '审核结果无法确认，请刷新后重试' };
-    }
-  },
-
-  async getMyLikedReviewIds(): Promise<string[]> {
-    if (!isSupabaseConfigured || !supabase) return [];
-    const { data: auth, error: authError } = await supabase.auth.getUser();
-    if (authError || !auth.user) return [];
-    const ids: string[] = [];
-    const pageSize = 500;
-    for (let offset = 0; ; offset += pageSize) {
-      const { data, error } = await supabase.from('review_likes').select('review_id')
-        .eq('user_id', auth.user.id).order('review_id').range(offset, offset + pageSize - 1);
-      if (error) throw new Error('点赞状态读取失败，请刷新后重试');
-      ids.push(...(data || []).map(row => row.review_id));
-      if (!data || data.length < pageSize) return ids;
-    }
-  },
-
-  async setReviewLike(reviewId: string, liked: boolean): Promise<{ likes: number; liked: boolean }> {
-    if (!isSupabaseConfigured || !supabase) throw new Error('数据库未连接，点赞未保存');
-    const { data: auth, error: authError } = await supabase.auth.getUser();
-    if (authError || !auth.user) throw new Error('请先登录后点赞');
-    const { data, error } = cacheApiEnabled
-      ? { data: await cacheRequest<any>(`/reviews/${encodeURIComponent(reviewId)}/like`, { method: 'POST', authenticated: true, body: { liked } }), error: null }
-      : await supabase.rpc('set_review_like', { p_review_id: reviewId, p_liked: liked });
-    if (error) throw new Error(error.message);
-    if (!data || !Number.isSafeInteger(data.likes) || data.likes < 0 || typeof data.liked !== 'boolean') {
-      throw new Error('点赞结果无法确认，请刷新后重试');
-    }
-    return data;
-  },
-
-  /**
-   * Reject a review
-   * Calls the authorized reject_review RPC and fails closed.
-   */
-  async rejectReview(reviewId: string, reason: string): Promise<{ success: boolean; message?: string }> {
-    if (!isSupabaseConfigured || !supabase) return { success: false, message: '数据库未连接，无法审核' };
-    try {
-      const { data, error } = cacheApiEnabled
-        ? { data: await cacheRequest<any>(`/reviews/${encodeURIComponent(reviewId)}/reject`, {
-          method: 'POST', authenticated: true, body: { reason: reason || '内容不符合审核规范，请修改后重新提交' },
-        }), error: null }
-        : await supabase.rpc('reject_review', { p_review_id: reviewId, p_reason: reason || '内容不符合审核规范，请修改后重新提交' });
-      if (error || data?.success !== true) {
-        return { success: false, message: error?.message || data?.message || '驳回未完成，请刷新后重试' };
-      }
-      this.updateLocalReviewStatus(reviewId, 'rejected', reason);
-      return { success: true, message: data.message || '评价已被驳回' };
-    } catch (err: any) {
-      return { success: false, message: err?.message || '驳回结果无法确认，请刷新后重试' };
-    }
-  },
-
-  /**
-   * Re-edit user's own review (pending or rejected -> reset to pending for re-audit)
-   * Aligned with new schema: updates course_id and resets reject_reason to null
-   */
-  async updateMyReview(review: Review): Promise<{ success: boolean; message?: string }> {
-    this.saveLocalReview({ ...review, status: 'pending', rejectReason: undefined, rejectionReason: undefined });
-
-    if (isSupabaseConfigured && supabase) {
-      try {
-        const sessionUser = (await supabase.auth.getUser())?.data?.user;
-        if (!sessionUser) {
-          return { success: false, message: '请先登录' };
-        }
-
-        let resolvedCourseId = review.courseId;
-        if (!resolvedCourseId && review.courseName) {
-          const found = await this.findCourseByName(review.courseName);
-          if (found) resolvedCourseId = found.id;
-        }
-
-        const updatePayload: any = {
-          rating_version: RATING_VERSION,
-          year_term: review.yearTerm,
-          attendance_strictness: review.dimensions.attendanceStrictness,
-          grading_leniency: review.dimensions.gradingLeniency,
-          effort_matters: review.dimensions.effortMatters,
-          workload_difficulty: review.dimensions.workloadDifficulty,
-          approachability: review.dimensions.approachability,
-          teaching_quality: review.dimensions.teachingQuality,
-          comment: review.comment,
-          status: 'pending',
-          reject_reason: null,
-        };
-
-        if (resolvedCourseId) {
-          updatePayload.course_id = resolvedCourseId;
-        }
-
-        if (cacheApiEnabled) {
-          await cacheRequest(`/reviews/${encodeURIComponent(review.id)}`, {
-            method: 'PATCH', authenticated: true, body: updatePayload,
-          });
-        } else {
-          const { error } = await supabase.from('reviews').update(updatePayload).eq('id', review.id).eq('user_id', sessionUser.id);
-          if (error) {
-            console.error('[Supabase] updateMyReview error:', error);
-            return { success: false, message: error.message };
-          }
-        }
-        return { success: true };
-      } catch (err: any) {
-        return { success: false, message: err.message };
-      }
-    }
-    return { success: true };
-  },
-
-  /**
-   * Backward-compatible status updater: routes to RPC functions
-   */
-  async updateReviewStatus(
-    reviewId: string,
-    status: 'approved' | 'rejected',
-    rejectionReason?: string,
-    _authorUserId?: string
-  ): Promise<boolean> {
-    if (status === 'approved') {
-      const res = await this.approveReview(reviewId);
-      return res.success;
-    } else {
-      const res = await this.rejectReview(reviewId, rejectionReason || '未说明驳回理由');
-      return res.success;
-    }
-  },
-
-  /**
-   * Delete a review (e.g., author deletes rejected review or admin removes)
-   */
-  async deleteReview(reviewId: string): Promise<boolean> {
-    if (isSupabaseConfigured && supabase) {
-      try {
-        if (cacheApiEnabled) {
-          await cacheRequest(`/reviews/${encodeURIComponent(reviewId)}`, { method: 'DELETE', authenticated: true });
-        } else {
-          const { data, error } = await supabase.from('reviews').delete().eq('id', reviewId).select('id');
-          if (error || data?.length !== 1) return false;
-        }
-      } catch (err) {
-        console.warn('[Supabase] Failed to delete review from remote:', err);
-        return false;
-      }
-    }
-    // 1. Remove from local cache
-    const local = this.getLocalReviews();
-    const filtered = local.filter((r) => r.id !== reviewId);
-    try {
-      setLocalItem('submitted_reviews', filtered);
-      localStorage.removeItem('swjtu_local_reviews');
-    } catch (e) {
-      console.warn('Failed to delete review from local storage:', e);
-    }
-
-    return true;
-  },
-
-  /**
-   * Subscribe to real-time changes on the reviews table
-   */
-  subscribeToReviews(onChange: () => void): { unsubscribe: () => void } {
-    if (!isSupabaseConfigured || !supabase) {
-      return { unsubscribe: () => {} };
-    }
-
-    try {
-      const channel = supabase
-        .channel('reviews_realtime_' + Date.now())
-        .on(
-          'postgres_changes',
-          { event: '*', schema: 'public', table: 'reviews' },
-          () => {
-            onChange();
-          }
-        )
-        .subscribe();
-
-      return {
-        unsubscribe: () => {
-          try {
-            supabase?.removeChannel(channel);
-          } catch (e) {
-            console.warn('[Supabase Realtime] Error removing channel:', e);
-          }
-        },
-      };
-    } catch (e) {
-      console.warn('[Supabase Realtime] Failed to subscribe to reviews:', e);
-      return { unsubscribe: () => {} };
-    }
-  },
-
-  /**
-   * Read the authenticated user's authoritative balance and ledger.
-   */
-  async getUserPoints(userId: string): Promise<{
-    points: number; transactions: UserPointTransaction[]; hasCheckedInToday: boolean;
-  }> {
-    if (!isSupabaseConfigured || !supabase) throw new Error('数据库未连接，无法确认积分');
-    const { data: auth, error: authError } = await supabase.auth.getUser();
-    if (authError || !auth.user || auth.user.id !== userId) throw new Error('请重新登录后查看积分');
-    // No cached balance may override a successful authoritative read, including zero.
-    const [userRes, txRes] = await Promise.all([
-      supabase.from('user_profiles').select('points, last_checkin_date').eq('id', userId).maybeSingle(),
-      supabase.from('point_transactions').select('*').eq('user_id', userId).order('timestamp', { ascending: false }),
-    ]);
-    if (userRes.error) throw new Error(userRes.error.message);
-    if (txRes.error) throw new Error(txRes.error.message);
-    if (!userRes.data || !Number.isSafeInteger(userRes.data.points) || userRes.data.points < 0) {
-      throw new Error('未找到有效积分账户，请确认数据库迁移已完成');
-    }
-    const transactions: UserPointTransaction[] = (txRes.data || []).map((t: any) => ({
-      id: t.id, actionCode: t.action_code,
-      action: t.action || DEFAULT_ACTION_LABELS[t.action_code] || '积分变动',
-      amount: Number(t.amount),
-      timestamp: t.timestamp ? new Date(t.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '刚刚',
-      balanceAfter: Number(t.balance_after), relatedReviewId: t.related_review_id || undefined,
-    }));
-    const checkinDate = userRes.data.last_checkin_date ? String(userRes.data.last_checkin_date).slice(0, 10) : null;
-    const result = { points: userRes.data.points, transactions, hasCheckedInToday: checkinDate === this.getLocalDateString() };
-    this.saveLocalUserPoints(userId, result.points, transactions);
-    this.saveLocalCheckInDate(userId, checkinDate || '');
-    return result;
-  },
-
-  /**
-   * Spend Points via Supabase Database Function `spend_points`
-   * Requirement 2: Unified RPC deduction function
-   */
-  async spendPoints(
-    actionCode: string, note?: string, _fallbackAmount: number = 2
-  ): Promise<{ success: boolean; newBalance: number; message?: string; error?: string }> {
-    const failure = (message: string) => ({ success: false, newBalance: 0, message, error: message });
-    if (!isSupabaseConfigured || !supabase) return failure('数据库未连接，未完成扣费');
-    try {
-      const { data: auth, error: authError } = await supabase.auth.getUser();
-      if (authError || !auth.user) return failure('请先登录后使用该功能');
-      const { data, error } = await supabase.rpc('spend_points', {
-        p_action_code: actionCode, p_note: note || undefined,
-      });
-      if (error) return failure(error.message || '扣除积分失败');
-      if (!Number.isSafeInteger(data) || data < 0) return failure('扣费结果无法确认，请刷新积分后重试');
-      const local = this.getLocalUserPoints(auth.user.id);
-      this.saveLocalUserPoints(auth.user.id, data, local?.transactions || []);
-      return { success: true, newBalance: data };
-    } catch (err: any) {
-      return failure(err?.message || '扣费结果无法确认，请刷新积分后重试');
-    }
-  },
-
-  /**
-   * Supabase Auth: User Sign Up with Email & Password
-   */
   async signUp(email: string, password: string, metadata?: { nickname?: string; college?: string; campus?: string }) {
-    if (!isSupabaseConfigured || !supabase) {
-      throw new Error('Supabase 未配置或密钥未激活');
-    }
-    const { data, error } = await supabase.auth.signUp({
+    const db = requireDatabase();
+    const { data, error } = await db.auth.signUp({
       email,
       password,
       options: {
         data: {
-          nickname: metadata?.nickname || '交大学子',
-          college: metadata?.college || '计算机与人工智能学院',
-          campus: normalizeCampus(metadata?.campus) || '犀浦校区',
+          nickname: metadata?.nickname || '石大学子',
+          ...(metadata?.college ? { college: metadata.college } : {}),
+          ...(metadata?.campus ? { campus: metadata.campus } : {}),
         },
       },
     });
-
-    if (error) {
-      throw error;
-    }
-
-    // Critical: Supabase anti-enumeration protection returns a user with empty identities[] if email is already registered
+    if (error) throw error;
     const isAlreadyRegistered = Boolean(
-      data.user && Array.isArray(data.user.identities) && data.user.identities.length === 0
+      data.user && Array.isArray(data.user.identities) && data.user.identities.length === 0,
     );
-    if (isAlreadyRegistered) {
-      throw new Error('User already registered');
-    }
-
-    // Ensure user_profile entry and 100 points are created immediately
-    if (data.user) {
-      await this.ensureUserProfile(data.user.id, data.user.email || email);
-    }
-
+    if (isAlreadyRegistered) throw new Error('User already registered');
     return data;
   },
 
-  /**
-   * Supabase Auth: Send Password Reset Email
-   */
   async resetPassword(email: string) {
-    if (!isSupabaseConfigured || !supabase) {
-      throw new Error('Supabase 未配置或密钥未激活');
-    }
-    const { data, error } = await supabase.auth.resetPasswordForEmail(email, {
+    const db = requireDatabase();
+    const { data, error } = await db.auth.resetPasswordForEmail(email, {
+      // Supabase appends its recovery token to this URL. The app must handle
+      // PASSWORD_RECOVERY and let the user set a new password before leaving.
       redirectTo: typeof window !== 'undefined' ? window.location.origin : undefined,
     });
-    if (error) {
-      throw error;
+    if (error) throw error;
+    return data;
+  },
+
+  async updatePassword(password: string) {
+    const db = requireDatabase();
+    if (!password || password.length < 6) throw new Error('密码长度不能少于 6 位');
+    const { data, error } = await db.auth.updateUser({ password });
+    if (error) throw error;
+    // Drop the recovery token fragment after a successful save. Password update
+    // must not be reported as failed just because history rewriting is blocked.
+    try {
+      if (typeof window !== 'undefined' && window.location.hash) {
+        window.history.replaceState(null, '', window.location.pathname + window.location.search);
+      }
+    } catch {
+      // Ignore history restrictions; the recovery session is already consumed.
     }
     return data;
   },
 
-  /**
-   * Supabase Auth: Resend Verification Email
-   */
+  hasRecoveryParams() {
+    if (typeof window === 'undefined') return false;
+    return window.location.hash.includes('type=recovery')
+      || new URLSearchParams(window.location.search).get('type') === 'recovery';
+  },
+
   async resendVerificationEmail(email: string) {
-    if (!isSupabaseConfigured || !supabase) {
-      throw new Error('Supabase 未配置或密钥未激活');
-    }
-    const { data, error } = await supabase.auth.resend({
-      type: 'signup',
-      email,
-    });
-    if (error) {
-      throw error;
-    }
+    const db = requireDatabase();
+    const { data, error } = await db.auth.resend({ type: 'signup', email });
+    if (error) throw error;
     return data;
   },
 
-  /**
-   * Supabase Auth: User Sign In with Email & Password
-   */
   async signIn(email: string, password: string) {
-    if (!isSupabaseConfigured || !supabase) {
-      throw new Error('Supabase 未配置或密钥未激活');
-    }
-    const { data, error } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    });
-
-    if (error) {
-      throw error;
-    }
-
-    if (data.user) {
-      await this.ensureUserProfile(data.user.id, data.user.email || email);
-    }
-
+    const db = requireDatabase();
+    const { data, error } = await db.auth.signInWithPassword({ email, password });
+    if (error) throw error;
     return data;
   },
 
-  /**
-   * Supabase Auth: Sign Out
-   */
   async signOut() {
     if (!isSupabaseConfigured || !supabase) return;
     const { error } = await supabase.auth.signOut();
-    if (error) {
-      console.warn('[Supabase] Sign out error:', error.message);
-    }
+    if (error) console.warn('[Supabase] 退出登录失败:', error.message);
   },
 
-  /**
-   * Get current auth user & session
-   */
   async getCurrentUser() {
     if (!isSupabaseConfigured || !supabase) return null;
     try {
       const { data: { user }, error } = await supabase.auth.getUser();
-      if (error || !user) return null;
-      return user;
+      return error || !user ? null : user;
     } catch {
       return null;
     }
   },
 
-  /**
-   * Ensure user profile exists (managed by DB trigger on auth.users automatically)
-   */
   async ensureUserProfile(_userId: string, _email: string) {
     // Created transactionally by the auth.users trigger; never invent a local balance.
   },
 
-  /**
-   * Subscribe to auth state changes
-   */
   onAuthStateChange(callback: (event: string, session: any) => void) {
     if (!isSupabaseConfigured || !supabase) {
       return { data: { subscription: { unsubscribe: () => {} } } };
@@ -1073,13 +755,9 @@ export const supabaseService = {
     return supabase.auth.onAuthStateChange(callback);
   },
 
-  /**
-   * Check whether a user email is an authorized administrator dynamically from Supabase database
-   */
   async checkIsAdmin(_email?: string, _userMetadata?: any): Promise<{ isAdmin: boolean; role?: string; nickname?: string }> {
     if (!isSupabaseConfigured || !supabase) return { isAdmin: false };
     try {
-      // The server derives identity from auth.uid(), never from a supplied email or role.
       const { data, error } = await supabase.rpc('get_my_admin_status');
       if (error || data?.is_admin !== true || !['super_admin', 'admin', 'moderator'].includes(data.role)) {
         return { isAdmin: false };
@@ -1090,165 +768,72 @@ export const supabaseService = {
     }
   },
 
-  /**
-   * Get all admin users from database
-   */
   async getAdminList(): Promise<Array<{ id: string; email: string; role: string; nickname: string; is_active: boolean; created_at: string }>> {
-    if (!isSupabaseConfigured || !supabase) return [];
-    const { data, error } = await supabase.from('admin_users').select('*').order('created_at', { ascending: false });
+    const db = requireDatabase();
+    const { data, error } = await db.from('admin_users').select('*').order('created_at', { ascending: false });
     if (error) throw new Error(error.message);
     return data || [];
   },
 
-  /**
-   * Add or update an administrator in the database
-   */
-  async addAdminUser(email: string, role: string = 'admin', nickname: string = '评教审核员'): Promise<boolean> {
+  async addAdminUser(email: string, role: string = 'admin', nickname: string = '反馈审核员'): Promise<boolean> {
     if (!email || !isSupabaseConfigured || !supabase || !['super_admin', 'admin', 'moderator'].includes(role)) return false;
     try {
       const { data, error } = await supabase.from('admin_users').upsert({
         email: email.trim().toLowerCase(), role, nickname, is_active: true,
       }, { onConflict: 'email' }).select('id');
       return !error && data?.length === 1;
-    } catch { return false; }
+    } catch {
+      return false;
+    }
   },
 
-  /**
-   * Toggle or remove an administrator
-   */
   async toggleAdminStatus(email: string, isActive: boolean): Promise<boolean> {
     if (!email || !isSupabaseConfigured || !supabase) return false;
     try {
       const { data, error } = await supabase.from('admin_users').update({ is_active: isActive })
         .eq('email', email.trim().toLowerCase()).select('id');
       return !error && data?.length === 1;
-    } catch { return false; }
-  },
-
-  /**
-   * Fetch standardized colleges list from Supabase `colleges` table
-   * Requirement 7: college_id reference table
-   */
-  async getColleges(): Promise<Array<{ id: string; name: string; code?: string }> | null> {
-    if (!isSupabaseConfigured || !supabase) return null;
-    try {
-      const { data, error } = await supabase
-        .from('colleges')
-        .select('*')
-        .order('name');
-      if (error) {
-        console.warn('[Supabase] getColleges note:', error.message);
-        return null;
-      }
-      return data;
-    } catch (err) {
-      console.warn('[Supabase] getColleges exception:', err);
-      return null;
+    } catch {
+      return false;
     }
   },
 
-  /**
-   * Fetch standardized courses from Supabase `courses` table
-   * New Database Schema: courses reference table (id uuid, name text, college_id uuid)
-   */
-  async getCourses(collegeId?: string): Promise<Course[]> {
-    if (isSupabaseConfigured && supabase) {
-      try {
-        const data = await readAllRows((from, to) => {
-          let query = supabase!.from('courses').select('*', { count: from === 0 ? 'exact' : undefined })
-            .order('name').order('id', { ascending: true });
-          if (collegeId && collegeId !== 'all') query = query.eq('college_id', collegeId);
-          return query.range(from, to);
-        });
-        if (data.length > 0) {
-          return data.map((c: any) => ({
-            id: c.id,
-            name: c.name,
-            collegeId: c.college_id,
-            createdAt: c.created_at,
-          }));
-        }
-      } catch (err) {
-        console.warn('[Supabase] getCourses exception:', err);
-      }
+  async getMyLikedReviewIds(): Promise<string[]> {
+    const db = requireDatabase();
+    const { data: auth, error: authError } = await db.auth.getUser();
+    if (authError || !auth.user) return [];
+    const ids: string[] = [];
+    const pageSize = 500;
+    for (let offset = 0; ; offset += pageSize) {
+      const { data, error } = await db.from('review_likes').select('review_id')
+        .eq('user_id', auth.user.id).order('review_id').range(offset, offset + pageSize - 1);
+      if (error) throw new Error('点赞状态读取失败，请刷新后重试');
+      ids.push(...(data || []).map((row: any) => row.review_id));
+      if (!data || data.length < pageSize) return ids;
     }
-
-    // Standard fallback courses
-    return POPULAR_COURSES.map((name, idx) => ({
-      id: `course_seed_${idx + 1}`,
-      name,
-    }));
   },
 
-  /**
-   * Find course by exact or fuzzy name match
-   */
-  async findCourseByName(name: string): Promise<Course | null> {
-    if (!name) return null;
-    const courses = await this.getCourses();
-    const exact = courses.find((c) => c.name.trim().toLowerCase() === name.trim().toLowerCase());
-    if (exact) return exact;
-    const fuzzy = courses.find((c) => c.name.includes(name) || name.includes(c.name));
-    return fuzzy || null;
+  async setReviewLike(reviewId: string, liked: boolean): Promise<{ likes: number; liked: boolean }> {
+    const db = requireDatabase();
+    const { data: auth, error: authError } = await db.auth.getUser();
+    if (authError || !auth.user) throw new Error('请先登录后点赞');
+    const { data, error } = cacheApiEnabled
+      ? {
+        data: await cacheRequest<any>(`/reviews/${encodeURIComponent(reviewId)}/like`, {
+          method: 'POST', authenticated: true, body: { liked },
+        }), error: null,
+      }
+      : await db.rpc('set_review_like', { p_review_id: reviewId, p_liked: liked });
+    if (error) throw new Error(error.message);
+    if (!data || !Number.isSafeInteger(data.likes) || data.likes < 0 || typeof data.liked !== 'boolean') {
+      throw new Error('点赞结果无法确认，请刷新后重试');
+    }
+    return data;
   },
 
-  /**
-   * Fetch terms list from Supabase `terms` table
-   */
-  async getTerms(): Promise<Term[]> {
-    if (isSupabaseConfigured && supabase) {
-      try {
-        const { data, error } = await supabase
-          .from('terms')
-          .select('*')
-          .order('is_current', { ascending: false });
-        if (!error && data && data.length > 0) {
-          return data.map((t: any) => ({
-            id: t.id,
-            yearTerm: t.year_term,
-            isCurrent: Boolean(t.is_current),
-            createdAt: t.created_at,
-          }));
-        }
-      } catch (err) {
-        console.warn('[Supabase] getTerms exception:', err);
-      }
-    }
-    return [
-      { id: 'term_current', yearTerm: '2024-2025第1学期', isCurrent: true },
-      { id: 'term_prev_1', yearTerm: '2023-2024第2学期', isCurrent: false },
-      { id: 'term_prev_2', yearTerm: '2023-2024第1学期', isCurrent: false },
-    ];
-  },
-
-  /**
-   * Fetch point rules from Supabase `point_rules` table
-   */
-  async getPointRules(): Promise<PointRule[]> {
-    if (isSupabaseConfigured && supabase) {
-      try {
-        const { data, error } = await supabase
-          .from('point_rules')
-          .select('*')
-          .order('points_delta', { ascending: false });
-        if (!error && data && data.length > 0) {
-          return data.map((r: any) => ({
-            actionCode: r.action_code,
-            label: r.label,
-            pointsDelta: Number(r.points_delta),
-            isActive: Boolean(r.is_active),
-            description: r.description,
-          }));
-        }
-      } catch (err) {
-        console.warn('[Supabase] getPointRules exception:', err);
-      }
-    }
-    return Object.entries(DEFAULT_ACTION_LABELS).map(([actionCode, label]) => ({
-      actionCode,
-      label,
-      pointsDelta: actionCode.includes('checkin') ? 5 : actionCode.includes('review') ? 20 : -2,
-      isActive: true,
-    }));
+  getLocalDateString(): string {
+    return new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit',
+    }).format(new Date());
   },
 };

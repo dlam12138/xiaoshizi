@@ -1,0 +1,2878 @@
+{
+  "schemaVersion": 1,
+  "source": "https://cce.upc.edu.cn/2568/listm.htm",
+  "candidates": [
+    {
+      "name": "丁传芹",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a365302",
+      "title": "讲师",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365302/page.htm",
+      "blockCount": 1,
+      "courseCodes": [
+        "CHM121611030"
+      ],
+      "courseNames": [
+        "化学反应工程(双语)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "丁雪",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a365303",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365303/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM110911030",
+        "CHM111721020"
+      ],
+      "courseNames": [
+        "化工热力学",
+        "石油加工概论"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "严文娟",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19261-a369373",
+      "title": "副教授",
+      "department": "化学实验中心",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19261a369373/page.htm",
+      "blockCount": 3,
+      "courseCodes": [
+        "CHM310821010",
+        "CHM923631020"
+      ],
+      "courseNames": [
+        "低碳清洁能源与未来",
+        "实验室安全与环保"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "于剑峰",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369226",
+      "title": "讲师",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369226/page.htm",
+      "blockCount": 6,
+      "courseCodes": [
+        "SCC813111036",
+        "SCC830412100"
+      ],
+      "courseNames": [
+        "仪器分析",
+        "无机及分析化学实验(2-1)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "于筱溪",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a369215",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369215/page.htm",
+      "blockCount": 7,
+      "courseCodes": [
+        "CHM110412100",
+        "CHM111112201",
+        "CHM620311010"
+      ],
+      "courseNames": [
+        "化工原理(2-2)(双语)",
+        "工程伦理（全英文）",
+        "工程概论(2-1)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "于英民",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a369216",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369216/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM122111030"
+      ],
+      "courseNames": [
+        "环境工程原理"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "于道永",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369310",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369310/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM450711030"
+      ],
+      "courseNames": [
+        "碳捕集及转化原理"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "任中飞",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a449795",
+      "title": "特任副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2025/0102/c19257a449795/page.htm",
+      "blockCount": 5,
+      "courseCodes": [
+        "CHM325711021",
+        "CHM326121010",
+        "CHM360061020"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "物理性污染控制",
+        "碳生态工业"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "何化",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369292",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369292/page.htm",
+      "blockCount": 8,
+      "courseCodes": [
+        "CHM428941010",
+        "SCC810611021",
+        "SCC812421020",
+        "SCC830611020"
+      ],
+      "courseNames": [
+        "分析化学",
+        "分析化学实验",
+        "现代分析技术",
+        "生物信息学与人工智能"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "傅惠",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369218",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369218/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "SCC829611036"
+      ],
+      "courseNames": [
+        "结构化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "冯锡兰",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369221",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369221/page.htm",
+      "blockCount": 6,
+      "courseCodes": [
+        "SCC811711030",
+        "SCC830412100"
+      ],
+      "courseNames": [
+        "无机及分析化学",
+        "无机及分析化学实验(2-1)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "刘东",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a369249",
+      "title": "教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369249/page.htm",
+      "blockCount": 8,
+      "courseCodes": [
+        "CHM222211040",
+        "CHM223011010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "石油化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "刘义",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a382399",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0819/c19257a382399/page.htm",
+      "blockCount": 11,
+      "courseCodes": [
+        "CHM112011010",
+        "CHM310211020",
+        "CHM321711011",
+        "CHM358911030"
+      ],
+      "courseNames": [
+        "化工安全与环保",
+        "化工安全导论",
+        "化工防火与防爆",
+        "新生研讨课"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "刘会娥",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a365314",
+      "title": "教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365314/page.htm",
+      "blockCount": 7,
+      "courseCodes": [
+        "CHM110412100",
+        "CHM121611030",
+        "CHM620311010"
+      ],
+      "courseNames": [
+        "化学反应工程(双语)",
+        "工程伦理（全英文）",
+        "工程概论(2-1)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "刘其友",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a369281",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369281/page.htm",
+      "blockCount": 6,
+      "courseCodes": [
+        "CHM310721020",
+        "CHM323411020",
+        "SCC850311020"
+      ],
+      "courseNames": [
+        "大学化学",
+        "环境工程微生物学",
+        "生物化学基础"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "刘大鹏",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19260-a369353",
+      "title": "副教授",
+      "department": "化学实验中心",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19260a369353/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "SCC850111025",
+        "SCC850611035"
+      ],
+      "courseNames": [
+        "大学化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "刘子媛",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a365316",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365316/page.htm",
+      "blockCount": 3,
+      "courseCodes": [
+        "CHM111821020"
+      ],
+      "courseNames": [
+        "数据处理与实验设计"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "刘宾",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19259-a369333",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369333/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM124821010"
+      ],
+      "courseNames": [
+        "清洁能源技术"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "刘建国",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369296",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369296/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM310821010"
+      ],
+      "courseNames": [
+        "实验室安全与环保"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "刘振",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a365315",
+      "title": "教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365315/page.htm",
+      "blockCount": 5,
+      "courseCodes": [
+        "CHM111112200",
+        "CHM120121020",
+        "CHM120421010"
+      ],
+      "courseNames": [
+        "C1化学与化工",
+        "催化新材料与新型催化剂",
+        "化工原理(2-2)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "刘春爽",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a369279",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369279/page.htm",
+      "blockCount": 8,
+      "courseCodes": [
+        "CHM310721020",
+        "CHM352711010",
+        "SCC811711030",
+        "SCC830412100",
+        "SCC850111025"
+      ],
+      "courseNames": [
+        "大学化学",
+        "无机及分析化学",
+        "无机及分析化学实验(2-1)",
+        "环境生态修复技术",
+        "生物化学基础"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "刘欣梅",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a369210",
+      "title": "教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369210/page.htm",
+      "blockCount": 6,
+      "courseCodes": [
+        "CHM112011010",
+        "CHM157121020"
+      ],
+      "courseNames": [
+        "催化作用原理（双语）",
+        "新生研讨课"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "刘相",
+      "status": "official_list_without_profile",
+      "sourceId": null,
+      "title": "讲师",
+      "department": "化学工程系",
+      "profileUrl": null,
+      "blockCount": 6,
+      "courseCodes": [
+        "CHM111112100",
+        "CHM111112200",
+        "CHM121711035"
+      ],
+      "courseNames": [
+        "化学工程基础",
+        "化工原理(2-1)",
+        "化工原理(2-2)"
+      ],
+      "multiTeacherBlocks": 1,
+      "unresolvedReason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    },
+    {
+      "name": "刘芳",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a369280",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369280/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM325111030"
+      ],
+      "courseNames": [
+        "水污染控制工程"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "刘金河",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19068-a360952",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2015/0603/c19068a360952/page.htm",
+      "blockCount": 7,
+      "courseCodes": [
+        "SCC812212101"
+      ],
+      "courseNames": [
+        "物理化学(2-1)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "华琪",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a446495",
+      "title": "特任副教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2024/1122/c19256a446495/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM210121020"
+      ],
+      "courseNames": [
+        "精细化学品化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "卢玉坤",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369238",
+      "title": "教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369238/page.htm",
+      "blockCount": 3,
+      "courseCodes": [
+        "SCC821111010",
+        "SCC831612101"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "无机化学（2-1）"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "卢磊",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a369278",
+      "title": "讲师",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369278/page.htm",
+      "blockCount": 11,
+      "courseCodes": [
+        "CHM310112100",
+        "CHM310821010",
+        "CHM324821020",
+        "CHM325111030",
+        "CHM359641020",
+        "SCC850311020"
+      ],
+      "courseNames": [
+        "与地球共生-大学生环保入门",
+        "大学化学",
+        "实验室安全与环保",
+        "工程概论（2-1）",
+        "水污染控制工程",
+        "石油工业与环境保护概论"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "史德青",
+      "status": "no_official_profile",
+      "sourceId": null,
+      "title": null,
+      "department": null,
+      "profileUrl": null,
+      "blockCount": 1,
+      "courseCodes": [
+        "CHM121711035"
+      ],
+      "courseNames": [
+        "化学工程基础"
+      ],
+      "multiTeacherBlocks": 1,
+      "unresolvedReason": "no official profile URL found",
+      "needed": [
+        "官方教师详情页或教工号",
+        "教师人事归属学院",
+        "确认是否为本校在岗教师"
+      ]
+    },
+    {
+      "name": "叶天旭",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19067-a360859",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2021/1201/c19067a360859/page.htm",
+      "blockCount": 3,
+      "courseCodes": [
+        "SCC812212200"
+      ],
+      "courseNames": [
+        "物理化学(2-2)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "吕仁庆",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19260-a369354",
+      "title": "副教授",
+      "department": "化学实验中心",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19260a369354/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "SCC850111025"
+      ],
+      "courseNames": [
+        "大学化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "吴文婷",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a369261",
+      "title": "教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369261/page.htm",
+      "blockCount": 9,
+      "courseCodes": [
+        "CHM210121020",
+        "CHM221021020",
+        "CHM223011010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "精细化学品化学",
+        "精细化工工艺学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "吴萍萍",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a369260",
+      "title": "副教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369260/page.htm",
+      "blockCount": 3,
+      "courseCodes": [
+        "CHM210221020",
+        "CHM223231010"
+      ],
+      "courseNames": [
+        "绿色化学与化工导论",
+        "食品添加剂与食品安全"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "周亭",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369247",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369247/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "SCC812211025"
+      ],
+      "courseNames": [
+        "物理化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "周玉路",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369228",
+      "title": "讲师",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369228/page.htm",
+      "blockCount": 7,
+      "courseCodes": [
+        "SCC828911010",
+        "SCC831211015",
+        "SCC832012100"
+      ],
+      "courseNames": [
+        "有机化学(2-1)",
+        "有机化学实验"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "夏永清",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369306",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369306/page.htm",
+      "blockCount": 10,
+      "courseCodes": [
+        "SCC830412100",
+        "SCC850111025"
+      ],
+      "courseNames": [
+        "大学化学",
+        "无机及分析化学实验(2-1)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "夏薇",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a369262",
+      "title": "教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369262/page.htm",
+      "blockCount": 10,
+      "courseCodes": [
+        "CHM220331021",
+        "CHM220421020",
+        "CHM223011010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "芳香世界",
+        "高分子化学与物理"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "姜磊",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369293",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369293/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM110412100",
+        "CHM310821010",
+        "CHM421331020"
+      ],
+      "courseNames": [
+        "实验室安全与环保",
+        "工程概论(2-1)",
+        "生命科学史"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "姜翠玉",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369235",
+      "title": "教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369235/page.htm",
+      "blockCount": 7,
+      "courseCodes": [
+        "SCC828911010",
+        "SCC831211015",
+        "SCC831311035"
+      ],
+      "courseNames": [
+        "有机化学",
+        "有机化学实验"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "孔德桢",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a450843",
+      "title": "特任副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2025/0219/c19257a450843/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM321411030"
+      ],
+      "courseNames": [
+        "固体废物处理与处置工程"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "孙亚伟",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369299",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369299/page.htm",
+      "blockCount": 3,
+      "courseCodes": [
+        "CHM422031010",
+        "CHM422731010",
+        "CHM428541020"
+      ],
+      "courseNames": [
+        "生物分离工程",
+        "美食中的化学与物理",
+        "色彩中的化学与物理"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "孙兰义",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a369213",
+      "title": "教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369213/page.htm",
+      "blockCount": 5,
+      "courseCodes": [
+        "CHM112011010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "孙娟",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a369282",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369282/page.htm",
+      "blockCount": 7,
+      "courseCodes": [
+        "CHM310112100",
+        "CHM310321010",
+        "SCC811711030",
+        "SCC830412100"
+      ],
+      "courseNames": [
+        "工程概论（2-1）",
+        "无机及分析化学",
+        "无机及分析化学实验(2-1)",
+        "环境保护与可持续发展概论"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "孙昭玥",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a469725",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2025/0902/c19257a469725/page.htm",
+      "blockCount": 3,
+      "courseCodes": [
+        "CHM326931020",
+        "CHM359641020"
+      ],
+      "courseNames": [
+        "与地球共生-大学生环保入门",
+        "环境与健康"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "孙洪满",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19260-a369356",
+      "title": "副教授",
+      "department": "化学实验中心",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19260a369356/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "SCC850111025"
+      ],
+      "courseNames": [
+        "大学化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "孙道峰",
+      "status": "no_official_profile",
+      "sourceId": null,
+      "title": null,
+      "department": null,
+      "profileUrl": null,
+      "blockCount": 3,
+      "courseCodes": [
+        "SCC812611010",
+        "SCC821111010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新生研讨课"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": "no official profile URL found",
+      "needed": [
+        "官方教师详情页或教工号",
+        "教师人事归属学院",
+        "确认是否为本校在岗教师"
+      ]
+    },
+    {
+      "name": "孟亦飞",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a429378",
+      "title": "讲师",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2024/0422/c19257a429378/page.htm",
+      "blockCount": 11,
+      "courseCodes": [
+        "CHM310821010",
+        "CHM320511021",
+        "CHM321711011",
+        "CHM322821020"
+      ],
+      "courseNames": [
+        "化工事故仿真技术",
+        "化工安全导论",
+        "安全系统工程",
+        "实验室安全与环保"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "宋春敏",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a365317",
+      "title": "教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365317/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM111421020"
+      ],
+      "courseNames": [
+        "能量利用过程原理"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "宋林花",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369241",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369241/page.htm",
+      "blockCount": 8,
+      "courseCodes": [
+        "SCC810721020",
+        "SCC830811020",
+        "SCC831211015"
+      ],
+      "courseNames": [
+        "有机化学实验",
+        "高等有机化学"
+      ],
+      "multiTeacherBlocks": 2,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "宗思宇",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a482990",
+      "title": "讲师",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2026/0120/c19255a482990/page.htm",
+      "blockCount": 3,
+      "courseCodes": [
+        "SCC812211025"
+      ],
+      "courseNames": [
+        "物理化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "平平",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a428923",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2024/0418/c19257a428923/page.htm",
+      "blockCount": 6,
+      "courseCodes": [
+        "CHM321711011",
+        "CHM326221015",
+        "CHM358911030"
+      ],
+      "courseNames": [
+        "化工安全导论",
+        "化工防火与防爆",
+        "应急技术与管理"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "张予辉",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369233",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369233/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "SCC812212201"
+      ],
+      "courseNames": [
+        "物理化学(2-2)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "张卫东",
+      "status": "no_official_profile",
+      "sourceId": null,
+      "title": null,
+      "department": null,
+      "profileUrl": null,
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM360061020"
+      ],
+      "courseNames": [
+        "碳生态工业"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": "no official profile URL found",
+      "needed": [
+        "官方教师详情页或教工号",
+        "教师人事归属学院",
+        "确认是否为本校在岗教师"
+      ]
+    },
+    {
+      "name": "张国栋",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19260-a369363",
+      "title": "讲师",
+      "department": "化学实验中心",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19260a369363/page.htm",
+      "blockCount": 3,
+      "courseCodes": [
+        "SCC812211030"
+      ],
+      "courseNames": [
+        "物理化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "张庆冬",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a369286",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369286/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM326831020",
+        "CHM350711021"
+      ],
+      "courseNames": [
+        "环境保护导论"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "张强",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19259-a369339",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369339/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM120731010",
+        "SCC850111025"
+      ],
+      "courseNames": [
+        "多彩的晶体世界",
+        "大学化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "张洪伟",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369246",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369246/page.htm",
+      "blockCount": 6,
+      "courseCodes": [
+        "SCC828911010",
+        "SCC831211015"
+      ],
+      "courseNames": [
+        "有机化学实验"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "张海鹏",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a369188",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369188/page.htm",
+      "blockCount": 7,
+      "courseCodes": [
+        "CHM111112200",
+        "CHM121711035"
+      ],
+      "courseNames": [
+        "化学工程基础",
+        "化工原理(2-2)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "张金弘",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19259-a369329",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369329/page.htm",
+      "blockCount": 1,
+      "courseCodes": [
+        "CHM455011020"
+      ],
+      "courseNames": [
+        "基本化工设备与选型"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "张颖",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a365321",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365321/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM111112200",
+        "CHM120121010"
+      ],
+      "courseNames": [
+        "C1化学与化工",
+        "化工原理(2-2)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "张龙力",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369220",
+      "title": "教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369220/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "SCC812212101",
+        "SCC812611010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "物理化学(2-1)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "彭志华",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369231",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369231/page.htm",
+      "blockCount": 8,
+      "courseCodes": [
+        "SCC829112101",
+        "SCC830811020",
+        "SCC830812100",
+        "SCC832012100"
+      ],
+      "courseNames": [
+        "有机化学(2-1)",
+        "有机化学实验",
+        "有机化学实验(2-1)",
+        "有机化学（2-1）"
+      ],
+      "multiTeacherBlocks": 2,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "徐永强",
+      "status": "official_list_without_profile",
+      "sourceId": null,
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": null,
+      "blockCount": 10,
+      "courseCodes": [
+        "SCC813711020",
+        "SCC828911010",
+        "SCC829111030",
+        "SCC831211015"
+      ],
+      "courseNames": [
+        "有机化学",
+        "有机化学实验"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    },
+    {
+      "name": "徐海",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369308",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369308/page.htm",
+      "blockCount": 5,
+      "courseCodes": [
+        "CHM420721025",
+        "CHM429041020",
+        "SCC812611010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "生物化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "戚建楠",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a482989",
+      "title": "讲师",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2026/0120/c19255a482989/page.htm",
+      "blockCount": 5,
+      "courseCodes": [
+        "SCC811711030",
+        "SCC830412100"
+      ],
+      "courseNames": [
+        "无机及分析化学",
+        "无机及分析化学实验(2-1)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "曲剑波",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369298",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369298/page.htm",
+      "blockCount": 9,
+      "courseCodes": [
+        "CHM420621020",
+        "CHM423931010",
+        "CHM428541020",
+        "CHM459431020",
+        "SCC830412100"
+      ],
+      "courseNames": [
+        "健康生活中的化学奥秘",
+        "探秘海洋宝库",
+        "无机及分析化学实验(2-1)",
+        "生物分离工程",
+        "生物化工基础"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "曹伟",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a471122",
+      "title": "特任副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2025/0916/c19255a471122/page.htm",
+      "blockCount": 6,
+      "courseCodes": [
+        "SCC813711020",
+        "SCC828911010"
+      ],
+      "courseNames": [
+        "有机化学",
+        "有机化学实验"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "曹美文",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369290",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369290/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM110412100",
+        "CHM422631010"
+      ],
+      "courseNames": [
+        "宏观、介观与微观",
+        "工程概论(2-1)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "曾景斌",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19260-a369342",
+      "title": "教授",
+      "department": "化学实验中心",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19260a369342/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "SCC821111010",
+        "SCC850111025"
+      ],
+      "courseNames": [
+        "大学化学",
+        "新生研讨课"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "李传",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a369209",
+      "title": "教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369209/page.htm",
+      "blockCount": 1,
+      "courseCodes": [
+        "CHM111721020"
+      ],
+      "courseNames": [
+        "石油加工概论"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "李大伟",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19259-a369332",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369332/page.htm",
+      "blockCount": 1,
+      "courseCodes": [
+        "CHM455011020"
+      ],
+      "courseNames": [
+        "基本化工设备与选型"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "李慧",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369294",
+      "title": "讲师",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369294/page.htm",
+      "blockCount": 3,
+      "courseCodes": [
+        "CHM421731020",
+        "CHM459331020"
+      ],
+      "courseNames": [
+        "微生物与人类",
+        "生命密码的双重奏：人类基因与微生物"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "李春义",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19259-a369331",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369331/page.htm",
+      "blockCount": 5,
+      "courseCodes": [
+        "CHM112011010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "李石",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a369276",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369276/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM324711010"
+      ],
+      "courseNames": [
+        "石油工业与环境保护概论"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "李静",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369414",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0325/c19258a369414/page.htm",
+      "blockCount": 5,
+      "courseCodes": [
+        "CHM420621020",
+        "CHM422231010",
+        "CHM428941010",
+        "CHM459431020"
+      ],
+      "courseNames": [
+        "探秘海洋宝库",
+        "生物信息学与人工智能",
+        "生物化工基础",
+        "神奇的海洋生物世界"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "李鹏",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a369252",
+      "title": "副教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369252/page.htm",
+      "blockCount": 8,
+      "courseCodes": [
+        "CHM220421020",
+        "CHM223011010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "高分子化学与物理"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "杨丽敏",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369309",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369309/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM458831020",
+        "SCC812421020"
+      ],
+      "courseNames": [
+        "现代分析技术",
+        "绿色“酶”好生活"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "杨修洁",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a369264",
+      "title": "副教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369264/page.htm",
+      "blockCount": 7,
+      "courseCodes": [
+        "CHM223621020",
+        "CHM256431020",
+        "SCC850111025"
+      ],
+      "courseNames": [
+        "专业外语",
+        "大学化学",
+        "美丽秘籍——化妆品化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "杨军卫",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a369214",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369214/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM111421020"
+      ],
+      "courseNames": [
+        "能量利用过程原理"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "杨妲",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369232",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369232/page.htm",
+      "blockCount": 8,
+      "courseCodes": [
+        "SCC813711020",
+        "SCC828911010",
+        "SCC831211015"
+      ],
+      "courseNames": [
+        "有机化学",
+        "有机化学实验"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "杨普江",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19067-a360853",
+      "title": "讲师",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2015/0603/c19067a360853/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "SCC812212101"
+      ],
+      "courseNames": [
+        "物理化学(2-1)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "林旭锋",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369222",
+      "title": "教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369222/page.htm",
+      "blockCount": 3,
+      "courseCodes": [
+        "SCC812212101",
+        "SCC821111010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "物理化学(2-1)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "柴永明",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19259-a369315",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369315/page.htm",
+      "blockCount": 5,
+      "courseCodes": [
+        "CHM112011010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "段红玲",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a365310",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365310/page.htm",
+      "blockCount": 6,
+      "courseCodes": [
+        "CHM111112100",
+        "CHM111112200"
+      ],
+      "courseNames": [
+        "化工原理(2-1)",
+        "化工原理(2-2)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "殷长龙",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a369265",
+      "title": "副教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369265/page.htm",
+      "blockCount": 1,
+      "courseCodes": [
+        "CHM256531020"
+      ],
+      "courseNames": [
+        "化学与人类文明"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "毕佳慧",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a420758",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2024/0112/c19255a420758/page.htm",
+      "blockCount": 6,
+      "courseCodes": [
+        "SCC810611021",
+        "SCC820611020",
+        "SCC830611020"
+      ],
+      "courseNames": [
+        "分析化学",
+        "分析化学实验"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "温聪颖",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369245",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369245/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "SCC812421020"
+      ],
+      "courseNames": [
+        "现代分析技术"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "潘原",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19259-a369327",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369327/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM124821010",
+        "CHM222921020"
+      ],
+      "courseNames": [
+        "新能源与化学电源",
+        "清洁能源技术"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王万里",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c2668-a46055",
+      "title": "讲师",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2017/0226/c2668a46055/page.htm",
+      "blockCount": 9,
+      "courseCodes": [
+        "CHM111112200",
+        "CHM121711036",
+        "CHM121911030",
+        "CHM123621020"
+      ],
+      "courseNames": [
+        "化学工程基础",
+        "化工原理(2-2)",
+        "天然气处理与加工"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王刚",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a369283",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369283/page.htm",
+      "blockCount": 1,
+      "courseCodes": [
+        "CHM326121010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王创业",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369229",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369229/page.htm",
+      "blockCount": 6,
+      "courseCodes": [
+        "SCC812212101",
+        "SCC814021020"
+      ],
+      "courseNames": [
+        "专业外语",
+        "物理化学(2-1)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王子",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369244",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369244/page.htm",
+      "blockCount": 10,
+      "courseCodes": [
+        "SCC814021020",
+        "SCC829111030",
+        "SCC830811020",
+        "SCC831211015"
+      ],
+      "courseNames": [
+        "专业外语",
+        "有机化学",
+        "有机化学实验"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王小强",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369304",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369304/page.htm",
+      "blockCount": 1,
+      "courseCodes": [
+        "CHM458831020"
+      ],
+      "courseNames": [
+        "绿色“酶”好生活"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王延臻",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a369259",
+      "title": "教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369259/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM221621020",
+        "CHM222211040"
+      ],
+      "courseNames": [
+        "润滑油化学与工艺",
+        "石油化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王敬贤",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19259-a369325",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369325/page.htm",
+      "blockCount": 3,
+      "courseCodes": [
+        "SCC811711030"
+      ],
+      "courseNames": [
+        "无机及分析化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王斌",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a398886",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2023/0321/c19254a398886/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM111112201"
+      ],
+      "courseNames": [
+        "化工原理(2-2)(双语)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王明",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a369284",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369284/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM310821010"
+      ],
+      "courseNames": [
+        "实验室安全与环保"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王晓娟",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a369258",
+      "title": "副教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369258/page.htm",
+      "blockCount": 6,
+      "courseCodes": [
+        "CHM223621020",
+        "CHM223831010"
+      ],
+      "courseNames": [
+        "专业外语",
+        "化学与服饰"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王有和",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369230",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369230/page.htm",
+      "blockCount": 6,
+      "courseCodes": [
+        "SCC811711030"
+      ],
+      "courseNames": [
+        "无机及分析化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王栋",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369300",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369300/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "SCC850111025"
+      ],
+      "courseNames": [
+        "大学化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王波",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c2668-a186919",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2018/1228/c2668a186919/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM123011030"
+      ],
+      "courseNames": [
+        "能源化学反应工程"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王淑涛",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369243",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369243/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "SCC811512100",
+        "SCC831612101"
+      ],
+      "courseNames": [
+        "无机化学实验(2-1)",
+        "无机化学（2-1）"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王瑞",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a484248",
+      "title": "讲师",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2026/0309/c19255a484248/page.htm",
+      "blockCount": 5,
+      "courseCodes": [
+        "SCC811512100",
+        "SCC814021020",
+        "SCC831612101"
+      ],
+      "courseNames": [
+        "专业外语",
+        "无机化学实验(2-1)",
+        "无机化学（2-1）"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王璞",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a429186",
+      "title": "讲师",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2024/0420/c19257a429186/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM310721020"
+      ],
+      "courseNames": [
+        "生物化学基础"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王生杰",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369302",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369302/page.htm",
+      "blockCount": 7,
+      "courseCodes": [
+        "CHM410221020",
+        "CHM421431020",
+        "CHM421531020",
+        "SCC810611021"
+      ],
+      "courseNames": [
+        "分析化学实验",
+        "材料与环境",
+        "生活中的高分子材料",
+        "生物能源技术"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王秀凤",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369224",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369224/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "SCC829021042"
+      ],
+      "courseNames": [
+        "物理化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王纯正",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a365318",
+      "title": "教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365318/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM121421021"
+      ],
+      "courseNames": [
+        "化学反应工程"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王继乾",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369301",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369301/page.htm",
+      "blockCount": 7,
+      "courseCodes": [
+        "CHM110412100",
+        "CHM112011010",
+        "CHM410221020"
+      ],
+      "courseNames": [
+        "工程概论(2-1)",
+        "新生研讨课",
+        "生物能源技术"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "王芳",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19260-a369358",
+      "title": "副教授",
+      "department": "化学实验中心",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19260a369358/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "SCC850111025"
+      ],
+      "courseNames": [
+        "大学化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "田原宇",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19259-a369317",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369317/page.htm",
+      "blockCount": 5,
+      "courseCodes": [
+        "CHM112011010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "白鹏",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a365383",
+      "title": "教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365383/page.htm",
+      "blockCount": 7,
+      "courseCodes": [
+        "CHM110412100",
+        "CHM121611030",
+        "CHM620311010"
+      ],
+      "courseNames": [
+        "化学反应工程(双语)",
+        "工程伦理（全英文）",
+        "工程概论(2-1)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "石斌",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a369257",
+      "title": "副教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369257/page.htm",
+      "blockCount": 3,
+      "courseCodes": [
+        "CHM222211040",
+        "CHM222521010"
+      ],
+      "courseNames": [
+        "天然气化学",
+        "石油化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "罗辉",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a369254",
+      "title": "副教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369254/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM221021020",
+        "CHM221321020"
+      ],
+      "courseNames": [
+        "沥青化学",
+        "精细化工工艺学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "耿春香",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a369273",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369273/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM356711030"
+      ],
+      "courseNames": [
+        "环境监测（含实验）"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "肖梓军",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369307",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369307/page.htm",
+      "blockCount": 3,
+      "courseCodes": [
+        "CHM420221020",
+        "CHM421731020",
+        "CHM428441020"
+      ],
+      "courseNames": [
+        "工业微生物",
+        "微生物与人类",
+        "微生物细胞工厂"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "胡涵",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19259-a370615",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0328/c19259a370615/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "SCC812521020"
+      ],
+      "courseNames": [
+        "新能源化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "葛保胜",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a429096",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2024/0419/c19258a429096/page.htm",
+      "blockCount": 1,
+      "courseCodes": [
+        "CHM450711030"
+      ],
+      "courseNames": [
+        "碳捕集及转化原理"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "董斌",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19260-a369345",
+      "title": "教授",
+      "department": "化学实验中心",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19260a369345/page.htm",
+      "blockCount": 7,
+      "courseCodes": [
+        "SCC811512100",
+        "SCC812521020",
+        "SCC812611010",
+        "SCC831612101"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新能源化学",
+        "无机化学实验(2-1)",
+        "无机化学（2-1）"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "覃兴龙",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a484613",
+      "title": "特任副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2026/0313/c19254a484613/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM111421020"
+      ],
+      "courseNames": [
+        "能量利用过程原理"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "覃正兴",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19259-a369328",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369328/page.htm",
+      "blockCount": 1,
+      "courseCodes": [
+        "OTH921331020"
+      ],
+      "courseNames": [
+        "沟通与写作"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "赵会吉",
+      "status": "official_list_without_profile",
+      "sourceId": null,
+      "title": "副教授",
+      "department": "应用化学系",
+      "profileUrl": null,
+      "blockCount": 1,
+      "courseCodes": [
+        "SCC850111025"
+      ],
+      "courseNames": [
+        "大学化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    },
+    {
+      "name": "赵玉荣",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369313",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369313/page.htm",
+      "blockCount": 6,
+      "courseCodes": [
+        "CHM256431020",
+        "CHM420721025",
+        "SCC850111025"
+      ],
+      "courseNames": [
+        "大学化学",
+        "生物化学",
+        "美丽秘籍——化妆品化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "赵青山",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a369207",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369207/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM123821020"
+      ],
+      "courseNames": [
+        "新型碳材料"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "路帅",
+      "status": "official_list_without_profile",
+      "sourceId": null,
+      "title": "高级实验师",
+      "department": "环境与安全工程系",
+      "profileUrl": null,
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM310821010"
+      ],
+      "courseNames": [
+        "实验室安全与环保"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    },
+    {
+      "name": "邓文安",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19259-a369324",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369324/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM124021010"
+      ],
+      "courseNames": [
+        "重质油加工技术"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "邓深圳",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a448991",
+      "title": "特任副教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2024/1223/c19256a448991/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM222921020",
+        "SCC811711030"
+      ],
+      "courseNames": [
+        "新能源与化学电源",
+        "无机及分析化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "郗丽君",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369305",
+      "title": "讲师",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369305/page.htm",
+      "blockCount": 1,
+      "courseCodes": [
+        "CHM421631010"
+      ],
+      "courseNames": [
+        "微生物世界"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "郭晓艳",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a365311",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365311/page.htm",
+      "blockCount": 7,
+      "courseCodes": [
+        "CHM111112200",
+        "CHM121711035"
+      ],
+      "courseNames": [
+        "化学工程基础",
+        "化工原理(2-2)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "郭海玲",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19259-a370669",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0329/c19259a370669/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM120731010",
+        "SCC850111025"
+      ],
+      "courseNames": [
+        "多彩的晶体世界",
+        "大学化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "郭爱军",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a369251",
+      "title": "教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369251/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM224131020"
+      ],
+      "courseNames": [
+        "石油化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "金鑫",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a365313",
+      "title": "教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365313/page.htm",
+      "blockCount": 5,
+      "courseCodes": [
+        "CHM110412100",
+        "CHM151521020",
+        "CHM620311010"
+      ],
+      "courseNames": [
+        "工程伦理（全英文）",
+        "工程概论(2-1)",
+        "碳足迹及生命周期分析原理"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "陈坤",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19256-a369250",
+      "title": "副教授",
+      "department": "应用化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369250/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM220331021",
+        "CHM222211040"
+      ],
+      "courseNames": [
+        "石油化学",
+        "芳香世界"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "陈永栋",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a445957",
+      "title": "讲师",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2024/1118/c19257a445957/page.htm",
+      "blockCount": 5,
+      "courseCodes": [
+        "CHM321411030",
+        "CHM324321020"
+      ],
+      "courseNames": [
+        "固体废物处理与处置工程",
+        "计算机辅助设计"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "陈爽",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a365405",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365405/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "CHM111112200"
+      ],
+      "courseNames": [
+        "化工原理(2-2)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "陈翠霞",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369291",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369291/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM429041020",
+        "CHM459331020"
+      ],
+      "courseNames": [
+        "生命密码的双重奏：人类基因与微生物",
+        "生物化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "陈金庆",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19254-a365309",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365309/page.htm",
+      "blockCount": 1,
+      "courseCodes": [
+        "CHM111112200"
+      ],
+      "courseNames": [
+        "化工原理(2-2)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "韩成友",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369219",
+      "title": "讲师",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369219/page.htm",
+      "blockCount": 6,
+      "courseCodes": [
+        "SCC820811025",
+        "SCC828911010",
+        "SCC831211015"
+      ],
+      "courseNames": [
+        "有机化学实验",
+        "高分子化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "顾莹莹",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19257-a369274",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369274/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM325711021",
+        "SCC850111025"
+      ],
+      "courseNames": [
+        "大学化学",
+        "物理性污染控制"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "马丽爽",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a369240",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369240/page.htm",
+      "blockCount": 2,
+      "courseCodes": [
+        "SCC811121020"
+      ],
+      "courseNames": [
+        "结构化学"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "马占华",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c2668-a46014",
+      "title": "副教授",
+      "department": "化学工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2017/0226/c2668a46014/page.htm",
+      "blockCount": 4,
+      "courseCodes": [
+        "CHM121711036"
+      ],
+      "courseNames": [
+        "化学工程基础"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "马哲",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19255-a426574",
+      "title": "副教授",
+      "department": "化学系",
+      "profileUrl": "https://cce.upc.edu.cn/2024/0326/c19255a426574/page.htm",
+      "blockCount": 5,
+      "courseCodes": [
+        "SCC811711030",
+        "SCC830412100"
+      ],
+      "courseNames": [
+        "无机及分析化学",
+        "无机及分析化学实验(2-1)"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "马洪超",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a369297",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369297/page.htm",
+      "blockCount": 11,
+      "courseCodes": [
+        "CHM421331020",
+        "SCC812421020",
+        "SCC830412100",
+        "SCC850111025"
+      ],
+      "courseNames": [
+        "大学化学",
+        "无机及分析化学实验(2-1)",
+        "现代分析技术",
+        "生命科学史"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    },
+    {
+      "name": "黄方",
+      "status": "verified_official_detail",
+      "sourceId": "cce-c19258-a429377",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "profileUrl": "https://cce.upc.edu.cn/2024/0422/c19258a429377/page.htm",
+      "blockCount": 5,
+      "courseCodes": [
+        "CHM112011010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "multiTeacherBlocks": 0,
+      "unresolvedReason": null,
+      "needed": []
+    }
+  ],
+  "counts": {
+    "candidates": 143,
+    "verified": 136,
+    "unresolved": 7,
+    "multiTeacherBlocks": 3
+  }
+}

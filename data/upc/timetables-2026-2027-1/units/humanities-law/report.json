@@ -1,0 +1,41 @@
+{
+  "slug": "humanities-law",
+  "sourceUnit": "文法学院",
+  "collegeCode": "upc-14",
+  "status": "active",
+  "sourceDir": "文法学院",
+  "rawBlocks": 468,
+  "candidates": 82,
+  "verified": 82,
+  "officialVerified": 51,
+  "timetableVerified": 31,
+  "unresolved": 0,
+  "unresolvedDetails": [],
+  "excludedBlocks": 2,
+  "excludedBlockReasons": {
+    "missing_teacher": 1,
+    "missing_course_identity": 1
+  },
+  "coursesRaw": 144,
+  "sourceFile": {
+    "path": "课表/文法学院/课表打印.xls",
+    "bytes": 80896,
+    "sha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+    "format": "BIFF8/OLE2",
+    "title": "中国石油大学（华东） 文法学院  教研室课表",
+    "term": "2026-2027-1",
+    "sheets": [
+      {
+        "name": "Sheet4",
+        "rows": 9,
+        "cols": 256,
+        "headerRow": 3,
+        "blocks": 468,
+        "anomalies": []
+      }
+    ]
+  },
+  "courses": 143,
+  "offerings": 227,
+  "importFile": "units/humanities-law/import.json"
+}

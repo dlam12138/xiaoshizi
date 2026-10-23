@@ -1,0 +1,1586 @@
+{
+  "schemaVersion": 1,
+  "unit": "理学院",
+  "collegeCode": "upc-12",
+  "courses": [
+    {
+      "key": "0910399",
+      "code": "0910399",
+      "name": "线性代数",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0911199",
+      "code": "0911199",
+      "name": "高等数学2-1",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "牛其华",
+        "纪凤辉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0931299",
+      "code": "0931299",
+      "name": "大学物理2-2",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "田艳杰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0941299",
+      "code": "0941299",
+      "name": "大学物理实验2-2",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "于红",
+        "尹教建",
+        "朱海丰",
+        "杨新建",
+        "贾翠萍",
+        "郭雅慧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC110111040",
+      "code": "SCC110111040",
+      "name": "高等数学",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "吕炜"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC110112100",
+      "code": "SCC110112100",
+      "name": "高等数学(2-1)",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 176,
+      "teacherNames": [
+        "于娟",
+        "侯英敏",
+        "刘珊",
+        "吴淑君",
+        "姚琦",
+        "孙建国",
+        "孙新国",
+        "张海军",
+        "张艳华",
+        "排新颖",
+        "智红燕",
+        "李小平",
+        "李明",
+        "李洪芳",
+        "李磊",
+        "江玲玲",
+        "牛其华",
+        "王娟",
+        "王静",
+        "石丽娜",
+        "纪艳菊",
+        "胡哲",
+        "许晓婕",
+        "赵旭波",
+        "邢丽丽",
+        "闫统江",
+        "陈永刚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC110112101",
+      "code": "SCC110112101",
+      "name": "高等数学（经管类）（2-1）",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "吕炜",
+        "吴瑞华",
+        "纪艳菊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC110112200",
+      "code": "SCC110112200",
+      "name": "R高等数学(2-2)重修",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李小平",
+        "纪凤辉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC110112201",
+      "code": "SCC110112201",
+      "name": "R高等数学(2-2)重修",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李小平",
+        "纪凤辉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC210121030",
+      "code": "SCC210121030",
+      "name": "泛函分析",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张敏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC210511020",
+      "code": "SCC210511020",
+      "name": "复变函数",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "吴国丽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC210811020",
+      "code": "SCC210811020",
+      "name": "复变函数与积分变换",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 14,
+      "teacherNames": [
+        "崔璐",
+        "王媛媛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC210911041",
+      "code": "SCC210911041",
+      "name": "概率论",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "张新红"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC211021020",
+      "code": "SCC211021020",
+      "name": "概率论与数理统计",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王艳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC211111020",
+      "code": "SCC211111020",
+      "name": "概率论与数理统计",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 20,
+      "teacherNames": [
+        "周峰",
+        "曹晓敏",
+        "王艳",
+        "葛菊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC211111030",
+      "code": "SCC211111030",
+      "name": "概率论与数理统计",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 20,
+      "teacherNames": [
+        "吴霜",
+        "宋允全",
+        "张建松",
+        "张敏",
+        "李明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC211311040",
+      "code": "SCC211311040",
+      "name": "概率论与数理统计",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "许晓婕"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC211911020",
+      "code": "SCC211911020",
+      "name": "线性代数",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 62,
+      "teacherNames": [
+        "刘丙辰",
+        "吕川",
+        "张凤荣",
+        "李燕",
+        "李锋杰",
+        "牟海宁",
+        "谢雪涛",
+        "高永丽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC212021020",
+      "code": "SCC212021020",
+      "name": "线性代数",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "谢雪涛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC212111030",
+      "code": "SCC212111030",
+      "name": "线性代数",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "单娴",
+        "张景明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC212311010",
+      "code": "SCC212311010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "刘丙辰",
+        "孙建国",
+        "张建松",
+        "王际朝",
+        "申淑谦",
+        "芮杰",
+        "郭会",
+        "闫统江"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC212411035",
+      "code": "SCC212411035",
+      "name": "线性代数与解析几何",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "单娴"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC221011030",
+      "code": "SCC221011030",
+      "name": "统计计算",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "常秦"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC250111031",
+      "code": "SCC250111031",
+      "name": "常微分方程",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "王艳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC250212101",
+      "code": "SCC250212101",
+      "name": "高等代数Ⅰ",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "左文杰",
+        "申淑谦"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC250321020",
+      "code": "SCC250321020",
+      "name": "计算方法",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "芮杰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC250411020",
+      "code": "SCC250411020",
+      "name": "计算方法",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "芮杰",
+        "高理平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC250521030",
+      "code": "SCC250521030",
+      "name": "近世代数",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙玉花"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC250611021",
+      "code": "SCC250611021",
+      "name": "空间解析几何",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "鲍文娣"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC250711041",
+      "code": "SCC250711041",
+      "name": "离散数学",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "赵春娥"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC250911030",
+      "code": "SCC250911030",
+      "name": "数理方程",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "郭会"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC251011040",
+      "code": "SCC251011040",
+      "name": "数学分析Ⅲ",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "吕锋"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC251012100",
+      "code": "SCC251012100",
+      "name": "数学分析(2-1)",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 18,
+      "teacherNames": [
+        "孙清滢",
+        "王艳",
+        "郝彬彬"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC251012101",
+      "code": "SCC251012101",
+      "name": "数学分析Ⅰ",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "吕川",
+        "邵红梅"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC251511010",
+      "code": "SCC251511010",
+      "name": "数学实验",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 11,
+      "teacherNames": [
+        "杨蕾",
+        "王艳",
+        "高理平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC251911030",
+      "code": "SCC251911030",
+      "name": "数值计算方法",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 15,
+      "teacherNames": [
+        "牟海宁",
+        "田璐璐",
+        "芮杰",
+        "郭会"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC252411020",
+      "code": "SCC252411020",
+      "name": "最优化方法",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "施章磊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC252411030",
+      "code": "SCC252411030",
+      "name": "最优化方法",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "宁文杰",
+        "殷海青"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC252411031",
+      "code": "SCC252411031",
+      "name": "最优化方法",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "殷海青"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC252521020",
+      "code": "SCC252521020",
+      "name": "最优化方法",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "施章磊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC252521030",
+      "code": "SCC252521030",
+      "name": "最优化方法",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "殷海青"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC253011031",
+      "code": "SCC253011031",
+      "name": "矩阵理论",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘新海"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC253221010",
+      "code": "SCC253221010",
+      "name": "数学实验",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "刘军",
+        "郝彬彬"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC260421030",
+      "code": "SCC260421030",
+      "name": "矩阵理论与计算",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "殷海青"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC260621032",
+      "code": "SCC260621032",
+      "name": "离散数学",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "宁文杰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC260921030",
+      "code": "SCC260921030",
+      "name": "数据库原理与应用",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "刘军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC261211055",
+      "code": "SCC261211055",
+      "name": "数学分析(A)I",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "王艳",
+        "郝彬彬"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC262212200",
+      "code": "SCC262212200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "田方",
+        "闫统江"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC262411030",
+      "code": "SCC262411030",
+      "name": "信息论基础",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "孙玉花",
+        "赵旭波"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC262611020",
+      "code": "SCC262611020",
+      "name": "数值计算与实验",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 10,
+      "teacherNames": [
+        "刘新海",
+        "王际朝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC263321031",
+      "code": "SCC263321031",
+      "name": "矩阵理论",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘新海"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC265411030",
+      "code": "SCC265411030",
+      "name": "实变函数",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张健"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC266611040",
+      "code": "SCC266611040",
+      "name": "高等代数I",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "左文杰",
+        "申淑谦"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC266921030",
+      "code": "SCC266921030",
+      "name": "信息论基础",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "宋新祥"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC267111055",
+      "code": "SCC267111055",
+      "name": "数学分析I",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "张会娜"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC267311010",
+      "code": "SCC267311010",
+      "name": "数学专业实验",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "牟海宁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC310321032",
+      "code": "SCC310321032",
+      "name": "并行计算与分布式计算",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "盛海龙"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC310521020",
+      "code": "SCC310521020",
+      "name": "大数据概论",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张华清"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC310621030",
+      "code": "SCC310621030",
+      "name": "人工智能",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "张华清"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC311321020",
+      "code": "SCC311321020",
+      "name": "数学建模",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "杨蕾",
+        "石仁刚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC320311031",
+      "code": "SCC320311031",
+      "name": "并行计算与分布式计算",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "陈华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC320511030",
+      "code": "SCC320511030",
+      "name": "大数据分析与挖掘",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "梁锡军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC321211035",
+      "code": "SCC321211035",
+      "name": "机器学习",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "柳毓松"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC321911031",
+      "code": "SCC321911031",
+      "name": "数据分析与统计软件",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "张艳华",
+        "高永丽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC322111020",
+      "code": "SCC322111020",
+      "name": "数据科学与大数据技术导论",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "陈华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC322321020",
+      "code": "SCC322321020",
+      "name": "数据融合与同化",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张艳华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC322421030",
+      "code": "SCC322421030",
+      "name": "数字图像处理",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "殷海青",
+        "江玲玲"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC322611010",
+      "code": "SCC322611010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "宋允全",
+        "左文杰",
+        "陈华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC323031020",
+      "code": "SCC323031020",
+      "name": "数学文化",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "许晓婕"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC364111030",
+      "code": "SCC364111030",
+      "name": "大数据采集与可视化",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "阮宗利"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC364821025",
+      "code": "SCC364821025",
+      "name": "人工智能数学基础",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "陈华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC366812200",
+      "code": "SCC366812200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "田方",
+        "陈华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC410111030",
+      "code": "SCC410111030",
+      "name": "大学物理",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李媛媛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC410112100",
+      "code": "SCC410112100",
+      "name": "大学物理(2-1)",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "袁顺东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC410112200",
+      "code": "SCC410112200",
+      "name": "大学物理(2-2)",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 28,
+      "teacherNames": [
+        "周勇",
+        "张伟伟",
+        "张立红",
+        "曲晓波",
+        "董梅峰",
+        "赵莉",
+        "郑海霞",
+        "闫向宏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC410112201",
+      "code": "SCC410112201",
+      "name": "大学物理(2-2)",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "刘素美",
+        "张立红",
+        "徐志杰",
+        "李媛媛",
+        "袁顺东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC410112202",
+      "code": "SCC410112202",
+      "name": "大学物理(2-2)",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 24,
+      "teacherNames": [
+        "彭爱华",
+        "朱化凤",
+        "李红",
+        "王茂槐",
+        "田艳杰",
+        "董鹏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC464912240",
+      "code": "SCC464912240",
+      "name": "物理与工程力学（2-2）",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘超卓",
+        "徐志杰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC510111015",
+      "code": "SCC510111015",
+      "name": "原子物理学",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "琚敏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC510111030",
+      "code": "SCC510111030",
+      "name": "原子物理学",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "周伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC520521020",
+      "code": "SCC520521020",
+      "name": "传感器原理及应用",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "杨喜峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC520911030",
+      "code": "SCC520911030",
+      "name": "电磁学",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "陈东猛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC521011040",
+      "code": "SCC521011040",
+      "name": "电动力学",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "郑海霞",
+        "魏宝君"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC521221031",
+      "code": "SCC521221031",
+      "name": "广义相对论基础",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "方恒忠"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC521321030",
+      "code": "SCC521321030",
+      "name": "核电站原理与系统",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李媛媛",
+        "琚敏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC522111030",
+      "code": "SCC522111030",
+      "name": "力学",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "刘学锋",
+        "贾玉磊",
+        "闫向宏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC522211040",
+      "code": "SCC522211040",
+      "name": "量子力学",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "陈东猛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC522321030",
+      "code": "SCC522321030",
+      "name": "能源物理多尺度模拟",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "刘冰",
+        "房文静"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC522621030",
+      "code": "SCC522621030",
+      "name": "渗流物理学",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王玉斗"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC522711040",
+      "code": "SCC522711040",
+      "name": "数学物理方法及应用",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "曹贞斌"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC523311010",
+      "code": "SCC523311010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "刘健",
+        "闫向宏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC523411010",
+      "code": "SCC523411010",
+      "name": "学科前沿知识专题讲座",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "刘学锋"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC523521030",
+      "code": "SCC523521030",
+      "name": "原子核物理",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "刘健"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC523721020",
+      "code": "SCC523721020",
+      "name": "专业外语",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "方恒忠"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC523831010",
+      "code": "SCC523831010",
+      "name": "从爱因斯坦到霍金的宇宙",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "曹贞斌"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC523831020",
+      "code": "SCC523831020",
+      "name": "天文漫谈",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "方恒忠"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC523931016",
+      "code": "SCC523931016",
+      "name": "两弹一星精神选讲",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘超卓"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC524131020",
+      "code": "SCC524131020",
+      "name": "走近核科学技术",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘超卓"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC524741031",
+      "code": "SCC524741031",
+      "name": "量子力学",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘健"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC564511020",
+      "code": "SCC564511020",
+      "name": "物理光学",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "周丽霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC565021020",
+      "code": "SCC565021020",
+      "name": "信息论基础",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "琚敏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC567912200",
+      "code": "SCC567912200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "朱同帅",
+        "琚敏",
+        "田方"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC568431020",
+      "code": "SCC568431020",
+      "name": "探寻宇宙的秘密—从哥白尼到霍金",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "方恒忠"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC620231020",
+      "code": "SCC620231020",
+      "name": "从世纪之争到量子通信",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "宋新祥"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC620311020",
+      "code": "SCC620311020",
+      "name": "工程概论",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "焦志勇",
+        "王宁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC620421020",
+      "code": "SCC620421020",
+      "name": "固体物理基础",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "杜永刚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC621111020",
+      "code": "SCC621111020",
+      "name": "光通信原理与技术",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王宁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC621221020",
+      "code": "SCC621221020",
+      "name": "光纤传感技术",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王涛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC621411020",
+      "code": "SCC621411020",
+      "name": "光学系统设计",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李代林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC621821020",
+      "code": "SCC621821020",
+      "name": "激光测量技术",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "贾玉磊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC622111020",
+      "code": "SCC622111020",
+      "name": "激光原理与技术",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张刚",
+        "白芬"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC622111030",
+      "code": "SCC622111030",
+      "name": "激光原理与技术",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "焦志勇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC622421020",
+      "code": "SCC622421020",
+      "name": "纳米光学及应用",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "江萍"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC622611032",
+      "code": "SCC622611032",
+      "name": "微机检测技术与系统",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张刚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC623011010",
+      "code": "SCC623011010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王涛",
+        "韩国霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC623211031",
+      "code": "SCC623211031",
+      "name": "应用光学",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "白芬",
+        "韩国霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC664711030",
+      "code": "SCC664711030",
+      "name": "光学中的数学方法",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "展凯云"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC665811020",
+      "code": "SCC665811020",
+      "name": "光的电磁理论",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "魏宝君"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC666011030",
+      "code": "SCC666011030",
+      "name": "光电信息与信号处理",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "宋新祥",
+        "徐先锋"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC666112200",
+      "code": "SCC666112200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "田方",
+        "韩国霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC667231020",
+      "code": "SCC667231020",
+      "name": "光行天下",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "江萍"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC710111010",
+      "code": "SCC710111010",
+      "name": "大学物理实验",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "刘云杰",
+        "刘伟华",
+        "周小岩",
+        "李静",
+        "王龙",
+        "田咏桃",
+        "邹俭英",
+        "郭雅慧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC710112100",
+      "code": "SCC710112100",
+      "name": "大学物理实验(2-1)",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "朱海丰",
+        "李静",
+        "马红章"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC710112101",
+      "code": "SCC710112101",
+      "name": "大学物理实验(2-1)",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "魏淑贤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC710112200",
+      "code": "SCC710112200",
+      "name": "大学物理实验(2-2)",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 20,
+      "teacherNames": [
+        "于红",
+        "周小岩",
+        "宝天琦",
+        "张亚萍",
+        "朱海丰",
+        "李东霞",
+        "李静",
+        "杨广武",
+        "王文新",
+        "程剑波",
+        "许令周",
+        "隋宏光",
+        "马秀波",
+        "马红章"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC710212200",
+      "code": "SCC710212200",
+      "name": "基础物理实验(2-2)",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘云杰",
+        "张亚萍",
+        "李静",
+        "魏淑贤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC720112100",
+      "code": "SCC720112100",
+      "name": "普通物理实验(2-1)",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "刘伟华",
+        "张亚萍",
+        "李静",
+        "王龙",
+        "田咏桃",
+        "郭雅慧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC720221020",
+      "code": "SCC720221020",
+      "name": "实验误差与数据处理",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "张令坦"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC764522100",
+      "code": "SCC764522100",
+      "name": "大学物理实验(2-1)",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "马红章"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SCC764612210",
+      "code": "SCC764612210",
+      "name": "物理与工程实验（2-2）",
+      "collegeCode": "upc-12",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘云杰",
+        "尹教建",
+        "张亚萍",
+        "朱海丰",
+        "李静",
+        "马红章",
+        "魏淑贤"
+      ],
+      "excludedReason": null
+    }
+  ]
+}

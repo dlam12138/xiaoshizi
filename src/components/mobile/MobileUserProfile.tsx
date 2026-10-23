@@ -46,8 +46,8 @@ export const MobileUserProfile: React.FC<MobileUserProfileProps> = ({
   isUserAdmin = false,
 }) => {
   const isLoggedIn = Boolean(currentUser);
-  const userNickname = currentUser?.user_metadata?.nickname || '西南交大学子';
-  const userCampus = currentUser?.user_metadata?.campus || '犀浦校区';
+  const userNickname = currentUser?.user_metadata?.nickname || '石大学子';
+  const userCampus = currentUser?.user_metadata?.campus || '';
 
   const [reviewFilterTab, setReviewFilterTab] = useState<'all' | 'approved' | 'pending' | 'rejected'>('all');
   const [isRefreshing, setIsRefreshing] = useState(false);
@@ -92,7 +92,7 @@ export const MobileUserProfile: React.FC<MobileUserProfileProps> = ({
                     </span>
                   ) : (
                     <span className="px-2 py-0.5 rounded-full text-3xs font-bold bg-amber-50 text-amber-700 border border-amber-200">
-                      评教积极分子
+                      反馈积极分子
                     </span>
                   )
                 ) : (
@@ -103,7 +103,9 @@ export const MobileUserProfile: React.FC<MobileUserProfileProps> = ({
               </div>
               <div className="flex items-center gap-2 mt-1">
                 <p className="text-2xs text-gray-500">
-                  {isLoggedIn ? `${userCampus} · ${currentUser?.email}` : '登录后同步个人积分与评价档案'}
+                  {isLoggedIn
+                    ? `${userCampus ? `${userCampus} · ` : ''}${currentUser?.email || ''}`
+                    : '登录后同步个人积分与评价档案'}
                 </p>
                 {isSupabaseConfigured && (
                   <span className="inline-flex items-center gap-1 text-3xs font-medium text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200">
@@ -142,7 +144,7 @@ export const MobileUserProfile: React.FC<MobileUserProfileProps> = ({
           >
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-4 h-4 text-indigo-400" />
-              <span>评教审核管理工作台</span>
+              <span>反馈审核管理工作台</span>
               {pendingCount > 0 && (
                 <span className="px-1.5 py-0.2 bg-amber-500 text-slate-900 rounded-full text-3xs font-bold">
                   {pendingCount}待审
@@ -241,7 +243,7 @@ export const MobileUserProfile: React.FC<MobileUserProfileProps> = ({
             {isLoggedIn ? '评价打分 (+20分)' : '登录后写评价'}
           </span>
           <span className="text-3xs text-gray-400 block">
-            {isLoggedIn ? '六维标准打分，可只打分' : '登录后参与评教与加分'}
+            {isLoggedIn ? '六维标准打分，可只打分' : '登录后参与反馈与加分'}
           </span>
         </button>
 
@@ -339,7 +341,7 @@ export const MobileUserProfile: React.FC<MobileUserProfileProps> = ({
 
         {!isLoggedIn ? (
           <div className="py-6 px-4 text-center bg-gray-50/50 rounded-2xl border border-gray-100 space-y-2">
-            <p className="text-xs text-gray-600 font-medium">登录后可查看您提交过的教师评价与审核进度</p>
+            <p className="text-xs text-gray-600 font-medium">登录后可查看您提交过的课堂反馈与审核进度</p>
             <button
               onClick={() => onOpenAuth('login')}
               className="px-4 py-1.5 bg-white border border-gray-200 hover:border-indigo-200 text-indigo-600 text-xs font-bold rounded-xl shadow-2xs"
@@ -350,7 +352,7 @@ export const MobileUserProfile: React.FC<MobileUserProfileProps> = ({
         ) : filteredMyReviews.length === 0 ? (
           <div className="py-6 text-center text-gray-400 text-xs">
             {reviewFilterTab === 'all'
-              ? '您尚未提交过教师评价。写一条评价并通过审核，即可获赠 20 积分！'
+              ? '您尚未提交过课堂反馈。写一条评价并通过审核，即可获赠 20 积分！'
               : `暂无状态为「${
                   reviewFilterTab === 'pending'
                     ? '审核中'
@@ -467,12 +469,12 @@ export const MobileUserProfile: React.FC<MobileUserProfileProps> = ({
       <div className="bg-gray-50/80 p-3.5 rounded-2xl border border-gray-100 text-2xs text-gray-500 space-y-1.5">
         <div className="flex items-center gap-1.5 font-bold text-gray-700">
           <Info className="w-3.5 h-3.5 text-indigo-600" />
-          <span>西南交大教师评价翻新说明</span>
+          <span>小石子数据说明</span>
         </div>
         <p className="leading-relaxed">
-          原公益打分网站自 2024 年起停更两年。本项目定位为「西南交通大学专属 Agent」，包含智能选课推荐、AI 自然语言问答、积分激励机制。
+          本应用只展示已导入并核对过的教师、课程与评价数据。没有真实数据时显示空状态，不以示例教师、默认评分或旧校数据代替。
         </p>
-        <p className="text-3xs text-gray-400">核心团队：2人（产品+技术协同）· 草案 v1</p>
+        <p className="text-3xs text-gray-400">学生共建 · 评价审核后公开 · 六维评分</p>
       </div>
     </div>
   );

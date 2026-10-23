@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-23",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "source": "课表/ 原始 XLS；官方学院教师列表/个人页或 CV",
+  "units": [
+    {
+      "path": "课表/化学化工学院/课表打印.xls",
+      "bytes": 108032,
+      "sha256": "64bd913b47aacc0396331aa2b059486af03bc1fb2b7e5de0f7f5fd2da9325ca0",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 化学化工学院  教研室课表",
+      "term": "2026-2027-1",
+      "sheets": [
+        {
+          "name": "Sheet4",
+          "rows": 9,
+          "cols": 256,
+          "headerRow": 3,
+          "blocks": 715,
+          "anomalies": []
+        }
+      ],
+      "slug": "chemistry",
+      "sourceUnit": "化学化工学院",
+      "collegeCode": "upc-03",
+      "rawBlocks": 715
+    },
+    {
+      "path": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+      "bytes": 108032,
+      "sha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 青岛软件学院计算机科学与技术学院  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "computer-software",
+      "sourceUnit": "青岛软件学院、计算机科学与技术学院",
+      "collegeCode": "upc-10",
+      "rawBlocks": 601
+    },
+    {
+      "path": "课表/控制科学与工程学院/课表打印.xls",
+      "bytes": 67584,
+      "sha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 控制科学与工程学院  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "control",
+      "sourceUnit": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "rawBlocks": 342
+    },
+    {
+      "path": "课表/地球科学与技术学院/课表打印.xls",
+      "bytes": 73728,
+      "sha256": "52c36077eab0b31e73788206884c9a62a86d27ff6665babe2f2a5115c97a6c4c",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 地球科学与技术学院  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "earth-science",
+      "sourceUnit": "地球科学与技术学院",
+      "collegeCode": "upc-01",
+      "rawBlocks": 382
+    },
+    {
+      "path": "课表/经济管理学院/课表打印 (1).xls",
+      "bytes": 142848,
+      "sha256": "f63cec51a55573f1e37931563fb6c3677de879786bbab9df5698b360c3a1a7fc",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 经济管理学院  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "economics-management",
+      "sourceUnit": "经济管理学院",
+      "collegeCode": "upc-11",
+      "rawBlocks": 924
+    },
+    {
+      "path": "课表/石油工业训练中心/课表打印.xls",
+      "bytes": 34816,
+      "sha256": "86426e2e9497d75c5c8211acc4a266facff4ffae9b9e4ee6231b57f1716b4419",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 石油工业训练中心  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "engineering-training",
+      "sourceUnit": "石油工业训练中心",
+      "collegeCode": "upc-17",
+      "rawBlocks": 81
+    },
+    {
+      "path": "课表/外国语学院/课表打印.xls",
+      "bytes": 105984,
+      "sha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 外国语学院  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "foreign-languages",
+      "sourceUnit": "外国语学院",
+      "collegeCode": "upc-13",
+      "rawBlocks": 665
+    },
+    {
+      "path": "课表/文法学院/课表打印.xls",
+      "bytes": 80896,
+      "sha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 文法学院  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "humanities-law",
+      "sourceUnit": "文法学院",
+      "collegeCode": "upc-14",
+      "rawBlocks": 468
+    },
+    {
+      "path": "课表/马克思主义学院/课表打印.xls",
+      "bytes": 172544,
+      "sha256": "f9d6a78351c2853367531677050fc1edb403868ad934d563ed25a688aee91a2c",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 马克思主义学院  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "marxism",
+      "sourceUnit": "马克思主义学院",
+      "collegeCode": "upc-15",
+      "rawBlocks": 976
+    },
+    {
+      "path": "课表/材料科学与工程学院/课表打印.xls",
+      "bytes": 74752,
+      "sha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 材料科学与工程学院  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "materials",
+      "sourceUnit": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "rawBlocks": 417
+    },
+    {
+      "path": "课表/机电工程学院/课表打印.xls",
+      "bytes": 97280,
+      "sha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 机电工程学院  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "mechanical-engineering",
+      "sourceUnit": "机电工程学院",
+      "collegeCode": "upc-04",
+      "rawBlocks": 586
+    },
+    {
+      "path": "课表/石大山能新能源学院/课表打印.xls",
+      "bytes": 73216,
+      "sha256": "e2a5f0d386bbfd55fe2e0661c6b0697e7e47284693349477c326a66f4ed96465",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 石大山能新能源学院  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "new-energy",
+      "sourceUnit": "石大山能新能源学院",
+      "collegeCode": "upc-07",
+      "rawBlocks": 410
+    },
+    {
+      "path": "课表/海洋与空间信息学院/课表打印.xls",
+      "bytes": 62976,
+      "sha256": "c1743632b288532fd72e513a5f8abd68bbb23b728130821d8694e95a1b9495fc",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 海洋与空间信息学院  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "ocean-space",
+      "sourceUnit": "海洋与空间信息学院",
+      "collegeCode": "upc-08",
+      "rawBlocks": 330
+    },
+    {
+      "path": "课表/石油工程学院/课表打印.xls",
+      "bytes": 103424,
+      "sha256": "866f916b549040e61d9cd7135e38f2b385215c6c6a6cce3d9e9ac881515b906b",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 石油工程学院  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "petroleum-engineering",
+      "sourceUnit": "石油工程学院",
+      "collegeCode": "upc-02",
+      "rawBlocks": 579
+    },
+    {
+      "path": "课表/体育教学部/课表打印.xls",
+      "bytes": 86016,
+      "sha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 体育教学部  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "physical-education",
+      "sourceUnit": "体育教学部",
+      "collegeCode": "upc-16",
+      "rawBlocks": 94
+    },
+    {
+      "path": "课表/理学院/课表打印.xls",
+      "bytes": 153600,
+      "sha256": "fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 理学院  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "science",
+      "sourceUnit": "理学院",
+      "collegeCode": "upc-12",
+      "rawBlocks": 889
+    },
+    {
+      "path": "课表/储运与建筑工程学院/课表打印 (1).xls",
+      "bytes": 89600,
+      "sha256": "2b9e40da52e8ef985372419e089f3d4ae12db7f0164a91a959b1895293d571bb",
+      "format": "BIFF8/OLE2",
+      "title": "中国石油大学（华东） 储运与建筑工程学院  教研室课表",
+      "term": "2026-2027-1",
+      "slug": "storage-civil",
+      "sourceUnit": "储运与建筑工程学院",
+      "collegeCode": "upc-05",
+      "rawBlocks": 521
+    }
+  ]
+}

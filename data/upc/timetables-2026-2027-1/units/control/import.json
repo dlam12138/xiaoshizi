@@ -1,0 +1,1291 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-control-2026-2027-1-timetable-20261023",
+  "source": "课表/控制科学与工程学院/课表打印.xls sha256:df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "auto-c17290-a308955",
+      "name": "丛琳",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL123211035",
+          "name": "线性系统理论",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17292-a451215",
+      "name": "于云华",
+      "title": "教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL210512100",
+          "name": "电工电子学(2-1)",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL211311020",
+          "name": "数字电子技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17292-a308986",
+      "name": "于清洋",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL211311020",
+          "name": "数字电子技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a315908",
+      "name": "于连栋",
+      "title": "教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL422311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a308959",
+      "name": "侯春望",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL110121020",
+          "name": "VisualC++语言及应用",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a308962",
+      "name": "刘伟锋",
+      "title": "教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL122611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a309797",
+      "name": "刘宝",
+      "title": "教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL121311020",
+          "name": "过程控制仪表与装置",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a308961",
+      "name": "刘宝弟",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL132741020",
+          "name": "机甲争霸：智能机器人入门与实践",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-004",
+      "name": "刘希臣",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL211421021",
+          "name": "科技创新教育",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a441857",
+      "name": "刘涛",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL421721020",
+          "name": "穿戴式生命体征监测",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL431011020",
+          "name": "精密机械设计",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a308971",
+      "name": "华陈权",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL410321020",
+          "name": "油气田自动化",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL421111020",
+          "name": "传感器与检测基础",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL429611041",
+          "name": "传感器与现代检测技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a470620",
+      "name": "吴浩廷",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL420121020",
+          "name": "DSP原理及应用",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-005",
+      "name": "吴荔清",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL210512100",
+          "name": "电工电子学(2-1)",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL215311030",
+          "name": "电路理论基础",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL219811031",
+          "name": "电路理论基础",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17292-a308988",
+      "name": "周兰娟",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0540299",
+          "name": "电工电子学一",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "0540399",
+          "name": "电工电子学（一）",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL210512100",
+          "name": "电工电子学(2-1)",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL211211025",
+          "name": "模拟电子技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-001",
+      "name": "周卫东",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL210111030",
+          "name": "电工电子学",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a470502",
+      "name": "孙玲玉",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL110411026",
+          "name": "程序设计（C/C++）",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a308963",
+      "name": "孟令雅",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL122511020",
+          "name": "现代控制理论",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL123811047",
+          "name": "自动控制原理",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-006",
+      "name": "廖明燕",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL410421020",
+          "name": "智能石油仪器",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL421521020",
+          "name": "工业分析仪表",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a385109",
+      "name": "张冰峰",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL122611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17292-a308987",
+      "name": "张勇",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL210111030",
+          "name": "电工电子学",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a424161",
+      "name": "张昕",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL129511030",
+          "name": "控制工程基础",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL421721020",
+          "name": "穿戴式生命体征监测",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a453871",
+      "name": "张晓东",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL120121020",
+          "name": "Python与科学计算",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL122511020",
+          "name": "现代控制理论",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL132741020",
+          "name": "机甲争霸：智能机器人入门与实践",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-002",
+      "name": "张欣",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL110621020",
+          "name": "机器人及运动控制系统",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL132741020",
+          "name": "机甲争霸：智能机器人入门与实践",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a480398",
+      "name": "张涛",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL431011020",
+          "name": "精密机械设计",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17292-a308984",
+      "name": "时海涛",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL210111030",
+          "name": "电工电子学",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17292-a309504",
+      "name": "曹玉苹",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL210512101",
+          "name": "电工电子学(2-1)",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL211211025",
+          "name": "模拟电子技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-007",
+      "name": "李哲",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL132741020",
+          "name": "机甲争霸：智能机器人入门与实践",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a308972",
+      "name": "李国林",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL422311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL422821026",
+          "name": "光电检测技术",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL428011021",
+          "name": "光学感知技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a470493",
+      "name": "李天宝",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL124011025",
+          "name": "化工仪表与自动化",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a441856",
+      "name": "李志帅",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL111221020",
+          "name": "物联网导论",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL121311020",
+          "name": "过程控制仪表与装置",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL124011025",
+          "name": "化工仪表与自动化",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-008",
+      "name": "李霞",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL210512101",
+          "name": "电工电子学(2-1)",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL211211025",
+          "name": "模拟电子技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17292-a443405",
+      "name": "柯伟",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL210622102",
+          "name": "电工电子学(2-1)",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL229911021",
+          "name": "电工与电子技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-009",
+      "name": "沈学锋",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL210111030",
+          "name": "电工电子学",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL210622102",
+          "name": "电工电子学(2-1)",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-010",
+      "name": "涂玲",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL124011025",
+          "name": "化工仪表与自动化",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL421111020",
+          "name": "传感器与检测基础",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL429611041",
+          "name": "传感器与现代检测技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-011",
+      "name": "潘浩",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL110211020",
+          "name": "测量仪表与自动化",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL124011025",
+          "name": "化工仪表与自动化",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL421111020",
+          "name": "传感器与检测基础",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a308977",
+      "name": "王伟亮",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL420121020",
+          "name": "DSP原理及应用",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c3976-a76878",
+      "name": "王宇红",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL122421020",
+          "name": "先进控制技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a308967",
+      "name": "王延江",
+      "title": "教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL122121020",
+          "name": "数字信号处理",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-012",
+      "name": "王心刚",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL211211025",
+          "name": "模拟电子技术",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL220311041",
+          "name": "电路与模拟电子技术",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL222331015",
+          "name": "走进电世界",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a308975",
+      "name": "王斌",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL110211020",
+          "name": "测量仪表与自动化",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL421321020",
+          "name": "电磁场与微波技术",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL429611041",
+          "name": "传感器与现代检测技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17292-a474986",
+      "name": "王月明",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL220311041",
+          "name": "电路与模拟电子技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-013",
+      "name": "王树彬",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL112121020",
+          "name": "系统辨识",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a308953",
+      "name": "王珺",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL122711020",
+          "name": "信号与系统",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a308969",
+      "name": "王维波",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL421821021",
+          "name": "嵌入式系统开发",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a308968",
+      "name": "王钊",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL122511020",
+          "name": "现代控制理论",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a382846",
+      "name": "王飞飞",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL220941021",
+          "name": "微纳制造技术",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL421721020",
+          "name": "穿戴式生命体征监测",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL423321020",
+          "name": "智能微系统",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL424121021",
+          "name": "微纳加工技术",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL429411020",
+          "name": "工程光学",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a308979",
+      "name": "盛立",
+      "title": "教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL123811047",
+          "name": "自动控制原理",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL129511030",
+          "name": "控制工程基础",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL422311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a308974",
+      "name": "石翔",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL420711020",
+          "name": "测试信号分析与处理",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL431421020",
+          "name": "测试信号分析与处理",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17292-a390970",
+      "name": "董炎",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL229911021",
+          "name": "电工与电子技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-014",
+      "name": "蒋仁福",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL211421021",
+          "name": "科技创新教育",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-015",
+      "name": "薄迎春",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL110411026",
+          "name": "程序设计（C/C++）",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-016",
+      "name": "贺利",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL210111030",
+          "name": "电工电子学",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-003",
+      "name": "赵学进",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL132741020",
+          "name": "机甲争霸：智能机器人入门与实践",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-017",
+      "name": "赵小明",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "STU021431010",
+          "name": "大学生绘画心理分析",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a308957",
+      "name": "邓晓刚",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL123211035",
+          "name": "线性系统理论",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL129811030",
+          "name": "半导体制造与过程控制基础",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a384122",
+      "name": "邢兰昌",
+      "title": "教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL420711020",
+          "name": "测试信号分析与处理",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL431421020",
+          "name": "测试信号分析与处理",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a470503",
+      "name": "郝梦男",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL110211020",
+          "name": "测量仪表与自动化",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL124011025",
+          "name": "化工仪表与自动化",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL129511030",
+          "name": "控制工程基础",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17292-a308982",
+      "name": "郭亮",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL210512100",
+          "name": "电工电子学(2-1)",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL211311020",
+          "name": "数字电子技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-018",
+      "name": "郭曙光",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL211211025",
+          "name": "模拟电子技术",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL211211030",
+          "name": "模拟电子技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a308980",
+      "name": "鄢志丹",
+      "title": "教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL122611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL420121020",
+          "name": "DSP原理及应用",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a308973",
+      "name": "陆洋",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL429411020",
+          "name": "工程光学",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a345294",
+      "name": "陈孝喆",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL220941021",
+          "name": "微纳制造技术",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL421721021",
+          "name": "传感器与检测基础",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL423321020",
+          "name": "智能微系统",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL424121021",
+          "name": "微纳加工技术",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL428011021",
+          "name": "光学感知技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a481084",
+      "name": "陈宁",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL122221020",
+          "name": "系统工程",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-09-019",
+      "name": "陈璨",
+      "title": null,
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL132741020",
+          "name": "机甲争霸：智能机器人入门与实践",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a308954",
+      "name": "陈鸿龙",
+      "title": "教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL111221020",
+          "name": "物联网导论",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL121311020",
+          "name": "过程控制仪表与装置",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL122611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL132741020",
+          "name": "机甲争霸：智能机器人入门与实践",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a470568",
+      "name": "韩沛秀",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL122511020",
+          "name": "现代控制理论",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL124011025",
+          "name": "化工仪表与自动化",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17293-a308993",
+      "name": "马士腾",
+      "title": "高级实验师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL211421021",
+          "name": "科技创新教育",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a308958",
+      "name": "高明",
+      "title": "教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL122511020",
+          "name": "现代控制理论",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL123811047",
+          "name": "自动控制原理",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL129511030",
+          "name": "控制工程基础",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a353328",
+      "name": "高睦志",
+      "title": "副教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL421321020",
+          "name": "电磁场与微波技术",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL429611041",
+          "name": "传感器与现代检测技术",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17291-a365243",
+      "name": "高荣科",
+      "title": "教授",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL422311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-09"
+        }
+      ]
+    },
+    {
+      "sourceId": "auto-c17290-a308964",
+      "name": "齐玉娟",
+      "title": "讲师",
+      "collegeCode": "upc-09",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CTL110411026",
+          "name": "程序设计（C/C++）",
+          "collegeCode": "upc-09"
+        },
+        {
+          "code": "CTL122711020",
+          "name": "信号与系统",
+          "collegeCode": "upc-09"
+        }
+      ]
+    }
+  ]
+}

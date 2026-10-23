@@ -1,0 +1,3855 @@
+{
+  "schemaVersion": 1,
+  "unit": "石油工程学院",
+  "collegeCode": "upc-02",
+  "candidates": [
+    {
+      "name": "严侠",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397099",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2019/1107/c20541a397099/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2019/1107/c20541a397099/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397099",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121811030",
+        "SPE138511030"
+      ],
+      "courseNames": [
+        "人工智能模型与算法",
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "付静",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20544-a397202",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0519/c20544a397202/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0519/c20544a397202/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20544-a397202",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE410511020",
+        "SPE410511030"
+      ],
+      "courseNames": [
+        "工程流体力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "侯健",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397079",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2017/0516/c20541a397079/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2017/0516/c20541a397079/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397079",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121811030"
+      ],
+      "courseNames": [
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "倪红坚",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397034",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0429/c20539a397034/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0429/c20539a397034/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397034",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111021020",
+        "SPE112011020"
+      ],
+      "courseNames": [
+        "石油工业与碳中和",
+        "钻井新技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "冯国强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397068",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20540a397068/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20540a397068/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397068",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE122711020"
+      ],
+      "courseNames": [
+        "天然气开采与安全"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘均荣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20547-a397224",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/0426/c20547a397224/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/0426/c20547a397224/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20547-a397224",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE421511020"
+      ],
+      "courseNames": [
+        "海洋油气作业管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘峻嵘",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20547-a395946",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2023/0301/c20547a395946/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2023/0301/c20547a395946/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20547-a395946",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE420721020"
+      ],
+      "courseNames": [
+        "海洋石油工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘德新",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397130",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/0716/c20542a397130/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/0716/c20542a397130/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397130",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE123011010",
+        "SPE124611020"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "油田化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘成文",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20544-a397195",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0519/c20544a397195/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0519/c20544a397195/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20544-a397195",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE410511030"
+      ],
+      "courseNames": [
+        "工程流体力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘拥赞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a451271",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2025/0226/c20540a451271/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2025/0226/c20540a451271/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a451271",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0212699",
+        "SPE111721020",
+        "SPE123011010",
+        "SPE133741027"
+      ],
+      "courseNames": [
+        "国际能源学术交流",
+        "新生研讨课",
+        "智能油气开采工程",
+        "油水井增产增注技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘敬平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397152",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2016/1213/c20542a397152/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2016/1213/c20542a397152/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397152",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE124611020",
+        "SPE125621020"
+      ],
+      "courseNames": [
+        "油田化学",
+        "钻井液工艺原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘树阳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20547-a397225",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2019/1112/c20547a397225/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2019/1112/c20547a397225/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20547-a397225",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE112011020",
+        "SPE137221020",
+        "SPE138941020",
+        "SPE410511020"
+      ],
+      "courseNames": [
+        "传热学",
+        "工程流体力学",
+        "油气人工智能概论",
+        "石油工业与碳中和"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘永旺",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397022",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/0413/c20539a397022/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/0413/c20539a397022/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397022",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE110421010",
+        "SPE114921020",
+        "SPE121621020",
+        "SPE123011010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "油气人工智能概论",
+        "清洁能源与储能技术",
+        "科技论文检索与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘玉泉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20544-a397200",
+      "title": "讲师",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0519/c20544a397200/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0519/c20544a397200/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20544-a397200",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE410111020"
+      ],
+      "courseNames": [
+        "高等流体力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘逸飞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397129",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2020/0907/c20542a397129/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2020/0907/c20542a397129/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397129",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111411020"
+      ],
+      "courseNames": [
+        "工程概论与HSE管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘陈伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397045",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/0308/c20540a397045/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/0308/c20540a397045/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397045",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111121020",
+        "SPE122711020",
+        "SPE521321020"
+      ],
+      "courseNames": [
+        "专业外语",
+        "多相管流理论与计算",
+        "天然气开采与安全"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吕开河",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397151",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20542a397151/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20542a397151/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397151",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE124611020"
+      ],
+      "courseNames": [
+        "油田化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吕爱民",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397121",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20541a397121/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20541a397121/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397121",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121811030"
+      ],
+      "courseNames": [
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴一宁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397145",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2017/1204/c20542a397145/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2017/1204/c20542a397145/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397145",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0230199"
+      ],
+      "courseNames": [
+        "油田化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴明录",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397108",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/0625/c20541a397108/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/0625/c20541a397108/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397108",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE122921020",
+        "SPE126521021",
+        "SPE138941020"
+      ],
+      "courseNames": [
+        "Matlab编程技术",
+        "油气人工智能概论",
+        "现代试井解释原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴飞鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397052",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/1108/c20540a397052/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/1108/c20540a397052/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397052",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111411020",
+        "SPE123011010"
+      ],
+      "courseNames": [
+        "工程概论与HSE管理",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周晓东",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-02-002",
+      "title": null,
+      "collegeCode": "upc-02",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "石油工程学院",
+        "sourceFile": "课表/石油工程学院/课表打印.xls",
+        "sourceSha256": "866f916b549040e61d9cd7135e38f2b385215c6c6a6cce3d9e9ac881515b906b",
+        "rawNames": [
+          "周晓东"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SPE113412200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周童",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397070",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0320/c20540a397070/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0320/c20540a397070/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397070",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111411020",
+        "SPE112011020",
+        "SPE132721020",
+        "SPE138941020"
+      ],
+      "courseNames": [
+        "工程概论与HSE管理",
+        "有杆抽油系统与智能调控",
+        "油气人工智能概论",
+        "石油工业与碳中和"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姚传进",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397096",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2019/0104/c20541a397096/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2019/0104/c20541a397096/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397096",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE114921020",
+        "SPE121811030",
+        "SPE123011010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "油气人工智能概论",
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姚军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397117",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0429/c20541a397117/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0429/c20541a397117/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397117",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE123011010",
+        "SPE134711020"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "高等渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姚同玉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397127",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2013/0812/c20541a397127/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2013/0812/c20541a397127/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397127",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111221020",
+        "SPE124411037",
+        "SPE133641020"
+      ],
+      "courseNames": [
+        "气藏工程",
+        "油层物理",
+        "油气田开发基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙仁远",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397119",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0429/c20541a397119/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0429/c20541a397119/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397119",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0210599",
+        "SPE124111025"
+      ],
+      "courseNames": [
+        "气藏工程",
+        "油层物理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙文跃",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20547-a397222",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2023/0216/c20547a397222/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2023/0216/c20547a397222/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20547-a397222",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE114921020"
+      ],
+      "courseNames": [
+        "油气人工智能概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙明波",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397164",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0516/c20542a397164/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0516/c20542a397164/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397164",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121111030",
+        "SPE124611020"
+      ],
+      "courseNames": [
+        "油田化学",
+        "胶体界面化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙晓飞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397106",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/0404/c20541a397106/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/0404/c20541a397106/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397106",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121811030"
+      ],
+      "courseNames": [
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙永鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397135",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2017/1205/c20542a397135/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2017/1205/c20542a397135/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397135",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0230399"
+      ],
+      "courseNames": [
+        "提高采收率原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙海",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397091",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2017/0414/c20541a397091/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2017/0414/c20541a397091/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397091",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121811030",
+        "SPE123011010",
+        "SPE134711020"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "渗流力学",
+        "高等渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙致学",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397087",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2017/1113/c20541a397087/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2017/1113/c20541a397087/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397087",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE124311025"
+      ],
+      "courseNames": [
+        "油气田开发工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋洵成",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397039",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20539a397039/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20539a397039/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397039",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111021020",
+        "SPE133941027",
+        "SPE521321020"
+      ],
+      "courseNames": [
+        "专业外语",
+        "智能钻完井工程",
+        "钻井新技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宫厚健",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397149",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/0426/c20542a397149/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/0426/c20542a397149/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397149",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0201499",
+        "SPE110821020",
+        "SPE121111030",
+        "SPE124821020"
+      ],
+      "courseNames": [
+        "油气田环境保护",
+        "油田污水处理",
+        "石油工程HSE",
+        "胶体界面化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "尹邦堂",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20544-a397189",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2017/1129/c20544a397189/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2017/1129/c20544a397189/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20544-a397189",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE438711020"
+      ],
+      "courseNames": [
+        "工程概论与HSE管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "崔传智",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397085",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2019/0109/c20541a397085/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2019/0109/c20541a397085/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397085",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE123011010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "庞学玉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397008",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2018/1219/c20539a397008/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2018/1219/c20539a397008/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397008",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE110421010",
+        "SPE121221020",
+        "SPE123211020"
+      ],
+      "courseNames": [
+        "固井理论与技术",
+        "岩石力学",
+        "科技论文检索与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "廖华林",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397010",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20539a397010/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20539a397010/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397010",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE123011010",
+        "SPE123211020"
+      ],
+      "courseNames": [
+        "岩石力学",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张丽媛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397131",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2021/1123/c20542a397131/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2021/1123/c20542a397131/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397131",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0231499",
+        "SPE137221020"
+      ],
+      "courseNames": [
+        "传热学",
+        "应用物理化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20547-a401884",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2023/0425/c20547a401884/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2023/0425/c20547a401884/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20547-a401884",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0212199",
+        "SPE137221020",
+        "SPE520311020"
+      ],
+      "courseNames": [
+        "传热学",
+        "地下储碳储能数值模拟方法",
+        "油藏数值模拟基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张剑波",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20544-a397537",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2023/0309/c20544a397537/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2023/0309/c20544a397537/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20544-a397537",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE420721020",
+        "SPE421821020"
+      ],
+      "courseNames": [
+        "海洋石油工程",
+        "深水油气开发概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张卫东",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397033",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0429/c20539a397033/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0429/c20539a397033/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397033",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111411020",
+        "SPE112011020",
+        "SPE122121020",
+        "SPE122121030",
+        "SPE131131020"
+      ],
+      "courseNames": [
+        "中外石油文化",
+        "工程概论与HSE管理",
+        "石油工业与碳中和",
+        "石油工业概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张浩",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-02-003",
+      "title": null,
+      "collegeCode": "upc-02",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "石油工程学院",
+        "sourceFile": "课表/石油工程学院/课表打印.xls",
+        "sourceSha256": "866f916b549040e61d9cd7135e38f2b385215c6c6a6cce3d9e9ac881515b906b",
+        "rawNames": [
+          "张浩"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SPE113412200",
+        "SPE438912200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397111",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2017/0925/c20541a397111/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2017/0925/c20541a397111/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397111",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE124111025"
+      ],
+      "courseNames": [
+        "油层物理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张纪远",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397100",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2019/1108/c20541a397100/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2019/1108/c20541a397100/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397100",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE124411037"
+      ],
+      "courseNames": [
+        "油气田开发基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张锐",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397020",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20539a397020/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20539a397020/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397020",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE123011010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张黎明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397054",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2017/1129/c20540a397054/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2017/1129/c20540a397054/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397054",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111121020",
+        "SPE123011010",
+        "SPE138511030"
+      ],
+      "courseNames": [
+        "人工智能模型与算法",
+        "多相管流理论与计算",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐加放",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20544-a397188",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/0719/c20544a397188/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/0719/c20544a397188/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20544-a397188",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE123011010",
+        "SPE411011030",
+        "SPE421211030",
+        "SPE422111010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "海洋油气井工作液及环保",
+        "海洋油气化学工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐建春",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20547-a397226",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2017/1204/c20547a397226/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2017/1204/c20547a397226/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20547-a397226",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE114921020",
+        "SPE421021020",
+        "SPE421821020"
+      ],
+      "courseNames": [
+        "油气人工智能概论",
+        "海洋油气测试技术",
+        "深水油气开发概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "戴彩丽",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397134",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2019/0118/c20542a397134/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2019/0118/c20542a397134/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397134",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE124611020"
+      ],
+      "courseNames": [
+        "油田化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曹杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397154",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/1228/c20542a397154/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/1228/c20542a397154/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397154",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111411020"
+      ],
+      "courseNames": [
+        "工程概论与HSE管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱丽红",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397028",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2017/1129/c20539a397028/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2017/1129/c20539a397028/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397028",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0211299",
+        "SPE111411020"
+      ],
+      "courseNames": [
+        "岩石力学",
+        "工程概论与HSE管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李亚军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397075",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/0116/c20541a397075/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/0116/c20541a397075/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397075",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0212199",
+        "SPE121811030"
+      ],
+      "courseNames": [
+        "油藏数值模拟基础",
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李宾飞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397059",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20540a397059/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20540a397059/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397059",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121421021",
+        "SPE122711020",
+        "SPE123011010"
+      ],
+      "courseNames": [
+        "天然气开采与安全",
+        "新生研讨课",
+        "泡沫理论与采油技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李明川",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397101",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2019/0108/c20541a397101/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2019/0108/c20541a397101/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397101",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121811030",
+        "SPE124311025"
+      ],
+      "courseNames": [
+        "油气田开发工程",
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李松岩",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397055",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20540a397055/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20540a397055/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397055",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121421021",
+        "SPE123011010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "泡沫理论与采油技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李淑霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397194",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20541a397194/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20541a397194/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397194",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121811030"
+      ],
+      "courseNames": [
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李爱华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20544-a397204",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0519/c20544a397204/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0519/c20544a397204/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20544-a397204",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE410511030"
+      ],
+      "courseNames": [
+        "工程流体力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李琳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397147",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2017/1204/c20542a397147/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2017/1204/c20542a397147/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397147",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE124611020"
+      ],
+      "courseNames": [
+        "油田化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李美春",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397133",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2022/0901/c20542a397133/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2022/0901/c20542a397133/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397133",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE112011020",
+        "SPE124611020"
+      ],
+      "courseNames": [
+        "油田化学",
+        "石油工业与碳中和"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李蕾",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397090",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2020/0304/c20541a397090/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2020/0304/c20541a397090/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397090",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111721020",
+        "SPE121811030"
+      ],
+      "courseNames": [
+        "国际能源学术交流",
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杜庆军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397082",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2017/1204/c20541a397082/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2017/1204/c20541a397082/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397082",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121811030"
+      ],
+      "courseNames": [
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杜殿发",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397126",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20541a397126/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20541a397126/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397126",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE110621020",
+        "SPE111411020",
+        "SPE121811030",
+        "SPE123011010"
+      ],
+      "courseNames": [
+        "工程概论与HSE管理",
+        "新生研讨课",
+        "渗流力学",
+        "石油工程概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨永飞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397098",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2018/0510/c20541a397098/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2018/0510/c20541a397098/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397098",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0210599",
+        "SPE121811030"
+      ],
+      "courseNames": [
+        "气藏工程",
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨琪硕",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-02-004",
+      "title": null,
+      "collegeCode": "upc-02",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "石油工程学院",
+        "sourceFile": "课表/石油工程学院/课表打印.xls",
+        "sourceSha256": "866f916b549040e61d9cd7135e38f2b385215c6c6a6cce3d9e9ac881515b906b",
+        "rawNames": [
+          "杨琪硕"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SPE113412200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨红斌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397136",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/1214/c20542a397136/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/1214/c20542a397136/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397136",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0230399",
+        "SPE136741020"
+      ],
+      "courseNames": [
+        "提高采收率原理",
+        "石油工业与碳中和"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "樊冬艳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397104",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2017/1129/c20541a397104/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2017/1129/c20541a397104/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397104",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111221020",
+        "SPE121811030",
+        "SPE138941020"
+      ],
+      "courseNames": [
+        "气藏工程",
+        "油气人工智能概论",
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "江琳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397163",
+      "title": "讲师",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0516/c20542a397163/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0516/c20542a397163/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397163",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0201499",
+        "0230199",
+        "0230499",
+        "SPE124611020",
+        "SPE125621020"
+      ],
+      "courseNames": [
+        "油气层保护技术",
+        "油田化学",
+        "石油工程HSE",
+        "钻井液工艺原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王业飞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397142",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2019/0301/c20542a397142/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2019/0301/c20542a397142/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397142",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE124611020"
+      ],
+      "courseNames": [
+        "油田化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王京印",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397044",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2013/0821/c20539a397044/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2013/0821/c20539a397044/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397044",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111411020",
+        "SPE123211020",
+        "SPE123321020"
+      ],
+      "courseNames": [
+        "岩石力学",
+        "工程概论与HSE管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王卫阳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397073",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2013/0820/c20540a397073/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2013/0820/c20540a397073/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397073",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111121020",
+        "SPE122711020",
+        "SPE123011010",
+        "SPE133741027"
+      ],
+      "courseNames": [
+        "多相管流理论与计算",
+        "天然气开采与安全",
+        "新生研讨课",
+        "智能油气开采工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王子振",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397009",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/1220/c20539a397009/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/1220/c20539a397009/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397009",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE112011020",
+        "SPE123011010",
+        "SPE539061021"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "石油工业与碳中和"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王富华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397162",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0519/c20542a397162/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0519/c20542a397162/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397162",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111411020",
+        "SPE112011020"
+      ],
+      "courseNames": [
+        "工程概论与HSE管理",
+        "石油工业与碳中和"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王建忠",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397088",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2019/0301/c20541a397088/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2019/0301/c20541a397088/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397088",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121811030"
+      ],
+      "courseNames": [
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王彦玲",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397169",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20542a397169/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20542a397169/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397169",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE110821020",
+        "SPE124821020"
+      ],
+      "courseNames": [
+        "油气田环境保护",
+        "油田污水处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王文东",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c20541-a397076",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "https://pe.upc.edu.cn/2018/1220/c20541a397076/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_profile_cross_listed_same_identity",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/1220/c20541a397076/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院",
+          "石油工程学院"
+        ],
+        "sourceId": "geori-c20541-a397076",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE520311020",
+        "SPE521011010"
+      ],
+      "courseNames": [
+        "地下储碳储能数值模拟方法",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王明波",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397037",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20539a397037/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20539a397037/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397037",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111721020",
+        "SPE111921020"
+      ],
+      "courseNames": [
+        "国际能源学术交流",
+        "水射流理论与应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王晓璞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20547-a397223",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2019/0109/c20547a397223/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2019/0109/c20547a397223/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20547-a397223",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE410421020",
+        "SPE411011030",
+        "SPE421211030"
+      ],
+      "courseNames": [
+        "流体力学模拟与实验",
+        "海洋油气井工作液及环保",
+        "海洋油气化学工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王森",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c20541-a397086",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "https://pe.upc.edu.cn/2018/0922/c20541a397086/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_profile_cross_listed_same_identity",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/0922/c20541a397086/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院",
+          "石油工程学院"
+        ],
+        "sourceId": "geori-c20541-a397086",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE123011010",
+        "SPE124411037"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "油气田开发基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王腾",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20543-a397174",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0427/c20543a397174/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0427/c20543a397174/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20543-a397174",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE410611020"
+      ],
+      "courseNames": [
+        "海洋平台与工程环境"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王金堂",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397148",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2018/1211/c20542a397148/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2018/1211/c20542a397148/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397148",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE112011020",
+        "SPE123011010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "石油工业与碳中和"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王静",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-02-001",
+      "title": null,
+      "collegeCode": "upc-02",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "石油工程学院",
+        "sourceFile": "课表/石油工程学院/课表打印.xls",
+        "sourceSha256": "866f916b549040e61d9cd7135e38f2b385215c6c6a6cce3d9e9ac881515b906b",
+        "rawNames": [
+          "王静"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SPE113412200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "田伟兵",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a443805",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2024/1025/c20541a443805/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2024/1025/c20541a443805/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a443805",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE124411037"
+      ],
+      "courseNames": [
+        "油气田开发基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "白英睿",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397132",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/1213/c20542a397132/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/1213/c20542a397132/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397132",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE123011010",
+        "SPE124611020"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "油田化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "白莉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20543-a397260",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2023/0307/c20543a397260/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2023/0307/c20543a397260/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20543-a397260",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE132421020"
+      ],
+      "courseNames": [
+        "油气高效完井技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "罗明良",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397049",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2019/0114/c20540a397049/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2019/0114/c20540a397049/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397049",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE122711020",
+        "SPE123011010"
+      ],
+      "courseNames": [
+        "天然气开采与安全",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "范海军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397107",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2019/0109/c20541a397107/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2019/0109/c20541a397107/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397107",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE124311025"
+      ],
+      "courseNames": [
+        "油气田开发工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "葛际江",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397172",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2016/0428/c20542a397172/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2016/0428/c20542a397172/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397172",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE124611020"
+      ],
+      "courseNames": [
+        "油田化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "董长银",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397057",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20540a397057/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20540a397057/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397057",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE122711020",
+        "SPE123011010",
+        "SPE132421020",
+        "SPE134311020"
+      ],
+      "courseNames": [
+        "天然气开采与安全",
+        "新生研讨课",
+        "油气高效完井举升理论与技术",
+        "油气高效完井技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "薛建泉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397072",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2015/0416/c20540a397072/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2015/0416/c20540a397072/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397072",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE133321020"
+      ],
+      "courseNames": [
+        "天然气开采与安全"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "袁彬",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397093",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2020/1223/c20541a397093/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2020/1223/c20541a397093/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397093",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121811030"
+      ],
+      "courseNames": [
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "许玉强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397015",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2018/1211/c20539a397015/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2018/1211/c20539a397015/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397015",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE123011010",
+        "SPE123211020"
+      ],
+      "courseNames": [
+        "岩石力学",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "谷建伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397083",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20541a397083/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20541a397083/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397083",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE123011010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "贾寒",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397137",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/0914/c20542a397137/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/0914/c20542a397137/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397137",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE113412200",
+        "SPE123011010",
+        "SPE124611020",
+        "SPE521011010"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）",
+        "新生研讨课",
+        "油田化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵光",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397141",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/1212/c20542a397141/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/1212/c20542a397141/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397141",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE123011010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵明伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397146",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2016/0516/c20542a397146/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2016/0516/c20542a397146/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397146",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0201499",
+        "SPE123011010",
+        "SPE124611020"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "油田化学",
+        "石油工程HSE"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵欣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397128",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/1227/c20542a397128/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/1227/c20542a397128/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397128",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111411020"
+      ],
+      "courseNames": [
+        "工程概论与HSE管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郑俊杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a450133",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2025/0108/c20542a450133/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2025/0108/c20542a450133/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a450133",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE112011020",
+        "SPE136741020"
+      ],
+      "courseNames": [
+        "石油工业与碳中和"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭天魁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397047",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2019/0222/c20540a397047/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2019/0222/c20540a397047/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397047",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE122711020"
+      ],
+      "courseNames": [
+        "天然气开采与安全"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭胜来",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397011",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/1130/c20539a397011/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/1130/c20539a397011/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397011",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121221020",
+        "SPE123011010"
+      ],
+      "courseNames": [
+        "固井理论与技术",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "金业权",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397042",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0322/c20539a397042/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0322/c20539a397042/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397042",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE123211020"
+      ],
+      "courseNames": [
+        "岩石力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "金家锋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397143",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2021/0908/c20542a397143/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2021/0908/c20542a397143/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397143",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0231499"
+      ],
+      "courseNames": [
+        "应用物理化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "钟俊杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397078",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2021/0112/c20541a397078/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2021/0112/c20541a397078/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397078",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE137221020"
+      ],
+      "courseNames": [
+        "传热学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "钟杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20544-a397190",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2022/0318/c20544a397190/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2022/0318/c20544a397190/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20544-a397190",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE422111010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "闫传梁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397018",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2019/0305/c20539a397018/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2019/0305/c20539a397018/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397018",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE123011010",
+        "SPE123211020"
+      ],
+      "courseNames": [
+        "岩石力学",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈付真",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20541-a397125",
+      "title": "讲师",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20541a397125/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20541a397125/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20541-a397125",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0210899",
+        "SPE521321020"
+      ],
+      "courseNames": [
+        "专业外语",
+        "渗流力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈德春",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397058",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2016/0711/c20540a397058/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2016/0711/c20540a397058/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397058",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE110621020",
+        "SPE122711020",
+        "SPE123011010",
+        "SPE132721020",
+        "SPE134311020"
+      ],
+      "courseNames": [
+        "天然气开采与安全",
+        "新生研讨课",
+        "有杆抽油系统与智能调控",
+        "油气高效完井举升理论与技术",
+        "石油工程概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈泽华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397016",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "http://pe.upc.edu.cn/2021/1203/c20539a397016/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://pe.upc.edu.cn/2021/1203/c20539a397016/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397016",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE112011020",
+        "SPE125421020"
+      ],
+      "courseNames": [
+        "石油工业与碳中和",
+        "钻井地质环境描述"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈立涛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20544-a397184",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2017/1129/c20544a397184/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2017/1129/c20544a397184/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20544-a397184",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE438711020"
+      ],
+      "courseNames": [
+        "工程概论与HSE管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈铭",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397046",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2020/0904/c20540a397046/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2020/0904/c20540a397046/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397046",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111411020"
+      ],
+      "courseNames": [
+        "工程概论与HSE管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "隋义勇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20540-a397051",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2018/0308/c20540a397051/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2018/0308/c20540a397051/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20540-a397051",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE133321020"
+      ],
+      "courseNames": [
+        "天然气开采与安全"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "韩忠英",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397023",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2019/0109/c20539a397023/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2019/0109/c20539a397023/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397023",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE123211020"
+      ],
+      "courseNames": [
+        "岩石力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "高慧",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20544-a397199",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0519/c20544a397199/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0519/c20544a397199/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20544-a397199",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE410511020"
+      ],
+      "courseNames": [
+        "工程流体力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "高永海",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20544-a397193",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0519/c20544a397193/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0519/c20544a397193/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20544-a397193",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE422111010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "鲍丙生",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20545-a397218",
+      "title": "讲师",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0320/c20545a397218/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0320/c20545a397218/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20545-a397218",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE110621020"
+      ],
+      "courseNames": [
+        "石油工程概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黄勇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397030",
+      "title": "讲师",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0516/c20539a397030/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0516/c20539a397030/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397030",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE121621020",
+        "SPE123211020"
+      ],
+      "courseNames": [
+        "岩石力学",
+        "清洁能源与储能技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黄根炉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20539-a397036",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20539a397036/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0428/c20539a397036/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20539-a397036",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE110221020"
+      ],
+      "courseNames": [
+        "定向钻井理论与技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黄维安",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397150",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2016/0516/c20542a397150/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2016/0516/c20542a397150/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397150",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE111411020",
+        "SPE123011010",
+        "SPE124221020",
+        "SPE124611020"
+      ],
+      "courseNames": [
+        "工程概论与HSE管理",
+        "新生研讨课",
+        "油气层保护技术",
+        "油田化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黄贤斌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a397140",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2019/1029/c20542a397140/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2019/1029/c20542a397140/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/gccrc_20275/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a397140",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE112011020",
+        "SPE539061021"
+      ],
+      "courseNames": [
+        "石油工业与碳中和"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黎剑",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "pe-c20542-a425310",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "profileUrl": "https://pe.upc.edu.cn/2024/0313/c20542a425310/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://pe.upc.edu.cn/2024/0313/c20542a425310/page.htm",
+        "listUrl": "https://pe.upc.edu.cn/jsml_20276/list.htm",
+        "listedUnits": [
+          "石油工程学院"
+        ],
+        "sourceId": "pe-c20542-a425310",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE112011020",
+        "SPE124221020"
+      ],
+      "courseNames": [
+        "油气层保护技术",
+        "石油工业与碳中和"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

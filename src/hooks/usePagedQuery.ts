@@ -65,7 +65,7 @@ function requestPage<T>(id: string, run: (signal: AbortSignal) => Promise<DataPa
  * Drop cached pages so the next visit reloads. Call after a mutation that changes
  * what a list should contain; with no argument the whole cache is cleared.
  * Passing a query signature clears just that list, e.g.
- * `clearPagedQueryCache(JSON.stringify({ query: '', collegeId: 'all', onlyThisTerm: false, sortBy: 'overall' }))`.
+ * `clearPagedQueryCache(JSON.stringify({ query: '', collegeId: 'all', onlyThisTerm: false }))`.
  */
 export function clearPagedQueryCache(key?: string) {
   if (key === undefined) { cache.clear(); return; }

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-public-directory-2026-2027-1",
+  "generatedAt": "2026-10-23T13:05:09.854Z",
+  "scope": "Public teacher/course/offering directory for local acceptance.",
+  "counts": {
+    "colleges": 17,
+    "terms": 1,
+    "teachers": 1555,
+    "courses": 1342,
+    "offerings": 2946,
+    "importBatches": 44
+  },
+  "files": {
+    "colleges.json": "0b1a39da2d5e9177cc887cb8672e2dda13cb6b9a6455421bf9df6ab531c6bcbd",
+    "terms.json": "83d150abd0dcae0a82daf76d6e76559efef843a0f3151496df6e49c98cb888c5",
+    "teachers.json": "66eb4b420c4e59cf78fa1c406d4e9d0eba6db3c6267b4ec2b8259c7214092d33",
+    "courses.json": "ade7be56eea1653c2e282318090e50c4076c8ba0de5ed2554131fa4aa55d742a",
+    "course-offerings.json": "f840ab05c93b1908d0a9d2b63507a5cb131df94b0a4aed4109e9bcab4acb9fba",
+    "import-batches.json": "ea6ed3080413cb9582a93330b13480bcf9aefa76624b788b30d5732b5b94cf9c"
+  },
+  "sourceData": [
+    "data/upc/colleges.json",
+    "data/upc/chemistry-2026-2027-1/import.json",
+    "data/upc/timetables-2026-2027-1/units/*/import.json",
+    "data/upc/timetables-2026-2027-1/import-all.json",
+    "scripts/upc-timetable/"
+  ],
+  "sanitization": {
+    "includes": [
+      "public teacher names and public academic identities",
+      "course codes/names",
+      "college/term identifiers",
+      "teacher-course-term relations",
+      "sanitized import counts and hashes"
+    ],
+    "excludes": [
+      "auth.users and passwords/sessions",
+      "admin_users and service_role keys",
+      "user_profiles/points/transactions",
+      "reviews and review text",
+      "review_likes",
+      "imported_by user IDs",
+      "database dumps",
+      "browser state and local logs",
+      "personal phone/email/contact details",
+      "machine absolute paths"
+    ]
+  },
+  "rebuild": {
+    "schema": "supabase/upc-init.sql",
+    "import": "npm run data:import -- data/upc/chemistry-2026-2027-1/import.json"
+  }
+}

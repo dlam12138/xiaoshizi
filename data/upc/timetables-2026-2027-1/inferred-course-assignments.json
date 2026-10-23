@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-23",
+  "policy": {
+    "officialConfirmationRequiredForLabel": false,
+    "method": "research direction + official main courses + timetable cohort/class context",
+    "status": "inferred/correctable, not official confirmation",
+    "sourceOfTruth": "scripts/upc-timetable/same-name-reconciliation.json"
+  },
+  "entries": [
+    {
+      "sourceUnit": "海洋与空间信息学院",
+      "name": "李莉",
+      "sourceId": "ocean-c15436-a224962",
+      "courseCodes": [
+        "OSI225711020"
+      ],
+      "method": "research_direction_plus_timetable_cohort",
+      "confidence": "medium",
+      "officialConfirmation": false,
+      "correctable": true,
+      "basis": [
+        "all six timetable blocks are for 通信2501/2502/2503 classes",
+        "canonical profile c15436 is 通信工程系; c15435 is 电子信息工程系",
+        "c15436 research is wireless resource optimization and ad-hoc communication networks",
+        "c15435 research/main courses are ML, pattern recognition, microcomputer and Linux",
+        "离散数学 is a communication-program foundational course; the cohort/department evidence is stronger than generic subject similarity"
+      ],
+      "evidence": {
+        "classCohorts": [
+          "通信2501",
+          "通信2502",
+          "通信2503"
+        ],
+        "sourceBlocks": 6,
+        "profileDepartment": "通信工程系",
+        "profileMainCourses": [
+          "信息论与编码",
+          "光纤通信",
+          "数字逻辑电路",
+          "通信电子实习",
+          "移动通信",
+          "通信网理论"
+        ],
+        "profileResearch": [
+          "无线资源优化",
+          "无人机无人船自动组网通信"
+        ]
+      },
+      "alternativeSourceId": "ocean-c15435-a225012"
+    },
+    {
+      "sourceUnit": "理学院",
+      "name": "王艳",
+      "sourceId": "sci-c6933-a96030",
+      "courseCodes": [
+        "SCC211021020",
+        "SCC211111020"
+      ],
+      "method": "research_direction_plus_course_context",
+      "confidence": "low-medium",
+      "officialConfirmation": false,
+      "correctable": true,
+      "basis": [
+        "c6933 research is biological mathematics and stochastic infectious-disease models, directly probability/stochastic",
+        "c6909 research is game theory and its listed main course is mathematical analysis",
+        "both probability codes are taught by 王艳 with broad engineering/AI/measurement cohorts; the timetable classes do not distinguish the two profiles",
+        "the stochastic-model research is closer to probability than game theory, but this remains a tentative inference"
+      ],
+      "evidence": {
+        "classCohorts": [
+          "石工(双学位)",
+          "光电",
+          "人工智能",
+          "智能科学",
+          "测控",
+          "智能感知"
+        ],
+        "sourceBlocks": 22,
+        "c6933Research": "生物数学、随机传染病模型",
+        "c6909Research": "博弈理论、数学分析",
+        "officialMainCoursesDoNotListProbability": true
+      },
+      "alternativeSourceId": "sci-c6909-a96262"
+    }
+  ]
+}

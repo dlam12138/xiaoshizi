@@ -1,0 +1,3220 @@
+{
+  "schemaVersion": 1,
+  "unit": "经济管理学院",
+  "collegeCode": "upc-11",
+  "candidates": [
+    {
+      "name": "丁红燕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-ea93386a-79ea-412d-b993-ec5b3d438ba9",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/1d/63/a373adbe48b6a72f575d98ac0e92/ea93386a-79ea-412d-b993-ec5b3d438ba9.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/1d/63/a373adbe48b6a72f575d98ac0e92/ea93386a-79ea-412d-b993-ec5b3d438ba9.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-ea93386a-79ea-412d-b993-ec5b3d438ba9",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM320911036"
+      ],
+      "courseNames": [
+        "高级财务会计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "于莎莎",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-1bd66041-ae4f-4d44-a3dd-4d1d75990be2",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/b8/0f/9f9f0ed84f44ab14e5f318f952b0/1bd66041-ae4f-4d44-a3dd-4d1d75990be2.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/b8/0f/9f9f0ed84f44ab14e5f318f952b0/1bd66041-ae4f-4d44-a3dd-4d1d75990be2.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-1bd66041-ae4f-4d44-a3dd-4d1d75990be2",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM110311020"
+      ],
+      "courseNames": [
+        "技术经济学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "付代红",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-1e9ebb5c-f635-4fc1-978a-3439f3bf4ac8",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/0e/b9/0e4bda434bec936a3d6a7c193b21/1e9ebb5c-f635-4fc1-978a-3439f3bf4ac8.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/0e/b9/0e4bda434bec936a3d6a7c193b21/1e9ebb5c-f635-4fc1-978a-3439f3bf4ac8.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-1e9ebb5c-f635-4fc1-978a-3439f3bf4ac8",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM224911020"
+      ],
+      "courseNames": [
+        "创业基础与实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "付峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-1aede01e-a6df-4046-bc43-8a4f4f89df32",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/b0/04/463944dd459abc03c12334cce950/1aede01e-a6df-4046-bc43-8a4f4f89df32.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/b0/04/463944dd459abc03c12334cce950/1aede01e-a6df-4046-bc43-8a4f4f89df32.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-1aede01e-a6df-4046-bc43-8a4f4f89df32",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM121011031",
+        "SEM234311020"
+      ],
+      "courseNames": [
+        "创新创业基础与实践",
+        "工程项目管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "付芳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-bdf974a2-2ae9-4b3d-a868-3166f22c9e98",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/89/c0/c7f35d4341069f48cd91559e819d/bdf974a2-2ae9-4b3d-a868-3166f22c9e98.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/89/c0/c7f35d4341069f48cd91559e819d/bdf974a2-2ae9-4b3d-a868-3166f22c9e98.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-bdf974a2-2ae9-4b3d-a868-3166f22c9e98",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM110121020"
+      ],
+      "courseNames": [
+        "工程项目管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "何立华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-b62b4d48-10b4-4043-8b5b-f82f88046139",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/ac/51/2b9b5fa24cba891ca5d2f569605d/b62b4d48-10b4-4043-8b5b-f82f88046139.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/ac/51/2b9b5fa24cba891ca5d2f569605d/b62b4d48-10b4-4043-8b5b-f82f88046139.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-b62b4d48-10b4-4043-8b5b-f82f88046139",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM125321020",
+        "SEM125411030"
+      ],
+      "courseNames": [
+        "工程施工技术与组织",
+        "绿色建筑与可持续发展"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "冯磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-a60cbdc1-189e-4fe9-aa75-ab58880b855d",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/75/ec/023b184849e69a9f5f7f7061c7fa/a60cbdc1-189e-4fe9-aa75-ab58880b855d.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/75/ec/023b184849e69a9f5f7f7061c7fa/a60cbdc1-189e-4fe9-aa75-ab58880b855d.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-a60cbdc1-189e-4fe9-aa75-ab58880b855d",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM224911020",
+        "SEM234311020",
+        "SEM410221020"
+      ],
+      "courseNames": [
+        "创业基础与实践",
+        "创新创业基础与实践",
+        "管理学基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘丙泉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-ce24c77d-c3aa-451c-b3c3-2e70ba46803b",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/64/cd/c73e5f574c31acf06e80ba5cb544/ce24c77d-c3aa-451c-b3c3-2e70ba46803b.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/64/cd/c73e5f574c31acf06e80ba5cb544/ce24c77d-c3aa-451c-b3c3-2e70ba46803b.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-ce24c77d-c3aa-451c-b3c3-2e70ba46803b",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM222511020"
+      ],
+      "courseNames": [
+        "信息资源管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘宗明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-8e572493-cac4-47de-a7e1-5d428b1d90d6",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/72/1b/dc07c3fc454a867567a1edffd83e/8e572493-cac4-47de-a7e1-5d428b1d90d6.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/72/1b/dc07c3fc454a867567a1edffd83e/8e572493-cac4-47de-a7e1-5d428b1d90d6.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-8e572493-cac4-47de-a7e1-5d428b1d90d6",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM531511030"
+      ],
+      "courseNames": [
+        "中级计量经济学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘广生",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-02517d70-6c2f-4dde-81f0-9e346d6ec7d0",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/b8/f4/d923ca114057bafc5fb668b2f6ab/02517d70-6c2f-4dde-81f0-9e346d6ec7d0.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/b8/f4/d923ca114057bafc5fb668b2f6ab/02517d70-6c2f-4dde-81f0-9e346d6ec7d0.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-02517d70-6c2f-4dde-81f0-9e346d6ec7d0",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM320821020",
+        "SEM323311010",
+        "SEM330921020"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "财务成本管理",
+        "高级财务管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘志斌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-587da83b-9dce-4982-b4ad-a49e649adc67",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/0f/6b/7ab1844140548253d20a298a604b/587da83b-9dce-4982-b4ad-a49e649adc67.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/0f/6b/7ab1844140548253d20a298a604b/587da83b-9dce-4982-b4ad-a49e649adc67.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-587da83b-9dce-4982-b4ad-a49e649adc67",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM422211020",
+        "SEM422421020",
+        "SEM435661021"
+      ],
+      "courseNames": [
+        "消费者行为学",
+        "营销建模与数据挖掘"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘慧",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-5560833b-a9fa-49b6-b61e-d4a721a2d58a",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/32/49/7f9dac9c45e88c93e6e587e19244/5560833b-a9fa-49b6-b61e-d4a721a2d58a.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/32/49/7f9dac9c45e88c93e6e587e19244/5560833b-a9fa-49b6-b61e-d4a721a2d58a.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-5560833b-a9fa-49b6-b61e-d4a721a2d58a",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM328811030",
+        "SEM520411020",
+        "SEM522711020"
+      ],
+      "courseNames": [
+        "F4-Corporate and Business Law",
+        "当代中国经济",
+        "经济学专题问题研究"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘玲",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-2f11b2cd-9d27-440e-b6ed-402ee203be7c",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/40/29/c8ab04e2419e9fd5960ed03ab413/2f11b2cd-9d27-440e-b6ed-402ee203be7c.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/40/29/c8ab04e2419e9fd5960ed03ab413/2f11b2cd-9d27-440e-b6ed-402ee203be7c.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-2f11b2cd-9d27-440e-b6ed-402ee203be7c",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM132721020",
+        "SEM234311020"
+      ],
+      "courseNames": [
+        "创新创业基础与实践",
+        "工程信息管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘福东",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-bf0f8a3c-02a7-44a0-8f80-b3388e3958c2",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/c6/6f/f172925748efb185c87274b8e731/bf0f8a3c-02a7-44a0-8f80-b3388e3958c2.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/c6/6f/f172925748efb185c87274b8e731/bf0f8a3c-02a7-44a0-8f80-b3388e3958c2.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-bf0f8a3c-02a7-44a0-8f80-b3388e3958c2",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM322621020",
+        "SEM328511030"
+      ],
+      "courseNames": [
+        "F2-Management Accounting",
+        "政府与非营利组织会计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘素荣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-562623bb-e35d-474a-a1bd-e6a18133c81c",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/07/b0/36ff8cc3412187fcf0efbf458609/562623bb-e35d-474a-a1bd-e6a18133c81c.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/07/b0/36ff8cc3412187fcf0efbf458609/562623bb-e35d-474a-a1bd-e6a18133c81c.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-562623bb-e35d-474a-a1bd-e6a18133c81c",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM310211030"
+      ],
+      "courseNames": [
+        "管理统计学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘苇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-eb7b3415-d532-488c-a90b-b330361a045f",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/f3/2a/ea6c19dd47b3b693552ec8a7024c/eb7b3415-d532-488c-a90b-b330361a045f.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/f3/2a/ea6c19dd47b3b693552ec8a7024c/eb7b3415-d532-488c-a90b-b330361a045f.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-eb7b3415-d532-488c-a90b-b330361a045f",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM223011010",
+        "SEM229711020"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "管理信息系统（英文）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘赟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-1dd24d64-34f7-431d-9cba-46e2f54b3991",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/28/22/f7979d5843b4ac9fd85dd6dbd6f5/1dd24d64-34f7-431d-9cba-46e2f54b3991.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/28/22/f7979d5843b4ac9fd85dd6dbd6f5/1dd24d64-34f7-431d-9cba-46e2f54b3991.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-1dd24d64-34f7-431d-9cba-46e2f54b3991",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM236511020",
+        "SEM236611030"
+      ],
+      "courseNames": [
+        "大数据管理与应用概论",
+        "数据库原理与应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘锴",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-4b0975b2-034e-4fbc-a079-5d24d3cb005e",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/a1/6d/552acb964a35ab68968831f2c6b5/4b0975b2-034e-4fbc-a079-5d24d3cb005e.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/a1/6d/552acb964a35ab68968831f2c6b5/4b0975b2-034e-4fbc-a079-5d24d3cb005e.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-4b0975b2-034e-4fbc-a079-5d24d3cb005e",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM310111030",
+        "SEM321021021"
+      ],
+      "courseNames": [
+        "公司战略与风险管理",
+        "财务管理学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "厉松芮",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-22859229-9031-4648-a6fe-1783b58153c9",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/d7/0b/952dddd7443691def6187de64bdc/22859229-9031-4648-a6fe-1783b58153c9.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/d7/0b/952dddd7443691def6187de64bdc/22859229-9031-4648-a6fe-1783b58153c9.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-22859229-9031-4648-a6fe-1783b58153c9",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM125411030",
+        "SEM128121020"
+      ],
+      "courseNames": [
+        "工程施工技术与组织",
+        "现代能源系统"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吕肖东",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-0e192212-c535-4504-9551-6ca1559b3110",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/13/83/f20d38b14f67a65ef733504a8267/0e192212-c535-4504-9551-6ca1559b3110.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/13/83/f20d38b14f67a65ef733504a8267/0e192212-c535-4504-9551-6ca1559b3110.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-0e192212-c535-4504-9551-6ca1559b3110",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM421511020"
+      ],
+      "courseNames": [
+        "商业伦理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-722caf18-dff6-445f-849f-2c391c9919b0",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/be/ad/d512d4374d27a2394c656a05b87c/722caf18-dff6-445f-849f-2c391c9919b0.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/be/ad/d512d4374d27a2394c656a05b87c/722caf18-dff6-445f-849f-2c391c9919b0.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-722caf18-dff6-445f-849f-2c391c9919b0",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM120911031"
+      ],
+      "courseNames": [
+        "工程经济学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙燕芳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-f8c165e2-7371-4433-a87e-c80ebbbd93ed",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/f7/8f/2f23c3de4c649eed906026f3804d/f8c165e2-7371-4433-a87e-c80ebbbd93ed.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/f7/8f/2f23c3de4c649eed906026f3804d/f8c165e2-7371-4433-a87e-c80ebbbd93ed.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-f8c165e2-7371-4433-a87e-c80ebbbd93ed",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM234311020",
+        "SEM321611026"
+      ],
+      "courseNames": [
+        "创新创业基础与实践",
+        "基础会计学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙瑞华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-a325a1c0-25ec-4185-907a-8b80557d9838",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/09/41/46e4335b4ea4bbeff85e87c60414/a325a1c0-25ec-4185-907a-8b80557d9838.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/09/41/46e4335b4ea4bbeff85e87c60414/a325a1c0-25ec-4185-907a-8b80557d9838.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-a325a1c0-25ec-4185-907a-8b80557d9838",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM234311020",
+        "SEM510121025",
+        "SEM522711020",
+        "SEM524931020",
+        "SEM532521030",
+        "SEM532931020"
+      ],
+      "courseNames": [
+        "世界变局与中国开放",
+        "创新创业基础与实践",
+        "国际贸易",
+        "国际贸易基础",
+        "国际贸易理论与实务",
+        "经济学专题问题研究"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙金凤",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-2c518dfe-9544-40d4-aae5-9d53b71498f8",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/d0/7f/e9cb27564eddad2046d3bac09821/2c518dfe-9544-40d4-aae5-9d53b71498f8.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/d0/7f/e9cb27564eddad2046d3bac09821/2c518dfe-9544-40d4-aae5-9d53b71498f8.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-2c518dfe-9544-40d4-aae5-9d53b71498f8",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM211421020",
+        "SEM229711020"
+      ],
+      "courseNames": [
+        "现代管理科学前沿",
+        "管理信息系统（英文）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孟凡一",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-d568b96e-ccb0-467c-aef0-8710ad6e7296",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/03/62/56801a2d4545816b3280584a73d4/d568b96e-ccb0-467c-aef0-8710ad6e7296.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/03/62/56801a2d4545816b3280584a73d4/d568b96e-ccb0-467c-aef0-8710ad6e7296.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-d568b96e-ccb0-467c-aef0-8710ad6e7296",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM510211025",
+        "SEM522711020",
+        "SEM523321020"
+      ],
+      "courseNames": [
+        "宏观经济学",
+        "经济学专题问题研究",
+        "能源经济学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "安贵鑫",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-ba106325-378d-4618-920d-9c7de9494fc4",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/e3/64/f1eb0e5c408ab2187275be97a70d/ba106325-378d-4618-920d-9c7de9494fc4.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/e3/64/f1eb0e5c408ab2187275be97a70d/ba106325-378d-4618-920d-9c7de9494fc4.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-ba106325-378d-4618-920d-9c7de9494fc4",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM220711025",
+        "SEM220711026",
+        "SEM234311020"
+      ],
+      "courseNames": [
+        "创新创业基础与实践",
+        "管理系统建模与仿真"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-b885fd9a-6728-4dca-906a-d6d44b8dfaac",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/49/7e/ba96c66c40d8913801b2c901613e/b885fd9a-6728-4dca-906a-d6d44b8dfaac.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/49/7e/ba96c66c40d8913801b2c901613e/b885fd9a-6728-4dca-906a-d6d44b8dfaac.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-b885fd9a-6728-4dca-906a-d6d44b8dfaac",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM234311020",
+        "SEM435461020"
+      ],
+      "courseNames": [
+        "创新创业基础与实践",
+        "新媒体营销"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋杰鲲",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-a804f18e-570b-40f7-9909-bcc3c2277c48",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/ba/64/6ed751c84cad8ed0ca49f40cb869/a804f18e-570b-40f7-9909-bcc3c2277c48.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/ba/64/6ed751c84cad8ed0ca49f40cb869/a804f18e-570b-40f7-9909-bcc3c2277c48.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-a804f18e-570b-40f7-9909-bcc3c2277c48",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM110711010",
+        "SEM121011030",
+        "SEM121321020"
+      ],
+      "courseNames": [
+        "公文写作与处理",
+        "工程项目管理",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "崔琦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-12a78c41-5ce0-47df-8f85-fd2471b1c33a",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/d4/7f/b34b84f04c7e915ca662f57fb740/12a78c41-5ce0-47df-8f85-fd2471b1c33a.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/d4/7f/b34b84f04c7e915ca662f57fb740/12a78c41-5ce0-47df-8f85-fd2471b1c33a.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-12a78c41-5ce0-47df-8f85-fd2471b1c33a",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM521421020",
+        "SEM522711020",
+        "SEM531311020",
+        "SEM532931020"
+      ],
+      "courseNames": [
+        "世界变局与中国开放",
+        "国际能源合作",
+        "经济史",
+        "经济学专题问题研究"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "崔耕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-eb2f1104-9cd5-42bf-9233-f594d1da7425",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/4d/c1/228842a6403abc7bd4a2dcfa4dc3/eb2f1104-9cd5-42bf-9233-f594d1da7425.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/4d/c1/228842a6403abc7bd4a2dcfa4dc3/eb2f1104-9cd5-42bf-9233-f594d1da7425.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-eb2f1104-9cd5-42bf-9233-f594d1da7425",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM220911020"
+      ],
+      "courseNames": [
+        "决策理论与方法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "左马华青",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-950c3c47-7997-488b-84aa-76f315af27a6",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/fb/5b/282409c34fe4a9d754614cc21bdd/950c3c47-7997-488b-84aa-76f315af27a6.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/fb/5b/282409c34fe4a9d754614cc21bdd/950c3c47-7997-488b-84aa-76f315af27a6.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-950c3c47-7997-488b-84aa-76f315af27a6",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM234311020",
+        "SEM526611040"
+      ],
+      "courseNames": [
+        "创新创业基础与实践",
+        "经济学原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张妍",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-3408ef3e-e967-44b3-9e62-baf836f5e102",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/b9/e2/8fbfb80849f29327dab39db29323/3408ef3e-e967-44b3-9e62-baf836f5e102.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/b9/e2/8fbfb80849f29327dab39db29323/3408ef3e-e967-44b3-9e62-baf836f5e102.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-3408ef3e-e967-44b3-9e62-baf836f5e102",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM433821020"
+      ],
+      "courseNames": [
+        "分销渠道管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张明明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-025414d5-b1f6-4801-aa21-b94138bc400a",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/72/a3/e6a59b744f61a232f25d7357437d/025414d5-b1f6-4801-aa21-b94138bc400a.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/72/a3/e6a59b744f61a232f25d7357437d/025414d5-b1f6-4801-aa21-b94138bc400a.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-025414d5-b1f6-4801-aa21-b94138bc400a",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM523211031",
+        "SEM533611020"
+      ],
+      "courseNames": [
+        "能源经济学",
+        "能源金融"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张樨樨",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-b8e257eb-b710-45d0-a475-c9d3df049774",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/65/20/e2d57ef34ddfb32e68fbdfba36ee/b8e257eb-b710-45d0-a475-c9d3df049774.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/65/20/e2d57ef34ddfb32e68fbdfba36ee/b8e257eb-b710-45d0-a475-c9d3df049774.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-b8e257eb-b710-45d0-a475-c9d3df049774",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM421311021"
+      ],
+      "courseNames": [
+        "人力资源管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张涛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-ff79807d-c7c0-436d-b29c-d42ce15357fb",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/a0/f2/bb411e1a4ba08d8db34bac63bd5d/ff79807d-c7c0-436d-b29c-d42ce15357fb.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/a0/f2/bb411e1a4ba08d8db34bac63bd5d/ff79807d-c7c0-436d-b29c-d42ce15357fb.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-ff79807d-c7c0-436d-b29c-d42ce15357fb",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM121521031"
+      ],
+      "courseNames": [
+        "管理系统工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张艳婷",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-f1329a3e-c750-4903-ad34-cd225743718a",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/5e/16/dbe967c344b88eee2ff6683f0cdf/f1329a3e-c750-4903-ad34-cd225743718a.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/5e/16/dbe967c344b88eee2ff6683f0cdf/f1329a3e-c750-4903-ad34-cd225743718a.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-f1329a3e-c750-4903-ad34-cd225743718a",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM310111031"
+      ],
+      "courseNames": [
+        "财务管理学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张雪慧",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-c43696af-072b-4076-bfeb-123d8c8c6687",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/f8/e9/0defd65046fca67af6ec45ab75c2/c43696af-072b-4076-bfeb-123d8c8c6687.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/f8/e9/0defd65046fca67af6ec45ab75c2/c43696af-072b-4076-bfeb-123d8c8c6687.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-c43696af-072b-4076-bfeb-123d8c8c6687",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM510311041",
+        "SEM524531015"
+      ],
+      "courseNames": [
+        "创造性思维与创新方法",
+        "微观经济学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张露平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-13e08c36-b624-4342-b8e2-2959f5762bd1",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/46/08/350a7b7147149cba45ffdc8d9c55/13e08c36-b624-4342-b8e2-2959f5762bd1.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/46/08/350a7b7147149cba45ffdc8d9c55/13e08c36-b624-4342-b8e2-2959f5762bd1.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-13e08c36-b624-4342-b8e2-2959f5762bd1",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM228411021"
+      ],
+      "courseNames": [
+        "数据结构与算法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张音",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-a564d984-94bc-4033-bc08-fac298d05ff2",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/eb/d5/47efb11e45d3b93374c763fa4b4a/a564d984-94bc-4033-bc08-fac298d05ff2.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/eb/d5/47efb11e45d3b93374c763fa4b4a/a564d984-94bc-4033-bc08-fac298d05ff2.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-a564d984-94bc-4033-bc08-fac298d05ff2",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM434021020"
+      ],
+      "courseNames": [
+        "品牌策划与推广"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张鸿雁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-e3c66415-f8c6-4895-81d7-b25da77a2512",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/98/f0/de32f674480688ab4827ea609cee/e3c66415-f8c6-4895-81d7-b25da77a2512.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/98/f0/de32f674480688ab4827ea609cee/e3c66415-f8c6-4895-81d7-b25da77a2512.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-e3c66415-f8c6-4895-81d7-b25da77a2512",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM128721020"
+      ],
+      "courseNames": [
+        "能源与社会"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐凌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-6a5ea250-3844-4b3f-810d-222d1ceffdcf",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/0a/52/82cfe5044e4f889733813156b5a0/6a5ea250-3844-4b3f-810d-222d1ceffdcf.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/0a/52/82cfe5044e4f889733813156b5a0/6a5ea250-3844-4b3f-810d-222d1ceffdcf.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-6a5ea250-3844-4b3f-810d-222d1ceffdcf",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM322421030"
+      ],
+      "courseNames": [
+        "统计分析与软件应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐小峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-3e11fbc3-028f-40ea-9953-10c6ed2c2c28",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/9f/b9/c16e76204f8f89f90a3138321953/3e11fbc3-028f-40ea-9953-10c6ed2c2c28.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/9f/b9/c16e76204f8f89f90a3138321953/3e11fbc3-028f-40ea-9953-10c6ed2c2c28.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-3e11fbc3-028f-40ea-9953-10c6ed2c2c28",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM129011020"
+      ],
+      "courseNames": [
+        "高级运筹学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐梅",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-db738133-84ca-4bcd-862e-999a385ad4b6",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/1d/7a/27b614884609a094639317e6014d/db738133-84ca-4bcd-862e-999a385ad4b6.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/1d/7a/27b614884609a094639317e6014d/db738133-84ca-4bcd-862e-999a385ad4b6.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-db738133-84ca-4bcd-862e-999a385ad4b6",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM321211030"
+      ],
+      "courseNames": [
+        "国家税收"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李亮",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-bfd61db6-5efb-4cc6-9936-0405f6275ec1",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/9d/64/10052c3d493cbe0b8fc7b18a1f06/bfd61db6-5efb-4cc6-9936-0405f6275ec1.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/9d/64/10052c3d493cbe0b8fc7b18a1f06/bfd61db6-5efb-4cc6-9936-0405f6275ec1.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-bfd61db6-5efb-4cc6-9936-0405f6275ec1",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM320711020"
+      ],
+      "courseNames": [
+        "大数据与智能会计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李文斌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-330aa2a4-1755-444f-a249-686184cc7e45",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/63/dd/2884a30441ca8db039a9ac4c167c/330aa2a4-1755-444f-a249-686184cc7e45.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/63/dd/2884a30441ca8db039a9ac4c167c/330aa2a4-1755-444f-a249-686184cc7e45.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-330aa2a4-1755-444f-a249-686184cc7e45",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM224911020",
+        "SEM234311020"
+      ],
+      "courseNames": [
+        "创业基础与实践",
+        "创新创业基础与实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李永波",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-c41d4467-1e08-4f6e-be9f-e69596cc5479",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/67/d5/c5debab5474a99958e63d4d143cd/c41d4467-1e08-4f6e-be9f-e69596cc5479.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/67/d5/c5debab5474a99958e63d4d143cd/c41d4467-1e08-4f6e-be9f-e69596cc5479.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-c41d4467-1e08-4f6e-be9f-e69596cc5479",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM522711020",
+        "SEM525511010",
+        "SEM532411030"
+      ],
+      "courseNames": [
+        "中级微观经济学",
+        "新生研讨课",
+        "经济学专题问题研究"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李治国",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-5a21ab2e-596b-4f5d-ba09-f94578def909",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/25/34/a481d72c48d491e729a337570370/5a21ab2e-596b-4f5d-ba09-f94578def909.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/25/34/a481d72c48d491e729a337570370/5a21ab2e-596b-4f5d-ba09-f94578def909.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-5a21ab2e-596b-4f5d-ba09-f94578def909",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM525511010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李玉萍",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-f2ac4254-e4f3-472e-a2ea-d7bf733172a7",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/22/8c/676bfd194c908a8a4d36088af934/f2ac4254-e4f3-472e-a2ea-d7bf733172a7.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/22/8c/676bfd194c908a8a4d36088af934/f2ac4254-e4f3-472e-a2ea-d7bf733172a7.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-f2ac4254-e4f3-472e-a2ea-d7bf733172a7",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM234311020",
+        "SEM324311030"
+      ],
+      "courseNames": [
+        "F6-Taxation",
+        "创新创业基础与实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李秀娥",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-9a7b591c-8c7e-4014-9c0b-0609a8e896d2",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/0c/1b/645308e84e569493d1d53050c722/9a7b591c-8c7e-4014-9c0b-0609a8e896d2.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/0c/1b/645308e84e569493d1d53050c722/9a7b591c-8c7e-4014-9c0b-0609a8e896d2.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-9a7b591c-8c7e-4014-9c0b-0609a8e896d2",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM510211025",
+        "SEM510211030",
+        "SEM525511010",
+        "SEM532931020"
+      ],
+      "courseNames": [
+        "世界变局与中国开放",
+        "宏观经济学",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李荣荣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-e7109ed2-3873-4130-8c02-9ae2da78baf7",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/b9/63/7523bb4d484e8a152eeb87eec850/e7109ed2-3873-4130-8c02-9ae2da78baf7.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/b9/63/7523bb4d484e8a152eeb87eec850/e7109ed2-3873-4130-8c02-9ae2da78baf7.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-e7109ed2-3873-4130-8c02-9ae2da78baf7",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM234311020"
+      ],
+      "courseNames": [
+        "创新创业基础与实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨光",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-2e0c8eb9-109e-4e77-a250-8b9234abe594",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/c7/e3/15e8a6f84bd0a6848c2ad90c1ee0/2e0c8eb9-109e-4e77-a250-8b9234abe594.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/c7/e3/15e8a6f84bd0a6848c2ad90c1ee0/2e0c8eb9-109e-4e77-a250-8b9234abe594.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-2e0c8eb9-109e-4e77-a250-8b9234abe594",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM110121020",
+        "SEM122211020"
+      ],
+      "courseNames": [
+        "工程项目管理",
+        "经济法与建设法规"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨兴寿",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-df9a6f3a-30a3-4673-8e92-fced57be157d",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/66/52/7288211543cfabdcf80983937f04/df9a6f3a-30a3-4673-8e92-fced57be157d.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/66/52/7288211543cfabdcf80983937f04/df9a6f3a-30a3-4673-8e92-fced57be157d.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-df9a6f3a-30a3-4673-8e92-fced57be157d",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM222021020",
+        "SEM222411031"
+      ],
+      "courseNames": [
+        "信息系统开发工具与方法",
+        "信息经济学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨坚",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-2f800668-5b53-4d7b-8bd3-3eb75603fd73",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/5c/77/b8f1fd38402f8f79573b25c388ed/2f800668-5b53-4d7b-8bd3-3eb75603fd73.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/5c/77/b8f1fd38402f8f79573b25c388ed/2f800668-5b53-4d7b-8bd3-3eb75603fd73.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-2f800668-5b53-4d7b-8bd3-3eb75603fd73",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM510311041",
+        "SEM522711020",
+        "SEM523421020",
+        "SEM532731020",
+        "SEM532931020"
+      ],
+      "courseNames": [
+        "世界变局与中国开放",
+        "区域经济学",
+        "当代中国经济问题评析",
+        "微观经济学",
+        "经济学专题问题研究"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨坤",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-11-001",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "经济管理学院",
+        "sourceFile": "课表/经济管理学院/课表打印 (1).xls",
+        "sourceSha256": "f63cec51a55573f1e37931563fb6c3677de879786bbab9df5698b360c3a1a7fc",
+        "rawNames": [
+          "杨坤"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SEM322421030"
+      ],
+      "courseNames": [
+        "统计分析与软件应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-5cdb5885-8c0c-4d2d-b6ce-63270a0de0a3",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/5a/71/60346ebc4eda9faf4a678ddaa88d/5cdb5885-8c0c-4d2d-b6ce-63270a0de0a3.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/5a/71/60346ebc4eda9faf4a678ddaa88d/5cdb5885-8c0c-4d2d-b6ce-63270a0de0a3.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-5cdb5885-8c0c-4d2d-b6ce-63270a0de0a3",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM522611020"
+      ],
+      "courseNames": [
+        "经济学说思想史"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "栾琨",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-a080728d-67a4-4f2c-b0f0-5c19f3d61634",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/2e/a1/43af6cac446d973a989ba6a961ff/a080728d-67a4-4f2c-b0f0-5c19f3d61634.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/2e/a1/43af6cac446d973a989ba6a961ff/a080728d-67a4-4f2c-b0f0-5c19f3d61634.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-a080728d-67a4-4f2c-b0f0-5c19f3d61634",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM434731020"
+      ],
+      "courseNames": [
+        "心理学与生活"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "梁岩",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-80e2fdf9-e79b-417d-a186-99d0867695c5",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/7f/86/f2575bdf4a3588872478436fdeee/80e2fdf9-e79b-417d-a186-99d0867695c5.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/7f/86/f2575bdf4a3588872478436fdeee/80e2fdf9-e79b-417d-a186-99d0867695c5.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-80e2fdf9-e79b-417d-a186-99d0867695c5",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM110311020",
+        "SEM224911020"
+      ],
+      "courseNames": [
+        "创业基础与实践",
+        "技术经济学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "殷爱贞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-5b033d57-f12b-4fc8-a961-04a4dd67ab34",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/6a/23/0812b8f3450c8b5ffc773ac411b7/5b033d57-f12b-4fc8-a961-04a4dd67ab34.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/6a/23/0812b8f3450c8b5ffc773ac411b7/5b033d57-f12b-4fc8-a961-04a4dd67ab34.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-5b033d57-f12b-4fc8-a961-04a4dd67ab34",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM321411021"
+      ],
+      "courseNames": [
+        "会计学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "江玮滢",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-43b746fd-4fe1-443f-839b-3fcf49cf60ac",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/3e/1e/563a65d74e1d8cda1908591166af/43b746fd-4fe1-443f-839b-3fcf49cf60ac.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/3e/1e/563a65d74e1d8cda1908591166af/43b746fd-4fe1-443f-839b-3fcf49cf60ac.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-43b746fd-4fe1-443f-839b-3fcf49cf60ac",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM326311030"
+      ],
+      "courseNames": [
+        "F5-Performance Management"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "渐令",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-5f544ed7-6fd6-4f80-8864-7a373bfa5c81",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/20/e2/601c4fdb452fb1fcc857eb5a07aa/5f544ed7-6fd6-4f80-8864-7a373bfa5c81.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/20/e2/601c4fdb452fb1fcc857eb5a07aa/5f544ed7-6fd6-4f80-8864-7a373bfa5c81.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-5f544ed7-6fd6-4f80-8864-7a373bfa5c81",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM110711010",
+        "SEM210621020",
+        "SEM211421020",
+        "SEM220911020",
+        "SEM223011010"
+      ],
+      "courseNames": [
+        "决策理论与方法",
+        "新生研讨课",
+        "智能优化算法",
+        "现代管理科学前沿"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王丛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-69ef7e98-5f04-4feb-9fb4-e808f6084d7b",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/cd/81/d26602e545269ad692da19ca5a60/69ef7e98-5f04-4feb-9fb4-e808f6084d7b.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/cd/81/d26602e545269ad692da19ca5a60/69ef7e98-5f04-4feb-9fb4-e808f6084d7b.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-69ef7e98-5f04-4feb-9fb4-e808f6084d7b",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM521921020",
+        "SEM533611020",
+        "SEM533711020"
+      ],
+      "courseNames": [
+        "投资学",
+        "能源金融",
+        "金融市场学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王信敏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-9ee56831-44dc-4220-b174-a6f166c1bfdd",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/c3/32/342f5fe24a0f92889722325f93e9/9ee56831-44dc-4220-b174-a6f166c1bfdd.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/c3/32/342f5fe24a0f92889722325f93e9/9ee56831-44dc-4220-b174-a6f166c1bfdd.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-9ee56831-44dc-4220-b174-a6f166c1bfdd",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM221121021",
+        "SEM223011010",
+        "SEM229111020"
+      ],
+      "courseNames": [
+        "大数据分析",
+        "新生研讨课",
+        "能源大数据处理与分析"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-f03c5e57-6c60-44f2-b2e4-25efdf7741d3",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/0d/f7/5f6334164edf9bceb44b18350509/f03c5e57-6c60-44f2-b2e4-25efdf7741d3.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/0d/f7/5f6334164edf9bceb44b18350509/f03c5e57-6c60-44f2-b2e4-25efdf7741d3.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-f03c5e57-6c60-44f2-b2e4-25efdf7741d3",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM523911031",
+        "SEM524531020",
+        "SEM525931020"
+      ],
+      "courseNames": [
+        "政治经济学",
+        "经济学与生活",
+        "经济学基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王军会",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-f46ab28a-9f42-425c-9abc-90cf60c5ad68",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/86/fc/338b59ae42a78c8f61fb779947b7/f46ab28a-9f42-425c-9abc-90cf60c5ad68.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/86/fc/338b59ae42a78c8f61fb779947b7/f46ab28a-9f42-425c-9abc-90cf60c5ad68.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-f46ab28a-9f42-425c-9abc-90cf60c5ad68",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM323311010",
+        "SEM331311030"
+      ],
+      "courseNames": [
+        "F1-Business and Technology",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王勇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-7b27b8be-b540-4243-87f1-7e66336f01ef",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/c9/43/7ac1e1e448aa904c06ce133bf9d3/7b27b8be-b540-4243-87f1-7e66336f01ef.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/c9/43/7ac1e1e448aa904c06ce133bf9d3/7b27b8be-b540-4243-87f1-7e66336f01ef.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-7b27b8be-b540-4243-87f1-7e66336f01ef",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM323121020"
+      ],
+      "courseNames": [
+        "资产评估"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王宁宁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-1a44e1a2-f6e4-41a7-ae1d-3d1e2d53c6cb",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/6a/94/16f5133a44ce91bbfa9188941676/1a44e1a2-f6e4-41a7-ae1d-3d1e2d53c6cb.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/6a/94/16f5133a44ce91bbfa9188941676/1a44e1a2-f6e4-41a7-ae1d-3d1e2d53c6cb.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-1a44e1a2-f6e4-41a7-ae1d-3d1e2d53c6cb",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM110711010",
+        "SEM111111020",
+        "SEM223011010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "生产运作管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-a8e6a39e-74c8-44d6-9f99-28fcda51539d",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/e9/60/812a7ca643ba8a32de80cc238f40/a8e6a39e-74c8-44d6-9f99-28fcda51539d.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/e9/60/812a7ca643ba8a32de80cc238f40/a8e6a39e-74c8-44d6-9f99-28fcda51539d.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-a8e6a39e-74c8-44d6-9f99-28fcda51539d",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM211421020"
+      ],
+      "courseNames": [
+        "现代管理科学前沿"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王文雅",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-31699ae9-e97e-4c42-942e-50075b367122",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/a6/97/a2ea7ff74999ba3e56bdddd80f80/31699ae9-e97e-4c42-942e-50075b367122.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/a6/97/a2ea7ff74999ba3e56bdddd80f80/31699ae9-e97e-4c42-942e-50075b367122.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-31699ae9-e97e-4c42-942e-50075b367122",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM128121020",
+        "SEM134761021",
+        "SEM221511020"
+      ],
+      "courseNames": [
+        "商务智能综合实训",
+        "现代能源系统"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王爱玲",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-2b6e301d-9039-4d90-9296-a5c8b0eb6033",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/34/98/2e8c635e4e678d8d198bc8e4d0e6/2b6e301d-9039-4d90-9296-a5c8b0eb6033.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/34/98/2e8c635e4e678d8d198bc8e4d0e6/2b6e301d-9039-4d90-9296-a5c8b0eb6033.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-2b6e301d-9039-4d90-9296-a5c8b0eb6033",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM224911020"
+      ],
+      "courseNames": [
+        "创业基础与实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王玲玲",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-e77119dd-ff7a-42b3-ab1a-86d766acc2a0",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/4f/ba/9e8550af4fb39b09a3ced6587da6/e77119dd-ff7a-42b3-ab1a-86d766acc2a0.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/4f/ba/9e8550af4fb39b09a3ced6587da6/e77119dd-ff7a-42b3-ab1a-86d766acc2a0.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-e77119dd-ff7a-42b3-ab1a-86d766acc2a0",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM420311020",
+        "SEM434211020"
+      ],
+      "courseNames": [
+        "人工智能与数字营销",
+        "定价策略"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王芳芳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-36503a78-1821-4120-858c-8bf24c60a845",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/89/3e/2b4651d74322a09e54c4655ac9b0/36503a78-1821-4120-858c-8bf24c60a845.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/89/3e/2b4651d74322a09e54c4655ac9b0/36503a78-1821-4120-858c-8bf24c60a845.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-36503a78-1821-4120-858c-8bf24c60a845",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM510621020",
+        "SEM523521020",
+        "SEM531011020",
+        "SEM531141020"
+      ],
+      "courseNames": [
+        "人口、资源与环境经济学",
+        "碳市场与碳交易",
+        "资源与环境经济学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王菊娥",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-39e19b67-056e-4743-a4f9-3dd7c0ad7965",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/2e/8d/34cf7cfe427da8f0e049723ffddc/39e19b67-056e-4743-a4f9-3dd7c0ad7965.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/2e/8d/34cf7cfe427da8f0e049723ffddc/39e19b67-056e-4743-a4f9-3dd7c0ad7965.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-39e19b67-056e-4743-a4f9-3dd7c0ad7965",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM224911020",
+        "SEM234311020",
+        "SEM522511020"
+      ],
+      "courseNames": [
+        "创业基础与实践",
+        "创新创业基础与实践",
+        "经济法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王辉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-787f99bc-c29a-4a01-bbb8-113734799181",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/76/de/0a9fa5eb4abfaff187a9d9d82872/787f99bc-c29a-4a01-bbb8-113734799181.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/76/de/0a9fa5eb4abfaff187a9d9d82872/787f99bc-c29a-4a01-bbb8-113734799181.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-787f99bc-c29a-4a01-bbb8-113734799181",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM110221020",
+        "SEM110311020"
+      ],
+      "courseNames": [
+        "技术经济学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "田玉英",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-28278dc0-184c-4785-bd85-d554aa8fc6e0",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/70/69/fdc3ebd2483c9be2557efdc56da6/28278dc0-184c-4785-bd85-d554aa8fc6e0.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/70/69/fdc3ebd2483c9be2557efdc56da6/28278dc0-184c-4785-bd85-d554aa8fc6e0.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-28278dc0-184c-4785-bd85-d554aa8fc6e0",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM125511020",
+        "SEM234311020"
+      ],
+      "courseNames": [
+        "创新创业基础与实践",
+        "工程合同管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "田雪峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-890b7fd3-bc6f-4970-a20a-525f94c8b7d3",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/e8/7a/fa6671d446709d5a51bbf0064ac4/890b7fd3-bc6f-4970-a20a-525f94c8b7d3.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/e8/7a/fa6671d446709d5a51bbf0064ac4/890b7fd3-bc6f-4970-a20a-525f94c8b7d3.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-890b7fd3-bc6f-4970-a20a-525f94c8b7d3",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM321311020",
+        "SEM322712100",
+        "SEM328611030"
+      ],
+      "courseNames": [
+        "F3-Financial Accounting",
+        "中级财务会计(2-1)",
+        "会计理论与前沿专题"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "白春光",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-968873cb-aa1b-4f83-ae8d-faf273288e7a",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/24/77/7ae40ee84f7a9dbbfeafca416d60/968873cb-aa1b-4f83-ae8d-faf273288e7a.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/24/77/7ae40ee84f7a9dbbfeafca416d60/968873cb-aa1b-4f83-ae8d-faf273288e7a.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-968873cb-aa1b-4f83-ae8d-faf273288e7a",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SEM110711010",
+        "SEM223011010",
+        "SEM236511020"
+      ],
+      "courseNames": [
+        "大数据管理与应用概论",
+        "新生研讨课",
+        "沟通与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "白洋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-8a53466a-f120-4b6a-868d-bd063a5ca20f",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/ca/53/04d15a564ca79d31ec04e9bda141/8a53466a-f120-4b6a-868d-bd063a5ca20f.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/ca/53/04d15a564ca79d31ec04e9bda141/8a53466a-f120-4b6a-868d-bd063a5ca20f.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-8a53466a-f120-4b6a-868d-bd063a5ca20f",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM110311020",
+        "SEM223011010"
+      ],
+      "courseNames": [
+        "技术经济学",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "相林",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-96222c2f-7953-4f4d-bbda-8bb80e9e854d",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/af/0a/50a09ee64686987ceaba89716ff2/96222c2f-7953-4f4d-bbda-8bb80e9e854d.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/af/0a/50a09ee64686987ceaba89716ff2/96222c2f-7953-4f4d-bbda-8bb80e9e854d.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-96222c2f-7953-4f4d-bbda-8bb80e9e854d",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM128721020",
+        "SEM521421020"
+      ],
+      "courseNames": [
+        "国际能源合作",
+        "能源与社会"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "胡晓娟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-a1dfce70-9156-4305-9b8c-b1a830b7d6b3",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/de/c9/a270c6be46c29058528e3ac1b44e/a1dfce70-9156-4305-9b8c-b1a830b7d6b3.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/de/c9/a270c6be46c29058528e3ac1b44e/a1dfce70-9156-4305-9b8c-b1a830b7d6b3.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-a1dfce70-9156-4305-9b8c-b1a830b7d6b3",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM436611020"
+      ],
+      "courseNames": [
+        "大数据采集与预处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "苏辉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-5434e442-1f60-4c3d-a567-d9907990673b",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/3c/f3/98c6ff964028a9f9f0468919a9c3/5434e442-1f60-4c3d-a567-d9907990673b.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/3c/f3/98c6ff964028a9f9f0468919a9c3/5434e442-1f60-4c3d-a567-d9907990673b.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-5434e442-1f60-4c3d-a567-d9907990673b",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM234311020"
+      ],
+      "courseNames": [
+        "创新创业基础与实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "范丽伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-8aeec2d5-574c-4a47-bbc0-ed92b2768cb7",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/a7/54/d0e1f89f4fe3bd6594633b468279/8aeec2d5-574c-4a47-bbc0-ed92b2768cb7.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/a7/54/d0e1f89f4fe3bd6594633b468279/8aeec2d5-574c-4a47-bbc0-ed92b2768cb7.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-8aeec2d5-574c-4a47-bbc0-ed92b2768cb7",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM223011010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "范水清",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-055a8615-7224-47e0-8b6c-1b286047268c",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/0b/8c/da96a700490db7c47b335177b93d/055a8615-7224-47e0-8b6c-1b286047268c.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/0b/8c/da96a700490db7c47b335177b93d/055a8615-7224-47e0-8b6c-1b286047268c.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-055a8615-7224-47e0-8b6c-1b286047268c",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM234311020",
+        "SEM421421010",
+        "SEM422511020"
+      ],
+      "courseNames": [
+        "创新创业基础与实践",
+        "商务礼仪",
+        "战略管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "袁梦琪",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-c99a8b10-a1d4-41e3-bbdd-a414f6bf0637",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/18/c3/900841604df6ab907dd0ce5f798a/c99a8b10-a1d4-41e3-bbdd-a414f6bf0637.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/18/c3/900841604df6ab907dd0ce5f798a/c99a8b10-a1d4-41e3-bbdd-a414f6bf0637.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-c99a8b10-a1d4-41e3-bbdd-a414f6bf0637",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM110311020"
+      ],
+      "courseNames": [
+        "技术经济学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵海平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-9b15738c-f64b-45d9-a530-7966345db9c1",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/12/1f/06236d534075b5c7c1edd50efcfa/9b15738c-f64b-45d9-a530-7966345db9c1.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/12/1f/06236d534075b5c7c1edd50efcfa/9b15738c-f64b-45d9-a530-7966345db9c1.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-9b15738c-f64b-45d9-a530-7966345db9c1",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM129711010",
+        "SEM211421020"
+      ],
+      "courseNames": [
+        "文献阅读与开题报告",
+        "现代管理科学前沿"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "车诚",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-f329e3ff-fbba-464e-820b-bccd21a68307",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/19/5f/4bfce7014d2ab494341a42956f54/f329e3ff-fbba-464e-820b-bccd21a68307.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/19/5f/4bfce7014d2ab494341a42956f54/f329e3ff-fbba-464e-820b-bccd21a68307.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-f329e3ff-fbba-464e-820b-bccd21a68307",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM234311020"
+      ],
+      "courseNames": [
+        "创新创业基础与实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邓忆瑞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-110e8bd0-e5f9-4e44-9d24-7fcb40856cc7",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/4b/74/55e5874b441c9c44d83d41342096/110e8bd0-e5f9-4e44-9d24-7fcb40856cc7.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/4b/74/55e5874b441c9c44d83d41342096/110e8bd0-e5f9-4e44-9d24-7fcb40856cc7.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-110e8bd0-e5f9-4e44-9d24-7fcb40856cc7",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM110621030",
+        "SEM129511020",
+        "SEM233511020"
+      ],
+      "courseNames": [
+        "客户关系管理",
+        "管理科学研究方法",
+        "运筹学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邢伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-0029068e-20a4-4449-8b35-e3734654c524",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/17/08/f3c7732245d9bc25800a97ba209d/0029068e-20a4-4449-8b35-e3734654c524.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/17/08/f3c7732245d9bc25800a97ba209d/0029068e-20a4-4449-8b35-e3734654c524.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-0029068e-20a4-4449-8b35-e3734654c524",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM126821020",
+        "SEM129511020"
+      ],
+      "courseNames": [
+        "生产运作管理",
+        "管理科学研究方法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郝增亮",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-8ba72bb4-6c15-42b0-aaee-4f61679a3c27",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/a9/18/8d69359449089464802b12526b18/8ba72bb4-6c15-42b0-aaee-4f61679a3c27.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/a9/18/8d69359449089464802b12526b18/8ba72bb4-6c15-42b0-aaee-4f61679a3c27.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-8ba72bb4-6c15-42b0-aaee-4f61679a3c27",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM234311020"
+      ],
+      "courseNames": [
+        "创新创业基础与实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭宁宁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-04dff57c-e690-4cb7-b7da-451539daa55a",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/27/1a/441e33604b26be357704759750b7/04dff57c-e690-4cb7-b7da-451539daa55a.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/27/1a/441e33604b26be357704759750b7/04dff57c-e690-4cb7-b7da-451539daa55a.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-04dff57c-e690-4cb7-b7da-451539daa55a",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM224911020",
+        "SEM234311020"
+      ],
+      "courseNames": [
+        "创业基础与实践",
+        "创新创业基础与实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "闻雯",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-92d58a53-50a5-4fa3-abc6-2c201509f4e6",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/2c/71/e27c573c42cbbaea83c69d8ebcfc/92d58a53-50a5-4fa3-abc6-2c201509f4e6.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/2c/71/e27c573c42cbbaea83c69d8ebcfc/92d58a53-50a5-4fa3-abc6-2c201509f4e6.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-92d58a53-50a5-4fa3-abc6-2c201509f4e6",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM120911030"
+      ],
+      "courseNames": [
+        "工程经济学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈映彤",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-7476bfe9-b3c4-4c64-87c5-bebc6eae00e5",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/7a/d5/2274d2b4400db8a2372abed70e9a/7476bfe9-b3c4-4c64-87c5-bebc6eae00e5.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/7a/d5/2274d2b4400db8a2372abed70e9a/7476bfe9-b3c4-4c64-87c5-bebc6eae00e5.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-7476bfe9-b3c4-4c64-87c5-bebc6eae00e5",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM523211031",
+        "SEM533611020"
+      ],
+      "courseNames": [
+        "能源经济学",
+        "能源金融"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈晨",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-17797574-adc1-4448-9e0f-217dffd5ee9d",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/54/fc/ec1a824443a5b61bcb08ef3ab28d/17797574-adc1-4448-9e0f-217dffd5ee9d.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/54/fc/ec1a824443a5b61bcb08ef3ab28d/17797574-adc1-4448-9e0f-217dffd5ee9d.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-17797574-adc1-4448-9e0f-217dffd5ee9d",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM221011026"
+      ],
+      "courseNames": [
+        "面向对象程序设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈月璇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-ca854184-06f7-4194-bda3-c25742ed49d6",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/07/d9/3801c8464202b9d5ef3a2e29c46e/ca854184-06f7-4194-bda3-c25742ed49d6.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/07/d9/3801c8464202b9d5ef3a2e29c46e/ca854184-06f7-4194-bda3-c25742ed49d6.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-ca854184-06f7-4194-bda3-c25742ed49d6",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM110311020",
+        "SEM120411020"
+      ],
+      "courseNames": [
+        "工程估价",
+        "技术经济学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "霍江林",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-c75725f0-0155-4b8e-8aad-ff5695d1a395",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/78/86/9610723f4a00b990b971281d1027/c75725f0-0155-4b8e-8aad-ff5695d1a395.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/78/86/9610723f4a00b990b971281d1027/c75725f0-0155-4b8e-8aad-ff5695d1a395.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-c75725f0-0155-4b8e-8aad-ff5695d1a395",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM522711020",
+        "SEM525511010",
+        "SEM530721020",
+        "SEM533711020"
+      ],
+      "courseNames": [
+        "投资学",
+        "新生研讨课",
+        "经济学专题问题研究",
+        "金融学基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "韩民",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-3bbc582b-d0ed-4f55-93f3-71feaf466bd7",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/7e/29/03ee36c9469c90a697d04943918e/3bbc582b-d0ed-4f55-93f3-71feaf466bd7.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/7e/29/03ee36c9469c90a697d04943918e/3bbc582b-d0ed-4f55-93f3-71feaf466bd7.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-3bbc582b-d0ed-4f55-93f3-71feaf466bd7",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM521921020"
+      ],
+      "courseNames": [
+        "金融市场学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马志强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-cbfa44dd-06f7-4681-9792-4584309f67ad",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/06/95/1c0999db4ee98ce39a4302c0ef0d/cbfa44dd-06f7-4681-9792-4584309f67ad.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/06/95/1c0999db4ee98ce39a4302c0ef0d/cbfa44dd-06f7-4681-9792-4584309f67ad.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-cbfa44dd-06f7-4681-9792-4584309f67ad",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM121011030"
+      ],
+      "courseNames": [
+        "工程项目管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马颖",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-10f87fff-842c-4534-827d-be3f65bdc7d4",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/d2/b3/ee71d91f4218822629f26c1f340b/10f87fff-842c-4534-827d-be3f65bdc7d4.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/d2/b3/ee71d91f4218822629f26c1f340b/10f87fff-842c-4534-827d-be3f65bdc7d4.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-10f87fff-842c-4534-827d-be3f65bdc7d4",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM234311020",
+        "SEM510211025",
+        "SEM510211030",
+        "SEM521811031"
+      ],
+      "courseNames": [
+        "创新创业基础与实践",
+        "宏观经济学",
+        "计量经济学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "高学贤",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-5011c55d-cd19-44b9-a5a3-4cf56ac00711",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/aa/c3/867572244d3ba117a7fca28bb1fe/5011c55d-cd19-44b9-a5a3-4cf56ac00711.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/aa/c3/867572244d3ba117a7fca28bb1fe/5011c55d-cd19-44b9-a5a3-4cf56ac00711.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-5011c55d-cd19-44b9-a5a3-4cf56ac00711",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM210121030",
+        "SEM234311020"
+      ],
+      "courseNames": [
+        "供应链与物流管理",
+        "创新创业基础与实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "高新伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-477a91a1-c8c2-493e-9f28-c367508f809f",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/36/49/187a1b6d41e0be7c014e88cf05bb/477a91a1-c8c2-493e-9f28-c367508f809f.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/36/49/187a1b6d41e0be7c014e88cf05bb/477a91a1-c8c2-493e-9f28-c367508f809f.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-477a91a1-c8c2-493e-9f28-c367508f809f",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM521521020"
+      ],
+      "courseNames": [
+        "国际商务谈判"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黄昶生",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-cv-96e2d4ec-2a5a-45f2-bc91-472e167de64a",
+      "title": null,
+      "collegeCode": "upc-11",
+      "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/98/ec/4c2c700f4e518e21fe90c9f4d322/96e2d4ec-2a5a-45f2-bc91-472e167de64a.pdf",
+      "profileKind": "official_cv_pdf",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/98/ec/4c2c700f4e518e21fe90c9f4d322/96e2d4ec-2a5a-45f2-bc91-472e167de64a.pdf",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-cv-96e2d4ec-2a5a-45f2-bc91-472e167de64a",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM434811020"
+      ],
+      "courseNames": [
+        "管理心理学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "齐建民",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sem-c13294-a185398",
+      "title": "教授",
+      "collegeCode": "upc-11",
+      "profileUrl": "http://sem.upc.edu.cn/2018/1208/c13294a185398/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sem.upc.edu.cn/2018/1208/c13294a185398/page.htm",
+        "listUrl": "http://sem.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "经济管理学院"
+        ],
+        "sourceId": "sem-c13294-a185398",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SEM234311020",
+        "SEM321911010"
+      ],
+      "courseNames": [
+        "创新创业基础与实践",
+        "商业伦理与会计道德"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

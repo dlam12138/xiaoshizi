@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "source": "https://cce.upc.edu.cn/2568/listm.htm",
+  "teachers": [
+    {
+      "name": "刘相",
+      "title": "讲师",
+      "department": "化学工程系",
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "status": "official_list_without_profile",
+      "reason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    },
+    {
+      "name": "史德青",
+      "title": null,
+      "department": null,
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": null,
+      "status": "no_official_profile",
+      "reason": "no official profile URL found",
+      "needed": [
+        "官方教师详情页或教工号",
+        "教师人事归属学院",
+        "确认是否为本校在岗教师"
+      ]
+    },
+    {
+      "name": "孙道峰",
+      "title": null,
+      "department": null,
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": null,
+      "status": "no_official_profile",
+      "reason": "no official profile URL found",
+      "needed": [
+        "官方教师详情页或教工号",
+        "教师人事归属学院",
+        "确认是否为本校在岗教师"
+      ]
+    },
+    {
+      "name": "张卫东",
+      "title": null,
+      "department": null,
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": null,
+      "status": "no_official_profile",
+      "reason": "no official profile URL found",
+      "needed": [
+        "官方教师详情页或教工号",
+        "教师人事归属学院",
+        "确认是否为本校在岗教师"
+      ]
+    },
+    {
+      "name": "徐永强",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "status": "official_list_without_profile",
+      "reason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    },
+    {
+      "name": "赵会吉",
+      "title": "副教授",
+      "department": "应用化学系",
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "status": "official_list_without_profile",
+      "reason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    },
+    {
+      "name": "路帅",
+      "title": "高级实验师",
+      "department": "环境与安全工程系",
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "status": "official_list_without_profile",
+      "reason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    }
+  ],
+  "omittedOfferings": [
+    {
+      "teacher": "刘相",
+      "code": "CHM111112100",
+      "name": "化工原理(2-1)",
+      "blockId": "upc-chem-2026-2027-1-0021"
+    },
+    {
+      "teacher": "刘相",
+      "code": "CHM111112200",
+      "name": "化工原理(2-2)",
+      "blockId": "upc-chem-2026-2027-1-0027"
+    },
+    {
+      "teacher": "刘相",
+      "code": "CHM121711035",
+      "name": "化学工程基础",
+      "blockId": "upc-chem-2026-2027-1-0121"
+    },
+    {
+      "teacher": "史德青",
+      "code": "CHM121711035",
+      "name": "化学工程基础",
+      "blockId": "upc-chem-2026-2027-1-0120"
+    },
+    {
+      "teacher": "孙道峰",
+      "code": "SCC812611010",
+      "name": "学科前沿知识专题讲座",
+      "blockId": "upc-chem-2026-2027-1-0452"
+    },
+    {
+      "teacher": "孙道峰",
+      "code": "SCC821111010",
+      "name": "新生研讨课",
+      "blockId": "upc-chem-2026-2027-1-0476"
+    },
+    {
+      "teacher": "张卫东",
+      "code": "CHM360061020",
+      "name": "碳生态工业",
+      "blockId": "upc-chem-2026-2027-1-0310"
+    },
+    {
+      "teacher": "徐永强",
+      "code": "SCC813711020",
+      "name": "有机化学",
+      "blockId": "upc-chem-2026-2027-1-0460"
+    },
+    {
+      "teacher": "徐永强",
+      "code": "SCC828911010",
+      "name": "有机化学实验",
+      "blockId": "upc-chem-2026-2027-1-0487"
+    },
+    {
+      "teacher": "徐永强",
+      "code": "SCC829111030",
+      "name": "有机化学",
+      "blockId": "upc-chem-2026-2027-1-0499"
+    },
+    {
+      "teacher": "徐永强",
+      "code": "SCC831211015",
+      "name": "有机化学实验",
+      "blockId": "upc-chem-2026-2027-1-0564"
+    },
+    {
+      "teacher": "赵会吉",
+      "code": "SCC850111025",
+      "name": "大学化学",
+      "blockId": "upc-chem-2026-2027-1-0613"
+    },
+    {
+      "teacher": "路帅",
+      "code": "CHM310821010",
+      "name": "实验室安全与环保",
+      "blockId": "upc-chem-2026-2027-1-0253"
+    }
+  ],
+  "needed": [
+    "官方教师详情页或教工号（用于稳定 sourceId）",
+    "教师人事归属学院",
+    "无法确认时不得按姓名合并或编造编号"
+  ]
+}

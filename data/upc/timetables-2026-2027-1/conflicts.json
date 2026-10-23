@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "codes": [
+    {
+      "code": "OTH921331020",
+      "variants": [
+        {
+          "unit": "chemistry",
+          "name": "沟通与写作",
+          "collegeCode": "upc-03"
+        },
+        {
+          "unit": "mechanical-engineering",
+          "name": "沟通与写作",
+          "collegeCode": "upc-04"
+        },
+        {
+          "unit": "storage-civil",
+          "name": "沟通与写作",
+          "collegeCode": "upc-05"
+        },
+        {
+          "unit": "materials",
+          "name": "沟通与写作",
+          "collegeCode": "upc-06"
+        },
+        {
+          "unit": "economics-management",
+          "name": "沟通与写作",
+          "collegeCode": "upc-11"
+        },
+        {
+          "unit": "foreign-languages",
+          "name": "沟通与写作",
+          "collegeCode": "upc-13"
+        },
+        {
+          "unit": "humanities-law",
+          "name": "沟通与写作",
+          "collegeCode": "upc-14"
+        },
+        {
+          "unit": "marxism",
+          "name": "沟通与写作",
+          "collegeCode": "upc-15"
+        }
+      ],
+      "reason": "same course code has different name or college"
+    }
+  ],
+  "conflictInvolvedVariants": 8,
+  "newExcludedCourses": 7,
+  "newExcludedRelations": 23,
+  "existingRetainedCourses": 1,
+  "existingRetainedRelations": 1
+}

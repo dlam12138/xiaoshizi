@@ -1,0 +1,159 @@
+{
+  "checkedAt": "2026-10-23T19:59:40+08:00",
+  "backup": {
+    "path": "temp/supabase-local/backups/upc-before-rating-4-5-2026-10-23T11-36-02Z.dump",
+    "sha256": "b66ed5b7539164afd194ab4cc2402c558c7658b82e13ccab2fee75a459d2fbba",
+    "bytes": 576582,
+    "magic": "PGDMP"
+  },
+  "before": {
+    "auth_users": 6,
+    "reviews": 0,
+    "user_profiles": 6,
+    "point_transactions": 13,
+    "review_likes": 0,
+    "admin_users": 1
+  },
+  "after": {
+    "auth_users": 6,
+    "reviews": 0,
+    "user_profiles": 6,
+    "point_transactions": 13,
+    "review_likes": 0,
+    "admin_users": 1
+  },
+  "unchanged": true,
+  "contentChecks": {
+    "teachers_136": {
+      "beforeCount": 136,
+      "afterCount": 136,
+      "equal": true
+    },
+    "chemistry_courses_129": {
+      "beforeCount": 129,
+      "afterCount": 129,
+      "equal": true
+    },
+    "chemistry_offerings_271": {
+      "beforeCount": 271,
+      "afterCount": 271,
+      "equal": true
+    },
+    "user_profiles": {
+      "beforeCount": 6,
+      "afterCount": 6,
+      "equal": true
+    },
+    "point_transactions": {
+      "beforeCount": 13,
+      "afterCount": 13,
+      "equal": true
+    },
+    "reviews": {
+      "beforeCount": 0,
+      "afterCount": 0,
+      "equal": true
+    },
+    "review_likes": {
+      "beforeCount": 0,
+      "afterCount": 0,
+      "equal": true
+    },
+    "admin_users": {
+      "beforeCount": 1,
+      "afterCount": 1,
+      "equal": true
+    },
+    "auth_users": {
+      "beforeCount": 6,
+      "afterCount": 6,
+      "equal": true
+    },
+    "original_colleges_16": {
+      "beforeCount": 16,
+      "afterCount": 16,
+      "equal": true
+    }
+  },
+  "method": "pre-import backup restored into isolated temp database; normalized row_to_json MD5 content comparison; only booleans and counts emitted",
+  "note": "Rating schema migration only. Temporary UI review and its +20 point transaction were removed; the test account was restored to 140 points. Stable user/auth identity rows compare equal; last-sign-in timestamps are intentionally excluded from the content hash.",
+  "catalogAfterTimetableIdentities": {
+    "teachers": 1555,
+    "officialProfileTeachers": 1382,
+    "timetableUnitTeachers": 173,
+    "courses": 1342,
+    "offerings": 2946,
+    "chemistryBaseline": {
+      "teachers": 136,
+      "courses": 129,
+      "offerings": 271
+    },
+    "chemistryExtension": {
+      "teachers": 7,
+      "coursesTouched": 12,
+      "offerings": 13
+    },
+    "inferredCourseRelations": 3,
+    "unassignedCourseRelations": 0
+  },
+  "postTimetableBackup": {
+    "path": "temp/supabase-local/backups/upc-post-timetable-identities-2026-10-23T06-57-42Z.dump",
+    "sha256": "411293a2c5f23297d14cb147e4f8f98b5a26213ab975001e5dc540586eefb408"
+  },
+  "beforeChemistryExtensionBackup": {
+    "path": "temp/supabase-local/backups/upc-before-chemistry-extension-2026-10-23T07-34-08Z.dump",
+    "sha256": "8785ccdf749715f9bc76868d76125e03b89b0479dfb672f7b1e9bcdab094edf7"
+  },
+  "postChemistryExtensionBackup": {
+    "path": "temp/supabase-local/backups/upc-post-chemistry-extension-2026-10-23T07-35-14Z.dump",
+    "sha256": "652c631a94d8b75f3cf693e1b51b0fd55f1b1e95fdf5156a9c44067ab4deeaf0"
+  },
+  "beforeSameName153Backup": {
+    "path": "temp/supabase-local/backups/upc-before-same-name-153-2026-10-23T08-38-41Z.dump",
+    "sha256": "2777cc628c07da23cc0d88ad667ca617253a7a0d843885a80b14fb8a0e6f5c81"
+  },
+  "postSameName153Backup": {
+    "path": "temp/supabase-local/backups/upc-post-same-name-153-2026-10-23T08-40-18Z.dump",
+    "sha256": "dc5aa19d63f11653b8f86460fb3ddb1228715f1c204f82b24bcf5633947e4f34"
+  },
+  "beforeInferred3Backup": {
+    "path": "temp/supabase-local/backups/upc-before-inferred-3-2026-10-23T09-32-28Z.dump",
+    "sha256": "752597f3fdc7d8e5be3491fa1f997f042fbc9fde02fe042feec356c222101fa8"
+  },
+  "postInferred3Backup": {
+    "path": "temp/supabase-local/backups/upc-post-inferred-3-2026-10-23T09-33-16Z.dump",
+    "sha256": "9181017b2c9da0808e422d59268165109c0220de71e768096218ba2222aa4d9b"
+  },
+  "beforeRating4_5Backup": {
+    "path": "temp/supabase-local/backups/upc-before-rating-4-5-2026-10-23T11-36-02Z.dump",
+    "sha256": "b66ed5b7539164afd194ab4cc2402c558c7658b82e13ccab2fee75a459d2fbba"
+  },
+  "afterRating4_5Backup": {
+    "path": "temp/supabase-local/backups/upc-post-rating-4-5-2026-10-23T11-59-40Z.dump",
+    "sha256": "67926819685acf7b210f3c028fb07647be12425fc64f14a6fed36063d2ec7b14"
+  },
+  "ratingUpgrade": {
+    "migration": "supabase/upgrades/20261023-four-point-rating.sql",
+    "before": {
+      "teachers": 1555,
+      "courses": 1342,
+      "offerings": 2946,
+      "auth_users": 6,
+      "user_profiles": 6,
+      "point_transactions": 13,
+      "reviews": 0
+    },
+    "after": {
+      "teachers": 1555,
+      "courses": 1342,
+      "offerings": 2946,
+      "auth_users": 6,
+      "user_profiles": 6,
+      "point_transactions": 13,
+      "reviews": 0
+    },
+    "columns": "NUMERIC without typmod; trigger rejects 4.15 instead of rounding",
+    "directApi": "4.15 rejected; 4.1 accepted; historical 1.0 accepted/readable",
+    "historicalRows": "not backfilled, truncated, or revalidated"
+  }
+}

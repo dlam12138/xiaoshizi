@@ -1,0 +1,1100 @@
+{
+  "schemaVersion": 1,
+  "unit": "地球科学与技术学院",
+  "collegeCode": "upc-01",
+  "courses": [
+    {
+      "key": "0110199",
+      "code": "0110199",
+      "name": "地球科学概论",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘长江"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0111499",
+      "code": "0111499",
+      "name": "油田开发地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张世奇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0113499",
+      "code": "0113499",
+      "name": "沉积学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "杨俊生"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0122999",
+      "code": "0122999",
+      "name": "测井方法及综合解释",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "王新光",
+        "王磊",
+        "魏周拓"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO110311030",
+      "code": "GEO110311030",
+      "name": "地球科学概论",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "王伟明",
+        "王冠民",
+        "葸克来",
+        "远光辉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO110611040",
+      "code": "GEO110611040",
+      "name": "地质学基础",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "刘长江",
+        "章大港"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO110811035",
+      "code": "GEO110811035",
+      "name": "构造地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "宋鹰",
+        "裴仰文"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO110811040",
+      "code": "GEO110811040",
+      "name": "构造地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘寅",
+        "李理"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO110811041",
+      "code": "GEO110811041",
+      "name": "构造地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "汪必峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO120711020",
+      "code": "GEO120711020",
+      "name": "大地构造学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "吴孔友",
+        "陆诗阔"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO120821020",
+      "code": "GEO120821020",
+      "name": "大地构造学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "吴孔友",
+        "陆诗阔"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO120911031",
+      "code": "GEO120911031",
+      "name": "地球化学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "陈勇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO121611030",
+      "code": "GEO121611030",
+      "name": "古生物学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "吴智平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO122011020",
+      "code": "GEO122011020",
+      "name": "海洋地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "梁超"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO122121020",
+      "code": "GEO122121020",
+      "name": "环境地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "赵勇生"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO122421020",
+      "code": "GEO122421020",
+      "name": "矿床学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘寅"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO122611045",
+      "code": "GEO122611045",
+      "name": "矿物岩石学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孟凡超"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO122611049",
+      "code": "GEO122611049",
+      "name": "矿物岩石学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 10,
+      "teacherNames": [
+        "吴玉其",
+        "曲希玉",
+        "胡万龙",
+        "赵勇生",
+        "邱隆伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO122811010",
+      "code": "GEO122811010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 26,
+      "teacherNames": [
+        "刘可禹",
+        "吴孔友",
+        "吴智平",
+        "张宪国",
+        "张立强",
+        "张繁昌",
+        "张锋",
+        "操应长",
+        "胡钦红",
+        "袁静",
+        "远光辉",
+        "邱隆伟",
+        "陈勇",
+        "韩同城"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO123431015",
+      "code": "GEO123431015",
+      "name": "宝玉石鉴赏",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "宋鹰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO123631020",
+      "code": "GEO123631020",
+      "name": "认识地球",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "郝文星"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO124021020",
+      "code": "GEO124021020",
+      "name": "岩相古地理学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "鄢继华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO125621020",
+      "code": "GEO125621020",
+      "name": "含油气盆地分析",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "田金强"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO150121030",
+      "code": "GEO150121030",
+      "name": "工程地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "段忠丰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO150321031",
+      "code": "GEO150321031",
+      "name": "石油地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "丛富云",
+        "王奇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO160421020",
+      "code": "GEO160421020",
+      "name": "储层地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "任丽华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO160611010",
+      "code": "GEO160611010",
+      "name": "地震资料地质综合解释",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 10,
+      "teacherNames": [
+        "李宝刚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO160821030",
+      "code": "GEO160821030",
+      "name": "地质统计与建模",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "徐守余"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO161021020",
+      "code": "GEO161021020",
+      "name": "工程地质勘察",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "徐守余"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO161421010",
+      "code": "GEO161421010",
+      "name": "科技论文写作",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "徐守余"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO161521020",
+      "code": "GEO161521020",
+      "name": "录井地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王金友"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO161731020",
+      "code": "GEO161731020",
+      "name": "认识新能源",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "陈方文"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO162221020",
+      "code": "GEO162221020",
+      "name": "油藏描述",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "宋璠"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO162711046",
+      "code": "GEO162711046",
+      "name": "油气地质与勘探",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "丁修建",
+        "刘景东",
+        "曲江秀",
+        "许启鲁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO162921021",
+      "code": "GEO162921021",
+      "name": "非常规油气地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "林腊梅"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO163411025",
+      "code": "GEO163411025",
+      "name": "油田开发地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 27,
+      "teacherNames": [
+        "严一鸣",
+        "任丽华",
+        "冯子齐",
+        "刘太勋",
+        "宋璠",
+        "张国印",
+        "张立强",
+        "李福来",
+        "李红南",
+        "王广伟",
+        "王金友"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO163411026",
+      "code": "GEO163411026",
+      "name": "油田开发地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "林腊梅"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO163521015",
+      "code": "GEO163521015",
+      "name": "油气资源评价",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "杨升宇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO164121025",
+      "code": "GEO164121025",
+      "name": "油矿地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张宪国"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO164821020",
+      "code": "GEO164821020",
+      "name": "层序地层学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张世奇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO165831020",
+      "code": "GEO165831020",
+      "name": "自然灾害",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李福来"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO166021020",
+      "code": "GEO166021020",
+      "name": "储层表征与建模",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "徐守余"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO166221020",
+      "code": "GEO166221020",
+      "name": "高等石油地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO169311020",
+      "code": "GEO169311020",
+      "name": "储层地质学及油气藏描述(全英文)",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张宪国"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO170311020",
+      "code": "GEO170311020",
+      "name": "行星地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙小龙"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO171311040",
+      "code": "GEO171311040",
+      "name": "地球化学（含应用地球化学）",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "王淼",
+        "陈中红"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO171621020",
+      "code": "GEO171621020",
+      "name": "行星地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙小龙"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO171721020",
+      "code": "GEO171721020",
+      "name": "石油地质专业英语",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孟庆峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO172011035",
+      "code": "GEO172011035",
+      "name": "地层学、地史学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘一鸣",
+        "李伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO172621020",
+      "code": "GEO172621020",
+      "name": "新能源概论",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "陈方文"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO173931020",
+      "code": "GEO173931020",
+      "name": "寻油中国：科技、历史与人文之旅",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "徐明权",
+        "程付启"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO175411033",
+      "code": "GEO175411033",
+      "name": "地球科学概论",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘长江",
+        "王伟明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO210511036",
+      "code": "GEO210511036",
+      "name": "弹性波动力学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "孙成禹",
+        "杜启振",
+        "梁锴"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO210811040",
+      "code": "GEO210811040",
+      "name": "地球物理勘探",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "乐友喜",
+        "李卿卿"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO210921020",
+      "code": "GEO210921020",
+      "name": "地球物理勘探概论",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "谷丙洛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO211321035",
+      "code": "GEO211321035",
+      "name": "计算机原理与操作系统",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "唐杰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO211511011",
+      "code": "GEO211511011",
+      "name": "新生研讨课",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "张繁昌",
+        "操应长"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO211611031",
+      "code": "GEO211611031",
+      "name": "信号分析与处理",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 19,
+      "teacherNames": [
+        "张广智",
+        "张繁昌",
+        "李盛清",
+        "王保丽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO211721030",
+      "code": "GEO211721030",
+      "name": "Python程序设计",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "曲英铭",
+        "曹文俊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO212412200",
+      "code": "GEO212412200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "张繁昌",
+        "栗磊",
+        "王力禾",
+        "范宜仁",
+        "谭宝海"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO220421036",
+      "code": "GEO220421036",
+      "name": "地球动力学基础",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "宋娟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO220511031",
+      "code": "GEO220511031",
+      "name": "地球动力学基础",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "杨继东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO220711010",
+      "code": "GEO220711010",
+      "name": "地球物理学进展(双语)",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "黄建平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO221411030",
+      "code": "GEO221411030",
+      "name": "地球物理学概论",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "尹兵祥"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO221911030",
+      "code": "GEO221911030",
+      "name": "地震资料数字处理方法",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张凯"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO222021030",
+      "code": "GEO222021030",
+      "name": "地震资料数字处理方法",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "曹文俊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO222111020",
+      "code": "GEO222111020",
+      "name": "地震资料综合解释",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "吴国忱"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO222221025",
+      "code": "GEO222221025",
+      "name": "地震资料综合解释",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "付欣",
+        "宗兆云",
+        "曹丹平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO222311018",
+      "code": "GEO222311018",
+      "name": "电法勘探",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "徐凯军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO222721025",
+      "code": "GEO222721025",
+      "name": "开发地震",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张佳佳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO222911020",
+      "code": "GEO222911020",
+      "name": "重磁勘探",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "尹兵祥",
+        "朱丹"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO222911021",
+      "code": "GEO222911021",
+      "name": "重磁勘探",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "尹兵祥",
+        "朱丹"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO223211026",
+      "code": "GEO223211026",
+      "name": "地球物理场论",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "梁锴"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO225211025",
+      "code": "GEO225211025",
+      "name": "工程与环境地球物理",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "徐凯军",
+        "沈奕",
+        "闫月锋"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO260911021",
+      "code": "GEO260911021",
+      "name": "测井方法与原理（电法）",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "王磊",
+        "邓少贵"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO261011016",
+      "code": "GEO261011016",
+      "name": "测井方法与原理（核）",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张锋"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO261111016",
+      "code": "GEO261111016",
+      "name": "测井方法与原理（声波）",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "苏远大"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO261911040",
+      "code": "GEO261911040",
+      "name": "地球物理测井",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "张福明",
+        "李召成",
+        "肖佃师",
+        "魏周拓"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO262011020",
+      "code": "GEO262011020",
+      "name": "地学大数据",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "张国印"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO262411025",
+      "code": "GEO262411025",
+      "name": "电磁场论",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "王正楷"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO262611020",
+      "code": "GEO262611020",
+      "name": "井筒声学基础",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "陈雪莲"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO262921032",
+      "code": "GEO262921032",
+      "name": "微控制器原理及接口技术",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "谭宝海"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO263121020",
+      "code": "GEO263121020",
+      "name": "岩石物理基础",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "葛新民"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO263311020",
+      "code": "GEO263311020",
+      "name": "原子核物理",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王新光"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO266111020",
+      "code": "GEO266111020",
+      "name": "大数据技术与应用",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "魏周拓"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO268311020",
+      "code": "GEO268311020",
+      "name": "地球物理反演理论(全英文)",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "宋建国"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO268821020",
+      "code": "GEO268821020",
+      "name": "岩石物理学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "唐杰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO269021020",
+      "code": "GEO269021020",
+      "name": "信号分析与处理",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "王保丽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO269311030",
+      "code": "GEO269311030",
+      "name": "地震资料数字处理方法(全英文)",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙小东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO273711020",
+      "code": "GEO273711020",
+      "name": "地球物理数据智能化分析",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "金超"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO275311015",
+      "code": "GEO275311015",
+      "name": "智能地球物理探测概论",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "张锋",
+        "苏远大",
+        "邓少贵"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO320411030",
+      "code": "GEO320411030",
+      "name": "碳储地质学",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李吉君",
+        "杨金秀"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "GEO369511020",
+      "code": "GEO369511020",
+      "name": "地质学基础",
+      "collegeCode": "upc-01",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "章大港"
+      ],
+      "excludedReason": null
+    }
+  ]
+}

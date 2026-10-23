@@ -1,23 +1,29 @@
-# 阶段 1: 构建生产静态资源
-FROM node:20-alpine AS builder
+# 阶段 1: 构建 UPC 生产静态资源
+FROM node:22-alpine AS builder
 
 WORKDIR /app
 
-# 安装依赖
-COPY package.json package-lock.json* bun.lock* ./
-RUN npm install
+COPY package.json package-lock.json ./
+RUN npm ci
 
-# 复制项目源代码并构建
 COPY . .
+
+# Vite injects VITE_* at build time. Pass the UPC project values as build args;
+# without them the static build deliberately shows the configuration screen.
+ARG VITE_SUPABASE_URL
+ARG VITE_SUPABASE_ANON_KEY
+ARG VITE_CACHE_API_ENABLED=false
+ARG VITE_API_BASE_URL=/api
+ENV VITE_SUPABASE_URL=$VITE_SUPABASE_URL \
+    VITE_SUPABASE_ANON_KEY=$VITE_SUPABASE_ANON_KEY \
+    VITE_CACHE_API_ENABLED=$VITE_CACHE_API_ENABLED \
+    VITE_API_BASE_URL=$VITE_API_BASE_URL
 RUN npm run build
 
-# 阶段 2: 使用轻量级 Nginx 镜像对外提供服务
+# 阶段 2: 使用 Nginx 托管静态 SPA
 FROM nginx:alpine
 
-# 复制打包后的静态文件到 Nginx 目录
 COPY --from=builder /app/dist /usr/share/nginx/html
-
-# 复制自定义 Nginx 配置文件 (包含 SPA 路由转发与 Gzip 优化)
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80

@@ -1,6 +1,5 @@
 import { ModalFrame } from './ModalFrame';
 import React, { useEffect, useState } from 'react';
-import { SWJTU_COLLEGES } from '../data/mockTeachers';
 import { X, Building2, ChevronRight, Search } from 'lucide-react';
 import { motion } from 'motion/react';
 import { supabaseService } from '../services/supabaseService';
@@ -30,17 +29,10 @@ export const CollegeListModal: React.FC<CollegeListModalProps> = ({
     }
 
     supabaseService.getColleges().then((data) => {
-      if (data && data.length > 0) {
-        setColleges(data);
-      } else {
-        // Fallback to mock colleges
-        setColleges(
-          SWJTU_COLLEGES.filter((c) => c !== '全部学院').map((name, index) => ({
-            id: `col_${index + 1}`,
-            name,
-          }))
-        );
-      }
+      setColleges(data || []);
+      setLoading(false);
+    }).catch(() => {
+      setColleges([]);
       setLoading(false);
     });
   }, [propColleges]);
@@ -71,7 +63,7 @@ export const CollegeListModal: React.FC<CollegeListModalProps> = ({
         <div className="shrink-0 p-5 border-b border-gray-100 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Building2 className="w-5 h-5 text-indigo-600" />
-            <h3 className="font-bold text-gray-900 text-base">西南交大学院库</h3>
+            <h3 className="font-bold text-gray-900 text-base">石大院系库</h3>
           </div>
           <motion.button 
             whileTap={{ scale: 0.88 }}
@@ -101,7 +93,11 @@ export const CollegeListModal: React.FC<CollegeListModalProps> = ({
           {loading ? (
             <div className="py-12 text-center text-xs text-gray-400">正在从数据库加载学院列表...</div>
           ) : filtered.length === 0 ? (
-            <div className="py-12 text-center text-xs text-gray-400">未找到相关学院</div>
+            <div className="py-12 text-center text-xs text-gray-400 leading-relaxed">
+              {colleges.length === 0
+                ? '学院字典尚未初始化，请管理员执行数据库初始化与学院种子导入。'
+                : '未找到相关学院'}
+            </div>
           ) : (
             filtered.map((item) => (
               <motion.div

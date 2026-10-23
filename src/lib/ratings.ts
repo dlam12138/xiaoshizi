@@ -1,16 +1,54 @@
 import type { TeacherDimensions, TeacherRatingDimensions, RecommendationWeights } from '../types';
 
 export const RATING_VERSION = 2;
+export const NEW_RATING_MIN = 4;
+export const NEW_RATING_MAX = 5;
+export const NEW_RATING_HINT = '4.0–5.0，最多一位小数';
 export const RATING_DIMENSIONS: Array<{
-  key: keyof TeacherDimensions; label: string; lowDesc: string; highDesc: string;
+  key: keyof TeacherDimensions; label: string; highDesc: string;
 }> = [
-  { key: 'attendanceStrictness', label: '考勤宽松度', lowDesc: '每节必点', highDesc: '几乎不点名' },
-  { key: 'gradingLeniency', label: '给分宽松度', lowDesc: '给分严格', highDesc: '给分大方' },
-  { key: 'effortMatters', label: '努力回报', lowDesc: '努力回报少', highDesc: '认真投入有回报' },
-  { key: 'workloadDifficulty', label: '作业轻松度', lowDesc: '作业繁重', highDesc: '作业少负担轻' },
-  { key: 'approachability', label: '师生亲和力', lowDesc: '难以沟通', highDesc: '友善好沟通' },
-  { key: 'teachingQuality', label: '教学质量', lowDesc: '讲解薄弱', highDesc: '清晰扎实' },
+  { key: 'attendanceStrictness', label: '考勤宽松度', highDesc: '几乎不点名' },
+  { key: 'gradingLeniency', label: '给分宽松度', highDesc: '给分大方' },
+  { key: 'effortMatters', label: '努力回报', highDesc: '认真投入有回报' },
+  { key: 'workloadDifficulty', label: '作业轻松度', highDesc: '作业少负担轻' },
+  { key: 'approachability', label: '师生亲和力', highDesc: '友善好沟通' },
+  { key: 'teachingQuality', label: '教学质量', highDesc: '清晰扎实' },
 ];
+
+// The submission scale is intentionally separate from the historical reader.
+// Old approved reviews still use the full 1–5 range and must remain readable.
+export function validateNewRatingInput(raw: string): string | null {
+  const text = raw.trim();
+  if (!text) return '请填写分数';
+  if (!/^\d+(?:\.\d*)?$/.test(text)) return '请输入数字';
+  if (/\.\d{2,}$/.test(text)) return '最多保留一位小数';
+  const value = Number(text);
+  if (!Number.isFinite(value) || value < NEW_RATING_MIN || value > NEW_RATING_MAX) {
+    return '分数须在 4.0–5.0 之间';
+  }
+  return null;
+}
+
+export function parseNewRatingInput(raw: string): number | null {
+  if (validateNewRatingInput(raw)) return null;
+  return Number(raw.trim());
+}
+
+export function formatNewRatingInput(raw: string): string {
+  const value = parseNewRatingInput(raw);
+  return value == null ? raw.trim() : value.toFixed(1);
+}
+
+export function validateNewRatingDimensions(dimensions: Partial<TeacherDimensions>): string | null {
+  for (const dimension of RATING_DIMENSIONS) {
+    const value = dimensions[dimension.key];
+    if (typeof value !== 'number' || !Number.isFinite(value)) return `${dimension.label}为必填项`;
+    if (value < NEW_RATING_MIN || value > NEW_RATING_MAX || Number(value.toFixed(1)) !== value) {
+      return `${dimension.label}须为 4.0–5.0，最多一位小数`;
+    }
+  }
+  return null;
+}
 export const isRating = (value: unknown): value is number =>
   typeof value === 'number' && Number.isFinite(value) && value >= 1 && value <= 5;
 

@@ -1,20 +1,33 @@
-import { SCHEDULE_SELECT, buildTimetableSections } from './timetable.mjs';
-
 export const TEACHER_SELECT = '*,colleges(id,name),course_offerings(course_id,courses(id,name),term_id,terms(id,year_term,is_current))';
-export const REVIEW_SELECT = 'id,teacher_id,course_id,year_term,attendance_strictness,grading_leniency,effort_matters,workload_difficulty,approachability,teaching_quality,comment,author_nickname,is_historical_migrated,status,created_at,likes,rating_version,courses(id,name),teachers(name)';
+// Public review reads must use the safe view. The base reviews table is reserved
+// for authors/reviewers and is not readable with the anon key.
+export const REVIEW_SELECT = 'id,teacher_id,course_id,term_id,year_term,attendance_strictness,grading_leniency,effort_matters,workload_difficulty,approachability,teaching_quality,comment,author_nickname,is_historical_migrated,status,created_at,likes,rating_version,course_name,teacher_name';
+
+export const NEW_RATING_KEYS = ['attendance_strictness', 'grading_leniency', 'effort_matters',
+  'workload_difficulty', 'approachability', 'teaching_quality'];
+export function validateNewRatingPayload(payload) {
+  for (const key of NEW_RATING_KEYS) {
+    const value = payload[key];
+    if (typeof value !== 'number' || !Number.isFinite(value)) return 'All six scores are required';
+    if (value < 4 || value > 5) return 'Scores must be between 4.0 and 5.0';
+    if (Number(value.toFixed(1)) !== value) return 'Scores allow at most one decimal place';
+  }
+  return null;
+}
 
 const teacherFields = ['id', 'name', 'title', 'college', 'college_id', 'campus', 'courses',
   'is_teaching_this_term', 'overall_score', 'review_count', 'attendance_strictness',
   'grading_leniency', 'effort_matters', 'workload_difficulty', 'approachability',
   'teaching_quality', 'has_historical_data', 'tags', 'recent_term_courses', 'rating_version'];
-const reviewFields = ['id', 'teacher_id', 'course_id', 'year_term', 'attendance_strictness',
+const reviewFields = ['id', 'teacher_id', 'course_id', 'term_id', 'year_term', 'attendance_strictness',
   'grading_leniency', 'effort_matters', 'workload_difficulty', 'approachability',
   'teaching_quality', 'comment', 'author_nickname', 'is_historical_migrated', 'status',
-  'created_at', 'likes', 'rating_version'];
+  'created_at', 'likes', 'rating_version', 'course_name', 'teacher_name'];
 const pick = (row, fields) => Object.fromEntries(fields.filter(key => row[key] !== undefined).map(key => [key, row[key]]));
 
 export function publicTeacher(row) {
   return { ...pick(row, teacherFields),
+    identity_kind: String(row.source_id || '').startsWith('tt-') ? 'timetable_unit_name' : 'official_profile',
     colleges: row.colleges ? pick(row.colleges, ['id', 'name']) : null,
     course_offerings: (row.course_offerings || []).map(off => ({
       ...pick(off, ['course_id', 'term_id']),
@@ -26,9 +39,13 @@ export function publicTeacher(row) {
 
 export function publicReview(row) {
   if (!row || row.status !== 'approved') return null;
+  const courseName = row.course_name || row.courses?.name;
+  const teacherName = row.teacher_name || row.teachers?.name;
   return { ...pick(row, reviewFields),
-    courses: row.courses ? pick(row.courses, ['id', 'name']) : null,
-    teachers: row.teachers ? pick(row.teachers, ['name']) : null,
+    courses: row.courses ? pick(row.courses, ['id', 'name'])
+      : (courseName ? { id: row.course_id, name: courseName } : null),
+    teachers: row.teachers ? pick(row.teachers, ['name'])
+      : (teacherName ? { name: teacherName } : null),
   };
 }
 
@@ -57,19 +74,6 @@ export async function readAll(loadPage) {
 
 export function createSource(client) {
   return {
-    async terms() {
-      return readAll((from, to) => client.from('terms').select('id,year_term,is_current',
-        { count: from === 0 ? 'exact' : undefined }).order('id').range(from, to));
-    },
-    async timetable(termId) {
-      const rows = await readAll(async (from, to) => {
-        const result = await client.from('timetable_schedule').select(SCHEDULE_SELECT,
-          { count: from === 0 ? 'exact' : undefined }).eq('term_id', termId)
-          .order('section_id').order('meeting_id', { nullsFirst: true }).range(from, to);
-        return { ...result, data: result.data?.map(row => ({ ...row, id: `${row.section_id}:${row.meeting_id || 'unknown'}` })) };
-      });
-      return buildTimetableSections(rows);
-    },
     async teachers() {
       return (await readAll((from, to) => client.from('teachers').select(TEACHER_SELECT,
         { count: from === 0 ? 'exact' : undefined }).order('id').range(from, to))).map(publicTeacher);
@@ -80,13 +84,13 @@ export function createSource(client) {
       return data ? publicTeacher(data) : null;
     },
     async reviews(teacherId) {
-      return (await readAll((from, to) => client.from('reviews').select(REVIEW_SELECT,
+      return (await readAll((from, to) => client.from('review_feed').select(REVIEW_SELECT,
         { count: from === 0 ? 'exact' : undefined }).eq('teacher_id', teacherId)
-        .eq('status', 'approved').order('id').range(from, to))).map(publicReview);
+        .order('id').range(from, to))).map(publicReview);
     },
     async review(id) {
-      const { data, error } = await client.from('reviews').select(REVIEW_SELECT)
-        .eq('id', id).eq('status', 'approved').maybeSingle();
+      const { data, error } = await client.from('review_feed').select(REVIEW_SELECT)
+        .eq('id', id).maybeSingle();
       if (error) throw new Error(error.message);
       return publicReview(data);
     },
@@ -107,9 +111,8 @@ export function pagination(query) {
 }
 export function teacherOptions(query) {
   const options = { ...pagination(query), query: String(query.query || '').trim(),
-    collegeId: String(query.collegeId || ''), sortBy: query.sortBy || 'overall' };
-  if (options.query.length > 200 || options.collegeId.length > 200 ||
-    !['overall', 'leniency', 'quality', 'attendance'].includes(options.sortBy)) throw new Error('Invalid teacher filter');
+    collegeId: String(query.collegeId || '') };
+  if (options.query.length > 200 || options.collegeId.length > 200) throw new Error('Invalid teacher filter');
   for (const flag of ['onlyThisTerm', 'courseOnly']) {
     if (query[flag] !== undefined && !['true', 'false'].includes(query[flag])) throw new Error('Invalid boolean filter');
     options[flag] = query[flag] === 'true';
@@ -127,12 +130,10 @@ export function teacherPage(rows, options) {
     return options.courseOnly ? courseMatch : courseMatch || row.name?.toLocaleLowerCase().includes(text) ||
       (Array.isArray(row.tags) && row.tags.includes(options.query));
   });
-  const column = { overall: 'overall_score', leniency: 'grading_leniency', quality: 'teaching_quality', attendance: 'attendance_strictness' }[options.sortBy];
-  filtered.sort((a, b) => {
-    const score = a[column] == null ? (b[column] == null ? 0 : 1) :
-      b[column] == null ? -1 : Number(b[column]) - Number(a[column]);
-    return score || Number(b.review_count || 0) - Number(a.review_count || 0) || compareId(a.id, b.id);
-  });
+  // Name + unique ID is the only public teacher order. Scores are display data,
+  // never a hidden fallback sort.
+  filtered.sort((a, b) => String(a.name || '').localeCompare(String(b.name || ''), 'zh-CN')
+    || compareId(a.id, b.id));
   const start = options.page * options.pageSize;
   return { items: filtered.slice(start, start + options.pageSize), total: filtered.length };
 }

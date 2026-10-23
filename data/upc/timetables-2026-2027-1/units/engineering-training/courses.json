@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "unit": "石油工业训练中心",
+  "collegeCode": "upc-17",
+  "courses": [
+    {
+      "key": "TRN020241040",
+      "code": "TRN020241040",
+      "name": "AI机器人创新实战",
+      "collegeCode": "upc-17",
+      "sourceBlocks": 29,
+      "teacherNames": [
+        "赵玉明",
+        "靳纪军",
+        "马少华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "TRN022641020",
+      "code": "TRN022641020",
+      "name": "AI创新与AI发明",
+      "collegeCode": "upc-17",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "荆正军",
+        "马少华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "TRN022711020",
+      "code": "TRN022711020",
+      "name": "工程综合训练与创新（C）",
+      "collegeCode": "upc-17",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "李雪琴",
+        "郭卫萍",
+        "靳纪军",
+        "马少华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "TRN022911040",
+      "code": "TRN022911040",
+      "name": "工程综合训练与创新（A）",
+      "collegeCode": "upc-17",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "王淑萍",
+        "荆正军",
+        "赵玉明",
+        "陈琳",
+        "马建民"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "TRN023011030",
+      "code": "TRN023011030",
+      "name": "工程综合训练与创新（B）",
+      "collegeCode": "upc-17",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "刘冬冬",
+        "刘振东",
+        "李卓军",
+        "王淑萍",
+        "苑得鑫",
+        "荆正军",
+        "赵玉明",
+        "马建民"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "TRN023131020",
+      "code": "TRN023131020",
+      "name": "漫步能源大世界",
+      "collegeCode": "upc-17",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "王淑萍",
+        "荆正军",
+        "靳纪军"
+      ],
+      "excludedReason": null
+    }
+  ]
+}

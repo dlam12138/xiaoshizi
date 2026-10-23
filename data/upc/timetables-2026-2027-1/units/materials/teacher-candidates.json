@@ -1,0 +1,2547 @@
+{
+  "schemaVersion": 1,
+  "unit": "材料科学与工程学院",
+  "collegeCode": "upc-06",
+  "candidates": [
+    {
+      "name": "于濂清",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13593-a187753",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13593a187753/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13593a187753/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13593-a187753",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT111411030",
+        "MAT421031010",
+        "MAT421621021"
+      ],
+      "courseNames": [
+        "光电功能材料",
+        "材料与社会生活",
+        "材料性能学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "付殿岭",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13592-a187744",
+      "title": "讲师",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13592a187744/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13592a187744/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13592-a187744",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT310411040",
+        "MAT322631020"
+      ],
+      "courseNames": [
+        "固体物理",
+        "多彩的涂料世界"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "付禹",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-006",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "付禹"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT132111040"
+      ],
+      "courseNames": [
+        "材料科学基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "任浩",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-007",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "任浩"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT323811041"
+      ],
+      "courseNames": [
+        "物质结构"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "关景怡",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13590-a423868",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2024/0229/c13590a423868/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2024/0229/c13590a423868/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13590-a423868",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT120711020",
+        "MAT221121020"
+      ],
+      "courseNames": [
+        "材料加工传输原理",
+        "非金属材料"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "冯涛",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-008",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "冯涛"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT110211021"
+      ],
+      "courseNames": [
+        "材料工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘和元",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13594-a391134",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2022/1202/c13594a391134/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2022/1202/c13594a391134/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13594-a391134",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT521611010",
+        "MAT531421020"
+      ],
+      "courseNames": [
+        "光化学原理与技术",
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘思远",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13592-a219252",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2019/0929/c13592a219252/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2019/0929/c13592a219252/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13592-a219252",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT600511020"
+      ],
+      "courseNames": [
+        "电子信息材料概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘恩洋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13590-a187696",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13590a187696/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13590a187696/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13590-a187696",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT110211021",
+        "MAT220611010"
+      ],
+      "courseNames": [
+        "材料学科前沿知识专题讲座",
+        "材料工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘林",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-009",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "刘林"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT328812200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘鹏云",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13593-a365017",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2022/0320/c13593a365017/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2022/0320/c13593a365017/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13593-a365017",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT125411030",
+        "MAT410111030",
+        "MAT520311021"
+      ],
+      "courseNames": [
+        "材料分析技术",
+        "材料分析方法原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "匙玉华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13592-a187746",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13592a187746/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13592a187746/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13592-a187746",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT310521030",
+        "MAT310721020",
+        "MAT321611030"
+      ],
+      "courseNames": [
+        "能源环境应用材料的设计与模拟",
+        "计算材料学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴传德",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13593-a411253",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2023/0908/c13593a411253/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2023/0908/c13593a411253/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13593-a411253",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT110611010",
+        "MAT422211010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周炎",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-010",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "周炎"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT520711020",
+        "MAT521821020"
+      ],
+      "courseNames": [
+        "专业外语",
+        "电化学基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "唐晓",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-011",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "唐晓"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT221611015"
+      ],
+      "courseNames": [
+        "现代材料学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙冲",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-012",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "孙冲"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT122121010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙海翔",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13593-a383286",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2022/0905/c13593a383286/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2022/0905/c13593a383286/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13593-a383286",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT220611010",
+        "MAT421521020"
+      ],
+      "courseNames": [
+        "功能高分子材料",
+        "材料学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙道峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13594-a187927",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/0904/c13594a187927/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/0904/c13594a187927/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13594-a187927",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT521611010",
+        "MAT522131020"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新材料概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙霜青",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13592-a187743",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13592a187743/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13592a187743/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13592-a187743",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT327121030",
+        "MAT327211025",
+        "MAT427721020"
+      ],
+      "courseNames": [
+        "材料腐蚀学原理",
+        "电化学",
+        "电化学原理及测试"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋玉强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13591-a187718",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1221/c13591a187718/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1221/c13591a187718/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13591-a187718",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT111411030",
+        "MAT111811020",
+        "MAT221221020"
+      ],
+      "courseNames": [
+        "工程材料",
+        "材料性能学",
+        "粉末冶金"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "康文裴",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13594-a187770",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1202/c13594a187770/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1202/c13594a187770/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13594-a187770",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT529311020"
+      ],
+      "courseNames": [
+        "新能源材料与器件导论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张伟华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13590-a338657",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2021/0617/c13590a338657/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2021/0617/c13590a338657/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13590-a338657",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT121811020",
+        "MAT122121010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "检测技术及控制工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张军",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-001",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "张军"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT122031015",
+        "MAT321611030",
+        "MAT521611010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "探索微观世界之分子模拟技术",
+        "计算材料学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张大磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13591-a187719",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1218/c13591a187719/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1218/c13591a187719/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13591-a187719",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT111611020",
+        "MAT220611010"
+      ],
+      "courseNames": [
+        "材料学科前沿知识专题讲座",
+        "腐蚀和腐蚀控制原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张晓云",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13593-a187755",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1203/c13593a187755/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1203/c13593a187755/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13593-a187755",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT410212100",
+        "MAT420512100"
+      ],
+      "courseNames": [
+        "材料化学实验（2-1）",
+        "材料化学（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张立红",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-002",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "张立红"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "OTH921331020"
+      ],
+      "courseNames": [
+        "沟通与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张腾",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-013",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "张腾"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT529311020",
+        "MAT531421020"
+      ],
+      "courseNames": [
+        "光化学原理与技术",
+        "新能源材料与器件导论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张苏",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-014",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "张苏"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT420321021",
+        "MAT520711020",
+        "MAT526011020",
+        "MAT532311020"
+      ],
+      "courseNames": [
+        "材料化学",
+        "材料学科前沿知识讲座",
+        "电化学基础",
+        "能源材料前沿知识讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐奔",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-015",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "徐奔"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT520311021"
+      ],
+      "courseNames": [
+        "材料分析技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐学旭",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13590-a395618",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2023/0225/c13590a395618/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2023/0225/c13590a395618/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13590-a395618",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT110211021"
+      ],
+      "courseNames": [
+        "材料工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐静",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-016",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "徐静"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT410521020",
+        "MAT510521020"
+      ],
+      "courseNames": [
+        "新能源材料设计与制备",
+        "无机材料合成及工艺"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "戴昉纳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13594-a187768",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1202/c13594a187768/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1202/c13594a187768/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13594-a187768",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT526011020",
+        "MAT529012200",
+        "MAT532311020"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）",
+        "材料学科前沿知识讲座",
+        "能源材料前沿知识讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曹宁",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-017",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "曹宁"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT110611010",
+        "MAT120311010",
+        "MAT130411020",
+        "MAT220611010"
+      ],
+      "courseNames": [
+        "工程材料学",
+        "新生研讨课",
+        "材料学科前沿知识专题讲座",
+        "材料成型概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱后禹",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13592-a187747",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13592a187747/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13592a187747/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13592-a187747",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT322011010",
+        "MAT323811041"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "物质结构"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李哲伦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13594-a395617",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2023/0225/c13594a395617/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2023/0225/c13594a395617/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13594-a395617",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT520311021"
+      ],
+      "courseNames": [
+        "材料分析技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李学达",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13590-a187680",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13590a187680/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13590a187680/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13590-a187680",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT110721030",
+        "MAT122121010",
+        "MAT220311020"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "材料分析技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李学进",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13593-a330890",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2021/0324/c13593a330890/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2021/0324/c13593a330890/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13593-a330890",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT125411030",
+        "MAT410111030",
+        "MAT410521020",
+        "MAT510521020",
+        "MAT520311021"
+      ],
+      "courseNames": [
+        "新能源材料设计与制备",
+        "无机材料合成及工艺",
+        "材料分析技术",
+        "材料分析方法原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李彦勋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13594-a441388",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2024/0929/c13594a441388/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2024/0929/c13594a441388/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13594-a441388",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT526011020",
+        "MAT532311020"
+      ],
+      "courseNames": [
+        "材料学科前沿知识讲座",
+        "能源材料前沿知识讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李振",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-003",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "李振"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT122031015",
+        "MAT321611030",
+        "MAT326121020"
+      ],
+      "courseNames": [
+        "探索微观世界之分子模拟技术",
+        "材料基因数据分析与挖掘实验",
+        "计算材料学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李春玲",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13593-a187758",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13593a187758/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13593a187758/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13593-a187758",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT220611010",
+        "MAT310321020"
+      ],
+      "courseNames": [
+        "材料学科前沿知识专题讲座",
+        "防腐蚀工程技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李焰",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-018",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "李焰"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT211621020",
+        "MAT221921020"
+      ],
+      "courseNames": [
+        "专业外语",
+        "无损检测技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李立英",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13590-a407452",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2023/0705/c13590a407452/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2023/0705/c13590a407452/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13590-a407452",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT111811020",
+        "MAT112011020"
+      ],
+      "courseNames": [
+        "工程材料"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李美艳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13590-a190504",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2019/0225/c13590a190504/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2019/0225/c13590a190504/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13590-a190504",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT121011020",
+        "MAT121721020",
+        "MAT122121010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "工程概论",
+        "焊接生产与管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李闻乐",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13591-a386490",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2022/1017/c13591a386490/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2022/1017/c13591a386490/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13591-a386490",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT110611010",
+        "MAT521611010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "温福山",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13593-a187757",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1203/c13593a187757/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1203/c13593a187757/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13593-a187757",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT420511020"
+      ],
+      "courseNames": [
+        "材料化学实验"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "熊伟",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-019",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "熊伟"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT220311020"
+      ],
+      "courseNames": [
+        "材料分析技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "燕友果",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13593-a187756",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13593a187756/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13593a187756/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13593-a187756",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT122031015",
+        "MAT310521030",
+        "MAT422211010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "探索微观世界之分子模拟技术",
+        "计算材料学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王兆杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13592-a219244",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2019/0929/c13592a219244/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2019/0929/c13592a219244/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13592-a219244",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT328812200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王彦芳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13591-a187723",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1202/c13591a187723/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1202/c13591a187723/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13591-a187723",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT110211021",
+        "MAT130411020",
+        "MAT132111040",
+        "MAT220611010"
+      ],
+      "courseNames": [
+        "工程材料学",
+        "材料学科前沿知识专题讲座",
+        "材料工程基础",
+        "材料科学基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王志坤",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13592-a219253",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2019/0929/c13592a219253/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2019/0929/c13592a219253/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13592-a219253",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT210721020",
+        "MAT322011010",
+        "MAT327411020",
+        "MAT427721020"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "电化学",
+        "电化学原理及测试",
+        "防腐蚀涂料及涂装技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王晓",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-020",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "王晓"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT122031015",
+        "MAT320321020",
+        "MAT321611030"
+      ],
+      "courseNames": [
+        "探索微观世界之分子模拟技术",
+        "材料基因工程技术应用",
+        "计算材料学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王林",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-021",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "王林"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT410421020",
+        "MAT420221010",
+        "MAT526011020",
+        "MAT532311020"
+      ],
+      "courseNames": [
+        "材料学科前沿知识讲座",
+        "材料导论",
+        "能源化学",
+        "能源材料前沿知识讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王炳英",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13590-a187684",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13590a187684/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13590a187684/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13590-a187684",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT110211021",
+        "MAT111811020",
+        "MAT122121010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "工程材料",
+        "材料工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王璟岳",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-022",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "王璟岳"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT310621020",
+        "MAT322011010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "纳米材料与技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王航",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-023",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "王航"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT111411030",
+        "MAT422211010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "材料性能学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王荣明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13594-a187763",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1214/c13594a187763/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1214/c13594a187763/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13594-a187763",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT110611010",
+        "MAT520521020"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "超分子材料"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "甄玉花",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13594-a191282",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2019/0228/c13594a191282/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2019/0228/c13594a191282/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13594-a191282",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT320711020",
+        "MAT323121031",
+        "OTH921331020"
+      ],
+      "courseNames": [
+        "材料物理",
+        "沟通与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "祝磊",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-024",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "祝磊"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT510121020",
+        "MAT522131010"
+      ],
+      "courseNames": [
+        "多彩的材料世界",
+        "表面化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "胡松青",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13592-a187741",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13592a187741/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13592a187741/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13592-a187741",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT110611010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "臧晓蓓",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13591-a187731",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1213/c13591a187731/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1213/c13591a187731/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13591-a187731",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT110611010",
+        "MAT121011020",
+        "MAT220611010"
+      ],
+      "courseNames": [
+        "工程概论",
+        "新生研讨课",
+        "材料学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "范卫东",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13594-a372885",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2022/0422/c13594a372885/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2022/0422/c13594a372885/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13594-a372885",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT525021020"
+      ],
+      "courseNames": [
+        "吸附原理与技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "蒋淑英",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13591-a187729",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1202/c13591a187729/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1202/c13591a187729/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13591-a187729",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT112011020",
+        "MAT210321020",
+        "MAT222131010"
+      ],
+      "courseNames": [
+        "工程材料",
+        "材料失效分析",
+        "魔方和数学建模"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "贺冰",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-025",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "贺冰"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT310411040"
+      ],
+      "courseNames": [
+        "固体物理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵卫民",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13590-a187686",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13590a187686/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13590a187686/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13590-a187686",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT122121010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵文",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-026",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "赵文"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT310411040",
+        "MAT326121020"
+      ],
+      "courseNames": [
+        "固体物理",
+        "材料基因数据分析与挖掘实验"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵明",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-027",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "赵明"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT120711020",
+        "MAT121321020"
+      ],
+      "courseNames": [
+        "材料加工传输原理",
+        "焊接机器人"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵联明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13592-a187734",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1213/c13592a187734/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1213/c13592a187734/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13592-a187734",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT321611030",
+        "MAT600111030"
+      ],
+      "courseNames": [
+        "统计热力学",
+        "计算材料学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邢伟",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-004",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "邢伟"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT410111041"
+      ],
+      "courseNames": [
+        "材料分析技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郝兰众",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13592-a187737",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13592a187737/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13592a187737/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13592-a187737",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT310621020",
+        "MAT410111041"
+      ],
+      "courseNames": [
+        "材料分析技术",
+        "纳米材料与技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭孟",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-028",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "郭孟"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT328812200",
+        "MAT529012200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "都时禹",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13592-a399367",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2023/0327/c13592a399367/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2023/0327/c13592a399367/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13592-a399367",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT310521030",
+        "MAT326311020"
+      ],
+      "courseNames": [
+        "材料信息基础",
+        "计算材料学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "鞠虹",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-029",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "鞠虹"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT111611020",
+        "MAT220611010"
+      ],
+      "courseNames": [
+        "材料学科前沿知识专题讲座",
+        "腐蚀和腐蚀控制原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "韩彬",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-030",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "韩彬"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT110611010",
+        "MAT112011020",
+        "MAT122121010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "工程材料",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "韩涛",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-031",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "韩涛"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT110721030",
+        "MAT121011020",
+        "MAT121721020",
+        "MAT122121010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "工程概论",
+        "材料分析技术",
+        "焊接生产与管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马晓晨",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-06-005",
+      "title": null,
+      "collegeCode": "upc-06",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "材料科学与工程学院",
+        "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+        "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+        "rawNames": [
+          "马晓晨"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MAT529012200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "鲁效庆",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13592-a187736",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13592a187736/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13592a187736/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13592-a187736",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT110611010",
+        "MAT322011010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "鲁玉祥",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13591-a187727",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1202/c13591a187727/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1202/c13591a187727/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13591-a187727",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT220421020"
+      ],
+      "courseNames": [
+        "材料加热设备"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黄万群",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13590-a209397",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2019/0610/c13590a209397/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2019/0610/c13590a209397/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13590-a209397",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT110321022",
+        "MAT111811020"
+      ],
+      "courseNames": [
+        "工程材料",
+        "金属焊接"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黄毅超",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13593-a327050",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2021/0111/c13593a327050/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2021/0111/c13593a327050/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13593-a327050",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT420321021",
+        "MAT421031010"
+      ],
+      "courseNames": [
+        "材料与社会生活",
+        "材料化学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "龙国文",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "mse-c13590-a187692",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13590a187692/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://mse.upc.edu.cn/2018/1204/c13590a187692/page.htm",
+        "listUrl": "http://mse.upc.edu.cn/17618/list.htm",
+        "listedUnits": [
+          "材料科学与工程学院"
+        ],
+        "sourceId": "mse-c13590-a187692",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MAT110321022"
+      ],
+      "courseNames": [
+        "金属焊接"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

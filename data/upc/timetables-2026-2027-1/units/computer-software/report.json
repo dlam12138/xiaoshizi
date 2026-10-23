@@ -1,0 +1,40 @@
+{
+  "slug": "computer-software",
+  "sourceUnit": "青岛软件学院、计算机科学与技术学院",
+  "collegeCode": "upc-10",
+  "status": "active",
+  "sourceDir": "青岛软件学院计算机科学与技术学院",
+  "rawBlocks": 601,
+  "candidates": 87,
+  "verified": 87,
+  "officialVerified": 80,
+  "timetableVerified": 7,
+  "unresolved": 0,
+  "unresolvedDetails": [],
+  "excludedBlocks": 6,
+  "excludedBlockReasons": {
+    "missing_teacher": 6
+  },
+  "coursesRaw": 75,
+  "sourceFile": {
+    "path": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+    "bytes": 108032,
+    "sha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+    "format": "BIFF8/OLE2",
+    "title": "中国石油大学（华东） 青岛软件学院计算机科学与技术学院  教研室课表",
+    "term": "2026-2027-1",
+    "sheets": [
+      {
+        "name": "Sheet4",
+        "rows": 9,
+        "cols": 256,
+        "headerRow": 3,
+        "blocks": 601,
+        "anomalies": []
+      }
+    ]
+  },
+  "courses": 74,
+  "offerings": 178,
+  "importFile": "units/computer-software/import.json"
+}

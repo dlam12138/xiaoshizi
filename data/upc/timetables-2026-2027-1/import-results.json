@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-23T09:35:01.552Z",
+  "note": "Increments: 11 same-name official identities + 153 timetable identities earlier; then 1 inferred 通信 profile with 2 inferred probability courses / 3 offerings. All repeated with 0 new rows.",
+  "backupBeforeCorrection": {
+    "path": "temp/supabase-local/backups/upc-before-cross-unit-correction-2026-10-23T05-07-35Z.dump",
+    "sha256": "f481db6a534a88d70c9fb4346b368c08db40a7bf984a33426bc9bb7448ce94a6"
+  },
+  "units": [
+    {
+      "dataset": "upc-chemistry-2026-2027-1-timetable-20261022",
+      "importedAt": "2026-10-23T01:58:55.397254+00:00",
+      "inserted": {
+        "teachers": 136,
+        "courses": 129,
+        "offerings": 271
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T01:59:03.425129+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-computer-software-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T04:11:56.952911+00:00",
+      "inserted": {
+        "teachers": 79,
+        "courses": 72,
+        "offerings": 165
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T04:13:38.70321+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-control-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T04:11:57.203139+00:00",
+      "inserted": {
+        "teachers": 54,
+        "courses": 48,
+        "offerings": 99
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T04:13:38.968196+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-earth-science-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T04:11:57.430424+00:00",
+      "inserted": {
+        "teachers": 107,
+        "courses": 91,
+        "offerings": 155
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T04:13:39.186394+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-economics-management-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T04:11:57.669249+00:00",
+      "inserted": {
+        "teachers": 100,
+        "courses": 121,
+        "offerings": 196
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T04:13:39.392239+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-humanities-law-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T04:11:57.906362+00:00",
+      "inserted": {
+        "teachers": 52,
+        "courses": 120,
+        "offerings": 161
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T04:13:39.60665+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-marxism-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T04:11:58.138981+00:00",
+      "inserted": {
+        "teachers": 85,
+        "courses": 19,
+        "offerings": 112
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T04:13:39.831422+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-materials-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T04:11:58.376372+00:00",
+      "inserted": {
+        "teachers": 53,
+        "courses": 67,
+        "offerings": 114
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T04:13:40.06477+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-mechanical-engineering-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T04:11:58.61675+00:00",
+      "inserted": {
+        "teachers": 105,
+        "courses": 93,
+        "offerings": 207
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T04:13:40.282324+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-new-energy-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T04:11:58.852376+00:00",
+      "inserted": {
+        "teachers": 73,
+        "courses": 62,
+        "offerings": 148
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T04:13:40.490717+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-ocean-space-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T04:11:59.101083+00:00",
+      "inserted": {
+        "teachers": 61,
+        "courses": 72,
+        "offerings": 121
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T04:13:40.694231+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-petroleum-engineering-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T04:11:59.32319+00:00",
+      "inserted": {
+        "teachers": 118,
+        "courses": 74,
+        "offerings": 232
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T04:13:40.892893+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-physical-education-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T04:11:59.585271+00:00",
+      "inserted": {
+        "teachers": 17,
+        "courses": 6,
+        "offerings": 24
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T04:13:41.094417+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-science-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T04:11:59.81399+00:00",
+      "inserted": {
+        "teachers": 144,
+        "courses": 127,
+        "offerings": 260
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T04:13:41.294503+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-storage-civil-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T04:12:00.048994+00:00",
+      "inserted": {
+        "teachers": 91,
+        "courses": 89,
+        "offerings": 181
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T04:13:41.503072+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-engineering-training-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T05:09:41.448156+00:00",
+      "inserted": {
+        "teachers": 8,
+        "courses": 6,
+        "offerings": 15
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T05:09:41.716136+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-foreign-languages-2026-2027-1-timetable-20261023",
+      "importedAt": "2026-10-23T06:03:45.900566+00:00",
+      "inserted": {
+        "teachers": 89,
+        "courses": 86,
+        "offerings": 193
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T06:03:46.127383+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": false
+    },
+    {
+      "dataset": "upc-timetable-unit-identities-2026-2027-1-20261023",
+      "importedAt": "2026-10-23T06:51:24.901677+00:00",
+      "inserted": {
+        "teachers": 18,
+        "courses": 5,
+        "offerings": 24
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T06:51:25.2459+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        },
+        {
+          "importedAt": "2026-10-23T07:34:59.646892+00:00",
+          "inserted": {
+            "teachers": 2,
+            "courses": 0,
+            "offerings": 3
+          }
+        },
+        {
+          "importedAt": "2026-10-23T07:34:59.862426+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        },
+        {
+          "importedAt": "2026-10-23T08:39:15.422829+00:00",
+          "inserted": {
+            "teachers": 153,
+            "courses": 52,
+            "offerings": 267
+          }
+        },
+        {
+          "importedAt": "2026-10-23T08:39:27.079638+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": true
+    },
+    {
+      "dataset": "upc-same-name-official-identities-2026-2027-1-20261023",
+      "importedAt": "2026-10-23T08:39:15.066119+00:00",
+      "inserted": {
+        "teachers": 11,
+        "courses": 4,
+        "offerings": 15
+      },
+      "repeatImports": [
+        {
+          "importedAt": "2026-10-23T08:39:26.873392+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        },
+        {
+          "importedAt": "2026-10-23T09:33:01.895527+00:00",
+          "inserted": {
+            "teachers": 1,
+            "courses": 2,
+            "offerings": 3
+          }
+        },
+        {
+          "importedAt": "2026-10-23T09:33:02.121433+00:00",
+          "inserted": {
+            "teachers": 0,
+            "courses": 0,
+            "offerings": 0
+          }
+        }
+      ],
+      "currentPayloadChecksumMatch": true
+    }
+  ],
+  "correction": {
+    "removedOfferings": 20,
+    "removedOrphanCourses": 3,
+    "removedTeachersWithoutAcceptedUnit": 2,
+    "removedRelations": 20,
+    "reviewsTouched": 0,
+    "backup": "temp/supabase-local/backups/upc-before-cross-unit-correction-2026-10-23T05-07-35Z.dump"
+  },
+  "centerAddition": {
+    "teachers": 8,
+    "courses": 6,
+    "offerings": 15,
+    "source": "https://sygx.upc.edu.cn/zzjg/list.htm",
+    "unitCode": "upc-17",
+    "note": "学校直属教学单位，学院级建制；不是 16 个教学院部之一"
+  },
+  "foreignAddition": {
+    "teachers": 89,
+    "courses": 86,
+    "offerings": 193,
+    "source": "https://sfs.upc.edu.cn/1546/list.htm",
+    "note": "100 candidates; 89 official profiles; 11 unresolved; 1 conflict course excluded"
+  },
+  "sameNameOfficialAddition": {
+    "teachers": 12,
+    "courses": 6,
+    "courseAssociations": 18,
+    "offerings": 18,
+    "sourceFile": "data/upc/timetables-2026-2027-1/same-name-official-identities/import.json",
+    "thisRound": {
+      "teachers": 1,
+      "courses": 2,
+      "offerings": 3,
+      "inferredCourseRelations": 3
+    },
+    "note": "5 profile-alias groups merged; 5 true same-name groups split into 7 official identities; 18 course associations, 6 new courses; 3 probability/discrete assignments are inferred and correctable"
+  },
+  "timetableAddition": {
+    "teachers": 173,
+    "newCourses": 57,
+    "offerings": 294,
+    "chemistryExtension": {
+      "teachers": 7,
+      "coursesTouched": 12,
+      "newCourses": 0,
+      "offerings": 13
+    },
+    "thisRound": {
+      "teachers": 153,
+      "newCourses": 52,
+      "offerings": 267
+    },
+    "sourceFile": "data/upc/timetables-2026-2027-1/timetable-identities/import.json",
+    "note": "173 timetable-source identities total after retaining the 153 no-profile/roster-only/collective-page entries; 41 new courses overall; 294 relations; 6 OTH conflict relations excluded"
+  },
+  "totals": {
+    "teachers": 1555,
+    "courses": 1342,
+    "offerings": 2946,
+    "officialProfileTeachers": 1382,
+    "timetableUnitTeachers": 173,
+    "chemistryBaseline": {
+      "teachers": 136,
+      "courses": 129,
+      "offerings": 271
+    },
+    "chemistryExtension": {
+      "teachers": 7,
+      "coursesTouched": 12,
+      "offerings": 13
+    },
+    "inferredCourseRelations": 3,
+    "unassignedCourseRelations": 0,
+    "new": {
+      "teachers": 1419,
+      "courses": 1213,
+      "offerings": 2675
+    }
+  },
+  "currentPayloadChecksumsMatchAll": false,
+  "payloadChecksumDifferences": [
+    "upc-chemistry-2026-2027-1-timetable-20261022",
+    "upc-computer-software-2026-2027-1-timetable-20261023",
+    "upc-control-2026-2027-1-timetable-20261023",
+    "upc-earth-science-2026-2027-1-timetable-20261023",
+    "upc-economics-management-2026-2027-1-timetable-20261023",
+    "upc-humanities-law-2026-2027-1-timetable-20261023",
+    "upc-marxism-2026-2027-1-timetable-20261023",
+    "upc-materials-2026-2027-1-timetable-20261023",
+    "upc-mechanical-engineering-2026-2027-1-timetable-20261023",
+    "upc-new-energy-2026-2027-1-timetable-20261023",
+    "upc-ocean-space-2026-2027-1-timetable-20261023",
+    "upc-petroleum-engineering-2026-2027-1-timetable-20261023",
+    "upc-physical-education-2026-2027-1-timetable-20261023",
+    "upc-science-2026-2027-1-timetable-20261023",
+    "upc-storage-civil-2026-2027-1-timetable-20261023",
+    "upc-engineering-training-2026-2027-1-timetable-20261023",
+    "upc-foreign-languages-2026-2027-1-timetable-20261023"
+  ],
+  "payloadChecksumDifferenceCount": 17,
+  "payloadChecksumNote": "Per-unit payloads may differ after same-name reconciliation; those batches were not re-imported wholesale. Explicit same-name and timetable increments were imported with current checksums and repeated idempotently.",
+  "identityStats": {
+    "officialProfilePersons": 1382,
+    "timetableUnitPersons": 173,
+    "totalTeacherIdentities": 1555,
+    "profileAliasGroups": 5,
+    "profileAliasPages": 7,
+    "distinctSameNameGroups": 5,
+    "inferredCourseRelations": 3,
+    "unassignedCourseRelations": 0,
+    "unresolvedTeacherEntries": 0
+  },
+  "batchCount": 44
+}

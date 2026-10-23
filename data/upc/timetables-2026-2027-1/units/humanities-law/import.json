@@ -1,0 +1,1885 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-humanities-law-2026-2027-1-timetable-20261023",
+  "source": "课表/文法学院/课表打印.xls sha256:effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "shl-c16887-a310388",
+      "name": "丁琳",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL310412100",
+          "name": "和声(2-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL310511020",
+          "name": "基本乐理",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL323831020",
+          "name": "钢琴演奏基础",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL324431020",
+          "name": "音乐鉴赏",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a309937",
+      "name": "丁鹏",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2091199",
+          "name": "初级汉语口语2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL224121030",
+          "name": "中国文学批评专题",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-005",
+      "name": "于露",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL131812200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL229912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL331512200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16888-a310525",
+      "name": "付寒娇",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL422312999",
+          "name": "素描（2-1）",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL422731020",
+          "name": "大学美术",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL423531020",
+          "name": "现代装饰绘画",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL432231020",
+          "name": "中国非遗艺术工作坊",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL432431020",
+          "name": "中西美术时空对话",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-006",
+      "name": "任广志",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL121311020",
+          "name": "法律职业伦理",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL124711030",
+          "name": "刑法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL126431020",
+          "name": "犯罪学",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-007",
+      "name": "倪娅",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL321016100",
+          "name": "管弦乐队合奏(6-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL321016300",
+          "name": "管弦乐队合奏(6-3)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL321016500",
+          "name": "管弦乐队合奏(6-5)",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16888-a310524",
+      "name": "冯德华",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2091199",
+          "name": "初级汉语口语2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL420811020",
+          "name": "立体构成",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL422531020",
+          "name": "广告设计",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL422831020",
+          "name": "设计艺术欣赏",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL423011020",
+          "name": "形态构成",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL423231025",
+          "name": "艺术与审美",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16885-a49598",
+      "name": "冷凌",
+      "title": "教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL124712100",
+          "name": "刑法学(2-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL126131020",
+          "name": "法律人生",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL131812200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a297618",
+      "name": "刘婧婧",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2092199",
+          "name": "初级汉语精读2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL221421020",
+          "name": "秘书学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL221621020",
+          "name": "女性文学研究",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL223111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL223611040",
+          "name": "中国当代文学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL225931020",
+          "name": "中国现当代小说鉴赏",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16887-a310393",
+      "name": "刘彬娜",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL320921020",
+          "name": "歌唱语言训练",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL321212100",
+          "name": "合唱指挥(2-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL325131020",
+          "name": "合唱",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-008",
+      "name": "刘正宇",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL131812200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL229912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL331512200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16887-a49560",
+      "name": "刘清",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2091199",
+          "name": "初级汉语口语2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL310721021",
+          "name": "论文写作",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL311712100",
+          "name": "中国音乐史(2-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL321612100",
+          "name": "民族民间音乐(2-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL323631020",
+          "name": "民族民间音乐欣赏",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16885-a297328",
+      "name": "刘玉林",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL120421020",
+          "name": "财税法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL122811020",
+          "name": "经济法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL123111030",
+          "name": "民法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL132031020",
+          "name": "民法与人生",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-001",
+      "name": "刘积舜",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL222011021",
+          "name": "摄影摄像基础",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-009",
+      "name": "吴树义",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL123011030",
+          "name": "行政法与行政诉讼法",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL127311011",
+          "name": "模拟环资法庭审判",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16885-a420205",
+      "name": "吴睿佳",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL120821021",
+          "name": "法律逻辑学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL127611010",
+          "name": "人工智能法学",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16888-a310528",
+      "name": "孙峰",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2092199",
+          "name": "初级汉语精读2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL420621020",
+          "name": "交互设计",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL421211999",
+          "name": "色彩（2-1）",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL422312999",
+          "name": "素描（2-1）",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL422431010",
+          "name": "美术鉴赏",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL422731020",
+          "name": "大学美术",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL423231025",
+          "name": "艺术与审美",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL423612100",
+          "name": "色彩（2-1）",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL432231020",
+          "name": "中国非遗艺术工作坊",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16887-a310430",
+      "name": "孙慧",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL310511020",
+          "name": "基本乐理",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL320426100",
+          "name": "钢琴集体课(6-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL323831020",
+          "name": "钢琴演奏基础",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-010",
+      "name": "孙涛",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2091199",
+          "name": "初级汉语口语2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL230921020",
+          "name": "训诂学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL232331020",
+          "name": "国宝中的中华文明",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-011",
+      "name": "孙颖",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL321212100",
+          "name": "合唱指挥(2-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL325131020",
+          "name": "合唱",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-012",
+      "name": "宋亚容",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL121721020",
+          "name": "国际环境法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL126731020",
+          "name": "能源法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL132721020",
+          "name": "高级法律英语阅读",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16888-a407473",
+      "name": "宋寒儿",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL422931020",
+          "name": "西方美术欣赏",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL423231025",
+          "name": "艺术与审美",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL423331020",
+          "name": "中国美术欣赏",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL432231020",
+          "name": "中国非遗艺术工作坊",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL432431020",
+          "name": "中西美术时空对话",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16887-a310435",
+      "name": "尹国峰",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL324831020",
+          "name": "歌剧舞剧赏析",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL328721020",
+          "name": "歌剧鉴赏",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL331512200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL331731020",
+          "name": "歌唱与舞台表演",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16885-a297313",
+      "name": "康雷闪",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL124511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL127031020",
+          "name": "人生风险与保险保障",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL131812200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16887-a310436",
+      "name": "张冬君",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2092199",
+          "name": "初级汉语精读2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL321016100",
+          "name": "管弦乐队合奏(6-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL321016300",
+          "name": "管弦乐队合奏(6-3)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL321016500",
+          "name": "管弦乐队合奏(6-5)",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16885-a49125",
+      "name": "张学亮",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL120611020",
+          "name": "法理学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL132031020",
+          "name": "民法与人生",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16887-a310438",
+      "name": "张志雄",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL324731020",
+          "name": "中国舞蹈基础",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL331631020",
+          "name": "中国舞感知与体验",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16887-a310437",
+      "name": "张楠",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL320921020",
+          "name": "歌唱语言训练",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a301937",
+      "name": "张欣",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2092199",
+          "name": "初级汉语精读2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL223714300",
+          "name": "中国古代文学(4-3)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL231431020",
+          "name": "古典文学中的历史变迁",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-013",
+      "name": "张永宁",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL223111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-014",
+      "name": "张泰",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2095199",
+          "name": "中级汉语2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL223714100",
+          "name": "中国古代文学(4-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL232131020",
+          "name": "《庄子》品读",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a301944",
+      "name": "张袁月",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2092199",
+          "name": "初级汉语精读2-1",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-015",
+      "name": "徐济宽",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL122411031",
+          "name": "合同法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL132721020",
+          "name": "高级法律英语阅读",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-016",
+      "name": "曹永海",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL120611020",
+          "name": "法理学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL127031020",
+          "name": "人生风险与保险保障",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16887-a310511",
+      "name": "朱裔文",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL310921020",
+          "name": "世界民族音乐",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL323531020",
+          "name": "手风琴演奏基础",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL331811020",
+          "name": "教育概论",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL331921020",
+          "name": "教育概论",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16885-a49162",
+      "name": "李凤霞",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL122721020",
+          "name": "婚姻家庭与继承法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL132031020",
+          "name": "民法与人生",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-017",
+      "name": "李康",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL110321020",
+          "name": "能源法律与政策",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL120611020",
+          "name": "法理学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL120921021",
+          "name": "法律文献检索与写作",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL126131020",
+          "name": "法律人生",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16885-a394595",
+      "name": "李智卓",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL110321020",
+          "name": "能源法律与政策",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL125321020",
+          "name": "自然资源法学",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-018",
+      "name": "李猛",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL124321021",
+          "name": "西方法律思想史",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL124411020",
+          "name": "宪法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL128921010",
+          "name": "监察法学",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-019",
+      "name": "李纯泽",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2096099",
+          "name": "中国概况",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a49009",
+      "name": "李芳琴",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2095199",
+          "name": "中级汉语2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL226531020",
+          "name": "影视鉴赏",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-020",
+      "name": "杨倩",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL131812200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL229912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL331512200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-021",
+      "name": "杨军",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL123211031",
+          "name": "民事诉讼法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL132031020",
+          "name": "民法与人生",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-022",
+      "name": "杨欣",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL121721020",
+          "name": "国际环境法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL122621020",
+          "name": "国际经济法学",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-002",
+      "name": "林超",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL231821021",
+          "name": "基础俄语",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-023",
+      "name": "栾著",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2094199",
+          "name": "中国概况2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "2095199",
+          "name": "中级汉语2-1",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a297621",
+      "name": "毛思敏",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2092199",
+          "name": "初级汉语精读2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL221311020",
+          "name": "美学概论",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL222511030",
+          "name": "文学概论",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL223111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a49036",
+      "name": "沈壮娟",
+      "title": "教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL220111020",
+          "name": "比较文学原理",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL220521020",
+          "name": "电影理论与实践",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL221521020",
+          "name": "能源文化与生态文学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL223111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL229912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-024",
+      "name": "王大勇",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL222011021",
+          "name": "摄影摄像基础",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16885-a49767",
+      "name": "王学栋",
+      "title": "教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL122211030",
+          "name": "行政法学",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-003",
+      "name": "王宇红",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2091199",
+          "name": "初级汉语口语2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "2092199",
+          "name": "初级汉语精读2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL221421020",
+          "name": "秘书学",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16888-a310529",
+      "name": "王成宝",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL422131020",
+          "name": "书道与篆刻",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL423131020",
+          "name": "国画",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL432331020",
+          "name": "书画鉴赏与实践",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a49041",
+      "name": "王永豪",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL223714100",
+          "name": "中国古代文学(4-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL224531021",
+          "name": "先秦君子风范",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16887-a310433",
+      "name": "王睿",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL323731020",
+          "name": "流行音乐鉴赏",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16887-a310411",
+      "name": "王苗苗",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL325531020",
+          "name": "舞蹈鉴赏",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16885-a49256",
+      "name": "田国兴",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL123112100",
+          "name": "民法学(2-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL125421020",
+          "name": "证券法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL132031020",
+          "name": "民法与人生",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-025",
+      "name": "由然",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL120721020",
+          "name": "法律经济学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL125631020",
+          "name": "刑法概论",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL126131020",
+          "name": "法律人生",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16887-a310395",
+      "name": "盛辉",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL311112100",
+          "name": "西方音乐史(2-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL311421020",
+          "name": "音乐美学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL311522100",
+          "name": "音乐赏析(2-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL323431015",
+          "name": "花儿",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16887-a310396",
+      "name": "石瑛",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL323831020",
+          "name": "钢琴演奏基础",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16885-a49136",
+      "name": "秦勇",
+      "title": "教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL121311020",
+          "name": "法律职业伦理",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL123821020",
+          "name": "侵权责任法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL125011020",
+          "name": "知识产权法学",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a309936",
+      "name": "罗舒",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2091199",
+          "name": "初级汉语口语2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL220912100",
+          "name": "古代汉语(2-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL222712100",
+          "name": "现代汉语(2-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL225531020",
+          "name": "中国文化专题选讲",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a309889",
+      "name": "罗蕾",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL225931020",
+          "name": "中国现当代小说鉴赏",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a309891",
+      "name": "耿静颖",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2096199",
+          "name": "高级汉语2-1",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-026",
+      "name": "胥丹青",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL310812100",
+          "name": "曲式与作品分析(2-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL311611020",
+          "name": "音乐英语文献选读",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL324931020",
+          "name": "歌曲配弹",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16887-a310408",
+      "name": "苏静",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL310721021",
+          "name": "论文写作",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL311013100",
+          "name": "视唱练耳(3-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL311013300",
+          "name": "视唱练耳(3-3)",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16888-a310526",
+      "name": "菅兴祝",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL410411020",
+          "name": "新媒体艺术概论",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL420721020",
+          "name": "空间造型",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL422221020",
+          "name": "新媒体艺术概论",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL432012100",
+          "name": "素描（2-1）",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL432431020",
+          "name": "中西美术时空对话",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL432541020",
+          "name": "AI艺术实验室",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-027",
+      "name": "葛浩然",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL220521020",
+          "name": "电影理论与实践",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL222011021",
+          "name": "摄影摄像基础",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16885-a297304",
+      "name": "董岩",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL123211030",
+          "name": "民事诉讼法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL123311010",
+          "name": "模拟行政法庭审判",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL125321020",
+          "name": "自然资源法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL127311011",
+          "name": "模拟环资法庭审判",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16885-a219003",
+      "name": "董金鑫",
+      "title": "教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL122011020",
+          "name": "国际私法",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL132411031",
+          "name": "国际私法学",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16885-a49959",
+      "name": "谌爱华",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL123311010",
+          "name": "模拟行政法庭审判",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL124411020",
+          "name": "宪法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL131812200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16885-a384650",
+      "name": "贺小军",
+      "title": "教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL124811030",
+          "name": "刑事诉讼法学",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL127521020",
+          "name": "刑事侦查学",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-028",
+      "name": "赵延升",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL131812200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL229912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL331512200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a309935",
+      "name": "郝婷婷",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL222312200",
+          "name": "外国文学(2-2)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL222421020",
+          "name": "文本解读",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-029",
+      "name": "郭杨",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2094199",
+          "name": "中国概况2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "2095199",
+          "name": "中级汉语2-1",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-030",
+      "name": "郭颂",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL321016100",
+          "name": "管弦乐队合奏(6-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL321016300",
+          "name": "管弦乐队合奏(6-3)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL321016500",
+          "name": "管弦乐队合奏(6-5)",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-004",
+      "name": "金涛",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL420621020",
+          "name": "交互设计",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a297622",
+      "name": "门红丽",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL223311010",
+          "name": "新闻概论",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL224212100",
+          "name": "中国现代文学(2-1)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL231531020",
+          "name": "中国现当代文学经典品读",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16887-a310387",
+      "name": "陈蓉",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL323831020",
+          "name": "钢琴演奏基础",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a49862",
+      "name": "马丽丽",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2095199",
+          "name": "中级汉语2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL223714300",
+          "name": "中国古代文学(4-3)",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL223921020",
+          "name": "中国文化史专题",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL232231020",
+          "name": "字里字外——《说文解字》导读",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-14-031",
+      "name": "马康凤",
+      "title": null,
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SHL127031020",
+          "name": "人生风险与保险保障",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a49842",
+      "name": "魏学宝",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2096199",
+          "name": "高级汉语2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL223111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "SHL231731020",
+          "name": "中国古典诗词的生命与情感",
+          "collegeCode": "upc-14"
+        }
+      ]
+    },
+    {
+      "sourceId": "shl-c16886-a302003",
+      "name": "齐卫华",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "campus": null,
+      "courses": [
+        {
+          "code": "2092199",
+          "name": "初级汉语精读2-1",
+          "collegeCode": "upc-14"
+        },
+        {
+          "code": "2095799",
+          "name": "高级汉语（2-1）",
+          "collegeCode": "upc-14"
+        }
+      ]
+    }
+  ]
+}

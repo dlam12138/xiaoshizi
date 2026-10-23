@@ -1,0 +1,1425 @@
+{
+  "schemaVersion": 1,
+  "unit": "经济管理学院",
+  "collegeCode": "upc-11",
+  "courses": [
+    {
+      "key": "OTH921331020",
+      "code": "OTH921331020",
+      "name": "沟通与写作",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "白春光"
+      ],
+      "excludedReason": "course_code_conflict"
+    },
+    {
+      "key": "SEM110121020",
+      "code": "SEM110121020",
+      "name": "工程项目管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "付芳",
+        "杨光"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM110221020",
+      "code": "SEM110221020",
+      "name": "技术经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王辉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM110311020",
+      "code": "SEM110311020",
+      "name": "技术经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "于莎莎",
+        "梁岩",
+        "王辉",
+        "白洋",
+        "袁梦琪",
+        "陈月璇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM110621030",
+      "code": "SEM110621030",
+      "name": "运筹学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "邓忆瑞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM110711010",
+      "code": "SEM110711010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "宋杰鲲",
+        "渐令",
+        "王宁宁",
+        "白春光"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM111111020",
+      "code": "SEM111111020",
+      "name": "生产运作管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王宁宁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM120411020",
+      "code": "SEM120411020",
+      "name": "工程估价",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "陈月璇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM120911030",
+      "code": "SEM120911030",
+      "name": "工程经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "闻雯"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM120911031",
+      "code": "SEM120911031",
+      "name": "工程经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "周鹏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM121011030",
+      "code": "SEM121011030",
+      "name": "工程项目管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "宋杰鲲",
+        "马志强"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM121011031",
+      "code": "SEM121011031",
+      "name": "工程项目管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "付峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM121321020",
+      "code": "SEM121321020",
+      "name": "公文写作与处理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "宋杰鲲"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM121521031",
+      "code": "SEM121521031",
+      "name": "管理系统工程",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "张涛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM122211020",
+      "code": "SEM122211020",
+      "name": "经济法与建设法规",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "杨光"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM125321020",
+      "code": "SEM125321020",
+      "name": "绿色建筑与可持续发展",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "何立华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM125411030",
+      "code": "SEM125411030",
+      "name": "工程施工技术与组织",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "何立华",
+        "厉松芮"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM125511020",
+      "code": "SEM125511020",
+      "name": "工程合同管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "田玉英"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM126821020",
+      "code": "SEM126821020",
+      "name": "生产运作管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "邢伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM128121020",
+      "code": "SEM128121020",
+      "name": "现代能源系统",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "厉松芮",
+        "王文雅"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM128721020",
+      "code": "SEM128721020",
+      "name": "能源与社会",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张鸿雁",
+        "相林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM129011020",
+      "code": "SEM129011020",
+      "name": "高级运筹学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "徐小峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM129511020",
+      "code": "SEM129511020",
+      "name": "管理科学研究方法",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "邓忆瑞",
+        "邢伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM129711010",
+      "code": "SEM129711010",
+      "name": "文献阅读与开题报告",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "赵海平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM132721020",
+      "code": "SEM132721020",
+      "name": "工程信息管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘玲"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM134761021",
+      "code": "SEM134761021",
+      "name": "现代能源系统",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王文雅"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM210121030",
+      "code": "SEM210121030",
+      "name": "供应链与物流管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "高学贤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM210621020",
+      "code": "SEM210621020",
+      "name": "智能优化算法",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "渐令"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM211421020",
+      "code": "SEM211421020",
+      "name": "现代管理科学前沿",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "孙金凤",
+        "渐令",
+        "王强",
+        "赵海平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM220711025",
+      "code": "SEM220711025",
+      "name": "管理系统建模与仿真",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "安贵鑫"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM220711026",
+      "code": "SEM220711026",
+      "name": "管理系统建模与仿真",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "安贵鑫"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM220911020",
+      "code": "SEM220911020",
+      "name": "决策理论与方法",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "崔耕",
+        "渐令"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM221011026",
+      "code": "SEM221011026",
+      "name": "面向对象程序设计",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "陈晨"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM221121021",
+      "code": "SEM221121021",
+      "name": "能源大数据处理与分析",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 10,
+      "teacherNames": [
+        "王信敏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM221511020",
+      "code": "SEM221511020",
+      "name": "商务智能综合实训",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "王文雅"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM222021020",
+      "code": "SEM222021020",
+      "name": "信息经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "杨兴寿"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM222411031",
+      "code": "SEM222411031",
+      "name": "信息系统开发工具与方法",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "杨兴寿"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM222511020",
+      "code": "SEM222511020",
+      "name": "信息资源管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘丙泉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM223011010",
+      "code": "SEM223011010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 17,
+      "teacherNames": [
+        "刘苇",
+        "渐令",
+        "王信敏",
+        "王宁宁",
+        "白春光",
+        "白洋",
+        "范丽伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM224911020",
+      "code": "SEM224911020",
+      "name": "创业基础与实践",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 110,
+      "teacherNames": [
+        "付代红",
+        "冯磊",
+        "李文斌",
+        "梁岩",
+        "王爱玲",
+        "王菊娥",
+        "郭宁宁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM228411021",
+      "code": "SEM228411021",
+      "name": "数据结构与算法",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "张露平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM229111020",
+      "code": "SEM229111020",
+      "name": "大数据分析",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王信敏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM229711020",
+      "code": "SEM229711020",
+      "name": "管理信息系统（英文）",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘苇",
+        "孙金凤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM233511020",
+      "code": "SEM233511020",
+      "name": "客户关系管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "邓忆瑞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM234311020",
+      "code": "SEM234311020",
+      "name": "创新创业基础与实践",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 332,
+      "teacherNames": [
+        "付峰",
+        "冯磊",
+        "刘玲",
+        "孙燕芳",
+        "孙瑞华",
+        "安贵鑫",
+        "宋伟",
+        "左马华青",
+        "李文斌",
+        "李玉萍",
+        "李荣荣",
+        "王菊娥",
+        "田玉英",
+        "苏辉",
+        "范水清",
+        "车诚",
+        "郝增亮",
+        "郭宁宁",
+        "马颖",
+        "高学贤",
+        "齐建民"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM236511020",
+      "code": "SEM236511020",
+      "name": "大数据管理与应用概论",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "刘赟",
+        "白春光"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM236611030",
+      "code": "SEM236611030",
+      "name": "数据库原理与应用",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "刘赟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM310111030",
+      "code": "SEM310111030",
+      "name": "财务管理学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "刘锴"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM310111031",
+      "code": "SEM310111031",
+      "name": "财务管理学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "张艳婷"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM310211030",
+      "code": "SEM310211030",
+      "name": "管理统计学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘素荣"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM320711020",
+      "code": "SEM320711020",
+      "name": "大数据与智能会计",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "李亮"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM320821020",
+      "code": "SEM320821020",
+      "name": "高级财务管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘广生"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM320911036",
+      "code": "SEM320911036",
+      "name": "高级财务会计",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "丁红燕"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM321021021",
+      "code": "SEM321021021",
+      "name": "公司战略与风险管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘锴"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM321211030",
+      "code": "SEM321211030",
+      "name": "国家税收",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "徐梅"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM321311020",
+      "code": "SEM321311020",
+      "name": "会计理论与前沿专题",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "田雪峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM321411021",
+      "code": "SEM321411021",
+      "name": "会计学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "殷爱贞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM321611026",
+      "code": "SEM321611026",
+      "name": "基础会计学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "孙燕芳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM321911010",
+      "code": "SEM321911010",
+      "name": "商业伦理与会计道德",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "齐建民"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM322421030",
+      "code": "SEM322421030",
+      "name": "统计分析与软件应用",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "徐凌",
+        "杨坤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM322621020",
+      "code": "SEM322621020",
+      "name": "政府与非营利组织会计",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘福东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM322712100",
+      "code": "SEM322712100",
+      "name": "中级财务会计(2-1)",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "田雪峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM323121020",
+      "code": "SEM323121020",
+      "name": "资产评估",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王勇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM323311010",
+      "code": "SEM323311010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘广生",
+        "王军会"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM324311030",
+      "code": "SEM324311030",
+      "name": "F6-Taxation",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李玉萍"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM326311030",
+      "code": "SEM326311030",
+      "name": "F5-Performance Management",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "江玮滢"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM328511030",
+      "code": "SEM328511030",
+      "name": "F2-Management Accounting",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘福东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM328611030",
+      "code": "SEM328611030",
+      "name": "F3-Financial Accounting",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "田雪峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM328811030",
+      "code": "SEM328811030",
+      "name": "F4-Corporate and Business Law",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘慧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM330921020",
+      "code": "SEM330921020",
+      "name": "财务成本管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘广生"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM331311030",
+      "code": "SEM331311030",
+      "name": "F1-Business and Technology",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王军会"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM410221020",
+      "code": "SEM410221020",
+      "name": "管理学基础",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "冯磊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM420311020",
+      "code": "SEM420311020",
+      "name": "定价策略",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王玲玲"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM421311021",
+      "code": "SEM421311021",
+      "name": "人力资源管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "张樨樨"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM421421010",
+      "code": "SEM421421010",
+      "name": "商务礼仪",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "范水清"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM421511020",
+      "code": "SEM421511020",
+      "name": "商业伦理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "吕肖东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM422211020",
+      "code": "SEM422211020",
+      "name": "消费者行为学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘志斌"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM422421020",
+      "code": "SEM422421020",
+      "name": "营销建模与数据挖掘",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "刘志斌"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM422511020",
+      "code": "SEM422511020",
+      "name": "战略管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "范水清"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM433821020",
+      "code": "SEM433821020",
+      "name": "分销渠道管理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张妍"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM434021020",
+      "code": "SEM434021020",
+      "name": "品牌策划与推广",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张音"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM434211020",
+      "code": "SEM434211020",
+      "name": "人工智能与数字营销",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王玲玲"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM434731020",
+      "code": "SEM434731020",
+      "name": "心理学与生活",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "栾琨"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM434811020",
+      "code": "SEM434811020",
+      "name": "管理心理学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "黄昶生"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM435461020",
+      "code": "SEM435461020",
+      "name": "新媒体营销",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "宋伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM435661021",
+      "code": "SEM435661021",
+      "name": "营销建模与数据挖掘",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘志斌"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM436611020",
+      "code": "SEM436611020",
+      "name": "大数据采集与预处理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "胡晓娟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM510121025",
+      "code": "SEM510121025",
+      "name": "国际贸易",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "孙瑞华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM510211025",
+      "code": "SEM510211025",
+      "name": "宏观经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "孟凡一",
+        "李秀娥",
+        "马颖"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM510211030",
+      "code": "SEM510211030",
+      "name": "宏观经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李秀娥",
+        "马颖"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM510311041",
+      "code": "SEM510311041",
+      "name": "微观经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张雪慧",
+        "杨坚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM510621020",
+      "code": "SEM510621020",
+      "name": "资源与环境经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王芳芳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM520411020",
+      "code": "SEM520411020",
+      "name": "当代中国经济",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘慧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM521421020",
+      "code": "SEM521421020",
+      "name": "国际能源合作",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "崔琦",
+        "相林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM521521020",
+      "code": "SEM521521020",
+      "name": "国际商务谈判",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "高新伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM521811031",
+      "code": "SEM521811031",
+      "name": "计量经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "马颖"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM521921020",
+      "code": "SEM521921020",
+      "name": "金融市场学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "王丛",
+        "韩民"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM522511020",
+      "code": "SEM522511020",
+      "name": "经济法",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王菊娥"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM522611020",
+      "code": "SEM522611020",
+      "name": "经济学说思想史",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "杨磊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM522711020",
+      "code": "SEM522711020",
+      "name": "经济学专题问题研究",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "刘慧",
+        "孙瑞华",
+        "孟凡一",
+        "崔琦",
+        "李永波",
+        "杨坚",
+        "霍江林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM523211031",
+      "code": "SEM523211031",
+      "name": "能源经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张明明",
+        "陈映彤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM523321020",
+      "code": "SEM523321020",
+      "name": "能源经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孟凡一"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM523421020",
+      "code": "SEM523421020",
+      "name": "区域经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "杨坚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM523521020",
+      "code": "SEM523521020",
+      "name": "人口、资源与环境经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王芳芳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM523911031",
+      "code": "SEM523911031",
+      "name": "政治经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "王军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM524531015",
+      "code": "SEM524531015",
+      "name": "创造性思维与创新方法",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "张雪慧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM524531020",
+      "code": "SEM524531020",
+      "name": "经济学与生活",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM524931020",
+      "code": "SEM524931020",
+      "name": "国际贸易基础",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙瑞华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM525511010",
+      "code": "SEM525511010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "李永波",
+        "李治国",
+        "李秀娥",
+        "霍江林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM525931020",
+      "code": "SEM525931020",
+      "name": "经济学基础",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM526611040",
+      "code": "SEM526611040",
+      "name": "经济学原理",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "左马华青"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM530721020",
+      "code": "SEM530721020",
+      "name": "金融学基础",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "霍江林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM531011020",
+      "code": "SEM531011020",
+      "name": "碳市场与碳交易",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王芳芳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM531141020",
+      "code": "SEM531141020",
+      "name": "碳市场与碳交易",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王芳芳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM531311020",
+      "code": "SEM531311020",
+      "name": "经济史",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "崔琦"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM531511030",
+      "code": "SEM531511030",
+      "name": "中级计量经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "刘宗明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM532411030",
+      "code": "SEM532411030",
+      "name": "中级微观经济学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李永波"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM532521030",
+      "code": "SEM532521030",
+      "name": "国际贸易理论与实务",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "孙瑞华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM532731020",
+      "code": "SEM532731020",
+      "name": "当代中国经济问题评析",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "杨坚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM532931020",
+      "code": "SEM532931020",
+      "name": "世界变局与中国开放",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "孙瑞华",
+        "崔琦",
+        "李秀娥",
+        "杨坚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM533611020",
+      "code": "SEM533611020",
+      "name": "能源金融",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "张明明",
+        "王丛",
+        "陈映彤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SEM533711020",
+      "code": "SEM533711020",
+      "name": "投资学",
+      "collegeCode": "upc-11",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "王丛",
+        "霍江林"
+      ],
+      "excludedReason": null
+    }
+  ]
+}

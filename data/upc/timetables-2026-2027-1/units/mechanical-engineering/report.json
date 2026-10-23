@@ -1,0 +1,38 @@
+{
+  "slug": "mechanical-engineering",
+  "sourceUnit": "机电工程学院",
+  "collegeCode": "upc-04",
+  "status": "active",
+  "sourceDir": "机电工程学院",
+  "rawBlocks": 586,
+  "candidates": 112,
+  "verified": 112,
+  "officialVerified": 105,
+  "timetableVerified": 7,
+  "unresolved": 0,
+  "unresolvedDetails": [],
+  "excludedBlocks": 0,
+  "excludedBlockReasons": {},
+  "coursesRaw": 97,
+  "sourceFile": {
+    "path": "课表/机电工程学院/课表打印.xls",
+    "bytes": 97280,
+    "sha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+    "format": "BIFF8/OLE2",
+    "title": "中国石油大学（华东） 机电工程学院  教研室课表",
+    "term": "2026-2027-1",
+    "sheets": [
+      {
+        "name": "Sheet4",
+        "rows": 9,
+        "cols": 256,
+        "headerRow": 3,
+        "blocks": 586,
+        "anomalies": []
+      }
+    ]
+  },
+  "courses": 96,
+  "offerings": 215,
+  "importFile": "units/mechanical-engineering/import.json"
+}

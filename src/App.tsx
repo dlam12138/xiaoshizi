@@ -5,9 +5,9 @@
 
 import React, { useState, useEffect, useCallback, useRef, lazy, Suspense } from 'react';
 import { Teacher, Review, UserPointTransaction } from './types';
-import { INITIAL_TEACHERS, INITIAL_REVIEWS } from './data/mockTeachers';
 import { supabaseService } from './services/supabaseService';
-import { isSupabaseConfigured } from './lib/supabase';
+import { isSupabaseConfigured, supabaseConfiguration } from './lib/supabase';
+import { UPC_APP_NAME, UPC_APP_SHORT_NAME, UPC_SCHOOL_NAME } from './config/upc';
 
 // Mobile Dedicated Views (Clean, pure Quark layout matching reference image)
 import { MobileQuarkHome } from './components/mobile/MobileQuarkHome';
@@ -22,17 +22,14 @@ import { DesktopUserProfile } from './components/desktop/DesktopUserProfile';
 import { DesktopTeacherSearch } from './components/desktop/DesktopTeacherSearch';
 
 // Shared Functional Components
-import { CourseRecommend } from './components/CourseRecommend';
 import { clearPagedQueryCache } from './hooks/usePagedQuery';
 
 // Modals are only mounted when the user opens them, so load them on demand
 // instead of shipping every dialog in the entry bundle.
 const TeacherDetailModal = lazy(() => import('./components/TeacherDetailModal').then(m => ({ default: m.TeacherDetailModal })));
-const AgentNoticeModal = lazy(() => import('./components/AgentNoticeModal').then(m => ({ default: m.AgentNoticeModal })));
 const ReviewModal = lazy(() => import('./components/ReviewModal').then(m => ({ default: m.ReviewModal })));
 const UserPointsModal = lazy(() => import('./components/UserPointsModal').then(m => ({ default: m.UserPointsModal })));
 const CollegeListModal = lazy(() => import('./components/CollegeListModal').then(m => ({ default: m.CollegeListModal })));
-const ExperienceGuideModal = lazy(() => import('./components/ExperienceGuideModal').then(m => ({ default: m.ExperienceGuideModal })));
 const AuthModal = lazy(() => import('./components/AuthModal').then(m => ({ default: m.AuthModal })));
 const AdminAuditModal = lazy(() => import('./components/AdminAuditModal').then(m => ({ default: m.AdminAuditModal })));
 
@@ -43,10 +40,9 @@ const LazyFallback = () => null;
 import { 
   BookOpen, 
   Search, 
-  Sliders, 
   User, 
   Coins, 
-  Sparkles,
+  UserPlus,
   LogIn,
   LogOut,
   ShieldCheck,
@@ -61,12 +57,12 @@ export default function App() {
   // Current logged in user via Supabase Auth
   const [currentUser, setCurrentUser] = useState<any | null>(null);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState<boolean>(false);
-  const [authModalMode, setAuthModalMode] = useState<'login' | 'register'>('login');
+  const [authModalMode, setAuthModalMode] = useState<'login' | 'register' | 'forgot' | 'recovery'>('login');
 
-  // Core application states
-  const [teachers, setTeachers] = useState<Teacher[]>(isSupabaseConfigured ? [] : INITIAL_TEACHERS);
-  const [teacherTotal, setTeacherTotal] = useState(isSupabaseConfigured ? 0 : INITIAL_TEACHERS.length);
-  const [reviews, setReviews] = useState<Review[]>(isSupabaseConfigured ? [] : INITIAL_REVIEWS);
+  // Core application states. No mock or old-school fallback is ever substituted.
+  const [teachers, setTeachers] = useState<Teacher[]>([]);
+  const [teacherTotal, setTeacherTotal] = useState(0);
+  const [reviews, setReviews] = useState<Review[]>([]);
   const [likedReviewIds, setLikedReviewIds] = useState<Set<string>>(new Set());
   const [pendingLikeIds, setPendingLikeIds] = useState<Set<string>>(new Set());
   const likeRequests = useRef(new Set<string>());
@@ -100,15 +96,11 @@ export default function App() {
 
   // Modals state
   const [selectedTeacher, setSelectedTeacher] = useState<Teacher | null>(null);
-  const [isAiModalOpen, setIsAiModalOpen] = useState<boolean>(false);
-  const [aiInitialPrompt, setAiInitialPrompt] = useState<string>('');
   const [isReviewModalOpen, setIsReviewModalOpen] = useState<boolean>(false);
   const [reviewTargetTeacher, setReviewTargetTeacher] = useState<Teacher | null>(null);
   const [isPointsModalOpen, setIsPointsModalOpen] = useState<boolean>(false);
   const [isCollegesModalOpen, setIsCollegesModalOpen] = useState<boolean>(false);
   const [colleges, setColleges] = useState<Array<{ id: string; name: string; code?: string }>>([]);
-  const [isExperienceModalOpen, setIsExperienceModalOpen] = useState<boolean>(false);
-  const [experienceTab, setExperienceTab] = useState<'guides' | 'notices' | 'history'>('guides');
   const [isAdminAuditModalOpen, setIsAdminAuditModalOpen] = useState<boolean>(false);
   const [isUserAdmin, setIsUserAdmin] = useState<boolean>(false);
   const [reviewRevision, setReviewRevision] = useState(0);
@@ -209,35 +201,49 @@ export default function App() {
     setReviewRevision(value => value + 1);
     const likeVersion = ++likeSyncVersion.current;
     const userId = currentUserIdRef.current;
-    // The homepage never downloads the school-wide review corpus.
-    if (userId && reviewScopeRef.current.profile) {
-      const ownReviews = await supabaseService.getReviews(undefined, { userId });
-      if (currentUserIdRef.current !== userId || likeSyncVersion.current !== likeVersion) return;
-      if (ownReviews) setReviews(ownReviews);
-      const ids = [...new Set((ownReviews || []).map(r => r.teacherId))];
-      const related = await Promise.all(ids.map(id => supabaseService.getTeacherById(id).catch(() => null)));
-      if (currentUserIdRef.current === userId) rememberTeachers(related.filter((t): t is Teacher => t !== null));
-    }
-    if (userId) {
-      setLikesLoading(true);
-      try {
-        const ids = await supabaseService.getMyLikedReviewIds();
-        if (currentUserIdRef.current === userId && likeSyncVersion.current === likeVersion) {
-          setLikedReviewIds(new Set(ids)); setLikesReady(true);
+    try {
+      // The homepage never downloads the school-wide review corpus.
+      if (userId && reviewScopeRef.current.profile) {
+        const ownReviews = await supabaseService.getReviews(undefined, { userId });
+        if (currentUserIdRef.current !== userId || likeSyncVersion.current !== likeVersion) return;
+        setReviews(ownReviews);
+        const ids = [...new Set(ownReviews.map(r => r.teacherId))];
+        const related = await Promise.all(ids.map(id => supabaseService.getTeacherById(id).catch(() => null)));
+        if (currentUserIdRef.current === userId) rememberTeachers(related.filter((t): t is Teacher => t !== null));
+      }
+      if (userId) {
+        setLikesLoading(true);
+        try {
+          const ids = await supabaseService.getMyLikedReviewIds();
+          if (currentUserIdRef.current === userId && likeSyncVersion.current === likeVersion) {
+            setLikedReviewIds(new Set(ids)); setLikesReady(true);
+          }
+        } catch {
+          if (currentUserIdRef.current === userId && likeSyncVersion.current === likeVersion) setLikesReady(false);
+        } finally {
+          if (likeSyncVersion.current === likeVersion) setLikesLoading(false);
         }
-      } catch {
-        if (currentUserIdRef.current === userId && likeSyncVersion.current === likeVersion) setLikesReady(false);
-      } finally {
-        if (likeSyncVersion.current === likeVersion) setLikesLoading(false);
+      }
+    } catch (error) {
+      if (currentUserIdRef.current === userId) {
+        showAppToast(error instanceof Error ? error.message : '评价数据加载失败，请稍后重试', 'error');
       }
     }
-  }, [rememberTeachers]);
+  }, [rememberTeachers, showAppToast]);
 
   useEffect(() => {
     setLikedReviewIds(new Set()); setLikesReady(false); setLikesLoading(false);
     if (isSupabaseConfigured) setReviews([]);
     handleRefreshReviews();
   }, [currentUser?.id, handleRefreshReviews]);
+
+  // A recovery link may establish its session before the auth listener mounts.
+  useEffect(() => {
+    if (isSupabaseConfigured && supabaseService.hasRecoveryParams()) {
+      setAuthModalMode('recovery');
+      setIsAuthModalOpen(true);
+    }
+  }, []);
 
   // Sync Supabase Auth, Initial Data, and Realtime Listeners
   useEffect(() => {
@@ -265,6 +271,10 @@ export default function App() {
     // Subscribe to auth state changes
     const { data: authListener } = supabaseService.onAuthStateChange((event, session) => {
       const user = session?.user || null;
+      if (event === 'PASSWORD_RECOVERY') {
+        setAuthModalMode('recovery');
+        setIsAuthModalOpen(true);
+      }
       if (event === 'SIGNED_OUT') {
         applyCurrentUser(null);
         setUserPoints(0);
@@ -360,34 +370,6 @@ export default function App() {
 
   const viewMode: 'mobile' | 'desktop' = deviceInfo.isMobile ? 'mobile' : 'desktop';
 
-  // Points Deduction Handler via unified spend_points RPC function
-  const handleDeductPoints = async (
-    amount: number,
-    reason: string,
-    actionCode: 'ai_question' | 'smart_filter' | 'guide_unlock' | string = 'ai_question'
-  ): Promise<boolean> => {
-    if (!currentUser) {
-      handleOpenAuth('login');
-      return false;
-    }
-
-    const res = await supabaseService.spendPoints(actionCode, reason, amount);
-    if (currentUserIdRef.current !== currentUser.id) return false;
-    if (!res.success) {
-      showAppToast(res.message || '扣除积分失败', 'error');
-      return false;
-    }
-
-    pointsRequestRef.current++;
-    setIsCheckinStatusLoading(false);
-    const newBalance = res.newBalance;
-    setUserPoints(newBalance);
-    // Ledger amounts come from point_rules on the server, not a UI price hint.
-    loadUserPointsData(currentUser.id);
-
-    return true;
-  };
-
   // Daily Check-in Handler via handle_daily_checkin RPC function
   const handleCheckIn = async () => {
     if (!currentUser) {
@@ -456,10 +438,10 @@ export default function App() {
   ): Promise<{ success: boolean; message?: string }> => {
     if (!currentUser) {
       handleOpenAuth('login');
-      return { success: false, message: '请先登录您的西南交大账号' };
+      return { success: false, message: '请先登录您的石大账号' };
     }
 
-    const nickname = currentUser.user_metadata?.nickname || '西南交大学子';
+    const nickname = currentUser.user_metadata?.nickname || '石大学子';
     const nowIso = new Date().toISOString();
     const newReview: Review = {
       ...newReviewData,
@@ -591,18 +573,51 @@ export default function App() {
   };
 
 
-  // Filter reviews written by current user (supports user id, email, nickname, and local client submissions)
-  const myUserNickname = currentUser?.user_metadata?.nickname;
-  const localSubmittedIds = new Set(supabaseService.getLocalReviews().map((r) => r.id));
   const myReviews = currentUser
-    ? reviews.filter(
-        (r) =>
-          (r.userId && r.userId === currentUser.id) ||
-          (currentUser.email && r.userEmail === currentUser.email) ||
-          (myUserNickname && r.authorNickname === myUserNickname) ||
-          localSubmittedIds.has(r.id)
-      )
+    ? reviews.filter((r) => r.userId === currentUser.id)
     : [];
+
+  if (!isSupabaseConfigured) {
+    return (
+      <div className="min-h-screen bg-slate-50 flex items-center justify-center p-5">
+        <div className="w-full max-w-lg bg-white rounded-3xl border border-gray-200 shadow-xl p-6 sm:p-8 space-y-5">
+          <div className="flex items-center gap-3">
+            <div className="w-11 h-11 rounded-2xl bg-blue-900 text-white flex items-center justify-center font-bold text-lg">
+              石
+            </div>
+            <div>
+              <h1 className="text-lg font-bold text-gray-950">{UPC_APP_NAME}</h1>
+              <p className="text-xs text-gray-500">环境配置检查</p>
+            </div>
+          </div>
+          <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 text-sm space-y-2">
+            <div className="flex items-center gap-2 font-bold">
+              <AlertCircle className="w-4 h-4" />
+              <span>数据库尚未就绪，应用已停止连接</span>
+            </div>
+            <p className="text-xs leading-relaxed">
+              {supabaseConfiguration.error || '缺少 UPC Supabase 配置。'}
+            </p>
+          </div>
+          <div className="text-xs text-gray-600 space-y-2">
+            <p className="font-semibold text-gray-800">本地配置步骤</p>
+            <ol className="list-decimal list-inside space-y-1 leading-relaxed">
+              <li>复制 `.env.example` 为 `.env.local`。</li>
+              <li>填写独立 UPC 项目的 `VITE_SUPABASE_URL` 与 `VITE_SUPABASE_ANON_KEY`。</li>
+              <li>重新执行 `npm run build` 并刷新页面。</li>
+            </ol>
+            <p className="text-2xs text-gray-500 pt-1">
+              本项目不会回退到旧校数据库，也不会加载 mock 教师或旧校评价。
+            </p>
+          </div>
+          <div className="flex items-center gap-2 text-2xs text-gray-400 border-t border-gray-100 pt-4">
+            <Info className="w-3.5 h-3.5" />
+            <span>{UPC_SCHOOL_NAME} · 独立部署环境</span>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-white sm:bg-slate-100/90 text-gray-900 flex flex-col items-center relative">
@@ -668,13 +683,6 @@ export default function App() {
                         setInitialTeacherSearch(query || '');
                         setCurrentTab('search');
                       }}
-                      onOpenRecommend={() => {
-                        setCurrentTab('recommend');
-                      }}
-                      onOpenAiChat={(prompt) => {
-                        setAiInitialPrompt(prompt || '');
-                        setIsAiModalOpen(true);
-                      }}
                       onOpenPoints={() => {
                         if (!currentUser) {
                           handleOpenAuth('login');
@@ -704,13 +712,6 @@ export default function App() {
                         setInitialTeacherSearch(query || '');
                         setCurrentTab('search');
                       }}
-                      onOpenRecommend={() => {
-                        setCurrentTab('recommend');
-                      }}
-                      onOpenAiChat={(prompt) => {
-                        setAiInitialPrompt(prompt || '');
-                        setIsAiModalOpen(true);
-                      }}
                       onOpenReview={(teacher) => handleOpenReview(teacher)}
                       onOpenPoints={() => {
                         if (!currentUser) {
@@ -720,24 +721,8 @@ export default function App() {
                         }
                       }}
                       onOpenCollegeList={() => setIsCollegesModalOpen(true)}
-                      onOpenExperienceModal={(tab) => {
-                        setExperienceTab(tab || 'guides');
-                        setIsExperienceModalOpen(true);
-                      }}
                       onSelectTeacher={(teacher) => setSelectedTeacher(teacher)}
                     />
-                  )}
-
-                  {currentTab === 'recommend' && (
-                    <div className="pt-3 px-3 pb-24">
-                      <CourseRecommend
-                        teachers={teachers}
-                        colleges={colleges}
-                        userPoints={userPoints}
-                        onSelectTeacher={(teacher) => setSelectedTeacher(teacher)}
-                        onDeductPoints={handleDeductPoints}
-                      />
-                    </div>
                   )}
 
                   {currentTab === 'profile' && (
@@ -795,21 +780,18 @@ export default function App() {
                 onClick={() => setCurrentTab('home')}
                 className="flex items-center gap-3 cursor-pointer select-none group"
               >
-                <div className="w-9 h-9 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-base shadow-xs shadow-indigo-200 group-hover:scale-105 transition-transform">
-                  交
+                <div className="w-9 h-9 rounded-xl bg-blue-900 text-white flex items-center justify-center font-bold text-base shadow-xs shadow-blue-200 group-hover:scale-105 transition-transform">
+                  石
                 </div>
                 <div>
                   <div className="flex items-center gap-1.5">
                     <span className="font-extrabold text-base tracking-tight text-gray-950 font-sans">
-                      交大活水
+                      {UPC_APP_SHORT_NAME}
                     </span>
-                    <span className="px-1.5 py-0.2 rounded-md text-3xs font-bold bg-indigo-50 text-indigo-600 border border-indigo-100">
-                      Agent
+                    <span className="px-1.5 py-0.2 rounded-md text-3xs font-bold bg-blue-50 text-blue-800 border border-blue-100">
+                      UPC
                     </span>
                   </div>
-                  <p className="text-3xs text-gray-400 -mt-0.5">
-                    西南交通大学专属教师评价 · 校园智能助手
-                  </p>
                 </div>
               </div>
 
@@ -825,7 +807,7 @@ export default function App() {
                   }`}
                 >
                   <BookOpen className="w-4 h-4" />
-                  <span>首页推荐</span>
+                  <span>首页</span>
                 </motion.button>
 
                 <motion.button
@@ -843,19 +825,6 @@ export default function App() {
 
                 <motion.button
                   whileTap={{ scale: 0.94 }}
-                  onClick={() => setCurrentTab('recommend')}
-                  className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                    currentTab === 'recommend'
-                      ? 'bg-white text-gray-950 shadow-xs'
-                      : 'text-gray-600 hover:text-gray-950 hover:bg-white/50'
-                  }`}
-                >
-                  <Sliders className="w-4 h-4" />
-                  <span>智能选课</span>
-                </motion.button>
-
-                <motion.button
-                  whileTap={{ scale: 0.94 }}
                   onClick={() => setCurrentTab('profile')}
                   className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all relative ${
                     currentTab === 'profile'
@@ -868,7 +837,7 @@ export default function App() {
                 </motion.button>
               </nav>
 
-              {/* Auth, Points & AI Quick Buttons */}
+              {/* Auth, points and administrator quick actions */}
               <div className="flex items-center gap-2.5">
                 {currentUser ? (
                   <>
@@ -888,11 +857,11 @@ export default function App() {
                         className="flex items-center gap-1.5 cursor-pointer p-1 rounded-xl hover:bg-gray-100 transition-colors"
                         title="查看个人中心"
                       >
-                        <div className="w-7 h-7 rounded-lg bg-indigo-600 text-white flex items-center justify-center font-bold text-xs shadow-2xs">
-                          {(currentUser.user_metadata?.nickname || '交').slice(0, 1)}
+                        <div className="w-7 h-7 rounded-lg bg-blue-900 text-white flex items-center justify-center font-bold text-xs shadow-2xs">
+                          {(currentUser.user_metadata?.nickname || '石').slice(0, 1)}
                         </div>
                         <span className="text-xs font-bold text-gray-800 max-w-[80px] truncate">
-                          {currentUser.user_metadata?.nickname || '学子'}
+                          {currentUser.user_metadata?.nickname || '石大学子'}
                         </span>
                       </div>
                       <button
@@ -917,20 +886,11 @@ export default function App() {
                       onClick={() => handleOpenAuth('register')}
                       className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition-all shadow-2xs"
                     >
-                      <Sparkles className="w-3.5 h-3.5" />
+                      <UserPlus className="w-3.5 h-3.5" />
                       <span>注册 (+100积分)</span>
                     </button>
                   </div>
                 )}
-
-                <motion.button
-                  whileTap={{ scale: 0.93 }}
-                  onClick={() => setIsAiModalOpen(true)}
-                  className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-100 text-xs font-semibold transition-all shadow-2xs"
-                >
-                  <Sparkles className="w-3.5 h-3.5 text-indigo-600" />
-                  <span>AI 智能问答</span>
-                </motion.button>
 
                 {/* Admin Audit Quick Switch - Only visible when an administrator is logged in */}
                 {isUserAdmin && (
@@ -938,7 +898,7 @@ export default function App() {
                     whileTap={{ scale: 0.93 }}
                     onClick={() => setIsAdminAuditModalOpen(true)}
                     className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-900 hover:bg-slate-800 text-slate-100 text-xs font-bold transition-all shadow-2xs cursor-pointer group"
-                    title="进入评教审核管理工作台"
+                    title="进入反馈审核管理工作台"
                   >
                     <ShieldCheck className="w-3.5 h-3.5 text-indigo-400 group-hover:scale-110 transition-transform" />
                     <span>管理审核</span>
@@ -974,13 +934,6 @@ export default function App() {
                       setInitialTeacherSearch(query || '');
                       setCurrentTab('search');
                     }}
-                    onOpenRecommend={() => {
-                      setCurrentTab('recommend');
-                    }}
-                    onOpenAiChat={(prompt) => {
-                      setAiInitialPrompt(prompt || '');
-                      setIsAiModalOpen(true);
-                    }}
                     onOpenReview={(teacher) => handleOpenReview(teacher)}
                     onOpenPoints={() => {
                       if (!currentUser) {
@@ -990,10 +943,6 @@ export default function App() {
                       }
                     }}
                     onOpenCollegeList={() => setIsCollegesModalOpen(true)}
-                    onOpenExperienceModal={(tab) => {
-                      setExperienceTab(tab || 'guides');
-                      setIsExperienceModalOpen(true);
-                    }}
                     onSelectTeacher={(teacher) => setSelectedTeacher(teacher)}
                   />
                 )}
@@ -1006,18 +955,6 @@ export default function App() {
                       initialSearch={initialTeacherSearch}
                       onSelectTeacher={(teacher) => setSelectedTeacher(teacher)}
                       onOpenReview={(teacher) => handleOpenReview(teacher)}
-                    />
-                  </div>
-                )}
-
-                {currentTab === 'recommend' && (
-                  <div className="pt-2">
-                    <CourseRecommend
-                      teachers={teachers}
-                      colleges={colleges}
-                      userPoints={userPoints}
-                      onSelectTeacher={(teacher) => setSelectedTeacher(teacher)}
-                      onDeductPoints={handleDeductPoints}
                     />
                   </div>
                 )}
@@ -1079,19 +1016,7 @@ export default function App() {
         )}
       </AnimatePresence>
 
-      {/* 2. Agent 维护公告 Modal (版本 pre1.0.1) */}
-      <AnimatePresence>
-        {isAiModalOpen && (
-          <Suspense fallback={<LazyFallback />}>
-          <AgentNoticeModal
-            isOpen={isAiModalOpen}
-            onClose={() => setIsAiModalOpen(false)}
-          />
-          </Suspense>
-        )}
-      </AnimatePresence>
-
-      {/* 3. 评价打分 Modal */}
+      {/* 2. 评价打分 Modal */}
       <AnimatePresence>
         {isReviewModalOpen && (
           <Suspense fallback={<LazyFallback />}>
@@ -1143,20 +1068,7 @@ export default function App() {
         )}
       </AnimatePresence>
 
-      {/* 6. 经验攻略 / 教务通知 / 历史迁移说明 Modal */}
-      <AnimatePresence>
-        {isExperienceModalOpen && (
-          <Suspense fallback={<LazyFallback />}>
-          <ExperienceGuideModal
-            isOpen={isExperienceModalOpen}
-            onClose={() => setIsExperienceModalOpen(false)}
-            defaultTab={experienceTab}
-          />
-          </Suspense>
-        )}
-      </AnimatePresence>
-
-      {/* 7. Supabase 用户认证 Modal (登录 / 注册) */}
+      {/* 6. Supabase 用户认证 Modal (登录 / 注册) */}
       <AnimatePresence>
         {isAuthModalOpen && (
           <Suspense fallback={<LazyFallback />}>
@@ -1174,7 +1086,7 @@ export default function App() {
         )}
       </AnimatePresence>
 
-      {/* 8. 管理员审核后台工作台 Modal */}
+      {/* 7. 管理员审核后台工作台 Modal */}
       <AnimatePresence>
         {isAdminAuditModalOpen && isUserAdmin && (
           <Suspense fallback={<LazyFallback />}>

@@ -6,62 +6,69 @@ import { CatalogCache } from '../cache.mjs';
 
 const base = process.env.VERIFY_BASE_URL || 'http://127.0.0.1:3001';
 const headers = process.env.VERIFY_HOST ? { Host: process.env.VERIFY_HOST } : {};
-const db = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_ANON_KEY, {
+const { SUPABASE_URL, SUPABASE_ANON_KEY, REDIS_PASSWORD } = process.env;
+if (!SUPABASE_URL || !SUPABASE_ANON_KEY || !REDIS_PASSWORD) {
+  throw new Error('Set SUPABASE_URL, SUPABASE_ANON_KEY and REDIS_PASSWORD before verification');
+}
+if (SUPABASE_URL.includes('qczsdnmwtagwbofpvwle')) {
+  throw new Error('Refusing the retired SWJTU Supabase project');
+}
+
+const db = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
   auth: { persistSession: false, autoRefreshToken: false },
 });
-const get = async path => {
+const get = async (path) => {
   const start = performance.now();
   const response = await fetch(base + path, { headers });
   assert.equal(response.status, 200, path);
-  return { data: (await response.json()).data, cache: response.headers.get('x-cache'), ms: Math.round(performance.now() - start) };
+  const body = await response.json();
+  assert.ok(body && Object.prototype.hasOwnProperty.call(body, 'data'), `${path} response shape`);
+  return { data: body.data, cache: response.headers.get('x-cache'), ms: Math.round(performance.now() - start) };
 };
+
+const healthResponse = await fetch(base + '/health', { headers });
+assert.equal(healthResponse.status, 200);
+const health = await healthResponse.json();
+assert.equal(health.ok, true);
+assert.equal(health.timetable, 'disabled', 'phase one must not expose timetable');
+
 const first = await get('/api/teachers');
-assert.ok(first.data.total > 1000);
-assert.equal(first.data.items.length, 20);
-assert.equal(first.cache, 'HIT');
-for (const page of [0, 1]) {
-  const cached = await get(`/api/teachers?page=${page}`);
-  const direct = await db.from('teachers').select('id', { count: 'exact' })
-    .order('overall_score', { ascending: false, nullsFirst: false }).order('review_count', { ascending: false }).order('id')
-    .range(page * 20, page * 20 + 19);
-  assert.ifError(direct.error);
-  assert.equal(cached.data.total, direct.count);
-  assert.deepEqual(cached.data.items.map(row => row.id), direct.data.map(row => row.id));
+assert.equal(first.data.items.length, Math.min(20, first.data.total));
+for (const teacher of first.data.items) {
+  assert.equal('email' in teacher, false);
+  assert.equal('source_id' in teacher, false);
 }
-const course = await get('/api/teachers?' + new URLSearchParams({ query: '概率论' }));
-assert.ok(course.data.total > 20);
-const current = await get('/api/teachers?onlyThisTerm=true');
-const directCurrent = await db.from('teachers').select('id,current_offerings:course_offerings!inner(terms!inner())', { count: 'exact', head: true }).eq('current_offerings.terms.is_current', true);
-assert.ifError(directCurrent.error);
-assert.equal(current.data.total, directCurrent.count);
-const search = await get('/api/teachers?' + new URLSearchParams({ query: '赵春明' }));
-assert.ok(search.data.items.length);
-const teacherId = search.data.items[0].id;
-const path = `/api/teachers/${encodeURIComponent(teacherId)}/reviews`;
-const cold = await get(path);
-const warm = await get(path);
-assert.equal(warm.cache, 'HIT');
-assert.ok(warm.data.total >= 100);
-const seen = new Set();
-for (let page = 0; page * 100 < warm.data.total; page++) {
-  const result = await get(`${path}?page=${page}&pageSize=100`);
-  for (const row of result.data.items) {
+
+if (first.data.total > 0) {
+  const direct = await db.from('teachers').select('id', { count: 'exact' })
+    .order('name', { ascending: true }).order('id', { ascending: true })
+    .range(0, Math.min(19, first.data.total - 1));
+  assert.ifError(direct.error);
+  assert.equal(first.data.total, direct.count);
+  assert.deepEqual(first.data.items.map((row) => row.id), direct.data.map((row) => row.id));
+
+  const teacherId = first.data.items[0].id;
+  assert.ok(teacherId.startsWith('upc:'), 'imported teacher IDs must use the upc: namespace');
+  const reviews = await get(`/api/teachers/${encodeURIComponent(teacherId)}/reviews?pageSize=100`);
+  for (const row of reviews.data.items) {
     assert.equal(row.status, 'approved');
-    for (const field of ['user_id', 'user_email', 'reviewer_id', 'reject_reason']) assert.equal(field in row, false);
-    assert.ok(!seen.has(row.id));
-    seen.add(row.id);
+    for (const field of ['user_id', 'user_email', 'reviewer_id', 'reject_reason', 'reviewed_at']) {
+      assert.equal(field in row, false, `private field ${field} leaked`);
+    }
   }
 }
-const directReviews = await db.from('reviews').select('id', { count: 'exact' }).eq('teacher_id', teacherId).eq('status', 'approved')
-  .order('created_at', { ascending: false }).order('id').range(0, 19);
-assert.ifError(directReviews.error);
-assert.equal(seen.size, directReviews.count);
-assert.deepEqual(warm.data.items.map(row => row.id), directReviews.data.map(row => row.id));
+
 const denied = await fetch(base + '/api/reviews/verification/approve', { method: 'POST', headers });
 assert.equal(denied.status, 401);
+assert.equal((await fetch(base + '/api/notices')).status, 404, 'retired notices route');
+assert.equal((await fetch(base + '/api/timetable/recommendations')).status, 404, 'hidden timetable route');
 
-const redis = new Redis({ host: '127.0.0.1', username: process.env.REDIS_USERNAME, password: process.env.REDIS_PASSWORD });
-const prefix = `${process.env.CACHE_PREFIX}verification:${randomUUID()}:`;
+const redis = new Redis({
+  host: '127.0.0.1',
+  username: process.env.REDIS_USERNAME,
+  password: REDIS_PASSWORD,
+});
+const prefix = `${process.env.CACHE_PREFIX || 'upc:cache:v1:'}verification:${randomUUID()}:`;
 const state = { teachers: [{ id: 'test-teacher', review_count: 1 }], reviews: [{ id: 'test-review', likes: 1 }] };
 let teacherDownloads = 0;
 let reviewDownloads = 0;
@@ -89,6 +96,13 @@ try {
   await redis.del(cache.teacherKey, cache.reviewKey('test-teacher'));
   await redis.quit();
 }
-console.log(JSON.stringify({ verified: true, teachers: first.data.total, teacherHitMs: first.ms,
-  courseMatches: course.data.total, historicalReviews: seen.size, reviewsFirstCache: cold.cache,
-  reviewsFirstMs: cold.ms, reviewsHitMs: warm.ms, incrementalRedisUpdates: 'passed', authorization: 'passed' }));
+
+console.log(JSON.stringify({
+  verified: true,
+  teachers: first.data.total,
+  reviewsFirstPage: first.data.total > 0 ? 'checked' : 'empty',
+  phaseOneRoutes: 'hidden',
+  incrementalRedisUpdates: 'passed',
+  authorization: 'passed',
+  cacheMs: first.ms,
+}));

@@ -1,27 +1,23 @@
 import { useMemo } from 'react';
 import type { Teacher, TeacherQuery } from '../types';
-import { isSupabaseConfigured } from '../lib/supabase';
-import { compareRatings } from '../lib/ratings';
 import { supabaseService } from '../services/supabaseService';
 import { usePagedQuery } from './usePagedQuery';
 
-export function useTeacherSearch(fallback: Teacher[], options: TeacherQuery, enabled = true) {
-  const key = JSON.stringify(options);
-  const local = useMemo(() => {
-    if (isSupabaseConfigured) return [];
-    const keyword = options.query?.trim().toLowerCase() || '';
-    const dimensions = { leniency: 'gradingLeniency', quality: 'teachingQuality', attendance: 'attendanceStrictness' } as const;
-    return fallback.filter(t => (!options.collegeId || options.collegeId === 'all' || t.collegeId === options.collegeId || t.college === options.collegeId)
-      && (!options.onlyThisTerm || t.isTeachingThisTerm)
-      && (!keyword || (!options.courseOnly && (t.name.toLowerCase().includes(keyword) || t.tags.some(tag => tag.toLowerCase().includes(keyword)))) || t.courses.some(c => c.toLowerCase().includes(keyword))))
-      .sort((a, b) => options.sortBy && options.sortBy !== 'overall'
-        ? compareRatings(a.dimensions[dimensions[options.sortBy]], b.dimensions[dimensions[options.sortBy]]) : compareRatings(a.overallScore, b.overallScore));
-  }, [fallback, key]);
+/**
+ * Teacher search always reads the configured UPC database.
+ *
+ * `fallback` is kept in the signature for callers that still pass an in-memory
+ * list, but it is never used as a data source: mock or old-school teachers must
+ * not appear when the database is missing or empty.
+ */
+export function useTeacherSearch(_fallback: Teacher[], options: TeacherQuery, enabled = true) {
+  const key = useMemo(() => JSON.stringify(options), [options]);
   const size = options.pageSize || 20;
-  // Teacher rows change on review approval, not continuously: cache each page so
-  // leaving and re-entering the library repaints instantly instead of reloading.
-  // clearPagedQueryCache(key) is called wherever approvals land.
-  return usePagedQuery<Teacher>(key, (page, signal) => isSupabaseConfigured
-    ? supabaseService.getTeachersPage({ ...options, page, pageSize: size }, signal)
-    : Promise.resolve({ items: local.slice(page * size, (page + 1) * size), total: local.length }), enabled, 0, 5 * 60 * 1000);
+  return usePagedQuery<Teacher>(
+    key,
+    (page, signal) => supabaseService.getTeachersPage({ ...options, page, pageSize: size }, signal),
+    enabled,
+    0,
+    5 * 60 * 1000,
+  );
 }

@@ -1,0 +1,2281 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-petroleum-engineering-2026-2027-1-timetable-20261023",
+  "source": "课表/石油工程学院/课表打印.xls sha256:866f916b549040e61d9cd7135e38f2b385215c6c6a6cce3d9e9ac881515b906b; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "pe-c20541-a397099",
+      "name": "严侠",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE138511030",
+          "name": "人工智能模型与算法",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20544-a397202",
+      "name": "付静",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE410511020",
+          "name": "工程流体力学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE410511030",
+          "name": "工程流体力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397079",
+      "name": "侯健",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397034",
+      "name": "倪红坚",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111021020",
+          "name": "钻井新技术",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE112011020",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397068",
+      "name": "冯国强",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE122711020",
+          "name": "天然气开采与安全",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20547-a397224",
+      "name": "刘均荣",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE421511020",
+          "name": "海洋油气作业管理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20547-a395946",
+      "name": "刘峻嵘",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE420721020",
+          "name": "海洋石油工程",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397130",
+      "name": "刘德新",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124611020",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20544-a397195",
+      "name": "刘成文",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE410511030",
+          "name": "工程流体力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a451271",
+      "name": "刘拥赞",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0212699",
+          "name": "油水井增产增注技术",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE111721020",
+          "name": "国际能源学术交流",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE133741027",
+          "name": "智能油气开采工程",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397152",
+      "name": "刘敬平",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE124611020",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE125621020",
+          "name": "钻井液工艺原理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20547-a397225",
+      "name": "刘树阳",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE112011020",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE137221020",
+          "name": "传热学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE138941020",
+          "name": "油气人工智能概论",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE410511020",
+          "name": "工程流体力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397022",
+      "name": "刘永旺",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE110421010",
+          "name": "科技论文检索与写作",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE114921020",
+          "name": "油气人工智能概论",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE121621020",
+          "name": "清洁能源与储能技术",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20544-a397200",
+      "name": "刘玉泉",
+      "title": "讲师",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE410111020",
+          "name": "高等流体力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397129",
+      "name": "刘逸飞",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111411020",
+          "name": "工程概论与HSE管理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397045",
+      "name": "刘陈伟",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111121020",
+          "name": "多相管流理论与计算",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE122711020",
+          "name": "天然气开采与安全",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE521321020",
+          "name": "专业外语",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397151",
+      "name": "吕开河",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE124611020",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397121",
+      "name": "吕爱民",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397145",
+      "name": "吴一宁",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0230199",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397108",
+      "name": "吴明录",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE122921020",
+          "name": "现代试井解释原理",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE126521021",
+          "name": "Matlab编程技术",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE138941020",
+          "name": "油气人工智能概论",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397052",
+      "name": "吴飞鹏",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111411020",
+          "name": "工程概论与HSE管理",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-02-002",
+      "name": "周晓东",
+      "title": null,
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE113412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397070",
+      "name": "周童",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111411020",
+          "name": "工程概论与HSE管理",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE112011020",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE132721020",
+          "name": "有杆抽油系统与智能调控",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE138941020",
+          "name": "油气人工智能概论",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397096",
+      "name": "姚传进",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE114921020",
+          "name": "油气人工智能概论",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397117",
+      "name": "姚军",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE134711020",
+          "name": "高等渗流力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397127",
+      "name": "姚同玉",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111221020",
+          "name": "气藏工程",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124411037",
+          "name": "油气田开发基础",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE133641020",
+          "name": "油层物理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397119",
+      "name": "孙仁远",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0210599",
+          "name": "气藏工程",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124111025",
+          "name": "油层物理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20547-a397222",
+      "name": "孙文跃",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE114921020",
+          "name": "油气人工智能概论",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397164",
+      "name": "孙明波",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121111030",
+          "name": "胶体界面化学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124611020",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397106",
+      "name": "孙晓飞",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397135",
+      "name": "孙永鹏",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0230399",
+          "name": "提高采收率原理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397091",
+      "name": "孙海",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE134711020",
+          "name": "高等渗流力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397087",
+      "name": "孙致学",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE124311025",
+          "name": "油气田开发工程",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397039",
+      "name": "宋洵成",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111021020",
+          "name": "钻井新技术",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE133941027",
+          "name": "智能钻完井工程",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE521321020",
+          "name": "专业外语",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397149",
+      "name": "宫厚健",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0201499",
+          "name": "石油工程HSE",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE110821020",
+          "name": "油气田环境保护",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE121111030",
+          "name": "胶体界面化学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124821020",
+          "name": "油田污水处理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20544-a397189",
+      "name": "尹邦堂",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE438711020",
+          "name": "工程概论与HSE管理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397085",
+      "name": "崔传智",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397008",
+      "name": "庞学玉",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE110421010",
+          "name": "科技论文检索与写作",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE121221020",
+          "name": "固井理论与技术",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123211020",
+          "name": "岩石力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397010",
+      "name": "廖华林",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123211020",
+          "name": "岩石力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397131",
+      "name": "张丽媛",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0231499",
+          "name": "应用物理化学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE137221020",
+          "name": "传热学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20547-a401884",
+      "name": "张伟",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0212199",
+          "name": "油藏数值模拟基础",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE137221020",
+          "name": "传热学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE520311020",
+          "name": "地下储碳储能数值模拟方法",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20544-a397537",
+      "name": "张剑波",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE420721020",
+          "name": "海洋石油工程",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE421821020",
+          "name": "深水油气开发概论",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397033",
+      "name": "张卫东",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111411020",
+          "name": "工程概论与HSE管理",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE112011020",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE122121020",
+          "name": "石油工业概论",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE122121030",
+          "name": "石油工业概论",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE131131020",
+          "name": "中外石油文化",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-02-003",
+      "name": "张浩",
+      "title": null,
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE113412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE438912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397111",
+      "name": "张磊",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE124111025",
+          "name": "油层物理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397100",
+      "name": "张纪远",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE124411037",
+          "name": "油气田开发基础",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397020",
+      "name": "张锐",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397054",
+      "name": "张黎明",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111121020",
+          "name": "多相管流理论与计算",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE138511030",
+          "name": "人工智能模型与算法",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20544-a397188",
+      "name": "徐加放",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE411011030",
+          "name": "海洋油气化学工程",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE421211030",
+          "name": "海洋油气井工作液及环保",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE422111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20547-a397226",
+      "name": "徐建春",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE114921020",
+          "name": "油气人工智能概论",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE421021020",
+          "name": "海洋油气测试技术",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE421821020",
+          "name": "深水油气开发概论",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397134",
+      "name": "戴彩丽",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE124611020",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397154",
+      "name": "曹杰",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111411020",
+          "name": "工程概论与HSE管理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397028",
+      "name": "朱丽红",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0211299",
+          "name": "岩石力学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE111411020",
+          "name": "工程概论与HSE管理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397075",
+      "name": "李亚军",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0212199",
+          "name": "油藏数值模拟基础",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397059",
+      "name": "李宾飞",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121421021",
+          "name": "泡沫理论与采油技术",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE122711020",
+          "name": "天然气开采与安全",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397101",
+      "name": "李明川",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124311025",
+          "name": "油气田开发工程",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397055",
+      "name": "李松岩",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121421021",
+          "name": "泡沫理论与采油技术",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397194",
+      "name": "李淑霞",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20544-a397204",
+      "name": "李爱华",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE410511030",
+          "name": "工程流体力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397147",
+      "name": "李琳",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE124611020",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397133",
+      "name": "李美春",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE112011020",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124611020",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397090",
+      "name": "李蕾",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111721020",
+          "name": "国际能源学术交流",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397082",
+      "name": "杜庆军",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397126",
+      "name": "杜殿发",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE110621020",
+          "name": "石油工程概论",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE111411020",
+          "name": "工程概论与HSE管理",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397098",
+      "name": "杨永飞",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0210599",
+          "name": "气藏工程",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-02-004",
+      "name": "杨琪硕",
+      "title": null,
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE113412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397136",
+      "name": "杨红斌",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0230399",
+          "name": "提高采收率原理",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE136741020",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397104",
+      "name": "樊冬艳",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111221020",
+          "name": "气藏工程",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE138941020",
+          "name": "油气人工智能概论",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397163",
+      "name": "江琳",
+      "title": "讲师",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0201499",
+          "name": "石油工程HSE",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "0230199",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "0230499",
+          "name": "油气层保护技术",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124611020",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE125621020",
+          "name": "钻井液工艺原理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397142",
+      "name": "王业飞",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE124611020",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397044",
+      "name": "王京印",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111411020",
+          "name": "工程概论与HSE管理",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123211020",
+          "name": "岩石力学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123321020",
+          "name": "岩石力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397073",
+      "name": "王卫阳",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111121020",
+          "name": "多相管流理论与计算",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE122711020",
+          "name": "天然气开采与安全",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE133741027",
+          "name": "智能油气开采工程",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397009",
+      "name": "王子振",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE112011020",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE539061021",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397162",
+      "name": "王富华",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111411020",
+          "name": "工程概论与HSE管理",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE112011020",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397088",
+      "name": "王建忠",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397169",
+      "name": "王彦玲",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE110821020",
+          "name": "油气田环境保护",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124821020",
+          "name": "油田污水处理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c20541-a397076",
+      "name": "王文东",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE520311020",
+          "name": "地下储碳储能数值模拟方法",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE521011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397037",
+      "name": "王明波",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111721020",
+          "name": "国际能源学术交流",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE111921020",
+          "name": "水射流理论与应用",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20547-a397223",
+      "name": "王晓璞",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE410421020",
+          "name": "流体力学模拟与实验",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE411011030",
+          "name": "海洋油气化学工程",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE421211030",
+          "name": "海洋油气井工作液及环保",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c20541-a397086",
+      "name": "王森",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124411037",
+          "name": "油气田开发基础",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20543-a397174",
+      "name": "王腾",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE410611020",
+          "name": "海洋平台与工程环境",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397148",
+      "name": "王金堂",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE112011020",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-02-001",
+      "name": "王静",
+      "title": null,
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE113412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a443805",
+      "name": "田伟兵",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE124411037",
+          "name": "油气田开发基础",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397132",
+      "name": "白英睿",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124611020",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20543-a397260",
+      "name": "白莉",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE132421020",
+          "name": "油气高效完井技术",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397049",
+      "name": "罗明良",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE122711020",
+          "name": "天然气开采与安全",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397107",
+      "name": "范海军",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE124311025",
+          "name": "油气田开发工程",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397172",
+      "name": "葛际江",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE124611020",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397057",
+      "name": "董长银",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE122711020",
+          "name": "天然气开采与安全",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE132421020",
+          "name": "油气高效完井技术",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE134311020",
+          "name": "油气高效完井举升理论与技术",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397072",
+      "name": "薛建泉",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE133321020",
+          "name": "天然气开采与安全",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397093",
+      "name": "袁彬",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121811030",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397015",
+      "name": "许玉强",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123211020",
+          "name": "岩石力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397083",
+      "name": "谷建伟",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397137",
+      "name": "贾寒",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE113412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124611020",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE521011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397141",
+      "name": "赵光",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397146",
+      "name": "赵明伟",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0201499",
+          "name": "石油工程HSE",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124611020",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397128",
+      "name": "赵欣",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111411020",
+          "name": "工程概论与HSE管理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a450133",
+      "name": "郑俊杰",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE112011020",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE136741020",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397047",
+      "name": "郭天魁",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE122711020",
+          "name": "天然气开采与安全",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397011",
+      "name": "郭胜来",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121221020",
+          "name": "固井理论与技术",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397042",
+      "name": "金业权",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE123211020",
+          "name": "岩石力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397143",
+      "name": "金家锋",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0231499",
+          "name": "应用物理化学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397078",
+      "name": "钟俊杰",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE137221020",
+          "name": "传热学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20544-a397190",
+      "name": "钟杰",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE422111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397018",
+      "name": "闫传梁",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123211020",
+          "name": "岩石力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20541-a397125",
+      "name": "陈付真",
+      "title": "讲师",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0210899",
+          "name": "渗流力学",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE521321020",
+          "name": "专业外语",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397058",
+      "name": "陈德春",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE110621020",
+          "name": "石油工程概论",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE122711020",
+          "name": "天然气开采与安全",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE132721020",
+          "name": "有杆抽油系统与智能调控",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE134311020",
+          "name": "油气高效完井举升理论与技术",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397016",
+      "name": "陈泽华",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE112011020",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE125421020",
+          "name": "钻井地质环境描述",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20544-a397184",
+      "name": "陈立涛",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE438711020",
+          "name": "工程概论与HSE管理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397046",
+      "name": "陈铭",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111411020",
+          "name": "工程概论与HSE管理",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20540-a397051",
+      "name": "隋义勇",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE133321020",
+          "name": "天然气开采与安全",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397023",
+      "name": "韩忠英",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE123211020",
+          "name": "岩石力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20544-a397199",
+      "name": "高慧",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE410511020",
+          "name": "工程流体力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20544-a397193",
+      "name": "高永海",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE422111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20545-a397218",
+      "name": "鲍丙生",
+      "title": "讲师",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE110621020",
+          "name": "石油工程概论",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397030",
+      "name": "黄勇",
+      "title": "讲师",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE121621020",
+          "name": "清洁能源与储能技术",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123211020",
+          "name": "岩石力学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20539-a397036",
+      "name": "黄根炉",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE110221020",
+          "name": "定向钻井理论与技术",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397150",
+      "name": "黄维安",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE111411020",
+          "name": "工程概论与HSE管理",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE123011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124221020",
+          "name": "油气层保护技术",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124611020",
+          "name": "油田化学",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a397140",
+      "name": "黄贤斌",
+      "title": "教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE112011020",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE539061021",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        }
+      ]
+    },
+    {
+      "sourceId": "pe-c20542-a425310",
+      "name": "黎剑",
+      "title": "副教授",
+      "collegeCode": "upc-02",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SPE112011020",
+          "name": "石油工业与碳中和",
+          "collegeCode": "upc-02"
+        },
+        {
+          "code": "SPE124221020",
+          "name": "油气层保护技术",
+          "collegeCode": "upc-02"
+        }
+      ]
+    }
+  ]
+}

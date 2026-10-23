@@ -1,0 +1,1116 @@
+{
+  "schemaVersion": 1,
+  "unit": "储运与建筑工程学院",
+  "collegeCode": "upc-05",
+  "courses": [
+    {
+      "key": "0610699",
+      "code": "0610699",
+      "name": "画法几何与工程制图",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "于述强",
+        "张明",
+        "张雪松"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0641199",
+      "code": "0641199",
+      "name": "理论力学",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "赵德敏",
+        "马鹏程"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OTH921331020",
+      "code": "OTH921331020",
+      "name": "沟通与写作",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张立松"
+      ],
+      "excludedReason": "course_code_conflict"
+    },
+    {
+      "key": "PLC120821020",
+      "code": "PLC120821020",
+      "name": "多层与高层建筑结构设计",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "高福聚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC121121020",
+      "code": "PLC121121020",
+      "name": "钢结构设计",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张如林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC121211025",
+      "code": "PLC121211025",
+      "name": "钢结构原理",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "高福聚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC121811010",
+      "code": "PLC121811010",
+      "name": "工程荷载与可靠度设计",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "周明芳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC121921020",
+      "code": "PLC121921020",
+      "name": "工程监理概论",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李春宝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC122011016",
+      "code": "PLC122011016",
+      "name": "工程结构试验",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "黄思凝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC122611041",
+      "code": "PLC122611041",
+      "name": "混凝土结构设计原理",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "于述强",
+        "李柏栋"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC122721030",
+      "code": "PLC122721030",
+      "name": "混凝土结构设计原理",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李柏栋"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC122921020",
+      "code": "PLC122921020",
+      "name": "基坑与边坡支护工程",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "井文君"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC123521020",
+      "code": "PLC123521020",
+      "name": "建筑设备工程",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "管友海"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC123611020",
+      "code": "PLC123611020",
+      "name": "建筑制图",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "于述强"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC124521020",
+      "code": "PLC124521020",
+      "name": "隧道工程",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "孟晓宇",
+        "张连震",
+        "马鹏程"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC125631020",
+      "code": "PLC125631020",
+      "name": "易学探微",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "高福聚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC125931020",
+      "code": "PLC125931020",
+      "name": "土木工程概论",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张雪松",
+        "陈金平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC127111021",
+      "code": "PLC127111021",
+      "name": "土力学",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李大勇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC127411020",
+      "code": "PLC127411020",
+      "name": "工程经济与项目管理",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "井文君"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC127511015",
+      "code": "PLC127511015",
+      "name": "基础工程",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张艳美"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC127621020",
+      "code": "PLC127621020",
+      "name": "土木工程材料",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "陈金平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC127721010",
+      "code": "PLC127721010",
+      "name": "专业英语与文献检索",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "张明",
+        "李静"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC127811020",
+      "code": "PLC127811020",
+      "name": "工程结构",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张雪松"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC133611015",
+      "code": "PLC133611015",
+      "name": "建筑材料",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "任杰",
+        "陈金平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC133611999",
+      "code": "PLC133611999",
+      "name": "建筑材料",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "任杰",
+        "陈金平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC210121020",
+      "code": "PLC210121020",
+      "name": "腐蚀与防腐",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "刘建国",
+        "寇杰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC210221020",
+      "code": "PLC210221020",
+      "name": "油气储运概论",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李洪波"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC220621020",
+      "code": "PLC220621020",
+      "name": "储运工程最优化",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "滕厚兴",
+        "王海琴"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC220721020",
+      "code": "PLC220721020",
+      "name": "储运设施完整性管理",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "张宏阳",
+        "杨东海"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC222111010",
+      "code": "PLC222111010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 10,
+      "teacherNames": [
+        "刘刚",
+        "吕宇玲",
+        "唐建峰",
+        "宋明",
+        "寇杰",
+        "崔淦",
+        "李玉星",
+        "杨飞",
+        "梁法春",
+        "陈雷"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC222311025",
+      "code": "PLC222311025",
+      "name": "油罐及管道强度设计",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 15,
+      "teacherNames": [
+        "于淼",
+        "张足斌",
+        "李扬"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC222411025",
+      "code": "PLC222411025",
+      "name": "油库设计与管理",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 24,
+      "teacherNames": [
+        "吕宇玲",
+        "崔淦",
+        "王鸿膺",
+        "陈建恒"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC222511020",
+      "code": "PLC222511020",
+      "name": "油气储运HSE",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "俞欣然",
+        "王财林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC222621020",
+      "code": "PLC222621020",
+      "name": "油气储运安全技术",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "寇杰",
+        "梁法春"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC222811010",
+      "code": "PLC222811010",
+      "name": "油气储运新技术",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "吕宇玲",
+        "杨飞",
+        "梁法春",
+        "王武昌"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC222911025",
+      "code": "PLC222911025",
+      "name": "油气集输",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 22,
+      "teacherNames": [
+        "寇杰",
+        "曹学文",
+        "梁法春",
+        "王海琴",
+        "蒋文明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC223621020",
+      "code": "PLC223621020",
+      "name": "专业外语",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李洪波",
+        "杨飞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC223911021",
+      "code": "PLC223911021",
+      "name": "高等流体力学",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "胡其会",
+        "韩辉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC226121021",
+      "code": "PLC226121021",
+      "name": "流体流变学",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "姚博",
+        "孙广宇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC226421020",
+      "code": "PLC226421020",
+      "name": "低碳新能源储运",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "宋光春",
+        "胡其会"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC310112101",
+      "code": "PLC310112101",
+      "name": "材料力学（2-1）",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "叶贵根",
+        "黄小光"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC310411030",
+      "code": "PLC310411030",
+      "name": "工程力学",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张毅"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC310411040",
+      "code": "PLC310411040",
+      "name": "工程力学",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 51,
+      "teacherNames": [
+        "刘宝山",
+        "叶贵根",
+        "孙峰",
+        "宋明",
+        "张立松",
+        "朱秀星",
+        "李瑞勇",
+        "林红",
+        "王海静",
+        "甄莹",
+        "薛章纳",
+        "谷泽文",
+        "贾朋",
+        "邓学晶"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC310611030",
+      "code": "PLC310611030",
+      "name": "理论力学",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 30,
+      "teacherNames": [
+        "李玉坤",
+        "李瑞勇",
+        "贾朋",
+        "赵德敏",
+        "邓学晶",
+        "钮瑞艳",
+        "黄小光"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC310611041",
+      "code": "PLC310611041",
+      "name": "理论力学",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "刘建林",
+        "周博",
+        "赵德敏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC310612100",
+      "code": "PLC310612100",
+      "name": "理论力学(2-1)",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "钮瑞艳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC310721020",
+      "code": "PLC310721020",
+      "name": "实验应力分析",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李玉坤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC320311040",
+      "code": "PLC320311040",
+      "name": "弹性力学",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘建林",
+        "孔祥清"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC320711020",
+      "code": "PLC320711020",
+      "name": "工程概论",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张毅"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC321112999",
+      "code": "PLC321112999",
+      "name": "建筑力学",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "张立松",
+        "王海静"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC321311031",
+      "code": "PLC321311031",
+      "name": "结构力学",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "钮瑞艳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC321421020",
+      "code": "PLC321421020",
+      "name": "结构优化设计",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘宝山"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC321721020",
+      "code": "PLC321721020",
+      "name": "塑性力学基础",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "林红"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC321811010",
+      "code": "PLC321811010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "宋明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC322311020",
+      "code": "PLC322311020",
+      "name": "专业外语",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "曹宇光"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC322431010",
+      "code": "PLC322431010",
+      "name": "五彩缤纷的力学世界",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "刘建林",
+        "薛章纳",
+        "谷泽文"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC328912200",
+      "code": "PLC328912200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "叶贵根",
+        "黄小光"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC335831010",
+      "code": "PLC335831010",
+      "name": "走进奇妙的仿生世界",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孔祥清"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC420321031",
+      "code": "PLC420321031",
+      "name": "城市燃气安全技术",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘杨"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC420611020",
+      "code": "PLC420611020",
+      "name": "工程管理与经济",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "朱静",
+        "陈树军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC420811020",
+      "code": "PLC420811020",
+      "name": "建筑环境学",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "徐春雯"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC420911010",
+      "code": "PLC420911010",
+      "name": "建筑环境与能源应用新技术",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "邢杉硕",
+        "陈树军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC421011026",
+      "code": "PLC421011026",
+      "name": "冷热源设备与系统",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "张烨琳",
+        "迟进华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC421211020",
+      "code": "PLC421211020",
+      "name": "流体输配管网",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘杨",
+        "迟进华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC421621022",
+      "code": "PLC421621022",
+      "name": "燃气燃烧与应用",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "朱静"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC421911010",
+      "code": "PLC421911010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "唐建峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC422321020",
+      "code": "PLC422321020",
+      "name": "专业外语",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘杨"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC431211020",
+      "code": "PLC431211020",
+      "name": "输气管道设计与管理",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "朱建鲁",
+        "陈树军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC520321011",
+      "code": "PLC520321011",
+      "name": "场地设计",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王鑫"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC521011020",
+      "code": "PLC521011020",
+      "name": "公共建筑设计原理",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "陈瑞罡"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC521011999",
+      "code": "PLC521011999",
+      "name": "公共建筑设计原理",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "陈瑞罡"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC521121010",
+      "code": "PLC521121010",
+      "name": "环境心理学概论",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "高伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC521212101",
+      "code": "PLC521212101",
+      "name": "建筑构造（2-1）",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "程征"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC521616100",
+      "code": "PLC521616100",
+      "name": "建筑设计(6-1)",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "邓庆尧",
+        "陈瑞罡"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC521616300",
+      "code": "PLC521616300",
+      "name": "建筑设计(6-3)",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张能",
+        "戴昀"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC521616500",
+      "code": "PLC521616500",
+      "name": "建筑设计(6-5)",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "张金红",
+        "李欣"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC521661999",
+      "code": "PLC521661999",
+      "name": "建筑设计（6-1）",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "亓晓琳",
+        "吕婧",
+        "王凌旭"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC521812101",
+      "code": "PLC521812101",
+      "name": "建筑设计基础（2-1）",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "杨婷婷",
+        "王灵芝",
+        "程征",
+        "高伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC521812999",
+      "code": "PLC521812999",
+      "name": "建筑设计基础（2-1）",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "亓晓琳",
+        "戴昀",
+        "李佐龙"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC522022201",
+      "code": "PLC522022201",
+      "name": "建筑数字技术（2-2）",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张培峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC522212201",
+      "code": "PLC522212201",
+      "name": "建筑物理（2-2）",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李佐龙",
+        "王凌旭"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC522311999",
+      "code": "PLC522311999",
+      "name": "建筑学概论",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "亓晓琳",
+        "戴昀"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC522911010",
+      "code": "PLC522911010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "邓庆尧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC522911099",
+      "code": "PLC522911099",
+      "name": "9新生研讨课",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "张培峰",
+        "杨婷婷",
+        "王灵芝",
+        "程征",
+        "高伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC523011030",
+      "code": "PLC523011030",
+      "name": "中国建筑史",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张能"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC523111020",
+      "code": "PLC523111020",
+      "name": "住区规划与居住建筑设计原理",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张金红",
+        "李欣"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC529311010",
+      "code": "PLC529311010",
+      "name": "当代建筑思潮",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "戴昀"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC530821010",
+      "code": "PLC530821010",
+      "name": "现代设计史",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "吕婧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC534031020",
+      "code": "PLC534031020",
+      "name": "中国古建筑赏析与建构",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张能"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC562411030",
+      "code": "PLC562411030",
+      "name": "设计制图与表达",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "张峰",
+        "杨婷婷",
+        "王凌旭",
+        "高伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC562611030",
+      "code": "PLC562611030",
+      "name": "城市空间基础",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "李欣",
+        "程征",
+        "陈瑞罡",
+        "高伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "PLC562711030",
+      "code": "PLC562711030",
+      "name": "无人机操作与低空数据采集",
+      "collegeCode": "upc-05",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张峰",
+        "戴昀",
+        "李佐龙"
+      ],
+      "excludedReason": null
+    }
+  ]
+}

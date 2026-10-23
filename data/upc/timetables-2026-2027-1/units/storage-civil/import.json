@@ -1,0 +1,1825 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-storage-civil-2026-2027-1-timetable-20261023",
+  "source": "课表/储运与建筑工程学院/课表打印 (1).xls sha256:2b9e40da52e8ef985372419e089f3d4ae12db7f0164a91a959b1895293d571bb; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "cj-c19284-a452866",
+      "name": "于淼",
+      "title": "副教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222311025",
+          "name": "油罐及管道强度设计",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19286-a370986",
+      "name": "于述强",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0610699",
+          "name": "画法几何与工程制图",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC122611041",
+          "name": "混凝土结构设计原理",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC123611020",
+          "name": "建筑制图",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19292-a442298",
+      "name": "亓晓琳",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC521661999",
+          "name": "建筑设计（6-1）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC521812999",
+          "name": "建筑设计基础（2-1）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC522311999",
+          "name": "建筑学概论",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19291-a370946",
+      "name": "井文君",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC122921020",
+          "name": "基坑与边坡支护工程",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC127411020",
+          "name": "工程经济与项目管理",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19270-a462245",
+      "name": "任杰",
+      "title": "特任教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC133611015",
+          "name": "建筑材料",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC133611999",
+          "name": "建筑材料",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19284-a370902",
+      "name": "俞欣然",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222511020",
+          "name": "油气储运HSE",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370876",
+      "name": "刘刚",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19290-a370982",
+      "name": "刘宝山",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC321421020",
+          "name": "结构优化设计",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370898",
+      "name": "刘建国",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC210121020",
+          "name": "腐蚀与防腐",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19269-a370911",
+      "name": "刘建林",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310611041",
+          "name": "理论力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC320311040",
+          "name": "弹性力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC322431010",
+          "name": "五彩缤纷的力学世界",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19288-a370969",
+      "name": "刘杨",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC420321031",
+          "name": "城市燃气安全技术",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC421211020",
+          "name": "流体输配管网",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC422321020",
+          "name": "专业外语",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370919",
+      "name": "叶贵根",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310112101",
+          "name": "材料力学（2-1）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC328912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19292-a370952",
+      "name": "吕婧",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC521661999",
+          "name": "建筑设计（6-1）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC530821010",
+          "name": "现代设计史",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370879",
+      "name": "吕宇玲",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC222411025",
+          "name": "油库设计与管理",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC222811010",
+          "name": "油气储运新技术",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19269-a370909",
+      "name": "周博",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310611041",
+          "name": "理论力学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19286-a370937",
+      "name": "周明芳",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC121811010",
+          "name": "工程荷载与可靠度设计",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19272-a370962",
+      "name": "唐建峰",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC421911010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19284-a499070",
+      "name": "姚博",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC226121021",
+          "name": "流体流变学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19269-a412130",
+      "name": "孔祥清",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC320311040",
+          "name": "弹性力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC335831010",
+          "name": "走进奇妙的仿生世界",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370914",
+      "name": "孙峰",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370892",
+      "name": "孙广宇",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC226121021",
+          "name": "流体流变学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19291-a399442",
+      "name": "孟晓宇",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC124521020",
+          "name": "隧道工程",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19284-a370992",
+      "name": "宋光春",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC226421020",
+          "name": "低碳新能源储运",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370924",
+      "name": "宋明",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC321811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370886",
+      "name": "寇杰",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC210121020",
+          "name": "腐蚀与防腐",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC222111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC222621020",
+          "name": "油气储运安全技术",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC222911025",
+          "name": "油气集输",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370899",
+      "name": "崔淦",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC222411025",
+          "name": "油库设计与管理",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19309-a371003",
+      "name": "张培峰",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC522022201",
+          "name": "建筑数字技术（2-2）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC522911099",
+          "name": "9新生研讨课",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19286-a370943",
+      "name": "张如林",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC121121020",
+          "name": "钢结构设计",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19284-a370904",
+      "name": "张宏阳",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC220721020",
+          "name": "储运设施完整性管理",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19309-a371001",
+      "name": "张峰",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC562411030",
+          "name": "设计制图与表达",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC562711030",
+          "name": "无人机操作与低空数据采集",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19291-a370944",
+      "name": "张明",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0610699",
+          "name": "画法几何与工程制图",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC127721010",
+          "name": "专业英语与文献检索",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370921",
+      "name": "张毅",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310411030",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC320711020",
+          "name": "工程概论",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19288-a417802",
+      "name": "张烨琳",
+      "title": "副教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC421011026",
+          "name": "冷热源设备与系统",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370920",
+      "name": "张立松",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC321112999",
+          "name": "建筑力学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19287-a370961",
+      "name": "张能",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC521616300",
+          "name": "建筑设计(6-3)",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC523011030",
+          "name": "中国建筑史",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC534031020",
+          "name": "中国古建筑赏析与建构",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19286-a370941",
+      "name": "张艳美",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC127511015",
+          "name": "基础工程",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19284-a370896",
+      "name": "张足斌",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222311025",
+          "name": "油罐及管道强度设计",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19270-a370947",
+      "name": "张连震",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC124521020",
+          "name": "隧道工程",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19292-a370988",
+      "name": "张金红",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC521616500",
+          "name": "建筑设计(6-5)",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC523111020",
+          "name": "住区规划与居住建筑设计原理",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19286-a370948",
+      "name": "张雪松",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0610699",
+          "name": "画法几何与工程制图",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC125931020",
+          "name": "土木工程概论",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC127811020",
+          "name": "工程结构",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19272-a370968",
+      "name": "徐春雯",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC420811020",
+          "name": "建筑环境学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19292-a371002",
+      "name": "戴昀",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC521616300",
+          "name": "建筑设计(6-3)",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC521812999",
+          "name": "建筑设计基础（2-1）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC522311999",
+          "name": "建筑学概论",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC529311010",
+          "name": "当代建筑思潮",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC562711030",
+          "name": "无人机操作与低空数据采集",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370885",
+      "name": "曹学文",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222911025",
+          "name": "油气集输",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19269-a370913",
+      "name": "曹宇光",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC322311020",
+          "name": "专业外语",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370890",
+      "name": "朱建鲁",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC431211020",
+          "name": "输气管道设计与管理",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370926",
+      "name": "朱秀星",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19293-a370970",
+      "name": "朱静",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC420611020",
+          "name": "工程管理与经济",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC421621022",
+          "name": "燃气燃烧与应用",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19287-a417660",
+      "name": "李佐龙",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC521812999",
+          "name": "建筑设计基础（2-1）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC522212201",
+          "name": "建筑物理（2-2）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC562711030",
+          "name": "无人机操作与低空数据采集",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19270-a370929",
+      "name": "李大勇",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC127111021",
+          "name": "土力学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19289-a370976",
+      "name": "李扬",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222311025",
+          "name": "油罐及管道强度设计",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19270-a370927",
+      "name": "李春宝",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC121921020",
+          "name": "工程监理概论",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19291-a370945",
+      "name": "李柏栋",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC122611041",
+          "name": "混凝土结构设计原理",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC122721030",
+          "name": "混凝土结构设计原理",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19287-a370955",
+      "name": "李欣",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC521616500",
+          "name": "建筑设计(6-5)",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC523111020",
+          "name": "住区规划与居住建筑设计原理",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC562611030",
+          "name": "城市空间基础",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-05-001",
+      "name": "李洪波",
+      "title": null,
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC210221020",
+          "name": "油气储运概论",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC223621020",
+          "name": "专业外语",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370917",
+      "name": "李玉坤",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310611030",
+          "name": "理论力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC310721020",
+          "name": "实验应力分析",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370878",
+      "name": "李玉星",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370979",
+      "name": "李瑞勇",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC310611030",
+          "name": "理论力学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19270-a370931",
+      "name": "李静",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC127721010",
+          "name": "专业英语与文献检索",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370891",
+      "name": "杨东海",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC220721020",
+          "name": "储运设施完整性管理",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19292-a370960",
+      "name": "杨婷婷",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC521812101",
+          "name": "建筑设计基础（2-1）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC522911099",
+          "name": "9新生研讨课",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC562411030",
+          "name": "设计制图与表达",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370880",
+      "name": "杨飞",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC222811010",
+          "name": "油气储运新技术",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC223621020",
+          "name": "专业外语",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370916",
+      "name": "林红",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC321721020",
+          "name": "塑性力学基础",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370882",
+      "name": "梁法春",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC222621020",
+          "name": "油气储运安全技术",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC222811010",
+          "name": "油气储运新技术",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC222911025",
+          "name": "油气集输",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19289-a370907",
+      "name": "滕厚兴",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC220621020",
+          "name": "储运工程最优化",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-05-002",
+      "name": "王凌旭",
+      "title": null,
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC521661999",
+          "name": "建筑设计（6-1）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC522212201",
+          "name": "建筑物理（2-2）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC562411030",
+          "name": "设计制图与表达",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370881",
+      "name": "王武昌",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222811010",
+          "name": "油气储运新技术",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19284-a370901",
+      "name": "王海琴",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC220621020",
+          "name": "储运工程最优化",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC222911025",
+          "name": "油气集输",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370980",
+      "name": "王海静",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC321112999",
+          "name": "建筑力学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19292-a370958",
+      "name": "王灵芝",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC521812101",
+          "name": "建筑设计基础（2-1）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC522911099",
+          "name": "9新生研讨课",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19284-a399436",
+      "name": "王财林",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222511020",
+          "name": "油气储运HSE",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19287-a370951",
+      "name": "王鑫",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC520321011",
+          "name": "场地设计",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19284-a370889",
+      "name": "王鸿膺",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222411025",
+          "name": "油库设计与管理",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a417799",
+      "name": "甄莹",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19287-a370950",
+      "name": "程征",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC521212101",
+          "name": "建筑构造（2-1）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC521812101",
+          "name": "建筑设计基础（2-1）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC522911099",
+          "name": "9新生研讨课",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC562611030",
+          "name": "城市空间基础",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19286-a370938",
+      "name": "管友海",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC123521020",
+          "name": "建筑设备工程",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19284-a370908",
+      "name": "胡其会",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC223911021",
+          "name": "高等流体力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC226421020",
+          "name": "低碳新能源储运",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19284-a370897",
+      "name": "蒋文明",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222911025",
+          "name": "油气集输",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370918",
+      "name": "薛章纳",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC322431010",
+          "name": "五彩缤纷的力学世界",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a399439",
+      "name": "谷泽文",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC322431010",
+          "name": "五彩缤纷的力学世界",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370981",
+      "name": "贾朋",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC310611030",
+          "name": "理论力学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370922",
+      "name": "赵德敏",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0641199",
+          "name": "理论力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC310611030",
+          "name": "理论力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC310611041",
+          "name": "理论力学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19293-a370973",
+      "name": "迟进华",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC421011026",
+          "name": "冷热源设备与系统",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC421211020",
+          "name": "流体输配管网",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370915",
+      "name": "邓学晶",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC310611030",
+          "name": "理论力学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19271-a370949",
+      "name": "邓庆尧",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC521616100",
+          "name": "建筑设计(6-1)",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC522911010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19293-a450787",
+      "name": "邢杉硕",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC420911010",
+          "name": "建筑环境与能源应用新技术",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19290-a370925",
+      "name": "钮瑞艳",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310611030",
+          "name": "理论力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC310612100",
+          "name": "理论力学(2-1)",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC321311031",
+          "name": "结构力学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a450707",
+      "name": "陈建恒",
+      "title": "特任教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222411025",
+          "name": "油库设计与管理",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19272-a370964",
+      "name": "陈树军",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC420611020",
+          "name": "工程管理与经济",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC420911010",
+          "name": "建筑环境与能源应用新技术",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC431211020",
+          "name": "输气管道设计与管理",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19292-a370953",
+      "name": "陈瑞罡",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC521011020",
+          "name": "公共建筑设计原理",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC521011999",
+          "name": "公共建筑设计原理",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC521616100",
+          "name": "建筑设计(6-1)",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC562611030",
+          "name": "城市空间基础",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19286-a370942",
+      "name": "陈金平",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC125931020",
+          "name": "土木工程概论",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC127621020",
+          "name": "土木工程材料",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC133611015",
+          "name": "建筑材料",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC133611999",
+          "name": "建筑材料",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370900",
+      "name": "陈雷",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC222111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19268-a370888",
+      "name": "韩辉",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC223911021",
+          "name": "高等流体力学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19286-a399441",
+      "name": "马鹏程",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0641199",
+          "name": "理论力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC124521020",
+          "name": "隧道工程",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19292-a370954",
+      "name": "高伟",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC521121010",
+          "name": "环境心理学概论",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC521812101",
+          "name": "建筑设计基础（2-1）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC522911099",
+          "name": "9新生研讨课",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC562411030",
+          "name": "设计制图与表达",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC562611030",
+          "name": "城市空间基础",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19286-a370985",
+      "name": "高福聚",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC120821020",
+          "name": "多层与高层建筑结构设计",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC121211025",
+          "name": "钢结构原理",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC125631020",
+          "name": "易学探微",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19285-a370923",
+      "name": "黄小光",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310112101",
+          "name": "材料力学（2-1）",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC310611030",
+          "name": "理论力学",
+          "collegeCode": "upc-05"
+        },
+        {
+          "code": "PLC328912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19286-a370939",
+      "name": "黄思凝",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC122011016",
+          "name": "工程结构试验",
+          "collegeCode": "upc-05"
+        }
+      ]
+    }
+  ]
+}

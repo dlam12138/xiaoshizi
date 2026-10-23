@@ -1,17 +1,15 @@
 import { useTeacherSearch } from '../../hooks/useTeacherSearch';
 import { Pagination, PageFeedback } from '../Pagination';
 import { TeacherListSkeleton } from '../Skeletons';
-import { formatRating, compareRatings } from '../../lib/ratings';
+import { formatRating } from '../../lib/ratings';
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 import { Teacher, College } from '../../types';
-import { SWJTU_COLLEGES } from '../../data/mockTeachers';
 import { 
   Search, 
   Star, 
   CheckCircle2, 
   ChevronRight, 
   History, 
-  ArrowUpDown, 
   BookOpen, 
   X,
   Sparkles,
@@ -38,7 +36,6 @@ export const MobileTeacherSearch: React.FC<MobileTeacherSearchProps> = ({
   const [searchTerm, setSearchTerm] = useState<string>(initialSearch);
   const [selectedCollege, setSelectedCollege] = useState<string>('all');
   const [onlyThisTerm, setOnlyThisTerm] = useState<boolean>(false);
-  const [sortBy, setSortBy] = useState<'overall' | 'leniency' | 'quality' | 'attendance'>('overall');
   const [isSearchFocused, setIsSearchFocused] = useState<boolean>(false);
   const searchContainerRef = useRef<HTMLDivElement>(null);
 
@@ -60,13 +57,9 @@ export const MobileTeacherSearch: React.FC<MobileTeacherSearchProps> = ({
         ...colleges.map((c) => ({ value: c.id, label: c.name })),
       ];
     }
-    return [
-      { value: 'all', label: '更多学院...' },
-      ...SWJTU_COLLEGES.filter((c) => c !== '全部学院').map((col) => ({
-        value: col,
-        label: col,
-      })),
-    ];
+    // Without database IDs, filtering by a college name would send an invalid
+    // UUID filter. Keep only the "all" option until the dictionary loads.
+    return [{ value: 'all', label: '更多学院...' }];
   }, [colleges]);
 
   // Mobile quick college filter chips
@@ -80,18 +73,10 @@ export const MobileTeacherSearch: React.FC<MobileTeacherSearchProps> = ({
         })),
       ];
     }
-    return [
-      { id: 'all', name: '全部' },
-      ...SWJTU_COLLEGES.filter((c) => c !== '全部学院')
-        .slice(0, 6)
-        .map((name) => ({
-          id: name,
-          name: name.replace(/学院$/, '').slice(0, 4),
-        })),
-    ];
+    return [{ id: 'all', name: '全部' }];
   }, [colleges]);
 
-  const result = useTeacherSearch(teachers, { query: searchTerm, collegeId: selectedCollege, onlyThisTerm, sortBy });
+  const result = useTeacherSearch(teachers, { query: searchTerm, collegeId: selectedCollege, onlyThisTerm });
   const filteredTeachers = result.items;
   useEffect(() => {
     const college = colleges?.find(c => c.id === initialSearch || c.name === initialSearch);
@@ -141,7 +126,7 @@ export const MobileTeacherSearch: React.FC<MobileTeacherSearchProps> = ({
                 className="absolute left-0 right-0 top-full mt-2 bg-white rounded-2xl shadow-xl shadow-gray-900/10 border border-gray-100 p-2 z-30 max-h-60 overflow-y-auto scrollbar-thin"
               >
                 <div className="px-2 py-1 text-3xs font-bold text-gray-400 uppercase tracking-wider flex items-center justify-between">
-                  <span>智能联想推荐</span>
+                  <span>搜索联想</span>
                   <span>{result.total} 位匹配教师</span>
                 </div>
                 <div className="space-y-1 mt-1">
@@ -203,7 +188,7 @@ export const MobileTeacherSearch: React.FC<MobileTeacherSearchProps> = ({
           })}
         </div>
 
-        {/* Filter & Sort Controls with AnimatedDropdown */}
+        {/* Filter controls; result order is always name + unique ID. */}
         <div className="flex items-center justify-between pt-1.5 border-t border-gray-100 text-xs">
           <div className="flex items-center gap-1.5">
             <motion.button
@@ -229,25 +214,6 @@ export const MobileTeacherSearch: React.FC<MobileTeacherSearchProps> = ({
               menuClassName="w-56"
             />
           </div>
-
-          <div className="flex items-center gap-1 text-gray-500">
-            <ArrowUpDown className="w-3 h-3 text-gray-400" />
-            {/* Sort Dropdown with rounded corners and motion animation */}
-            <AnimatedDropdown
-              id="mobile-sort-dropdown"
-              value={sortBy}
-              onChange={(val) => setSortBy(val as any)}
-              options={[
-                { value: 'overall', label: '评分最高' },
-                { value: 'leniency', label: '给分最大方' },
-                { value: 'quality', label: '教学质量高' },
-                { value: 'attendance', label: '最少点名' },
-              ]}
-              align="right"
-              buttonClassName="px-2 py-1 bg-gray-100/90 text-gray-700 rounded-lg text-2xs font-medium"
-              menuClassName="w-36"
-            />
-          </div>
         </div>
       </div>
 
@@ -264,8 +230,14 @@ export const MobileTeacherSearch: React.FC<MobileTeacherSearchProps> = ({
           <TeacherListSkeleton layout="mobile" count={5} />
         ) : result.error ? null : filteredTeachers.length === 0 ? (
           <div className="bg-white p-8 rounded-2xl border border-gray-100 text-center text-gray-400 space-y-1.5">
-            <p className="text-xs font-medium text-gray-600">没有找到匹配的老师</p>
-            <p className="text-2xs">尝试缩短关键词或在“全部”中搜索</p>
+            <p className="text-xs font-medium text-gray-600">
+              {result.total === 0 && !searchTerm.trim() ? '教师数据尚未导入' : '没有找到匹配的老师'}
+            </p>
+            <p className="text-2xs">
+              {result.total === 0 && !searchTerm.trim()
+                ? '管理员完成学院与教师主数据导入后，这里会显示可核对的数据'
+                : '尝试缩短关键词或在“全部”中搜索'}
+            </p>
           </div>
         ) : (
           filteredTeachers.map((teacher) => (
@@ -286,7 +258,9 @@ export const MobileTeacherSearch: React.FC<MobileTeacherSearchProps> = ({
                       <h4 className="font-bold text-gray-900 text-sm">
                         {teacher.name}
                       </h4>
-                      <span className="text-2xs text-gray-500">{teacher.title}</span>
+                      <span className="text-2xs text-gray-500">
+                        {teacher.identityKind === 'timetable_unit_name' ? '课表来源身份' : (teacher.title || '职称待核实')}
+                      </span>
                       {teacher.isTeachingThisTerm && (
                         <span className="text-4xs px-1.5 py-0.2 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 flex items-center gap-0.5">
                           <CheckCircle2 className="w-2.5 h-2.5" /> 本学期
@@ -294,7 +268,8 @@ export const MobileTeacherSearch: React.FC<MobileTeacherSearchProps> = ({
                       )}
                     </div>
                     <p className="text-2xs text-gray-400 mt-0.5">
-                      {teacher.college} · {teacher.campus}
+                      {teacher.identityKind === 'timetable_unit_name' ? '课表单位：' : ''}
+                      {teacher.college}{teacher.campus ? ` · ${teacher.campus}` : ''}
                     </p>
                   </div>
                 </div>

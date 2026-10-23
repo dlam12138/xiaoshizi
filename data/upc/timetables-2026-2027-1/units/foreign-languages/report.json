@@ -1,0 +1,41 @@
+{
+  "slug": "foreign-languages",
+  "sourceUnit": "外国语学院",
+  "collegeCode": "upc-13",
+  "status": "active",
+  "sourceDir": "外国语学院",
+  "rawBlocks": 665,
+  "candidates": 100,
+  "verified": 100,
+  "officialVerified": 89,
+  "timetableVerified": 11,
+  "unresolved": 0,
+  "unresolvedDetails": [],
+  "excludedBlocks": 31,
+  "excludedBlockReasons": {
+    "missing_teacher": 24,
+    "missing_course_identity": 7
+  },
+  "coursesRaw": 99,
+  "sourceFile": {
+    "path": "课表/外国语学院/课表打印.xls",
+    "bytes": 105984,
+    "sha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+    "format": "BIFF8/OLE2",
+    "title": "中国石油大学（华东） 外国语学院  教研室课表",
+    "term": "2026-2027-1",
+    "sheets": [
+      {
+        "name": "Sheet4",
+        "rows": 9,
+        "cols": 256,
+        "headerRow": 3,
+        "blocks": 665,
+        "anomalies": []
+      }
+    ]
+  },
+  "courses": 88,
+  "offerings": 207,
+  "importFile": "units/foreign-languages/import.json"
+}

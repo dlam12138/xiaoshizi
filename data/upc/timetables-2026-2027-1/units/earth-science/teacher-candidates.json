@@ -1,0 +1,3515 @@
+{
+  "schemaVersion": 1,
+  "unit": "地球科学与技术学院",
+  "collegeCode": "upc-01",
+  "candidates": [
+    {
+      "name": "丁修建",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152116",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152116/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152116/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152116",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO162711046"
+      ],
+      "courseNames": [
+        "油气地质与勘探"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "丛富云",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a434031",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2024/0613/c10382a434031/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2024/0613/c10382a434031/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a434031",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO150321031"
+      ],
+      "courseNames": [
+        "石油地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "严一鸣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a372866",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2022/0422/c10382a372866/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2022/0422/c10382a372866/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a372866",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO163411025"
+      ],
+      "courseNames": [
+        "油田开发地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "乐友喜",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151964",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151964/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151964/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151964",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO210811040"
+      ],
+      "courseNames": [
+        "地球物理勘探"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "付欣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a432543",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2024/0527/c10380a432543/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2024/0527/c10380a432543/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a432543",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO222221025"
+      ],
+      "courseNames": [
+        "地震资料综合解释"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "任丽华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152124",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152124/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152124/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152124",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO160421020",
+        "GEO163411025"
+      ],
+      "courseNames": [
+        "储层地质学",
+        "油田开发地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "冯子齐",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152114",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152114/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152114/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152114",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO163411025"
+      ],
+      "courseNames": [
+        "油田开发地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘一鸣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a442869",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2024/1017/c10381a442869/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2024/1017/c10381a442869/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a442869",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO172011035"
+      ],
+      "courseNames": [
+        "地层学、地史学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152130",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152130/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152130/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152130",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO166221020"
+      ],
+      "courseNames": [
+        "高等石油地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘可禹",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152005",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152005/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152005/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152005",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122811010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘太勋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152127",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152127/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152127/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152127",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO163411025"
+      ],
+      "courseNames": [
+        "油田开发地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘寅",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152003",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152003/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152003/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152003",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO110811040",
+        "GEO122421020"
+      ],
+      "courseNames": [
+        "构造地质学",
+        "矿床学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘景东",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152128",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152128/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152128/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152128",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO162711046"
+      ],
+      "courseNames": [
+        "油气地质与勘探"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘长江",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152126",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152126/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152126/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152126",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0110199",
+        "GEO110611040",
+        "GEO175411033"
+      ],
+      "courseNames": [
+        "地球科学概论",
+        "地质学基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴国忱",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151976",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151976/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151976/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151976",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO222111020"
+      ],
+      "courseNames": [
+        "地震资料综合解释"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴孔友",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152087",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152087/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152087/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152087",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO120711020",
+        "GEO120821020",
+        "GEO122811010"
+      ],
+      "courseNames": [
+        "大地构造学",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴智平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152086",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152086/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152086/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152086",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO121611030",
+        "GEO122811010"
+      ],
+      "courseNames": [
+        "古生物学",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴玉其",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a433325",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2024/0604/c10381a433325/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2024/0604/c10381a433325/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a433325",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122611049"
+      ],
+      "courseNames": [
+        "矿物岩石学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "唐杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151978",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151978/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151978/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151978",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO211321035",
+        "GEO268821020"
+      ],
+      "courseNames": [
+        "岩石物理学",
+        "计算机原理与操作系统"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙小东",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151979",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151979/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151979/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151979",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO269311030"
+      ],
+      "courseNames": [
+        "地震资料数字处理方法(全英文)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙小龙",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a380590",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2022/0715/c10381a380590/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2022/0715/c10381a380590/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a380590",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO170311020",
+        "GEO171621020"
+      ],
+      "courseNames": [
+        "行星地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙成禹",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151980",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151980/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151980/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151980",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO210511036"
+      ],
+      "courseNames": [
+        "弹性波动力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孟凡超",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152030",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152030/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152030/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152030",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122611045"
+      ],
+      "courseNames": [
+        "矿物岩石学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孟庆峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a335351",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2021/0513/c10382a335351/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2021/0513/c10382a335351/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a335351",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO171721020"
+      ],
+      "courseNames": [
+        "石油地质专业英语"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋娟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151982",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151982/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151982/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151982",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO220421036"
+      ],
+      "courseNames": [
+        "地球动力学基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋建国",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151983",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151983/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151983/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151983",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO268311020"
+      ],
+      "courseNames": [
+        "地球物理反演理论(全英文)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋璠",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152123",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152123/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152123/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152123",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO162221020",
+        "GEO163411025"
+      ],
+      "courseNames": [
+        "油田开发地质学",
+        "油藏描述"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋鹰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a157549",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0705/c10381a157549/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0705/c10381a157549/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a157549",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO110811035",
+        "GEO123431015"
+      ],
+      "courseNames": [
+        "宝玉石鉴赏",
+        "构造地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宗兆云",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151993",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151993/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151993/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151993",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO222221025"
+      ],
+      "courseNames": [
+        "地震资料综合解释"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "尹兵祥",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151973",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151973/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151973/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151973",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO221411030",
+        "GEO222911020",
+        "GEO222911021"
+      ],
+      "courseNames": [
+        "地球物理学概论",
+        "重磁勘探"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张世奇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a156369",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0622/c10382a156369/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0622/c10382a156369/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a156369",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0111499",
+        "GEO164821020"
+      ],
+      "courseNames": [
+        "层序地层学",
+        "油田开发地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张佳佳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151998",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151998/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151998/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151998",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO222721025"
+      ],
+      "courseNames": [
+        "开发地震"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张凯",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151996",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151996/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_course_assignment",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151996/page.htm",
+        "sourceId": "geori-c10380-a151996",
+        "sameNameEvidence": {
+          "relation": "distinct_persons",
+          "profiles": [
+            {
+              "sourceId": "geori-c10378-a151863",
+              "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151863/page.htm",
+              "department": "测井系",
+              "mainCourses": [],
+              "courseMatch": []
+            },
+            {
+              "sourceId": "geori-c10380-a151996",
+              "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151996/page.htm",
+              "department": "地球物理系",
+              "mainCourses": [
+                "地震资料数字处理方法",
+                "程序设计语言（F）",
+                "信号分析与处理"
+              ],
+              "courseMatch": [
+                "GEO221911030"
+              ]
+            }
+          ],
+          "decision": "course '地震资料数字处理方法' explicitly listed by the 地球物理系 profile; assign only that profile; the 测井系 person has no timetable course evidence"
+        },
+        "courseProvenance": [
+          {
+            "courseCodes": [
+              "GEO221911030"
+            ],
+            "method": "official_main_course",
+            "confidence": "high",
+            "officialConfirmation": true,
+            "correctable": false,
+            "basis": [],
+            "evidence": null,
+            "alternativeSourceId": null
+          }
+        ]
+      },
+      "courseCodes": [
+        "GEO221911030"
+      ],
+      "courseNames": [
+        "地震资料数字处理方法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张国印",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a373976",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2022/0505/c10382a373976/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2022/0505/c10382a373976/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a373976",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO163411025",
+        "GEO262011020"
+      ],
+      "courseNames": [
+        "地学大数据",
+        "油田开发地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张宪国",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152155",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152155/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152155/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152155",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122811010",
+        "GEO164121025",
+        "GEO169311020"
+      ],
+      "courseNames": [
+        "储层地质学及油气藏描述(全英文)",
+        "新生研讨课",
+        "油矿地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张广智",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151999",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151999/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151999/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151999",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO211611031"
+      ],
+      "courseNames": [
+        "信号分析与处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张福明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a156245",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0620/c10378a156245/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0620/c10378a156245/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a156245",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO261911040"
+      ],
+      "courseNames": [
+        "地球物理测井"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张立强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152158",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152158/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152158/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152158",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122811010",
+        "GEO163411025"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "油田开发地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张繁昌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a152000",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a152000/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a152000/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a152000",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122811010",
+        "GEO211511011",
+        "GEO211611031",
+        "GEO212412200"
+      ],
+      "courseNames": [
+        "信号分析与处理",
+        "心理健康与职业发展（2-2）",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张锋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a151852",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151852/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151852/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a151852",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122811010",
+        "GEO261011016",
+        "GEO275311015"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "智能地球物理探测概论",
+        "测井方法与原理（核）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐凯军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151975",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151975/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151975/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151975",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO222311018",
+        "GEO225211025"
+      ],
+      "courseNames": [
+        "工程与环境地球物理",
+        "电法勘探"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐守余",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152160",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152160/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152160/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152160",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO160821030",
+        "GEO161021020",
+        "GEO161421010",
+        "GEO166021020"
+      ],
+      "courseNames": [
+        "储层表征与建模",
+        "地质统计与建模",
+        "工程地质勘察",
+        "科技论文写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐明权",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-01-001",
+      "title": null,
+      "collegeCode": "upc-01",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "地球科学与技术学院",
+        "sourceFile": "课表/地球科学与技术学院/课表打印.xls",
+        "sourceSha256": "52c36077eab0b31e73788206884c9a62a86d27ff6665babe2f2a5115c97a6c4c",
+        "rawNames": [
+          "徐明权"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "GEO173931020"
+      ],
+      "courseNames": [
+        "寻油中国：科技、历史与人文之旅"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "操应长",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152016",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152016/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152016/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152016",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122811010",
+        "GEO211511011"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曲希玉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152026",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152026/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152026/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152026",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122611049"
+      ],
+      "courseNames": [
+        "矿物岩石学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曲江秀",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a331434",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2021/0330/c10382a331434/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2021/0330/c10382a331434/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a331434",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO162711046"
+      ],
+      "courseNames": [
+        "油气地质与勘探"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曲英铭",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a161058",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0906/c10380a161058/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0906/c10380a161058/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a161058",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO211721030"
+      ],
+      "courseNames": [
+        "Python程序设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曹丹平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151971",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151971/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151971/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151971",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO222221025"
+      ],
+      "courseNames": [
+        "地震资料综合解释"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曹文俊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151970",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151970/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151970/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151970",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO211721030",
+        "GEO222021030"
+      ],
+      "courseNames": [
+        "Python程序设计",
+        "地震资料数字处理方法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱丹",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a438702",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2024/0902/c10380a438702/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2024/0902/c10380a438702/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a438702",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO222911020",
+        "GEO222911021"
+      ],
+      "courseNames": [
+        "重磁勘探"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a156239",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0620/c10381a156239/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0620/c10381a156239/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a156239",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO172011035"
+      ],
+      "courseNames": [
+        "地层学、地史学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李卿卿",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151963",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151963/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151963/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151963",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO210811040"
+      ],
+      "courseNames": [
+        "地球物理勘探"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李召成",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a151867",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151867/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151867/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a151867",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO261911040"
+      ],
+      "courseNames": [
+        "地球物理测井"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李吉君",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a160052",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0818/c10381a160052/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0818/c10381a160052/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a160052",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO320411030"
+      ],
+      "courseNames": [
+        "碳储地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李宝刚",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152149",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152149/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152149/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152149",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO160611010"
+      ],
+      "courseNames": [
+        "地震资料地质综合解释"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李理",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152010",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152010/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152010/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152010",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO110811040"
+      ],
+      "courseNames": [
+        "构造地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李盛清",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a331613",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2021/0401/c10378a331613/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2021/0401/c10378a331613/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a331613",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO211611031"
+      ],
+      "courseNames": [
+        "信号分析与处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李福来",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152134",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152134/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152134/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152134",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO163411025",
+        "GEO165831020"
+      ],
+      "courseNames": [
+        "油田开发地质学",
+        "自然灾害"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李红南",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152133",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152133/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152133/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152133",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO163411025"
+      ],
+      "courseNames": [
+        "油田开发地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杜启振",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151968",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151968/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151968/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151968",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO210511036"
+      ],
+      "courseNames": [
+        "弹性波动力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨俊生",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a156283",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0621/c10381a156283/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0621/c10381a156283/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a156283",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0113499"
+      ],
+      "courseNames": [
+        "沉积学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨升宇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a300146",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2020/0509/c10382a300146/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2020/0509/c10382a300146/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a300146",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO163521015"
+      ],
+      "courseNames": [
+        "油气资源评价"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨继东",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a312761",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2020/0810/c10380a312761/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2020/0810/c10380a312761/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a312761",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO220511031"
+      ],
+      "courseNames": [
+        "地球动力学基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨金秀",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a160055",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0818/c10381a160055/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0818/c10381a160055/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a160055",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO320411030"
+      ],
+      "courseNames": [
+        "碳储地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "林腊梅",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152131",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152131/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152131/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152131",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO162921021",
+        "GEO163411026"
+      ],
+      "courseNames": [
+        "油田开发地质学",
+        "非常规油气地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "栗磊",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-01-002",
+      "title": null,
+      "collegeCode": "upc-01",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "地球科学与技术学院",
+        "sourceFile": "课表/地球科学与技术学院/课表打印.xls",
+        "sourceSha256": "52c36077eab0b31e73788206884c9a62a86d27ff6665babe2f2a5115c97a6c4c",
+        "rawNames": [
+          "栗磊"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "GEO212412200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "梁超",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152006",
+      "title": "特任教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152006/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152006/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152006",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122011020"
+      ],
+      "courseNames": [
+        "海洋地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "梁锴",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151960",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151960/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151960/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151960",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO210511036",
+        "GEO223211026"
+      ],
+      "courseNames": [
+        "地球物理场论",
+        "弹性波动力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "段忠丰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152115",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152115/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152115/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152115",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO150121030"
+      ],
+      "courseNames": [
+        "工程地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "汪必峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152021",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152021/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152021/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152021",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO110811041"
+      ],
+      "courseNames": [
+        "构造地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "沈奕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a392856",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2023/0103/c10380a392856/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2023/0103/c10380a392856/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a392856",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO225211025"
+      ],
+      "courseNames": [
+        "工程与环境地球物理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王伟明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a160050",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0818/c10381a160050/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0818/c10381a160050/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a160050",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO110311030",
+        "GEO175411033"
+      ],
+      "courseNames": [
+        "地球科学概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王保丽",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151977",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151977/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151977/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151977",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO211611031",
+        "GEO269021020"
+      ],
+      "courseNames": [
+        "信号分析与处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王冠民",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152020",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152020/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152020/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152020",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO110311030"
+      ],
+      "courseNames": [
+        "地球科学概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王力禾",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-01-003",
+      "title": null,
+      "collegeCode": "upc-01",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "地球科学与技术学院",
+        "sourceFile": "课表/地球科学与技术学院/课表打印.xls",
+        "sourceSha256": "52c36077eab0b31e73788206884c9a62a86d27ff6665babe2f2a5115c97a6c4c",
+        "rawNames": [
+          "王力禾"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "GEO212412200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王奇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152163",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152163/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152163/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152163",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO150321031"
+      ],
+      "courseNames": [
+        "石油地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王广伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152166",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152166/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152166/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152166",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO163411025"
+      ],
+      "courseNames": [
+        "油田开发地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王新光",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a151855",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151855/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151855/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a151855",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0122999",
+        "GEO263311020"
+      ],
+      "courseNames": [
+        "原子核物理",
+        "测井方法及综合解释"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王正楷",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a151854",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151854/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151854/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a151854",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO262411025"
+      ],
+      "courseNames": [
+        "电磁场论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王淼",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a400642",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2023/0410/c10382a400642/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2023/0410/c10382a400642/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a400642",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO171311040"
+      ],
+      "courseNames": [
+        "地球化学（含应用地球化学）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a325803",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2020/1221/c10378a325803/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2020/1221/c10378a325803/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a325803",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0122999",
+        "GEO260911021"
+      ],
+      "courseNames": [
+        "测井方法与原理（电法）",
+        "测井方法及综合解释"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王金友",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152164",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152164/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152164/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152164",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO161521020",
+        "GEO163411025"
+      ],
+      "courseNames": [
+        "录井地质学",
+        "油田开发地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "田金强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152121",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152121/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152121/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152121",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO125621020"
+      ],
+      "courseNames": [
+        "含油气盆地分析"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "程付启",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a152117",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152117/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0527/c10382a152117/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a152117",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO173931020"
+      ],
+      "courseNames": [
+        "寻油中国：科技、历史与人文之旅"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "章大港",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152102",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152102/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152102/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152102",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO110611040",
+        "GEO369511020"
+      ],
+      "courseNames": [
+        "地质学基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "肖佃师",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a160049",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0818/c10378a160049/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0818/c10378a160049/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a160049",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO261911040"
+      ],
+      "courseNames": [
+        "地球物理测井"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "胡万龙",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a433322",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2024/0604/c10381a433322/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2024/0604/c10381a433322/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a433322",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122611049"
+      ],
+      "courseNames": [
+        "矿物岩石学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "胡钦红",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a405267",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2023/0606/c10382a405267/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2023/0606/c10382a405267/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a405267",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122811010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "苏远大",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a218273",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2019/0923/c10378a218273/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2019/0923/c10378a218273/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a218273",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO261111016",
+        "GEO275311015"
+      ],
+      "courseNames": [
+        "智能地球物理探测概论",
+        "测井方法与原理（声波）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "范宜仁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a151841",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151841/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151841/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a151841",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO212412200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "葛新民",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a151840",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151840/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151840/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a151840",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO263121020"
+      ],
+      "courseNames": [
+        "岩石物理基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "葸克来",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a162306",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0911/c10381a162306/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0911/c10381a162306/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a162306",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO110311030"
+      ],
+      "courseNames": [
+        "地球科学概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "袁静",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152105",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152105/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152105/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152105",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122811010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "裴仰文",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a204727",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2019/0505/c10381a204727/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2019/0505/c10381a204727/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a204727",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO110811035"
+      ],
+      "courseNames": [
+        "构造地质学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "许启鲁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a325986",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2020/1223/c10382a325986/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2020/1223/c10382a325986/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a325986",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO162711046"
+      ],
+      "courseNames": [
+        "油气地质与勘探"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "谭宝海",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a302924",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2020/0618/c10378a302924/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2020/0618/c10378a302924/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a302924",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO212412200",
+        "GEO262921032"
+      ],
+      "courseNames": [
+        "微控制器原理及接口技术",
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "谷丙洛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151966",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151966/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151966/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151966",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO210921020"
+      ],
+      "courseNames": [
+        "地球物理勘探概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵勇生",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152101",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152101/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152101/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152101",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122121020",
+        "GEO122611049"
+      ],
+      "courseNames": [
+        "环境地质学",
+        "矿物岩石学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "远光辉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a198934",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2019/0313/c10381a198934/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2019/0313/c10381a198934/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a198934",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO110311030",
+        "GEO122811010"
+      ],
+      "courseNames": [
+        "地球科学概论",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邓少贵",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a151842",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151842/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151842/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a151842",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO260911021",
+        "GEO275311015"
+      ],
+      "courseNames": [
+        "智能地球物理探测概论",
+        "测井方法与原理（电法）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邱隆伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a156238",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0620/c10381a156238/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0620/c10381a156238/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a156238",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122611049",
+        "GEO122811010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "矿物岩石学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郝文星",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a486664",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2026/0401/c10382a486664/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2026/0401/c10382a486664/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a486664",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO123631020"
+      ],
+      "courseNames": [
+        "认识地球"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "鄢继华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152075",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152075/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152075/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152075",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO124021020"
+      ],
+      "courseNames": [
+        "岩相古地理学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "金超",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a464975",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2025/0624/c10380a464975/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2025/0624/c10380a464975/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a464975",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO273711020"
+      ],
+      "courseNames": [
+        "地球物理数据智能化分析"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "闫月锋",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-01-004",
+      "title": null,
+      "collegeCode": "upc-01",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "地球科学与技术学院",
+        "sourceFile": "课表/地球科学与技术学院/课表打印.xls",
+        "sourceSha256": "52c36077eab0b31e73788206884c9a62a86d27ff6665babe2f2a5115c97a6c4c",
+        "rawNames": [
+          "闫月锋"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "GEO225211025"
+      ],
+      "courseNames": [
+        "工程与环境地球物理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陆诗阔",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a152046",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152046/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10381a152046/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a152046",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO120711020",
+        "GEO120821020"
+      ],
+      "courseNames": [
+        "大地构造学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈中红",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a168467",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/1008/c10382a168467/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/1008/c10382a168467/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a168467",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO171311040"
+      ],
+      "courseNames": [
+        "地球化学（含应用地球化学）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈勇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10381-a200362",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2019/0322/c10381a200362/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2019/0322/c10381a200362/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10381-a200362",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO120911031",
+        "GEO122811010"
+      ],
+      "courseNames": [
+        "地球化学",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈方文",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10382-a160057",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0818/c10382a160057/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0818/c10382a160057/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10382-a160057",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO161731020",
+        "GEO172621020"
+      ],
+      "courseNames": [
+        "新能源概论",
+        "认识新能源"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈雪莲",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a302869",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2020/0617/c10378a302869/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2020/0617/c10378a302869/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a302869",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO262611020"
+      ],
+      "courseNames": [
+        "井筒声学基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "韩同城",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10378-a212034",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2019/0711/c10378a212034/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2019/0711/c10378a212034/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10378-a212034",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO122811010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "魏周拓",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-01-005",
+      "title": null,
+      "collegeCode": "upc-01",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "地球科学与技术学院",
+        "sourceFile": "课表/地球科学与技术学院/课表打印.xls",
+        "sourceSha256": "52c36077eab0b31e73788206884c9a62a86d27ff6665babe2f2a5115c97a6c4c",
+        "rawNames": [
+          "魏周拓"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "0122999",
+        "GEO261911040",
+        "GEO266111020"
+      ],
+      "courseNames": [
+        "地球物理测井",
+        "大数据技术与应用",
+        "测井方法及综合解释"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黄建平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "geori-c10380-a151965",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151965/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151965/page.htm",
+        "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院"
+        ],
+        "sourceId": "geori-c10380-a151965",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "GEO220711010"
+      ],
+      "courseNames": [
+        "地球物理学进展(双语)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

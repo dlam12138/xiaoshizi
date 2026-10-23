@@ -1,0 +1,1241 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-ocean-space-2026-2027-1-timetable-20261023",
+  "source": "课表/海洋与空间信息学院/课表打印.xls sha256:c1743632b288532fd72e513a5f8abd68bbb23b728130821d8694e95a1b9495fc; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "ocean-c15436-a224960",
+      "name": "丁淑妍",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI224821020",
+          "name": "通信原理",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI232111020",
+          "name": "数字系统综合实践",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a225007",
+      "name": "万勇",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI322421020",
+          "name": "数据采集系统",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a225320",
+      "name": "任旭虎",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI323511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI325811030",
+          "name": "模拟电子技术",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a225590",
+      "name": "任鹏",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI321311025",
+          "name": "高频电子线路",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI323511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a448604",
+      "name": "何亚文",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224976",
+      "name": "刘善伟",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI121011020",
+          "name": "测量学",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI504411021",
+          "name": "数字地形测量学",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI505811014",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224975",
+      "name": "刘瑞娟",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI120121021",
+          "name": "GIS空间分析",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a224964",
+      "name": "卢晓轩",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI222911041",
+          "name": "通信原理",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI223421020",
+          "name": "卫星通信",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a228022",
+      "name": "吕新荣",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI323911010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI324411021",
+          "name": "FPGA系统设计",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI325211030",
+          "name": "电路理论基础",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI325411026",
+          "name": "数字电子技术",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a226731",
+      "name": "吴会胜",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI120421020",
+          "name": "GIS应用开发",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI120421021",
+          "name": "GIS应用开发",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI122211020",
+          "name": "工程概论",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI127721020",
+          "name": "工程概论",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI236511020",
+          "name": "无人机原理与构造",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a308936",
+      "name": "吴琼",
+      "title": "实验师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI320611027",
+          "name": "程序设计（C/C++）",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a225008",
+      "name": "周卫东",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI323511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI325211030",
+          "name": "电路理论基础",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI331821020",
+          "name": "信号处理仿真",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI334912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-08-001",
+      "name": "周飞",
+      "title": null,
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI323911010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a225004",
+      "name": "周鹏",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI323511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI323911010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a384822",
+      "name": "姜斌",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI224321015",
+          "name": "通信系统仿真技术",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224915",
+      "name": "姬生月",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI120521021",
+          "name": "GNSS测量数据处理",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a225003",
+      "name": "孙伟峰",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI310111046",
+          "name": "微机原理",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI323511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224792",
+      "name": "孙根云",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI504311026",
+          "name": "遥感数字图像处理",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI505811014",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224925",
+      "name": "安聪荣",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI122921031",
+          "name": "空间数据库",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI129821020",
+          "name": "国土空间规划",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a228571",
+      "name": "宋冬梅",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111011026",
+          "name": "数字图像处理",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI505811014",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a225005",
+      "name": "宋华军",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI322121021",
+          "name": "嵌入式系统设计",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI322811030",
+          "name": "数字信号处理",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a225622",
+      "name": "张杰",
+      "title": "研究员",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI505811014",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224913",
+      "name": "张爱竹",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI504311026",
+          "name": "遥感数字图像处理",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a224972",
+      "name": "张锡岭",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI220221021",
+          "name": "FPGA设计与应用",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI221211030",
+          "name": "计算机网络",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI226021020",
+          "name": "移动互联网实践",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI400111013",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a226585",
+      "name": "彭秀英",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI112021020",
+          "name": "专业外语",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI132711020",
+          "name": "地图制图学基础",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a225014",
+      "name": "曲晓俊",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI320611027",
+          "name": "程序设计（C/C++）",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI324611020",
+          "name": "信息论基础",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224922",
+      "name": "曾喆",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI124121021",
+          "name": "位置服务概论",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a224963",
+      "name": "李世宝",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI220411028",
+          "name": "程序设计（C/C++）",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI221211030",
+          "name": "计算机网络",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI222911041",
+          "name": "通信原理",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI400111013",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a411995",
+      "name": "李东阳",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI221211030",
+          "name": "计算机网络",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI236221025",
+          "name": "Python程序设计",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224910",
+      "name": "李国胜",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111011026",
+          "name": "数字图像处理",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI122721020",
+          "name": "开源GIS设计与开发",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI505911033",
+          "name": "程序设计（C/C++）",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a499517",
+      "name": "李彤",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI221211030",
+          "name": "计算机网络",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a225588",
+      "name": "李忠伟",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI223611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a308395",
+      "name": "李永",
+      "title": "高级实验师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI220411028",
+          "name": "程序设计（C/C++）",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI223321030",
+          "name": "微机原理",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a412180",
+      "name": "李磊",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI228621020",
+          "name": "无线通信原理",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a225012",
+      "name": "李莉",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI322811030",
+          "name": "数字信号处理",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a224962",
+      "name": "李莉",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI225711020",
+          "name": "离散数学",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224912",
+      "name": "李连伟",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI121421031",
+          "name": "地理建模原理与方法",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-08-002",
+      "name": "杨华",
+      "title": null,
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI320321020",
+          "name": "Python语言程序设计",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI320611027",
+          "name": "程序设计（C/C++）",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a471376",
+      "name": "杨雪",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI504511020",
+          "name": "遥感程序设计基础",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a435001",
+      "name": "王冠雅",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI320321020",
+          "name": "Python语言程序设计",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI323911010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI332521020",
+          "name": "数字图像处理",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224791",
+      "name": "王振杰",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a228013",
+      "name": "王斌",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111011026",
+          "name": "数字图像处理",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI504511020",
+          "name": "遥感程序设计基础",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a225142",
+      "name": "王武礼",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI320611027",
+          "name": "程序设计（C/C++）",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224914",
+      "name": "王海起",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI121911031",
+          "name": "高级程序设计",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI134511030",
+          "name": "程序设计（C/C++）",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI505711020",
+          "name": "空间数据库",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a417968",
+      "name": "白依宁",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI220411028",
+          "name": "程序设计（C/C++）",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224921",
+      "name": "白永良",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI111611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224911",
+      "name": "盛辉",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI130211030",
+          "name": "摄影测量学",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a470361",
+      "name": "石钰",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI323911010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a323709",
+      "name": "聂志喜",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI112511030",
+          "name": "误差理论与测量平差基础",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI123621021",
+          "name": "实用测量数据处理方法",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI136611020",
+          "name": "无人机核心技能课程",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI137911025",
+          "name": "空间数据误差处理",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a384468",
+      "name": "臧建飞",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a224970",
+      "name": "舒若",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI222411031",
+          "name": "通信电子线路",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a408511",
+      "name": "苗翔鹰",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI323711035",
+          "name": "信号与系统",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI323911010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a226584",
+      "name": "范士杰",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI122511020",
+          "name": "海洋测绘",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a225010",
+      "name": "董超群",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI314621020",
+          "name": "数据库技术与应用",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI325411026",
+          "name": "数字电子技术",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224919",
+      "name": "许明明",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI123921021",
+          "name": "数字摄影测量",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224923",
+      "name": "赵健",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI110911020",
+          "name": "数字地形测量学",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a441392",
+      "name": "赵爽",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI112511030",
+          "name": "误差理论与测量平差基础",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI124021021",
+          "name": "水下导航定位技术",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224908",
+      "name": "郑红霞",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI121011020",
+          "name": "测量学",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI504411021",
+          "name": "数字地形测量学",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a326534",
+      "name": "闫秋双",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI236221025",
+          "name": "Python程序设计",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a308877",
+      "name": "陈真",
+      "title": "高级实验师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI323511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI324131020",
+          "name": "三维动画设计与制作",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a224961",
+      "name": "顾朝志",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI224821020",
+          "name": "通信原理",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a384473",
+      "name": "高晗",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI505811014",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a417967",
+      "name": "魏世清",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI134511030",
+          "name": "程序设计（C/C++）",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI505811014",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI505911033",
+          "name": "程序设计（C/C++）",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a385349",
+      "name": "魏少鹏",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI322811030",
+          "name": "数字信号处理",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI323511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI323911010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a469849",
+      "name": "魏嵩",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI323911010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI341421021",
+          "name": "信号分析与处理",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a224905",
+      "name": "黄丙湖",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        },
+        {
+          "code": "OSI120211022",
+          "name": "GIS空间分析",
+          "collegeCode": "upc-08"
+        }
+      ]
+    }
+  ]
+}

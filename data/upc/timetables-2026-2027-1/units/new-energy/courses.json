@@ -1,0 +1,785 @@
+{
+  "schemaVersion": 1,
+  "unit": "石大山能新能源学院",
+  "collegeCode": "upc-07",
+  "courses": [
+    {
+      "key": "CNE110511010",
+      "code": "CNE110511010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 31,
+      "teacherNames": [
+        "李强",
+        "杨滨",
+        "王君",
+        "王振波",
+        "赵东亚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE110611010",
+      "code": "CNE110611010",
+      "name": "学科前沿知识专题讲座",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "孙治谦",
+        "王君",
+        "王振波",
+        "王胜军",
+        "章大海",
+        "蒋文春",
+        "赵东亚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE112512200",
+      "code": "CNE112512200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "孙治谦",
+        "秦政",
+        "郭晓静"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE120311020",
+      "code": "CNE120311020",
+      "name": "泵与压缩机",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "周昌静",
+        "王胜军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE121011025",
+      "code": "CNE121011025",
+      "name": "过程流体机械",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 13,
+      "teacherNames": [
+        "刘兆增",
+        "李强",
+        "王君",
+        "王宗明",
+        "王振波"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE121112200",
+      "code": "CNE121112200",
+      "name": "过程设备设计(2-2)",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 20,
+      "teacherNames": [
+        "万娱",
+        "左海强",
+        "杨滨",
+        "王建军",
+        "王胜昆"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE122211020",
+      "code": "CNE122211020",
+      "name": "化工设备设计基础",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "周凡",
+        "国亚东",
+        "张玉财",
+        "杨滨"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE122812200",
+      "code": "CNE122812200",
+      "name": "环保设备设计(2-2)",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "孙治谦",
+        "王振波"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE123411021",
+      "code": "CNE123411021",
+      "name": "控制工程基础",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "孙鑫晖",
+        "左海强",
+        "张兰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE124011021",
+      "code": "CNE124011021",
+      "name": "环境工程材料",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "齐建涛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE124411020",
+      "code": "CNE124411020",
+      "name": "现代测控仪表",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙鑫晖"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE125231022",
+      "code": "CNE125231022",
+      "name": "微型啤酒精酿技术",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张松"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE128312200",
+      "code": "CNE128312200",
+      "name": "流体力学(2-2)",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "朱晓丽",
+        "章大海"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE131811020",
+      "code": "CNE131811020",
+      "name": "工程流体力学",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李强",
+        "王建军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE136321020",
+      "code": "CNE136321020",
+      "name": "泵与压缩机",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "周昌静",
+        "王胜军",
+        "章大海"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE136411015",
+      "code": "CNE136411015",
+      "name": "装备制造工程基础",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "孙治谦",
+        "赵延灵"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE210311031",
+      "code": "CNE210311031",
+      "name": "传热学",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "丁斌",
+        "冯洪庆"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE210311032",
+      "code": "CNE210311032",
+      "name": "传热学",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "刘安源",
+        "张克舫",
+        "段欣悦",
+        "黄善波"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE210411021",
+      "code": "CNE210411021",
+      "name": "工程概论",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "杨正大",
+        "殷英",
+        "白章",
+        "许康"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE210621030",
+      "code": "CNE210621030",
+      "name": "工程热力学",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "姜烨"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE210711036",
+      "code": "CNE210711036",
+      "name": "工程热力学",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "许康"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE211021020",
+      "code": "CNE211021020",
+      "name": "洁净煤技术",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘丹丹",
+        "姜烨"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE211411010",
+      "code": "CNE211411010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "冯洪庆",
+        "巩亮",
+        "林日亿",
+        "王照亮"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE211511010",
+      "code": "CNE211511010",
+      "name": "学科前沿知识专题讲座",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "丁斌",
+        "任晓",
+        "张立强",
+        "杨正大",
+        "殷英",
+        "白章",
+        "苑昆鹏",
+        "韩昕璐"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE211721020",
+      "code": "CNE211721020",
+      "name": "专业外语",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "杨正大"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE222621020",
+      "code": "CNE222621020",
+      "name": "燃气轮机与联合循环",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "韩昕璐"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE223621010",
+      "code": "CNE223621010",
+      "name": "先进热管理技术",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "王照亮",
+        "苑昆鹏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE223821020",
+      "code": "CNE223821020",
+      "name": "新能源技术",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "任晓",
+        "张立强",
+        "殷英",
+        "白章"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE226111025",
+      "code": "CNE226111025",
+      "name": "燃烧与污染控制",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "刘安源"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE227321021",
+      "code": "CNE227321021",
+      "name": "生物质热化学转化原理与技术",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张立强"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE229012101",
+      "code": "CNE229012101",
+      "name": "热力学（2-1）",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "马永"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE232711040",
+      "code": "CNE232711040",
+      "name": "新能源热力发电原理及系统",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "张伟",
+        "张克舫",
+        "张立强"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE234411020",
+      "code": "CNE234411020",
+      "name": "太阳能热利用原理与技术",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "任晓",
+        "白章"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE320321020",
+      "code": "CNE320321020",
+      "name": "电动钻机电气控制技术",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "王永军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE321011030",
+      "code": "CNE321011030",
+      "name": "电力拖动自动控制系统",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "冯兴田",
+        "张龙龙",
+        "陈荣"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE321121020",
+      "code": "CNE321121020",
+      "name": "电力系统仿真与分析",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "康伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE321711035",
+      "code": "CNE321711035",
+      "name": "电路分析",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "宿嘉磊",
+        "张磊",
+        "高春侠"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE321811010",
+      "code": "CNE321811010",
+      "name": "电气工程新技术专题",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "严庆增",
+        "孟庆伟",
+        "宿嘉磊",
+        "朱明晓",
+        "李鹏",
+        "翟俊义",
+        "葛平娟",
+        "赵晨辰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE321921026",
+      "code": "CNE321921026",
+      "name": "电气控制及可编程控制技术",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "王永军",
+        "董磊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE322521020",
+      "code": "CNE322521020",
+      "name": "高等电路分析",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "高春侠"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE323021020",
+      "code": "CNE323021020",
+      "name": "柔性输配电技术",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张丽霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE323111020",
+      "code": "CNE323111020",
+      "name": "石油石化电气节能技术",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "陈荣"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE323321020",
+      "code": "CNE323321020",
+      "name": "微电网分析与控制",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "徐海亮",
+        "葛平娟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE323611010",
+      "code": "CNE323611010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 10,
+      "teacherNames": [
+        "仉志华",
+        "徐海亮",
+        "王玉彬",
+        "马文忠"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE323721020",
+      "code": "CNE323721020",
+      "name": "智能电网导论",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "翟俊义"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE323821020",
+      "code": "CNE323821020",
+      "name": "专业英语",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "朱明晓",
+        "李鹏",
+        "赵晨辰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE323911030",
+      "code": "CNE323911030",
+      "name": "电力工程基础",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "仉志华",
+        "孟庆伟",
+        "康伟",
+        "张丽霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE324011040",
+      "code": "CNE324011040",
+      "name": "现代电机控制系统",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张龙龙"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE325211040",
+      "code": "CNE325211040",
+      "name": "现代电力电子技术",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "严庆增",
+        "李鹏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE339512100",
+      "code": "CNE339512100",
+      "name": "电路与电子技术（2-1）",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "宿嘉磊",
+        "高春侠"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE420321021",
+      "code": "CNE420321021",
+      "name": "电化学原理",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "张梦迪",
+        "李禹彤",
+        "薛松"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE420621020",
+      "code": "CNE420621020",
+      "name": "新型碳材料",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张梦迪"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE421111020",
+      "code": "CNE421111020",
+      "name": "工程概论",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李良军",
+        "王文冉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE421311021",
+      "code": "CNE421311021",
+      "name": "化学电源技术",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张梦迪",
+        "顾鑫"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE421511021",
+      "code": "CNE421511021",
+      "name": "氢能技术与应用",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李良军",
+        "脱永笑"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE422011010",
+      "code": "CNE422011010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "代鹏程",
+        "李禹彤",
+        "王旻",
+        "薛松"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE422111010",
+      "code": "CNE422111010",
+      "name": "学科前沿知识专题讲座",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "代鹏程",
+        "李禹彤",
+        "王旻",
+        "脱永笑",
+        "薛松",
+        "顾鑫"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE422321020",
+      "code": "CNE422321020",
+      "name": "制氢工艺与技术",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘丹丹"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE428821020",
+      "code": "CNE428821020",
+      "name": "储能原理与技术",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "代鹏程"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE431511020",
+      "code": "CNE431511020",
+      "name": "储能化学基础（2）",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘丹丹",
+        "王阳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE434511040",
+      "code": "CNE434511040",
+      "name": "储能化学基础（1）",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "代鹏程",
+        "徐文刚"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CNE438812200",
+      "code": "CNE438812200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-07",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李禹彤",
+        "骆浩冉"
+      ],
+      "excludedReason": null
+    }
+  ]
+}

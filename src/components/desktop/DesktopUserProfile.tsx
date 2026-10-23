@@ -46,8 +46,8 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
   isUserAdmin = false,
 }) => {
   const isLoggedIn = Boolean(currentUser);
-  const userNickname = currentUser?.user_metadata?.nickname || '西南交大学子';
-  const userCampus = currentUser?.user_metadata?.campus || '犀浦校区';
+  const userNickname = currentUser?.user_metadata?.nickname || '石大学子';
+  const userCampus = currentUser?.user_metadata?.campus || '';
 
   // Review status filter tab
   const [reviewFilterTab, setReviewFilterTab] = useState<'all' | 'approved' | 'pending' | 'rejected'>('all');
@@ -98,7 +98,7 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
                         </span>
                       ) : (
                         <span className="px-2 py-0.5 rounded-full text-2xs font-bold bg-amber-50 text-amber-700 border border-amber-200">
-                          评教积极分子
+                          反馈积极分子
                         </span>
                       )
                     ) : (
@@ -109,7 +109,9 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
                   </div>
                   <div className="flex items-center gap-2 mt-1">
                     <p className="text-xs text-gray-500">
-                      {isLoggedIn ? `${userCampus} · ${currentUser?.email}` : '登录后同步个人评教积分与记录'}
+                      {isLoggedIn
+                        ? `${userCampus ? `${userCampus} · ` : ''}${currentUser?.email || ''}`
+                        : '登录后同步个人反馈积分与记录'}
                     </p>
                     {isSupabaseConfigured && (
                       <span className="inline-flex items-center gap-1 text-2xs font-medium text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
@@ -148,7 +150,7 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
               >
                 <div className="flex items-center gap-2">
                   <ShieldCheck className="w-4 h-4 text-indigo-400" />
-                  <span>评教审核管理后台</span>
+                  <span>反馈审核管理后台</span>
                   {pendingCount > 0 && (
                     <span className="px-1.5 py-0.2 bg-amber-500 text-slate-900 rounded-full text-3xs font-bold">
                       {pendingCount}待审
@@ -266,7 +268,7 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
                   {isLoggedIn ? '评价打分 (+20分)' : '登录后写评价'}
                 </span>
                 <span className="text-3xs text-gray-500 block leading-tight">
-                  {isLoggedIn ? '标准六维打分，可不写文字' : '登录后参与评教并积累积分'}
+                  {isLoggedIn ? '标准六维打分，可不写文字' : '登录后参与反馈并积累积分'}
                 </span>
               </button>
 
@@ -297,10 +299,10 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
           <div className="bg-white p-4 rounded-3xl border border-gray-100 shadow-2xs space-y-2 text-xs">
             <div className="flex items-center gap-2 font-bold text-gray-800">
               <ShieldAlert className="w-4 h-4 text-indigo-600" />
-              <span>学生评教绝对隐私保护</span>
+              <span>学生反馈绝对隐私保护</span>
             </div>
             <p className="text-gray-500 text-2xs leading-relaxed">
-              根据系统匿名设计规范：所有发表的打分与评价，对外一律展示为「交大学子」。系统绝不记录或绑定您的真实学号与个人身份信息。
+              根据系统匿名设计规范：所有发表的打分与评价，对外一律展示为「石大学子」。系统绝不记录或绑定您的真实学号与个人身份信息。
             </p>
           </div>
         </div>
@@ -402,7 +404,7 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
               <div className="py-10 text-center text-gray-400 text-xs bg-gray-50/50 rounded-2xl border border-dashed border-gray-200 space-y-2">
                 <p>
                   {reviewFilterTab === 'all'
-                    ? '您尚未提交过教师评价记录。'
+                    ? '您尚未提交过课堂反馈记录。'
                     : `暂无状态为「${
                         reviewFilterTab === 'pending'
                           ? '审核中'
@@ -474,7 +476,7 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
                         <div className="p-2.5 rounded-xl bg-amber-50/80 border border-amber-200/80 text-2xs text-amber-800 flex items-start gap-2">
                           <Clock className="w-3.5 h-3.5 text-amber-600 shrink-0 mt-0.5" />
                           <div>
-                            <strong>正在复核：</strong>正在由交大学工/学生审核组复核，预计24小时内公示。
+                            <strong>正在复核：</strong>正在由反馈审核组复核，通过后公示。
                             <span className="block text-amber-700 mt-0.5 font-medium">
                               提示：+20 积分待审核通过后自动到账并记入教师主页。
                             </span>
@@ -605,10 +607,10 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
                 <p>• 首次注册赠送：+100 初始积分</p>
               </div>
               <div className="p-2.5 bg-white rounded-xl border border-gray-100 space-y-1">
-                <span className="font-bold text-rose-700 block">积分消耗渠道：</span>
-                <p>• AI 智能问答助理：2 积分/次</p>
+                <span className="font-bold text-emerald-700 block">一期免费范围：</span>
                 <p>• 教师库结构化检索：永久免费</p>
                 <p>• 六维雷达图查看：永久免费</p>
+                <p>• 当前没有积分消费项目</p>
               </div>
             </div>
           </div>

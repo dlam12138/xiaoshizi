@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "unit": "体育教学部",
+  "collegeCode": "upc-16",
+  "courses": [
+    {
+      "key": "UPE110114101",
+      "code": "UPE110114101",
+      "name": "体育（4-1）",
+      "collegeCode": "upc-16",
+      "sourceBlocks": 38,
+      "teacherNames": [
+        "吕娜",
+        "周吉兰",
+        "商勇",
+        "夏娇阳",
+        "宋清",
+        "尤洋",
+        "曹伟",
+        "李仁熙",
+        "林明贵",
+        "梁国强",
+        "梁莎莎",
+        "焦喜便",
+        "牟小刚",
+        "王峰",
+        "王成国",
+        "王海燕",
+        "王燕珍",
+        "窦兆波",
+        "胡洋",
+        "赵岑",
+        "赵莹莹",
+        "韩蕾"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "UPE110114301",
+      "code": "UPE110114301",
+      "name": "体育（4-3）",
+      "collegeCode": "upc-16",
+      "sourceBlocks": 35,
+      "teacherNames": [
+        "于晓红",
+        "刘高强",
+        "史海鹏",
+        "周伟",
+        "孔勇",
+        "张晓明",
+        "彭双发",
+        "李振",
+        "李新",
+        "杨宏",
+        "欧阳勇强",
+        "牛静",
+        "王子贤",
+        "王海燕",
+        "翁炀晖",
+        "谢小英",
+        "赵延敏",
+        "赵晶晶",
+        "高千里"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "UPE120531010",
+      "code": "UPE120531010",
+      "name": "乒乓球",
+      "collegeCode": "upc-16",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "胡洋"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "UPE122031010",
+      "code": "UPE122031010",
+      "name": "羽毛球",
+      "collegeCode": "upc-16",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "周伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "UPE122931020",
+      "code": "UPE122931020",
+      "name": "运动营养与体态管理",
+      "collegeCode": "upc-16",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "赵莹莹"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "UPE123111020",
+      "code": "UPE123111020",
+      "name": "运动解剖学(2-1)",
+      "collegeCode": "upc-16",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "李振"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "UPE125511010",
+      "code": "UPE125511010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-16",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "周伟",
+        "姜庆林",
+        "宋述光",
+        "尤洋",
+        "李承伟"
+      ],
+      "excludedReason": null
+    }
+  ]
+}

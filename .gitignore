@@ -2,18 +2,24 @@ node_modules/
 build/
 dist/
 coverage/
+__pycache__/
+*.pyc
 .npm-cache/
 supabase/inspection/
 .DS_Store
 *.log
 .env*
 !**/.env.example
+!**/.env.import.example
 # Deployment artifacts and build outputs (dist/ is already ignored above).
-release/
+/release/
 temp/
+tmp/
+output/
+.playwright-mcp/
+.playwright-cli/
+.lody/
+# Local-only raw timetable binaries and research notes; hashes/import JSON are in data/upc.
+课表/
+migration-research/
 docs.zip
-# Timetable source and generated import packages stay local; regenerate them with
-# `node scripts/import-timetable.mjs` from the term CSV.
-schule2026-2027-1/*.csv
-schule2026-2027-1/import-output/
-schule2026-2027-1/supabase-web-import/

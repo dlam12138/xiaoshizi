@@ -1,0 +1,2780 @@
+{
+  "schemaVersion": 1,
+  "unit": "青岛软件学院、计算机科学与技术学院",
+  "collegeCode": "upc-10",
+  "candidates": [
+    {
+      "name": "于广斌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409181",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409181/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409181/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409181",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110211026",
+        "CST126111035"
+      ],
+      "courseNames": [
+        "程序设计（C）",
+        "算法与程序设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "于旭",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a439772",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2024/0912/c20896a439772/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2024/0912/c20896a439772/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a439772",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST221911010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "付文霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409158",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409158/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409158/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409158",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110311027"
+      ],
+      "courseNames": [
+        "程序设计（Python）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "何旭莉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409163",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409163/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409163/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409163",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110311027"
+      ],
+      "courseNames": [
+        "程序设计（Python）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "俞辉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409313",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409313/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409313/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409313",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST227121030"
+      ],
+      "courseNames": [
+        "嵌入式原理与单片机"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘培刚",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a409172",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20895a409172/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20895a409172/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a409172",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110311027",
+        "CST329921026"
+      ],
+      "courseNames": [
+        "数据分析（Python）",
+        "程序设计（Python）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘新平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409114",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409114/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409114/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409114",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST227311035"
+      ],
+      "courseNames": [
+        "数字逻辑与EDA技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘昕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20898-a408842",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20898a408842/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20898a408842/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20898-a408842",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST311011020",
+        "CST312521015",
+        "CST313412200",
+        "CST322811010",
+        "CST328111035"
+      ],
+      "courseNames": [
+        "人工智能导论",
+        "心理健康与职业发展（2-2）",
+        "新生研讨课",
+        "机器学习",
+        "知识图谱技术及应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘玉杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409097",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409097/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409097/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409097",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST324111020",
+        "CST210321020",
+        "CST211221026"
+      ],
+      "courseNames": [
+        "数字图像处理",
+        "计算方法",
+        "计算科学导论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘秀文",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a409075",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20895a409075/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20895a409075/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a409075",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST311211020",
+        "CST328821015"
+      ],
+      "courseNames": [
+        "群智感知与社会计算",
+        "软件测试与质量保证"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "卢浩",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a439724",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2024/0911/c20895a439724/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2024/0911/c20895a439724/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a439724",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST330121020"
+      ],
+      "courseNames": [
+        "软件可靠性方法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "史永宏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409317",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409317/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409317/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409317",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST227021020",
+        "CST227311035"
+      ],
+      "courseNames": [
+        "传感器原理与应用",
+        "数字逻辑与EDA技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴春雷",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a408828",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408828/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408828/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a408828",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST320311035"
+      ],
+      "courseNames": [
+        "程序设计(C/C++)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周于皓",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a439803",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2024/0912/c20895a439803/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2024/0912/c20895a439803/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a439803",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST311211020",
+        "CST312614300",
+        "CST322811010"
+      ],
+      "courseNames": [
+        "专业工程实训(4-3)",
+        "新生研讨课",
+        "软件测试与质量保证"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姚洪波",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-10-001",
+      "title": null,
+      "collegeCode": "upc-10",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "青岛软件学院计算机科学与技术学院",
+        "sourceFile": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+        "sourceSha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+        "rawNames": [
+          "姚洪波"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "CST110311027"
+      ],
+      "courseNames": [
+        "程序设计（Python）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙东海",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409173",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409173/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409173/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409173",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110311027"
+      ],
+      "courseNames": [
+        "程序设计（Python）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙士明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409120",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409120/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409120/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409120",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST222111021",
+        "CST226711030"
+      ],
+      "courseNames": [
+        "操作系统",
+        "数据结构"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙小辉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409310",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20897a409310/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20897a409310/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409310",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110311027"
+      ],
+      "courseNames": [
+        "程序设计（Python）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙歧峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a408823",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408823/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408823/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a408823",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST311921020",
+        "CST324011031",
+        "CST331621020",
+        "CST331812200"
+      ],
+      "courseNames": [
+        "专业基础实训(2-2)",
+        "数据结构",
+        "石油工业软件基础",
+        "高级算法设计与分析"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙运雷",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409086",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409086/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409086/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409086",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST233412200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋继志",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409311",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409311/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409311/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409311",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST211621020",
+        "CST221511020",
+        "CST226621030",
+        "CST233412200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）",
+        "物联网与边缘计算",
+        "计算机系统结构",
+        "计算科学导论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宫法明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a408841",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20896a408841/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20896a408841/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a408841",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST221911010",
+        "CST322811010",
+        "CST324011030"
+      ],
+      "courseNames": [
+        "数据结构",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "岳昊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20898-a409128",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20898a409128/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20898a409128/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20898-a409128",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST210321020",
+        "CST311011020"
+      ],
+      "courseNames": [
+        "人工智能导论",
+        "计算方法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "庞善臣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a408821",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408821/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408821/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a408821",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST324011030"
+      ],
+      "courseNames": [
+        "数据结构"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张俊三",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a408835",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408835/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408835/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a408835",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST311921020",
+        "CST324011031",
+        "CST331521020",
+        "CST331812200"
+      ],
+      "courseNames": [
+        "专业基础实训(2-2)",
+        "工业App软件开发",
+        "数据结构",
+        "石油工业软件基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张千",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409109",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20897a409109/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20897a409109/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409109",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST210711030",
+        "CST224121030"
+      ],
+      "courseNames": [
+        "计算机网络原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张卫山",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20898-a408850",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20898a408850/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20898a408850/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20898-a408850",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST313412200",
+        "CST322811010",
+        "CST331411020"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）",
+        "数据科学与工程",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张国平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a408833",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408833/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408833/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a408833",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST310921020",
+        "CST311521030"
+      ],
+      "courseNames": [
+        "模型驱动的软件开发",
+        "软件系统分析与设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张培颖",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a408836",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408836/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408836/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a408836",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST310521020"
+      ],
+      "courseNames": [
+        "云计算技术与应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张学辉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409112",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409112/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409112/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409112",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST220611035",
+        "CST221911010",
+        "CST320311035"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "程序设计(C/C++)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张晓东",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409312",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409312/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409312/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409312",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST226711030",
+        "CST226711030",
+        "CST325321010"
+      ],
+      "courseNames": [
+        "操作系统",
+        "石油与人工智能"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张晨浩",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a485952",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2026/0325/c20895a485952/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2026/0325/c20895a485952/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a485952",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST312614300"
+      ],
+      "courseNames": [
+        "专业工程实训(4-3)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张琛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409078",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409078/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409078/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409078",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST210812101",
+        "CST226221020",
+        "CST233412200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）",
+        "离散数学（2-1）",
+        "计算智能"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张琼声",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409111",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409111/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409111/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409111",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST226711030"
+      ],
+      "courseNames": [
+        "操作系统"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张红霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409103",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409103/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409103/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409103",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST210811040",
+        "CST221911010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "离散数学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐嘉丽",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409179",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409179/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409179/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409179",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110311027"
+      ],
+      "courseNames": [
+        "程序设计（Python）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "成玲",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20899-a409274",
+      "title": "高级实验师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0731/c20899a409274/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0731/c20899a409274/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20899-a409274",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST320311035"
+      ],
+      "courseNames": [
+        "程序设计(C/C++)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "戴常英",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409546",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0802/c20897a409546/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0802/c20897a409546/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409546",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110311027"
+      ],
+      "courseNames": [
+        "程序设计（Python）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曹绍华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20899-a409272",
+      "title": "高级实验师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0731/c20899a409272/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0731/c20899a409272/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20899-a409272",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST310521020",
+        "99CST324111020"
+      ],
+      "courseNames": [
+        "云计算技术与应用",
+        "计算科学导论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李一然",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-10-002",
+      "title": null,
+      "collegeCode": "upc-10",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "青岛软件学院计算机科学与技术学院",
+        "sourceFile": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+        "sourceSha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+        "rawNames": [
+          "李一然"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "CST325221032",
+        "CST329621015"
+      ],
+      "courseNames": [
+        "人类行为识别",
+        "机器学习"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李传秀",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20898-a409166",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20898a409166/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20898a409166/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20898-a409166",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST311011020",
+        "CST312521015",
+        "CST313412200",
+        "CST332421015"
+      ],
+      "courseNames": [
+        "人工智能导论",
+        "心理健康与职业发展（2-2）",
+        "生成对抗网络与图网络学习",
+        "知识图谱技术及应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李克文",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a408817",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408817/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_profile_alias_merged",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408817/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/6306/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a408817",
+        "aliasSourceIds": [
+          "computer-c6287-a103926"
+        ],
+        "aliasUrls": [
+          "https://computer.upc.edu.cn/2017/0313/c6287a103926/page.psp"
+        ]
+      },
+      "courseCodes": [
+        "CST310211020"
+      ],
+      "courseNames": [
+        "软件工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李华昱",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409091",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409091/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409091/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409091",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST226711030",
+        "CST226711030",
+        "CST227221030"
+      ],
+      "courseNames": [
+        "操作系统"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李坤",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409168",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409168/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409168/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409168",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110821020",
+        "CST311921020"
+      ],
+      "courseNames": [
+        "机器学习",
+        "石油工业软件基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李娟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409167",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409167/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409167/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409167",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110311027"
+      ],
+      "courseNames": [
+        "程序设计（Python）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李昕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20898-a409286",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20898a409286/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20898a409286/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20898-a409286",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST320311035",
+        "CST322811010",
+        "CST328211025"
+      ],
+      "courseNames": [
+        "可视化导论",
+        "新生研讨课",
+        "程序设计(C/C++)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李晓旭",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a409077",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20895a409077/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20895a409077/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a409077",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST226421030",
+        "CST313412200",
+        "CST324111020",
+        "CST325421020"
+      ],
+      "courseNames": [
+        "大数据技术与应用",
+        "心理健康与职业发展（2-2）",
+        "计算科学导论",
+        "面向对象程序设计(Java)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409169",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409169/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409169/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409169",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110311027"
+      ],
+      "courseNames": [
+        "程序设计（Python）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨劭辉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a443288",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2024/1021/c20897a443288/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2024/1021/c20897a443288/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a443288",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110211026"
+      ],
+      "courseNames": [
+        "程序设计（C）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "梁秋实",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a483527",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2026/0130/c20895a483527/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2026/0130/c20895a483527/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a483527",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST322811010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "游应红",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-10-003",
+      "title": null,
+      "collegeCode": "upc-10",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "青岛软件学院计算机科学与技术学院",
+        "sourceFile": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+        "sourceSha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+        "rawNames": [
+          "游应红"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "CST233412200",
+        "CST313412200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "焦博韬",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a439811",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "http://computer.upc.edu.cn/2024/0912/c20895a439811/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://computer.upc.edu.cn/2024/0912/c20895a439811/page.htm",
+        "listUrl": "http://computer.upc.edu.cn/6306/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a439811",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST311211020",
+        "99CST322811010",
+        "99CST324111020",
+        "CST322811010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "计算科学导论",
+        "软件测试与质量保证"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王丹心",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a409129",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20895a409129/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20895a409129/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a409129",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST211111030",
+        "99CST322811010",
+        "CST227621020"
+      ],
+      "courseNames": [
+        "区块链技术与应用",
+        "数据库原理",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王保三",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409176",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409176/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409176/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409176",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110311027"
+      ],
+      "courseNames": [
+        "程序设计（Python）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王勃",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a408824",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408824/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408824/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a408824",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST322811010",
+        "99CST324011031",
+        "CST324011030",
+        "CST331812200"
+      ],
+      "courseNames": [
+        "专业基础实训(2-2)",
+        "数据结构",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王大鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a443255",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2024/1021/c20896a443255/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2024/1021/c20896a443255/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a443255",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST211111030",
+        "CST221911010",
+        "CST226221020",
+        "CST233412200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）",
+        "数据库原理",
+        "新生研讨课",
+        "计算智能"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王淑栋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409100",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409100/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409100/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409100",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST210321020"
+      ],
+      "courseNames": [
+        "计算方法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王爽",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a409076",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20895a409076/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20895a409076/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a409076",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST313412200",
+        "CST324011031",
+        "CST329921026"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）",
+        "数据分析（Python）",
+        "数据结构"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王珣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a409285",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20895a409285/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20895a409285/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a409285",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST325221032"
+      ],
+      "courseNames": [
+        "机器学习"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王芳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c21719-a443272",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2024/1021/c21719a443272/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2024/1021/c21719a443272/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/szdwwcw/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c21719-a443272",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST233412200",
+        "CST313412200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王雪瑞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409178",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409178/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409178/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409178",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0711299",
+        "CST311921020"
+      ],
+      "courseNames": [
+        "石油工业软件基础",
+        "程序设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王雪莉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409177",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409177/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409177/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409177",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110211026"
+      ],
+      "courseNames": [
+        "程序设计（C）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王风华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20898-a409116",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20898a409116/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20898a409116/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20898-a409116",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST324111020",
+        "CST310721021",
+        "CST311011020",
+        "CST313412200",
+        "CST322811010",
+        "CST329621015",
+        "CST331711021"
+      ],
+      "courseNames": [
+        "人工智能导论",
+        "人类行为识别",
+        "心理健康与职业发展（2-2）",
+        "新生研讨课",
+        "计算机视觉",
+        "计算科学导论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "田红磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409175",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409175/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409175/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409175",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110311027"
+      ],
+      "courseNames": [
+        "程序设计（Python）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "石乐义",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409099",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409099/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409099/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409099",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST221911010",
+        "CST226521020"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "计算机网络课程设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "肖军弼",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409088",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409088/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409088/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409088",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST210711030",
+        "CST221411020",
+        "CST221911010",
+        "CST224121030"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "计算机网络与应用",
+        "计算机网络原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "董玉坤",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a408719",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0720/c20895a408719/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0720/c20895a408719/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a408719",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST311211020",
+        "CST313412200",
+        "CST322811010",
+        "CST325421020"
+      ],
+      "courseNames": [
+        "大数据技术与应用",
+        "心理健康与职业发展（2-2）",
+        "新生研讨课",
+        "软件测试与质量保证"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "蒋狄琼",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a466072",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2025/0711/c20896a466072/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2025/0711/c20896a466072/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a466072",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST322811010",
+        "CST220411025",
+        "CST221911010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "编译原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邵明文",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20898-a409320",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20898a409320/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20898a409320/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20898-a409320",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST322811010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郑一",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-10-004",
+      "title": null,
+      "collegeCode": "upc-10",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "青岛软件学院计算机科学与技术学院",
+        "sourceFile": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+        "sourceSha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+        "rawNames": [
+          "郑一"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "CST233412200",
+        "CST313412200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郑凯",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20898-a452867",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2025/0320/c20898a452867/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2025/0320/c20898a452867/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20898-a452867",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST210812101"
+      ],
+      "courseNames": [
+        "离散数学（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郑立垠",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409184",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409184/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409184/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409184",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110211026"
+      ],
+      "courseNames": [
+        "程序设计（C）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭加树",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-10-005",
+      "title": null,
+      "collegeCode": "upc-10",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "青岛软件学院计算机科学与技术学院",
+        "sourceFile": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+        "sourceSha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+        "rawNames": [
+          "郭加树"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "CST110311027"
+      ],
+      "courseNames": [
+        "程序设计（Python）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a409188",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20895a409188/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20895a409188/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a409188",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST320311035"
+      ],
+      "courseNames": [
+        "程序设计(C/C++)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "钟敏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a409186",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20895a409186/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20895a409186/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a409186",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST325221032",
+        "99CST325421020",
+        "CST313412200",
+        "CST320311035",
+        "CST322811010"
+      ],
+      "courseNames": [
+        "大数据技术与应用",
+        "心理健康与职业发展（2-2）",
+        "新生研讨课",
+        "机器学习",
+        "程序设计(C/C++)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "闫阳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20899-a409283",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0731/c20899a409283/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0731/c20899a409283/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20899-a409283",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST211221026",
+        "CST920231010"
+      ],
+      "courseNames": [
+        "数字图像处理",
+        "计算机技术综合实验"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈淑涛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c6275-a499437",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2026/0909/c6275a499437/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2026/0909/c6275a499437/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c6275-a499437",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST322811010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈程立诏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a409074",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20895a409074/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20895a409074/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a409074",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST322811010",
+        "CST328111035"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "机器学习"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "韩汶杞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a483512",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2026/0130/c20895a483512/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2026/0130/c20895a483512/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a483512",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST322811010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马力",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409098",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409098/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409098/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409098",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST211111030"
+      ],
+      "courseNames": [
+        "数据库原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马同茂",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20898-a443298",
+      "title": "助理研究员",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2024/1021/c20898a443298/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2024/1021/c20898a443298/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20898-a443298",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "99CST322811010",
+        "CST312321025"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "自然语言处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马竟锋",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-10-006",
+      "title": null,
+      "collegeCode": "upc-10",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "青岛软件学院计算机科学与技术学院",
+        "sourceFile": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+        "sourceSha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+        "rawNames": [
+          "马竟锋"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "99CST310211020",
+        "CST310211020"
+      ],
+      "courseNames": [
+        "软件工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "高绍姝",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20897-a409160",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409160/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0728/c20897a409160/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20897-a409160",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST110311027"
+      ],
+      "courseNames": [
+        "程序设计（Python）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "魏伟",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-10-007",
+      "title": null,
+      "collegeCode": "upc-10",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "青岛软件学院计算机科学与技术学院",
+        "sourceFile": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+        "sourceSha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+        "rawNames": [
+          "魏伟"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "CST233412200",
+        "CST313412200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黄庭培",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20898-a409124",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20898a409124/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20898a409124/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20898-a409124",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST226311030"
+      ],
+      "courseNames": [
+        "计算机系统导论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "齐连永",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20895-a409132",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20895a409132/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20895a409132/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20895-a409132",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST210812101",
+        "CST322811010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "离散数学（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "龚安",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "computer-c20896-a409094",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409094/page.psp",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://computer.upc.edu.cn/2023/0727/c20896a409094/page.psp",
+        "listUrl": "http://computer.upc.edu.cn/jsml/list.htm",
+        "listedUnits": [
+          "青岛软件学院计算机科学与技术学院"
+        ],
+        "sourceId": "computer-c20896-a409094",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CST211111030"
+      ],
+      "courseNames": [
+        "数据库原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

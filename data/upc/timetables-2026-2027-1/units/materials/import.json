@@ -1,0 +1,1566 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-materials-2026-2027-1-timetable-20261023",
+  "source": "课表/材料科学与工程学院/课表打印.xls sha256:39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "mse-c13593-a187753",
+      "name": "于濂清",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT111411030",
+          "name": "材料性能学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT421031010",
+          "name": "材料与社会生活",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT421621021",
+          "name": "光电功能材料",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13592-a187744",
+      "name": "付殿岭",
+      "title": "讲师",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT310411040",
+          "name": "固体物理",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT322631020",
+          "name": "多彩的涂料世界",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-006",
+      "name": "付禹",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT132111040",
+          "name": "材料科学基础",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-007",
+      "name": "任浩",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT323811041",
+          "name": "物质结构",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13590-a423868",
+      "name": "关景怡",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT120711020",
+          "name": "材料加工传输原理",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT221121020",
+          "name": "非金属材料",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-008",
+      "name": "冯涛",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110211021",
+          "name": "材料工程基础",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13594-a391134",
+      "name": "刘和元",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT521611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT531421020",
+          "name": "光化学原理与技术",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13592-a219252",
+      "name": "刘思远",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT600511020",
+          "name": "电子信息材料概论",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13590-a187696",
+      "name": "刘恩洋",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110211021",
+          "name": "材料工程基础",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT220611010",
+          "name": "材料学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-009",
+      "name": "刘林",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT328812200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13593-a365017",
+      "name": "刘鹏云",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT125411030",
+          "name": "材料分析方法原理",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT410111030",
+          "name": "材料分析技术",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT520311021",
+          "name": "材料分析技术",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13592-a187746",
+      "name": "匙玉华",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT310521030",
+          "name": "计算材料学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT310721020",
+          "name": "能源环境应用材料的设计与模拟",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT321611030",
+          "name": "计算材料学",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13593-a411253",
+      "name": "吴传德",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT422211010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-010",
+      "name": "周炎",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT520711020",
+          "name": "电化学基础",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT521821020",
+          "name": "专业外语",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-011",
+      "name": "唐晓",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT221611015",
+          "name": "现代材料学",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-012",
+      "name": "孙冲",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT122121010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13593-a383286",
+      "name": "孙海翔",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT220611010",
+          "name": "材料学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT421521020",
+          "name": "功能高分子材料",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13594-a187927",
+      "name": "孙道峰",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT521611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT522131020",
+          "name": "新材料概论",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13592-a187743",
+      "name": "孙霜青",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT327121030",
+          "name": "材料腐蚀学原理",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT327211025",
+          "name": "电化学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT427721020",
+          "name": "电化学原理及测试",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13591-a187718",
+      "name": "宋玉强",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT111411030",
+          "name": "材料性能学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT111811020",
+          "name": "工程材料",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT221221020",
+          "name": "粉末冶金",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13594-a187770",
+      "name": "康文裴",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT529311020",
+          "name": "新能源材料与器件导论",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13590-a338657",
+      "name": "张伟华",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT121811020",
+          "name": "检测技术及控制工程基础",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT122121010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-001",
+      "name": "张军",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT122031015",
+          "name": "探索微观世界之分子模拟技术",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT321611030",
+          "name": "计算材料学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT521611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13591-a187719",
+      "name": "张大磊",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT111611020",
+          "name": "腐蚀和腐蚀控制原理",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT220611010",
+          "name": "材料学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13593-a187755",
+      "name": "张晓云",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT410212100",
+          "name": "材料化学（2-1）",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT420512100",
+          "name": "材料化学实验（2-1）",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-002",
+      "name": "张立红",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": []
+    },
+    {
+      "sourceId": "tt-upc-06-013",
+      "name": "张腾",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT529311020",
+          "name": "新能源材料与器件导论",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT531421020",
+          "name": "光化学原理与技术",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-014",
+      "name": "张苏",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT420321021",
+          "name": "材料化学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT520711020",
+          "name": "电化学基础",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT526011020",
+          "name": "能源材料前沿知识讲座",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT532311020",
+          "name": "材料学科前沿知识讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-015",
+      "name": "徐奔",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT520311021",
+          "name": "材料分析技术",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13590-a395618",
+      "name": "徐学旭",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110211021",
+          "name": "材料工程基础",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-016",
+      "name": "徐静",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT410521020",
+          "name": "无机材料合成及工艺",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT510521020",
+          "name": "新能源材料设计与制备",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13594-a187768",
+      "name": "戴昉纳",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT526011020",
+          "name": "能源材料前沿知识讲座",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT529012200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT532311020",
+          "name": "材料学科前沿知识讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-017",
+      "name": "曹宁",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT120311010",
+          "name": "材料成型概论",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT130411020",
+          "name": "工程材料学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT220611010",
+          "name": "材料学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13592-a187747",
+      "name": "朱后禹",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT322011010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT323811041",
+          "name": "物质结构",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13594-a395617",
+      "name": "李哲伦",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT520311021",
+          "name": "材料分析技术",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13590-a187680",
+      "name": "李学达",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110721030",
+          "name": "材料分析技术",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT122121010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT220311020",
+          "name": "材料分析技术",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13593-a330890",
+      "name": "李学进",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT125411030",
+          "name": "材料分析方法原理",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT410111030",
+          "name": "材料分析技术",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT410521020",
+          "name": "无机材料合成及工艺",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT510521020",
+          "name": "新能源材料设计与制备",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT520311021",
+          "name": "材料分析技术",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13594-a441388",
+      "name": "李彦勋",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT526011020",
+          "name": "能源材料前沿知识讲座",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT532311020",
+          "name": "材料学科前沿知识讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-003",
+      "name": "李振",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT122031015",
+          "name": "探索微观世界之分子模拟技术",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT321611030",
+          "name": "计算材料学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT326121020",
+          "name": "材料基因数据分析与挖掘实验",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13593-a187758",
+      "name": "李春玲",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT220611010",
+          "name": "材料学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT310321020",
+          "name": "防腐蚀工程技术",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-018",
+      "name": "李焰",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT211621020",
+          "name": "无损检测技术",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT221921020",
+          "name": "专业外语",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13590-a407452",
+      "name": "李立英",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT111811020",
+          "name": "工程材料",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT112011020",
+          "name": "工程材料",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13590-a190504",
+      "name": "李美艳",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT121011020",
+          "name": "工程概论",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT121721020",
+          "name": "焊接生产与管理",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT122121010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13591-a386490",
+      "name": "李闻乐",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT521611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13593-a187757",
+      "name": "温福山",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT420511020",
+          "name": "材料化学实验",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-019",
+      "name": "熊伟",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT220311020",
+          "name": "材料分析技术",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13593-a187756",
+      "name": "燕友果",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT122031015",
+          "name": "探索微观世界之分子模拟技术",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT310521030",
+          "name": "计算材料学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT422211010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13592-a219244",
+      "name": "王兆杰",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT328812200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13591-a187723",
+      "name": "王彦芳",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110211021",
+          "name": "材料工程基础",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT130411020",
+          "name": "工程材料学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT132111040",
+          "name": "材料科学基础",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT220611010",
+          "name": "材料学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13592-a219253",
+      "name": "王志坤",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT210721020",
+          "name": "防腐蚀涂料及涂装技术",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT322011010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT327411020",
+          "name": "电化学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT427721020",
+          "name": "电化学原理及测试",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-020",
+      "name": "王晓",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT122031015",
+          "name": "探索微观世界之分子模拟技术",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT320321020",
+          "name": "材料基因工程技术应用",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT321611030",
+          "name": "计算材料学",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-021",
+      "name": "王林",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT410421020",
+          "name": "能源化学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT420221010",
+          "name": "材料导论",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT526011020",
+          "name": "能源材料前沿知识讲座",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT532311020",
+          "name": "材料学科前沿知识讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13590-a187684",
+      "name": "王炳英",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110211021",
+          "name": "材料工程基础",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT111811020",
+          "name": "工程材料",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT122121010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-022",
+      "name": "王璟岳",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT310621020",
+          "name": "纳米材料与技术",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT322011010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-023",
+      "name": "王航",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT111411030",
+          "name": "材料性能学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT422211010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13594-a187763",
+      "name": "王荣明",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT520521020",
+          "name": "超分子材料",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13594-a191282",
+      "name": "甄玉花",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT320711020",
+          "name": "材料物理",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT323121031",
+          "name": "材料物理",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-024",
+      "name": "祝磊",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT510121020",
+          "name": "表面化学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT522131010",
+          "name": "多彩的材料世界",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13592-a187741",
+      "name": "胡松青",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13591-a187731",
+      "name": "臧晓蓓",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT121011020",
+          "name": "工程概论",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT220611010",
+          "name": "材料学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13594-a372885",
+      "name": "范卫东",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT525021020",
+          "name": "吸附原理与技术",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13591-a187729",
+      "name": "蒋淑英",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT112011020",
+          "name": "工程材料",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT210321020",
+          "name": "材料失效分析",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT222131010",
+          "name": "魔方和数学建模",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-025",
+      "name": "贺冰",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT310411040",
+          "name": "固体物理",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13590-a187686",
+      "name": "赵卫民",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT122121010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-026",
+      "name": "赵文",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT310411040",
+          "name": "固体物理",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT326121020",
+          "name": "材料基因数据分析与挖掘实验",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-027",
+      "name": "赵明",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT120711020",
+          "name": "材料加工传输原理",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT121321020",
+          "name": "焊接机器人",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13592-a187734",
+      "name": "赵联明",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT321611030",
+          "name": "计算材料学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT600111030",
+          "name": "统计热力学",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-004",
+      "name": "邢伟",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT410111041",
+          "name": "材料分析技术",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13592-a187737",
+      "name": "郝兰众",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT310621020",
+          "name": "纳米材料与技术",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT410111041",
+          "name": "材料分析技术",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-028",
+      "name": "郭孟",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT328812200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT529012200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13592-a399367",
+      "name": "都时禹",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT310521030",
+          "name": "计算材料学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT326311020",
+          "name": "材料信息基础",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-029",
+      "name": "鞠虹",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT111611020",
+          "name": "腐蚀和腐蚀控制原理",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT220611010",
+          "name": "材料学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-030",
+      "name": "韩彬",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT112011020",
+          "name": "工程材料",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT122121010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-031",
+      "name": "韩涛",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110721030",
+          "name": "材料分析技术",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT121011020",
+          "name": "工程概论",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT121721020",
+          "name": "焊接生产与管理",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT122121010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-06-005",
+      "name": "马晓晨",
+      "title": null,
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT529012200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13592-a187736",
+      "name": "鲁效庆",
+      "title": "教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT322011010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13591-a187727",
+      "name": "鲁玉祥",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT220421020",
+          "name": "材料加热设备",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13590-a209397",
+      "name": "黄万群",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110321022",
+          "name": "金属焊接",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT111811020",
+          "name": "工程材料",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13593-a327050",
+      "name": "黄毅超",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT420321021",
+          "name": "材料化学",
+          "collegeCode": "upc-06"
+        },
+        {
+          "code": "MAT421031010",
+          "name": "材料与社会生活",
+          "collegeCode": "upc-06"
+        }
+      ]
+    },
+    {
+      "sourceId": "mse-c13590-a187692",
+      "name": "龙国文",
+      "title": "副教授",
+      "collegeCode": "upc-06",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MAT110321022",
+          "name": "金属焊接",
+          "collegeCode": "upc-06"
+        }
+      ]
+    }
+  ]
+}

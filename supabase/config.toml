@@ -1,0 +1,66 @@
+# Local Supabase services run inside Ubuntu WSL with CLI v2.121.0.
+# Experimental native runtime: https://supabase.com/docs/guides/local-development/docker-and-native-runtimes
+project_id = "upc-local"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+major_version = 17
+health_timeout = "3m"
+
+[db.migrations]
+enabled = false
+
+[db.seed]
+enabled = false
+
+[db.pooler]
+enabled = false
+
+[realtime]
+enabled = true
+
+[studio]
+enabled = true
+port = 54323
+api_url = "http://127.0.0.1:54321"
+
+[local_smtp]
+enabled = true
+port = 54324
+
+[storage]
+enabled = false
+
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["http://localhost:3000", "http://127.0.0.1:3000"]
+enable_signup = true
+minimum_password_length = 8
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = true
+max_frequency = "1s"
+
+[auth.rate_limit]
+email_sent = 100
+sign_in_sign_ups = 100
+token_verifications = 100
+
+[analytics]
+enabled = false
+
+[edge_runtime]
+enabled = false
+
+[experimental]
+stack = true

@@ -1,0 +1,2254 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "sourceId": "tt-upc-01-001",
+      "sourceUnit": "地球科学与技术学院",
+      "sourceUnitName": "地球科学与技术学院",
+      "collegeCode": "upc-01",
+      "name": "徐明权",
+      "rawNames": [
+        "徐明权"
+      ],
+      "sourceFile": "课表/地球科学与技术学院/课表打印.xls",
+      "sourceSha256": "52c36077eab0b31e73788206884c9a62a86d27ff6665babe2f2a5115c97a6c4c",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-01-002",
+      "sourceUnit": "地球科学与技术学院",
+      "sourceUnitName": "地球科学与技术学院",
+      "collegeCode": "upc-01",
+      "name": "栗磊",
+      "rawNames": [
+        "栗磊"
+      ],
+      "sourceFile": "课表/地球科学与技术学院/课表打印.xls",
+      "sourceSha256": "52c36077eab0b31e73788206884c9a62a86d27ff6665babe2f2a5115c97a6c4c",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-01-003",
+      "sourceUnit": "地球科学与技术学院",
+      "sourceUnitName": "地球科学与技术学院",
+      "collegeCode": "upc-01",
+      "name": "王力禾",
+      "rawNames": [
+        "王力禾"
+      ],
+      "sourceFile": "课表/地球科学与技术学院/课表打印.xls",
+      "sourceSha256": "52c36077eab0b31e73788206884c9a62a86d27ff6665babe2f2a5115c97a6c4c",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-01-004",
+      "sourceUnit": "地球科学与技术学院",
+      "sourceUnitName": "地球科学与技术学院",
+      "collegeCode": "upc-01",
+      "name": "闫月锋",
+      "rawNames": [
+        "闫月锋"
+      ],
+      "sourceFile": "课表/地球科学与技术学院/课表打印.xls",
+      "sourceSha256": "52c36077eab0b31e73788206884c9a62a86d27ff6665babe2f2a5115c97a6c4c",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-01-005",
+      "sourceUnit": "地球科学与技术学院",
+      "sourceUnitName": "地球科学与技术学院",
+      "collegeCode": "upc-01",
+      "name": "魏周拓",
+      "rawNames": [
+        "魏周拓"
+      ],
+      "sourceFile": "课表/地球科学与技术学院/课表打印.xls",
+      "sourceSha256": "52c36077eab0b31e73788206884c9a62a86d27ff6665babe2f2a5115c97a6c4c",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-02-002",
+      "sourceUnit": "石油工程学院",
+      "sourceUnitName": "石油工程学院",
+      "collegeCode": "upc-02",
+      "name": "周晓东",
+      "rawNames": [
+        "周晓东"
+      ],
+      "sourceFile": "课表/石油工程学院/课表打印.xls",
+      "sourceSha256": "866f916b549040e61d9cd7135e38f2b385215c6c6a6cce3d9e9ac881515b906b",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-02-003",
+      "sourceUnit": "石油工程学院",
+      "sourceUnitName": "石油工程学院",
+      "collegeCode": "upc-02",
+      "name": "张浩",
+      "rawNames": [
+        "张浩"
+      ],
+      "sourceFile": "课表/石油工程学院/课表打印.xls",
+      "sourceSha256": "866f916b549040e61d9cd7135e38f2b385215c6c6a6cce3d9e9ac881515b906b",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-02-004",
+      "sourceUnit": "石油工程学院",
+      "sourceUnitName": "石油工程学院",
+      "collegeCode": "upc-02",
+      "name": "杨琪硕",
+      "rawNames": [
+        "杨琪硕"
+      ],
+      "sourceFile": "课表/石油工程学院/课表打印.xls",
+      "sourceSha256": "866f916b549040e61d9cd7135e38f2b385215c6c6a6cce3d9e9ac881515b906b",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-02-001",
+      "sourceUnit": "石油工程学院",
+      "sourceUnitName": "石油工程学院",
+      "collegeCode": "upc-02",
+      "name": "王静",
+      "rawNames": [
+        "王静"
+      ],
+      "sourceFile": "课表/石油工程学院/课表打印.xls",
+      "sourceSha256": "866f916b549040e61d9cd7135e38f2b385215c6c6a6cce3d9e9ac881515b906b",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-03-003",
+      "sourceUnit": "化学化工学院",
+      "sourceUnitName": "化学化工学院",
+      "collegeCode": "upc-03",
+      "name": "刘相",
+      "rawNames": [
+        "刘相"
+      ],
+      "sourceFile": "课表/化学化工学院/课表打印.xls",
+      "sourceSha256": "64bd913b47aacc0396331aa2b059486af03bc1fb2b7e5de0f7f5fd2da9325ca0",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-03-004",
+      "sourceUnit": "化学化工学院",
+      "sourceUnitName": "化学化工学院",
+      "collegeCode": "upc-03",
+      "name": "史德青",
+      "rawNames": [
+        "史德青"
+      ],
+      "sourceFile": "课表/化学化工学院/课表打印.xls",
+      "sourceSha256": "64bd913b47aacc0396331aa2b059486af03bc1fb2b7e5de0f7f5fd2da9325ca0",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-03-001",
+      "sourceUnit": "化学化工学院",
+      "sourceUnitName": "化学化工学院",
+      "collegeCode": "upc-03",
+      "name": "孙道峰",
+      "rawNames": [
+        "孙道峰"
+      ],
+      "sourceFile": "课表/化学化工学院/课表打印.xls",
+      "sourceSha256": "64bd913b47aacc0396331aa2b059486af03bc1fb2b7e5de0f7f5fd2da9325ca0",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-03-002",
+      "sourceUnit": "化学化工学院",
+      "sourceUnitName": "化学化工学院",
+      "collegeCode": "upc-03",
+      "name": "张卫东",
+      "rawNames": [
+        "张卫东"
+      ],
+      "sourceFile": "课表/化学化工学院/课表打印.xls",
+      "sourceSha256": "64bd913b47aacc0396331aa2b059486af03bc1fb2b7e5de0f7f5fd2da9325ca0",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-03-005",
+      "sourceUnit": "化学化工学院",
+      "sourceUnitName": "化学化工学院",
+      "collegeCode": "upc-03",
+      "name": "徐永强",
+      "rawNames": [
+        "徐永强"
+      ],
+      "sourceFile": "课表/化学化工学院/课表打印.xls",
+      "sourceSha256": "64bd913b47aacc0396331aa2b059486af03bc1fb2b7e5de0f7f5fd2da9325ca0",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-03-006",
+      "sourceUnit": "化学化工学院",
+      "sourceUnitName": "化学化工学院",
+      "collegeCode": "upc-03",
+      "name": "赵会吉",
+      "rawNames": [
+        "赵会吉"
+      ],
+      "sourceFile": "课表/化学化工学院/课表打印.xls",
+      "sourceSha256": "64bd913b47aacc0396331aa2b059486af03bc1fb2b7e5de0f7f5fd2da9325ca0",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-03-007",
+      "sourceUnit": "化学化工学院",
+      "sourceUnitName": "化学化工学院",
+      "collegeCode": "upc-03",
+      "name": "路帅",
+      "rawNames": [
+        "路帅"
+      ],
+      "sourceFile": "课表/化学化工学院/课表打印.xls",
+      "sourceSha256": "64bd913b47aacc0396331aa2b059486af03bc1fb2b7e5de0f7f5fd2da9325ca0",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-04-004",
+      "sourceUnit": "机电工程学院",
+      "sourceUnitName": "机电工程学院",
+      "collegeCode": "upc-04",
+      "name": "何冬青",
+      "rawNames": [
+        "何冬青"
+      ],
+      "sourceFile": "课表/机电工程学院/课表打印.xls",
+      "sourceSha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-04-001",
+      "sourceUnit": "机电工程学院",
+      "sourceUnitName": "机电工程学院",
+      "collegeCode": "upc-04",
+      "name": "冯德华",
+      "rawNames": [
+        "冯德华"
+      ],
+      "sourceFile": "课表/机电工程学院/课表打印.xls",
+      "sourceSha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-04-005",
+      "sourceUnit": "机电工程学院",
+      "sourceUnitName": "机电工程学院",
+      "collegeCode": "upc-04",
+      "name": "宋金",
+      "rawNames": [
+        "宋金"
+      ],
+      "sourceFile": "课表/机电工程学院/课表打印.xls",
+      "sourceSha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-04-006",
+      "sourceUnit": "机电工程学院",
+      "sourceUnitName": "机电工程学院",
+      "collegeCode": "upc-04",
+      "name": "庄晶云",
+      "rawNames": [
+        "庄晶云"
+      ],
+      "sourceFile": "课表/机电工程学院/课表打印.xls",
+      "sourceSha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-04-002",
+      "sourceUnit": "机电工程学院",
+      "sourceUnitName": "机电工程学院",
+      "collegeCode": "upc-04",
+      "name": "戴昀",
+      "rawNames": [
+        "戴昀"
+      ],
+      "sourceFile": "课表/机电工程学院/课表打印.xls",
+      "sourceSha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-04-003",
+      "sourceUnit": "机电工程学院",
+      "sourceUnitName": "机电工程学院",
+      "collegeCode": "upc-04",
+      "name": "王灵芝",
+      "rawNames": [
+        "王灵芝"
+      ],
+      "sourceFile": "课表/机电工程学院/课表打印.xls",
+      "sourceSha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-04-007",
+      "sourceUnit": "机电工程学院",
+      "sourceUnitName": "机电工程学院",
+      "collegeCode": "upc-04",
+      "name": "郑超",
+      "rawNames": [
+        "郑超"
+      ],
+      "sourceFile": "课表/机电工程学院/课表打印.xls",
+      "sourceSha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-05-001",
+      "sourceUnit": "储运与建筑工程学院",
+      "sourceUnitName": "储运与建筑工程学院",
+      "collegeCode": "upc-05",
+      "name": "李洪波",
+      "rawNames": [
+        "李洪波"
+      ],
+      "sourceFile": "课表/储运与建筑工程学院/课表打印 (1).xls",
+      "sourceSha256": "2b9e40da52e8ef985372419e089f3d4ae12db7f0164a91a959b1895293d571bb",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-05-002",
+      "sourceUnit": "储运与建筑工程学院",
+      "sourceUnitName": "储运与建筑工程学院",
+      "collegeCode": "upc-05",
+      "name": "王凌旭",
+      "rawNames": [
+        "王凌旭"
+      ],
+      "sourceFile": "课表/储运与建筑工程学院/课表打印 (1).xls",
+      "sourceSha256": "2b9e40da52e8ef985372419e089f3d4ae12db7f0164a91a959b1895293d571bb",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-006",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "付禹",
+      "rawNames": [
+        "付禹"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-007",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "任浩",
+      "rawNames": [
+        "任浩"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-008",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "冯涛",
+      "rawNames": [
+        "冯涛"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-009",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "刘林",
+      "rawNames": [
+        "刘林"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-010",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "周炎",
+      "rawNames": [
+        "周炎"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-011",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "唐晓",
+      "rawNames": [
+        "唐晓"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-012",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "孙冲",
+      "rawNames": [
+        "孙冲"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-001",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "张军",
+      "rawNames": [
+        "张军"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-002",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "张立红",
+      "rawNames": [
+        "张立红"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-013",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "张腾",
+      "rawNames": [
+        "张腾"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-014",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "张苏",
+      "rawNames": [
+        "张苏"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-015",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "徐奔",
+      "rawNames": [
+        "徐奔"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-016",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "徐静",
+      "rawNames": [
+        "徐静"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-017",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "曹宁",
+      "rawNames": [
+        "曹宁"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-003",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "李振",
+      "rawNames": [
+        "李振"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-018",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "李焰",
+      "rawNames": [
+        "李焰"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-019",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "熊伟",
+      "rawNames": [
+        "熊伟"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-020",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "王晓",
+      "rawNames": [
+        "王晓"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-021",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "王林",
+      "rawNames": [
+        "王林"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-022",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "王璟岳",
+      "rawNames": [
+        "王璟岳"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-023",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "王航",
+      "rawNames": [
+        "王航"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-024",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "祝磊",
+      "rawNames": [
+        "祝磊"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-025",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "贺冰",
+      "rawNames": [
+        "贺冰"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-026",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "赵文",
+      "rawNames": [
+        "赵文"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-027",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "赵明",
+      "rawNames": [
+        "赵明"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-004",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "邢伟",
+      "rawNames": [
+        "邢伟"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-028",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "郭孟",
+      "rawNames": [
+        "郭孟"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-029",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "鞠虹",
+      "rawNames": [
+        "鞠虹"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-030",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "韩彬",
+      "rawNames": [
+        "韩彬"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-031",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "韩涛",
+      "rawNames": [
+        "韩涛"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-06-005",
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "collegeCode": "upc-06",
+      "name": "马晓晨",
+      "rawNames": [
+        "马晓晨"
+      ],
+      "sourceFile": "课表/材料科学与工程学院/课表打印.xls",
+      "sourceSha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-07-001",
+      "sourceUnit": "石大山能新能源学院",
+      "sourceUnitName": "石大山能新能源学院",
+      "collegeCode": "upc-07",
+      "name": "王阳",
+      "rawNames": [
+        "王阳"
+      ],
+      "sourceFile": "课表/石大山能新能源学院/课表打印.xls",
+      "sourceSha256": "e2a5f0d386bbfd55fe2e0661c6b0697e7e47284693349477c326a66f4ed96465",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-07-002",
+      "sourceUnit": "石大山能新能源学院",
+      "sourceUnitName": "石大山能新能源学院",
+      "collegeCode": "upc-07",
+      "name": "秦政",
+      "rawNames": [
+        "秦政"
+      ],
+      "sourceFile": "课表/石大山能新能源学院/课表打印.xls",
+      "sourceSha256": "e2a5f0d386bbfd55fe2e0661c6b0697e7e47284693349477c326a66f4ed96465",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-07-003",
+      "sourceUnit": "石大山能新能源学院",
+      "sourceUnitName": "石大山能新能源学院",
+      "collegeCode": "upc-07",
+      "name": "薛松",
+      "rawNames": [
+        "薛松"
+      ],
+      "sourceFile": "课表/石大山能新能源学院/课表打印.xls",
+      "sourceSha256": "e2a5f0d386bbfd55fe2e0661c6b0697e7e47284693349477c326a66f4ed96465",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-07-004",
+      "sourceUnit": "石大山能新能源学院",
+      "sourceUnitName": "石大山能新能源学院",
+      "collegeCode": "upc-07",
+      "name": "郭晓静",
+      "rawNames": [
+        "郭晓静"
+      ],
+      "sourceFile": "课表/石大山能新能源学院/课表打印.xls",
+      "sourceSha256": "e2a5f0d386bbfd55fe2e0661c6b0697e7e47284693349477c326a66f4ed96465",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-07-005",
+      "sourceUnit": "石大山能新能源学院",
+      "sourceUnitName": "石大山能新能源学院",
+      "collegeCode": "upc-07",
+      "name": "骆浩冉",
+      "rawNames": [
+        "骆浩冉"
+      ],
+      "sourceFile": "课表/石大山能新能源学院/课表打印.xls",
+      "sourceSha256": "e2a5f0d386bbfd55fe2e0661c6b0697e7e47284693349477c326a66f4ed96465",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-08-001",
+      "sourceUnit": "海洋与空间信息学院",
+      "sourceUnitName": "海洋与空间信息学院",
+      "collegeCode": "upc-08",
+      "name": "周飞",
+      "rawNames": [
+        "周飞"
+      ],
+      "sourceFile": "课表/海洋与空间信息学院/课表打印.xls",
+      "sourceSha256": "c1743632b288532fd72e513a5f8abd68bbb23b728130821d8694e95a1b9495fc",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-08-002",
+      "sourceUnit": "海洋与空间信息学院",
+      "sourceUnitName": "海洋与空间信息学院",
+      "collegeCode": "upc-08",
+      "name": "杨华",
+      "rawNames": [
+        "杨华"
+      ],
+      "sourceFile": "课表/海洋与空间信息学院/课表打印.xls",
+      "sourceSha256": "c1743632b288532fd72e513a5f8abd68bbb23b728130821d8694e95a1b9495fc",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-004",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "刘希臣",
+      "rawNames": [
+        "刘希臣"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-005",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "吴荔清",
+      "rawNames": [
+        "吴荔清"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-001",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "周卫东",
+      "rawNames": [
+        "周卫东"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-006",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "廖明燕",
+      "rawNames": [
+        "廖明燕"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-002",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "张欣",
+      "rawNames": [
+        "张欣"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-007",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "李哲",
+      "rawNames": [
+        "李哲"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-008",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "李霞",
+      "rawNames": [
+        "李霞"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-009",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "沈学锋",
+      "rawNames": [
+        "沈学锋"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-010",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "涂玲",
+      "rawNames": [
+        "涂玲"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-011",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "潘浩",
+      "rawNames": [
+        "潘浩"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-012",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "王心刚",
+      "rawNames": [
+        "王心刚"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-013",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "王树彬",
+      "rawNames": [
+        "王树彬"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-014",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "蒋仁福",
+      "rawNames": [
+        "蒋仁福"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-015",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "薄迎春",
+      "rawNames": [
+        "薄迎春"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-016",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "贺利",
+      "rawNames": [
+        "贺利"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-003",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "赵学进",
+      "rawNames": [
+        "赵学进"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-017",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "赵小明",
+      "rawNames": [
+        "赵小明"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-018",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "郭曙光",
+      "rawNames": [
+        "郭曙光"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-09-019",
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "collegeCode": "upc-09",
+      "name": "陈璨",
+      "rawNames": [
+        "陈璨"
+      ],
+      "sourceFile": "课表/控制科学与工程学院/课表打印.xls",
+      "sourceSha256": "df870529886bdb8d1e2319b49a020c1f2ce863a09b0f37fd7efbfeb29c8f55bf",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-10-001",
+      "sourceUnit": "青岛软件学院计算机科学与技术学院",
+      "sourceUnitName": "青岛软件学院、计算机科学与技术学院",
+      "collegeCode": "upc-10",
+      "name": "姚洪波",
+      "rawNames": [
+        "姚洪波"
+      ],
+      "sourceFile": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+      "sourceSha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-10-002",
+      "sourceUnit": "青岛软件学院计算机科学与技术学院",
+      "sourceUnitName": "青岛软件学院、计算机科学与技术学院",
+      "collegeCode": "upc-10",
+      "name": "李一然",
+      "rawNames": [
+        "李一然"
+      ],
+      "sourceFile": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+      "sourceSha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-10-003",
+      "sourceUnit": "青岛软件学院计算机科学与技术学院",
+      "sourceUnitName": "青岛软件学院、计算机科学与技术学院",
+      "collegeCode": "upc-10",
+      "name": "游应红",
+      "rawNames": [
+        "游应红"
+      ],
+      "sourceFile": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+      "sourceSha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-10-004",
+      "sourceUnit": "青岛软件学院计算机科学与技术学院",
+      "sourceUnitName": "青岛软件学院、计算机科学与技术学院",
+      "collegeCode": "upc-10",
+      "name": "郑一",
+      "rawNames": [
+        "郑一"
+      ],
+      "sourceFile": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+      "sourceSha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-10-005",
+      "sourceUnit": "青岛软件学院计算机科学与技术学院",
+      "sourceUnitName": "青岛软件学院、计算机科学与技术学院",
+      "collegeCode": "upc-10",
+      "name": "郭加树",
+      "rawNames": [
+        "郭加树"
+      ],
+      "sourceFile": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+      "sourceSha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-10-006",
+      "sourceUnit": "青岛软件学院计算机科学与技术学院",
+      "sourceUnitName": "青岛软件学院、计算机科学与技术学院",
+      "collegeCode": "upc-10",
+      "name": "马竟锋",
+      "rawNames": [
+        "马竟锋"
+      ],
+      "sourceFile": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+      "sourceSha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-10-007",
+      "sourceUnit": "青岛软件学院计算机科学与技术学院",
+      "sourceUnitName": "青岛软件学院、计算机科学与技术学院",
+      "collegeCode": "upc-10",
+      "name": "魏伟",
+      "rawNames": [
+        "魏伟"
+      ],
+      "sourceFile": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls",
+      "sourceSha256": "2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-11-001",
+      "sourceUnit": "经济管理学院",
+      "sourceUnitName": "经济管理学院",
+      "collegeCode": "upc-11",
+      "name": "杨坤",
+      "rawNames": [
+        "杨坤"
+      ],
+      "sourceFile": "课表/经济管理学院/课表打印 (1).xls",
+      "sourceSha256": "f63cec51a55573f1e37931563fb6c3677de879786bbab9df5698b360c3a1a7fc",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-12-001",
+      "sourceUnit": "理学院",
+      "sourceUnitName": "理学院",
+      "collegeCode": "upc-12",
+      "name": "刘珊",
+      "rawNames": [
+        "刘珊"
+      ],
+      "sourceFile": "课表/理学院/课表打印.xls",
+      "sourceSha256": "fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-12-002",
+      "sourceUnit": "理学院",
+      "sourceUnitName": "理学院",
+      "collegeCode": "upc-12",
+      "name": "孙清滢",
+      "rawNames": [
+        "孙清滢"
+      ],
+      "sourceFile": "课表/理学院/课表打印.xls",
+      "sourceSha256": "fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-12-003",
+      "sourceUnit": "理学院",
+      "sourceUnitName": "理学院",
+      "collegeCode": "upc-12",
+      "name": "宁文杰",
+      "rawNames": [
+        "宁文杰"
+      ],
+      "sourceFile": "课表/理学院/课表打印.xls",
+      "sourceSha256": "fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-12-004",
+      "sourceUnit": "理学院",
+      "sourceUnitName": "理学院",
+      "collegeCode": "upc-12",
+      "name": "牛其华",
+      "rawNames": [
+        "牛其华"
+      ],
+      "sourceFile": "课表/理学院/课表打印.xls",
+      "sourceSha256": "fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-12-005",
+      "sourceUnit": "理学院",
+      "sourceUnitName": "理学院",
+      "collegeCode": "upc-12",
+      "name": "田方",
+      "rawNames": [
+        "田方"
+      ],
+      "sourceFile": "课表/理学院/课表打印.xls",
+      "sourceSha256": "fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-12-006",
+      "sourceUnit": "理学院",
+      "sourceUnitName": "理学院",
+      "collegeCode": "upc-12",
+      "name": "田璐璐",
+      "rawNames": [
+        "田璐璐"
+      ],
+      "sourceFile": "课表/理学院/课表打印.xls",
+      "sourceSha256": "fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-13-001",
+      "sourceUnit": "外国语学院",
+      "sourceUnitName": "外国语学院",
+      "collegeCode": "upc-13",
+      "name": "刘晓辉",
+      "rawNames": [
+        "刘晓辉"
+      ],
+      "sourceFile": "课表/外国语学院/课表打印.xls",
+      "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-13-002",
+      "sourceUnit": "外国语学院",
+      "sourceUnitName": "外国语学院",
+      "collegeCode": "upc-13",
+      "name": "叶艳",
+      "rawNames": [
+        "叶艳"
+      ],
+      "sourceFile": "课表/外国语学院/课表打印.xls",
+      "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-13-003",
+      "sourceUnit": "外国语学院",
+      "sourceUnitName": "外国语学院",
+      "collegeCode": "upc-13",
+      "name": "张亮",
+      "rawNames": [
+        "张亮"
+      ],
+      "sourceFile": "课表/外国语学院/课表打印.xls",
+      "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-13-004",
+      "sourceUnit": "外国语学院",
+      "sourceUnitName": "外国语学院",
+      "collegeCode": "upc-13",
+      "name": "徐燕燕",
+      "rawNames": [
+        "徐燕燕"
+      ],
+      "sourceFile": "课表/外国语学院/课表打印.xls",
+      "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-13-005",
+      "sourceUnit": "外国语学院",
+      "sourceUnitName": "外国语学院",
+      "collegeCode": "upc-13",
+      "name": "朱荫成",
+      "rawNames": [
+        "朱荫成"
+      ],
+      "sourceFile": "课表/外国语学院/课表打印.xls",
+      "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-13-006",
+      "sourceUnit": "外国语学院",
+      "sourceUnitName": "外国语学院",
+      "collegeCode": "upc-13",
+      "name": "李晓丽",
+      "rawNames": [
+        "李晓丽"
+      ],
+      "sourceFile": "课表/外国语学院/课表打印.xls",
+      "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-13-007",
+      "sourceUnit": "外国语学院",
+      "sourceUnitName": "外国语学院",
+      "collegeCode": "upc-13",
+      "name": "李晓春",
+      "rawNames": [
+        "李晓春"
+      ],
+      "sourceFile": "课表/外国语学院/课表打印.xls",
+      "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-13-008",
+      "sourceUnit": "外国语学院",
+      "sourceUnitName": "外国语学院",
+      "collegeCode": "upc-13",
+      "name": "杨静文",
+      "rawNames": [
+        "杨静文"
+      ],
+      "sourceFile": "课表/外国语学院/课表打印.xls",
+      "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-13-009",
+      "sourceUnit": "外国语学院",
+      "sourceUnitName": "外国语学院",
+      "collegeCode": "upc-13",
+      "name": "梅琳",
+      "rawNames": [
+        "梅琳"
+      ],
+      "sourceFile": "课表/外国语学院/课表打印.xls",
+      "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-13-010",
+      "sourceUnit": "外国语学院",
+      "sourceUnitName": "外国语学院",
+      "collegeCode": "upc-13",
+      "name": "相欣余",
+      "rawNames": [
+        "相欣余"
+      ],
+      "sourceFile": "课表/外国语学院/课表打印.xls",
+      "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-13-011",
+      "sourceUnit": "外国语学院",
+      "sourceUnitName": "外国语学院",
+      "collegeCode": "upc-13",
+      "name": "马红艳",
+      "rawNames": [
+        "马红艳"
+      ],
+      "sourceFile": "课表/外国语学院/课表打印.xls",
+      "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-005",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "于露",
+      "rawNames": [
+        "于露"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-006",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "任广志",
+      "rawNames": [
+        "任广志"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-007",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "倪娅",
+      "rawNames": [
+        "倪娅"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-008",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "刘正宇",
+      "rawNames": [
+        "刘正宇"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-001",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "刘积舜",
+      "rawNames": [
+        "刘积舜"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-009",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "吴树义",
+      "rawNames": [
+        "吴树义"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-010",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "孙涛",
+      "rawNames": [
+        "孙涛"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-011",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "孙颖",
+      "rawNames": [
+        "孙颖"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-012",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "宋亚容",
+      "rawNames": [
+        "宋亚容"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-013",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "张永宁",
+      "rawNames": [
+        "张永宁"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-014",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "张泰",
+      "rawNames": [
+        "张泰"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-015",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "徐济宽",
+      "rawNames": [
+        "徐济宽"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-016",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "曹永海",
+      "rawNames": [
+        "曹永海"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-017",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "李康",
+      "rawNames": [
+        "李康"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-018",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "李猛",
+      "rawNames": [
+        "李猛"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-019",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "李纯泽",
+      "rawNames": [
+        "李纯泽"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-020",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "杨倩",
+      "rawNames": [
+        "杨倩"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-021",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "杨军",
+      "rawNames": [
+        "杨军"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-022",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "杨欣",
+      "rawNames": [
+        "杨欣"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-002",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "林超",
+      "rawNames": [
+        "林超"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-023",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "栾著",
+      "rawNames": [
+        "栾著"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-024",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "王大勇",
+      "rawNames": [
+        "王大勇"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-003",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "王宇红",
+      "rawNames": [
+        "王宇红"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-025",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "由然",
+      "rawNames": [
+        "由然"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-026",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "胥丹青",
+      "rawNames": [
+        "胥丹青"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-027",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "葛浩然",
+      "rawNames": [
+        "葛浩然"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-028",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "赵延升",
+      "rawNames": [
+        "赵延升"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-029",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "郭杨",
+      "rawNames": [
+        "郭杨"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-030",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "郭颂",
+      "rawNames": [
+        "郭颂"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-004",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "金涛",
+      "rawNames": [
+        "金涛"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-14-031",
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "collegeCode": "upc-14",
+      "name": "马康凤",
+      "rawNames": [
+        "马康凤"
+      ],
+      "sourceFile": "课表/文法学院/课表打印.xls",
+      "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-15-002",
+      "sourceUnit": "马克思主义学院",
+      "sourceUnitName": "马克思主义学院",
+      "collegeCode": "upc-15",
+      "name": "周辉",
+      "rawNames": [
+        "周辉"
+      ],
+      "sourceFile": "课表/马克思主义学院/课表打印.xls",
+      "sourceSha256": "f9d6a78351c2853367531677050fc1edb403868ad934d563ed25a688aee91a2c",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-15-003",
+      "sourceUnit": "马克思主义学院",
+      "sourceUnitName": "马克思主义学院",
+      "collegeCode": "upc-15",
+      "name": "李令功",
+      "rawNames": [
+        "李令功"
+      ],
+      "sourceFile": "课表/马克思主义学院/课表打印.xls",
+      "sourceSha256": "f9d6a78351c2853367531677050fc1edb403868ad934d563ed25a688aee91a2c",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-15-004",
+      "sourceUnit": "马克思主义学院",
+      "sourceUnitName": "马克思主义学院",
+      "collegeCode": "upc-15",
+      "name": "李桂臣",
+      "rawNames": [
+        "李桂臣"
+      ],
+      "sourceFile": "课表/马克思主义学院/课表打印.xls",
+      "sourceSha256": "f9d6a78351c2853367531677050fc1edb403868ad934d563ed25a688aee91a2c",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-15-005",
+      "sourceUnit": "马克思主义学院",
+      "sourceUnitName": "马克思主义学院",
+      "collegeCode": "upc-15",
+      "name": "杨超",
+      "rawNames": [
+        "杨超"
+      ],
+      "sourceFile": "课表/马克思主义学院/课表打印.xls",
+      "sourceSha256": "f9d6a78351c2853367531677050fc1edb403868ad934d563ed25a688aee91a2c",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-15-001",
+      "sourceUnit": "马克思主义学院",
+      "sourceUnitName": "马克思主义学院",
+      "collegeCode": "upc-15",
+      "name": "王建军",
+      "rawNames": [
+        "王建军"
+      ],
+      "sourceFile": "课表/马克思主义学院/课表打印.xls",
+      "sourceSha256": "f9d6a78351c2853367531677050fc1edb403868ad934d563ed25a688aee91a2c",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-002",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "于晓红",
+      "rawNames": [
+        "于晓红"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-003",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "史海鹏",
+      "rawNames": [
+        "史海鹏"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-004",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "吕娜",
+      "rawNames": [
+        "吕娜"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-005",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "周吉兰",
+      "rawNames": [
+        "周吉兰"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-006",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "姜庆林",
+      "rawNames": [
+        "姜庆林"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-007",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "宋清",
+      "rawNames": [
+        "宋清"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-001",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "曹伟",
+      "rawNames": [
+        "曹伟"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-008",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "李仁熙",
+      "rawNames": [
+        "李仁熙"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-009",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "杨宏",
+      "rawNames": [
+        "杨宏"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-010",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "林明贵",
+      "rawNames": [
+        "林明贵"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-011",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "梁莎莎",
+      "rawNames": [
+        "梁莎莎"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-012",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "欧阳勇强",
+      "rawNames": [
+        "欧阳勇强"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-013",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "焦喜便",
+      "rawNames": [
+        "焦喜便"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-014",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "牛静",
+      "rawNames": [
+        "牛静"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-015",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "牟小刚",
+      "rawNames": [
+        "牟小刚"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-016",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "王子贤",
+      "rawNames": [
+        "王子贤"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-017",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "王峰",
+      "rawNames": [
+        "王峰"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-018",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "王成国",
+      "rawNames": [
+        "王成国"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-019",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "翁炀晖",
+      "rawNames": [
+        "翁炀晖"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-020",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "谢小英",
+      "rawNames": [
+        "谢小英"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-021",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "赵岑",
+      "rawNames": [
+        "赵岑"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-022",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "赵延敏",
+      "rawNames": [
+        "赵延敏"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-023",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "赵晶晶",
+      "rawNames": [
+        "赵晶晶"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-024",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "赵莹莹",
+      "rawNames": [
+        "赵莹莹"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-16-025",
+      "sourceUnit": "体育教学部",
+      "sourceUnitName": "体育教学部",
+      "collegeCode": "upc-16",
+      "name": "韩蕾",
+      "rawNames": [
+        "韩蕾"
+      ],
+      "sourceFile": "课表/体育教学部/课表打印.xls",
+      "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-17-001",
+      "sourceUnit": "石油工业训练中心",
+      "sourceUnitName": "石油工业训练中心",
+      "collegeCode": "upc-17",
+      "name": "李卓军",
+      "rawNames": [
+        "李卓军"
+      ],
+      "sourceFile": "课表/石油工业训练中心/课表打印.xls",
+      "sourceSha256": "86426e2e9497d75c5c8211acc4a266facff4ffae9b9e4ee6231b57f1716b4419",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-17-002",
+      "sourceUnit": "石油工业训练中心",
+      "sourceUnitName": "石油工业训练中心",
+      "collegeCode": "upc-17",
+      "name": "苑得鑫",
+      "rawNames": [
+        "苑得鑫"
+      ],
+      "sourceFile": "课表/石油工业训练中心/课表打印.xls",
+      "sourceSha256": "86426e2e9497d75c5c8211acc4a266facff4ffae9b9e4ee6231b57f1716b4419",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-17-003",
+      "sourceUnit": "石油工业训练中心",
+      "sourceUnitName": "石油工业训练中心",
+      "collegeCode": "upc-17",
+      "name": "荆正军",
+      "rawNames": [
+        "荆正军"
+      ],
+      "sourceFile": "课表/石油工业训练中心/课表打印.xls",
+      "sourceSha256": "86426e2e9497d75c5c8211acc4a266facff4ffae9b9e4ee6231b57f1716b4419",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-17-004",
+      "sourceUnit": "石油工业训练中心",
+      "sourceUnitName": "石油工业训练中心",
+      "collegeCode": "upc-17",
+      "name": "赵玉明",
+      "rawNames": [
+        "赵玉明"
+      ],
+      "sourceFile": "课表/石油工业训练中心/课表打印.xls",
+      "sourceSha256": "86426e2e9497d75c5c8211acc4a266facff4ffae9b9e4ee6231b57f1716b4419",
+      "identityType": "timetable_unit_name"
+    },
+    {
+      "sourceId": "tt-upc-17-005",
+      "sourceUnit": "石油工业训练中心",
+      "sourceUnitName": "石油工业训练中心",
+      "collegeCode": "upc-17",
+      "name": "陈琳",
+      "rawNames": [
+        "陈琳"
+      ],
+      "sourceFile": "课表/石油工业训练中心/课表打印.xls",
+      "sourceSha256": "86426e2e9497d75c5c8211acc4a266facff4ffae9b9e4ee6231b57f1716b4419",
+      "identityType": "timetable_unit_name"
+    }
+  ]
+}

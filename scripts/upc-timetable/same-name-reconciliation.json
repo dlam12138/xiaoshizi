@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-23",
+  "source": "official profile pages + 2026-2027-1 timetable course blocks",
+  "aliasGroups": [
+    {
+      "name": "李克文",
+      "sourceUnit": "青岛软件学院、计算机科学与技术学院",
+      "relation": "same_person_alias",
+      "canonicalSourceId": "computer-c20895-a408817",
+      "canonicalUrl": "https://computer.upc.edu.cn/2023/0721/c20895a408817/page.psp",
+      "aliasSourceIds": [
+        "computer-c6287-a103926"
+      ],
+      "aliasUrls": [
+        "https://computer.upc.edu.cn/2017/0313/c6287a103926/page.psp"
+      ],
+      "basis": [
+        "official pages share the same email and office phone",
+        "education and employment histories match",
+        "profiles describe the same person at different publication times"
+      ],
+      "courses": [
+        "CST310211020"
+      ],
+      "decision": "merge pages to canonical 2023 profile; no extra teacher row"
+    },
+    {
+      "name": "徐海亮",
+      "sourceUnit": "石大山能新能源学院",
+      "relation": "same_person_alias",
+      "canonicalSourceId": "ne-c15053-a345743",
+      "canonicalUrl": "http://ne.upc.edu.cn/2021/0917/c15053a345743/page.htm",
+      "aliasSourceIds": [
+        "ne-c15053-a213973"
+      ],
+      "aliasUrls": [
+        "http://ne.upc.edu.cn/2019/0806/c15053a213973/page.htm"
+      ],
+      "basis": [
+        "official pages share the same email and department",
+        "the older page lists associate professor and the newer page lists professor",
+        "same person, promotion rather than a second person"
+      ],
+      "courses": [
+        "CNE323321020",
+        "CNE323611010"
+      ],
+      "decision": "merge pages to newer professor profile; no extra teacher row"
+    },
+    {
+      "name": "林日亿",
+      "sourceUnit": "石大山能新能源学院",
+      "relation": "same_person_alias",
+      "canonicalSourceId": "ne-c15052-a324969",
+      "canonicalUrl": "https://ne.upc.edu.cn/2020/1211/c15052a324969/page.htm",
+      "aliasSourceIds": [
+        "ne-c15052-a220424"
+      ],
+      "aliasUrls": [
+        "http://ne.upc.edu.cn/2019/1011/c15052a220424/page.htm"
+      ],
+      "basis": [
+        "official pages share the same email and department",
+        "education, research direction and biography match",
+        "different publication dates only"
+      ],
+      "courses": [
+        "CNE211411010"
+      ],
+      "decision": "merge pages to newer profile; no extra teacher row"
+    },
+    {
+      "name": "何亚文",
+      "sourceUnit": "海洋与空间信息学院",
+      "relation": "same_person_alias",
+      "canonicalSourceId": "ocean-c15434-a448604",
+      "canonicalUrl": "http://ocean.upc.edu.cn/2024/1218/c15434a448604/page.htm",
+      "aliasSourceIds": [
+        "ocean-c15434-a224909"
+      ],
+      "aliasUrls": [
+        "https://ocean.upc.edu.cn/2019/1108/c15434a224909/page.htm"
+      ],
+      "basis": [
+        "official pages share the same email and department",
+        "education and research history match",
+        "patent list overlaps"
+      ],
+      "courses": [
+        "OSI111611010"
+      ],
+      "decision": "merge pages to newer profile; no extra teacher row"
+    },
+    {
+      "name": "宋允全",
+      "sourceUnit": "理学院",
+      "relation": "same_person_alias",
+      "canonicalSourceId": "sci-c6755-a461574",
+      "canonicalUrl": "http://sci.upc.edu.cn/2025/0507/c6755a461574/page.htm",
+      "aliasSourceIds": [
+        "sci-c6944-a442865",
+        "geori-c14558-a206193"
+      ],
+      "aliasUrls": [
+        "https://sci.upc.edu.cn/2024/1017/c6944a442865/page.htm",
+        "https://sci.upc.edu.cn/2019/0513/c14558a206193/page.htm"
+      ],
+      "retiredAliasSourceIds": [
+        "sci-c6944-a130742"
+      ],
+      "retiredAliasUrls": [
+        "http://sci.upc.edu.cn/2016/0926/c6944a130742/page.htm"
+      ],
+      "retiredHttpStatus": 410,
+      "basis": [
+        "active pages share the same email and biography",
+        "the 2025 page is the promoted/current professor page",
+        "the 2016 URL is HTTP 410 and is not counted as a person merely because a link exists",
+        "2019 page on the sci site has matching patents/biography and is a cross-listed alias page"
+      ],
+      "courses": [
+        "SCC211111030",
+        "SCC322611010"
+      ],
+      "decision": "merge active pages to 2025 profile; record dead link as retired alias, not identity"
+    }
+  ],
+  "distinctGroups": [
+    {
+      "name": "张凯",
+      "sourceUnit": "地球科学与技术学院",
+      "relation": "distinct_persons",
+      "profiles": [
+        {
+          "sourceId": "geori-c10378-a151863",
+          "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10378a151863/page.htm",
+          "department": "测井系",
+          "mainCourses": [],
+          "courseMatch": []
+        },
+        {
+          "sourceId": "geori-c10380-a151996",
+          "profileUrl": "http://geori.upc.edu.cn/2018/0526/c10380a151996/page.htm",
+          "department": "地球物理系",
+          "mainCourses": [
+            "地震资料数字处理方法",
+            "程序设计语言（F）",
+            "信号分析与处理"
+          ],
+          "courseMatch": [
+            "GEO221911030"
+          ]
+        }
+      ],
+      "assigned": [
+        {
+          "sourceId": "geori-c10380-a151996",
+          "courseCodes": [
+            "GEO221911030"
+          ]
+        }
+      ],
+      "unassigned": [],
+      "decision": "course '地震资料数字处理方法' explicitly listed by the 地球物理系 profile; assign only that profile; the 测井系 person has no timetable course evidence"
+    },
+    {
+      "name": "孙峰",
+      "sourceUnit": "储运与建筑工程学院",
+      "relation": "distinct_persons",
+      "profiles": [
+        {
+          "sourceId": "cj-c19285-a370914",
+          "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370914/page.htm",
+          "department": "工程力学系",
+          "mainCourses": [
+            "材料力学",
+            "工程力学",
+            "理论力学"
+          ],
+          "courseMatch": [
+            "PLC310411040"
+          ]
+        },
+        {
+          "sourceId": "cj-c19287-a453350",
+          "profileUrl": "http://cj.upc.edu.cn/2025/0325/c19287a453350/page.htm",
+          "department": "建筑系",
+          "mainCourses": [
+            "效果图表现基础",
+            "中外美术欣赏",
+            "城市公共设施设计"
+          ],
+          "courseMatch": []
+        }
+      ],
+      "assigned": [
+        {
+          "sourceId": "cj-c19285-a370914",
+          "courseCodes": [
+            "PLC310411040"
+          ]
+        }
+      ],
+      "unassigned": [],
+      "decision": "'工程力学' is explicitly listed by the 工程力学系 profile; assign that profile only; art-design profile has no matching timetable course"
+    },
+    {
+      "name": "王鑫",
+      "sourceUnit": "储运与建筑工程学院",
+      "relation": "distinct_persons",
+      "profiles": [
+        {
+          "sourceId": "cj-c19284-a370895",
+          "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19284a370895/page.htm",
+          "department": "储运工程系",
+          "mainCourses": [
+            "输气管道设计与管理",
+            "油气储运概论"
+          ],
+          "courseMatch": []
+        },
+        {
+          "sourceId": "cj-c19287-a370951",
+          "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19287a370951/page.htm",
+          "department": "建筑系",
+          "mainCourses": [
+            "建筑设计",
+            "绿色建筑概论",
+            "场地设计"
+          ],
+          "courseMatch": [
+            "PLC520321011"
+          ]
+        }
+      ],
+      "assigned": [
+        {
+          "sourceId": "cj-c19287-a370951",
+          "courseCodes": [
+            "PLC520321011"
+          ]
+        }
+      ],
+      "unassigned": [],
+      "decision": "'场地设计' is explicitly listed by the 建筑系 profile; assign that profile only; the 储运 profile has no matching timetable course"
+    },
+    {
+      "name": "李莉",
+      "sourceUnit": "海洋与空间信息学院",
+      "relation": "distinct_persons",
+      "profiles": [
+        {
+          "sourceId": "ocean-c15435-a225012",
+          "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225012/page.htm",
+          "department": "电子信息工程系",
+          "mainCourses": [
+            "数字信号处理",
+            "模式识别",
+            "微机原理",
+            "Linux应用"
+          ],
+          "courseMatch": [
+            "OSI322811030"
+          ]
+        },
+        {
+          "sourceId": "ocean-c15436-a224962",
+          "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224962/page.htm",
+          "department": "通信工程系",
+          "mainCourses": [
+            "信息论与编码",
+            "光纤通信",
+            "数字逻辑电路",
+            "通信电子实习",
+            "移动通信",
+            "通信网理论"
+          ],
+          "courseMatch": []
+        }
+      ],
+      "assigned": [
+        {
+          "sourceId": "ocean-c15435-a225012",
+          "courseCodes": [
+            "OSI322811030"
+          ],
+          "method": "official_main_course",
+          "confidence": "high",
+          "officialConfirmation": true
+        }
+      ],
+      "unassigned": [],
+      "decision": "数字信号处理按官方主讲课程归 c15435；离散数学按通信班/系所与研究方向暂定 c15436。该判断为 inferred、可纠正，官方页面没有明确列出离散数学。",
+      "inferredAssignments": [
+        {
+          "sourceId": "ocean-c15436-a224962",
+          "courseCodes": [
+            "OSI225711020"
+          ],
+          "method": "research_direction_plus_timetable_cohort",
+          "confidence": "medium",
+          "officialConfirmation": false,
+          "correctable": true,
+          "basis": [
+            "all six timetable blocks are for 通信2501/2502/2503 classes",
+            "canonical profile c15436 is 通信工程系; c15435 is 电子信息工程系",
+            "c15436 research is wireless resource optimization and ad-hoc communication networks",
+            "c15435 research/main courses are ML, pattern recognition, microcomputer and Linux",
+            "离散数学 is a communication-program foundational course; the cohort/department evidence is stronger than generic subject similarity"
+          ],
+          "evidence": {
+            "classCohorts": [
+              "通信2501",
+              "通信2502",
+              "通信2503"
+            ],
+            "sourceBlocks": 6,
+            "profileDepartment": "通信工程系",
+            "profileMainCourses": [
+              "信息论与编码",
+              "光纤通信",
+              "数字逻辑电路",
+              "通信电子实习",
+              "移动通信",
+              "通信网理论"
+            ],
+            "profileResearch": [
+              "无线资源优化",
+              "无人机无人船自动组网通信"
+            ]
+          },
+          "alternativeSourceId": "ocean-c15435-a225012",
+          "alternativeReason": "电子信息 profile has ML/pattern-recognition affinity, but none of the timetable cohorts is an electronic-information class"
+        }
+      ]
+    },
+    {
+      "name": "王艳",
+      "sourceUnit": "理学院",
+      "relation": "distinct_persons",
+      "profiles": [
+        {
+          "sourceId": "sci-c6909-a96262",
+          "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6909a96262/page.htm",
+          "department": "计算数学系",
+          "mainCourses": [
+            "数学分析",
+            "数学分析(2-1)(2-2)"
+          ],
+          "courseMatch": [
+            "SCC251012100",
+            "SCC261211055"
+          ]
+        },
+        {
+          "sourceId": "sci-c6933-a96030",
+          "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6933a96030/page.htm",
+          "department": "计算数学系",
+          "mainCourses": [
+            "常微分方程",
+            "高等数学",
+            "数学建模",
+            "数学实验"
+          ],
+          "courseMatch": [
+            "SCC250111031",
+            "SCC251511010"
+          ]
+        }
+      ],
+      "assigned": [
+        {
+          "sourceId": "sci-c6909-a96262",
+          "courseCodes": [
+            "SCC251012100",
+            "SCC261211055"
+          ],
+          "method": "official_main_course",
+          "confidence": "high",
+          "officialConfirmation": true
+        },
+        {
+          "sourceId": "sci-c6933-a96030",
+          "courseCodes": [
+            "SCC250111031",
+            "SCC251511010"
+          ],
+          "method": "official_main_course",
+          "confidence": "high",
+          "officialConfirmation": true
+        }
+      ],
+      "unassigned": [],
+      "decision": "两门概率论课程暂按研究方向归 c6933（随机模型更贴近），但置信度低-中；属于 inferred、可纠正，官方页面没有明确概率课程。",
+      "inferredAssignments": [
+        {
+          "sourceId": "sci-c6933-a96030",
+          "courseCodes": [
+            "SCC211021020",
+            "SCC211111020"
+          ],
+          "method": "research_direction_plus_course_context",
+          "confidence": "low-medium",
+          "officialConfirmation": false,
+          "correctable": true,
+          "basis": [
+            "c6933 research is biological mathematics and stochastic infectious-disease models, directly probability/stochastic",
+            "c6909 research is game theory and its listed main course is mathematical analysis",
+            "both probability codes are taught by 王艳 with broad engineering/AI/measurement cohorts; the timetable classes do not distinguish the two profiles",
+            "the stochastic-model research is closer to probability than game theory, but this remains a tentative inference"
+          ],
+          "evidence": {
+            "classCohorts": [
+              "石工(双学位)",
+              "光电",
+              "人工智能",
+              "智能科学",
+              "测控",
+              "智能感知"
+            ],
+            "sourceBlocks": 22,
+            "c6933Research": "生物数学、随机传染病模型",
+            "c6909Research": "博弈理论、数学分析",
+            "officialMainCoursesDoNotListProbability": true
+          },
+          "alternativeSourceId": "sci-c6909-a96262",
+          "alternativeReason": "game theory is probability-adjacent, but its official main-course evidence is mathematical analysis, not probability/statistics"
+        }
+      ]
+    }
+  ],
+  "inferencePolicy": {
+    "officialConfirmationRequiredForLabel": false,
+    "method": "research direction + official main courses + timetable cohort/class context",
+    "status": "inferred/correctable, not official confirmation",
+    "sourceOfTruth": "scripts/upc-timetable/same-name-reconciliation.json"
+  }
+}

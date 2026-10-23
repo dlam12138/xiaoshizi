@@ -6,6 +6,9 @@ import { createApp } from './app.mjs';
 
 const { SUPABASE_URL, SUPABASE_ANON_KEY, REDIS_PASSWORD } = process.env;
 if (!SUPABASE_URL || !SUPABASE_ANON_KEY || !REDIS_PASSWORD) throw new Error('Missing server credentials');
+if (!SUPABASE_URL.startsWith('https://') || SUPABASE_URL.includes('qczsdnmwtagwbofpvwle')) {
+  throw new Error('Refusing a non-UPC or retired Supabase project');
+}
 const makeClient = token => createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
   auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false },
   global: { headers: { 'x-rating-version': '2', ...(token ? { Authorization: `Bearer ${token}` } : {}) },
@@ -19,8 +22,10 @@ const redis = new Redis({
 });
 redis.on('error', error => console.warn('[redis]', error.code || error.name));
 const client = makeClient();
+const cachePrefix = process.env.CACHE_PREFIX || 'upc:cache:v1:';
+if (cachePrefix.includes('swjtu')) throw new Error('Refusing a legacy SWJTU cache prefix');
 const cache = new CatalogCache(redis, createSource(client), {
-  prefix: process.env.CACHE_PREFIX || 'swjtu:prod:cache:v1:',
+  prefix: cachePrefix,
   ttl: Number(process.env.CACHE_TTL_SECONDS || 604800),
 });
 await redis.connect().catch(error => cache.failure(error));

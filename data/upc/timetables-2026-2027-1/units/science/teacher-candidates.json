@@ -1,0 +1,5009 @@
+{
+  "schemaVersion": 1,
+  "unit": "理学院",
+  "collegeCode": "upc-12",
+  "candidates": [
+    {
+      "name": "于娟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6868-a97157",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6868a97157/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6868a97157/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6868-a97157",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "于红",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7078-a96331",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7078a96331/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7078a96331/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7078-a96331",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0941299",
+        "SCC710112200"
+      ],
+      "courseNames": [
+        "大学物理实验(2-2)",
+        "大学物理实验2-2"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "侯英敏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6873-a96507",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6873a96507/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6873a96507/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6873-a96507",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘丙辰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6936-a96254",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6936a96254/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6936a96254/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6936-a96254",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC211911020",
+        "SCC212311010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "线性代数"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘云杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7069-a96417",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7069a96417/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7069a96417/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7069-a96417",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710111010",
+        "SCC710212200",
+        "SCC764612210"
+      ],
+      "courseNames": [
+        "基础物理实验(2-2)",
+        "大学物理实验",
+        "物理与工程实验（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘伟华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7091-a96271",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7091a96271/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7091a96271/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7091-a96271",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710111010",
+        "SCC720112100"
+      ],
+      "courseNames": [
+        "大学物理实验",
+        "普通物理实验(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘健",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7023-a96723",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7023a96723/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7023a96723/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6762/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7023-a96723",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC523311010",
+        "SCC523521030",
+        "SCC524741031"
+      ],
+      "courseNames": [
+        "原子核物理",
+        "新生研讨课",
+        "量子力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6924-a96233",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6924a96233/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6924a96233/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6924-a96233",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC253221010",
+        "SCC260921030"
+      ],
+      "courseNames": [
+        "数学实验",
+        "数据库原理与应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘冰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6970-a96344",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6970a96344/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6970a96344/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6970-a96344",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC522321030"
+      ],
+      "courseNames": [
+        "能源物理多尺度模拟"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘学锋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6995-a97150",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c6995a97150/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c6995a97150/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6762/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6995-a97150",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC522111030",
+        "SCC523411010"
+      ],
+      "courseNames": [
+        "力学",
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘新海",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6926-a96235",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6926a96235/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6926a96235/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6926-a96235",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC253011031",
+        "SCC262611020",
+        "SCC263321031"
+      ],
+      "courseNames": [
+        "数值计算与实验",
+        "矩阵理论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘珊",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-12-001",
+      "title": null,
+      "collegeCode": "upc-12",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "理学院",
+        "sourceFile": "课表/理学院/课表打印.xls",
+        "sourceSha256": "fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f",
+        "rawNames": [
+          "刘珊"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘素美",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6980-a96293",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6980a96293/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6980a96293/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6980-a96293",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112201"
+      ],
+      "courseNames": [
+        "大学物理(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘超卓",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7006-a97030",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7006a97030/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7006a97030/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/yywlx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7006-a97030",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC464912240",
+        "SCC523931016",
+        "SCC524131020"
+      ],
+      "courseNames": [
+        "两弹一星精神选讲",
+        "物理与工程力学（2-2）",
+        "走近核科学技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "单娴",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6946-a130744",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6946a130744/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6946a130744/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6946-a130744",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC212111030",
+        "SCC212411035"
+      ],
+      "courseNames": [
+        "线性代数",
+        "线性代数与解析几何"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吕川",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6887-a96744",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6887a96744/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6887a96744/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6887-a96744",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC211911020",
+        "SCC251012101"
+      ],
+      "courseNames": [
+        "数学分析Ⅰ",
+        "线性代数"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吕炜",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6867-a97158",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6867a97158/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6867a97158/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6867-a97158",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110111040",
+        "SCC110112101"
+      ],
+      "courseNames": [
+        "高等数学",
+        "高等数学（经管类）（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吕锋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6912-a96270",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6912a96270/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6912a96270/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6912-a96270",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC251011040"
+      ],
+      "courseNames": [
+        "数学分析Ⅲ"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴国丽",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6957-a130730",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6957a130730/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6957a130730/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6957-a130730",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC210511020"
+      ],
+      "courseNames": [
+        "复变函数"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴淑君",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6893-a96677",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6893a96677/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6893a96677/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6893-a96677",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴瑞华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6877-a96448",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6877a96448/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6877a96448/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6877-a96448",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112101"
+      ],
+      "courseNames": [
+        "高等数学（经管类）（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴霜",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6965-a130885",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6965a130885/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6965a130885/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6965-a130885",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC211111030"
+      ],
+      "courseNames": [
+        "概率论与数理统计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周丽霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7005-a97029",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7005a97029/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7005a97029/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/yywlx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7005-a97029",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC564511020"
+      ],
+      "courseNames": [
+        "物理光学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7018-a97126",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7018a97126/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7018a97126/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/yywlx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7018-a97126",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC510111030"
+      ],
+      "courseNames": [
+        "原子物理学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周勇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6983-a96309",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6983a96309/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6983a96309/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6983-a96309",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112200"
+      ],
+      "courseNames": [
+        "大学物理(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周小岩",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7071-a96343",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7071a96343/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7071a96343/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7071-a96343",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710111010",
+        "SCC710112200"
+      ],
+      "courseNames": [
+        "大学物理实验",
+        "大学物理实验(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6961-a130725",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6961a130725/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6961a130725/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/sjkxytjx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6961-a130725",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC211111020"
+      ],
+      "courseNames": [
+        "概率论与数理统计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姚琦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7061-a96516",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7061a96516/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7061a96516/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7061-a96516",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙建国",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6879-a96370",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6879a96370/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6879a96370/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6879-a96370",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100",
+        "SCC212311010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙新国",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6882-a96401",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6882a96401/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6882a96401/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6882-a96401",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙清滢",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-12-002",
+      "title": null,
+      "collegeCode": "upc-12",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "理学院",
+        "sourceFile": "课表/理学院/课表打印.xls",
+        "sourceSha256": "fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f",
+        "rawNames": [
+          "孙清滢"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SCC251012100"
+      ],
+      "courseNames": [
+        "数学分析(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙玉花",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6923-a96228",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6923a96228/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6923a96228/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6923-a96228",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC250521030",
+        "SCC262411030"
+      ],
+      "courseNames": [
+        "信息论基础",
+        "近世代数"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宁文杰",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-12-003",
+      "title": null,
+      "collegeCode": "upc-12",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "理学院",
+        "sourceFile": "课表/理学院/课表打印.xls",
+        "sourceSha256": "fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f",
+        "rawNames": [
+          "宁文杰"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SCC252411030",
+        "SCC260621032"
+      ],
+      "courseNames": [
+        "最优化方法",
+        "离散数学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋允全",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6755-a461574",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2025/0507/c6755a461574/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_profile_alias_merged",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2025/0507/c6755a461574/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/sjkxytjx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6755-a461574",
+        "aliasSourceIds": [
+          "sci-c6944-a442865",
+          "geori-c14558-a206193"
+        ],
+        "aliasUrls": [
+          "https://sci.upc.edu.cn/2024/1017/c6944a442865/page.htm",
+          "https://sci.upc.edu.cn/2019/0513/c14558a206193/page.htm"
+        ]
+      },
+      "courseCodes": [
+        "SCC211111030",
+        "SCC322611010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "概率论与数理统计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋新祥",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7011-a97071",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7011a97071/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7011a97071/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6768/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7011-a97071",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC266921030",
+        "SCC620231020",
+        "SCC666011030"
+      ],
+      "courseNames": [
+        "从世纪之争到量子通信",
+        "信息论基础",
+        "光电信息与信号处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宝天琦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c22605-a488475",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2026/0422/c22605a488475/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2026/0422/c22605a488475/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c22605-a488475",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710112200"
+      ],
+      "courseNames": [
+        "大学物理实验(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "尹教建",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7067-a96407",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7067a96407/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7067a96407/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7067-a96407",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0941299",
+        "SCC764612210"
+      ],
+      "courseNames": [
+        "大学物理实验2-2",
+        "物理与工程实验（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "展凯云",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6973-a96352",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6973a96352/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6973a96352/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/wltcycxjsyjs/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6973-a96352",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC664711030"
+      ],
+      "courseNames": [
+        "光学中的数学方法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "崔璐",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7064-a96419",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7064a96419/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7064a96419/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7064-a96419",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC210811020"
+      ],
+      "courseNames": [
+        "复变函数与积分变换"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "左文杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6871-a96513",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6871a96513/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6871a96513/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/sjkxytjx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6871-a96513",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC250212101",
+        "SCC266611040",
+        "SCC322611010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "高等代数I",
+        "高等代数Ⅰ"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "常秦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6949-a130741",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6949a130741/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6949a130741/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/sjkxytjx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6949-a130741",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC221011030"
+      ],
+      "courseNames": [
+        "统计计算"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张亚萍",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7057-a96396",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7057a96396/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7057a96396/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6762/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7057-a96396",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710112200",
+        "SCC710212200",
+        "SCC720112100",
+        "SCC764612210"
+      ],
+      "courseNames": [
+        "基础物理实验(2-2)",
+        "大学物理实验(2-2)",
+        "普通物理实验(2-1)",
+        "物理与工程实验（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张令坦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7073-a96327",
+      "title": "高级实验师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7073a96327/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7073a96327/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7073-a96327",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC720221020"
+      ],
+      "courseNames": [
+        "实验误差与数据处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张会娜",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6870-a96509",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6870a96509/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6870a96509/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/sjkxytjx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6870-a96509",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC267111055"
+      ],
+      "courseNames": [
+        "数学分析I"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张伟伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6979-a96295",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6979a96295/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6979a96295/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6979-a96295",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112200"
+      ],
+      "courseNames": [
+        "大学物理(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张健",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6920-a96226",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6920a96226/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6920a96226/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6920-a96226",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC265411030"
+      ],
+      "courseNames": [
+        "实变函数"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张凤荣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6950-a130734",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6950a130734/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6950a130734/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6950-a130734",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC211911020"
+      ],
+      "courseNames": [
+        "线性代数"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张刚",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7019-a97148",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7019a97148/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7019a97148/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6768/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7019-a97148",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC622111020",
+        "SCC622611032"
+      ],
+      "courseNames": [
+        "微机检测技术与系统",
+        "激光原理与技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张华清",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6907-a96614",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6907a96614/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6907a96614/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6780/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6907-a96614",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC310521020",
+        "SCC310621030"
+      ],
+      "courseNames": [
+        "人工智能",
+        "大数据概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张建松",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6938-a96175",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6938a96175/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6938a96175/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6762/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6938-a96175",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC211111030",
+        "SCC212311010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "概率论与数理统计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张敏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6959-a130728",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6959a130728/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6959a130728/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6959-a130728",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC210121030",
+        "SCC211111030"
+      ],
+      "courseNames": [
+        "概率论与数理统计",
+        "泛函分析"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张新红",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6967-a96105",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6967a96105/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6967a96105/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/sjkxytjx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6967-a96105",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC210911041"
+      ],
+      "courseNames": [
+        "概率论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张景明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6960-a130727",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6960a130727/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6960a130727/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6960-a130727",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC212111030"
+      ],
+      "courseNames": [
+        "线性代数"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张海军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6888-a96685",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6888a96685/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6888a96685/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6888-a96685",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张立红",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6975-a96340",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6975a96340/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6975a96340/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6975-a96340",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112200",
+        "SCC410112201"
+      ],
+      "courseNames": [
+        "大学物理(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张艳华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6874-a96447",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6874a96447/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6874a96447/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6874-a96447",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100",
+        "SCC321911031",
+        "SCC322321020"
+      ],
+      "courseNames": [
+        "数据分析与统计软件",
+        "数据融合与同化",
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "彭爱华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6984-a96307",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6984a96307/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6984a96307/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6984-a96307",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112202"
+      ],
+      "courseNames": [
+        "大学物理(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐先锋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7001-a96194",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7001a96194/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7001a96194/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6768/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7001-a96194",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC666011030"
+      ],
+      "courseNames": [
+        "光电信息与信号处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐志杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6971-a96289",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6971a96289/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6971a96289/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6971-a96289",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112201",
+        "SCC464912240"
+      ],
+      "courseNames": [
+        "大学物理(2-2)",
+        "物理与工程力学（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "房文静",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7002-a97153",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7002a97153/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7002a97153/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/yywlx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7002-a97153",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC522321030"
+      ],
+      "courseNames": [
+        "能源物理多尺度模拟"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "排新颖",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6885-a96748",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6885a96748/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6885a96748/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6885-a96748",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "方恒忠",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7079-a96306",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7079a96306/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7079a96306/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/yywlx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7079-a96306",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC521221031",
+        "SCC523721020",
+        "SCC523831020",
+        "SCC568431020"
+      ],
+      "courseNames": [
+        "专业外语",
+        "天文漫谈",
+        "广义相对论基础",
+        "探寻宇宙的秘密—从哥白尼到霍金"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "施章磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6854-a96176",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6854a96176/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6854a96176/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6854-a96176",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC252411020",
+        "SCC252521020"
+      ],
+      "courseNames": [
+        "最优化方法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "智红燕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6863-a96152",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6863a96152/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6863a96152/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6863-a96152",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曲晓波",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6978-a96281",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6978a96281/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6978a96281/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6978-a96281",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112200"
+      ],
+      "courseNames": [
+        "大学物理(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曹晓敏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6966-a130884",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6966a130884/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6966a130884/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6966-a130884",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC211111020"
+      ],
+      "courseNames": [
+        "概率论与数理统计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曹贞斌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7007-a97031",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7007a97031/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7007a97031/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/yywlx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7007-a97031",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC522711040",
+        "SCC523831010"
+      ],
+      "courseNames": [
+        "从爱因斯坦到霍金的宇宙",
+        "数学物理方法及应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱化凤",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6977-a96300",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6977a96300/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6977a96300/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6977-a96300",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112202"
+      ],
+      "courseNames": [
+        "大学物理(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱同帅",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6954-a130733",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6954a130733/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6954a130733/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6780/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6954-a130733",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC567912200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱海丰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7059-a96360",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7059a96360/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7059a96360/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7059-a96360",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0941299",
+        "SCC710112100",
+        "SCC710112200",
+        "SCC764612210"
+      ],
+      "courseNames": [
+        "大学物理实验(2-1)",
+        "大学物理实验(2-2)",
+        "大学物理实验2-2",
+        "物理与工程实验（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李东霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7076-a96334",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7076a96334/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7076a96334/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7076-a96334",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710112200"
+      ],
+      "courseNames": [
+        "大学物理实验(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李代林",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7000-a96193",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7000a96193/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7000a96193/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6768/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7000-a96193",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC621411020"
+      ],
+      "courseNames": [
+        "光学系统设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李媛媛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7010-a97072",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7010a97072/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7010a97072/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/yywlx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7010-a97072",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410111030",
+        "SCC410112201",
+        "SCC521321030"
+      ],
+      "courseNames": [
+        "大学物理",
+        "大学物理(2-2)",
+        "核电站原理与系统"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李小平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6881-a96399",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6881a96399/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6881a96399/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6881-a96399",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100",
+        "SCC110112200",
+        "SCC110112201"
+      ],
+      "courseNames": [
+        "R高等数学(2-2)重修",
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6939-a130717",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6939a130717/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6939a130717/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6762/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6939-a130717",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0910399",
+        "SCC110112100",
+        "SCC211111030"
+      ],
+      "courseNames": [
+        "概率论与数理统计",
+        "线性代数",
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李洪芳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6884-a96404",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6884a96404/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6884a96404/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6884-a96404",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李燕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6948-a130739",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6948a130739/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6948a130739/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6948-a130739",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC211911020"
+      ],
+      "courseNames": [
+        "线性代数"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6886-a96746",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6886a96746/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6886a96746/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6886-a96746",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李红",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6976-a96337",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6976a96337/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6976a96337/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6976-a96337",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112202"
+      ],
+      "courseNames": [
+        "大学物理(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李锋杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6860-a96123",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6860a96123/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6860a96123/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6860-a96123",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC211911020"
+      ],
+      "courseNames": [
+        "线性代数"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李静",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7072-a96330",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7072a96330/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7072a96330/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7072-a96330",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710111010",
+        "SCC710112100",
+        "SCC710112200",
+        "SCC710212200",
+        "SCC720112100",
+        "SCC764612210"
+      ],
+      "courseNames": [
+        "基础物理实验(2-2)",
+        "大学物理实验",
+        "大学物理实验(2-1)",
+        "大学物理实验(2-2)",
+        "普通物理实验(2-1)",
+        "物理与工程实验（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杜永刚",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7012-a97076",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7012a97076/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7012a97076/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6768/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7012-a97076",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC620421020"
+      ],
+      "courseNames": [
+        "固体物理基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨喜峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7009-a97070",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7009a97070/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7009a97070/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/yywlx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7009-a97070",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC520521020"
+      ],
+      "courseNames": [
+        "传感器原理及应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨广武",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c21779-a450115",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2025/0108/c21779a450115/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2025/0108/c21779a450115/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c21779-a450115",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710112200"
+      ],
+      "courseNames": [
+        "大学物理实验(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨新建",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7070-a96345",
+      "title": "高级实验师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7070a96345/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7070a96345/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7070-a96345",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0941299"
+      ],
+      "courseNames": [
+        "大学物理实验2-2"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨蕾",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6922-a96229",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6922a96229/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6922a96229/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6922-a96229",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC251511010",
+        "SCC311321020"
+      ],
+      "courseNames": [
+        "数学实验",
+        "数学建模"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "柳毓松",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6925-a96230",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6925a96230/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6925a96230/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/sjkxytjx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6925-a96230",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC321211035"
+      ],
+      "courseNames": [
+        "机器学习"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "梁锡军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6876-a96449",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6876a96449/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6876a96449/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/sjkxytjx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6876-a96449",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC320511030"
+      ],
+      "courseNames": [
+        "大数据分析与挖掘"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "殷海青",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6916-a96277",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6916a96277/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6916a96277/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6916-a96277",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC252411030",
+        "SCC252411031",
+        "SCC252521030",
+        "SCC260421030",
+        "SCC322421030"
+      ],
+      "courseNames": [
+        "数字图像处理",
+        "最优化方法",
+        "矩阵理论与计算"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "江玲玲",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6872-a96502",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6872a96502/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6872a96502/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6872-a96502",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100",
+        "SCC322421030"
+      ],
+      "courseNames": [
+        "数字图像处理",
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "江萍",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7008-a97068",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7008a97068/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7008a97068/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6768/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7008-a97068",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC622421020",
+        "SCC667231020"
+      ],
+      "courseNames": [
+        "光行天下",
+        "纳米光学及应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "焦志勇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6993-a97125",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6993a97125/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6993a97125/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6768/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6993-a97125",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC620311020",
+        "SCC622111030"
+      ],
+      "courseNames": [
+        "工程概论",
+        "激光原理与技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "牛其华",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-12-004",
+      "title": null,
+      "collegeCode": "upc-12",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "理学院",
+        "sourceFile": "课表/理学院/课表打印.xls",
+        "sourceSha256": "fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f",
+        "rawNames": [
+          "牛其华"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "0911199",
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)",
+        "高等数学2-1"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "牟海宁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6917-a96276",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6917a96276/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6917a96276/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6917-a96276",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC211911020",
+        "SCC251911030",
+        "SCC267311010"
+      ],
+      "courseNames": [
+        "数值计算方法",
+        "数学专业实验",
+        "线性代数"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王娟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6861-a96139",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6861a96139/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6861a96139/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6861-a96139",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王媛媛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6955-a130732",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6955a130732/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6955a130732/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6955-a130732",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC210811020"
+      ],
+      "courseNames": [
+        "复变函数与积分变换"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王宁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6994-a97149",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c6994a97149/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c6994a97149/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6768/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6994-a97149",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC620311020",
+        "SCC621111020"
+      ],
+      "courseNames": [
+        "光通信原理与技术",
+        "工程概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王文新",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7074-a96323",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7074a96323/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7074a96323/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7074-a96323",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710112200"
+      ],
+      "courseNames": [
+        "大学物理实验(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王涛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7022-a97130",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7022a97130/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7022a97130/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6768/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7022-a97130",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC621221020",
+        "SCC623011010"
+      ],
+      "courseNames": [
+        "光纤传感技术",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王玉斗",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6999-a96192",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c6999a96192/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c6999a96192/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/yywlx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6999-a96192",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC522621030"
+      ],
+      "courseNames": [
+        "渗流物理学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王艳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6909-a96262",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6909a96262/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_course_assignment",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6909a96262/page.htm",
+        "sourceId": "sci-c6909-a96262",
+        "sameNameEvidence": {
+          "relation": "distinct_persons",
+          "profiles": [
+            {
+              "sourceId": "sci-c6909-a96262",
+              "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6909a96262/page.htm",
+              "department": "计算数学系",
+              "mainCourses": [
+                "数学分析",
+                "数学分析(2-1)(2-2)"
+              ],
+              "courseMatch": [
+                "SCC251012100",
+                "SCC261211055"
+              ]
+            },
+            {
+              "sourceId": "sci-c6933-a96030",
+              "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6933a96030/page.htm",
+              "department": "计算数学系",
+              "mainCourses": [
+                "常微分方程",
+                "高等数学",
+                "数学建模",
+                "数学实验"
+              ],
+              "courseMatch": [
+                "SCC250111031",
+                "SCC251511010"
+              ]
+            }
+          ],
+          "decision": "两门概率论课程暂按研究方向归 c6933（随机模型更贴近），但置信度低-中；属于 inferred、可纠正，官方页面没有明确概率课程。"
+        },
+        "courseProvenance": [
+          {
+            "courseCodes": [
+              "SCC251012100",
+              "SCC261211055"
+            ],
+            "method": "official_main_course",
+            "confidence": "high",
+            "officialConfirmation": true,
+            "correctable": false,
+            "basis": [],
+            "evidence": null,
+            "alternativeSourceId": null
+          }
+        ]
+      },
+      "courseCodes": [
+        "SCC251012100",
+        "SCC261211055"
+      ],
+      "courseNames": [
+        "数学分析(2-1)",
+        "数学分析(A)I"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王艳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6933-a96030",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6933a96030/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_course_assignment",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6933a96030/page.htm",
+        "sourceId": "sci-c6933-a96030",
+        "sameNameEvidence": {
+          "relation": "distinct_persons",
+          "profiles": [
+            {
+              "sourceId": "sci-c6909-a96262",
+              "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6909a96262/page.htm",
+              "department": "计算数学系",
+              "mainCourses": [
+                "数学分析",
+                "数学分析(2-1)(2-2)"
+              ],
+              "courseMatch": [
+                "SCC251012100",
+                "SCC261211055"
+              ]
+            },
+            {
+              "sourceId": "sci-c6933-a96030",
+              "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6933a96030/page.htm",
+              "department": "计算数学系",
+              "mainCourses": [
+                "常微分方程",
+                "高等数学",
+                "数学建模",
+                "数学实验"
+              ],
+              "courseMatch": [
+                "SCC250111031",
+                "SCC251511010"
+              ]
+            }
+          ],
+          "decision": "两门概率论课程暂按研究方向归 c6933（随机模型更贴近），但置信度低-中；属于 inferred、可纠正，官方页面没有明确概率课程。"
+        },
+        "courseProvenance": [
+          {
+            "courseCodes": [
+              "SCC250111031",
+              "SCC251511010"
+            ],
+            "method": "official_main_course",
+            "confidence": "high",
+            "officialConfirmation": true,
+            "correctable": false,
+            "basis": [],
+            "evidence": null,
+            "alternativeSourceId": null
+          },
+          {
+            "courseCodes": [
+              "SCC211021020",
+              "SCC211111020"
+            ],
+            "method": "research_direction_plus_course_context",
+            "confidence": "low-medium",
+            "officialConfirmation": false,
+            "correctable": true,
+            "basis": [
+              "c6933 research is biological mathematics and stochastic infectious-disease models, directly probability/stochastic",
+              "c6909 research is game theory and its listed main course is mathematical analysis",
+              "both probability codes are taught by 王艳 with broad engineering/AI/measurement cohorts; the timetable classes do not distinguish the two profiles",
+              "the stochastic-model research is closer to probability than game theory, but this remains a tentative inference"
+            ],
+            "evidence": {
+              "classCohorts": [
+                "石工(双学位)",
+                "光电",
+                "人工智能",
+                "智能科学",
+                "测控",
+                "智能感知"
+              ],
+              "sourceBlocks": 22,
+              "c6933Research": "生物数学、随机传染病模型",
+              "c6909Research": "博弈理论、数学分析",
+              "officialMainCoursesDoNotListProbability": true
+            },
+            "alternativeSourceId": "sci-c6909-a96262"
+          }
+        ]
+      },
+      "courseCodes": [
+        "SCC211021020",
+        "SCC211111020",
+        "SCC250111031",
+        "SCC251511010"
+      ],
+      "courseNames": [
+        "常微分方程",
+        "数学实验",
+        "概率论与数理统计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王茂槐",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7063-a96384",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7063a96384/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7063a96384/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7063-a96384",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112202"
+      ],
+      "courseNames": [
+        "大学物理(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王际朝",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6915-a96278",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6915a96278/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6915a96278/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6762/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6915-a96278",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC212311010",
+        "SCC262611020"
+      ],
+      "courseNames": [
+        "数值计算与实验",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王静",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6862-a96149",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6862a96149/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6862a96149/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6862-a96149",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王龙",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7085-a96296",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7085a96296/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7085a96296/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7085-a96296",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710111010",
+        "SCC720112100"
+      ],
+      "courseNames": [
+        "大学物理实验",
+        "普通物理实验(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "琚敏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7027-a96701",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7027a96701/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7027a96701/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6780/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7027-a96701",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC510111015",
+        "SCC521321030",
+        "SCC565021020",
+        "SCC567912200"
+      ],
+      "courseNames": [
+        "信息论基础",
+        "原子物理学",
+        "心理健康与职业发展（2-2）",
+        "核电站原理与系统"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "田咏桃",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7096-a96263",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7096a96263/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7096a96263/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7096-a96263",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710111010",
+        "SCC720112100"
+      ],
+      "courseNames": [
+        "大学物理实验",
+        "普通物理实验(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "田方",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-12-005",
+      "title": null,
+      "collegeCode": "upc-12",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "理学院",
+        "sourceFile": "课表/理学院/课表打印.xls",
+        "sourceSha256": "fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f",
+        "rawNames": [
+          "田方"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SCC262212200",
+        "SCC366812200",
+        "SCC567912200",
+        "SCC666112200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "田璐璐",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-12-006",
+      "title": null,
+      "collegeCode": "upc-12",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "理学院",
+        "sourceFile": "课表/理学院/课表打印.xls",
+        "sourceSha256": "fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f",
+        "rawNames": [
+          "田璐璐"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SCC251911030"
+      ],
+      "courseNames": [
+        "数值计算方法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "田艳杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6987-a96196",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6987a96196/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6987a96196/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6987-a96196",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0931299",
+        "SCC410112202"
+      ],
+      "courseNames": [
+        "大学物理(2-2)",
+        "大学物理2-2"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "申淑谦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6903-a96624",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6903a96624/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6903a96624/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6903-a96624",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC212311010",
+        "SCC250212101",
+        "SCC266611040"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "高等代数I",
+        "高等代数Ⅰ"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "白芬",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7021-a97137",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7021a97137/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7021a97137/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6768/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7021-a97137",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC622111020",
+        "SCC623211031"
+      ],
+      "courseNames": [
+        "应用光学",
+        "激光原理与技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "盛海龙",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7054-a96562",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7054a96562/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7054a96562/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6780/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7054-a96562",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC310321032"
+      ],
+      "courseNames": [
+        "并行计算与分布式计算"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "石丽娜",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6890-a96679",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6890a96679/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6890a96679/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6890-a96679",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "石仁刚",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6918-a96274",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6918a96274/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6918a96274/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院",
+          "理学院"
+        ],
+        "sourceId": "sci-c6918-a96274",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC311321020"
+      ],
+      "courseNames": [
+        "数学建模"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "程剑波",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7058-a96413",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7058a96413/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7058a96413/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7058-a96413",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710112200"
+      ],
+      "courseNames": [
+        "大学物理实验(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "纪凤辉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6855-a96450",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6855a96450/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6855a96450/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6855-a96450",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0911199",
+        "SCC110112200",
+        "SCC110112201"
+      ],
+      "courseNames": [
+        "R高等数学(2-2)重修",
+        "高等数学2-1"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "纪艳菊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6892-a96676",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6892a96676/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6892a96676/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6892-a96676",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100",
+        "SCC110112101"
+      ],
+      "courseNames": [
+        "高等数学(2-1)",
+        "高等数学（经管类）（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "胡哲",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6889-a96687",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6889a96687/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6889a96687/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6889-a96687",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "芮杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6928-a96241",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6928a96241/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6928a96241/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6928-a96241",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC212311010",
+        "SCC250321020",
+        "SCC250411020",
+        "SCC251911030"
+      ],
+      "courseNames": [
+        "数值计算方法",
+        "新生研讨课",
+        "计算方法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "葛菊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6963-a130722",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6963a130722/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6963a130722/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6963-a130722",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC211111020"
+      ],
+      "courseNames": [
+        "概率论与数理统计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "董梅峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6990-a96209",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6990a96209/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6990a96209/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6990-a96209",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112200"
+      ],
+      "courseNames": [
+        "大学物理(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "董鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6988-a96198",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6988a96198/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6988a96198/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6988-a96198",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112202"
+      ],
+      "courseNames": [
+        "大学物理(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "袁顺东",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6972-a96339",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6972a96339/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6972a96339/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6972-a96339",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112100",
+        "SCC410112201"
+      ],
+      "courseNames": [
+        "大学物理(2-1)",
+        "大学物理(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "许令周",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7088-a96297",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7088a96297/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7088a96297/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7088-a96297",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710112200"
+      ],
+      "courseNames": [
+        "大学物理实验(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "许晓婕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6864-a96154",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6864a96154/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6864a96154/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/sjkxytjx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6864-a96154",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100",
+        "SCC211311040",
+        "SCC323031020"
+      ],
+      "courseNames": [
+        "数学文化",
+        "概率论与数理统计",
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "谢雪涛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6902-a96621",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6902a96621/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6902a96621/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6902-a96621",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC211911020",
+        "SCC212021020"
+      ],
+      "courseNames": [
+        "线性代数"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "贾玉磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6996-a97020",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c6996a97020/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c6996a97020/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6768/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6996-a97020",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC522111030",
+        "SCC621821020"
+      ],
+      "courseNames": [
+        "力学",
+        "激光测量技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "贾翠萍",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6982-a96302",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6982a96302/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6982a96302/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6982-a96302",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0941299"
+      ],
+      "courseNames": [
+        "大学物理实验2-2"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵旭波",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6891-a96683",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6891a96683/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6891a96683/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6891-a96683",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100",
+        "SCC262411030"
+      ],
+      "courseNames": [
+        "信息论基础",
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵春娥",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6919-a96224",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6919a96224/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6919a96224/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6919-a96224",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC250711041"
+      ],
+      "courseNames": [
+        "离散数学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵莉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6974-a96364",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6974a96364/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6974a96364/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6974-a96364",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112200"
+      ],
+      "courseNames": [
+        "大学物理(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邢丽丽",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6878-a96376",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6878a96376/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6878a96376/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6878-a96376",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邵红梅",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6911-a96272",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6911a96272/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6911a96272/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6911-a96272",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC251012101"
+      ],
+      "courseNames": [
+        "数学分析Ⅰ"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邹俭英",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7089-a96275",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7089a96275/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7089a96275/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7089-a96275",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710111010"
+      ],
+      "courseNames": [
+        "大学物理实验"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郑海霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6981-a96305",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6981a96305/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6981a96305/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6767/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6981-a96305",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112200",
+        "SCC521011040"
+      ],
+      "courseNames": [
+        "大学物理(2-2)",
+        "电动力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郝彬彬",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6910-a96261",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6910a96261/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6910a96261/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6910-a96261",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC251012100",
+        "SCC253221010",
+        "SCC261211055"
+      ],
+      "courseNames": [
+        "数学分析(2-1)",
+        "数学分析(A)I",
+        "数学实验"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭会",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6896-a96674",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6896a96674/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6896a96674/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6896-a96674",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC212311010",
+        "SCC250911030",
+        "SCC251911030"
+      ],
+      "courseNames": [
+        "数值计算方法",
+        "数理方程",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭雅慧",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7068-a96410",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7068a96410/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7068a96410/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7068-a96410",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0941299",
+        "SCC710111010",
+        "SCC720112100"
+      ],
+      "courseNames": [
+        "大学物理实验",
+        "大学物理实验2-2",
+        "普通物理实验(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "闫向宏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6998-a96191",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c6998a96191/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c6998a96191/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/yywlx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6998-a96191",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC410112200",
+        "SCC522111030",
+        "SCC523311010"
+      ],
+      "courseNames": [
+        "力学",
+        "大学物理(2-2)",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "闫统江",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6900-a96616",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "https://sci.upc.edu.cn/2016/0926/c6900a96616/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sci.upc.edu.cn/2016/0926/c6900a96616/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6762/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6900-a96616",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100",
+        "SCC212311010",
+        "SCC262212200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）",
+        "新生研讨课",
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "阮宗利",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6930-a96325",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6930a96325/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6930a96325/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/sjkxytjx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6930-a96325",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC364111030"
+      ],
+      "courseNames": [
+        "大数据采集与可视化"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈东猛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7004-a97021",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7004a97021/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7004a97021/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/yywlx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7004-a97021",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC520911030",
+        "SCC522211040"
+      ],
+      "courseNames": [
+        "电磁学",
+        "量子力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6899-a96638",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6899a96638/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6899a96638/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/sjkxytjx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6899-a96638",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC320311031",
+        "SCC322111020",
+        "SCC322611010",
+        "SCC364821025",
+        "SCC366812200"
+      ],
+      "courseNames": [
+        "人工智能数学基础",
+        "并行计算与分布式计算",
+        "心理健康与职业发展（2-2）",
+        "数据科学与大数据技术导论",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈永刚",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6875-a96446",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6875a96446/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6875a96446/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6764/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6875-a96446",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC110112100"
+      ],
+      "courseNames": [
+        "高等数学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "隋宏光",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7065-a96424",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7065a96424/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7065a96424/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6780/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7065-a96424",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710112200"
+      ],
+      "courseNames": [
+        "大学物理实验(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "韩国霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7003-a97152",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7003a97152/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c7003a97152/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6768/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7003-a97152",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC623011010",
+        "SCC623211031",
+        "SCC666112200"
+      ],
+      "courseNames": [
+        "应用光学",
+        "心理健康与职业发展（2-2）",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马秀波",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7080-a96303",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7080a96303/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7080a96303/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7080-a96303",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710112200"
+      ],
+      "courseNames": [
+        "大学物理实验(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马红章",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7060-a96431",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7060a96431/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c7060a96431/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7060-a96431",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710112100",
+        "SCC710112200",
+        "SCC764522100",
+        "SCC764612210"
+      ],
+      "courseNames": [
+        "大学物理实验(2-1)",
+        "大学物理实验(2-2)",
+        "物理与工程实验（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "高永丽",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6962-a130726",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6962a130726/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6962a130726/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6766/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6962-a130726",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC211911020",
+        "SCC321911031"
+      ],
+      "courseNames": [
+        "数据分析与统计软件",
+        "线性代数"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "高理平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6914-a96266",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6914a96266/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6914a96266/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6914-a96266",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC250411020",
+        "SCC251511010"
+      ],
+      "courseNames": [
+        "数学实验",
+        "计算方法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "魏宝君",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6997-a96210",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1018/c6997a96210/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1018/c6997a96210/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/yywlx/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6997-a96210",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC521011040",
+        "SCC665811020"
+      ],
+      "courseNames": [
+        "光的电磁理论",
+        "电动力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "魏淑贤",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c7081-a96310",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7081a96310/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c7081a96310/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6770/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c7081-a96310",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC710112101",
+        "SCC710212200",
+        "SCC764612210"
+      ],
+      "courseNames": [
+        "基础物理实验(2-2)",
+        "大学物理实验(2-1)",
+        "物理与工程实验（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "鲍文娣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sci-c6921-a96225",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6921a96225/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sci.upc.edu.cn/2016/1019/c6921a96225/page.htm",
+        "listUrl": "http://sci.upc.edu.cn/6765/list.htm",
+        "listedUnits": [
+          "理学院"
+        ],
+        "sourceId": "sci-c6921-a96225",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SCC250611021"
+      ],
+      "courseNames": [
+        "空间解析几何"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

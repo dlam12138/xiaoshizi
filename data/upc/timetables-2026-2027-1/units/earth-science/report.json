@@ -1,0 +1,38 @@
+{
+  "slug": "earth-science",
+  "sourceUnit": "地球科学与技术学院",
+  "collegeCode": "upc-01",
+  "status": "active",
+  "sourceDir": "地球科学与技术学院",
+  "rawBlocks": 382,
+  "candidates": 113,
+  "verified": 113,
+  "officialVerified": 108,
+  "timetableVerified": 5,
+  "unresolved": 0,
+  "unresolvedDetails": [],
+  "excludedBlocks": 0,
+  "excludedBlockReasons": {},
+  "coursesRaw": 93,
+  "sourceFile": {
+    "path": "课表/地球科学与技术学院/课表打印.xls",
+    "bytes": 73728,
+    "sha256": "52c36077eab0b31e73788206884c9a62a86d27ff6665babe2f2a5115c97a6c4c",
+    "format": "BIFF8/OLE2",
+    "title": "中国石油大学（华东） 地球科学与技术学院  教研室课表",
+    "term": "2026-2027-1",
+    "sheets": [
+      {
+        "name": "Sheet4",
+        "rows": 9,
+        "cols": 256,
+        "headerRow": 3,
+        "blocks": 382,
+        "anomalies": []
+      }
+    ]
+  },
+  "courses": 93,
+  "offerings": 163,
+  "importFile": "units/earth-science/import.json"
+}

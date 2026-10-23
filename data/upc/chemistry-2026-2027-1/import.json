@@ -1,0 +1,2591 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-chemistry-2026-2027-1-timetable-20261022",
+  "source": "课表打印.xls sha256:64bd913b47aacc0396331aa2b059486af03bc1fb2b7e5de0f7f5fd2da9325ca0; 官方教师页 https://cce.upc.edu.cn/2568/listm.htm",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "cce-c19254-a365302",
+      "name": "丁传芹",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM121611030",
+          "name": "化学反应工程(双语)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a365303",
+      "name": "丁雪",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM110911030",
+          "name": "化工热力学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM111721020",
+          "name": "石油加工概论",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19261-a369373",
+      "name": "严文娟",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM310821010",
+          "name": "实验室安全与环保",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM923631020",
+          "name": "低碳清洁能源与未来",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369226",
+      "name": "于剑峰",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC813111036",
+          "name": "仪器分析",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC830412100",
+          "name": "无机及分析化学实验(2-1)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a369215",
+      "name": "于筱溪",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM110412100",
+          "name": "工程概论(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM111112201",
+          "name": "化工原理(2-2)(双语)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM620311010",
+          "name": "工程伦理（全英文）",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a369216",
+      "name": "于英民",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM122111030",
+          "name": "环境工程原理",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369310",
+      "name": "于道永",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM450711030",
+          "name": "碳捕集及转化原理",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a449795",
+      "name": "任中飞",
+      "title": "特任副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM325711021",
+          "name": "物理性污染控制",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM326121010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM360061020",
+          "name": "碳生态工业",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369292",
+      "name": "何化",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM428941010",
+          "name": "生物信息学与人工智能",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC810611021",
+          "name": "分析化学实验",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC812421020",
+          "name": "现代分析技术",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC830611020",
+          "name": "分析化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369218",
+      "name": "傅惠",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC829611036",
+          "name": "结构化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369221",
+      "name": "冯锡兰",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC811711030",
+          "name": "无机及分析化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC830412100",
+          "name": "无机及分析化学实验(2-1)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a369249",
+      "name": "刘东",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM222211040",
+          "name": "石油化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM223011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a382399",
+      "name": "刘义",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM112011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM310211020",
+          "name": "化工安全与环保",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM321711011",
+          "name": "化工安全导论",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM358911030",
+          "name": "化工防火与防爆",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a365314",
+      "name": "刘会娥",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM110412100",
+          "name": "工程概论(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM121611030",
+          "name": "化学反应工程(双语)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM620311010",
+          "name": "工程伦理（全英文）",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a369281",
+      "name": "刘其友",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM310721020",
+          "name": "生物化学基础",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM323411020",
+          "name": "环境工程微生物学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC850311020",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19260-a369353",
+      "name": "刘大鹏",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC850111025",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC850611035",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a365316",
+      "name": "刘子媛",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM111821020",
+          "name": "数据处理与实验设计",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19259-a369333",
+      "name": "刘宾",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM124821010",
+          "name": "清洁能源技术",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369296",
+      "name": "刘建国",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM310821010",
+          "name": "实验室安全与环保",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a365315",
+      "name": "刘振",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM111112200",
+          "name": "化工原理(2-2)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM120121020",
+          "name": "C1化学与化工",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM120421010",
+          "name": "催化新材料与新型催化剂",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a369279",
+      "name": "刘春爽",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM310721020",
+          "name": "生物化学基础",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM352711010",
+          "name": "环境生态修复技术",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC811711030",
+          "name": "无机及分析化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC830412100",
+          "name": "无机及分析化学实验(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC850111025",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a369210",
+      "name": "刘欣梅",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM112011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM157121020",
+          "name": "催化作用原理（双语）",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a369280",
+      "name": "刘芳",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM325111030",
+          "name": "水污染控制工程",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19068-a360952",
+      "name": "刘金河",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC812212101",
+          "name": "物理化学(2-1)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a446495",
+      "name": "华琪",
+      "title": "特任副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM210121020",
+          "name": "精细化学品化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369238",
+      "name": "卢玉坤",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC821111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC831612101",
+          "name": "无机化学（2-1）",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a369278",
+      "name": "卢磊",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM310112100",
+          "name": "工程概论（2-1）",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM310821010",
+          "name": "实验室安全与环保",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM324821020",
+          "name": "石油工业与环境保护概论",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM325111030",
+          "name": "水污染控制工程",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM359641020",
+          "name": "与地球共生-大学生环保入门",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC850311020",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19067-a360859",
+      "name": "叶天旭",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC812212200",
+          "name": "物理化学(2-2)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19260-a369354",
+      "name": "吕仁庆",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC850111025",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a369261",
+      "name": "吴文婷",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM210121020",
+          "name": "精细化学品化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM221021020",
+          "name": "精细化工工艺学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM223011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a369260",
+      "name": "吴萍萍",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM210221020",
+          "name": "绿色化学与化工导论",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM223231010",
+          "name": "食品添加剂与食品安全",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369247",
+      "name": "周亭",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC812211025",
+          "name": "物理化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369228",
+      "name": "周玉路",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC828911010",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC831211015",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC832012100",
+          "name": "有机化学(2-1)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369306",
+      "name": "夏永清",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC830412100",
+          "name": "无机及分析化学实验(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC850111025",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a369262",
+      "name": "夏薇",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM220331021",
+          "name": "芳香世界",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM220421020",
+          "name": "高分子化学与物理",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM223011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369293",
+      "name": "姜磊",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM110412100",
+          "name": "工程概论(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM310821010",
+          "name": "实验室安全与环保",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM421331020",
+          "name": "生命科学史",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369235",
+      "name": "姜翠玉",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC828911010",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC831211015",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC831311035",
+          "name": "有机化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a450843",
+      "name": "孔德桢",
+      "title": "特任副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM321411030",
+          "name": "固体废物处理与处置工程",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369299",
+      "name": "孙亚伟",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM422031010",
+          "name": "美食中的化学与物理",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM422731010",
+          "name": "色彩中的化学与物理",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM428541020",
+          "name": "生物分离工程",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a369213",
+      "name": "孙兰义",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM112011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a369282",
+      "name": "孙娟",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM310112100",
+          "name": "工程概论（2-1）",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM310321010",
+          "name": "环境保护与可持续发展概论",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC811711030",
+          "name": "无机及分析化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC830412100",
+          "name": "无机及分析化学实验(2-1)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a469725",
+      "name": "孙昭玥",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM326931020",
+          "name": "环境与健康",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM359641020",
+          "name": "与地球共生-大学生环保入门",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19260-a369356",
+      "name": "孙洪满",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC850111025",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a429378",
+      "name": "孟亦飞",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM310821010",
+          "name": "实验室安全与环保",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM320511021",
+          "name": "安全系统工程",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM321711011",
+          "name": "化工安全导论",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM322821020",
+          "name": "化工事故仿真技术",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a365317",
+      "name": "宋春敏",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM111421020",
+          "name": "能量利用过程原理",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369241",
+      "name": "宋林花",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC810721020",
+          "name": "高等有机化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC830811020",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC831211015",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a482990",
+      "name": "宗思宇",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC812211025",
+          "name": "物理化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a428923",
+      "name": "平平",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM321711011",
+          "name": "化工安全导论",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM326221015",
+          "name": "应急技术与管理",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM358911030",
+          "name": "化工防火与防爆",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369233",
+      "name": "张予辉",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC812212201",
+          "name": "物理化学(2-2)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19260-a369363",
+      "name": "张国栋",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC812211030",
+          "name": "物理化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a369286",
+      "name": "张庆冬",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM326831020",
+          "name": "环境保护导论",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM350711021",
+          "name": "环境保护导论",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19259-a369339",
+      "name": "张强",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM120731010",
+          "name": "多彩的晶体世界",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC850111025",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369246",
+      "name": "张洪伟",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC828911010",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC831211015",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a369188",
+      "name": "张海鹏",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM111112200",
+          "name": "化工原理(2-2)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM121711035",
+          "name": "化学工程基础",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19259-a369329",
+      "name": "张金弘",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM455011020",
+          "name": "基本化工设备与选型",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a365321",
+      "name": "张颖",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM111112200",
+          "name": "化工原理(2-2)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM120121010",
+          "name": "C1化学与化工",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369220",
+      "name": "张龙力",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC812212101",
+          "name": "物理化学(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC812611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369231",
+      "name": "彭志华",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC829112101",
+          "name": "有机化学（2-1）",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC830811020",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC830812100",
+          "name": "有机化学实验(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC832012100",
+          "name": "有机化学(2-1)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369308",
+      "name": "徐海",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM420721025",
+          "name": "生物化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM429041020",
+          "name": "生物化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC812611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a482989",
+      "name": "戚建楠",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC811711030",
+          "name": "无机及分析化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC830412100",
+          "name": "无机及分析化学实验(2-1)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369298",
+      "name": "曲剑波",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM420621020",
+          "name": "生物化工基础",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM423931010",
+          "name": "健康生活中的化学奥秘",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM428541020",
+          "name": "生物分离工程",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM459431020",
+          "name": "探秘海洋宝库",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC830412100",
+          "name": "无机及分析化学实验(2-1)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a471122",
+      "name": "曹伟",
+      "title": "特任副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC813711020",
+          "name": "有机化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC828911010",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369290",
+      "name": "曹美文",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM110412100",
+          "name": "工程概论(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM422631010",
+          "name": "宏观、介观与微观",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19260-a369342",
+      "name": "曾景斌",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC821111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC850111025",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a369209",
+      "name": "李传",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM111721020",
+          "name": "石油加工概论",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19259-a369332",
+      "name": "李大伟",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM455011020",
+          "name": "基本化工设备与选型",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369294",
+      "name": "李慧",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM421731020",
+          "name": "微生物与人类",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM459331020",
+          "name": "生命密码的双重奏：人类基因与微生物",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19259-a369331",
+      "name": "李春义",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM112011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a369276",
+      "name": "李石",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM324711010",
+          "name": "石油工业与环境保护概论",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369414",
+      "name": "李静",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM420621020",
+          "name": "生物化工基础",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM422231010",
+          "name": "神奇的海洋生物世界",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM428941010",
+          "name": "生物信息学与人工智能",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM459431020",
+          "name": "探秘海洋宝库",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a369252",
+      "name": "李鹏",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM220421020",
+          "name": "高分子化学与物理",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM223011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369309",
+      "name": "杨丽敏",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM458831020",
+          "name": "绿色“酶”好生活",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC812421020",
+          "name": "现代分析技术",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a369264",
+      "name": "杨修洁",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM223621020",
+          "name": "专业外语",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM256431020",
+          "name": "美丽秘籍——化妆品化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC850111025",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a369214",
+      "name": "杨军卫",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM111421020",
+          "name": "能量利用过程原理",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369232",
+      "name": "杨妲",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC813711020",
+          "name": "有机化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC828911010",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC831211015",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19067-a360853",
+      "name": "杨普江",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC812212101",
+          "name": "物理化学(2-1)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369222",
+      "name": "林旭锋",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC812212101",
+          "name": "物理化学(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC821111010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19259-a369315",
+      "name": "柴永明",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM112011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a365310",
+      "name": "段红玲",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM111112100",
+          "name": "化工原理(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM111112200",
+          "name": "化工原理(2-2)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a369265",
+      "name": "殷长龙",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM256531020",
+          "name": "化学与人类文明",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a420758",
+      "name": "毕佳慧",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC810611021",
+          "name": "分析化学实验",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC820611020",
+          "name": "分析化学实验",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC830611020",
+          "name": "分析化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369245",
+      "name": "温聪颖",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC812421020",
+          "name": "现代分析技术",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19259-a369327",
+      "name": "潘原",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM124821010",
+          "name": "清洁能源技术",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM222921020",
+          "name": "新能源与化学电源",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c2668-a46055",
+      "name": "王万里",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM111112200",
+          "name": "化工原理(2-2)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM121711036",
+          "name": "化学工程基础",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM121911030",
+          "name": "化学工程基础",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM123621020",
+          "name": "天然气处理与加工",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a369283",
+      "name": "王刚",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM326121010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369229",
+      "name": "王创业",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC812212101",
+          "name": "物理化学(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC814021020",
+          "name": "专业外语",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369244",
+      "name": "王子",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC814021020",
+          "name": "专业外语",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC829111030",
+          "name": "有机化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC830811020",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC831211015",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369304",
+      "name": "王小强",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM458831020",
+          "name": "绿色“酶”好生活",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a369259",
+      "name": "王延臻",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM221621020",
+          "name": "润滑油化学与工艺",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM222211040",
+          "name": "石油化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19259-a369325",
+      "name": "王敬贤",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC811711030",
+          "name": "无机及分析化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a398886",
+      "name": "王斌",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM111112201",
+          "name": "化工原理(2-2)(双语)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a369284",
+      "name": "王明",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM310821010",
+          "name": "实验室安全与环保",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a369258",
+      "name": "王晓娟",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM223621020",
+          "name": "专业外语",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM223831010",
+          "name": "化学与服饰",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369230",
+      "name": "王有和",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC811711030",
+          "name": "无机及分析化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369300",
+      "name": "王栋",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC850111025",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c2668-a186919",
+      "name": "王波",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM123011030",
+          "name": "能源化学反应工程",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369243",
+      "name": "王淑涛",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC811512100",
+          "name": "无机化学实验(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC831612101",
+          "name": "无机化学（2-1）",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a484248",
+      "name": "王瑞",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC811512100",
+          "name": "无机化学实验(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC814021020",
+          "name": "专业外语",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC831612101",
+          "name": "无机化学（2-1）",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a429186",
+      "name": "王璞",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM310721020",
+          "name": "生物化学基础",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369302",
+      "name": "王生杰",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM410221020",
+          "name": "生物能源技术",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM421431020",
+          "name": "材料与环境",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM421531020",
+          "name": "生活中的高分子材料",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC810611021",
+          "name": "分析化学实验",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369224",
+      "name": "王秀凤",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC829021042",
+          "name": "物理化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a365318",
+      "name": "王纯正",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM121421021",
+          "name": "化学反应工程",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369301",
+      "name": "王继乾",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM110412100",
+          "name": "工程概论(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM112011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM410221020",
+          "name": "生物能源技术",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19260-a369358",
+      "name": "王芳",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC850111025",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19259-a369317",
+      "name": "田原宇",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM112011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a365383",
+      "name": "白鹏",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM110412100",
+          "name": "工程概论(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM121611030",
+          "name": "化学反应工程(双语)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM620311010",
+          "name": "工程伦理（全英文）",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a369257",
+      "name": "石斌",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM222211040",
+          "name": "石油化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM222521010",
+          "name": "天然气化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a369254",
+      "name": "罗辉",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM221021020",
+          "name": "精细化工工艺学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM221321020",
+          "name": "沥青化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a369273",
+      "name": "耿春香",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM356711030",
+          "name": "环境监测（含实验）",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369307",
+      "name": "肖梓军",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM420221020",
+          "name": "工业微生物",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM421731020",
+          "name": "微生物与人类",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM428441020",
+          "name": "微生物细胞工厂",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19259-a370615",
+      "name": "胡涵",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC812521020",
+          "name": "新能源化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a429096",
+      "name": "葛保胜",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM450711030",
+          "name": "碳捕集及转化原理",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19260-a369345",
+      "name": "董斌",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC811512100",
+          "name": "无机化学实验(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC812521020",
+          "name": "新能源化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC812611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC831612101",
+          "name": "无机化学（2-1）",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a484613",
+      "name": "覃兴龙",
+      "title": "特任副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM111421020",
+          "name": "能量利用过程原理",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19259-a369328",
+      "name": "覃正兴",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OTH921331020",
+          "name": "沟通与写作",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369313",
+      "name": "赵玉荣",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM256431020",
+          "name": "美丽秘籍——化妆品化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM420721025",
+          "name": "生物化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC850111025",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a369207",
+      "name": "赵青山",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM123821020",
+          "name": "新型碳材料",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19259-a369324",
+      "name": "邓文安",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM124021010",
+          "name": "重质油加工技术",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a448991",
+      "name": "邓深圳",
+      "title": "特任副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM222921020",
+          "name": "新能源与化学电源",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC811711030",
+          "name": "无机及分析化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369305",
+      "name": "郗丽君",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM421631010",
+          "name": "微生物世界",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a365311",
+      "name": "郭晓艳",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM111112200",
+          "name": "化工原理(2-2)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM121711035",
+          "name": "化学工程基础",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19259-a370669",
+      "name": "郭海玲",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM120731010",
+          "name": "多彩的晶体世界",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC850111025",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a369251",
+      "name": "郭爱军",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM224131020",
+          "name": "石油化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a365313",
+      "name": "金鑫",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM110412100",
+          "name": "工程概论(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM151521020",
+          "name": "碳足迹及生命周期分析原理",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM620311010",
+          "name": "工程伦理（全英文）",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19256-a369250",
+      "name": "陈坤",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM220331021",
+          "name": "芳香世界",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM222211040",
+          "name": "石油化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a445957",
+      "name": "陈永栋",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM321411030",
+          "name": "固体废物处理与处置工程",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM324321020",
+          "name": "计算机辅助设计",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a365405",
+      "name": "陈爽",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM111112200",
+          "name": "化工原理(2-2)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369291",
+      "name": "陈翠霞",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM429041020",
+          "name": "生物化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "CHM459331020",
+          "name": "生命密码的双重奏：人类基因与微生物",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19254-a365309",
+      "name": "陈金庆",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM111112200",
+          "name": "化工原理(2-2)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369219",
+      "name": "韩成友",
+      "title": "讲师",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC820811025",
+          "name": "高分子化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC828911010",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC831211015",
+          "name": "有机化学实验",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19257-a369274",
+      "name": "顾莹莹",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM325711021",
+          "name": "物理性污染控制",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC850111025",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a369240",
+      "name": "马丽爽",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC811121020",
+          "name": "结构化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c2668-a46014",
+      "name": "马占华",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM121711036",
+          "name": "化学工程基础",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19255-a426574",
+      "name": "马哲",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC811711030",
+          "name": "无机及分析化学",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC830412100",
+          "name": "无机及分析化学实验(2-1)",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a369297",
+      "name": "马洪超",
+      "title": "副教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM421331020",
+          "name": "生命科学史",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC812421020",
+          "name": "现代分析技术",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC830412100",
+          "name": "无机及分析化学实验(2-1)",
+          "collegeCode": "upc-03"
+        },
+        {
+          "code": "SCC850111025",
+          "name": "大学化学",
+          "collegeCode": "upc-03"
+        }
+      ]
+    },
+    {
+      "sourceId": "cce-c19258-a429377",
+      "name": "黄方",
+      "title": "教授",
+      "collegeCode": "upc-03",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CHM112011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-03"
+        }
+      ]
+    }
+  ]
+}

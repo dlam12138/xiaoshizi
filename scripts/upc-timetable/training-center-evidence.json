@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "unit": "石油工业训练中心",
+  "source": "https://sygx.upc.edu.cn/zzjg/list.htm",
+  "evidence": "学校直属教学单位，按照学院级建制；不是 16 个教学院部之一",
+  "centerPages": {
+    "赵玉明": "https://sygx.upc.edu.cn/2025/1203/c19224a480781/page.htm",
+    "荆正军": "https://sygx.upc.edu.cn/2025/1203/c19224a480781/page.htm",
+    "李卓军": "https://sygx.upc.edu.cn/2025/1203/c19224a480781/page.htm",
+    "苑得鑫": "https://sygx.upc.edu.cn/2025/1203/c19224a480781/page.htm"
+  },
+  "noEvidence": [
+    "陈琳"
+  ],
+  "retrievedOn": "2026-10-23",
+  "verifiedProfiles": [
+    {
+      "name": "马建民",
+      "sourceId": "sygx-c19225-a448419",
+      "url": "https://sygx.upc.edu.cn/2024/1210/c19225a448419/page.htm"
+    },
+    {
+      "name": "王淑萍",
+      "sourceId": "sygx-c19224-a498581",
+      "url": "https://sygx.upc.edu.cn/2026/0825/c19224a498581/page.htm",
+      "title": "副教授"
+    },
+    {
+      "name": "刘振东",
+      "sourceId": "sygx-c19224-a491963",
+      "url": "https://sygx.upc.edu.cn/2026/0529/c19224a491963/page.htm"
+    },
+    {
+      "name": "刘冬冬",
+      "sourceId": "sygx-c19224-a497156",
+      "url": "https://sygx.upc.edu.cn/2026/0714/c4379a497156/page.htm"
+    },
+    {
+      "name": "郭卫萍",
+      "sourceId": "sygx-c19224-a480780",
+      "url": "https://sygx.upc.edu.cn/2025/1222/c19224a480780/page.htm"
+    },
+    {
+      "name": "马少华",
+      "sourceId": "sygx-c19226-a449724",
+      "url": "https://sygx.upc.edu.cn/2025/0102/c19226a449724/page.htm"
+    },
+    {
+      "name": "靳纪军",
+      "sourceId": "sygx-c19224-a482539",
+      "url": "https://sygx.upc.edu.cn/2026/0112/c19224a482539/page.htm"
+    },
+    {
+      "name": "李雪琴",
+      "sourceId": "sygx-c19224-a482534",
+      "url": "https://sygx.upc.edu.cn/2026/0112/c19224a482534/page.htm"
+    }
+  ],
+  "httpVerified": "2026-10-23: 8/8 HTTP 200 and name present"
+}

@@ -1,0 +1,2592 @@
+{
+  "schemaVersion": 1,
+  "unit": "石大山能新能源学院",
+  "collegeCode": "upc-07",
+  "candidates": [
+    {
+      "name": "丁斌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a218948",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2019/0927/c15052a218948/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2019/0927/c15052a218948/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a218948",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE210311031",
+        "CNE211511010"
+      ],
+      "courseNames": [
+        "传热学",
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "万娱",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a352670",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2021/1104/c15054a352670/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2021/1104/c15054a352670/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a352670",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE121112200"
+      ],
+      "courseNames": [
+        "过程设备设计(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "严庆增",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a342299",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/0718/c15053a342299/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/0718/c15053a342299/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a342299",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321811010",
+        "CNE325211040"
+      ],
+      "courseNames": [
+        "现代电力电子技术",
+        "电气工程新技术专题"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "仉志华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a301149",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2020/0521/c15053a301149/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2020/0521/c15053a301149/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a301149",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE323611010",
+        "CNE323911030"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "电力工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "代鹏程",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15060-a219643",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2019/1004/c15060a219643/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2019/1004/c15060a219643/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/gdrc/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15060-a219643",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE422011010",
+        "CNE422111010",
+        "CNE428821020",
+        "CNE434511040"
+      ],
+      "courseNames": [
+        "储能化学基础（1）",
+        "储能原理与技术",
+        "学科前沿知识专题讲座",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "任晓",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a344781",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2021/0906/c15052a344781/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2021/0906/c15052a344781/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a344781",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE211511010",
+        "CNE223821020",
+        "CNE234411020"
+      ],
+      "courseNames": [
+        "太阳能热利用原理与技术",
+        "学科前沿知识专题讲座",
+        "新能源技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "冯兴田",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a320445",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2020/1030/c15053a320445/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2020/1030/c15053a320445/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a320445",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321011030"
+      ],
+      "courseNames": [
+        "电力拖动自动控制系统"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "冯洪庆",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a348731",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/1015/c15052a348731/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/1015/c15052a348731/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a348731",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE210311031",
+        "CNE211411010"
+      ],
+      "courseNames": [
+        "传热学",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘丹丹",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c18561-a219642",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2019/1004/c18561a219642/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2019/1004/c18561a219642/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c18561-a219642",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE211021020",
+        "CNE422321020",
+        "CNE431511020"
+      ],
+      "courseNames": [
+        "储能化学基础（2）",
+        "制氢工艺与技术",
+        "洁净煤技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘兆增",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a214234",
+      "title": "高级工程师",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2017/0228/c15054a214234/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2017/0228/c15054a214234/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a214234",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE121011025"
+      ],
+      "courseNames": [
+        "过程流体机械"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘安源",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a218936",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2019/0927/c15052a218936/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2019/0927/c15052a218936/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a218936",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE210311032",
+        "CNE226111025"
+      ],
+      "courseNames": [
+        "传热学",
+        "燃烧与污染控制"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周凡",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a345997",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2021/0922/c15054a345997/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2021/0922/c15054a345997/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a345997",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE122211020"
+      ],
+      "courseNames": [
+        "化工设备设计基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周昌静",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a352660",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2021/1104/c15054a352660/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2021/1104/c15054a352660/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a352660",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE120311020",
+        "CNE136321020"
+      ],
+      "courseNames": [
+        "泵与压缩机"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "国亚东",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a352656",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2021/1104/c15054a352656/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2021/1104/c15054a352656/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a352656",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE122211020"
+      ],
+      "courseNames": [
+        "化工设备设计基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姜烨",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a354439",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2021/1117/c15052a354439/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2021/1117/c15052a354439/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a354439",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE210621030",
+        "CNE211021020"
+      ],
+      "courseNames": [
+        "工程热力学",
+        "洁净煤技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙治谦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a352672",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/1104/c15054a352672/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/1104/c15054a352672/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a352672",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE110611010",
+        "CNE112512200",
+        "CNE122812200",
+        "CNE136411015"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "心理健康与职业发展（2-2）",
+        "环保设备设计(2-2)",
+        "装备制造工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙鑫晖",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a352666",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/1104/c15054a352666/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/1104/c15054a352666/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a352666",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE123411021",
+        "CNE124411020"
+      ],
+      "courseNames": [
+        "控制工程基础",
+        "现代测控仪表"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孟庆伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a219644",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2019/1004/c15053a219644/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2019/1004/c15053a219644/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a219644",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321811010",
+        "CNE323911030"
+      ],
+      "courseNames": [
+        "电力工程基础",
+        "电气工程新技术专题"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宿嘉磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a460689",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2025/0426/c15053a460689/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2025/0426/c15053a460689/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a460689",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321711035",
+        "CNE321811010",
+        "CNE339512100"
+      ],
+      "courseNames": [
+        "电气工程新技术专题",
+        "电路与电子技术（2-1）",
+        "电路分析"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "左海强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a352663",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/1104/c15054a352663/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/1104/c15054a352663/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a352663",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE121112200",
+        "CNE123411021"
+      ],
+      "courseNames": [
+        "控制工程基础",
+        "过程设备设计(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "巩亮",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a315944",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2020/0910/c15052a315944/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2020/0910/c15052a315944/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a315944",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE211411010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "康伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a342298",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2021/0718/c15053a342298/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2021/0718/c15053a342298/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a342298",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321121020",
+        "CNE323911030"
+      ],
+      "courseNames": [
+        "电力工程基础",
+        "电力系统仿真与分析"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张丽霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a213969",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2019/0806/c15053a213969/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2019/0806/c15053a213969/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a213969",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE323021020",
+        "CNE323911030"
+      ],
+      "courseNames": [
+        "柔性输配电技术",
+        "电力工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a354436",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2021/1117/c15052a354436/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2021/1117/c15052a354436/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a354436",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE232711040"
+      ],
+      "courseNames": [
+        "新能源热力发电原理及系统"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张克舫",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a218927",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2019/0927/c15052a218927/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2019/0927/c15052a218927/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a218927",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE210311032",
+        "CNE232711040"
+      ],
+      "courseNames": [
+        "传热学",
+        "新能源热力发电原理及系统"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张兰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a226900",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2019/1121/c15054a226900/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2019/1121/c15054a226900/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a226900",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE123411021"
+      ],
+      "courseNames": [
+        "控制工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张松",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a214237",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2017/0228/c15054a214237/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2017/0228/c15054a214237/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a214237",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE125231022"
+      ],
+      "courseNames": [
+        "微型啤酒精酿技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张梦迪",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c18561-a224981",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2019/1109/c18561a224981/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2019/1109/c18561a224981/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/gdrc/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c18561-a224981",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE420321021",
+        "CNE420621020",
+        "CNE421311021"
+      ],
+      "courseNames": [
+        "化学电源技术",
+        "新型碳材料",
+        "电化学原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张玉财",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a342308",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/0718/c15054a342308/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/0718/c15054a342308/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a342308",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE122211020"
+      ],
+      "courseNames": [
+        "化工设备设计基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a213970",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2019/0806/c15053a213970/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2019/0806/c15053a213970/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a213970",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321711035"
+      ],
+      "courseNames": [
+        "电路分析"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张立强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a226508",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2019/1120/c15052a226508/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2019/1120/c15052a226508/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/gdrc/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a226508",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE211511010",
+        "CNE223821020",
+        "CNE227321021",
+        "CNE232711040"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新能源技术",
+        "新能源热力发电原理及系统",
+        "生物质热化学转化原理与技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张龙龙",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a369442",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2022/0325/c15053a369442/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2022/0325/c15053a369442/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/gdrc/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a369442",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321011030",
+        "CNE324011040"
+      ],
+      "courseNames": [
+        "现代电机控制系统",
+        "电力拖动自动控制系统"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐文刚",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15060-a310539",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2020/0724/c15060a310539/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2020/0724/c15060a310539/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15060-a310539",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE434511040"
+      ],
+      "courseNames": [
+        "储能化学基础（1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐海亮",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a345743",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/0917/c15053a345743/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_profile_alias_merged",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/0917/c15053a345743/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/gdrc/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a345743",
+        "aliasSourceIds": [
+          "ne-c15053-a213973"
+        ],
+        "aliasUrls": [
+          "http://ne.upc.edu.cn/2019/0806/c15053a213973/page.htm"
+        ]
+      },
+      "courseCodes": [
+        "CNE323321020",
+        "CNE323611010"
+      ],
+      "courseNames": [
+        "微电网分析与控制",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱明晓",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a342294",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/0718/c15053a342294/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/0718/c15053a342294/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a342294",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321811010",
+        "CNE323821020"
+      ],
+      "courseNames": [
+        "专业英语",
+        "电气工程新技术专题"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱晓丽",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a342310",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/0718/c15054a342310/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/0718/c15054a342310/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a342310",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE128312200"
+      ],
+      "courseNames": [
+        "流体力学(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a352673",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2021/1104/c15054a352673/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2021/1104/c15054a352673/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a352673",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE110511010",
+        "CNE121011025",
+        "CNE131811020"
+      ],
+      "courseNames": [
+        "工程流体力学",
+        "新生研讨课",
+        "过程流体机械"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李禹彤",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c18561-a352675",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/1104/c18561a352675/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/1104/c18561a352675/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/gdrc/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c18561-a352675",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE420321021",
+        "CNE422011010",
+        "CNE422111010",
+        "CNE438812200"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "心理健康与职业发展（2-2）",
+        "新生研讨课",
+        "电化学原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李良军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c18561-a352607",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/1104/c18561a352607/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/1104/c18561a352607/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c18561-a352607",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE421111020",
+        "CNE421511021"
+      ],
+      "courseNames": [
+        "工程概论",
+        "氢能技术与应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a213981",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2019/0806/c15053a213981/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2019/0806/c15053a213981/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a213981",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321811010",
+        "CNE323821020",
+        "CNE325211040"
+      ],
+      "courseNames": [
+        "专业英语",
+        "现代电力电子技术",
+        "电气工程新技术专题"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨正大",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a327884",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/0210/c15052a327884/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/0210/c15052a327884/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a327884",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE210411021",
+        "CNE211511010",
+        "CNE211721020"
+      ],
+      "courseNames": [
+        "专业外语",
+        "学科前沿知识专题讲座",
+        "工程概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨滨",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a342304",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2021/0718/c15054a342304/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2021/0718/c15054a342304/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a342304",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE110511010",
+        "CNE121112200",
+        "CNE122211020"
+      ],
+      "courseNames": [
+        "化工设备设计基础",
+        "新生研讨课",
+        "过程设备设计(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "林日亿",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a324969",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2020/1211/c15052a324969/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_profile_alias_merged",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2020/1211/c15052a324969/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a324969",
+        "aliasSourceIds": [
+          "ne-c15052-a220424"
+        ],
+        "aliasUrls": [
+          "http://ne.upc.edu.cn/2019/1011/c15052a220424/page.htm"
+        ]
+      },
+      "courseCodes": [
+        "CNE211411010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "段欣悦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a218945",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2019/0927/c15052a218945/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2019/0927/c15052a218945/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a218945",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE210311032"
+      ],
+      "courseNames": [
+        "传热学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "殷英",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a450262",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2025/0110/c15052a450262/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2025/0110/c15052a450262/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a450262",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE210411021",
+        "CNE211511010",
+        "CNE223821020"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "工程概论",
+        "新能源技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王君",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a347947",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2021/1011/c15054a347947/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2021/1011/c15054a347947/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a347947",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE110511010",
+        "CNE110611010",
+        "CNE121011025"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新生研讨课",
+        "过程流体机械"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王宗明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a352669",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/1104/c15054a352669/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/1104/c15054a352669/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a352669",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE121011025"
+      ],
+      "courseNames": [
+        "过程流体机械"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王建军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a331949",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/0406/c15054a331949/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/0406/c15054a331949/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a331949",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE121112200",
+        "CNE131811020"
+      ],
+      "courseNames": [
+        "工程流体力学",
+        "过程设备设计(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王振波",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a214228",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2017/0228/c15054a214228/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2017/0228/c15054a214228/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a214228",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE110511010",
+        "CNE110611010",
+        "CNE121011025",
+        "CNE122812200"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新生研讨课",
+        "环保设备设计(2-2)",
+        "过程流体机械"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王文冉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c18561-a449977",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2025/0106/c18561a449977/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2025/0106/c18561a449977/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c18561-a449977",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE421111020"
+      ],
+      "courseNames": [
+        "工程概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王旻",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c18561-a364939",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2022/0319/c18561a364939/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2022/0319/c18561a364939/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c18561-a364939",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE422011010",
+        "CNE422111010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王永军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a213975",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2019/0806/c15053a213975/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2019/0806/c15053a213975/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a213975",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE320321020",
+        "CNE321921026"
+      ],
+      "courseNames": [
+        "电动钻机电气控制技术",
+        "电气控制及可编程控制技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王照亮",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a354438",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/1117/c15052a354438/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/1117/c15052a354438/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a354438",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE211411010",
+        "CNE223621010"
+      ],
+      "courseNames": [
+        "先进热管理技术",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王玉彬",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a344885",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/0907/c15053a344885/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/0907/c15053a344885/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a344885",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE323611010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王胜军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a352661",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2021/1104/c15054a352661/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2021/1104/c15054a352661/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a352661",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE110611010",
+        "CNE120311020",
+        "CNE136321020"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "泵与压缩机"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王胜昆",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a411945",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2023/0918/c15054a411945/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2023/0918/c15054a411945/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a411945",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE121112200"
+      ],
+      "courseNames": [
+        "过程设备设计(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王阳",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-07-001",
+      "title": null,
+      "collegeCode": "upc-07",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "石大山能新能源学院",
+        "sourceFile": "课表/石大山能新能源学院/课表打印.xls",
+        "sourceSha256": "e2a5f0d386bbfd55fe2e0661c6b0697e7e47284693349477c326a66f4ed96465",
+        "rawNames": [
+          "王阳"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "CNE431511020"
+      ],
+      "courseNames": [
+        "储能化学基础（2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "白章",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a301580",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2020/0527/c15052a301580/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2020/0527/c15052a301580/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a301580",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE210411021",
+        "CNE211511010",
+        "CNE223821020",
+        "CNE234411020"
+      ],
+      "courseNames": [
+        "太阳能热利用原理与技术",
+        "学科前沿知识专题讲座",
+        "工程概论",
+        "新能源技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "秦政",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-07-002",
+      "title": null,
+      "collegeCode": "upc-07",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "石大山能新能源学院",
+        "sourceFile": "课表/石大山能新能源学院/课表打印.xls",
+        "sourceSha256": "e2a5f0d386bbfd55fe2e0661c6b0697e7e47284693349477c326a66f4ed96465",
+        "rawNames": [
+          "秦政"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "CNE112512200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "章大海",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a342312",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/0718/c15054a342312/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/0718/c15054a342312/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a342312",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE110611010",
+        "CNE128312200",
+        "CNE136321020"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "泵与压缩机",
+        "流体力学(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "翟俊义",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a382398",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2022/0819/c15053a382398/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2022/0819/c15053a382398/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a382398",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321811010",
+        "CNE323721020"
+      ],
+      "courseNames": [
+        "智能电网导论",
+        "电气工程新技术专题"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "脱永笑",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c18561-a363122",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2022/0301/c18561a363122/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2022/0301/c18561a363122/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/gdrc/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c18561-a363122",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE421511021",
+        "CNE422111010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "氢能技术与应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "苑昆鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a410616",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2023/0901/c15052a410616/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2023/0901/c15052a410616/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a410616",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE211511010",
+        "CNE223621010"
+      ],
+      "courseNames": [
+        "先进热管理技术",
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "葛平娟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a391062",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2022/1201/c15053a391062/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2022/1201/c15053a391062/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a391062",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321811010",
+        "CNE323321020"
+      ],
+      "courseNames": [
+        "微电网分析与控制",
+        "电气工程新技术专题"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "董磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a213991",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2019/0806/c15053a213991/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2019/0806/c15053a213991/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a213991",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321921026"
+      ],
+      "courseNames": [
+        "电气控制及可编程控制技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "蒋文春",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a214243",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2017/0228/c15054a214243/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2017/0228/c15054a214243/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/gdrc/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a214243",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE110611010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "薛松",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-07-003",
+      "title": null,
+      "collegeCode": "upc-07",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "石大山能新能源学院",
+        "sourceFile": "课表/石大山能新能源学院/课表打印.xls",
+        "sourceSha256": "e2a5f0d386bbfd55fe2e0661c6b0697e7e47284693349477c326a66f4ed96465",
+        "rawNames": [
+          "薛松"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "CNE420321021",
+        "CNE422011010",
+        "CNE422111010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新生研讨课",
+        "电化学原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "许康",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a218931",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2019/0927/c15052a218931/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2019/0927/c15052a218931/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a218931",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE210411021",
+        "CNE210711036"
+      ],
+      "courseNames": [
+        "工程概论",
+        "工程热力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵东亚",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a346913",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/0929/c15054a346913/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/0929/c15054a346913/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/gdrc/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a346913",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE110511010",
+        "CNE110611010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵延灵",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a332696",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2021/0414/c15054a332696/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2021/0414/c15054a332696/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a332696",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE136411015"
+      ],
+      "courseNames": [
+        "装备制造工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵晨辰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a481441",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2025/1229/c15053a481441/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2025/1229/c15053a481441/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a481441",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321811010",
+        "CNE323821020"
+      ],
+      "courseNames": [
+        "专业英语",
+        "电气工程新技术专题"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭晓静",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-07-004",
+      "title": null,
+      "collegeCode": "upc-07",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "石大山能新能源学院",
+        "sourceFile": "课表/石大山能新能源学院/课表打印.xls",
+        "sourceSha256": "e2a5f0d386bbfd55fe2e0661c6b0697e7e47284693349477c326a66f4ed96465",
+        "rawNames": [
+          "郭晓静"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "CNE112512200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈荣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a213992",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2019/0806/c15053a213992/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2019/0806/c15053a213992/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a213992",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321011030",
+        "CNE323111020"
+      ],
+      "courseNames": [
+        "电力拖动自动控制系统",
+        "石油石化电气节能技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "韩昕璐",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a354440",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/1117/c15052a354440/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/1117/c15052a354440/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/gdrc/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a354440",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE211511010",
+        "CNE222621020"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "燃气轮机与联合循环"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "顾鑫",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c18561-a354441",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2021/1117/c18561a354441/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2021/1117/c18561a354441/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c18561-a354441",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE421311021",
+        "CNE422111010"
+      ],
+      "courseNames": [
+        "化学电源技术",
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马文忠",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a213978",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2019/0806/c15053a213978/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2019/0806/c15053a213978/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/gdrc/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a213978",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE323611010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马永",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a218935",
+      "title": "讲师",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2019/0927/c15052a218935/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2019/0927/c15052a218935/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a218935",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE229012101"
+      ],
+      "courseNames": [
+        "热力学（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "骆浩冉",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-07-005",
+      "title": null,
+      "collegeCode": "upc-07",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "石大山能新能源学院",
+        "sourceFile": "课表/石大山能新能源学院/课表打印.xls",
+        "sourceSha256": "e2a5f0d386bbfd55fe2e0661c6b0697e7e47284693349477c326a66f4ed96465",
+        "rawNames": [
+          "骆浩冉"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "CNE438812200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "高春侠",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15053-a219647",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2019/1004/c15053a219647/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2019/1004/c15053a219647/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15053-a219647",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE321711035",
+        "CNE322521020",
+        "CNE339512100"
+      ],
+      "courseNames": [
+        "电路与电子技术（2-1）",
+        "电路分析",
+        "高等电路分析"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黄善波",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15052-a218940",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "https://ne.upc.edu.cn/2019/0927/c15052a218940/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://ne.upc.edu.cn/2019/0927/c15052a218940/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15052-a218940",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE210311032"
+      ],
+      "courseNames": [
+        "传热学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "齐建涛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ne-c15054-a342315",
+      "title": "副教授",
+      "collegeCode": "upc-07",
+      "profileUrl": "http://ne.upc.edu.cn/2021/0718/c15054a342315/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ne.upc.edu.cn/2021/0718/c15054a342315/page.htm",
+        "listUrl": "http://ne.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "石大山能新能源学院"
+        ],
+        "sourceId": "ne-c15054-a342315",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "CNE124011021"
+      ],
+      "courseNames": [
+        "环境工程材料"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

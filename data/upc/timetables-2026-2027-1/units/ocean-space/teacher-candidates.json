@@ -1,0 +1,2221 @@
+{
+  "schemaVersion": 1,
+  "unit": "海洋与空间信息学院",
+  "collegeCode": "upc-08",
+  "candidates": [
+    {
+      "name": "丁淑妍",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a224960",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224960/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224960/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15436-a224960",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI224821020",
+        "OSI232111020"
+      ],
+      "courseNames": [
+        "数字系统综合实践",
+        "通信原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "万勇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a225007",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225007/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225007/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a225007",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI322421020"
+      ],
+      "courseNames": [
+        "数据采集系统"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "任旭虎",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a225320",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1112/c15435a225320/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1112/c15435a225320/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院",
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a225320",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI323511010",
+        "OSI325811030"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "模拟电子技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "任鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a225590",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1113/c15435a225590/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1113/c15435a225590/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a225590",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI321311025",
+        "OSI323511010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "高频电子线路"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "何亚文",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a448604",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2024/1218/c15434a448604/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_profile_alias_merged",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2024/1218/c15434a448604/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a448604",
+        "aliasSourceIds": [
+          "ocean-c15434-a224909"
+        ],
+        "aliasUrls": [
+          "https://ocean.upc.edu.cn/2019/1108/c15434a224909/page.htm"
+        ]
+      },
+      "courseCodes": [
+        "OSI111611010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘善伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224976",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15434a224976/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15434a224976/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224976",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI111611010",
+        "OSI121011020",
+        "OSI504411021",
+        "OSI505811014"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "数字地形测量学",
+        "新生研讨课",
+        "测量学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘瑞娟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224975",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15434a224975/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15434a224975/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224975",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI120121021"
+      ],
+      "courseNames": [
+        "GIS空间分析"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "卢晓轩",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a224964",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224964/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224964/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15436-a224964",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI222911041",
+        "OSI223421020"
+      ],
+      "courseNames": [
+        "卫星通信",
+        "通信原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吕新荣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a228022",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1127/c15435a228022/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1127/c15435a228022/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a228022",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI323911010",
+        "OSI324411021",
+        "OSI325211030",
+        "OSI325411026"
+      ],
+      "courseNames": [
+        "FPGA系统设计",
+        "学科前沿知识专题讲座",
+        "数字电子技术",
+        "电路理论基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴会胜",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a226731",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1121/c15434a226731/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1121/c15434a226731/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a226731",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI111611010",
+        "OSI120421020",
+        "OSI120421021",
+        "OSI122211020",
+        "OSI127721020",
+        "OSI236511020"
+      ],
+      "courseNames": [
+        "GIS应用开发",
+        "学科前沿知识专题讲座",
+        "工程概论",
+        "无人机原理与构造"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴琼",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a308936",
+      "title": "实验师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2020/0706/c15435a308936/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2020/0706/c15435a308936/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a308936",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI320611027"
+      ],
+      "courseNames": [
+        "程序设计（C/C++）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周卫东",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a225008",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225008/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225008/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a225008",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI323511010",
+        "OSI325211030",
+        "OSI331821020",
+        "OSI334912200"
+      ],
+      "courseNames": [
+        "信号处理仿真",
+        "心理健康与职业发展（2-2）",
+        "新生研讨课",
+        "电路理论基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周飞",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-08-001",
+      "title": null,
+      "collegeCode": "upc-08",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "海洋与空间信息学院",
+        "sourceFile": "课表/海洋与空间信息学院/课表打印.xls",
+        "sourceSha256": "c1743632b288532fd72e513a5f8abd68bbb23b728130821d8694e95a1b9495fc",
+        "rawNames": [
+          "周飞"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "OSI323911010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a225004",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225004/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225004/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a225004",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI323511010",
+        "OSI323911010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姜斌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a384822",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2022/0922/c15436a384822/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2022/0922/c15436a384822/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15436-a384822",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI224321015"
+      ],
+      "courseNames": [
+        "通信系统仿真技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姬生月",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224915",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224915/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224915/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224915",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI120521021"
+      ],
+      "courseNames": [
+        "GNSS测量数据处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙伟峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a225003",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225003/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225003/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a225003",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI310111046",
+        "OSI323511010"
+      ],
+      "courseNames": [
+        "微机原理",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙根云",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224792",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1107/c15434a224792/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1107/c15434a224792/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院",
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224792",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI504311026",
+        "OSI505811014"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "遥感数字图像处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "安聪荣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224925",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224925/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224925/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224925",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI122921031",
+        "OSI129821020"
+      ],
+      "courseNames": [
+        "国土空间规划",
+        "空间数据库"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋冬梅",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a228571",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1202/c15434a228571/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1202/c15434a228571/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a228571",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI111011026",
+        "OSI505811014"
+      ],
+      "courseNames": [
+        "数字图像处理",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋华军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a225005",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225005/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225005/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a225005",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI322121021",
+        "OSI322811030"
+      ],
+      "courseNames": [
+        "嵌入式系统设计",
+        "数字信号处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a225622",
+      "title": "研究员",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1113/c15434a225622/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1113/c15434a225622/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a225622",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI111611010",
+        "OSI505811014"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张爱竹",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224913",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224913/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224913/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224913",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI504311026"
+      ],
+      "courseNames": [
+        "遥感数字图像处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张锡岭",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a224972",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224972/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224972/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15436-a224972",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI220221021",
+        "OSI221211030",
+        "OSI226021020",
+        "OSI400111013"
+      ],
+      "courseNames": [
+        "FPGA设计与应用",
+        "新生研讨课",
+        "移动互联网实践",
+        "计算机网络"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "彭秀英",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a226585",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1120/c15434a226585/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1120/c15434a226585/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a226585",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI112021020",
+        "OSI132711020"
+      ],
+      "courseNames": [
+        "专业外语",
+        "地图制图学基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曲晓俊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a225014",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225014/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225014/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a225014",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI320611027",
+        "OSI324611020"
+      ],
+      "courseNames": [
+        "信息论基础",
+        "程序设计（C/C++）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曾喆",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224922",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224922/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224922/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224922",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI124121021"
+      ],
+      "courseNames": [
+        "位置服务概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李世宝",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a224963",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224963/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224963/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15436-a224963",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI220411028",
+        "OSI221211030",
+        "OSI222911041",
+        "OSI400111013"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "程序设计（C/C++）",
+        "计算机网络",
+        "通信原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李东阳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a411995",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2023/0918/c15436a411995/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2023/0918/c15436a411995/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15436-a411995",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI221211030",
+        "OSI236221025"
+      ],
+      "courseNames": [
+        "Python程序设计",
+        "计算机网络"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李国胜",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224910",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224910/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224910/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224910",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI111011026",
+        "OSI122721020",
+        "OSI505911033"
+      ],
+      "courseNames": [
+        "开源GIS设计与开发",
+        "数字图像处理",
+        "程序设计（C/C++）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李彤",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a499517",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2026/0910/c15436a499517/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2026/0910/c15436a499517/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15436-a499517",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI221211030"
+      ],
+      "courseNames": [
+        "计算机网络"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李忠伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a225588",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1113/c15436a225588/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1113/c15436a225588/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15436-a225588",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI223611010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李永",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a308395",
+      "title": "高级实验师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2020/0702/c15436a308395/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2020/0702/c15436a308395/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15436-a308395",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI220411028",
+        "OSI223321030"
+      ],
+      "courseNames": [
+        "微机原理",
+        "程序设计（C/C++）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a412180",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2023/0920/c15436a412180/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2023/0920/c15436a412180/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "地球科学与技术学院",
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15436-a412180",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI228621020"
+      ],
+      "courseNames": [
+        "无线通信原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李莉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a225012",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225012/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_course_assignment",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225012/page.htm",
+        "sourceId": "ocean-c15435-a225012",
+        "sameNameEvidence": {
+          "relation": "distinct_persons",
+          "profiles": [
+            {
+              "sourceId": "ocean-c15435-a225012",
+              "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225012/page.htm",
+              "department": "电子信息工程系",
+              "mainCourses": [
+                "数字信号处理",
+                "模式识别",
+                "微机原理",
+                "Linux应用"
+              ],
+              "courseMatch": [
+                "OSI322811030"
+              ]
+            },
+            {
+              "sourceId": "ocean-c15436-a224962",
+              "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224962/page.htm",
+              "department": "通信工程系",
+              "mainCourses": [
+                "信息论与编码",
+                "光纤通信",
+                "数字逻辑电路",
+                "通信电子实习",
+                "移动通信",
+                "通信网理论"
+              ],
+              "courseMatch": []
+            }
+          ],
+          "decision": "数字信号处理按官方主讲课程归 c15435；离散数学按通信班/系所与研究方向暂定 c15436。该判断为 inferred、可纠正，官方页面没有明确列出离散数学。"
+        },
+        "courseProvenance": [
+          {
+            "courseCodes": [
+              "OSI322811030"
+            ],
+            "method": "official_main_course",
+            "confidence": "high",
+            "officialConfirmation": true,
+            "correctable": false,
+            "basis": [],
+            "evidence": null,
+            "alternativeSourceId": null
+          }
+        ]
+      },
+      "courseCodes": [
+        "OSI322811030"
+      ],
+      "courseNames": [
+        "数字信号处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李莉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a224962",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224962/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_course_assignment",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224962/page.htm",
+        "sourceId": "ocean-c15436-a224962",
+        "sameNameEvidence": {
+          "relation": "distinct_persons",
+          "profiles": [
+            {
+              "sourceId": "ocean-c15435-a225012",
+              "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225012/page.htm",
+              "department": "电子信息工程系",
+              "mainCourses": [
+                "数字信号处理",
+                "模式识别",
+                "微机原理",
+                "Linux应用"
+              ],
+              "courseMatch": [
+                "OSI322811030"
+              ]
+            },
+            {
+              "sourceId": "ocean-c15436-a224962",
+              "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224962/page.htm",
+              "department": "通信工程系",
+              "mainCourses": [
+                "信息论与编码",
+                "光纤通信",
+                "数字逻辑电路",
+                "通信电子实习",
+                "移动通信",
+                "通信网理论"
+              ],
+              "courseMatch": []
+            }
+          ],
+          "decision": "数字信号处理按官方主讲课程归 c15435；离散数学按通信班/系所与研究方向暂定 c15436。该判断为 inferred、可纠正，官方页面没有明确列出离散数学。"
+        },
+        "courseProvenance": [
+          {
+            "courseCodes": [
+              "OSI225711020"
+            ],
+            "method": "research_direction_plus_timetable_cohort",
+            "confidence": "medium",
+            "officialConfirmation": false,
+            "correctable": true,
+            "basis": [
+              "all six timetable blocks are for 通信2501/2502/2503 classes",
+              "canonical profile c15436 is 通信工程系; c15435 is 电子信息工程系",
+              "c15436 research is wireless resource optimization and ad-hoc communication networks",
+              "c15435 research/main courses are ML, pattern recognition, microcomputer and Linux",
+              "离散数学 is a communication-program foundational course; the cohort/department evidence is stronger than generic subject similarity"
+            ],
+            "evidence": {
+              "classCohorts": [
+                "通信2501",
+                "通信2502",
+                "通信2503"
+              ],
+              "sourceBlocks": 6,
+              "profileDepartment": "通信工程系",
+              "profileMainCourses": [
+                "信息论与编码",
+                "光纤通信",
+                "数字逻辑电路",
+                "通信电子实习",
+                "移动通信",
+                "通信网理论"
+              ],
+              "profileResearch": [
+                "无线资源优化",
+                "无人机无人船自动组网通信"
+              ]
+            },
+            "alternativeSourceId": "ocean-c15435-a225012"
+          }
+        ]
+      },
+      "courseCodes": [
+        "OSI225711020"
+      ],
+      "courseNames": [
+        "离散数学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李连伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224912",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224912/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224912/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224912",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI111611010",
+        "OSI121421031"
+      ],
+      "courseNames": [
+        "地理建模原理与方法",
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨华",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-08-002",
+      "title": null,
+      "collegeCode": "upc-08",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "海洋与空间信息学院",
+        "sourceFile": "课表/海洋与空间信息学院/课表打印.xls",
+        "sourceSha256": "c1743632b288532fd72e513a5f8abd68bbb23b728130821d8694e95a1b9495fc",
+        "rawNames": [
+          "杨华"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "OSI320321020",
+        "OSI320611027"
+      ],
+      "courseNames": [
+        "Python语言程序设计",
+        "程序设计（C/C++）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨雪",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a471376",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2025/0919/c15434a471376/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2025/0919/c15434a471376/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a471376",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI504511020"
+      ],
+      "courseNames": [
+        "遥感程序设计基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王冠雅",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a435001",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2024/0626/c15435a435001/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2024/0626/c15435a435001/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a435001",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI320321020",
+        "OSI323911010",
+        "OSI332521020"
+      ],
+      "courseNames": [
+        "Python语言程序设计",
+        "学科前沿知识专题讲座",
+        "数字图像处理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王振杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224791",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1107/c15434a224791/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1107/c15434a224791/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224791",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI111611010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王斌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a228013",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1127/c15434a228013/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1127/c15434a228013/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a228013",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI111011026",
+        "OSI504511020"
+      ],
+      "courseNames": [
+        "数字图像处理",
+        "遥感程序设计基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王武礼",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a225142",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1111/c15435a225142/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1111/c15435a225142/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a225142",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI320611027"
+      ],
+      "courseNames": [
+        "程序设计（C/C++）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王海起",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224914",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224914/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224914/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224914",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI111611010",
+        "OSI121911031",
+        "OSI134511030",
+        "OSI505711020"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "程序设计（C/C++）",
+        "空间数据库",
+        "高级程序设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "白依宁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a417968",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2023/1208/c15436a417968/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2023/1208/c15436a417968/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15436-a417968",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI220411028"
+      ],
+      "courseNames": [
+        "程序设计（C/C++）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "白永良",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224921",
+      "title": "教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224921/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224921/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224921",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI111511010",
+        "OSI111611010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "盛辉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224911",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224911/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224911/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224911",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI130211030"
+      ],
+      "courseNames": [
+        "摄影测量学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "石钰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a470361",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2025/0908/c15435a470361/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2025/0908/c15435a470361/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a470361",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI323911010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "聂志喜",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a323709",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2020/1201/c15434a323709/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2020/1201/c15434a323709/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a323709",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI111611010",
+        "OSI112511030",
+        "OSI123621021",
+        "OSI136611020",
+        "OSI137911025"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "实用测量数据处理方法",
+        "无人机核心技能课程",
+        "空间数据误差处理",
+        "误差理论与测量平差基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "臧建飞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a384468",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2022/0919/c15434a384468/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2022/0919/c15434a384468/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a384468",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI111611010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "舒若",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a224970",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224970/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224970/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15436-a224970",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI222411031"
+      ],
+      "courseNames": [
+        "通信电子线路"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "苗翔鹰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a408511",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2023/0718/c15435a408511/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2023/0718/c15435a408511/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a408511",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI323711035",
+        "OSI323911010"
+      ],
+      "courseNames": [
+        "信号与系统",
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "范士杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a226584",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1120/c15434a226584/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1120/c15434a226584/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a226584",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI122511020"
+      ],
+      "courseNames": [
+        "海洋测绘"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "董超群",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a225010",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225010/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225010/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a225010",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI314621020",
+        "OSI325411026"
+      ],
+      "courseNames": [
+        "数字电子技术",
+        "数据库技术与应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "许明明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224919",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224919/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224919/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224919",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI123921021"
+      ],
+      "courseNames": [
+        "数字摄影测量"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵健",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224923",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224923/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224923/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224923",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI110911020"
+      ],
+      "courseNames": [
+        "数字地形测量学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵爽",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a441392",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2024/0929/c15434a441392/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2024/0929/c15434a441392/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a441392",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI112511030",
+        "OSI124021021"
+      ],
+      "courseNames": [
+        "水下导航定位技术",
+        "误差理论与测量平差基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郑红霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224908",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224908/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224908/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224908",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI121011020",
+        "OSI504411021"
+      ],
+      "courseNames": [
+        "数字地形测量学",
+        "测量学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "闫秋双",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a326534",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2020/1231/c15436a326534/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2020/1231/c15436a326534/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15436-a326534",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI236221025"
+      ],
+      "courseNames": [
+        "Python程序设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈真",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a308877",
+      "title": "高级实验师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2020/0704/c15435a308877/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2020/0704/c15435a308877/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a308877",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI323511010",
+        "OSI324131020"
+      ],
+      "courseNames": [
+        "三维动画设计与制作",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "顾朝志",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15436-a224961",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224961/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1109/c15436a224961/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15436-a224961",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI224821020"
+      ],
+      "courseNames": [
+        "通信原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "高晗",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a384473",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2022/0919/c15434a384473/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2022/0919/c15434a384473/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a384473",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI505811014"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "魏世清",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a417967",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2023/1208/c15434a417967/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2023/1208/c15434a417967/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a417967",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI134511030",
+        "OSI505811014",
+        "OSI505911033"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "程序设计（C/C++）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "魏少鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a385349",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2022/1004/c15435a385349/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2022/1004/c15435a385349/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a385349",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI322811030",
+        "OSI323511010",
+        "OSI323911010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "数字信号处理",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "魏嵩",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15435-a469849",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2025/0903/c15435a469849/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2025/0903/c15435a469849/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15435-a469849",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI323911010",
+        "OSI341421021"
+      ],
+      "courseNames": [
+        "信号分析与处理",
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黄丙湖",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "ocean-c15434-a224905",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224905/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://ocean.upc.edu.cn/2019/1108/c15434a224905/page.htm",
+        "listUrl": "http://ocean.upc.edu.cn/15127/list.htm",
+        "listedUnits": [
+          "海洋与空间信息学院"
+        ],
+        "sourceId": "ocean-c15434-a224905",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OSI111611010",
+        "OSI120211022"
+      ],
+      "courseNames": [
+        "GIS空间分析",
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

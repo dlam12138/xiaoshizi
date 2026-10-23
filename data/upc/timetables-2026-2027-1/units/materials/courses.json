@@ -1,0 +1,976 @@
+{
+  "schemaVersion": 1,
+  "unit": "材料科学与工程学院",
+  "collegeCode": "upc-06",
+  "courses": [
+    {
+      "key": "MAT110211021",
+      "code": "MAT110211021",
+      "name": "材料工程基础",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 14,
+      "teacherNames": [
+        "冯涛",
+        "刘恩洋",
+        "徐学旭",
+        "王彦芳",
+        "王炳英"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT110321022",
+      "code": "MAT110321022",
+      "name": "金属焊接",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "黄万群",
+        "龙国文"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT110611010",
+      "code": "MAT110611010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 46,
+      "teacherNames": [
+        "吴传德",
+        "曹宁",
+        "李闻乐",
+        "王荣明",
+        "胡松青",
+        "臧晓蓓",
+        "韩彬",
+        "鲁效庆"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT110721030",
+      "code": "MAT110721030",
+      "name": "材料分析技术",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李学达",
+        "韩涛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT111411030",
+      "code": "MAT111411030",
+      "name": "材料性能学",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "于濂清",
+        "宋玉强",
+        "王航"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT111611020",
+      "code": "MAT111611020",
+      "name": "腐蚀和腐蚀控制原理",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "张大磊",
+        "鞠虹"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT111811020",
+      "code": "MAT111811020",
+      "name": "工程材料",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "宋玉强",
+        "李立英",
+        "王炳英",
+        "黄万群"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT112011020",
+      "code": "MAT112011020",
+      "name": "工程材料",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "李立英",
+        "蒋淑英",
+        "韩彬"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT120311010",
+      "code": "MAT120311010",
+      "name": "材料成型概论",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "曹宁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT120711020",
+      "code": "MAT120711020",
+      "name": "材料加工传输原理",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "关景怡",
+        "赵明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT121011020",
+      "code": "MAT121011020",
+      "name": "工程概论",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "李美艳",
+        "臧晓蓓",
+        "韩涛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT121321020",
+      "code": "MAT121321020",
+      "name": "焊接机器人",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "赵明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT121721020",
+      "code": "MAT121721020",
+      "name": "焊接生产与管理",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李美艳",
+        "韩涛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT121811020",
+      "code": "MAT121811020",
+      "name": "检测技术及控制工程基础",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "张伟华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT122031015",
+      "code": "MAT122031015",
+      "name": "探索微观世界之分子模拟技术",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张军",
+        "李振",
+        "燕友果",
+        "王晓"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT122121010",
+      "code": "MAT122121010",
+      "name": "学科前沿知识专题讲座",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "孙冲",
+        "张伟华",
+        "李学达",
+        "李美艳",
+        "王炳英",
+        "赵卫民",
+        "韩彬",
+        "韩涛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT125411030",
+      "code": "MAT125411030",
+      "name": "材料分析方法原理",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘鹏云",
+        "李学进"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT130411020",
+      "code": "MAT130411020",
+      "name": "工程材料学",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "曹宁",
+        "王彦芳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT132111040",
+      "code": "MAT132111040",
+      "name": "材料科学基础",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "付禹",
+        "王彦芳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT210321020",
+      "code": "MAT210321020",
+      "name": "材料失效分析",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "蒋淑英"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT210721020",
+      "code": "MAT210721020",
+      "name": "防腐蚀涂料及涂装技术",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王志坤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT211621020",
+      "code": "MAT211621020",
+      "name": "无损检测技术",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李焰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT220311020",
+      "code": "MAT220311020",
+      "name": "材料分析技术",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李学达",
+        "熊伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT220421020",
+      "code": "MAT220421020",
+      "name": "材料加热设备",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "鲁玉祥"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT220611010",
+      "code": "MAT220611010",
+      "name": "材料学科前沿知识专题讲座",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "刘恩洋",
+        "孙海翔",
+        "张大磊",
+        "曹宁",
+        "李春玲",
+        "王彦芳",
+        "臧晓蓓",
+        "鞠虹"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT221121020",
+      "code": "MAT221121020",
+      "name": "非金属材料",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "关景怡"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT221221020",
+      "code": "MAT221221020",
+      "name": "粉末冶金",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "宋玉强"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT221611015",
+      "code": "MAT221611015",
+      "name": "现代材料学",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "唐晓"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT221921020",
+      "code": "MAT221921020",
+      "name": "专业外语",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李焰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT222131010",
+      "code": "MAT222131010",
+      "name": "魔方和数学建模",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "蒋淑英"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT310321020",
+      "code": "MAT310321020",
+      "name": "防腐蚀工程技术",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李春玲"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT310411040",
+      "code": "MAT310411040",
+      "name": "固体物理",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 10,
+      "teacherNames": [
+        "付殿岭",
+        "贺冰",
+        "赵文"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT310521030",
+      "code": "MAT310521030",
+      "name": "计算材料学",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 10,
+      "teacherNames": [
+        "匙玉华",
+        "燕友果",
+        "都时禹"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT310621020",
+      "code": "MAT310621020",
+      "name": "纳米材料与技术",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "王璟岳",
+        "郝兰众"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT310721020",
+      "code": "MAT310721020",
+      "name": "能源环境应用材料的设计与模拟",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "匙玉华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT320321020",
+      "code": "MAT320321020",
+      "name": "材料基因工程技术应用",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王晓"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT320711020",
+      "code": "MAT320711020",
+      "name": "材料物理",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "甄玉花"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT321611030",
+      "code": "MAT321611030",
+      "name": "计算材料学",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "匙玉华",
+        "张军",
+        "李振",
+        "王晓",
+        "赵联明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT322011010",
+      "code": "MAT322011010",
+      "name": "学科前沿知识专题讲座",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "朱后禹",
+        "王志坤",
+        "王璟岳",
+        "鲁效庆"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT322631020",
+      "code": "MAT322631020",
+      "name": "多彩的涂料世界",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "付殿岭"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT323121031",
+      "code": "MAT323121031",
+      "name": "材料物理",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "甄玉花"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT323811041",
+      "code": "MAT323811041",
+      "name": "物质结构",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "任浩",
+        "朱后禹"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT326121020",
+      "code": "MAT326121020",
+      "name": "材料基因数据分析与挖掘实验",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李振",
+        "赵文"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT326311020",
+      "code": "MAT326311020",
+      "name": "材料信息基础",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "都时禹"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT327121030",
+      "code": "MAT327121030",
+      "name": "材料腐蚀学原理",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙霜青"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT327211025",
+      "code": "MAT327211025",
+      "name": "电化学",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙霜青"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT327411020",
+      "code": "MAT327411020",
+      "name": "电化学",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王志坤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT328812200",
+      "code": "MAT328812200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "刘林",
+        "王兆杰",
+        "郭孟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT410111030",
+      "code": "MAT410111030",
+      "name": "材料分析技术",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘鹏云",
+        "李学进"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT410111041",
+      "code": "MAT410111041",
+      "name": "材料分析技术",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "邢伟",
+        "郝兰众"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT410212100",
+      "code": "MAT410212100",
+      "name": "材料化学（2-1）",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张晓云"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT410421020",
+      "code": "MAT410421020",
+      "name": "能源化学",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "王林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT410521020",
+      "code": "MAT410521020",
+      "name": "无机材料合成及工艺",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "徐静",
+        "李学进"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT420221010",
+      "code": "MAT420221010",
+      "name": "材料导论",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT420321021",
+      "code": "MAT420321021",
+      "name": "材料化学",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张苏",
+        "黄毅超"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT420511020",
+      "code": "MAT420511020",
+      "name": "材料化学实验",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "温福山"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT420512100",
+      "code": "MAT420512100",
+      "name": "材料化学实验（2-1）",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "张晓云"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT421031010",
+      "code": "MAT421031010",
+      "name": "材料与社会生活",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "于濂清",
+        "黄毅超"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT421521020",
+      "code": "MAT421521020",
+      "name": "功能高分子材料",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙海翔"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT421621021",
+      "code": "MAT421621021",
+      "name": "光电功能材料",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "于濂清"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT422211010",
+      "code": "MAT422211010",
+      "name": "学科前沿知识专题讲座",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "吴传德",
+        "燕友果",
+        "王航"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT427721020",
+      "code": "MAT427721020",
+      "name": "电化学原理及测试",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "孙霜青",
+        "王志坤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT510121020",
+      "code": "MAT510121020",
+      "name": "表面化学",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "祝磊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT510521020",
+      "code": "MAT510521020",
+      "name": "新能源材料设计与制备",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "徐静",
+        "李学进"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT520311021",
+      "code": "MAT520311021",
+      "name": "材料分析技术",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 19,
+      "teacherNames": [
+        "刘鹏云",
+        "徐奔",
+        "李哲伦",
+        "李学进"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT520521020",
+      "code": "MAT520521020",
+      "name": "超分子材料",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王荣明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT520711020",
+      "code": "MAT520711020",
+      "name": "电化学基础",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "周炎",
+        "张苏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT521611010",
+      "code": "MAT521611010",
+      "name": "学科前沿知识专题讲座",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "刘和元",
+        "孙道峰",
+        "张军",
+        "李闻乐"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT521821020",
+      "code": "MAT521821020",
+      "name": "专业外语",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "周炎"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT522131010",
+      "code": "MAT522131010",
+      "name": "多彩的材料世界",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "祝磊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT522131020",
+      "code": "MAT522131020",
+      "name": "新材料概论",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙道峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT525021020",
+      "code": "MAT525021020",
+      "name": "吸附原理与技术",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "范卫东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT526011020",
+      "code": "MAT526011020",
+      "name": "能源材料前沿知识讲座",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "张苏",
+        "戴昉纳",
+        "李彦勋",
+        "王林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT529012200",
+      "code": "MAT529012200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "戴昉纳",
+        "郭孟",
+        "马晓晨"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT529311020",
+      "code": "MAT529311020",
+      "name": "新能源材料与器件导论",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "康文裴",
+        "张腾"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT531421020",
+      "code": "MAT531421020",
+      "name": "光化学原理与技术",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘和元",
+        "张腾"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT532311020",
+      "code": "MAT532311020",
+      "name": "材料学科前沿知识讲座",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "张苏",
+        "戴昉纳",
+        "李彦勋",
+        "王林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT600111030",
+      "code": "MAT600111030",
+      "name": "统计热力学",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "赵联明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MAT600511020",
+      "code": "MAT600511020",
+      "name": "电子信息材料概论",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘思远"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OTH921331020",
+      "code": "OTH921331020",
+      "name": "沟通与写作",
+      "collegeCode": "upc-06",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张立红",
+        "甄玉花"
+      ],
+      "excludedReason": "course_code_conflict"
+    }
+  ]
+}

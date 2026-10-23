@@ -1,0 +1,3220 @@
+{
+  "schemaVersion": 1,
+  "unit": "外国语学院",
+  "collegeCode": "upc-13",
+  "candidates": [
+    {
+      "name": "付丽燕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a387377",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387377/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387377/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a387377",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS020831010",
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）",
+        "雅思阅读"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "代霄彦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a309778",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16909a309778/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16909a309778/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a309778",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS332511020"
+      ],
+      "courseNames": [
+        "俄语国家文化导论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "任杰超",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a292547",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16906a292547/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16906a292547/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a292547",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS020831010",
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）",
+        "雅思阅读"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "任迎春",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a292616",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2017/0324/c16908a292616/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2017/0324/c16908a292616/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a292616",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS222211020",
+        "SFS224611020",
+        "SFS227541020",
+        "SFS227911020"
+      ],
+      "courseNames": [
+        "英语学术写作与研究方法",
+        "跨文化交际",
+        "跨文化交际理论与实践",
+        "跨文化沟通艺术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "冯晓梅",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a292572",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16906a292572/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16906a292572/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a292572",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "冯鸿燕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a292628",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2018/0506/c16909a292628/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2018/0506/c16909a292628/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a292628",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS329611030",
+        "SFS334241030"
+      ],
+      "courseNames": [
+        "第二外语（中级）",
+        "跨文化沟通与实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘媛媛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a309811",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309811/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309811/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a309811",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SFS221614100",
+        "SFS227341021",
+        "SFS229121020",
+        "SFS233431020"
+      ],
+      "courseNames": [
+        "中西文学经典导读",
+        "交际英语(4-1)",
+        "国际关系与国际传播",
+        "大国外交演讲与辩论",
+        "沟通与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘晓辉",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-13-001",
+      "title": null,
+      "collegeCode": "upc-13",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "外国语学院",
+        "sourceFile": "课表/外国语学院/课表打印.xls",
+        "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+        "rawNames": [
+          "刘晓辉"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘瑞琴",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a292579",
+      "title": "教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16907a292579/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16907a292579/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a292579",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘艳芹",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a292563",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16907a292563/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16907a292563/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a292563",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "叶艳",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-13-002",
+      "title": null,
+      "collegeCode": "upc-13",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "外国语学院",
+        "sourceFile": "课表/外国语学院/课表打印.xls",
+        "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+        "rawNames": [
+          "叶艳"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SFS223812100"
+      ],
+      "courseNames": [
+        "英美文学史及作品选读(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吕聪颖",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a309494",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309494/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309494/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a309494",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS323031040",
+        "SFS323431010",
+        "SFS324031010",
+        "SFS334241030"
+      ],
+      "courseNames": [
+        "基础韩语",
+        "跨文化沟通与实践",
+        "非英语国家电影赏析(韩)",
+        "韩国社会与文化"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴易曦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a387390",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387390/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387390/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a387390",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS020531010",
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）",
+        "雅思口语"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周瑞平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a309780",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16909a309780/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16909a309780/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a309780",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS320814300",
+        "SFS321714300",
+        "SFS323512200"
+      ],
+      "courseNames": [
+        "基础俄语(4-3)",
+        "大学俄语(4-3)",
+        "能源俄语阅读与翻译(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "唐东",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a470799",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2025/0911/c16908a470799/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2025/0911/c16908a470799/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a470799",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS125641020",
+        "SFS125741010",
+        "SFS226721020",
+        "SFS233541030",
+        "SFS233641030"
+      ],
+      "courseNames": [
+        "孤独症儿童语言干预策略",
+        "心理语言学导论",
+        "语言与认知",
+        "语言障碍评估技术与工具实训"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姜训禄",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a309490",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309490/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309490/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a309490",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS320612100",
+        "SFS322211010",
+        "SFS332511020",
+        "SFS334341030"
+      ],
+      "courseNames": [
+        "俄罗斯及中亚社会与文化",
+        "俄罗斯文学史（2-1）",
+        "俄语国家文化导论",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孔德亮",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a292617",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2017/0324/c16907a292617/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2017/0324/c16907a292617/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a292617",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100",
+        "SFS124912200",
+        "SFS233541030"
+      ],
+      "courseNames": [
+        "R学术英语(2-2)重修",
+        "学术英语(2-1)",
+        "心理语言学导论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙烁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a387382",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387382/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387382/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a387382",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS020531010",
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）",
+        "雅思口语"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙锦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a309499",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309499/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309499/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a309499",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS322531010",
+        "SFS322731040",
+        "SFS334641030"
+      ],
+      "courseNames": [
+        "基础德语",
+        "德国文化概况",
+        "西欧社会与文化"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孟宏宏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a309779",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16909a309779/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16909a309779/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a309779",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS321714300",
+        "SFS322211010",
+        "SFS329812100"
+      ],
+      "courseNames": [
+        "基础俄语(4-3)",
+        "新生研讨课",
+        "翻译理论与实践（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "安昌光",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a292540",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16908a292540/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16908a292540/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a292540",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS221614300",
+        "SFS225111030"
+      ],
+      "courseNames": [
+        "交际英语(4-3)",
+        "语言学导论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋姝娴",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a405749",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2023/0612/c16908a405749/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2023/0612/c16908a405749/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a405749",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS221512101",
+        "SFS233541030",
+        "SFS233641030"
+      ],
+      "courseNames": [
+        "基础口译（2-1）",
+        "心理语言学导论",
+        "语言与认知"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "尹衍桐",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a292556",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16908a292556/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16908a292556/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a292556",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS221412200",
+        "SFS223011010",
+        "SFS224214300"
+      ],
+      "courseNames": [
+        "基础笔译(2-2)",
+        "新生研讨课",
+        "英语视听说(4-3)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "展伟伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a297480",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0415/c16906a297480/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0415/c16906a297480/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a297480",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张亮",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-13-003",
+      "title": null,
+      "collegeCode": "upc-13",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "外国语学院",
+        "sourceFile": "课表/外国语学院/课表打印.xls",
+        "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+        "rawNames": [
+          "张亮"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张宁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a297479",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0415/c16906a297479/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0415/c16906a297479/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a297479",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101",
+        "SFS124812200"
+      ],
+      "courseNames": [
+        "R通用英语(2-2)重修",
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张建科",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a292601",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2015/0130/c16908a292601/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2015/0130/c16908a292601/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a292601",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS220921041",
+        "SFS221614100",
+        "SFS224411020",
+        "SFS225321020",
+        "SFS233641030"
+      ],
+      "courseNames": [
+        "中西法律文化比较",
+        "交际英语(4-1)",
+        "英语文体与修辞",
+        "语言与认知",
+        "高级法律英语阅读"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张淑杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a292609",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2016/0307/c16907a292609/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2016/0307/c16907a292609/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a292609",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100",
+        "SFS224411020",
+        "SFS233541030",
+        "SFS233641030"
+      ],
+      "courseNames": [
+        "学术英语(2-1)",
+        "心理语言学导论",
+        "英语文体与修辞",
+        "语言与认知"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张燕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a441355",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16908a441355/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16908a441355/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a441355",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS221921020",
+        "SFS227841031"
+      ],
+      "courseNames": [
+        "科技专题笔译",
+        "翻译工作坊"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张琦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a495537",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2026/0622/c16906a495537/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2026/0622/c16906a495537/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a495537",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张红",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a292543",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16906a292543/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16906a292543/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a292543",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张英莉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a292569",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16907a292569/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16907a292569/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a292569",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张青华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a292627",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2018/0316/c16906a292627/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2018/0316/c16906a292627/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a292627",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "彭翠平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a292564",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16907a292564/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16907a292564/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a292564",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐保华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a309793",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309793/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309793/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a309793",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS220711020",
+        "SFS224312200",
+        "SFS224611020"
+      ],
+      "courseNames": [
+        "翻译理论基础",
+        "英语学术写作与研究方法",
+        "英语思辨写作(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐小雁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a292611",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2016/0310/c16908a292611/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2016/0310/c16908a292611/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a292611",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS223011010",
+        "SFS224911020",
+        "SFS229121020",
+        "SFS230212200",
+        "SFS233641030"
+      ],
+      "courseNames": [
+        "大国外交演讲与辩论",
+        "心理健康与职业发展（2-2）",
+        "新生研讨课",
+        "英语语音",
+        "语言与认知"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐文彬",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a292550",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16908a292550/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16908a292550/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a292550",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS210321020",
+        "SFS223621020"
+      ],
+      "courseNames": [
+        "国际贸易实务",
+        "英美判例研读"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐燕燕",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-13-004",
+      "title": null,
+      "collegeCode": "upc-13",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "外国语学院",
+        "sourceFile": "课表/外国语学院/课表打印.xls",
+        "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+        "rawNames": [
+          "徐燕燕"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "战海",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a292615",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2016/0701/c16907a292615/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2016/0701/c16907a292615/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a292615",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100",
+        "SFS233641030"
+      ],
+      "courseNames": [
+        "学术英语(2-1)",
+        "语言与认知"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "扈彩霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a292600",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2015/0130/c16907a292600/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2015/0130/c16907a292600/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a292600",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "晏雯",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a441371",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16909a441371/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16909a441371/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a441371",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS322531010",
+        "SFS322731040",
+        "SFS334641030"
+      ],
+      "courseNames": [
+        "基础德语",
+        "德国文化概况",
+        "西欧社会与文化"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曹砚黛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a309812",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309812/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309812/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a309812",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS224312200",
+        "SFS229311020",
+        "SFS230121020"
+      ],
+      "courseNames": [
+        "中国文化概论（英）",
+        "国际能源组织专题工作坊",
+        "英语思辨写作(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱荫成",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-13-005",
+      "title": null,
+      "collegeCode": "upc-13",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "外国语学院",
+        "sourceFile": "课表/外国语学院/课表打印.xls",
+        "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+        "rawNames": [
+          "朱荫成"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SFS110212100",
+        "SFS124912200"
+      ],
+      "courseNames": [
+        "R学术英语(2-2)重修",
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李小华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a309497",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309497/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309497/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a309497",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SFS322631010",
+        "SFS324231020",
+        "SFS334641030",
+        "SFS334841020"
+      ],
+      "courseNames": [
+        "中级法语",
+        "异域之镜：他者视野里的中国形象",
+        "沟通与写作",
+        "西欧社会与文化",
+        "非英语国家电影赏析(法)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李晓丽",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-13-006",
+      "title": null,
+      "collegeCode": "upc-13",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "外国语学院",
+        "sourceFile": "课表/外国语学院/课表打印.xls",
+        "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+        "rawNames": [
+          "李晓丽"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SFS110212100",
+        "SFS125431020"
+      ],
+      "courseNames": [
+        "学术英语(2-1)",
+        "英语短篇故事经典解读"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李晓春",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-13-007",
+      "title": null,
+      "collegeCode": "upc-13",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "外国语学院",
+        "sourceFile": "课表/外国语学院/课表打印.xls",
+        "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+        "rawNames": [
+          "李晓春"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李燕云",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a309806",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309806/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309806/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a309806",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS224214100"
+      ],
+      "courseNames": [
+        "英语视听说(4-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李秋雨",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a309495",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309495/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309495/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a309495",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS334741020",
+        "SFS334841020"
+      ],
+      "courseNames": [
+        "异域之镜：他者视野里的中国形象",
+        "西班牙-拉美文学与文化"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李金彩",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a387379",
+      "title": "讲 师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387379/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387379/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a387379",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨洁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a309814",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309814/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309814/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a309814",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SFS224411020",
+        "SFS225111030",
+        "SFS225531020",
+        "SFS227541020",
+        "SFS233541030",
+        "SFS233641030"
+      ],
+      "courseNames": [
+        "心理语言学导论",
+        "沟通与写作",
+        "英语文体与修辞",
+        "语言与认知",
+        "语言学导论",
+        "跨文化交际导论",
+        "跨文化沟通艺术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨芳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a292565",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16906a292565/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16906a292565/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a292565",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨静文",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-13-008",
+      "title": null,
+      "collegeCode": "upc-13",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "外国语学院",
+        "sourceFile": "课表/外国语学院/课表打印.xls",
+        "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+        "rawNames": [
+          "杨静文"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "林超",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a309496",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309496/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309496/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a309496",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SFS320721020",
+        "SFS320814101",
+        "SFS321714100",
+        "SFS322211010",
+        "SFS323512200"
+      ],
+      "courseNames": [
+        "俄语报刊选读",
+        "基础俄语(4-1)",
+        "大学俄语（4-1）",
+        "新生研讨课",
+        "沟通与写作",
+        "能源俄语阅读与翻译(2-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "梅琳",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-13-009",
+      "title": null,
+      "collegeCode": "upc-13",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "外国语学院",
+        "sourceFile": "课表/外国语学院/课表打印.xls",
+        "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+        "rawNames": [
+          "梅琳"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SFS230212200",
+        "SFS325312200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "毛浩然",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a315186",
+      "title": "教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0901/c16908a315186/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0901/c16908a315186/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a315186",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SFS223011010",
+        "SFS223631020",
+        "SFS224214100",
+        "SFS227341021",
+        "SFS229121020",
+        "SFS233541030"
+      ],
+      "courseNames": [
+        "国际关系与国际传播",
+        "大国外交演讲与辩论",
+        "心理语言学导论",
+        "新生研讨课",
+        "沟通与写作",
+        "演讲、辩论与思维",
+        "英语视听说(4-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "毛潇琳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a309493",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309493/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309493/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a309493",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS334541020"
+      ],
+      "courseNames": [
+        "中东能源国家社会与文化"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "江润洁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a292602",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2015/0209/c16907a292602/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2015/0209/c16907a292602/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a292602",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100",
+        "SFS125431020"
+      ],
+      "courseNames": [
+        "学术英语(2-1)",
+        "英语短篇故事经典解读"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "沈卫杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a441370",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16909a441370/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16909a441370/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a441370",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS323131040",
+        "SFS329611030"
+      ],
+      "courseNames": [
+        "基础日语",
+        "第二外语（中级）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "潘荔霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a309810",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309810/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309810/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a309810",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS221614100",
+        "SFS224214300",
+        "SFS227541020"
+      ],
+      "courseNames": [
+        "交际英语(4-1)",
+        "英语视听说(4-3)",
+        "跨文化沟通艺术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "熊小秦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a387392",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387392/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387392/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a387392",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "牛力维",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a297476",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0415/c16906a297476/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0415/c16906a297476/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a297476",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王建敏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a292606",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2015/1020/c16906a292606/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2015/1020/c16906a292606/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a292606",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王新博",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a292588",
+      "title": "教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16908a292588/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16908a292588/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a292588",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS221121041",
+        "SFS221614300",
+        "SFS223011010",
+        "SFS224911020"
+      ],
+      "courseNames": [
+        "交际英语(4-3)",
+        "新生研讨课",
+        "英语语音",
+        "高级科技英语阅读"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王新福",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a387385",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387385/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387385/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a387385",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王波",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a292598",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2014/1225/c16907a292598/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2014/1225/c16907a292598/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a292598",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王海霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a309807",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309807/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309807/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a309807",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS223421020",
+        "SFS230121020"
+      ],
+      "courseNames": [
+        "国际能源组织专题工作坊",
+        "英美短篇小说选读"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王立新",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a387649",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1026/c16907a387649/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1026/c16907a387649/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a387649",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100",
+        "SFS125431020"
+      ],
+      "courseNames": [
+        "学术英语(2-1)",
+        "英语短篇故事经典解读"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王芳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a292596",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2014/0311/c16906a292596/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2014/0311/c16906a292596/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a292596",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "相欣余",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-13-010",
+      "title": null,
+      "collegeCode": "upc-13",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "外国语学院",
+        "sourceFile": "课表/外国语学院/课表打印.xls",
+        "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+        "rawNames": [
+          "相欣余"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SFS325312200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "石绍云",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a441360",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16907a441360/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16907a441360/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a441360",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "程璐璐",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a371909",
+      "title": "教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/0414/c16907a371909/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/0414/c16907a371909/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a371909",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS125641020",
+        "SFS125741010",
+        "SFS126011020",
+        "SFS233541030",
+        "SFS233641030"
+      ],
+      "courseNames": [
+        "国际能源学术交流",
+        "孤独症儿童语言干预策略",
+        "心理语言学导论",
+        "语言与认知",
+        "语言障碍评估技术与工具实训"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "穆莉萍",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a387381",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387381/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387381/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a387381",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "臧嫦艳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16910-a292541",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16910a292541/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16910a292541/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yjswyjxb/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16910-a292541",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS421711010"
+      ],
+      "courseNames": [
+        "学术论文写作与国际发表"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "范靓",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a292621",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2017/0609/c16909a292621/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2017/0609/c16909a292621/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a292621",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS334841020"
+      ],
+      "courseNames": [
+        "异域之镜：他者视野里的中国形象"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "董金娣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a292559",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16906a292559/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16906a292559/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a292559",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "贾聚年",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a292570",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16906a292570/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16906a292570/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a292570",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵丽",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a387398",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387398/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387398/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a387398",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵云",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a309500",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309500/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309500/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a309500",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS321714100",
+        "SFS322211010",
+        "SFS322421020",
+        "SFS332511020"
+      ],
+      "courseNames": [
+        "俄语国家文化导论",
+        "基础俄语(4-1)",
+        "新生研讨课",
+        "语言学概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵婷廷",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a309781",
+      "title": "教 授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16909a309781/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16909a309781/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a309781",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS229121020",
+        "SFS321714300",
+        "SFS322211010"
+      ],
+      "courseNames": [
+        "基础俄语(4-3)",
+        "大国外交演讲与辩论",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵宁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16908-a441356",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16908a441356/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16908a441356/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16908-a441356",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS224811020",
+        "SFS227741030",
+        "SFS232321020"
+      ],
+      "courseNames": [
+        "商务翻译",
+        "科技英语",
+        "英语语法与基础写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵小华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a309491",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309491/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309491/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a309491",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS321012103",
+        "SFS321313100",
+        "SFS323512200",
+        "SFS332511020"
+      ],
+      "courseNames": [
+        "俄语国家文化导论",
+        "俄语视听说（2-1）",
+        "能源俄语阅读与翻译(2-2)",
+        "高级俄语(3-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵慧",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a309492",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309492/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309492/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a309492",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS323231040",
+        "SFS323831010",
+        "SFS324431020",
+        "SFS334741020"
+      ],
+      "courseNames": [
+        "中级西班牙语",
+        "基础西班牙语",
+        "西班牙-拉美文学与文化",
+        "西班牙-拉美概况"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邓燕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a387374",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387374/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387374/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a387374",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邵艳平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a387413",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16909a387413/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16909a387413/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a387413",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SFS320914101"
+      ],
+      "courseNames": [
+        "大学日语(4-1)",
+        "沟通与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邹文轩",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a394813",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2023/0222/c16907a394813/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2023/0222/c16907a394813/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a394813",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭月琴",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16910-a363749",
+      "title": "教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/0307/c16910a363749/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/0307/c16910a363749/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yjswyjxb/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16910-a363749",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS410111010",
+        "SFS421131020"
+      ],
+      "courseNames": [
+        "科技英语阅读与写作",
+        "英美文化概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "闫萌萌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a387394",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387394/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387394/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a387394",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101",
+        "SFS124812200"
+      ],
+      "courseNames": [
+        "R通用英语(2-2)重修",
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "阎美萍",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a377519",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/0614/c16909a377519/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/0614/c16909a377519/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a377519",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS330311020",
+        "SFS334341030"
+      ],
+      "courseNames": [
+        "俄罗斯及中亚社会与文化",
+        "俄语语音"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈效新",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a292552",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16907a292552/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16907a292552/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a292552",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100",
+        "SFS233541030",
+        "SFS233641030"
+      ],
+      "courseNames": [
+        "学术英语(2-1)",
+        "心理语言学导论",
+        "语言与认知"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈秀玲",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a387647",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1026/c16907a387647/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1026/c16907a387647/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a387647",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈臻渝",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a441374",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16909a441374/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16909a441374/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a441374",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS320914300"
+      ],
+      "courseNames": [
+        "大学日语(4-3)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "韩效伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a441353",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16907a441353/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16907a441353/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a441353",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "韩淑芹",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a495541",
+      "title": "教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2026/0622/c16906a495541/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2026/0622/c16906a495541/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a495541",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "韩辉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a292620",
+      "title": "副教授",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2017/0330/c16907a292620/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2017/0330/c16907a292620/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a292620",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "顾丽娜",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a387378",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387378/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387378/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a387378",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马文韬",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16906-a387380",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387380/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387380/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16906-a387380",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS124812101"
+      ],
+      "courseNames": [
+        "通用英语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马红艳",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-13-011",
+      "title": null,
+      "collegeCode": "upc-13",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "外国语学院",
+        "sourceFile": "课表/外国语学院/课表打印.xls",
+        "sourceSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+        "rawNames": [
+          "马红艳"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马金芳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16910-a387428",
+      "title": null,
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16910a387428/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16910a387428/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/yjswyjxb/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16910-a387428",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS223631020"
+      ],
+      "courseNames": [
+        "演讲、辩论与思维"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马靓旸",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16909-a441375",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16909a441375/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16909a441375/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list2.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16909-a441375",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS321213200"
+      ],
+      "courseNames": [
+        "俄语语法(3-2)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "魏三军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sfs-c16907-a387648",
+      "title": "讲师",
+      "collegeCode": "upc-13",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1026/c16907a387648/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://sfs.upc.edu.cn/2022/1026/c16907a387648/page.htm",
+        "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+        "listedUnits": [
+          "外国语学院"
+        ],
+        "sourceId": "sfs-c16907-a387648",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SFS110212100"
+      ],
+      "courseNames": [
+        "学术英语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

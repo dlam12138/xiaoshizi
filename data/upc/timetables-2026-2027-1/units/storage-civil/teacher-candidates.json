@@ -1,0 +1,3166 @@
+{
+  "schemaVersion": 1,
+  "unit": "储运与建筑工程学院",
+  "collegeCode": "upc-05",
+  "candidates": [
+    {
+      "name": "于淼",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19284-a452866",
+      "title": "副教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2025/0320/c19284a452866/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2025/0320/c19284a452866/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19284-a452866",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222311025"
+      ],
+      "courseNames": [
+        "油罐及管道强度设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "于述强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19286-a370986",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2014/1128/c19286a370986/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2014/1128/c19286a370986/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19286-a370986",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0610699",
+        "PLC122611041",
+        "PLC123611020"
+      ],
+      "courseNames": [
+        "建筑制图",
+        "混凝土结构设计原理",
+        "画法几何与工程制图"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "亓晓琳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19292-a442298",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19292a442298/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19292a442298/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19292-a442298",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC521661999",
+        "PLC521812999",
+        "PLC522311999"
+      ],
+      "courseNames": [
+        "建筑学概论",
+        "建筑设计基础（2-1）",
+        "建筑设计（6-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "井文君",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19291-a370946",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19291a370946/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19291a370946/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19291-a370946",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC122921020",
+        "PLC127411020"
+      ],
+      "courseNames": [
+        "基坑与边坡支护工程",
+        "工程经济与项目管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "任杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19270-a462245",
+      "title": "特任教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2025/0518/c19270a462245/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2025/0518/c19270a462245/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19270-a462245",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC133611015",
+        "PLC133611999"
+      ],
+      "courseNames": [
+        "建筑材料"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "俞欣然",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19284-a370902",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2021/1020/c19284a370902/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2021/1020/c19284a370902/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19284-a370902",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222511020"
+      ],
+      "courseNames": [
+        "油气储运HSE"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘刚",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370876",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0515/c19268a370876/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0515/c19268a370876/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/3700/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370876",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222111010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘宝山",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19290-a370982",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2014/1127/c19290a370982/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2014/1127/c19290a370982/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19290-a370982",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310411040",
+        "PLC321421020"
+      ],
+      "courseNames": [
+        "工程力学",
+        "结构优化设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘建国",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370898",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370898/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370898/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/3700/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370898",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC210121020"
+      ],
+      "courseNames": [
+        "腐蚀与防腐"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘建林",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19269-a370911",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19269a370911/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19269a370911/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19269-a370911",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310611041",
+        "PLC320311040",
+        "PLC322431010"
+      ],
+      "courseNames": [
+        "五彩缤纷的力学世界",
+        "弹性力学",
+        "理论力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘杨",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19288-a370969",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19288a370969/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19288a370969/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19288-a370969",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC420321031",
+        "PLC421211020",
+        "PLC422321020"
+      ],
+      "courseNames": [
+        "专业外语",
+        "城市燃气安全技术",
+        "流体输配管网"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "叶贵根",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370919",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370919/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370919/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a370919",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310112101",
+        "PLC310411040",
+        "PLC328912200"
+      ],
+      "courseNames": [
+        "工程力学",
+        "心理健康与职业发展（2-2）",
+        "材料力学（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吕婧",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19292-a370952",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2019/0108/c19292a370952/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2019/0108/c19292a370952/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19292-a370952",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC521661999",
+        "PLC530821010"
+      ],
+      "courseNames": [
+        "建筑设计（6-1）",
+        "现代设计史"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吕宇玲",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370879",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0105/c19268a370879/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0105/c19268a370879/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/3700/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370879",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222111010",
+        "PLC222411025",
+        "PLC222811010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "油库设计与管理",
+        "油气储运新技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周博",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19269-a370909",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19269a370909/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19269a370909/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19269-a370909",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310611041"
+      ],
+      "courseNames": [
+        "理论力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周明芳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19286-a370937",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0528/c19286a370937/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0528/c19286a370937/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19286-a370937",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC121811010"
+      ],
+      "courseNames": [
+        "工程荷载与可靠度设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "唐建峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19272-a370962",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19272a370962/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19272a370962/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19272-a370962",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222111010",
+        "PLC421911010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姚博",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19284-a499070",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2026/0905/c19284a499070/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2026/0905/c19284a499070/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19284-a499070",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC226121021"
+      ],
+      "courseNames": [
+        "流体流变学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孔祥清",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19269-a412130",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2023/0919/c19269a412130/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2023/0919/c19269a412130/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19269-a412130",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC320311040",
+        "PLC335831010"
+      ],
+      "courseNames": [
+        "弹性力学",
+        "走进奇妙的仿生世界"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370914",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370914/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_course_assignment",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370914/page.htm",
+        "sourceId": "cj-c19285-a370914",
+        "sameNameEvidence": {
+          "relation": "distinct_persons",
+          "profiles": [
+            {
+              "sourceId": "cj-c19285-a370914",
+              "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370914/page.htm",
+              "department": "工程力学系",
+              "mainCourses": [
+                "材料力学",
+                "工程力学",
+                "理论力学"
+              ],
+              "courseMatch": [
+                "PLC310411040"
+              ]
+            },
+            {
+              "sourceId": "cj-c19287-a453350",
+              "profileUrl": "http://cj.upc.edu.cn/2025/0325/c19287a453350/page.htm",
+              "department": "建筑系",
+              "mainCourses": [
+                "效果图表现基础",
+                "中外美术欣赏",
+                "城市公共设施设计"
+              ],
+              "courseMatch": []
+            }
+          ],
+          "decision": "'工程力学' is explicitly listed by the 工程力学系 profile; assign that profile only; art-design profile has no matching timetable course"
+        },
+        "courseProvenance": [
+          {
+            "courseCodes": [
+              "PLC310411040"
+            ],
+            "method": "official_main_course",
+            "confidence": "high",
+            "officialConfirmation": true,
+            "correctable": false,
+            "basis": [],
+            "evidence": null,
+            "alternativeSourceId": null
+          }
+        ]
+      },
+      "courseCodes": [
+        "PLC310411040"
+      ],
+      "courseNames": [
+        "工程力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙广宇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370892",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370892/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370892/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/3700/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370892",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC226121021"
+      ],
+      "courseNames": [
+        "流体流变学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孟晓宇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19291-a399442",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2023/0327/c19291a399442/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2023/0327/c19291a399442/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19291-a399442",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC124521020"
+      ],
+      "courseNames": [
+        "隧道工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋光春",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19284-a370992",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2021/1020/c19284a370992/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2021/1020/c19284a370992/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19284-a370992",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC226421020"
+      ],
+      "courseNames": [
+        "低碳新能源储运"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370924",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370924/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370924/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a370924",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222111010",
+        "PLC310411040",
+        "PLC321811010"
+      ],
+      "courseNames": [
+        "工程力学",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "寇杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370886",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370886/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370886/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370886",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC210121020",
+        "PLC222111010",
+        "PLC222621020",
+        "PLC222911025"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "油气储运安全技术",
+        "油气集输",
+        "腐蚀与防腐"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "崔淦",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370899",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370899/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370899/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/3700/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370899",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222111010",
+        "PLC222411025"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "油库设计与管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张培峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19309-a371003",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19309a371003/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19309a371003/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19309-a371003",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC522022201",
+        "PLC522911099"
+      ],
+      "courseNames": [
+        "9新生研讨课",
+        "建筑数字技术（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张如林",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19286-a370943",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19286a370943/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19286a370943/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19286-a370943",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC121121020"
+      ],
+      "courseNames": [
+        "钢结构设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张宏阳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19284-a370904",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2021/0415/c19284a370904/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2021/0415/c19284a370904/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19284-a370904",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC220721020"
+      ],
+      "courseNames": [
+        "储运设施完整性管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19309-a371001",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19309a371001/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19309a371001/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19309-a371001",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC562411030",
+        "PLC562711030"
+      ],
+      "courseNames": [
+        "无人机操作与低空数据采集",
+        "设计制图与表达"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19291-a370944",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19291a370944/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19291a370944/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19291-a370944",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0610699",
+        "PLC127721010"
+      ],
+      "courseNames": [
+        "专业英语与文献检索",
+        "画法几何与工程制图"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张毅",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370921",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370921/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370921/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a370921",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310411030",
+        "PLC320711020"
+      ],
+      "courseNames": [
+        "工程力学",
+        "工程概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张烨琳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19288-a417802",
+      "title": "副教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2023/1206/c19288a417802/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2023/1206/c19288a417802/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19288-a417802",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC421011026"
+      ],
+      "courseNames": [
+        "冷热源设备与系统"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张立松",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370920",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370920/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370920/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a370920",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "PLC310411040",
+        "PLC321112999"
+      ],
+      "courseNames": [
+        "工程力学",
+        "建筑力学",
+        "沟通与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张能",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19287-a370961",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19287a370961/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19287a370961/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19287-a370961",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC521616300",
+        "PLC523011030",
+        "PLC534031020"
+      ],
+      "courseNames": [
+        "中国古建筑赏析与建构",
+        "中国建筑史",
+        "建筑设计(6-3)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张艳美",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19286-a370941",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19286a370941/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19286a370941/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19286-a370941",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC127511015"
+      ],
+      "courseNames": [
+        "基础工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张足斌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19284-a370896",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19284a370896/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19284a370896/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19284-a370896",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222311025"
+      ],
+      "courseNames": [
+        "油罐及管道强度设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张连震",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19270-a370947",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19270a370947/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19270a370947/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19270-a370947",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC124521020"
+      ],
+      "courseNames": [
+        "隧道工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张金红",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19292-a370988",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2014/1123/c19292a370988/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2014/1123/c19292a370988/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19292-a370988",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC521616500",
+        "PLC523111020"
+      ],
+      "courseNames": [
+        "住区规划与居住建筑设计原理",
+        "建筑设计(6-5)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张雪松",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19286-a370948",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19286a370948/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19286a370948/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19286-a370948",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0610699",
+        "PLC125931020",
+        "PLC127811020"
+      ],
+      "courseNames": [
+        "土木工程概论",
+        "工程结构",
+        "画法几何与工程制图"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐春雯",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19272-a370968",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19272a370968/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19272a370968/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19272-a370968",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC420811020"
+      ],
+      "courseNames": [
+        "建筑环境学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "戴昀",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19292-a371002",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2019/0108/c19292a371002/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2019/0108/c19292a371002/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19292-a371002",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC521616300",
+        "PLC521812999",
+        "PLC522311999",
+        "PLC529311010",
+        "PLC562711030"
+      ],
+      "courseNames": [
+        "建筑学概论",
+        "建筑设计(6-3)",
+        "建筑设计基础（2-1）",
+        "当代建筑思潮",
+        "无人机操作与低空数据采集"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曹学文",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370885",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19268a370885/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19268a370885/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370885",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222911025"
+      ],
+      "courseNames": [
+        "油气集输"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曹宇光",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19269-a370913",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19269a370913/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19269a370913/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19269-a370913",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC322311020"
+      ],
+      "courseNames": [
+        "专业外语"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱建鲁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370890",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19268a370890/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19268a370890/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/3700/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370890",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC431211020"
+      ],
+      "courseNames": [
+        "输气管道设计与管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱秀星",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370926",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370926/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370926/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a370926",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310411040"
+      ],
+      "courseNames": [
+        "工程力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱静",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19293-a370970",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19293a370970/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19293a370970/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19293-a370970",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC420611020",
+        "PLC421621022"
+      ],
+      "courseNames": [
+        "工程管理与经济",
+        "燃气燃烧与应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李佐龙",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19287-a417660",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19287a417660/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19287a417660/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19287-a417660",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC521812999",
+        "PLC522212201",
+        "PLC562711030"
+      ],
+      "courseNames": [
+        "建筑物理（2-2）",
+        "建筑设计基础（2-1）",
+        "无人机操作与低空数据采集"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李大勇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19270-a370929",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2021/0630/c19270a370929/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2021/0630/c19270a370929/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19270-a370929",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC127111021"
+      ],
+      "courseNames": [
+        "土力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李扬",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19289-a370976",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2014/1128/c19289a370976/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2014/1128/c19289a370976/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19289-a370976",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222311025"
+      ],
+      "courseNames": [
+        "油罐及管道强度设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李春宝",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19270-a370927",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19270a370927/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19270a370927/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19270-a370927",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC121921020"
+      ],
+      "courseNames": [
+        "工程监理概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李柏栋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19291-a370945",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19291a370945/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19291a370945/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19291-a370945",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC122611041",
+        "PLC122721030"
+      ],
+      "courseNames": [
+        "混凝土结构设计原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李欣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19287-a370955",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19287a370955/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19287a370955/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19287-a370955",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC521616500",
+        "PLC523111020",
+        "PLC562611030"
+      ],
+      "courseNames": [
+        "住区规划与居住建筑设计原理",
+        "城市空间基础",
+        "建筑设计(6-5)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李洪波",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-05-001",
+      "title": null,
+      "collegeCode": "upc-05",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "储运与建筑工程学院",
+        "sourceFile": "课表/储运与建筑工程学院/课表打印 (1).xls",
+        "sourceSha256": "2b9e40da52e8ef985372419e089f3d4ae12db7f0164a91a959b1895293d571bb",
+        "rawNames": [
+          "李洪波"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "PLC210221020",
+        "PLC223621020"
+      ],
+      "courseNames": [
+        "专业外语",
+        "油气储运概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李玉坤",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370917",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2022/0310/c19285a370917/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2022/0310/c19285a370917/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a370917",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310611030",
+        "PLC310721020"
+      ],
+      "courseNames": [
+        "实验应力分析",
+        "理论力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李玉星",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370878",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0110/c19268a370878/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0110/c19268a370878/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/3700/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370878",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222111010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李瑞勇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370979",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2014/1127/c19285a370979/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2014/1127/c19285a370979/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a370979",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310411040",
+        "PLC310611030"
+      ],
+      "courseNames": [
+        "工程力学",
+        "理论力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李静",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19270-a370931",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0227/c19270a370931/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0227/c19270a370931/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19270-a370931",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC127721010"
+      ],
+      "courseNames": [
+        "专业英语与文献检索"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨东海",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370891",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370891/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370891/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/3700/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370891",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC220721020"
+      ],
+      "courseNames": [
+        "储运设施完整性管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨婷婷",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19292-a370960",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19292a370960/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19292a370960/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19292-a370960",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC521812101",
+        "PLC522911099",
+        "PLC562411030"
+      ],
+      "courseNames": [
+        "9新生研讨课",
+        "建筑设计基础（2-1）",
+        "设计制图与表达"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨飞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370880",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370880/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370880/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/3700/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370880",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222111010",
+        "PLC222811010",
+        "PLC223621020"
+      ],
+      "courseNames": [
+        "专业外语",
+        "新生研讨课",
+        "油气储运新技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "林红",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370916",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370916/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370916/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a370916",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310411040",
+        "PLC321721020"
+      ],
+      "courseNames": [
+        "塑性力学基础",
+        "工程力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "梁法春",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370882",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19268a370882/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19268a370882/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370882",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222111010",
+        "PLC222621020",
+        "PLC222811010",
+        "PLC222911025"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "油气储运安全技术",
+        "油气储运新技术",
+        "油气集输"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "滕厚兴",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19289-a370907",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19289a370907/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19289a370907/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19289-a370907",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC220621020"
+      ],
+      "courseNames": [
+        "储运工程最优化"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王凌旭",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-05-002",
+      "title": null,
+      "collegeCode": "upc-05",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "储运与建筑工程学院",
+        "sourceFile": "课表/储运与建筑工程学院/课表打印 (1).xls",
+        "sourceSha256": "2b9e40da52e8ef985372419e089f3d4ae12db7f0164a91a959b1895293d571bb",
+        "rawNames": [
+          "王凌旭"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "PLC521661999",
+        "PLC522212201",
+        "PLC562411030"
+      ],
+      "courseNames": [
+        "建筑物理（2-2）",
+        "建筑设计（6-1）",
+        "设计制图与表达"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王武昌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370881",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370881/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370881/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/3700/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370881",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222811010"
+      ],
+      "courseNames": [
+        "油气储运新技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王海琴",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19284-a370901",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19284a370901/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19284a370901/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19284-a370901",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC220621020",
+        "PLC222911025"
+      ],
+      "courseNames": [
+        "储运工程最优化",
+        "油气集输"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王海静",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370980",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2014/1127/c19285a370980/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2014/1127/c19285a370980/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a370980",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310411040",
+        "PLC321112999"
+      ],
+      "courseNames": [
+        "工程力学",
+        "建筑力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王灵芝",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19292-a370958",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19292a370958/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19292a370958/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19292-a370958",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC521812101",
+        "PLC522911099"
+      ],
+      "courseNames": [
+        "9新生研讨课",
+        "建筑设计基础（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王财林",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19284-a399436",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2023/0327/c19284a399436/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2023/0327/c19284a399436/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19284-a399436",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222511020"
+      ],
+      "courseNames": [
+        "油气储运HSE"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王鑫",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19287-a370951",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19287a370951/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_course_assignment",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19287a370951/page.htm",
+        "sourceId": "cj-c19287-a370951",
+        "sameNameEvidence": {
+          "relation": "distinct_persons",
+          "profiles": [
+            {
+              "sourceId": "cj-c19284-a370895",
+              "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19284a370895/page.htm",
+              "department": "储运工程系",
+              "mainCourses": [
+                "输气管道设计与管理",
+                "油气储运概论"
+              ],
+              "courseMatch": []
+            },
+            {
+              "sourceId": "cj-c19287-a370951",
+              "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19287a370951/page.htm",
+              "department": "建筑系",
+              "mainCourses": [
+                "建筑设计",
+                "绿色建筑概论",
+                "场地设计"
+              ],
+              "courseMatch": [
+                "PLC520321011"
+              ]
+            }
+          ],
+          "decision": "'场地设计' is explicitly listed by the 建筑系 profile; assign that profile only; the 储运 profile has no matching timetable course"
+        },
+        "courseProvenance": [
+          {
+            "courseCodes": [
+              "PLC520321011"
+            ],
+            "method": "official_main_course",
+            "confidence": "high",
+            "officialConfirmation": true,
+            "correctable": false,
+            "basis": [],
+            "evidence": null,
+            "alternativeSourceId": null
+          }
+        ]
+      },
+      "courseCodes": [
+        "PLC520321011"
+      ],
+      "courseNames": [
+        "场地设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王鸿膺",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19284-a370889",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0528/c19284a370889/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0528/c19284a370889/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19284-a370889",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222411025"
+      ],
+      "courseNames": [
+        "油库设计与管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "甄莹",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a417799",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2023/1206/c19285a417799/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2023/1206/c19285a417799/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a417799",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310411040"
+      ],
+      "courseNames": [
+        "工程力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "程征",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19287-a370950",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19287a370950/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19287a370950/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19287-a370950",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC521212101",
+        "PLC521812101",
+        "PLC522911099",
+        "PLC562611030"
+      ],
+      "courseNames": [
+        "9新生研讨课",
+        "城市空间基础",
+        "建筑构造（2-1）",
+        "建筑设计基础（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "管友海",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19286-a370938",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19286a370938/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19286a370938/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19286-a370938",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC123521020"
+      ],
+      "courseNames": [
+        "建筑设备工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "胡其会",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19284-a370908",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19284a370908/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19284a370908/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19284-a370908",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC223911021",
+        "PLC226421020"
+      ],
+      "courseNames": [
+        "低碳新能源储运",
+        "高等流体力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "蒋文明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19284-a370897",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19284a370897/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19284a370897/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19284-a370897",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222911025"
+      ],
+      "courseNames": [
+        "油气集输"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "薛章纳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370918",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2019/0830/c19285a370918/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2019/0830/c19285a370918/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a370918",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310411040",
+        "PLC322431010"
+      ],
+      "courseNames": [
+        "五彩缤纷的力学世界",
+        "工程力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "谷泽文",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a399439",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2023/0327/c19285a399439/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2023/0327/c19285a399439/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a399439",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310411040",
+        "PLC322431010"
+      ],
+      "courseNames": [
+        "五彩缤纷的力学世界",
+        "工程力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "贾朋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370981",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2014/1127/c19285a370981/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2014/1127/c19285a370981/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a370981",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310411040",
+        "PLC310611030"
+      ],
+      "courseNames": [
+        "工程力学",
+        "理论力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵德敏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370922",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370922/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370922/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a370922",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0641199",
+        "PLC310611030",
+        "PLC310611041"
+      ],
+      "courseNames": [
+        "理论力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "迟进华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19293-a370973",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2020/0630/c19293a370973/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2020/0630/c19293a370973/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19293-a370973",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC421011026",
+        "PLC421211020"
+      ],
+      "courseNames": [
+        "冷热源设备与系统",
+        "流体输配管网"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邓学晶",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370915",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370915/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19285a370915/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a370915",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310411040",
+        "PLC310611030"
+      ],
+      "courseNames": [
+        "工程力学",
+        "理论力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邓庆尧",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19271-a370949",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2019/0517/c19271a370949/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2019/0517/c19271a370949/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19271-a370949",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC521616100",
+        "PLC522911010"
+      ],
+      "courseNames": [
+        "建筑设计(6-1)",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邢杉硕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19293-a450787",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2025/0217/c19293a450787/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2025/0217/c19293a450787/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19293-a450787",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC420911010"
+      ],
+      "courseNames": [
+        "建筑环境与能源应用新技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "钮瑞艳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19290-a370925",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19290a370925/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19290a370925/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19290-a370925",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310611030",
+        "PLC310612100",
+        "PLC321311031"
+      ],
+      "courseNames": [
+        "理论力学",
+        "理论力学(2-1)",
+        "结构力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈建恒",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a450707",
+      "title": "特任教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2025/0208/c19268a450707/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2025/0208/c19268a450707/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/3700/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a450707",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222411025"
+      ],
+      "courseNames": [
+        "油库设计与管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈树军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19272-a370964",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19272a370964/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0328/c19272a370964/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19272-a370964",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC420611020",
+        "PLC420911010",
+        "PLC431211020"
+      ],
+      "courseNames": [
+        "工程管理与经济",
+        "建筑环境与能源应用新技术",
+        "输气管道设计与管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈瑞罡",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19292-a370953",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19292a370953/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19292a370953/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19292-a370953",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC521011020",
+        "PLC521011999",
+        "PLC521616100",
+        "PLC562611030"
+      ],
+      "courseNames": [
+        "公共建筑设计原理",
+        "城市空间基础",
+        "建筑设计(6-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈金平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19286-a370942",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19286a370942/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19286a370942/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19286-a370942",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC125931020",
+        "PLC127621020",
+        "PLC133611015",
+        "PLC133611999"
+      ],
+      "courseNames": [
+        "土木工程材料",
+        "土木工程概论",
+        "建筑材料"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈雷",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370900",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370900/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0102/c19268a370900/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/3700/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370900",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC222111010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "韩辉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19268-a370888",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0910/c19268a370888/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0910/c19268a370888/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/3700/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19268-a370888",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC223911021"
+      ],
+      "courseNames": [
+        "高等流体力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马鹏程",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19286-a399441",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2023/0327/c19286a399441/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2023/0327/c19286a399441/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19286-a399441",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0641199",
+        "PLC124521020"
+      ],
+      "courseNames": [
+        "理论力学",
+        "隧道工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "高伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19292-a370954",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19292a370954/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19292a370954/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19292-a370954",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC521121010",
+        "PLC521812101",
+        "PLC522911099",
+        "PLC562411030",
+        "PLC562611030"
+      ],
+      "courseNames": [
+        "9新生研讨课",
+        "城市空间基础",
+        "建筑设计基础（2-1）",
+        "环境心理学概论",
+        "设计制图与表达"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "高福聚",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19286-a370985",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2014/1128/c19286a370985/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2014/1128/c19286a370985/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19286-a370985",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC120821020",
+        "PLC121211025",
+        "PLC125631020"
+      ],
+      "courseNames": [
+        "多层与高层建筑结构设计",
+        "易学探微",
+        "钢结构原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黄小光",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19285-a370923",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19285a370923/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0104/c19285a370923/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19285-a370923",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC310112101",
+        "PLC310611030",
+        "PLC328912200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）",
+        "材料力学（2-1）",
+        "理论力学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黄思凝",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cj-c19286-a370939",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "profileUrl": "http://cj.upc.edu.cn/2018/0105/c19286a370939/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://cj.upc.edu.cn/2018/0105/c19286a370939/page.htm",
+        "listUrl": "http://cj.upc.edu.cn/szdw/list.htm",
+        "listedUnits": [
+          "储运与建筑工程学院"
+        ],
+        "sourceId": "cj-c19286-a370939",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "PLC122011016"
+      ],
+      "courseNames": [
+        "工程结构试验"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

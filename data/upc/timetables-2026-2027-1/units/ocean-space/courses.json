@@ -1,0 +1,864 @@
+{
+  "schemaVersion": 1,
+  "unit": "海洋与空间信息学院",
+  "collegeCode": "upc-08",
+  "courses": [
+    {
+      "key": "OSI110911020",
+      "code": "OSI110911020",
+      "name": "数字地形测量学",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "赵健"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI111011026",
+      "code": "OSI111011026",
+      "name": "数字图像处理",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "宋冬梅",
+        "李国胜",
+        "王斌"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI111511010",
+      "code": "OSI111511010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "白永良"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI111611010",
+      "code": "OSI111611010",
+      "name": "学科前沿知识专题讲座",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 14,
+      "teacherNames": [
+        "何亚文",
+        "刘善伟",
+        "吴会胜",
+        "张杰",
+        "李连伟",
+        "王振杰",
+        "王海起",
+        "白永良",
+        "聂志喜",
+        "臧建飞",
+        "黄丙湖"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI112021020",
+      "code": "OSI112021020",
+      "name": "专业外语",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "彭秀英"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI112511030",
+      "code": "OSI112511030",
+      "name": "误差理论与测量平差基础",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "聂志喜",
+        "赵爽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI120121021",
+      "code": "OSI120121021",
+      "name": "GIS空间分析",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘瑞娟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI120211022",
+      "code": "OSI120211022",
+      "name": "GIS空间分析",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "黄丙湖"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI120421020",
+      "code": "OSI120421020",
+      "name": "GIS应用开发",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "吴会胜"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI120421021",
+      "code": "OSI120421021",
+      "name": "GIS应用开发",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "吴会胜"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI120521021",
+      "code": "OSI120521021",
+      "name": "GNSS测量数据处理",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "姬生月"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI121011020",
+      "code": "OSI121011020",
+      "name": "测量学",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘善伟",
+        "郑红霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI121421031",
+      "code": "OSI121421031",
+      "name": "地理建模原理与方法",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "李连伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI121911031",
+      "code": "OSI121911031",
+      "name": "高级程序设计",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "王海起"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI122211020",
+      "code": "OSI122211020",
+      "name": "工程概论",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "吴会胜"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI122511020",
+      "code": "OSI122511020",
+      "name": "海洋测绘",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "范士杰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI122721020",
+      "code": "OSI122721020",
+      "name": "开源GIS设计与开发",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "李国胜"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI122921031",
+      "code": "OSI122921031",
+      "name": "空间数据库",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "安聪荣"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI123621021",
+      "code": "OSI123621021",
+      "name": "实用测量数据处理方法",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "聂志喜"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI123921021",
+      "code": "OSI123921021",
+      "name": "数字摄影测量",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "许明明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI124021021",
+      "code": "OSI124021021",
+      "name": "水下导航定位技术",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "赵爽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI124121021",
+      "code": "OSI124121021",
+      "name": "位置服务概论",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "曾喆"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI127721020",
+      "code": "OSI127721020",
+      "name": "工程概论",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "吴会胜"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI129821020",
+      "code": "OSI129821020",
+      "name": "国土空间规划",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "安聪荣"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI130211030",
+      "code": "OSI130211030",
+      "name": "摄影测量学",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "盛辉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI132711020",
+      "code": "OSI132711020",
+      "name": "地图制图学基础",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "彭秀英"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI134511030",
+      "code": "OSI134511030",
+      "name": "程序设计（C/C++）",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "王海起",
+        "魏世清"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI136611020",
+      "code": "OSI136611020",
+      "name": "无人机核心技能课程",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "聂志喜"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI137911025",
+      "code": "OSI137911025",
+      "name": "空间数据误差处理",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "聂志喜"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI220221021",
+      "code": "OSI220221021",
+      "name": "FPGA设计与应用",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "张锡岭"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI220411028",
+      "code": "OSI220411028",
+      "name": "程序设计（C/C++）",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 15,
+      "teacherNames": [
+        "李世宝",
+        "李永",
+        "白依宁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI221211030",
+      "code": "OSI221211030",
+      "name": "计算机网络",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 13,
+      "teacherNames": [
+        "张锡岭",
+        "李世宝",
+        "李东阳",
+        "李彤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI222411031",
+      "code": "OSI222411031",
+      "name": "通信电子线路",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "舒若"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI222911041",
+      "code": "OSI222911041",
+      "name": "通信原理",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "卢晓轩",
+        "李世宝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI223321030",
+      "code": "OSI223321030",
+      "name": "微机原理",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李永"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI223421020",
+      "code": "OSI223421020",
+      "name": "卫星通信",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "卢晓轩"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI223611010",
+      "code": "OSI223611010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李忠伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI224321015",
+      "code": "OSI224321015",
+      "name": "通信系统仿真技术",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "姜斌"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI224821020",
+      "code": "OSI224821020",
+      "name": "通信原理",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "丁淑妍",
+        "顾朝志"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI225711020",
+      "code": "OSI225711020",
+      "name": "离散数学",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "李莉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI226021020",
+      "code": "OSI226021020",
+      "name": "移动互联网实践",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张锡岭"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI228621020",
+      "code": "OSI228621020",
+      "name": "无线通信原理",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李磊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI232111020",
+      "code": "OSI232111020",
+      "name": "数字系统综合实践",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "丁淑妍"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI236221025",
+      "code": "OSI236221025",
+      "name": "Python程序设计",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "李东阳",
+        "闫秋双"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI236511020",
+      "code": "OSI236511020",
+      "name": "无人机原理与构造",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "吴会胜"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI310111046",
+      "code": "OSI310111046",
+      "name": "微机原理",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙伟峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI314621020",
+      "code": "OSI314621020",
+      "name": "数据库技术与应用",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "董超群"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI320321020",
+      "code": "OSI320321020",
+      "name": "Python语言程序设计",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "杨华",
+        "王冠雅"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI320611027",
+      "code": "OSI320611027",
+      "name": "程序设计（C/C++）",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "吴琼",
+        "曲晓俊",
+        "杨华",
+        "王武礼"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI321311025",
+      "code": "OSI321311025",
+      "name": "高频电子线路",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "任鹏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI322121021",
+      "code": "OSI322121021",
+      "name": "嵌入式系统设计",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "宋华军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI322421020",
+      "code": "OSI322421020",
+      "name": "数据采集系统",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "万勇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI322811030",
+      "code": "OSI322811030",
+      "name": "数字信号处理",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "宋华军",
+        "李莉",
+        "魏少鹏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI323511010",
+      "code": "OSI323511010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 18,
+      "teacherNames": [
+        "任旭虎",
+        "任鹏",
+        "周卫东",
+        "周鹏",
+        "孙伟峰",
+        "陈真",
+        "魏少鹏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI323711035",
+      "code": "OSI323711035",
+      "name": "信号与系统",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "苗翔鹰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI323911010",
+      "code": "OSI323911010",
+      "name": "学科前沿知识专题讲座",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "吕新荣",
+        "周飞",
+        "周鹏",
+        "王冠雅",
+        "石钰",
+        "苗翔鹰",
+        "魏少鹏",
+        "魏嵩"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI324131020",
+      "code": "OSI324131020",
+      "name": "三维动画设计与制作",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "陈真"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI324411021",
+      "code": "OSI324411021",
+      "name": "FPGA系统设计",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "吕新荣"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI324611020",
+      "code": "OSI324611020",
+      "name": "信息论基础",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "曲晓俊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI325211030",
+      "code": "OSI325211030",
+      "name": "电路理论基础",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "吕新荣",
+        "周卫东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI325411026",
+      "code": "OSI325411026",
+      "name": "数字电子技术",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "吕新荣",
+        "董超群"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI325811030",
+      "code": "OSI325811030",
+      "name": "模拟电子技术",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "任旭虎"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI331821020",
+      "code": "OSI331821020",
+      "name": "信号处理仿真",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "周卫东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI332521020",
+      "code": "OSI332521020",
+      "name": "数字图像处理",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王冠雅"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI334912200",
+      "code": "OSI334912200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "周卫东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI341421021",
+      "code": "OSI341421021",
+      "name": "信号分析与处理",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "魏嵩"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI400111013",
+      "code": "OSI400111013",
+      "name": "新生研讨课",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张锡岭",
+        "李世宝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI504311026",
+      "code": "OSI504311026",
+      "name": "遥感数字图像处理",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "孙根云",
+        "张爱竹"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI504411021",
+      "code": "OSI504411021",
+      "name": "数字地形测量学",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘善伟",
+        "郑红霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI504511020",
+      "code": "OSI504511020",
+      "name": "遥感程序设计基础",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "杨雪",
+        "王斌"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI505711020",
+      "code": "OSI505711020",
+      "name": "空间数据库",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "王海起"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI505811014",
+      "code": "OSI505811014",
+      "name": "新生研讨课",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "刘善伟",
+        "孙根云",
+        "宋冬梅",
+        "张杰",
+        "高晗",
+        "魏世清"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OSI505911033",
+      "code": "OSI505911033",
+      "name": "程序设计（C/C++）",
+      "collegeCode": "upc-08",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "李国胜",
+        "魏世清"
+      ],
+      "excludedReason": null
+    }
+  ]
+}

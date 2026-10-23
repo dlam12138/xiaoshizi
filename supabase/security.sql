@@ -1,46 +1,62 @@
--- Only server functions can mutate balances, ledger entries and moderation status.
+-- UPC authorization and RPC layer. Apply after base-schema.sql.
+-- Public review reads go through a safe view; base-table SELECT is limited to the
+-- author and active reviewers, so user IDs and moderation fields never leak.
+
 CREATE SCHEMA IF NOT EXISTS private;
 REVOKE ALL ON SCHEMA private FROM PUBLIC;
 GRANT USAGE ON SCHEMA private TO authenticated;
 
-CREATE OR REPLACE FUNCTION private.swjtu_admin_role() RETURNS TEXT
+CREATE OR REPLACE FUNCTION private.upc_admin_role() RETURNS TEXT
 LANGUAGE sql STABLE SECURITY DEFINER SET search_path = '' AS $$
-  SELECT a.role FROM public.admin_users a JOIN auth.users u ON lower(u.email)=lower(a.email)
-  WHERE u.id=auth.uid() AND u.email_confirmed_at IS NOT NULL AND a.is_active
-    AND a.role IN ('super_admin','admin','moderator') LIMIT 1
+  SELECT a.role
+  FROM public.admin_users a
+  JOIN auth.users u ON lower(u.email) = lower(a.email)
+  WHERE u.id = auth.uid()
+    AND u.email_confirmed_at IS NOT NULL
+    AND a.is_active
+    AND a.role IN ('super_admin', 'admin', 'moderator')
+  LIMIT 1
 $$;
-REVOKE ALL ON FUNCTION private.swjtu_admin_role() FROM PUBLIC, anon;
-GRANT EXECUTE ON FUNCTION private.swjtu_admin_role() TO authenticated;
+REVOKE ALL ON FUNCTION private.upc_admin_role() FROM PUBLIC, anon;
+GRANT EXECUTE ON FUNCTION private.upc_admin_role() TO authenticated;
 
 CREATE OR REPLACE FUNCTION public.get_my_admin_status() RETURNS JSONB
 LANGUAGE sql STABLE SECURITY DEFINER SET search_path = '' AS $$
-  SELECT coalesce((SELECT jsonb_build_object('is_admin',true,'role',a.role,'nickname',a.nickname)
-    FROM public.admin_users a JOIN auth.users u ON lower(u.email)=lower(a.email)
-    WHERE u.id=auth.uid() AND u.email_confirmed_at IS NOT NULL AND a.is_active
-      AND a.role IN ('super_admin','admin','moderator') LIMIT 1), jsonb_build_object('is_admin',false))
+  SELECT coalesce((
+    SELECT jsonb_build_object('is_admin', true, 'role', a.role, 'nickname', a.nickname)
+    FROM public.admin_users a
+    JOIN auth.users u ON lower(u.email) = lower(a.email)
+    WHERE u.id = auth.uid()
+      AND u.email_confirmed_at IS NOT NULL
+      AND a.is_active
+      AND a.role IN ('super_admin', 'admin', 'moderator')
+    LIMIT 1
+  ), jsonb_build_object('is_admin', false))
 $$;
 
--- Replace ALL old policies on app tables: permissive policies combine with OR.
-DO $$ DECLARE v RECORD; tbl TEXT; BEGIN
-  FOR v IN SELECT tablename,policyname FROM pg_policies WHERE schemaname='public'
-    AND tablename IN ('teachers','reviews','user_profiles','point_transactions','admin_users',
-                      'courses','colleges','terms','course_offerings','point_rules')
-  LOOP EXECUTE format('DROP POLICY %I ON public.%I',v.policyname,v.tablename); END LOOP;
-  FOREACH tbl IN ARRAY ARRAY['teachers','reviews','user_profiles','point_transactions','admin_users',
-                            'courses','colleges','terms','course_offerings','point_rules'] LOOP
-    EXECUTE format('ALTER TABLE public.%I ENABLE ROW LEVEL SECURITY',tbl);
-    EXECUTE format('REVOKE ALL ON public.%I FROM PUBLIC, anon, authenticated',tbl);
+-- Replace all historical policies: permissive policies combine with OR.
+DO $$
+DECLARE v RECORD; tbl TEXT;
+BEGIN
+  FOR v IN SELECT tablename, policyname FROM pg_policies
+    WHERE schemaname = 'public'
+      AND tablename IN ('teachers','reviews','review_likes','user_profiles','point_transactions',
+                        'admin_users','courses','colleges','terms','course_offerings','point_rules',
+                        'import_batches')
+  LOOP
+    EXECUTE format('DROP POLICY %I ON public.%I', v.policyname, v.tablename);
   END LOOP;
-  -- REVOKE table privileges does not remove historical column grants.
-  FOR v IN SELECT table_name,column_name FROM information_schema.columns WHERE table_schema='public'
-    AND table_name IN ('teachers','reviews','user_profiles','point_transactions','admin_users',
-                      'courses','colleges','terms','course_offerings','point_rules') LOOP
-    EXECUTE format('REVOKE SELECT (%I), INSERT (%I), UPDATE (%I), REFERENCES (%I) ON public.%I FROM PUBLIC, anon, authenticated',
-      v.column_name,v.column_name,v.column_name,v.column_name,v.table_name);
+
+  FOREACH tbl IN ARRAY ARRAY['teachers','reviews','review_likes','user_profiles','point_transactions',
+                             'admin_users','courses','colleges','terms','course_offerings','point_rules',
+                             'import_batches'] LOOP
+    EXECUTE format('ALTER TABLE public.%I ENABLE ROW LEVEL SECURITY', tbl);
+    EXECUTE format('REVOKE ALL ON public.%I FROM PUBLIC, anon, authenticated', tbl);
   END LOOP;
 END $$;
 
-GRANT SELECT ON public.teachers,public.courses,public.colleges,public.terms,public.course_offerings,public.point_rules TO anon,authenticated;
+GRANT SELECT ON public.teachers, public.courses, public.colleges, public.terms,
+  public.course_offerings, public.point_rules TO anon, authenticated;
 CREATE POLICY catalog_read ON public.teachers FOR SELECT USING (true);
 CREATE POLICY catalog_read ON public.courses FOR SELECT USING (true);
 CREATE POLICY catalog_read ON public.colleges FOR SELECT USING (true);
@@ -48,165 +64,274 @@ CREATE POLICY catalog_read ON public.terms FOR SELECT USING (true);
 CREATE POLICY catalog_read ON public.course_offerings FOR SELECT USING (true);
 CREATE POLICY catalog_read ON public.point_rules FOR SELECT USING (true);
 
-GRANT SELECT ON public.reviews TO anon,authenticated;
-GRANT INSERT (id,teacher_id,course_id,year_term,attendance_strictness,grading_leniency,
-  effort_matters,workload_difficulty,approachability,teaching_quality,comment,author_nickname,
-  user_id,is_historical_migrated,status,created_at,likes) ON public.reviews TO authenticated;
-GRANT UPDATE (course_id,year_term,attendance_strictness,grading_leniency,effort_matters,
-  workload_difficulty,approachability,teaching_quality,comment,status,reject_reason) ON public.reviews TO authenticated;
-GRANT DELETE ON public.reviews TO authenticated;
-CREATE POLICY reviews_public_read ON public.reviews FOR SELECT USING (status='approved');
+-- Safe public review projection. The view runs with its owner's privileges and
+-- deliberately exposes only approved, non-identifying fields. It does not expose
+-- user_id, reviewer_id, reject_reason or reviewed_at.
+CREATE OR REPLACE VIEW public.review_feed AS
+SELECT
+  r.id, r.teacher_id, r.course_id, r.term_id, r.year_term,
+  r.attendance_strictness, r.grading_leniency, r.effort_matters,
+  r.workload_difficulty, r.approachability, r.teaching_quality,
+  r.comment, r.author_nickname, r.is_historical_migrated,
+  r.status, r.created_at, r.likes, r.rating_version,
+  c.name AS course_name,
+  t.name AS teacher_name
+FROM public.reviews r
+LEFT JOIN public.courses c ON c.id = r.course_id
+LEFT JOIN public.teachers t ON t.id = r.teacher_id
+WHERE r.status = 'approved';
+REVOKE ALL ON public.review_feed FROM PUBLIC, anon, authenticated;
+GRANT SELECT ON public.review_feed TO anon, authenticated;
+
+-- Authors and active reviewers may read base rows; everyone else uses the view.
+GRANT SELECT ON public.reviews TO authenticated;
 CREATE POLICY reviews_member_read ON public.reviews FOR SELECT TO authenticated
-  USING (user_id=auth.uid()::text OR private.swjtu_admin_role() IS NOT NULL);
+  USING (user_id = auth.uid()::text OR private.upc_admin_role() IS NOT NULL);
+
+GRANT INSERT (id, teacher_id, course_id, term_id, year_term,
+  attendance_strictness, grading_leniency, effort_matters, workload_difficulty,
+  approachability, teaching_quality, comment, author_nickname, user_id,
+  is_historical_migrated, status, created_at, likes, rating_version)
+  ON public.reviews TO authenticated;
+GRANT UPDATE (course_id, term_id, year_term, attendance_strictness, grading_leniency,
+  effort_matters, workload_difficulty, approachability, teaching_quality, comment,
+  status, reject_reason, rating_version)
+  ON public.reviews TO authenticated;
+GRANT DELETE ON public.reviews TO authenticated;
+
 CREATE POLICY reviews_submit ON public.reviews FOR INSERT TO authenticated
-  WITH CHECK (user_id=auth.uid()::text AND status='pending' AND NOT is_historical_migrated AND likes=0
-    AND reviewer_id IS NULL AND reviewed_at IS NULL AND reject_reason IS NULL);
+  WITH CHECK (
+    user_id = auth.uid()::text
+    AND status = 'pending'
+    AND NOT is_historical_migrated
+    AND likes = 0
+    AND reviewer_id IS NULL
+    AND reviewed_at IS NULL
+    AND reject_reason IS NULL
+    AND rating_version = 2
+    AND EXISTS (
+      SELECT 1 FROM public.course_offerings o
+      WHERE o.teacher_id = reviews.teacher_id
+        AND o.course_id = reviews.course_id
+        AND o.term_id = reviews.term_id
+    )
+  );
 CREATE POLICY reviews_author_edit ON public.reviews FOR UPDATE TO authenticated
-  USING (user_id=auth.uid()::text AND status IN ('pending','rejected'))
-  WITH CHECK (user_id=auth.uid()::text AND status='pending');
+  USING (user_id = auth.uid()::text AND status IN ('pending', 'rejected'))
+  WITH CHECK (
+    user_id = auth.uid()::text
+    AND status = 'pending'
+    AND rating_version = 2
+    AND EXISTS (
+      SELECT 1 FROM public.course_offerings o
+      WHERE o.teacher_id = reviews.teacher_id
+        AND o.course_id = reviews.course_id
+        AND o.term_id = reviews.term_id
+    )
+  );
 CREATE POLICY reviews_delete ON public.reviews FOR DELETE TO authenticated
-  USING (private.swjtu_admin_role() IS NOT NULL OR (user_id=auth.uid()::text AND status IN ('pending','rejected')));
+  USING (private.upc_admin_role() IS NOT NULL OR (user_id = auth.uid()::text AND status IN ('pending', 'rejected')));
 
-GRANT SELECT ON public.user_profiles,public.point_transactions TO authenticated;
-CREATE POLICY points_owner_read ON public.user_profiles FOR SELECT TO authenticated USING (id=auth.uid()::text);
-CREATE POLICY ledger_owner_read ON public.point_transactions FOR SELECT TO authenticated USING (user_id=auth.uid()::text);
+GRANT SELECT ON public.user_profiles, public.point_transactions TO authenticated;
+CREATE POLICY points_owner_read ON public.user_profiles FOR SELECT TO authenticated
+  USING (id = auth.uid()::text);
+CREATE POLICY ledger_owner_read ON public.point_transactions FOR SELECT TO authenticated
+  USING (user_id = auth.uid()::text);
 
-GRANT SELECT,INSERT,UPDATE,DELETE ON public.admin_users TO authenticated;
+GRANT SELECT ON public.review_likes TO authenticated;
+CREATE POLICY likes_read_own ON public.review_likes FOR SELECT TO authenticated
+  USING (user_id = auth.uid());
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.admin_users TO authenticated;
 CREATE POLICY admin_members_read ON public.admin_users FOR SELECT TO authenticated
-  USING (private.swjtu_admin_role()='super_admin');
+  USING (private.upc_admin_role() = 'super_admin');
 CREATE POLICY admin_members_manage ON public.admin_users FOR ALL TO authenticated
-  USING (private.swjtu_admin_role()='super_admin')
-  WITH CHECK (private.swjtu_admin_role()='super_admin' AND role IN ('super_admin','admin','moderator'));
+  USING (private.upc_admin_role() = 'super_admin')
+  WITH CHECK (private.upc_admin_role() = 'super_admin' AND role IN ('super_admin', 'admin', 'moderator'));
 
--- Durable reward marker survives review deletion. It is never exposed through the API.
-CREATE TABLE IF NOT EXISTS private.swjtu_review_rewards (
-  review_id TEXT PRIMARY KEY, user_id TEXT NOT NULL, awarded_at TIMESTAMPTZ NOT NULL DEFAULT now()
+-- No import_batches policy: the table is service-role only.
+
+-- Durable reward marker survives review deletion and is never exposed.
+CREATE TABLE IF NOT EXISTS private.upc_review_rewards (
+  review_id TEXT PRIMARY KEY,
+  user_id TEXT NOT NULL,
+  awarded_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
-REVOKE ALL ON private.swjtu_review_rewards FROM PUBLIC,anon,authenticated;
--- Preserve known legacy awards, rather than issue them a second time.
-INSERT INTO private.swjtu_review_rewards(review_id,user_id)
-SELECT related_review_id,min(user_id) FROM public.point_transactions
-WHERE related_review_id IS NOT NULL AND user_id IS NOT NULL AND amount>0
-GROUP BY related_review_id ON CONFLICT DO NOTHING;
-INSERT INTO private.swjtu_review_rewards(review_id,user_id)
-SELECT id,user_id FROM public.reviews WHERE status='approved' AND user_id IS NOT NULL
-ON CONFLICT DO NOTHING;
+REVOKE ALL ON private.upc_review_rewards FROM PUBLIC, anon, authenticated;
 
-CREATE OR REPLACE FUNCTION private.swjtu_ensure_profile(p_user_id TEXT) RETURNS VOID
+CREATE OR REPLACE FUNCTION private.upc_ensure_profile(p_user_id TEXT) RETURNS VOID
 LANGUAGE plpgsql SECURITY DEFINER SET search_path = '' AS $$
 DECLARE inserted_id TEXT; initial_points INTEGER;
 BEGIN
-  IF EXISTS (SELECT 1 FROM public.user_profiles WHERE id=p_user_id) THEN RETURN; END IF;
-  IF NOT EXISTS (SELECT 1 FROM auth.users WHERE id::text=p_user_id) THEN
+  IF EXISTS (SELECT 1 FROM public.user_profiles WHERE id = p_user_id) THEN RETURN; END IF;
+  IF NOT EXISTS (SELECT 1 FROM auth.users WHERE id::text = p_user_id) THEN
     RAISE EXCEPTION 'Unknown authenticated user';
   END IF;
-  SELECT points_delta INTO initial_points FROM public.point_rules WHERE action_code='new_user_welcome' AND is_active;
-  IF initial_points IS NULL OR initial_points<0 THEN RAISE EXCEPTION '注册积分规则不可用'; END IF;
-  INSERT INTO public.user_profiles(id,points) VALUES(p_user_id,initial_points)
-    ON CONFLICT(id) DO NOTHING RETURNING id INTO inserted_id;
+  SELECT points_delta INTO initial_points
+  FROM public.point_rules
+  WHERE action_code = 'new_user_welcome' AND is_active;
+  IF initial_points IS NULL OR initial_points < 0 THEN
+    RAISE EXCEPTION '注册积分规则不可用';
+  END IF;
+  INSERT INTO public.user_profiles (id, points)
+  VALUES (p_user_id, initial_points)
+  ON CONFLICT (id) DO NOTHING
+  RETURNING id INTO inserted_id;
   IF inserted_id IS NOT NULL THEN
-    INSERT INTO public.point_transactions(id,user_id,action,action_code,amount,balance_after)
-    VALUES(gen_random_uuid()::text,p_user_id,'新用户注册赠送','new_user_welcome',initial_points,initial_points);
+    INSERT INTO public.point_transactions (id, user_id, action, action_code, amount, balance_after)
+    VALUES (gen_random_uuid()::text, p_user_id, '新用户注册赠送', 'new_user_welcome', initial_points, initial_points);
   END IF;
 END $$;
-REVOKE ALL ON FUNCTION private.swjtu_ensure_profile(TEXT) FROM PUBLIC,anon,authenticated;
-
--- Keep the existing on_auth_user_created trigger. Adding another trigger would
--- duplicate the registration credit or interfere with its error handling.
+REVOKE ALL ON FUNCTION private.upc_ensure_profile(TEXT) FROM PUBLIC, anon, authenticated;
 
 DROP FUNCTION IF EXISTS public.handle_daily_checkin();
 CREATE FUNCTION public.handle_daily_checkin()
-RETURNS TABLE(points INTEGER,already_checked_in BOOLEAN)
+RETURNS TABLE(points INTEGER, already_checked_in BOOLEAN)
 LANGUAGE plpgsql SECURITY DEFINER SET search_path = '' AS $$
-DECLARE uid TEXT:=auth.uid()::text; bal INTEGER; last_day DATE; reward INTEGER;
-  today DATE:=(now() AT TIME ZONE 'Asia/Shanghai')::date;
+DECLARE
+  uid TEXT := auth.uid()::text;
+  bal INTEGER;
+  last_day DATE;
+  reward INTEGER;
+  today DATE := (now() AT TIME ZONE 'Asia/Shanghai')::date;
 BEGIN
   IF uid IS NULL THEN RAISE EXCEPTION '请先登录'; END IF;
-  PERFORM private.swjtu_ensure_profile(uid);
-  SELECT p.points,p.last_checkin_date INTO bal,last_day FROM public.user_profiles p WHERE p.id=uid FOR UPDATE;
-  IF last_day=today THEN
-    RETURN QUERY SELECT bal,true; RETURN;
+  PERFORM private.upc_ensure_profile(uid);
+  SELECT p.points, p.last_checkin_date INTO bal, last_day
+  FROM public.user_profiles p WHERE p.id = uid FOR UPDATE;
+  IF last_day = today THEN
+    RETURN QUERY SELECT bal, true;
+    RETURN;
   END IF;
-  SELECT pr.points_delta INTO reward FROM public.point_rules pr WHERE pr.action_code='daily_checkin' AND pr.is_active;
-  IF reward IS NULL OR reward<=0 THEN RAISE EXCEPTION '签到积分规则不可用'; END IF;
-  UPDATE public.user_profiles p SET points=p.points+reward,last_checkin_date=today WHERE id=uid RETURNING p.points INTO bal;
-  INSERT INTO public.point_transactions(id,user_id,action,action_code,amount,balance_after)
-    VALUES(gen_random_uuid()::text,uid,'每日签到奖励','daily_checkin',reward,bal);
-  RETURN QUERY SELECT bal,false;
+  SELECT pr.points_delta INTO reward
+  FROM public.point_rules pr
+  WHERE pr.action_code = 'daily_checkin' AND pr.is_active;
+  IF reward IS NULL OR reward <= 0 THEN RAISE EXCEPTION '签到积分规则不可用'; END IF;
+  UPDATE public.user_profiles p
+  SET points = p.points + reward, last_checkin_date = today
+  WHERE id = uid
+  RETURNING p.points INTO bal;
+  INSERT INTO public.point_transactions (id, user_id, action, action_code, amount, balance_after)
+  VALUES (gen_random_uuid()::text, uid, '每日签到奖励', 'daily_checkin', reward, bal);
+  RETURN QUERY SELECT bal, false;
 END $$;
 
-CREATE OR REPLACE FUNCTION public.spend_points(p_action_code TEXT,p_note TEXT DEFAULT NULL) RETURNS INTEGER
+-- Generic rule-based deduction. There is no hard-coded AI/feature allow-list:
+-- only active negative rules can be spent, and phase-one has no active spend rule.
+CREATE OR REPLACE FUNCTION public.spend_points(p_action_code TEXT, p_note TEXT DEFAULT NULL)
+RETURNS INTEGER
 LANGUAGE plpgsql SECURITY DEFINER SET search_path = '' AS $$
-DECLARE uid TEXT:=auth.uid()::text; bal INTEGER; cost INTEGER;
+DECLARE uid TEXT := auth.uid()::text; bal INTEGER; cost INTEGER;
 BEGIN
   IF uid IS NULL THEN RAISE EXCEPTION '请先登录'; END IF;
-  IF p_action_code NOT IN ('ai_question','smart_filter','guide_unlock') THEN RAISE EXCEPTION '不支持的积分消费类型'; END IF;
-  SELECT pr.points_delta INTO cost FROM public.point_rules pr WHERE pr.action_code=p_action_code AND pr.is_active;
-  IF cost IS NULL OR cost>=0 THEN RAISE EXCEPTION '积分消费规则不可用'; END IF;
-  PERFORM private.swjtu_ensure_profile(uid);
-  SELECT points INTO bal FROM public.user_profiles WHERE id=uid FOR UPDATE;
-  IF bal+cost<0 THEN RAISE EXCEPTION 'insufficient points: 积分不足'; END IF;
-  UPDATE public.user_profiles p SET points=p.points+cost WHERE id=uid RETURNING p.points INTO bal;
-  INSERT INTO public.point_transactions(id,user_id,action,action_code,amount,balance_after)
-    VALUES(gen_random_uuid()::text,uid,coalesce(p_note,'积分消费'),p_action_code,cost,bal);
+  SELECT pr.points_delta INTO cost
+  FROM public.point_rules pr
+  WHERE pr.action_code = p_action_code AND pr.is_active;
+  IF cost IS NULL OR cost >= 0 THEN RAISE EXCEPTION '积分消费规则不可用'; END IF;
+  PERFORM private.upc_ensure_profile(uid);
+  SELECT points INTO bal FROM public.user_profiles WHERE id = uid FOR UPDATE;
+  IF bal + cost < 0 THEN RAISE EXCEPTION 'insufficient points: 积分不足'; END IF;
+  UPDATE public.user_profiles p SET points = p.points + cost WHERE id = uid RETURNING p.points INTO bal;
+  INSERT INTO public.point_transactions (id, user_id, action, action_code, amount, balance_after)
+  VALUES (gen_random_uuid()::text, uid, coalesce(p_note, '积分消费'), p_action_code, cost, bal);
   RETURN bal;
 END $$;
 
--- Drop only these known signatures because older versions have incompatible return types.
 DROP FUNCTION IF EXISTS public.approve_review(TEXT);
 CREATE FUNCTION public.approve_review(p_review_id TEXT) RETURNS JSONB
 LANGUAGE plpgsql SECURITY DEFINER SET search_path = '' AS $$
-DECLARE rev public.reviews%ROWTYPE; bal INTEGER; inserted_review TEXT; reviewer UUID; reward INTEGER;
+DECLARE
+  rev public.reviews%ROWTYPE;
+  bal INTEGER;
+  inserted_review TEXT;
+  reviewer UUID;
+  reward INTEGER;
 BEGIN
-  IF auth.uid() IS NULL OR private.swjtu_admin_role() IS NULL THEN RAISE EXCEPTION '无审核权限'; END IF;
-  SELECT * INTO rev FROM public.reviews WHERE id=p_review_id FOR UPDATE;
-  IF NOT FOUND THEN RETURN jsonb_build_object('success',false,'message','评价不存在'); END IF;
-  IF rev.status='approved' THEN RETURN jsonb_build_object('success',true,'points_awarded',false,'message','评价已审核通过'); END IF;
-  IF rev.status NOT IN ('pending','rejected') OR rev.status IS NULL THEN RAISE EXCEPTION '无效的评价状态'; END IF;
-  SELECT a.id INTO reviewer FROM public.admin_users a JOIN auth.users u ON lower(u.email)=lower(a.email) WHERE u.id=auth.uid() AND a.is_active;
-  UPDATE public.reviews SET status='approved',reject_reason=NULL,reviewer_id=reviewer,reviewed_at=now() WHERE id=p_review_id;
-  IF NOT coalesce(rev.is_historical_migrated,false) AND EXISTS (SELECT 1 FROM auth.users WHERE id::text=rev.user_id) THEN
-    PERFORM private.swjtu_ensure_profile(rev.user_id);
-    -- Serialize all balance changes to this author, including different reviews.
-    PERFORM 1 FROM public.user_profiles WHERE id=rev.user_id FOR UPDATE;
-    INSERT INTO private.swjtu_review_rewards(review_id,user_id) VALUES(rev.id,rev.user_id)
-      ON CONFLICT DO NOTHING RETURNING review_id INTO inserted_review;
+  IF auth.uid() IS NULL OR private.upc_admin_role() IS NULL THEN RAISE EXCEPTION '无审核权限'; END IF;
+  SELECT * INTO rev FROM public.reviews WHERE id = p_review_id FOR UPDATE;
+  IF NOT FOUND THEN RETURN jsonb_build_object('success', false, 'message', '评价不存在'); END IF;
+  IF rev.status = 'approved' THEN
+    RETURN jsonb_build_object('success', true, 'points_awarded', false, 'message', '评价已审核通过');
+  END IF;
+  IF rev.status NOT IN ('pending', 'rejected') OR rev.status IS NULL THEN
+    RAISE EXCEPTION '无效的评价状态';
+  END IF;
+  SELECT a.id INTO reviewer
+  FROM public.admin_users a
+  JOIN auth.users u ON lower(u.email) = lower(a.email)
+  WHERE u.id = auth.uid() AND a.is_active;
+  UPDATE public.reviews
+  SET status = 'approved', reject_reason = NULL, reviewer_id = reviewer, reviewed_at = now()
+  WHERE id = p_review_id;
+  IF NOT coalesce(rev.is_historical_migrated, false)
+     AND EXISTS (SELECT 1 FROM auth.users WHERE id::text = rev.user_id) THEN
+    PERFORM private.upc_ensure_profile(rev.user_id);
+    PERFORM 1 FROM public.user_profiles WHERE id = rev.user_id FOR UPDATE;
+    INSERT INTO private.upc_review_rewards (review_id, user_id)
+    VALUES (rev.id, rev.user_id)
+    ON CONFLICT DO NOTHING
+    RETURNING review_id INTO inserted_review;
     IF inserted_review IS NOT NULL THEN
-      SELECT pr.points_delta INTO reward FROM public.point_rules pr WHERE pr.action_code='review_approved' AND pr.is_active;
-      IF reward IS NULL OR reward<=0 THEN RAISE EXCEPTION '评价奖励规则不可用'; END IF;
-      UPDATE public.user_profiles p SET points=p.points+reward WHERE id=rev.user_id RETURNING p.points INTO bal;
-      INSERT INTO public.point_transactions(id,user_id,action,action_code,amount,balance_after,related_review_id)
-        VALUES(gen_random_uuid()::text,rev.user_id,'撰写教师评价审核通过','review_approved',reward,bal,rev.id);
+      SELECT pr.points_delta INTO reward
+      FROM public.point_rules pr
+      WHERE pr.action_code = 'review_approved' AND pr.is_active;
+      IF reward IS NULL OR reward <= 0 THEN RAISE EXCEPTION '评价奖励规则不可用'; END IF;
+      UPDATE public.user_profiles p
+      SET points = p.points + reward
+      WHERE id = rev.user_id
+      RETURNING p.points INTO bal;
+      INSERT INTO public.point_transactions
+        (id, user_id, action, action_code, amount, balance_after, related_review_id)
+      VALUES (gen_random_uuid()::text, rev.user_id, '撰写教师评价审核通过',
+        'review_approved', reward, bal, rev.id);
     END IF;
   END IF;
-  RETURN jsonb_build_object('success',true,'points_awarded',inserted_review IS NOT NULL,'message','评价已通过审核');
+  RETURN jsonb_build_object('success', true, 'points_awarded', inserted_review IS NOT NULL,
+    'message', '评价已通过审核');
 END $$;
 
-DROP FUNCTION IF EXISTS public.reject_review(TEXT,TEXT);
-CREATE FUNCTION public.reject_review(p_review_id TEXT,p_reason TEXT) RETURNS JSONB
+DROP FUNCTION IF EXISTS public.reject_review(TEXT, TEXT);
+CREATE FUNCTION public.reject_review(p_review_id TEXT, p_reason TEXT) RETURNS JSONB
 LANGUAGE plpgsql SECURITY DEFINER SET search_path = '' AS $$
 DECLARE reviewer UUID;
 BEGIN
-  IF auth.uid() IS NULL OR private.swjtu_admin_role() IS NULL THEN RAISE EXCEPTION '无审核权限'; END IF;
-  IF nullif(trim(p_reason),'') IS NULL THEN RAISE EXCEPTION '请填写驳回原因'; END IF;
-  SELECT a.id INTO reviewer FROM public.admin_users a JOIN auth.users u ON lower(u.email)=lower(a.email) WHERE u.id=auth.uid() AND a.is_active;
-  UPDATE public.reviews SET status='rejected',reject_reason=p_reason,reviewer_id=reviewer,reviewed_at=now() WHERE id=p_review_id;
-  RETURN jsonb_build_object('success',FOUND,'message',CASE WHEN FOUND THEN '评价已被驳回' ELSE '评价不存在' END);
+  IF auth.uid() IS NULL OR private.upc_admin_role() IS NULL THEN RAISE EXCEPTION '无审核权限'; END IF;
+  IF nullif(trim(p_reason), '') IS NULL THEN RAISE EXCEPTION '请填写驳回原因'; END IF;
+  SELECT a.id INTO reviewer
+  FROM public.admin_users a
+  JOIN auth.users u ON lower(u.email) = lower(a.email)
+  WHERE u.id = auth.uid() AND a.is_active;
+  UPDATE public.reviews
+  SET status = 'rejected', reject_reason = p_reason, reviewer_id = reviewer, reviewed_at = now()
+  WHERE id = p_review_id;
+  RETURN jsonb_build_object('success', FOUND, 'message',
+    CASE WHEN FOUND THEN '评价已被驳回' ELSE '评价不存在' END);
 END $$;
 
--- Revoke default PUBLIC execution, including any old overloads of these RPCs.
-DO $$ DECLARE v RECORD; BEGIN
-  FOR v IN SELECT p.oid::regprocedure AS signature FROM pg_proc p JOIN pg_namespace n ON n.oid=p.pronamespace
-    WHERE n.nspname='public' AND p.proname IN ('get_my_admin_status','handle_daily_checkin','spend_points','approve_review','reject_review')
-  LOOP EXECUTE format('REVOKE ALL ON FUNCTION %s FROM PUBLIC,anon,authenticated',v.signature); END LOOP;
+-- Revoke default PUBLIC execution, including any historical overloads.
+DO $$
+DECLARE v RECORD;
+BEGIN
+  FOR v IN SELECT p.oid::regprocedure AS signature
+    FROM pg_proc p
+    JOIN pg_namespace n ON n.oid = p.pronamespace
+    WHERE n.nspname = 'public'
+      AND p.proname IN ('get_my_admin_status','handle_daily_checkin','spend_points','approve_review','reject_review')
+  LOOP
+    EXECUTE format('REVOKE ALL ON FUNCTION %s FROM PUBLIC, anon, authenticated', v.signature);
+  END LOOP;
 END $$;
-GRANT EXECUTE ON FUNCTION public.get_my_admin_status(),public.handle_daily_checkin(),
-  public.spend_points(TEXT,TEXT),public.approve_review(TEXT),public.reject_review(TEXT,TEXT) TO authenticated;
--- Preserve Supabase's server role grant without making it a client credential.
+GRANT EXECUTE ON FUNCTION public.get_my_admin_status(), public.handle_daily_checkin(),
+  public.spend_points(TEXT, TEXT), public.approve_review(TEXT), public.reject_review(TEXT, TEXT)
+  TO authenticated;
+
 DO $$ BEGIN
-  IF EXISTS (SELECT 1 FROM pg_roles WHERE rolname='service_role') THEN
-    GRANT EXECUTE ON FUNCTION public.get_my_admin_status(),public.handle_daily_checkin(),
-      public.spend_points(TEXT,TEXT),public.approve_review(TEXT),public.reject_review(TEXT,TEXT) TO service_role;
+  IF EXISTS (SELECT 1 FROM pg_roles WHERE rolname = 'service_role') THEN
+    GRANT USAGE ON SCHEMA public TO service_role;
+    GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO service_role;
+    GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO service_role;
+    GRANT EXECUTE ON ALL FUNCTIONS IN SCHEMA public TO service_role;
   END IF;
 END $$;
-NOTIFY pgrst,'reload schema';
+
+NOTIFY pgrst, 'reload schema';

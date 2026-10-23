@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "unit": "马克思主义学院",
+  "collegeCode": "upc-15",
+  "courses": [
+    {
+      "key": "MRX120211031",
+      "code": "MRX120211031",
+      "name": "马克思主义基本原理",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 110,
+      "teacherNames": [
+        "刘明文",
+        "刘继高",
+        "刘超",
+        "吕前昌",
+        "张璐",
+        "徐越",
+        "汪怀君",
+        "白春雨",
+        "薛俊清",
+        "谷晓芸",
+        "赵嘉霖",
+        "闫林霞",
+        "马超"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX120731020",
+      "code": "MRX120731020",
+      "name": "哲学导论",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "白春雨"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX121611010",
+      "code": "MRX121611010",
+      "name": "社会主义发展史",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "刘明文",
+        "刘继高",
+        "徐越"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX210111053",
+      "code": "MRX210111053",
+      "name": "毛泽东思想和中国特色社会主义理论体系概论",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 71,
+      "teacherNames": [
+        "于常有",
+        "仇乐宁",
+        "刘兴波",
+        "宋海儆",
+        "李路遥",
+        "汝绪华",
+        "赵国营",
+        "赵霞",
+        "鲁彦平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX320231020",
+      "code": "MRX320231020",
+      "name": "大学生心理学",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王青"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX320431020",
+      "code": "MRX320431020",
+      "name": "中国哲学经典著作导读",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "石超"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX320531020",
+      "code": "MRX320531020",
+      "name": "卓越领导力",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "吕云涛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX324811031",
+      "code": "MRX324811031",
+      "name": "思想道德与法治",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 122,
+      "teacherNames": [
+        "冯晓玲",
+        "吕云涛",
+        "姚海田",
+        "宋红燕",
+        "岳金霞",
+        "张会芸",
+        "成宏涛",
+        "朱玉杰",
+        "牛继玲",
+        "王建军",
+        "王青",
+        "石超",
+        "胡静",
+        "赵振华",
+        "金银珠"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX324911021",
+      "code": "MRX324911021",
+      "name": "思想政治理论课社会实践",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "牛继玲"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX324911022",
+      "code": "MRX324911022",
+      "name": "思想政治理论课社会实践",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "于泳",
+        "刘继高",
+        "宋海儆",
+        "毕松",
+        "王鹏翔",
+        "赵国营"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX325031010",
+      "code": "MRX325031010",
+      "name": "党史",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "金银珠"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX325111010",
+      "code": "MRX325111010",
+      "name": "党史",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 10,
+      "teacherNames": [
+        "吕云涛",
+        "朱玉杰",
+        "胡静",
+        "金银珠"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX410111031",
+      "code": "MRX410111031",
+      "name": "中国近现代史纲要",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 117,
+      "teacherNames": [
+        "于泳",
+        "姚成郡",
+        "孙念超",
+        "崔军伟",
+        "张福运",
+        "朱淑君",
+        "杨政",
+        "杨超",
+        "杨鹏云",
+        "王克霞",
+        "郭露凝",
+        "陈骏",
+        "马梦华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX424731010",
+      "code": "MRX424731010",
+      "name": "新中国史",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "崔军伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX424911010",
+      "code": "MRX424911010",
+      "name": "新中国史",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "于泳",
+        "孙念超",
+        "王克霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX510111020",
+      "code": "MRX510111020",
+      "name": "形势与政策",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 300,
+      "teacherNames": [
+        "何大海",
+        "刘东旺",
+        "刘宇培",
+        "刚旭",
+        "周强",
+        "姜逸",
+        "宋霞",
+        "张瑞涛",
+        "朱惠平",
+        "沈刘峡",
+        "王会",
+        "王晓彤",
+        "王鹏翔",
+        "袁永红",
+        "袁爱军",
+        "赵放辉",
+        "赵晓珂",
+        "邢清琨",
+        "郎帅",
+        "郭文"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX510111021",
+      "code": "MRX510111021",
+      "name": "形势与政策",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "何大海",
+        "王鹏翔"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX610111021",
+      "code": "MRX610111021",
+      "name": "军事理论与国家安全",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 96,
+      "teacherNames": [
+        "周辉",
+        "崔伟",
+        "李令功",
+        "李桂臣",
+        "杨超",
+        "盛阿赛",
+        "郎帅"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "MRX710211021",
+      "code": "MRX710211021",
+      "name": "习近平新时代中国特色社会主义思想概论",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 116,
+      "teacherNames": [
+        "俞继仙",
+        "刘积舜",
+        "原丽红",
+        "司江伟",
+        "吴凡",
+        "朱华",
+        "李健",
+        "李文君",
+        "杨晓燕",
+        "毕松",
+        "潘娜娜",
+        "王庆忠",
+        "秦相平",
+        "赵忠璐",
+        "陈璐"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OTH921331020",
+      "code": "OTH921331020",
+      "name": "沟通与写作",
+      "collegeCode": "upc-15",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "刘兴波"
+      ],
+      "excludedReason": "course_code_conflict"
+    }
+  ]
+}

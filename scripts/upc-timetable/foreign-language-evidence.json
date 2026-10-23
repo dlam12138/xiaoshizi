@@ -1,0 +1,1881 @@
+{
+  "schemaVersion": 1,
+  "unit": "外国语学院",
+  "collegeCode": "upc-13",
+  "xlsPath": "课表/外国语学院/课表打印.xls",
+  "xlsSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2",
+  "term": "2026-2027-1",
+  "rawBlocks": 665,
+  "candidateNames": 100,
+  "rosterUrl": "https://sfs.upc.edu.cn/1546/list.htm",
+  "rosterNames": 110,
+  "profilePagesVerified": 89,
+  "profilePageFailures": [],
+  "verifiedProfiles": [
+    {
+      "name": "付丽燕",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a387377",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387377/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1025/c16906a387377/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list2.htm"
+      ]
+    },
+    {
+      "name": "代霄彦",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a309778",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16909a309778/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0711/c16909a309778/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "任杰超",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a292547",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16906a292547/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0704/c16906a292547/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "任迎春",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a292616",
+      "profileUrl": "https://sfs.upc.edu.cn/2017/0324/c16908a292616/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2017/0324/c16908a292616/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "冯晓梅",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a292572",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16906a292572/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0705/c16906a292572/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "冯鸿燕",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a292628",
+      "profileUrl": "https://sfs.upc.edu.cn/2018/0506/c16909a292628/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2018/0506/c16909a292628/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "刘媛媛",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a309811",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309811/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0711/c16908a309811/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list2.htm"
+      ]
+    },
+    {
+      "name": "刘瑞琴",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a292579",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16907a292579/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0705/c16907a292579/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    },
+    {
+      "name": "刘艳芹",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a292563",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16907a292563/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0705/c16907a292563/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    },
+    {
+      "name": "吕聪颖",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a309494",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309494/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0710/c16909a309494/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "吴易曦",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a387390",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387390/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1025/c16906a387390/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "周瑞平",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a309780",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16909a309780/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0711/c16909a309780/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "唐东",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a470799",
+      "profileUrl": "https://sfs.upc.edu.cn/2025/0911/c16908a470799/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2025/0911/c16908a470799/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list2.htm"
+      ]
+    },
+    {
+      "name": "姜训禄",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a309490",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309490/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0710/c16909a309490/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "孔德亮",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a292617",
+      "profileUrl": "https://sfs.upc.edu.cn/2017/0324/c16907a292617/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2017/0324/c16907a292617/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    },
+    {
+      "name": "孙烁",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a387382",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387382/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1025/c16906a387382/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list2.htm"
+      ]
+    },
+    {
+      "name": "孙锦",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a309499",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309499/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0710/c16909a309499/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "孟宏宏",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a309779",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16909a309779/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0711/c16909a309779/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "安昌光",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a292540",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16908a292540/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0704/c16908a292540/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "宋姝娴",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a405749",
+      "profileUrl": "https://sfs.upc.edu.cn/2023/0612/c16908a405749/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2023/0612/c16908a405749/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "尹衍桐",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a292556",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16908a292556/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0704/c16908a292556/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "展伟伟",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a297480",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0415/c16906a297480/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0415/c16906a297480/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list2.htm"
+      ]
+    },
+    {
+      "name": "张宁",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a297479",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0415/c16906a297479/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0415/c16906a297479/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list2.htm"
+      ]
+    },
+    {
+      "name": "张建科",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a292601",
+      "profileUrl": "https://sfs.upc.edu.cn/2015/0130/c16908a292601/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2015/0130/c16908a292601/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "张淑杰",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a292609",
+      "profileUrl": "https://sfs.upc.edu.cn/2016/0307/c16907a292609/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2016/0307/c16907a292609/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list2.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list2.htm"
+      ]
+    },
+    {
+      "name": "张燕",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a441355",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16908a441355/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2024/0929/c16908a441355/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "张琦",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a495537",
+      "profileUrl": "https://sfs.upc.edu.cn/2026/0622/c16906a495537/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2026/0622/c16906a495537/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "张红",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a292543",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16906a292543/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0704/c16906a292543/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "张英莉",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a292569",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16907a292569/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0705/c16907a292569/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    },
+    {
+      "name": "张青华",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a292627",
+      "profileUrl": "https://sfs.upc.edu.cn/2018/0316/c16906a292627/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2018/0316/c16906a292627/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list2.htm"
+      ]
+    },
+    {
+      "name": "彭翠平",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a292564",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16907a292564/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0705/c16907a292564/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    },
+    {
+      "name": "徐保华",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a309793",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309793/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0711/c16908a309793/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "徐小雁",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a292611",
+      "profileUrl": "https://sfs.upc.edu.cn/2016/0310/c16908a292611/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2016/0310/c16908a292611/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "徐文彬",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a292550",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16908a292550/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0704/c16908a292550/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "战海",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a292615",
+      "profileUrl": "https://sfs.upc.edu.cn/2016/0701/c16907a292615/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2016/0701/c16907a292615/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    },
+    {
+      "name": "扈彩霞",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a292600",
+      "profileUrl": "https://sfs.upc.edu.cn/2015/0130/c16907a292600/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2015/0130/c16907a292600/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    },
+    {
+      "name": "晏雯",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a441371",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16909a441371/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2024/0929/c16909a441371/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list2.htm"
+      ]
+    },
+    {
+      "name": "曹砚黛",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a309812",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309812/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0711/c16908a309812/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list2.htm"
+      ]
+    },
+    {
+      "name": "李小华",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a309497",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309497/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0710/c16909a309497/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "李燕云",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a309806",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309806/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0711/c16908a309806/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "李秋雨",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a309495",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309495/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0710/c16909a309495/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "李金彩",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a387379",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387379/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1025/c16906a387379/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲 师",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list2.htm"
+      ]
+    },
+    {
+      "name": "杨洁",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a309814",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309814/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0711/c16908a309814/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list2.htm"
+      ]
+    },
+    {
+      "name": "杨芳",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a292565",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16906a292565/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0705/c16906a292565/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "林超",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a309496",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309496/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0710/c16909a309496/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "毛浩然",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a315186",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0901/c16908a315186/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0901/c16908a315186/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "教授",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "毛潇琳",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a309493",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309493/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0710/c16909a309493/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list2.htm"
+      ]
+    },
+    {
+      "name": "江润洁",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a292602",
+      "profileUrl": "https://sfs.upc.edu.cn/2015/0209/c16907a292602/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2015/0209/c16907a292602/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    },
+    {
+      "name": "沈卫杰",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a441370",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16909a441370/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2024/0929/c16909a441370/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list2.htm"
+      ]
+    },
+    {
+      "name": "潘荔霞",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a309810",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309810/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0711/c16908a309810/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "熊小秦",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a387392",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387392/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1025/c16906a387392/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "牛力维",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a297476",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0415/c16906a297476/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0415/c16906a297476/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list2.htm"
+      ]
+    },
+    {
+      "name": "王建敏",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a292606",
+      "profileUrl": "https://sfs.upc.edu.cn/2015/1020/c16906a292606/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2015/1020/c16906a292606/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "王新博",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a292588",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16908a292588/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0705/c16908a292588/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "教授",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "王新福",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a387385",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387385/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1025/c16906a387385/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "王波",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a292598",
+      "profileUrl": "https://sfs.upc.edu.cn/2014/1225/c16907a292598/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2014/1225/c16907a292598/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    },
+    {
+      "name": "王海霞",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a309807",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16908a309807/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0711/c16908a309807/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "王立新",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a387649",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1026/c16907a387649/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1026/c16907a387649/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list2.htm"
+      ]
+    },
+    {
+      "name": "王芳",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a292596",
+      "profileUrl": "https://sfs.upc.edu.cn/2014/0311/c16906a292596/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2014/0311/c16906a292596/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "石绍云",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a441360",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16907a441360/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2024/0929/c16907a441360/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    },
+    {
+      "name": "程璐璐",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a371909",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/0414/c16907a371909/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/0414/c16907a371909/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    },
+    {
+      "name": "穆莉萍",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a387381",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387381/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1025/c16906a387381/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list2.htm"
+      ]
+    },
+    {
+      "name": "臧嫦艳",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16910-a292541",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16910a292541/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0704/c16910a292541/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yjswyjxb/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "研究生外语教学部",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yjswyjxb/list.htm"
+      ]
+    },
+    {
+      "name": "范靓",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a292621",
+      "profileUrl": "https://sfs.upc.edu.cn/2017/0609/c16909a292621/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2017/0609/c16909a292621/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "董金娣",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a292559",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16906a292559/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0705/c16906a292559/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "贾聚年",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a292570",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0705/c16906a292570/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0705/c16906a292570/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "赵丽",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a387398",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387398/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1025/c16906a387398/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "赵云",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a309500",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309500/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0710/c16909a309500/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "赵婷廷",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a309781",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0711/c16909a309781/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0711/c16909a309781/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "教 授",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "赵宁",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16908-a441356",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16908a441356/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2024/0929/c16908a441356/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "英语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "赵小华",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a309491",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309491/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0710/c16909a309491/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list2.htm"
+      ]
+    },
+    {
+      "name": "赵慧",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a309492",
+      "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309492/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2020/0710/c16909a309492/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list2.htm"
+      ]
+    },
+    {
+      "name": "邓燕",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a387374",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387374/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1025/c16906a387374/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list2.htm"
+      ]
+    },
+    {
+      "name": "邵艳平",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a387413",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16909a387413/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1025/c16909a387413/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "邹文轩",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a394813",
+      "profileUrl": "https://sfs.upc.edu.cn/2023/0222/c16907a394813/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2023/0222/c16907a394813/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list2.htm"
+      ]
+    },
+    {
+      "name": "郭月琴",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16910-a363749",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/0307/c16910a363749/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/0307/c16910a363749/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yjswyjxb/list.htm",
+      "profileKind": "official_profile",
+      "title": "教授",
+      "department": "研究生外语教学部",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yjswyjxb/list.htm"
+      ]
+    },
+    {
+      "name": "闫萌萌",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a387394",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387394/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1025/c16906a387394/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "阎美萍",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a377519",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/0614/c16909a377519/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/0614/c16909a377519/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list2.htm"
+      ]
+    },
+    {
+      "name": "陈效新",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a292552",
+      "profileUrl": "https://sfs.upc.edu.cn/2012/0704/c16907a292552/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2012/0704/c16907a292552/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    },
+    {
+      "name": "陈秀玲",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a387647",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1026/c16907a387647/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1026/c16907a387647/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list2.htm"
+      ]
+    },
+    {
+      "name": "陈臻渝",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a441374",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16909a441374/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2024/0929/c16909a441374/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list.htm"
+      ]
+    },
+    {
+      "name": "韩效伟",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a441353",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16907a441353/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2024/0929/c16907a441353/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    },
+    {
+      "name": "韩淑芹",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a495541",
+      "profileUrl": "https://sfs.upc.edu.cn/2026/0622/c16906a495541/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2026/0622/c16906a495541/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list.htm",
+      "profileKind": "official_profile",
+      "title": "教授",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list.htm"
+      ]
+    },
+    {
+      "name": "韩辉",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a292620",
+      "profileUrl": "https://sfs.upc.edu.cn/2017/0330/c16907a292620/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2017/0330/c16907a292620/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "副教授",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    },
+    {
+      "name": "顾丽娜",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a387378",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387378/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1025/c16906a387378/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list2.htm"
+      ]
+    },
+    {
+      "name": "马文韬",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16906-a387380",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16906a387380/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1025/c16906a387380/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyyx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "通用英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyyx/list2.htm"
+      ]
+    },
+    {
+      "name": "马金芳",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16910-a387428",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1025/c16910a387428/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1025/c16910a387428/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/yjswyjxb/list.htm",
+      "profileKind": "official_profile",
+      "title": null,
+      "department": "研究生外语教学部",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/yjswyjxb/list.htm"
+      ]
+    },
+    {
+      "name": "马靓旸",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16909-a441375",
+      "profileUrl": "https://sfs.upc.edu.cn/2024/0929/c16909a441375/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2024/0929/c16909a441375/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/eyyywxx/list2.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "俄语语言文学系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/eyyywxx/list2.htm"
+      ]
+    },
+    {
+      "name": "魏三军",
+      "unit": "外国语学院",
+      "listedUnits": [
+        "外国语学院"
+      ],
+      "sourceId": "sfs-c16907-a387648",
+      "profileUrl": "https://sfs.upc.edu.cn/2022/1026/c16907a387648/page.htm",
+      "mirrorUrls": [
+        "https://sfs.upc.edu.cn/2022/1026/c16907a387648/page.htm"
+      ],
+      "listUrl": "https://sfs.upc.edu.cn/dxyyex/list.htm",
+      "profileKind": "official_profile",
+      "title": "讲师",
+      "department": "学术英语系",
+      "evidence": [
+        "https://sfs.upc.edu.cn/1546/list.htm",
+        "https://sfs.upc.edu.cn/dxyyex/list.htm"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "name": "刘晓辉",
+      "department": "学术英语系",
+      "title": "讲师",
+      "reason": "official_roster_name_but_no_stable_profile_url",
+      "rosterUrl": "https://sfs.upc.edu.cn/1546/list.htm"
+    },
+    {
+      "name": "叶艳",
+      "department": "英语语言文学系",
+      "title": "讲师",
+      "reason": "official_roster_name_but_no_stable_profile_url",
+      "rosterUrl": "https://sfs.upc.edu.cn/1546/list.htm"
+    },
+    {
+      "name": "张亮",
+      "department": "通用英语系",
+      "title": "讲师",
+      "reason": "official_roster_name_but_no_stable_profile_url",
+      "rosterUrl": "https://sfs.upc.edu.cn/1546/list.htm"
+    },
+    {
+      "name": "徐燕燕",
+      "department": "学术英语系",
+      "title": "讲师",
+      "reason": "official_roster_name_but_no_stable_profile_url",
+      "rosterUrl": "https://sfs.upc.edu.cn/1546/list.htm"
+    },
+    {
+      "name": "朱荫成",
+      "department": "学术英语系",
+      "title": "讲师",
+      "reason": "official_roster_name_but_no_stable_profile_url",
+      "rosterUrl": "https://sfs.upc.edu.cn/1546/list.htm"
+    },
+    {
+      "name": "李晓丽",
+      "department": "学术英语系",
+      "title": "讲师",
+      "reason": "official_roster_name_but_no_stable_profile_url",
+      "rosterUrl": "https://sfs.upc.edu.cn/1546/list.htm"
+    },
+    {
+      "name": "李晓春",
+      "department": "通用英语系",
+      "title": "讲师",
+      "reason": "official_roster_name_but_no_stable_profile_url",
+      "rosterUrl": "https://sfs.upc.edu.cn/1546/list.htm"
+    },
+    {
+      "name": "杨静文",
+      "department": "学术英语系",
+      "title": "讲师",
+      "reason": "official_roster_name_but_no_stable_profile_url",
+      "rosterUrl": "https://sfs.upc.edu.cn/1546/list.htm"
+    },
+    {
+      "name": "梅琳",
+      "department": null,
+      "title": null,
+      "reason": "no_official_foreign_profile",
+      "rosterUrl": "https://sfs.upc.edu.cn/1546/list.htm"
+    },
+    {
+      "name": "相欣余",
+      "department": null,
+      "title": null,
+      "reason": "no_official_foreign_profile",
+      "rosterUrl": "https://sfs.upc.edu.cn/1546/list.htm"
+    },
+    {
+      "name": "马红艳",
+      "department": "学术英语系",
+      "title": "讲师",
+      "reason": "official_roster_name_but_no_stable_profile_url",
+      "rosterUrl": "https://sfs.upc.edu.cn/1546/list.htm"
+    }
+  ],
+  "note": "官方教师队伍页提供姓名/系/职称；89 名候选同时有系部页个人 profile URL，sourceId 取文章 ID。9 名仅有教师队伍页、无个人稳定 URL；梅琳/相欣余未出现在官方教师队伍页，均保留 unresolved。",
+  "excludedBlocks": {
+    "missing_course_identity": 7,
+    "missing_teacher": 24,
+    "note": "7 个班级名单行/无课程身份；24 个课程块无可用教师姓名，不生成关系"
+  }
+}

@@ -1,0 +1,3557 @@
+{
+  "schemaVersion": 1,
+  "unit": "机电工程学院",
+  "collegeCode": "upc-04",
+  "candidates": [
+    {
+      "name": "于蕾艳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424254",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21433a424254/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21433a424254/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424254",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE210611042",
+        "MEE220211040",
+        "MEE225611020"
+      ],
+      "courseNames": [
+        "工程概论",
+        "机械设计基础",
+        "车辆结构与设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "付建民",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424379",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424379/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424379/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424379",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE421211020",
+        "MEE422721020",
+        "MEE423211010",
+        "MEE423421010"
+      ],
+      "courseNames": [
+        "事故调查与案例分析",
+        "学科前沿知识专题讲座",
+        "安全系统工程",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "伊鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424791",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424791/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424791/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424791",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE112711010",
+        "MEE310512100",
+        "MEE323921020"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "智能工程",
+        "画法几何与工程制图(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "何冬青",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-04-004",
+      "title": null,
+      "collegeCode": "upc-04",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "机电工程学院",
+        "sourceFile": "课表/机电工程学院/课表打印.xls",
+        "sourceSha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+        "rawNames": [
+          "何冬青"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MEE310211030"
+      ],
+      "courseNames": [
+        "工程制图"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "余焱群",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424792",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424792/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424792/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424792",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310211030"
+      ],
+      "courseNames": [
+        "工程制图"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "余相",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21435-a429240",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0421/c21435a429240/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0421/c21435a429240/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21435-a429240",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE520712100"
+      ],
+      "courseNames": [
+        "船舶原理Ⅰ"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "冯德华",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-04-001",
+      "title": null,
+      "collegeCode": "upc-04",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "机电工程学院",
+        "sourceFile": "课表/机电工程学院/课表打印.xls",
+        "sourceSha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+        "rawNames": [
+          "冯德华"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MEE330461030"
+      ],
+      "courseNames": [
+        "AI平面设计实战"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘健",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424241",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21433a424241/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21433a424241/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424241",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE221611020",
+        "MEE223621020"
+      ],
+      "courseNames": [
+        "汽车电子控制技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘广斗",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424786",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424786/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424786/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424786",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE120321020",
+        "MEE310211040",
+        "MEE310512100",
+        "MEE329321020"
+      ],
+      "courseNames": [
+        "先进成图技术",
+        "工程制图",
+        "海洋石油装备概论",
+        "画法几何与工程制图(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘康",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424370",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424370/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424370/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424370",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE420621020",
+        "MEE423211010",
+        "MEE423421010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "安全行为学",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘敬",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424787",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424787/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424787/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424787",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE112711010",
+        "MEE321621020",
+        "MEE323431020",
+        "MEE329231021"
+      ],
+      "courseNames": [
+        "企业形象设计",
+        "创意与设计",
+        "新生研讨课",
+        "非遗民俗文化赏析与设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘旭堂",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424797",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424797/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424797/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424797",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE322511020",
+        "MEE323431020"
+      ],
+      "courseNames": [
+        "创意与设计",
+        "设计心理学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘永红",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424240",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424240/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424240/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424240",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE111311025",
+        "MEE112711010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "机械制造工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘秀全",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424221",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424221/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424221/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424221",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE120321020",
+        "MEE121011020",
+        "MEE128811030"
+      ],
+      "courseNames": [
+        "智能工程基础",
+        "机电系统设计",
+        "海洋石油装备概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘静",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424220",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424220/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424220/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424220",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE111811021",
+        "MEE113711020",
+        "MEE120821020"
+      ],
+      "courseNames": [
+        "工程概论",
+        "控制工程基础",
+        "机电传动与控制"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "包兴先",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21435-a424278",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21435a424278/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21435a424278/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21435-a424278",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE521011020",
+        "MEE521411030"
+      ],
+      "courseNames": [
+        "工程概论",
+        "海洋工程环境"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴宝贵",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424251",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21433a424251/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21433a424251/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424251",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE112711010",
+        "MEE224431020",
+        "MEE225212100",
+        "MEE225611020",
+        "MEE228912200",
+        "OTH921331020"
+      ],
+      "courseNames": [
+        "工程实践与创新",
+        "工程概论",
+        "心理健康与职业发展（2-2）",
+        "新生研讨课",
+        "机械工程基础Ⅰ",
+        "沟通与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴磊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21435-a424280",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21435a424280/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21435a424280/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21435-a424280",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE221221020"
+      ],
+      "courseNames": [
+        "海洋工程结构可靠性"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周先军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424263",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424263/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424263/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424263",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE210612200"
+      ],
+      "courseNames": [
+        "机械设计基础（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姜浩",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424217",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424217/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424217/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424217",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE111811021"
+      ],
+      "courseNames": [
+        "控制工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "娄敏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21435-a424213",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21435a424213/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21435a424213/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21435-a424213",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE521011020",
+        "MEE522211010"
+      ],
+      "courseNames": [
+        "工程概论",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "娄晖",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424788",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424788/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424788/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424788",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310211030"
+      ],
+      "courseNames": [
+        "工程制图"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孔得朋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424369",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424369/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424369/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424369",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE421911020",
+        "MEE422411020",
+        "MEE423211010",
+        "MEE423421010",
+        "MEE427512200"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "工业安全技术",
+        "心理健康与职业发展（2-2）",
+        "新生研讨课",
+        "燃烧与爆炸学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙少华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424318",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424318/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424318/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424318",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE211121020"
+      ],
+      "courseNames": [
+        "汽车试验学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋金",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-04-005",
+      "title": null,
+      "collegeCode": "upc-04",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "机电工程学院",
+        "sourceFile": "课表/机电工程学院/课表打印.xls",
+        "sourceSha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+        "rawNames": [
+          "宋金"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MEE330361020",
+        "MEE330461030"
+      ],
+      "courseNames": [
+        "AI平面设计实战",
+        "平面设计基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "崔俊国",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424230",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21433a424230/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21433a424230/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424230",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE210612200",
+        "MEE211321020",
+        "MEE225611020",
+        "MEE226041020"
+      ],
+      "courseNames": [
+        "工程概论",
+        "机械设计基础（2-2）",
+        "机电创新与实践",
+        "石油特车设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "崔运静",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424316",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424316/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424316/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424316",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE210611040",
+        "MEE229011010"
+      ],
+      "courseNames": [
+        "工程热力学基础",
+        "机械设计基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "师长",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21435-a499552",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2026/0910/c21435a499552/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2026/0910/c21435a499552/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21435-a499552",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE520712100"
+      ],
+      "courseNames": [
+        "船舶原理Ⅰ"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "庄晶云",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-04-006",
+      "title": null,
+      "collegeCode": "upc-04",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "机电工程学院",
+        "sourceFile": "课表/机电工程学院/课表打印.xls",
+        "sourceSha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+        "rawNames": [
+          "庄晶云"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MEE228912200",
+        "MEE427512200",
+        "MEE522112200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "庞罕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424245",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21433a424245/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21433a424245/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424245",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE211221021",
+        "MEE223331015"
+      ],
+      "courseNames": [
+        "人因工程——因人而设",
+        "人机工程学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张亚",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21435-a424282",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21435a424282/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21435a424282/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21435-a424282",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE521411030"
+      ],
+      "courseNames": [
+        "海洋工程环境"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张君宇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a441168",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0927/c21432a441168/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0927/c21432a441168/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a441168",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE423321022",
+        "MEE427121015"
+      ],
+      "courseNames": [
+        "信息安全技术",
+        "工程有限元建模与数值模拟"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张天泽",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21435-a474012",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21435a474012/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21435a474012/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21435-a474012",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE221221020"
+      ],
+      "courseNames": [
+        "海洋工程结构可靠性"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张宗波",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424779",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424779/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424779/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424779",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310512100"
+      ],
+      "courseNames": [
+        "画法几何与工程制图(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张彦廷",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424247",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424247/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424247/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424247",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE111911025",
+        "MEE112711010"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "流体力学与流体传动"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张彦振",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424248",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024//0304/c21292a424248/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024//0304/c21292a424248/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424248",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE112421026"
+      ],
+      "courseNames": [
+        "微控制器原理与接口技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张振全",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a438440",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0830/c21292a438440/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0830/c21292a438440/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a438440",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE121011020"
+      ],
+      "courseNames": [
+        "机电系统设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张敬",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21435-a424281",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21435a424281/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21435a424281/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21435-a424281",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE510321020"
+      ],
+      "courseNames": [
+        "海洋工程施工与安全"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张新梅",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424373",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424373/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424373/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424373",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE422321020"
+      ],
+      "courseNames": [
+        "量化风险评估"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张旭强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424794",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424794/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424794/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424794",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310512100"
+      ],
+      "courseNames": [
+        "画法几何与工程制图(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张立军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424244",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424244/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424244/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424244",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE112711010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张芬娜",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424801",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424801/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424801/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424801",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310211030",
+        "MEE323921020"
+      ],
+      "courseNames": [
+        "工程制图",
+        "智能工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21436-a424600",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0307/c21436a424600/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0307/c21436a424600/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21436-a424600",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE228912200",
+        "MEE427512200",
+        "MEE522112200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐长航",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424383",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424383/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424383/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424383",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE423211010",
+        "MEE424221015"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "智能安全工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "戴昀",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-04-002",
+      "title": null,
+      "collegeCode": "upc-04",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "机电工程学院",
+        "sourceFile": "课表/机电工程学院/课表打印.xls",
+        "sourceSha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+        "rawNames": [
+          "戴昀"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MEE329231021"
+      ],
+      "courseNames": [
+        "非遗民俗文化赏析与设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曲铭",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21435-a466125",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2025/0711/c21435a466125/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2025/0711/c21435a466125/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21435-a466125",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SPE222331020"
+      ],
+      "courseNames": [
+        "海洋学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曹清园",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424795",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424795/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424795/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424795",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310211030",
+        "MEE310621020"
+      ],
+      "courseNames": [
+        "工程制图",
+        "机械CAD基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曹爱请",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424225",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424225/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424225/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424225",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE111811021",
+        "MEE112421026"
+      ],
+      "courseNames": [
+        "微控制器原理与接口技术",
+        "控制工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱渊",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424376",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424376/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424376/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424376",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE421621021",
+        "MEE423211010",
+        "MEE423421010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "工程计算与仿真",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱红卫",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424380",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424380/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424380/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424380",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE420221020",
+        "MEE421711020",
+        "MEE423211010",
+        "MEE423421010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "安全工程概论",
+        "工程流体力学",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424239",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424239/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424239/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424239",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE128811030"
+      ],
+      "courseNames": [
+        "智能工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李国英",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a437389",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0808/c21434a437389/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0808/c21434a437389/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a437389",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310411020"
+      ],
+      "courseNames": [
+        "画法几何"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李小朋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424218",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424218/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424218/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424218",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0419599",
+        "MEE111311025",
+        "MEE113711020"
+      ],
+      "courseNames": [
+        "工程概论",
+        "机械制造工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李昌良",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21435-a424279",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21435a424279/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21435a424279/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21435-a424279",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE522211010",
+        "MEE526312100",
+        "SPE222331020"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "海洋学",
+        "船舶与海洋工程结构力学Ⅰ"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李肖",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424219",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424219/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424219/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424219",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE122911020",
+        "MEE310921020"
+      ],
+      "courseNames": [
+        "智能化集成制造系统",
+        "智能运维与管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李雨桐",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424785",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424785/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424785/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424785",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310211030"
+      ],
+      "courseNames": [
+        "工程制图"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李静",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424783",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424783/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424783/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424783",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310211040",
+        "MEE329321020"
+      ],
+      "courseNames": [
+        "先进成图技术",
+        "工程制图"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杜洋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424871",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0309/c21432a424871/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0309/c21432a424871/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424871",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE422411020"
+      ],
+      "courseNames": [
+        "燃烧与爆炸学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "束奇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424799",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424799/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424799/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424799",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE113711020",
+        "MEE323431020"
+      ],
+      "courseNames": [
+        "创意与设计",
+        "工程概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "柏胜昔",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21436-a424593",
+      "title": null,
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0307/c21436a424593/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0307/c21436a424593/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21436-a424593",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE228912200",
+        "MEE427512200",
+        "MEE522112200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "沈蓉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424222",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424222/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424222/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424222",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "0413599",
+        "MEE111811021"
+      ],
+      "courseNames": [
+        "控制工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "牛文杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424778",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424778/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424778/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424778",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310211040"
+      ],
+      "courseNames": [
+        "工程制图"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424819",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424819/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424819/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424819",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE113711020"
+      ],
+      "courseNames": [
+        "工程概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王宁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21436-a424599",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0307/c21436a424599/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0307/c21436a424599/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21436-a424599",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE128912200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王小楠",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424315",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424315/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424315/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424315",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE210521031",
+        "MEE225611020"
+      ],
+      "courseNames": [
+        "工程概论",
+        "机械设计基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王川",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21435-a424261",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21435a424261/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21435a424261/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21435-a424261",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE520712100",
+        "MEE522112200",
+        "MEE536131020"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）",
+        "海洋与当代中国",
+        "船舶原理Ⅰ"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王彦富",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424382",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424382/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424382/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424382",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE423711030"
+      ],
+      "courseNames": [
+        "油气安全工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王新庆",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424246",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21433a424246/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21433a424246/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424246",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE210611042",
+        "MEE221611020",
+        "MEE223621020",
+        "MEE226041020"
+      ],
+      "courseNames": [
+        "机械设计基础",
+        "机电创新与实践",
+        "汽车电子控制技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王明达",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424371",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424371/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424371/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424371",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE421011030",
+        "MEE423211010",
+        "MEE426521015"
+      ],
+      "courseNames": [
+        "安全业务大数据平台设计",
+        "安全检测与监控",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王海清",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424381",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424381/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424381/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424381",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE423821015"
+      ],
+      "courseNames": [
+        "油气设施完整性管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王灵芝",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-04-003",
+      "title": null,
+      "collegeCode": "upc-04",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "机电工程学院",
+        "sourceFile": "课表/机电工程学院/课表打印.xls",
+        "sourceSha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+        "rawNames": [
+          "王灵芝"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MEE329231021"
+      ],
+      "courseNames": [
+        "非遗民俗文化赏析与设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王珉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424789",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424789/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424789/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424789",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310211040",
+        "MEE310621020"
+      ],
+      "courseNames": [
+        "工程制图",
+        "机械CAD基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王超杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424378",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424378/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424378/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424378",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE421211020"
+      ],
+      "courseNames": [
+        "安全系统工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王阳阳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21435-a424262",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21435a424262/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21435a424262/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21435-a424262",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE510321020"
+      ],
+      "courseNames": [
+        "海洋工程施工与安全"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王隆扬",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a436636",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0719/c21292a436636/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0719/c21292a436636/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a436636",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE121011020",
+        "MEE122521020"
+      ],
+      "courseNames": [
+        "智能传感器与检测技术",
+        "机电系统设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "畅元江",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a438669",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0902/c21292a438669/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0902/c21292a438669/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a438669",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE111811021"
+      ],
+      "courseNames": [
+        "控制工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "相恒富",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424235",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424235/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424235/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424235",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE112621020"
+      ],
+      "courseNames": [
+        "现代数控机床"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "石永军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424267",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424267/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424267/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424267",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE112711010",
+        "MEE210611042",
+        "MEE220211040",
+        "MEE226041020"
+      ],
+      "courseNames": [
+        "新生研讨课",
+        "机械设计基础",
+        "机电创新与实践",
+        "车辆结构与设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "秦冬黎",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424234",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424234/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424234/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424234",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE111311025"
+      ],
+      "courseNames": [
+        "机械制造工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "秦臻",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424798",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424798/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424798/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424798",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE321421020",
+        "MEE323431020",
+        "MEE323921020",
+        "MEE324311030",
+        "OTH921331020"
+      ],
+      "courseNames": [
+        "AI辅助工业设计",
+        "创意与设计",
+        "智能工程",
+        "沟通与写作",
+        "空间展示设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "章博",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424377",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424377/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424377/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424377",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE423421010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "纪仁杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424237",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424237/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424237/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424237",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE110611021",
+        "MEE111311025"
+      ],
+      "courseNames": [
+        "互换性与测量技术基础",
+        "机械制造工程基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "纪佳馨",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424232",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21433a424232/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21433a424232/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424232",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE210611042",
+        "MEE220211040",
+        "MEE225611020"
+      ],
+      "courseNames": [
+        "工程概论",
+        "机械设计基础",
+        "车辆结构与设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "胡国庆",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a437433",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0809/c21292a437433/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0809/c21292a437433/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a437433",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE110611021"
+      ],
+      "courseNames": [
+        "互换性与测量技术基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "董建党",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21436-a424594",
+      "title": null,
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0307/c21436a424594/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0307/c21436a424594/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21436-a424594",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE128912200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "蔡宝平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a420740",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2018/0927/c21292a420740/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2018/0927/c21292a420740/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a420740",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE120721020"
+      ],
+      "courseNames": [
+        "机床电气控制"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "薛博策",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a425270",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0313/c21292a425270/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0313/c21292a425270/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a425270",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE111911025"
+      ],
+      "courseNames": [
+        "流体力学与流体传动"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "袁宝民",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424793",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424793/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424793/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424793",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310621020",
+        "MEE329321020"
+      ],
+      "courseNames": [
+        "先进成图技术",
+        "机械CAD基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "袁新安",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424224",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424224/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424224/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424224",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE121011020",
+        "MEE122521020"
+      ],
+      "courseNames": [
+        "智能传感器与检测技术",
+        "机电系统设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "许志倩",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424223",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424223/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424223/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424223",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE112821020"
+      ],
+      "courseNames": [
+        "虚拟样机技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "贠平利",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424320",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424320/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424320/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424320",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE210521031",
+        "MEE210611040"
+      ],
+      "courseNames": [
+        "机械设计基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "贺庆强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424780",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424780/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424780/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424780",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310211030"
+      ],
+      "courseNames": [
+        "工程制图"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵学进",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424321",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424321/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424321/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424321",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE210521030",
+        "MEE210612200",
+        "MEE225611020",
+        "MEE227621015"
+      ],
+      "courseNames": [
+        "工程概论",
+        "机械设计基础",
+        "机械设计基础（2-2）",
+        "汽车微控制器原理与应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵海晖",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424953",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0310/c21434a424953/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0310/c21434a424953/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424953",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310211030",
+        "MEE323221020",
+        "MEE323711010"
+      ],
+      "courseNames": [
+        "专业外语",
+        "工程制图",
+        "设计文化思潮"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "车家琪",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424214",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424214/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424214/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424214",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE128912200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邹宇鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424265",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424265/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424265/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424265",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE112711010",
+        "MEE210611042",
+        "MEE225611020",
+        "MEE226041020",
+        "MEE228211020"
+      ],
+      "courseNames": [
+        "工程概论",
+        "控制工程基础",
+        "新生研讨课",
+        "机械设计基础",
+        "机电创新与实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郑超",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-04-007",
+      "title": null,
+      "collegeCode": "upc-04",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "机电工程学院",
+        "sourceFile": "课表/机电工程学院/课表打印.xls",
+        "sourceSha256": "c0522dd1a8122af1c75cc9516730075b3dbe560e9ba162ef98f69701dffa5af9",
+        "rawNames": [
+          "郑超"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MEE112121020"
+      ],
+      "courseNames": [
+        "石油工程流体机械"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭福州",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a437391",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0808/c21434a437391/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0808/c21434a437391/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a437391",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310321030"
+      ],
+      "courseNames": [
+        "工程制图"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭颖",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a424317",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424317/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424317/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a424317",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE210611042"
+      ],
+      "courseNames": [
+        "机械设计基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "金涛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424781",
+      "title": "教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424781/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424781/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424781",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE323011020",
+        "MEE323431015"
+      ],
+      "courseNames": [
+        "创意改变生活",
+        "形态设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "闫怡飞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424372",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424372/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21432a424372/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424372",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE423321022",
+        "MEE423421010"
+      ],
+      "courseNames": [
+        "信息安全技术",
+        "学科前沿知识专题讲座"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "闫成新",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424790",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424790/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424790/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424790",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310621020"
+      ],
+      "courseNames": [
+        "机械CAD基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈凡宝",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a437392",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0808/c21432a437392/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0808/c21432a437392/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a437392",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE421911020"
+      ],
+      "courseNames": [
+        "工业安全技术"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈敬凯",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424215",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424215/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424215/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424215",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE125921020"
+      ],
+      "courseNames": [
+        "数字仿真与应用"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈玉莹",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a424236",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21432a424236/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21432a424236/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a424236",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE422321020",
+        "MEE423211010",
+        "MEE423421010"
+      ],
+      "courseNames": [
+        "学科前沿知识专题讲座",
+        "新生研讨课",
+        "量化风险评估"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈福忠",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21434-a424796",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424796/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424796/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21434-a424796",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE310211030"
+      ],
+      "courseNames": [
+        "工程制图"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "霍添",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21436-a424595",
+      "title": null,
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0307/c21436a424595/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0307/c21436a424595/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21436-a424595",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE228912200",
+        "MEE427512200",
+        "MEE522112200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "靳国栋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21296-a466528",
+      "title": "助教",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2025/0719/c21296a466528/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2025/0719/c21296a466528/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21296-a466528",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "ETC020731015",
+        "MEE320421020"
+      ],
+      "courseNames": [
+        "产品摄影表达",
+        "摄影技艺"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马宁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21433-a425297",
+      "title": "工程师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0313/c21433a425297/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0313/c21433a425297/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21433-a425297",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE223931020",
+        "MEE225611020",
+        "MEE226131020"
+      ],
+      "courseNames": [
+        "工程概论",
+        "新能源汽车技术",
+        "智电汽车与未来星球"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马慧心",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21432-a464502",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2025/0617/c21432a464502/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2025/0617/c21432a464502/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21432-a464502",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE427121015"
+      ],
+      "courseNames": [
+        "工程有限元建模与数值模拟"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "高雷雷",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424216",
+      "title": "副教授",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424216/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424216/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424216",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE111721020"
+      ],
+      "courseNames": [
+        "计算机辅助机械工程"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "黄鲁蒙",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "cmee-c21292-a424229",
+      "title": "讲师",
+      "collegeCode": "upc-04",
+      "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424229/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://cmee.upc.edu.cn/2024/0304/c21292a424229/page.htm",
+        "listUrl": "https://cmee.upc.edu.cn/21238/list.htm",
+        "listedUnits": [
+          "机电工程学院"
+        ],
+        "sourceId": "cmee-c21292-a424229",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MEE111911025"
+      ],
+      "courseNames": [
+        "流体力学与流体传动"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "materials",
+  "sourceUnit": "材料科学与工程学院",
+  "collegeCode": "upc-06",
+  "status": "active",
+  "sourceDir": "材料科学与工程学院",
+  "rawBlocks": 417,
+  "candidates": 80,
+  "verified": 80,
+  "officialVerified": 49,
+  "timetableVerified": 31,
+  "unresolved": 0,
+  "unresolvedDetails": [],
+  "excludedBlocks": 0,
+  "excludedBlockReasons": {},
+  "coursesRaw": 80,
+  "sourceFile": {
+    "path": "课表/材料科学与工程学院/课表打印.xls",
+    "bytes": 74752,
+    "sha256": "39b62b51af009f9994545afaa09a2842230da86a955e51b15cdde871a0789e4e",
+    "format": "BIFF8/OLE2",
+    "title": "中国石油大学（华东） 材料科学与工程学院  教研室课表",
+    "term": "2026-2027-1",
+    "sheets": [
+      {
+        "name": "Sheet4",
+        "rows": 9,
+        "cols": 256,
+        "headerRow": 3,
+        "blocks": 417,
+        "anomalies": []
+      }
+    ]
+  },
+  "courses": 79,
+  "offerings": 167,
+  "importFile": "units/materials/import.json"
+}

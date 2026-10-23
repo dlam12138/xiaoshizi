@@ -1,0 +1,1950 @@
+{
+  "schemaVersion": 1,
+  "parserAnomalies": [],
+  "duplicateBlocks": [
+    {
+      "code": "CHM110412100",
+      "name": "工程概论(2-1)",
+      "teachers": [
+        "于筱溪"
+      ],
+      "classes": "化工(国际)2301班,化工[2401-2402]班",
+      "weeks": "11周",
+      "periods": "03-04节",
+      "location": "卓越B229",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM110412100",
+      "name": "工程概论(2-1)",
+      "teachers": [
+        "于筱溪"
+      ],
+      "classes": "化工[2403-2404]班",
+      "weeks": "12周",
+      "periods": "03-04节",
+      "location": "卓越B233",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM110412100",
+      "name": "工程概论(2-1)",
+      "teachers": [
+        "刘会娥"
+      ],
+      "classes": "化工(国际)2301班,化工[2401-2402]班",
+      "weeks": "10周",
+      "periods": "03-04节",
+      "location": "卓越B229",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM110412100",
+      "name": "工程概论(2-1)",
+      "teachers": [
+        "刘会娥"
+      ],
+      "classes": "化工[2403-2404]班",
+      "weeks": "11周",
+      "periods": "03-04节",
+      "location": "卓越B233",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM110412100",
+      "name": "工程概论(2-1)",
+      "teachers": [
+        "姜磊"
+      ],
+      "classes": "能化[2401-2402]班",
+      "weeks": "1-2周",
+      "periods": "06-07节",
+      "location": "卓越B120",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D6 (星期二)",
+        "Sheet4!F6 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM110412100",
+      "name": "工程概论(2-1)",
+      "teachers": [
+        "曹美文"
+      ],
+      "classes": "能化[2401-2402]班",
+      "weeks": "4周",
+      "periods": "06-07节",
+      "location": "卓越B221",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D6 (星期二)",
+        "Sheet4!F6 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM110412100",
+      "name": "工程概论(2-1)",
+      "teachers": [
+        "王继乾"
+      ],
+      "classes": "能化[2401-2402]班",
+      "weeks": "3周",
+      "periods": "06-07节",
+      "location": "卓越B120",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D6 (星期二)",
+        "Sheet4!F6 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM110412100",
+      "name": "工程概论(2-1)",
+      "teachers": [
+        "白鹏"
+      ],
+      "classes": "化工(国际)2301班,化工[2401-2402]班",
+      "weeks": "13周",
+      "periods": "03-04节",
+      "location": "卓越B229",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM110412100",
+      "name": "工程概论(2-1)",
+      "teachers": [
+        "白鹏"
+      ],
+      "classes": "化工[2403-2404]班",
+      "weeks": "14周",
+      "periods": "03-04节",
+      "location": "卓越B233",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM110412100",
+      "name": "工程概论(2-1)",
+      "teachers": [
+        "金鑫"
+      ],
+      "classes": "化工(国际)2301班,化工[2401-2402]班",
+      "weeks": "12周",
+      "periods": "03-04节",
+      "location": "卓越B229",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM110412100",
+      "name": "工程概论(2-1)",
+      "teachers": [
+        "金鑫"
+      ],
+      "classes": "化工[2403-2404]班",
+      "weeks": "13周",
+      "periods": "03-04节",
+      "location": "卓越B233",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM110412100",
+      "name": "工程概论(2-1)",
+      "teachers": [
+        "金鑫"
+      ],
+      "classes": "化工[2405-2406]班",
+      "weeks": "14周",
+      "periods": "03-04节",
+      "location": "卓越B217",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM110911030",
+      "name": "化工热力学",
+      "teachers": [
+        "丁雪"
+      ],
+      "classes": "临班1168",
+      "weeks": "1-9周",
+      "periods": "01-02节",
+      "location": "卓越A348",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!F4 (星期四)",
+        "Sheet4!H4 (星期六)"
+      ]
+    },
+    {
+      "code": "CHM111112200",
+      "name": "化工原理(2-2)",
+      "teachers": [
+        "王万里"
+      ],
+      "classes": "能化[2401-2402]班",
+      "weeks": "1-6周",
+      "periods": "06-07节",
+      "location": "卓越B218",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C6 (星期一)",
+        "Sheet4!E6 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM111112200",
+      "name": "化工原理(2-2)",
+      "teachers": [
+        "陈金庆"
+      ],
+      "classes": "能化[2401-2402]班",
+      "weeks": "7-13周",
+      "periods": "06-07节",
+      "location": "卓越B218",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C6 (星期一)",
+        "Sheet4!E6 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM111721020",
+      "name": "石油加工概论",
+      "teachers": [
+        "丁雪"
+      ],
+      "classes": "材化[2301-2302]班",
+      "weeks": "1-9周",
+      "periods": "03-04节",
+      "location": "卓越B328",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D5 (星期二)",
+        "Sheet4!F5 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM111721020",
+      "name": "石油加工概论",
+      "teachers": [
+        "李传"
+      ],
+      "classes": "自动[2301-2304]班,自动(实验)2301班,俄语[2301-2302]班,本研一体化班(电信类)控制科学与工程方向2301",
+      "weeks": "1-9周",
+      "periods": "03-04节",
+      "location": "南堂501(研讨教室)",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D5 (星期二)",
+        "Sheet4!F5 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM111821020",
+      "name": "数据处理与实验设计",
+      "teachers": [
+        "刘子媛"
+      ],
+      "classes": "化工[2404-2406]班,化工安全2501班,能化[2401-2402]班",
+      "weeks": "1-9周",
+      "periods": "10-11节",
+      "location": "卓越B325",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D8 (星期二)",
+        "Sheet4!F8 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM120121020",
+      "name": "C1化学与化工",
+      "teachers": [
+        "刘振"
+      ],
+      "classes": "能化[2301-2302]班,本研一体班(化工类)2301",
+      "weeks": "6-13周",
+      "periods": "03-04节",
+      "location": "卓越B237",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM121611030",
+      "name": "化学反应工程(双语)",
+      "teachers": [
+        "丁传芹"
+      ],
+      "classes": "化工[2403-2404]班",
+      "weeks": "2-14周",
+      "periods": "06-07节",
+      "location": "卓越B102",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C6 (星期一)",
+        "Sheet4!E6 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM121611030",
+      "name": "化学反应工程(双语)",
+      "teachers": [
+        "刘会娥"
+      ],
+      "classes": "化工[2401-2402]班",
+      "weeks": "2-14周",
+      "periods": "06-07节",
+      "location": "卓越B233",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C6 (星期一)",
+        "Sheet4!E6 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM121711035",
+      "name": "化学工程基础",
+      "teachers": [
+        "史德青",
+        "刘相"
+      ],
+      "classes": "化学[2401-2402]班",
+      "weeks": "1周",
+      "periods": "01-02节",
+      "location": "卓越B205",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C4 (星期一)",
+        "Sheet4!E4 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM121711035",
+      "name": "化学工程基础",
+      "teachers": [
+        "刘相"
+      ],
+      "classes": "化学[2401-2402]班",
+      "weeks": "2-13周",
+      "periods": "01-02节",
+      "location": "卓越B205",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C4 (星期一)",
+        "Sheet4!E4 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM151521020",
+      "name": "碳足迹及生命周期分析原理",
+      "teachers": [
+        "金鑫"
+      ],
+      "classes": "本研石油(海油方向)2401班,本研石油(石工方向)2401班,碳储2401班,本研石油(碳储方向)2401班",
+      "weeks": "9-16周",
+      "periods": "10-11节",
+      "location": "南教116",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D8 (星期二)",
+        "Sheet4!F8 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM157121020",
+      "name": "催化作用原理（双语）",
+      "teachers": [
+        "刘欣梅"
+      ],
+      "classes": "化工[2401-2406]班",
+      "weeks": "1-9周",
+      "periods": "03-04节",
+      "location": "卓越B102",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!E5 (星期三)",
+        "Sheet4!G5 (星期五)"
+      ]
+    },
+    {
+      "code": "CHM210221020",
+      "name": "绿色化学与化工导论",
+      "teachers": [
+        "吴萍萍"
+      ],
+      "classes": "化学[2301-2302]班,化学(实验)2301班",
+      "weeks": "10-17周",
+      "periods": "03-04节",
+      "location": "卓越A245",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!E5 (星期三)",
+        "Sheet4!G5 (星期五)"
+      ]
+    },
+    {
+      "code": "CHM221621020",
+      "name": "润滑油化学与工艺",
+      "teachers": [
+        "王延臻"
+      ],
+      "classes": "应化[2401-2403]班",
+      "weeks": "10-17周",
+      "periods": "03-04节",
+      "location": "卓越A118",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!E5 (星期三)",
+        "Sheet4!G5 (星期五)"
+      ]
+    },
+    {
+      "code": "CHM222211040",
+      "name": "石油化学",
+      "teachers": [
+        "王延臻"
+      ],
+      "classes": "应化2403班",
+      "weeks": "10-17周",
+      "periods": "06-07节",
+      "location": "卓越A245",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D6 (星期二)",
+        "Sheet4!F6 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM222211040",
+      "name": "石油化学",
+      "teachers": [
+        "石斌"
+      ],
+      "classes": "应化2403班",
+      "weeks": "1-9周",
+      "periods": "06-07节",
+      "location": "卓越A245",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D6 (星期二)",
+        "Sheet4!F6 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM222921020",
+      "name": "新能源与化学电源",
+      "teachers": [
+        "邓深圳"
+      ],
+      "classes": "应化[2401-2403]班",
+      "weeks": "1-5周",
+      "periods": "03-04节",
+      "location": "卓越B218",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM223011010",
+      "name": "新生研讨课",
+      "teachers": [
+        "吴文婷"
+      ],
+      "classes": "应化2605班",
+      "weeks": "6周",
+      "periods": "06-07节",
+      "location": "卓越A217",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C6 (星期一)",
+        "Sheet4!F6 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM320511021",
+      "name": "安全系统工程",
+      "teachers": [
+        "孟亦飞"
+      ],
+      "classes": "化工安全2401班",
+      "weeks": "10-12周",
+      "periods": "03-04节",
+      "location": "卓越B226",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM321411030",
+      "name": "固体废物处理与处置工程",
+      "teachers": [
+        "陈永栋"
+      ],
+      "classes": "环境[2301-2302]班",
+      "weeks": "5-9周",
+      "periods": "03-04节",
+      "location": "卓越B502",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM322821020",
+      "name": "化工事故仿真技术",
+      "teachers": [
+        "孟亦飞"
+      ],
+      "classes": "化工安全[2301-2302]班",
+      "weeks": "6,8-11周",
+      "periods": "06-07节",
+      "location": "卓越B409机房",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C6 (星期一)",
+        "Sheet4!E6 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM326121010",
+      "name": "学科前沿知识专题讲座",
+      "teachers": [
+        "任中飞"
+      ],
+      "classes": "环境[2301-2302]班",
+      "weeks": "12-13周",
+      "periods": "03-04节",
+      "location": "卓越A410",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D5 (星期二)",
+        "Sheet4!G5 (星期五)"
+      ]
+    },
+    {
+      "code": "CHM326121010",
+      "name": "学科前沿知识专题讲座",
+      "teachers": [
+        "王刚"
+      ],
+      "classes": "环境[2301-2302]班",
+      "weeks": "10-11周",
+      "periods": "03-04节",
+      "location": "卓越A410",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D5 (星期二)",
+        "Sheet4!G5 (星期五)"
+      ]
+    },
+    {
+      "code": "CHM326221015",
+      "name": "应急技术与管理",
+      "teachers": [
+        "平平"
+      ],
+      "classes": "化工安全[2301-2302]班",
+      "weeks": "9-10周",
+      "periods": "03-04节",
+      "location": "卓越B506",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM352711010",
+      "name": "环境生态修复技术",
+      "teachers": [
+        "刘春爽"
+      ],
+      "classes": "环境[2401-2402]班",
+      "weeks": "1-4周",
+      "periods": "03-04节",
+      "location": "卓越A128",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D5 (星期二)",
+        "Sheet4!F5 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM410221020",
+      "name": "生物能源技术",
+      "teachers": [
+        "王生杰"
+      ],
+      "classes": "能化[2301-2302]班,材器[2301-2302]班",
+      "weeks": "1-4周",
+      "periods": "03-04节",
+      "location": "卓越B201",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D5 (星期二)",
+        "Sheet4!F5 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM410221020",
+      "name": "生物能源技术",
+      "teachers": [
+        "王继乾"
+      ],
+      "classes": "能化[2301-2302]班,材器[2301-2302]班",
+      "weeks": "6-9周",
+      "periods": "03-04节",
+      "location": "卓越B201",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D5 (星期二)",
+        "Sheet4!F5 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM420221020",
+      "name": "工业微生物",
+      "teachers": [
+        "肖梓军"
+      ],
+      "classes": "能化[2401-2402]班",
+      "weeks": "1-9周",
+      "periods": "03-04节",
+      "location": "卓越A314",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM420621020",
+      "name": "生物化工基础",
+      "teachers": [
+        "曲剑波"
+      ],
+      "classes": "能化[2401-2402]班",
+      "weeks": "4-9周",
+      "periods": "03-04节",
+      "location": "卓越B102",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D5 (星期二)",
+        "Sheet4!F5 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM420621020",
+      "name": "生物化工基础",
+      "teachers": [
+        "李静"
+      ],
+      "classes": "能化[2401-2402]班",
+      "weeks": "1-3周",
+      "periods": "03-04节",
+      "location": "卓越B102",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D5 (星期二)",
+        "Sheet4!F5 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM421331020",
+      "name": "生命科学史",
+      "teachers": [
+        "姜磊"
+      ],
+      "classes": "临班458",
+      "weeks": "10-13周",
+      "periods": "10-11节",
+      "location": "南教114",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C8 (星期一)",
+        "Sheet4!G8 (星期五)"
+      ]
+    },
+    {
+      "code": "CHM421331020",
+      "name": "生命科学史",
+      "teachers": [
+        "马洪超"
+      ],
+      "classes": "临班458",
+      "weeks": "14-17周",
+      "periods": "10-11节",
+      "location": "南教114",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C8 (星期一)",
+        "Sheet4!G8 (星期五)"
+      ]
+    },
+    {
+      "code": "CHM421431020",
+      "name": "材料与环境",
+      "teachers": [
+        "王生杰"
+      ],
+      "classes": "临班457",
+      "weeks": "1-9周",
+      "periods": "08-09节",
+      "location": "卓越A221",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D7 (星期二)",
+        "Sheet4!F7 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM421531020",
+      "name": "生活中的高分子材料",
+      "teachers": [
+        "王生杰"
+      ],
+      "classes": "临班335",
+      "weeks": "1-9周",
+      "periods": "10-11节",
+      "location": "卓越A131",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D8 (星期二)",
+        "Sheet4!F8 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM421631010",
+      "name": "微生物世界",
+      "teachers": [
+        "郗丽君"
+      ],
+      "classes": "临班278",
+      "weeks": "6-9周",
+      "periods": "10-11节",
+      "location": "南教205",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D8 (星期二)",
+        "Sheet4!F8 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM421731020",
+      "name": "微生物与人类",
+      "teachers": [
+        "李慧"
+      ],
+      "classes": "临班136",
+      "weeks": "6-9周",
+      "periods": "08-09节",
+      "location": "卓越A109",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C7 (星期一)",
+        "Sheet4!E7 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM421731020",
+      "name": "微生物与人类",
+      "teachers": [
+        "肖梓军"
+      ],
+      "classes": "临班136",
+      "weeks": "1-4周",
+      "periods": "08-09节",
+      "location": "卓越A109",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C7 (星期一)",
+        "Sheet4!E7 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM422031010",
+      "name": "美食中的化学与物理",
+      "teachers": [
+        "孙亚伟"
+      ],
+      "classes": "临班1169",
+      "weeks": "14-17周",
+      "periods": "08-09节",
+      "location": "卓越A121",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C7 (星期一)",
+        "Sheet4!E7 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM422231010",
+      "name": "神奇的海洋生物世界",
+      "teachers": [
+        "李静"
+      ],
+      "classes": "临班192",
+      "weeks": "10-13周",
+      "periods": "10-11节",
+      "location": "南教117",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D8 (星期二)",
+        "Sheet4!F8 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM422631010",
+      "name": "宏观、介观与微观",
+      "teachers": [
+        "曹美文"
+      ],
+      "classes": "临班332",
+      "weeks": "3-4周",
+      "periods": "08-09节",
+      "location": "卓越B337",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D7 (星期二)",
+        "Sheet4!F7 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM422731010",
+      "name": "色彩中的化学与物理",
+      "teachers": [
+        "孙亚伟"
+      ],
+      "classes": "临班300",
+      "weeks": "14-17周",
+      "periods": "08-09节",
+      "location": "卓越A131",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D7 (星期二)",
+        "Sheet4!F7 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM428441020",
+      "name": "微生物细胞工厂",
+      "teachers": [
+        "肖梓军"
+      ],
+      "classes": "智能生物制造(微专业)2501班",
+      "weeks": "10-17周",
+      "periods": "03-04节",
+      "location": "卓越A102",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!B5 (星期日)",
+        "Sheet4!H5 (星期六)"
+      ]
+    },
+    {
+      "code": "CHM428541020",
+      "name": "生物分离工程",
+      "teachers": [
+        "孙亚伟"
+      ],
+      "classes": "智能生物制造(微专业)2501班",
+      "weeks": "14-17周",
+      "periods": "10-11节",
+      "location": "卓越A102",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D8 (星期二)",
+        "Sheet4!F8 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM428941010",
+      "name": "生物信息学与人工智能",
+      "teachers": [
+        "何化"
+      ],
+      "classes": "智能生物制造(微专业)2601班",
+      "weeks": "7-8周",
+      "periods": "08-09节",
+      "location": "卓越B409机房",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D7 (星期二)",
+        "Sheet4!G7 (星期五)"
+      ]
+    },
+    {
+      "code": "CHM428941010",
+      "name": "生物信息学与人工智能",
+      "teachers": [
+        "李静"
+      ],
+      "classes": "智能生物制造(微专业)2601班",
+      "weeks": "5-6周",
+      "periods": "08-09节",
+      "location": "卓越B409机房",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D7 (星期二)",
+        "Sheet4!G7 (星期五)"
+      ]
+    },
+    {
+      "code": "CHM429041020",
+      "name": "生物化学",
+      "teachers": [
+        "徐海"
+      ],
+      "classes": "智能生物制造(微专业)2601班",
+      "weeks": "6-8周",
+      "periods": "10-11节",
+      "location": "卓越B237",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D8 (星期二)",
+        "Sheet4!F8 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM450711030",
+      "name": "碳捕集及转化原理",
+      "teachers": [
+        "于道永"
+      ],
+      "classes": "碳储2401班,本研石油(碳储方向)2401班",
+      "weeks": "6-10周",
+      "periods": "06-07节",
+      "location": "南堂113",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C6 (星期一)",
+        "Sheet4!E6 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM450711030",
+      "name": "碳捕集及转化原理",
+      "teachers": [
+        "葛保胜"
+      ],
+      "classes": "碳储2401班,本研石油(碳储方向)2401班",
+      "weeks": "1-5周",
+      "periods": "06-07节",
+      "location": "南堂113",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C6 (星期一)",
+        "Sheet4!E6 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM455011020",
+      "name": "基本化工设备与选型",
+      "teachers": [
+        "张金弘"
+      ],
+      "classes": "能化[2401-2402]班",
+      "weeks": "1-4周",
+      "periods": "08-09节",
+      "location": "卓越B312",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D7 (星期二)",
+        "Sheet4!F7 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM455011020",
+      "name": "基本化工设备与选型",
+      "teachers": [
+        "李大伟"
+      ],
+      "classes": "能化[2401-2402]班",
+      "weeks": "6-9周",
+      "periods": "08-09节",
+      "location": "卓越B312",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D7 (星期二)",
+        "Sheet4!F7 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM458831020",
+      "name": "绿色“酶”好生活",
+      "teachers": [
+        "杨丽敏"
+      ],
+      "classes": "临班119",
+      "weeks": "1-4周",
+      "periods": "08-09节",
+      "location": "卓越A109",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D7 (星期二)",
+        "Sheet4!F7 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM458831020",
+      "name": "绿色“酶”好生活",
+      "teachers": [
+        "王小强"
+      ],
+      "classes": "临班119",
+      "weeks": "6-9周",
+      "periods": "08-09节",
+      "location": "卓越A109",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D7 (星期二)",
+        "Sheet4!F7 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM459331020",
+      "name": "生命密码的双重奏：人类基因与微生物",
+      "teachers": [
+        "李慧"
+      ],
+      "classes": "临班347",
+      "weeks": "6-8周",
+      "periods": "08-09节",
+      "location": "卓越A128",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D7 (星期二)",
+        "Sheet4!F7 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM459331020",
+      "name": "生命密码的双重奏：人类基因与微生物",
+      "teachers": [
+        "陈翠霞"
+      ],
+      "classes": "临班347",
+      "weeks": "1-3周",
+      "periods": "08-09节",
+      "location": "卓越A128",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D7 (星期二)",
+        "Sheet4!F7 (星期四)"
+      ]
+    },
+    {
+      "code": "CHM620311010",
+      "name": "工程伦理（全英文）",
+      "teachers": [
+        "于筱溪"
+      ],
+      "classes": "本研化工2401班",
+      "weeks": "14周",
+      "periods": "03-04节",
+      "location": "卓越B201",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM620311010",
+      "name": "工程伦理（全英文）",
+      "teachers": [
+        "白鹏"
+      ],
+      "classes": "本研化工2401班",
+      "weeks": "16周",
+      "periods": "03-04节",
+      "location": "卓越B201",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM620311010",
+      "name": "工程伦理（全英文）",
+      "teachers": [
+        "金鑫"
+      ],
+      "classes": "本研化工2401班",
+      "weeks": "15周",
+      "periods": "03-04节",
+      "location": "卓越B201",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!E5 (星期三)"
+      ]
+    },
+    {
+      "code": "CHM923631020",
+      "name": "低碳清洁能源与未来",
+      "teachers": [
+        "严文娟"
+      ],
+      "classes": "临班284",
+      "weeks": "1-4,6-9周",
+      "periods": "10-11节",
+      "location": "南教117",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!B8 (星期日)",
+        "Sheet4!H8 (星期六)"
+      ]
+    },
+    {
+      "code": "SCC811711030",
+      "name": "无机及分析化学",
+      "teachers": [
+        "刘春爽"
+      ],
+      "classes": "化工与制药类[2603-2604]班",
+      "weeks": "5,7-17周",
+      "periods": "03-04节",
+      "location": "卓越A310",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!G5 (星期五)"
+      ]
+    },
+    {
+      "code": "SCC811711030",
+      "name": "无机及分析化学",
+      "teachers": [
+        "孙娟"
+      ],
+      "classes": "化工与制药类[2605-2606]班",
+      "weeks": "5,7-17周",
+      "periods": "08-09节",
+      "location": "卓越B201",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C7 (星期一)",
+        "Sheet4!F7 (星期四)"
+      ]
+    },
+    {
+      "code": "SCC812212101",
+      "name": "物理化学(2-1)",
+      "teachers": [
+        "林旭锋"
+      ],
+      "classes": "能化2501班,能化拔尖2501班",
+      "weeks": "8-13周",
+      "periods": "10-11节",
+      "location": "卓越A105",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!E8 (星期三)",
+        "Sheet4!G8 (星期五)"
+      ]
+    },
+    {
+      "code": "SCC812212200",
+      "name": "物理化学(2-2)",
+      "teachers": [
+        "叶天旭"
+      ],
+      "classes": "应化2403班",
+      "weeks": "1-13周",
+      "periods": "01-02节",
+      "location": "卓越A510",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D4 (星期二)",
+        "Sheet4!F4 (星期四)"
+      ]
+    },
+    {
+      "code": "SCC812421020",
+      "name": "现代分析技术",
+      "teachers": [
+        "杨丽敏"
+      ],
+      "classes": "化学[2301-2302]班,化学(实验)2301班",
+      "weeks": "15-16周",
+      "periods": "03-04节",
+      "location": "卓越A105",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!F5 (星期四)"
+      ]
+    },
+    {
+      "code": "SCC812611010",
+      "name": "学科前沿知识专题讲座",
+      "teachers": [
+        "张龙力"
+      ],
+      "classes": "化学[2301-2302]班,化学(实验)2301班",
+      "weeks": "2周",
+      "periods": "06-07节",
+      "location": "卓越A101",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D6 (星期二)",
+        "Sheet4!F6 (星期四)"
+      ]
+    },
+    {
+      "code": "SCC812611010",
+      "name": "学科前沿知识专题讲座",
+      "teachers": [
+        "董斌"
+      ],
+      "classes": "化学[2301-2302]班,化学(实验)2301班",
+      "weeks": "1周",
+      "periods": "06-07节",
+      "location": "卓越A101",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D6 (星期二)",
+        "Sheet4!F6 (星期四)"
+      ]
+    },
+    {
+      "code": "SCC821111010",
+      "name": "新生研讨课",
+      "teachers": [
+        "卢玉坤"
+      ],
+      "classes": "化学拔尖2601班",
+      "weeks": "7周",
+      "periods": "06-07节",
+      "location": "卓越A314",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D6 (星期二)",
+        "Sheet4!G6 (星期五)"
+      ]
+    },
+    {
+      "code": "SCC821111010",
+      "name": "新生研讨课",
+      "teachers": [
+        "孙道峰"
+      ],
+      "classes": "化学拔尖2601班",
+      "weeks": "9周",
+      "periods": "06-07节",
+      "location": "卓越A314",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D6 (星期二)",
+        "Sheet4!G6 (星期五)"
+      ]
+    },
+    {
+      "code": "SCC821111010",
+      "name": "新生研讨课",
+      "teachers": [
+        "曾景斌"
+      ],
+      "classes": "化学拔尖2601班",
+      "weeks": "8周",
+      "periods": "06-07节",
+      "location": "卓越A314",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D6 (星期二)",
+        "Sheet4!G6 (星期五)"
+      ]
+    },
+    {
+      "code": "SCC829611036",
+      "name": "结构化学",
+      "teachers": [
+        "傅惠"
+      ],
+      "classes": "化学[2401-2402]班,化学拔尖2401班",
+      "weeks": "1-12周",
+      "periods": "10-11节",
+      "location": "卓越A205",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C8 (星期一)",
+        "Sheet4!E8 (星期三)"
+      ]
+    },
+    {
+      "code": "SCC830611020",
+      "name": "分析化学",
+      "teachers": [
+        "何化"
+      ],
+      "classes": "应化[2501-2503]班",
+      "weeks": "1-4,6-9周",
+      "periods": "03-04节",
+      "location": "卓越B337",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D5 (星期二)",
+        "Sheet4!F5 (星期四)"
+      ]
+    },
+    {
+      "code": "SCC831311035",
+      "name": "有机化学",
+      "teachers": [
+        "姜翠玉"
+      ],
+      "classes": "本研材料(能源材料方向)2401班",
+      "weeks": "1-15周",
+      "periods": "03-04节",
+      "location": "卓越B205",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C5 (星期一)",
+        "Sheet4!F5 (星期四)"
+      ]
+    },
+    {
+      "code": "SCC831612101",
+      "name": "无机化学（2-1）",
+      "teachers": [
+        "王瑞"
+      ],
+      "classes": "应化[2603-2604]班",
+      "weeks": "7-10周",
+      "periods": "08-09节",
+      "location": "卓越B218",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!C7 (星期一)",
+        "Sheet4!G7 (星期五)"
+      ]
+    },
+    {
+      "code": "SCC832012100",
+      "name": "有机化学(2-1)",
+      "teachers": [
+        "周玉路"
+      ],
+      "classes": "应化[2501-2503]班",
+      "weeks": "1-13周",
+      "periods": "10-11节",
+      "location": "卓越A205",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D8 (星期二)",
+        "Sheet4!F8 (星期四)"
+      ]
+    },
+    {
+      "code": "SCC850111025",
+      "name": "大学化学",
+      "teachers": [
+        "曾景斌"
+      ],
+      "classes": "地质[2601-2602]班",
+      "weeks": "10-13周",
+      "periods": "01-02节",
+      "location": "南教112",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D4 (星期二)",
+        "Sheet4!F4 (星期四)"
+      ]
+    },
+    {
+      "code": "SCC850111025",
+      "name": "大学化学",
+      "teachers": [
+        "赵会吉"
+      ],
+      "classes": "机械类[2603-2604]班",
+      "weeks": "10-17周",
+      "periods": "01-02节",
+      "location": "卓越A121",
+      "count": 2,
+      "sourceCells": [
+        "Sheet4!D4 (星期二)",
+        "Sheet4!F4 (星期四)"
+      ]
+    }
+  ],
+  "weekdayDiscrepancy": {
+    "zipShiftDays": 6,
+    "zipShiftSignedDays": -1,
+    "zipShiftDescription": "提前 1 天",
+    "candidateShifts": [
+      6
+    ],
+    "dayCounts": {
+      "original": {
+        "星期日": 9,
+        "星期一": 129,
+        "星期二": 175,
+        "星期三": 151,
+        "星期四": 150,
+        "星期五": 89,
+        "星期六": 12
+      },
+      "zip": {
+        "星期日": 129,
+        "星期一": 175,
+        "星期二": 151,
+        "星期三": 150,
+        "星期四": 89,
+        "星期五": 12,
+        "星期六": 9
+      }
+    },
+    "mappingNote": "ZIP weekday = original weekday shifted by 6 day(s) in the Sunday-first sequence (提前 1 天)"
+  },
+  "emptySheets": [
+    {
+      "file": "zip",
+      "sheet": "Sheet2"
+    },
+    {
+      "file": "zip",
+      "sheet": "Sheet3"
+    }
+  ],
+  "blocksWithoutLocation": 100,
+  "multiTeacherBlocks": 3,
+  "multiTeacherBlockDetails": [
+    {
+      "blockId": "upc-chem-2026-2027-1-0120",
+      "code": "CHM121711035",
+      "name": "化学工程基础",
+      "teachers": [
+        "史德青",
+        "刘相"
+      ],
+      "classes": "化学[2401-2402]班",
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ]
+    },
+    {
+      "blockId": "upc-chem-2026-2027-1-0539",
+      "code": "SCC830811020",
+      "name": "有机化学实验",
+      "teachers": [
+        "彭志华",
+        "宋林花"
+      ],
+      "classes": "材料[2502-2503]班",
+      "weekdays": [
+        "星期二"
+      ]
+    },
+    {
+      "blockId": "upc-chem-2026-2027-1-0540",
+      "code": "SCC830811020",
+      "name": "有机化学实验",
+      "teachers": [
+        "彭志华",
+        "宋林花"
+      ],
+      "classes": "材料[2502-2503]班",
+      "weekdays": [
+        "星期二"
+      ]
+    }
+  ],
+  "sameNameDifferentCodes": [
+    {
+      "name": "C1化学与化工",
+      "codes": [
+        "CHM120121010",
+        "CHM120121020"
+      ],
+      "normalizedName": "C1化学与化工"
+    },
+    {
+      "name": "专业外语",
+      "codes": [
+        "CHM223621020",
+        "SCC814021020"
+      ],
+      "normalizedName": "专业外语"
+    },
+    {
+      "name": "分析化学实验",
+      "codes": [
+        "SCC810611021",
+        "SCC820611020"
+      ],
+      "normalizedName": "分析化学实验"
+    },
+    {
+      "name": "化学工程基础",
+      "codes": [
+        "CHM121711035",
+        "CHM121711036",
+        "CHM121911030"
+      ],
+      "normalizedName": "化学工程基础"
+    },
+    {
+      "name": "大学化学",
+      "codes": [
+        "SCC850111025",
+        "SCC850311020",
+        "SCC850611035"
+      ],
+      "normalizedName": "大学化学"
+    },
+    {
+      "name": "学科前沿知识专题讲座",
+      "codes": [
+        "CHM326121010",
+        "SCC812611010"
+      ],
+      "normalizedName": "学科前沿知识专题讲座"
+    },
+    {
+      "name": "新生研讨课",
+      "codes": [
+        "CHM112011010",
+        "CHM223011010",
+        "SCC821111010"
+      ],
+      "normalizedName": "新生研讨课"
+    },
+    {
+      "name": "有机化学",
+      "codes": [
+        "SCC813711020",
+        "SCC829111030",
+        "SCC831311035"
+      ],
+      "normalizedName": "有机化学"
+    },
+    {
+      "name": "有机化学实验",
+      "codes": [
+        "SCC828911010",
+        "SCC830811020",
+        "SCC831211015"
+      ],
+      "normalizedName": "有机化学实验"
+    },
+    {
+      "name": "物理化学",
+      "codes": [
+        "SCC812211025",
+        "SCC812211030",
+        "SCC829021042"
+      ],
+      "normalizedName": "物理化学"
+    },
+    {
+      "name": "物理化学(2-2)",
+      "codes": [
+        "SCC812212200",
+        "SCC812212201"
+      ],
+      "normalizedName": "物理化学(2-2)"
+    },
+    {
+      "name": "环境保护导论",
+      "codes": [
+        "CHM326831020",
+        "CHM350711021"
+      ],
+      "normalizedName": "环境保护导论"
+    },
+    {
+      "name": "生物化学",
+      "codes": [
+        "CHM420721025",
+        "CHM429041020"
+      ],
+      "normalizedName": "生物化学"
+    },
+    {
+      "name": "石油化学",
+      "codes": [
+        "CHM222211040",
+        "CHM224131020"
+      ],
+      "normalizedName": "石油化学"
+    },
+    {
+      "name": "石油工业与环境保护概论",
+      "codes": [
+        "CHM324711010",
+        "CHM324821020"
+      ],
+      "normalizedName": "石油工业与环境保护概论"
+    },
+    {
+      "name": "结构化学",
+      "codes": [
+        "SCC811121020",
+        "SCC829611036"
+      ],
+      "normalizedName": "结构化学"
+    }
+  ],
+  "sameNormalizedNameDifferentCodes": [
+    {
+      "name": "C1化学与化工",
+      "codes": [
+        "CHM120121010",
+        "CHM120121020"
+      ],
+      "displayNames": [
+        "C1化学与化工"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "专业外语",
+      "codes": [
+        "CHM223621020",
+        "SCC814021020"
+      ],
+      "displayNames": [
+        "专业外语"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "分析化学实验",
+      "codes": [
+        "SCC810611021",
+        "SCC820611020"
+      ],
+      "displayNames": [
+        "分析化学实验"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "化学工程基础",
+      "codes": [
+        "CHM121711035",
+        "CHM121711036",
+        "CHM121911030"
+      ],
+      "displayNames": [
+        "化学工程基础"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "大学化学",
+      "codes": [
+        "SCC850111025",
+        "SCC850311020",
+        "SCC850611035"
+      ],
+      "displayNames": [
+        "大学化学"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "学科前沿知识专题讲座",
+      "codes": [
+        "CHM326121010",
+        "SCC812611010"
+      ],
+      "displayNames": [
+        "学科前沿知识专题讲座"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "工程概论(2-1)",
+      "codes": [
+        "CHM110412100",
+        "CHM310112100"
+      ],
+      "displayNames": [
+        "工程概论(2-1)",
+        "工程概论（2-1）"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "新生研讨课",
+      "codes": [
+        "CHM112011010",
+        "CHM223011010",
+        "SCC821111010"
+      ],
+      "displayNames": [
+        "新生研讨课"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "有机化学",
+      "codes": [
+        "SCC813711020",
+        "SCC829111030",
+        "SCC831311035"
+      ],
+      "displayNames": [
+        "有机化学"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "有机化学(2-1)",
+      "codes": [
+        "SCC829112101",
+        "SCC832012100"
+      ],
+      "displayNames": [
+        "有机化学(2-1)",
+        "有机化学（2-1）"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "有机化学实验",
+      "codes": [
+        "SCC828911010",
+        "SCC830811020",
+        "SCC831211015"
+      ],
+      "displayNames": [
+        "有机化学实验"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "物理化学",
+      "codes": [
+        "SCC812211025",
+        "SCC812211030",
+        "SCC829021042"
+      ],
+      "displayNames": [
+        "物理化学"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "物理化学(2-2)",
+      "codes": [
+        "SCC812212200",
+        "SCC812212201"
+      ],
+      "displayNames": [
+        "物理化学(2-2)"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "环境保护导论",
+      "codes": [
+        "CHM326831020",
+        "CHM350711021"
+      ],
+      "displayNames": [
+        "环境保护导论"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "生物化学",
+      "codes": [
+        "CHM420721025",
+        "CHM429041020"
+      ],
+      "displayNames": [
+        "生物化学"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "石油化学",
+      "codes": [
+        "CHM222211040",
+        "CHM224131020"
+      ],
+      "displayNames": [
+        "石油化学"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "石油工业与环境保护概论",
+      "codes": [
+        "CHM324711010",
+        "CHM324821020"
+      ],
+      "displayNames": [
+        "石油工业与环境保护概论"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "结构化学",
+      "codes": [
+        "SCC811121020",
+        "SCC829611036"
+      ],
+      "displayNames": [
+        "结构化学"
+      ],
+      "note": "same normalized name; not merged"
+    }
+  ],
+  "unresolvedTeachers": [
+    {
+      "name": "刘相",
+      "title": "讲师",
+      "department": "化学工程系",
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "status": "official_list_without_profile",
+      "reason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    },
+    {
+      "name": "史德青",
+      "title": null,
+      "department": null,
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": null,
+      "status": "no_official_profile",
+      "reason": "no official profile URL found",
+      "needed": [
+        "官方教师详情页或教工号",
+        "教师人事归属学院",
+        "确认是否为本校在岗教师"
+      ]
+    },
+    {
+      "name": "孙道峰",
+      "title": null,
+      "department": null,
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": null,
+      "status": "no_official_profile",
+      "reason": "no official profile URL found",
+      "needed": [
+        "官方教师详情页或教工号",
+        "教师人事归属学院",
+        "确认是否为本校在岗教师"
+      ]
+    },
+    {
+      "name": "张卫东",
+      "title": null,
+      "department": null,
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": null,
+      "status": "no_official_profile",
+      "reason": "no official profile URL found",
+      "needed": [
+        "官方教师详情页或教工号",
+        "教师人事归属学院",
+        "确认是否为本校在岗教师"
+      ]
+    },
+    {
+      "name": "徐永强",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "status": "official_list_without_profile",
+      "reason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    },
+    {
+      "name": "赵会吉",
+      "title": "副教授",
+      "department": "应用化学系",
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "status": "official_list_without_profile",
+      "reason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    },
+    {
+      "name": "路帅",
+      "title": "高级实验师",
+      "department": "环境与安全工程系",
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "status": "official_list_without_profile",
+      "reason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    }
+  ],
+  "notes": [
+    "ZIP 中的 XLS 与原始 XLS 课程块签名多重集完全一致；ZIP 的星期列整体比原始导出提前一天，",
+    "因此一期只使用原始导出建立教师×课程×学期关系，星期仅作为来源证据保留。",
+    "空工作表、重复课程块、无地点实验课均保留记录，不静默丢弃。"
+  ]
+}

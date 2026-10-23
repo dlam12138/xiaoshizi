@@ -1,0 +1,1685 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-computer-software-2026-2027-1-timetable-20261023",
+  "source": "课表/青岛软件学院计算机科学与技术学院/课表打印.xls sha256:2bea368d45049f04daa2a2c66433d81e596cb6dbf0d7a0c4458f249c850373fc; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "computer-c20897-a409181",
+      "name": "于广斌",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110211026",
+          "name": "程序设计（C）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST126111035",
+          "name": "算法与程序设计",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a439772",
+      "name": "于旭",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST221911010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409158",
+      "name": "付文霞",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110311027",
+          "name": "程序设计（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409163",
+      "name": "何旭莉",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110311027",
+          "name": "程序设计（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409313",
+      "name": "俞辉",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST227121030",
+          "name": "嵌入式原理与单片机",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a409172",
+      "name": "刘培刚",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110311027",
+          "name": "程序设计（Python）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST329921026",
+          "name": "数据分析（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409114",
+      "name": "刘新平",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST227311035",
+          "name": "数字逻辑与EDA技术",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20898-a408842",
+      "name": "刘昕",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST311011020",
+          "name": "人工智能导论",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST312521015",
+          "name": "知识图谱技术及应用",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST313412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST328111035",
+          "name": "机器学习",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409097",
+      "name": "刘玉杰",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST324111020",
+          "name": "计算科学导论",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST210321020",
+          "name": "计算方法",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST211221026",
+          "name": "数字图像处理",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a409075",
+      "name": "刘秀文",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST311211020",
+          "name": "软件测试与质量保证",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST328821015",
+          "name": "群智感知与社会计算",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a439724",
+      "name": "卢浩",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST330121020",
+          "name": "软件可靠性方法",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409317",
+      "name": "史永宏",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST227021020",
+          "name": "传感器原理与应用",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST227311035",
+          "name": "数字逻辑与EDA技术",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a408828",
+      "name": "吴春雷",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST320311035",
+          "name": "程序设计(C/C++)",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a439803",
+      "name": "周于皓",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST311211020",
+          "name": "软件测试与质量保证",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST312614300",
+          "name": "专业工程实训(4-3)",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-10-001",
+      "name": "姚洪波",
+      "title": null,
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110311027",
+          "name": "程序设计（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409173",
+      "name": "孙东海",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110311027",
+          "name": "程序设计（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409120",
+      "name": "孙士明",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST222111021",
+          "name": "数据结构",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST226711030",
+          "name": "操作系统",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409310",
+      "name": "孙小辉",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110311027",
+          "name": "程序设计（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a408823",
+      "name": "孙歧峰",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST311921020",
+          "name": "石油工业软件基础",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST324011031",
+          "name": "数据结构",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST331621020",
+          "name": "高级算法设计与分析",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST331812200",
+          "name": "专业基础实训(2-2)",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409086",
+      "name": "孙运雷",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST233412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409311",
+      "name": "宋继志",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST211621020",
+          "name": "物联网与边缘计算",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST221511020",
+          "name": "计算科学导论",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST226621030",
+          "name": "计算机系统结构",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST233412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a408841",
+      "name": "宫法明",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST221911010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST324011030",
+          "name": "数据结构",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20898-a409128",
+      "name": "岳昊",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST210321020",
+          "name": "计算方法",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST311011020",
+          "name": "人工智能导论",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a408821",
+      "name": "庞善臣",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST324011030",
+          "name": "数据结构",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a408835",
+      "name": "张俊三",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST311921020",
+          "name": "石油工业软件基础",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST324011031",
+          "name": "数据结构",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST331521020",
+          "name": "工业App软件开发",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST331812200",
+          "name": "专业基础实训(2-2)",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409109",
+      "name": "张千",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST210711030",
+          "name": "计算机网络原理",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST224121030",
+          "name": "计算机网络原理",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20898-a408850",
+      "name": "张卫山",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST313412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST331411020",
+          "name": "数据科学与工程",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a408833",
+      "name": "张国平",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST310921020",
+          "name": "模型驱动的软件开发",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST311521030",
+          "name": "软件系统分析与设计",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a408836",
+      "name": "张培颖",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST310521020",
+          "name": "云计算技术与应用",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409112",
+      "name": "张学辉",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST220611035",
+          "name": "程序设计(C/C++)",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST221911010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST320311035",
+          "name": "程序设计(C/C++)",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409312",
+      "name": "张晓东",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST226711030",
+          "name": "操作系统",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST226711030",
+          "name": "操作系统",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST325321010",
+          "name": "石油与人工智能",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a485952",
+      "name": "张晨浩",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST312614300",
+          "name": "专业工程实训(4-3)",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409078",
+      "name": "张琛",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST210812101",
+          "name": "离散数学（2-1）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST226221020",
+          "name": "计算智能",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST233412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409111",
+      "name": "张琼声",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST226711030",
+          "name": "操作系统",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409103",
+      "name": "张红霞",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST210811040",
+          "name": "离散数学",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST221911010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409179",
+      "name": "徐嘉丽",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110311027",
+          "name": "程序设计（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20899-a409274",
+      "name": "成玲",
+      "title": "高级实验师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST320311035",
+          "name": "程序设计(C/C++)",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409546",
+      "name": "戴常英",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110311027",
+          "name": "程序设计（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20899-a409272",
+      "name": "曹绍华",
+      "title": "高级实验师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST310521020",
+          "name": "云计算技术与应用",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "99CST324111020",
+          "name": "计算科学导论",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-10-002",
+      "name": "李一然",
+      "title": null,
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST325221032",
+          "name": "机器学习",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST329621015",
+          "name": "人类行为识别",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20898-a409166",
+      "name": "李传秀",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST311011020",
+          "name": "人工智能导论",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST312521015",
+          "name": "知识图谱技术及应用",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST313412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST332421015",
+          "name": "生成对抗网络与图网络学习",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a408817",
+      "name": "李克文",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST310211020",
+          "name": "软件工程",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409091",
+      "name": "李华昱",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST226711030",
+          "name": "操作系统",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST226711030",
+          "name": "操作系统",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST227221030",
+          "name": "操作系统",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409168",
+      "name": "李坤",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110821020",
+          "name": "机器学习",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST311921020",
+          "name": "石油工业软件基础",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409167",
+      "name": "李娟",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110311027",
+          "name": "程序设计（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20898-a409286",
+      "name": "李昕",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST320311035",
+          "name": "程序设计(C/C++)",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST328211025",
+          "name": "可视化导论",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a409077",
+      "name": "李晓旭",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST226421030",
+          "name": "面向对象程序设计(Java)",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST313412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST324111020",
+          "name": "计算科学导论",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST325421020",
+          "name": "大数据技术与应用",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409169",
+      "name": "李鹏",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110311027",
+          "name": "程序设计（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a443288",
+      "name": "杨劭辉",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110211026",
+          "name": "程序设计（C）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a483527",
+      "name": "梁秋实",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-10-003",
+      "name": "游应红",
+      "title": null,
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST233412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST313412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a439811",
+      "name": "焦博韬",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST311211020",
+          "name": "软件测试与质量保证",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "99CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "99CST324111020",
+          "name": "计算科学导论",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a409129",
+      "name": "王丹心",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST211111030",
+          "name": "数据库原理",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "99CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST227621020",
+          "name": "区块链技术与应用",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409176",
+      "name": "王保三",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110311027",
+          "name": "程序设计（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a408824",
+      "name": "王勃",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "99CST324011031",
+          "name": "数据结构",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST324011030",
+          "name": "数据结构",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST331812200",
+          "name": "专业基础实训(2-2)",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a443255",
+      "name": "王大鹏",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST211111030",
+          "name": "数据库原理",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST221911010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST226221020",
+          "name": "计算智能",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST233412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409100",
+      "name": "王淑栋",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST210321020",
+          "name": "计算方法",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a409076",
+      "name": "王爽",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST313412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST324011031",
+          "name": "数据结构",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST329921026",
+          "name": "数据分析（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a409285",
+      "name": "王珣",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST325221032",
+          "name": "机器学习",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c21719-a443272",
+      "name": "王芳",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST233412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST313412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409178",
+      "name": "王雪瑞",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0711299",
+          "name": "程序设计",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST311921020",
+          "name": "石油工业软件基础",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409177",
+      "name": "王雪莉",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110211026",
+          "name": "程序设计（C）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20898-a409116",
+      "name": "王风华",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST324111020",
+          "name": "计算科学导论",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST310721021",
+          "name": "计算机视觉",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST311011020",
+          "name": "人工智能导论",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST313412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST329621015",
+          "name": "人类行为识别",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST331711021",
+          "name": "计算机视觉",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409175",
+      "name": "田红磊",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110311027",
+          "name": "程序设计（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409099",
+      "name": "石乐义",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST221911010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST226521020",
+          "name": "计算机网络课程设计",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409088",
+      "name": "肖军弼",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST210711030",
+          "name": "计算机网络原理",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST221411020",
+          "name": "计算机网络与应用",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST221911010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST224121030",
+          "name": "计算机网络原理",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a408719",
+      "name": "董玉坤",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST311211020",
+          "name": "软件测试与质量保证",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST313412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST325421020",
+          "name": "大数据技术与应用",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a466072",
+      "name": "蒋狄琼",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST220411025",
+          "name": "编译原理",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST221911010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20898-a409320",
+      "name": "邵明文",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-10-004",
+      "name": "郑一",
+      "title": null,
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST233412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST313412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20898-a452867",
+      "name": "郑凯",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST210812101",
+          "name": "离散数学（2-1）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409184",
+      "name": "郑立垠",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110211026",
+          "name": "程序设计（C）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-10-005",
+      "name": "郭加树",
+      "title": null,
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110311027",
+          "name": "程序设计（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a409188",
+      "name": "郭磊",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST320311035",
+          "name": "程序设计(C/C++)",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a409186",
+      "name": "钟敏",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST325221032",
+          "name": "机器学习",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "99CST325421020",
+          "name": "大数据技术与应用",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST313412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST320311035",
+          "name": "程序设计(C/C++)",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20899-a409283",
+      "name": "闫阳",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST211221026",
+          "name": "数字图像处理",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST920231010",
+          "name": "计算机技术综合实验",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c6275-a499437",
+      "name": "陈淑涛",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a409074",
+      "name": "陈程立诏",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST328111035",
+          "name": "机器学习",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a483512",
+      "name": "韩汶杞",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409098",
+      "name": "马力",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST211111030",
+          "name": "数据库原理",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20898-a443298",
+      "name": "马同茂",
+      "title": "助理研究员",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST312321025",
+          "name": "自然语言处理",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-10-006",
+      "name": "马竟锋",
+      "title": null,
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "99CST310211020",
+          "name": "软件工程",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST310211020",
+          "name": "软件工程",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20897-a409160",
+      "name": "高绍姝",
+      "title": "讲师",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST110311027",
+          "name": "程序设计（Python）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-10-007",
+      "name": "魏伟",
+      "title": null,
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST233412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST313412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20898-a409124",
+      "name": "黄庭培",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST226311030",
+          "name": "计算机系统导论",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a409132",
+      "name": "齐连永",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST210812101",
+          "name": "离散数学（2-1）",
+          "collegeCode": "upc-10"
+        },
+        {
+          "code": "CST322811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20896-a409094",
+      "name": "龚安",
+      "title": "副教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST211111030",
+          "name": "数据库原理",
+          "collegeCode": "upc-10"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1200 @@
+{
+  "schemaVersion": 1,
+  "unit": "外国语学院",
+  "collegeCode": "upc-13",
+  "courses": [
+    {
+      "key": "OTH921331020",
+      "code": "OTH921331020",
+      "name": "沟通与写作",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "刘媛媛",
+        "李小华",
+        "杨洁",
+        "林超",
+        "毛浩然",
+        "邵艳平"
+      ],
+      "excludedReason": "course_code_conflict"
+    },
+    {
+      "key": "SFS020531010",
+      "code": "SFS020531010",
+      "name": "雅思口语",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "吴易曦",
+        "孙烁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS020831010",
+      "code": "SFS020831010",
+      "name": "雅思阅读",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "付丽燕",
+        "任杰超"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS110212100",
+      "code": "SFS110212100",
+      "name": "学术英语(2-1)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 122,
+      "teacherNames": [
+        "刘晓辉",
+        "刘瑞琴",
+        "刘艳芹",
+        "孔德亮",
+        "张淑杰",
+        "张英莉",
+        "彭翠平",
+        "徐燕燕",
+        "战海",
+        "扈彩霞",
+        "朱荫成",
+        "李晓丽",
+        "杨静文",
+        "江润洁",
+        "王波",
+        "王立新",
+        "石绍云",
+        "邹文轩",
+        "陈效新",
+        "陈秀玲",
+        "韩效伟",
+        "韩辉",
+        "马红艳",
+        "魏三军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS124812101",
+      "code": "SFS124812101",
+      "name": "通用英语（2-1）",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 139,
+      "teacherNames": [
+        "付丽燕",
+        "任杰超",
+        "冯晓梅",
+        "吴易曦",
+        "孙烁",
+        "展伟伟",
+        "张亮",
+        "张宁",
+        "张琦",
+        "张红",
+        "张青华",
+        "李晓春",
+        "李金彩",
+        "杨芳",
+        "熊小秦",
+        "牛力维",
+        "王建敏",
+        "王新福",
+        "王芳",
+        "穆莉萍",
+        "董金娣",
+        "贾聚年",
+        "赵丽",
+        "邓燕",
+        "闫萌萌",
+        "韩淑芹",
+        "顾丽娜",
+        "马文韬"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS124812200",
+      "code": "SFS124812200",
+      "name": "R通用英语(2-2)重修",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张宁",
+        "闫萌萌"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS124912200",
+      "code": "SFS124912200",
+      "name": "R学术英语(2-2)重修",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "孔德亮",
+        "朱荫成"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS125431020",
+      "code": "SFS125431020",
+      "name": "英语短篇故事经典解读",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李晓丽",
+        "江润洁",
+        "王立新"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS125641020",
+      "code": "SFS125641020",
+      "name": "孤独症儿童语言干预策略",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "唐东",
+        "程璐璐"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS125741010",
+      "code": "SFS125741010",
+      "name": "语言障碍评估技术与工具实训",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "唐东",
+        "程璐璐"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS126011020",
+      "code": "SFS126011020",
+      "name": "国际能源学术交流",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "程璐璐"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS210321020",
+      "code": "SFS210321020",
+      "name": "国际贸易实务",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "徐文彬"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS220711020",
+      "code": "SFS220711020",
+      "name": "翻译理论基础",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "徐保华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS220921041",
+      "code": "SFS220921041",
+      "name": "高级法律英语阅读",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张建科"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS221121041",
+      "code": "SFS221121041",
+      "name": "高级科技英语阅读",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王新博"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS221412200",
+      "code": "SFS221412200",
+      "name": "基础笔译(2-2)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "尹衍桐"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS221512101",
+      "code": "SFS221512101",
+      "name": "基础口译（2-1）",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "宋姝娴"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS221614100",
+      "code": "SFS221614100",
+      "name": "交际英语(4-1)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "刘媛媛",
+        "张建科",
+        "潘荔霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS221614300",
+      "code": "SFS221614300",
+      "name": "交际英语(4-3)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "安昌光",
+        "王新博"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS221921020",
+      "code": "SFS221921020",
+      "name": "科技专题笔译",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张燕"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS222211020",
+      "code": "SFS222211020",
+      "name": "跨文化交际理论与实践",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "任迎春"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS223011010",
+      "code": "SFS223011010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "尹衍桐",
+        "徐小雁",
+        "毛浩然",
+        "王新博"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS223421020",
+      "code": "SFS223421020",
+      "name": "英美短篇小说选读",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王海霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS223621020",
+      "code": "SFS223621020",
+      "name": "英美判例研读",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "徐文彬"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS223631020",
+      "code": "SFS223631020",
+      "name": "演讲、辩论与思维",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "毛浩然",
+        "马金芳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS223812100",
+      "code": "SFS223812100",
+      "name": "英美文学史及作品选读(2-1)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "叶艳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS224214100",
+      "code": "SFS224214100",
+      "name": "英语视听说(4-1)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "李燕云",
+        "毛浩然"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS224214300",
+      "code": "SFS224214300",
+      "name": "英语视听说(4-3)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "尹衍桐",
+        "潘荔霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS224312200",
+      "code": "SFS224312200",
+      "name": "英语思辨写作(2-2)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "徐保华",
+        "曹砚黛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS224411020",
+      "code": "SFS224411020",
+      "name": "英语文体与修辞",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张建科",
+        "张淑杰",
+        "杨洁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS224611020",
+      "code": "SFS224611020",
+      "name": "英语学术写作与研究方法",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "任迎春",
+        "徐保华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS224712100",
+      "code": "SFS224712100",
+      "name": "英语演讲与辩论工作坊（2-1）",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 6,
+      "teacherNames": [],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS224811020",
+      "code": "SFS224811020",
+      "name": "英语语法与基础写作",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "赵宁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS224911020",
+      "code": "SFS224911020",
+      "name": "英语语音",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "徐小雁",
+        "王新博"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS225111030",
+      "code": "SFS225111030",
+      "name": "语言学导论",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 14,
+      "teacherNames": [
+        "安昌光",
+        "杨洁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS225321020",
+      "code": "SFS225321020",
+      "name": "中西法律文化比较",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "张建科"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS225531020",
+      "code": "SFS225531020",
+      "name": "跨文化交际导论",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "杨洁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS226721020",
+      "code": "SFS226721020",
+      "name": "语言与认知",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "唐东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS227341021",
+      "code": "SFS227341021",
+      "name": "国际关系与国际传播",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "刘媛媛",
+        "毛浩然"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS227541020",
+      "code": "SFS227541020",
+      "name": "跨文化沟通艺术",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "任迎春",
+        "杨洁",
+        "潘荔霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS227741030",
+      "code": "SFS227741030",
+      "name": "科技英语",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "赵宁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS227841031",
+      "code": "SFS227841031",
+      "name": "翻译工作坊",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "张燕"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS227911020",
+      "code": "SFS227911020",
+      "name": "跨文化交际",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "任迎春"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS229121020",
+      "code": "SFS229121020",
+      "name": "大国外交演讲与辩论",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "刘媛媛",
+        "徐小雁",
+        "毛浩然",
+        "赵婷廷"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS229311020",
+      "code": "SFS229311020",
+      "name": "中国文化概论（英）",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "曹砚黛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS230121020",
+      "code": "SFS230121020",
+      "name": "国际能源组织专题工作坊",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "曹砚黛",
+        "王海霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS230212200",
+      "code": "SFS230212200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "徐小雁",
+        "梅琳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS230621020",
+      "code": "SFS230621020",
+      "name": "国际人才职场沟通",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS231621020",
+      "code": "SFS231621020",
+      "name": "英语国家国别研究",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS232321020",
+      "code": "SFS232321020",
+      "name": "商务翻译",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "赵宁"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS233431020",
+      "code": "SFS233431020",
+      "name": "中西文学经典导读",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘媛媛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS233541030",
+      "code": "SFS233541030",
+      "name": "心理语言学导论",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 19,
+      "teacherNames": [
+        "唐东",
+        "孔德亮",
+        "宋姝娴",
+        "张淑杰",
+        "杨洁",
+        "毛浩然",
+        "程璐璐",
+        "陈效新"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS233641030",
+      "code": "SFS233641030",
+      "name": "语言与认知",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 13,
+      "teacherNames": [
+        "唐东",
+        "宋姝娴",
+        "张建科",
+        "张淑杰",
+        "徐小雁",
+        "战海",
+        "杨洁",
+        "程璐璐",
+        "陈效新"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS234011020",
+      "code": "SFS234011020",
+      "name": "高级科技英语阅读",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS320612100",
+      "code": "SFS320612100",
+      "name": "俄罗斯文学史（2-1）",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "姜训禄"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS320721020",
+      "code": "SFS320721020",
+      "name": "俄语报刊选读",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "林超"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS320814101",
+      "code": "SFS320814101",
+      "name": "大学俄语（4-1）",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "林超"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS320814300",
+      "code": "SFS320814300",
+      "name": "大学俄语(4-3)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "周瑞平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS320914101",
+      "code": "SFS320914101",
+      "name": "大学日语(4-1)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "邵艳平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS320914300",
+      "code": "SFS320914300",
+      "name": "大学日语(4-3)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "陈臻渝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS321012103",
+      "code": "SFS321012103",
+      "name": "俄语视听说（2-1）",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "赵小华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS321213200",
+      "code": "SFS321213200",
+      "name": "俄语语法(3-2)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "马靓旸"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS321313100",
+      "code": "SFS321313100",
+      "name": "高级俄语(3-1)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "赵小华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS321313300",
+      "code": "SFS321313300",
+      "name": "高级俄语(3-3)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS321423300",
+      "code": "SFS321423300",
+      "name": "高级俄语口语(3-3)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS321521020",
+      "code": "SFS321521020",
+      "name": "高级俄语视听说",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS321714100",
+      "code": "SFS321714100",
+      "name": "基础俄语(4-1)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "林超",
+        "赵云"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS321714300",
+      "code": "SFS321714300",
+      "name": "基础俄语(4-3)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 11,
+      "teacherNames": [
+        "周瑞平",
+        "孟宏宏",
+        "赵婷廷"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS321921020",
+      "code": "SFS321921020",
+      "name": "跨文化交际导论",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS322211010",
+      "code": "SFS322211010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "姜训禄",
+        "孟宏宏",
+        "林超",
+        "赵云",
+        "赵婷廷"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS322421020",
+      "code": "SFS322421020",
+      "name": "语言学概论",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "赵云"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS322531010",
+      "code": "SFS322531010",
+      "name": "德国文化概况",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙锦",
+        "晏雯"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS322631010",
+      "code": "SFS322631010",
+      "name": "非英语国家电影赏析(法)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "李小华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS322731040",
+      "code": "SFS322731040",
+      "name": "基础德语",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "孙锦",
+        "晏雯"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS323031040",
+      "code": "SFS323031040",
+      "name": "基础韩语",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "吕聪颖"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS323131040",
+      "code": "SFS323131040",
+      "name": "基础日语",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "沈卫杰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS323231040",
+      "code": "SFS323231040",
+      "name": "基础西班牙语",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "赵慧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS323431010",
+      "code": "SFS323431010",
+      "name": "非英语国家电影赏析(韩)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "吕聪颖"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS323512200",
+      "code": "SFS323512200",
+      "name": "能源俄语阅读与翻译(2-2)",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "周瑞平",
+        "林超",
+        "赵小华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS323831010",
+      "code": "SFS323831010",
+      "name": "西班牙-拉美概况",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "赵慧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS324031010",
+      "code": "SFS324031010",
+      "name": "韩国社会与文化",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "吕聪颖"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS324231020",
+      "code": "SFS324231020",
+      "name": "中级法语",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "李小华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS324431020",
+      "code": "SFS324431020",
+      "name": "中级西班牙语",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "赵慧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS325312200",
+      "code": "SFS325312200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "梅琳",
+        "相欣余"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS325611010",
+      "code": "SFS325611010",
+      "name": "英语口语实践",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS329611030",
+      "code": "SFS329611030",
+      "name": "第二外语（中级）",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "冯鸿燕",
+        "沈卫杰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS329812100",
+      "code": "SFS329812100",
+      "name": "翻译理论与实践（2-1）",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "孟宏宏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS330311020",
+      "code": "SFS330311020",
+      "name": "俄语语音",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "阎美萍"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS332511020",
+      "code": "SFS332511020",
+      "name": "俄语国家文化导论",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "代霄彦",
+        "姜训禄",
+        "赵云",
+        "赵小华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS334241030",
+      "code": "SFS334241030",
+      "name": "跨文化沟通与实践",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "冯鸿燕",
+        "吕聪颖"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS334341030",
+      "code": "SFS334341030",
+      "name": "俄罗斯及中亚社会与文化",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "姜训禄",
+        "阎美萍"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS334541020",
+      "code": "SFS334541020",
+      "name": "中东能源国家社会与文化",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "毛潇琳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS334641030",
+      "code": "SFS334641030",
+      "name": "西欧社会与文化",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "孙锦",
+        "晏雯",
+        "李小华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS334741020",
+      "code": "SFS334741020",
+      "name": "西班牙-拉美文学与文化",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "李秋雨",
+        "赵慧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS334841020",
+      "code": "SFS334841020",
+      "name": "异域之镜：他者视野里的中国形象",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李小华",
+        "李秋雨",
+        "范靓"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS410111010",
+      "code": "SFS410111010",
+      "name": "科技英语阅读与写作",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "郭月琴"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS420231020",
+      "code": "SFS420231020",
+      "name": "科技英语阅读与写作",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS421131020",
+      "code": "SFS421131020",
+      "name": "英美文化概论",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "郭月琴"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SFS421711010",
+      "code": "SFS421711010",
+      "name": "学术论文写作与国际发表",
+      "collegeCode": "upc-13",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "臧嫦艳"
+      ],
+      "excludedReason": null
+    }
+  ]
+}

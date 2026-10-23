@@ -1,0 +1,934 @@
+{
+  "schemaVersion": 1,
+  "unit": "青岛软件学院、计算机科学与技术学院",
+  "collegeCode": "upc-10",
+  "courses": [
+    {
+      "key": "0711299",
+      "code": "0711299",
+      "name": "程序设计",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "王雪瑞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "99CST211111030",
+      "code": "99CST211111030",
+      "name": "数据库原理",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "王丹心",
+        "王大鹏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "99CST226711030",
+      "code": "99CST226711030",
+      "name": "操作系统",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张晓东",
+        "李华昱"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "99CST310211020",
+      "code": "99CST310211020",
+      "name": "软件工程",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "马竟锋"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "99CST310521020",
+      "code": "99CST310521020",
+      "name": "云计算技术与应用",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "曹绍华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "99CST311211020",
+      "code": "99CST311211020",
+      "name": "软件测试与质量保证",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "焦博韬"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "99CST322811010",
+      "code": "99CST322811010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "梁秋实",
+        "焦博韬",
+        "王丹心",
+        "王勃",
+        "蒋狄琼",
+        "陈淑涛",
+        "韩汶杞",
+        "马同茂"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "99CST324011031",
+      "code": "99CST324011031",
+      "name": "数据结构",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "王勃"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "99CST324111020",
+      "code": "99CST324111020",
+      "name": "计算科学导论",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "刘玉杰",
+        "曹绍华",
+        "焦博韬",
+        "王风华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "99CST325221032",
+      "code": "99CST325221032",
+      "name": "机器学习",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "钟敏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "99CST325421020",
+      "code": "99CST325421020",
+      "name": "大数据技术与应用",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "钟敏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "99CST329921025",
+      "code": "99CST329921025",
+      "name": "数据分析（Python）",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 6,
+      "teacherNames": [],
+      "excludedReason": null
+    },
+    {
+      "key": "CST110211026",
+      "code": "CST110211026",
+      "name": "程序设计（C）",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 25,
+      "teacherNames": [
+        "于广斌",
+        "杨劭辉",
+        "王雪莉",
+        "郑立垠"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST110311027",
+      "code": "CST110311027",
+      "name": "程序设计（Python）",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 62,
+      "teacherNames": [
+        "付文霞",
+        "何旭莉",
+        "刘培刚",
+        "姚洪波",
+        "孙东海",
+        "孙小辉",
+        "徐嘉丽",
+        "戴常英",
+        "李娟",
+        "李鹏",
+        "王保三",
+        "田红磊",
+        "郭加树",
+        "高绍姝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST110821020",
+      "code": "CST110821020",
+      "name": "机器学习",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李坤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST126111035",
+      "code": "CST126111035",
+      "name": "算法与程序设计",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "于广斌"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST210321020",
+      "code": "CST210321020",
+      "name": "计算方法",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "刘玉杰",
+        "岳昊",
+        "王淑栋"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST210711030",
+      "code": "CST210711030",
+      "name": "计算机网络原理",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 10,
+      "teacherNames": [
+        "张千",
+        "肖军弼"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST210811040",
+      "code": "CST210811040",
+      "name": "离散数学",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 10,
+      "teacherNames": [
+        "张红霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST210812101",
+      "code": "CST210812101",
+      "name": "离散数学（2-1）",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "张琛",
+        "郑凯",
+        "齐连永"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST211111030",
+      "code": "CST211111030",
+      "name": "数据库原理",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 15,
+      "teacherNames": [
+        "马力",
+        "龚安"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST211221026",
+      "code": "CST211221026",
+      "name": "数字图像处理",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "刘玉杰",
+        "闫阳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST211621020",
+      "code": "CST211621020",
+      "name": "物联网与边缘计算",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "宋继志"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST220411025",
+      "code": "CST220411025",
+      "name": "编译原理",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "蒋狄琼"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST220611035",
+      "code": "CST220611035",
+      "name": "程序设计(C/C++)",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "张学辉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST221411020",
+      "code": "CST221411020",
+      "name": "计算机网络与应用",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "肖军弼"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST221511020",
+      "code": "CST221511020",
+      "name": "计算科学导论",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "宋继志"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST221911010",
+      "code": "CST221911010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "于旭",
+        "宫法明",
+        "张学辉",
+        "张红霞",
+        "王大鹏",
+        "石乐义",
+        "肖军弼",
+        "蒋狄琼"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST222111021",
+      "code": "CST222111021",
+      "name": "数据结构",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "孙士明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST224121030",
+      "code": "CST224121030",
+      "name": "计算机网络原理",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "张千",
+        "肖军弼"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST226221020",
+      "code": "CST226221020",
+      "name": "计算智能",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "张琛",
+        "王大鹏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST226311030",
+      "code": "CST226311030",
+      "name": "计算机系统导论",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "黄庭培"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST226421030",
+      "code": "CST226421030",
+      "name": "面向对象程序设计(Java)",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "李晓旭"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST226521020",
+      "code": "CST226521020",
+      "name": "计算机网络课程设计",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "石乐义"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST226621030",
+      "code": "CST226621030",
+      "name": "计算机系统结构",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "宋继志"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST226711030",
+      "code": "CST226711030",
+      "name": "操作系统",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "孙士明",
+        "张晓东",
+        "张琼声",
+        "李华昱"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST227021020",
+      "code": "CST227021020",
+      "name": "传感器原理与应用",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "史永宏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST227121030",
+      "code": "CST227121030",
+      "name": "嵌入式原理与单片机",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "俞辉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST227221030",
+      "code": "CST227221030",
+      "name": "操作系统",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李华昱"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST227311035",
+      "code": "CST227311035",
+      "name": "数字逻辑与EDA技术",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘新平",
+        "史永宏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST227621020",
+      "code": "CST227621020",
+      "name": "区块链技术与应用",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "王丹心"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST233412200",
+      "code": "CST233412200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "孙运雷",
+        "宋继志",
+        "张琛",
+        "游应红",
+        "王大鹏",
+        "王芳",
+        "郑一",
+        "魏伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST310211020",
+      "code": "CST310211020",
+      "name": "软件工程",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "李克文",
+        "马竟锋"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST310521020",
+      "code": "CST310521020",
+      "name": "云计算技术与应用",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张培颖"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST310721021",
+      "code": "CST310721021",
+      "name": "计算机视觉",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "王风华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST310921020",
+      "code": "CST310921020",
+      "name": "模型驱动的软件开发",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "张国平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST311011020",
+      "code": "CST311011020",
+      "name": "人工智能导论",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "刘昕",
+        "岳昊",
+        "李传秀",
+        "王风华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST311211020",
+      "code": "CST311211020",
+      "name": "软件测试与质量保证",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 19,
+      "teacherNames": [
+        "刘秀文",
+        "周于皓",
+        "董玉坤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST311521030",
+      "code": "CST311521030",
+      "name": "软件系统分析与设计",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "张国平"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST311921020",
+      "code": "CST311921020",
+      "name": "石油工业软件基础",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "孙歧峰",
+        "张俊三",
+        "李坤",
+        "王雪瑞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST312321025",
+      "code": "CST312321025",
+      "name": "自然语言处理",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "马同茂"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST312521015",
+      "code": "CST312521015",
+      "name": "知识图谱技术及应用",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "刘昕",
+        "李传秀"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST312614300",
+      "code": "CST312614300",
+      "name": "专业工程实训(4-3)",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "周于皓",
+        "张晨浩"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST313412200",
+      "code": "CST313412200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 27,
+      "teacherNames": [
+        "刘昕",
+        "张卫山",
+        "李传秀",
+        "李晓旭",
+        "游应红",
+        "王爽",
+        "王芳",
+        "王风华",
+        "董玉坤",
+        "郑一",
+        "钟敏",
+        "魏伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST320311035",
+      "code": "CST320311035",
+      "name": "程序设计(C/C++)",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 29,
+      "teacherNames": [
+        "吴春雷",
+        "张学辉",
+        "成玲",
+        "李昕",
+        "郭磊",
+        "钟敏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST322811010",
+      "code": "CST322811010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 14,
+      "teacherNames": [
+        "刘昕",
+        "周于皓",
+        "宫法明",
+        "张卫山",
+        "李昕",
+        "焦博韬",
+        "王风华",
+        "董玉坤",
+        "邵明文",
+        "钟敏",
+        "陈程立诏",
+        "齐连永"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST324011030",
+      "code": "CST324011030",
+      "name": "数据结构",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "宫法明",
+        "庞善臣",
+        "王勃"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST324011031",
+      "code": "CST324011031",
+      "name": "数据结构",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 17,
+      "teacherNames": [
+        "孙歧峰",
+        "张俊三",
+        "王爽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST324111020",
+      "code": "CST324111020",
+      "name": "计算科学导论",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李晓旭"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST325221032",
+      "code": "CST325221032",
+      "name": "机器学习",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "李一然",
+        "王珣"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST325321010",
+      "code": "CST325321010",
+      "name": "石油与人工智能",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张晓东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST325421020",
+      "code": "CST325421020",
+      "name": "大数据技术与应用",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 10,
+      "teacherNames": [
+        "李晓旭",
+        "董玉坤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST328111035",
+      "code": "CST328111035",
+      "name": "机器学习",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "刘昕",
+        "陈程立诏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST328211025",
+      "code": "CST328211025",
+      "name": "可视化导论",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李昕"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST328821015",
+      "code": "CST328821015",
+      "name": "群智感知与社会计算",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘秀文"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST329621015",
+      "code": "CST329621015",
+      "name": "人类行为识别",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "李一然",
+        "王风华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST329921026",
+      "code": "CST329921026",
+      "name": "数据分析（Python）",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "刘培刚",
+        "王爽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST330121020",
+      "code": "CST330121020",
+      "name": "软件可靠性方法",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "卢浩"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST331411020",
+      "code": "CST331411020",
+      "name": "数据科学与工程",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张卫山"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST331521020",
+      "code": "CST331521020",
+      "name": "工业App软件开发",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "张俊三"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST331621020",
+      "code": "CST331621020",
+      "name": "高级算法设计与分析",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙歧峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST331711021",
+      "code": "CST331711021",
+      "name": "计算机视觉",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "王风华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST331812200",
+      "code": "CST331812200",
+      "name": "专业基础实训(2-2)",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 18,
+      "teacherNames": [
+        "孙歧峰",
+        "张俊三",
+        "王勃"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST332421015",
+      "code": "CST332421015",
+      "name": "生成对抗网络与图网络学习",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李传秀"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "CST920231010",
+      "code": "CST920231010",
+      "name": "计算机技术综合实验",
+      "collegeCode": "upc-10",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "闫阳"
+      ],
+      "excludedReason": null
+    }
+  ]
+}

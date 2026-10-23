@@ -1,0 +1,1684 @@
+{
+  "schemaVersion": 1,
+  "unit": "文法学院",
+  "collegeCode": "upc-14",
+  "courses": [
+    {
+      "key": "2091199",
+      "code": "2091199",
+      "name": "初级汉语口语2-1",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "丁鹏",
+        "冯德华",
+        "刘清",
+        "孙涛",
+        "王宇红",
+        "罗舒"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "2092199",
+      "code": "2092199",
+      "name": "初级汉语精读2-1",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 16,
+      "teacherNames": [
+        "刘婧婧",
+        "孙峰",
+        "张冬君",
+        "张欣",
+        "张袁月",
+        "毛思敏",
+        "王宇红",
+        "齐卫华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "2094199",
+      "code": "2094199",
+      "name": "中国概况2-1",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "栾著",
+        "郭杨"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "2095199",
+      "code": "2095199",
+      "name": "中级汉语2-1",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 10,
+      "teacherNames": [
+        "张泰",
+        "李芳琴",
+        "栾著",
+        "郭杨",
+        "马丽丽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "2095799",
+      "code": "2095799",
+      "name": "高级汉语（2-1）",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "齐卫华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "2096099",
+      "code": "2096099",
+      "name": "中国概况",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李纯泽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "2096199",
+      "code": "2096199",
+      "name": "高级汉语2-1",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "耿静颖",
+        "魏学宝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "OTH921331020",
+      "code": "OTH921331020",
+      "name": "沟通与写作",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 14,
+      "teacherNames": [
+        "丁鹏",
+        "冷凌",
+        "吴树义",
+        "吴睿佳",
+        "张志雄",
+        "张泰",
+        "李猛",
+        "杨军",
+        "杨欣",
+        "马康凤"
+      ],
+      "excludedReason": "course_code_conflict"
+    },
+    {
+      "key": "SHL110321020",
+      "code": "SHL110321020",
+      "name": "能源法律与政策",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "李康",
+        "李智卓"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL120421020",
+      "code": "SHL120421020",
+      "name": "财税法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘玉林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL120611020",
+      "code": "SHL120611020",
+      "name": "法理学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "张学亮",
+        "曹永海",
+        "李康"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL120721020",
+      "code": "SHL120721020",
+      "name": "法律经济学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "由然"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL120821021",
+      "code": "SHL120821021",
+      "name": "法律逻辑学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "吴睿佳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL120921021",
+      "code": "SHL120921021",
+      "name": "法律文献检索与写作",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李康"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL121311020",
+      "code": "SHL121311020",
+      "name": "法律职业伦理",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "任广志",
+        "秦勇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL121721020",
+      "code": "SHL121721020",
+      "name": "国际环境法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "宋亚容",
+        "杨欣"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL122011020",
+      "code": "SHL122011020",
+      "name": "国际私法",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "董金鑫"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL122211030",
+      "code": "SHL122211030",
+      "name": "行政法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王学栋"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL122411031",
+      "code": "SHL122411031",
+      "name": "合同法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "徐济宽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL122621020",
+      "code": "SHL122621020",
+      "name": "国际经济法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "杨欣"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL122721020",
+      "code": "SHL122721020",
+      "name": "婚姻家庭与继承法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李凤霞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL122811020",
+      "code": "SHL122811020",
+      "name": "经济法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘玉林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL123011030",
+      "code": "SHL123011030",
+      "name": "行政法与行政诉讼法",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "吴树义"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL123111030",
+      "code": "SHL123111030",
+      "name": "民法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘玉林"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL123112100",
+      "code": "SHL123112100",
+      "name": "民法学(2-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "田国兴"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL123211030",
+      "code": "SHL123211030",
+      "name": "民事诉讼法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "董岩"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL123211031",
+      "code": "SHL123211031",
+      "name": "民事诉讼法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "杨军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL123311010",
+      "code": "SHL123311010",
+      "name": "模拟行政法庭审判",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "董岩",
+        "谌爱华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL123821020",
+      "code": "SHL123821020",
+      "name": "侵权责任法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "秦勇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL124321021",
+      "code": "SHL124321021",
+      "name": "西方法律思想史",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "李猛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL124411020",
+      "code": "SHL124411020",
+      "name": "宪法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "李猛",
+        "谌爱华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL124511010",
+      "code": "SHL124511010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "康雷闪"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL124711030",
+      "code": "SHL124711030",
+      "name": "刑法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "任广志"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL124712100",
+      "code": "SHL124712100",
+      "name": "刑法学(2-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "冷凌"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL124811030",
+      "code": "SHL124811030",
+      "name": "刑事诉讼法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "贺小军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL125011020",
+      "code": "SHL125011020",
+      "name": "知识产权法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "秦勇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL125321020",
+      "code": "SHL125321020",
+      "name": "自然资源法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李智卓",
+        "董岩"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL125421020",
+      "code": "SHL125421020",
+      "name": "证券法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "田国兴"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL125631020",
+      "code": "SHL125631020",
+      "name": "刑法概论",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "由然"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL126131020",
+      "code": "SHL126131020",
+      "name": "法律人生",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "冷凌",
+        "李康",
+        "由然"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL126431020",
+      "code": "SHL126431020",
+      "name": "犯罪学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "任广志"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL126731020",
+      "code": "SHL126731020",
+      "name": "能源法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "宋亚容"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL127031020",
+      "code": "SHL127031020",
+      "name": "人生风险与保险保障",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "康雷闪",
+        "曹永海",
+        "马康凤"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL127311011",
+      "code": "SHL127311011",
+      "name": "模拟环资法庭审判",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "吴树义",
+        "董岩"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL127521020",
+      "code": "SHL127521020",
+      "name": "刑事侦查学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "贺小军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL127611010",
+      "code": "SHL127611010",
+      "name": "人工智能法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "吴睿佳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL128921010",
+      "code": "SHL128921010",
+      "name": "监察法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "李猛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL131812200",
+      "code": "SHL131812200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "于露",
+        "冷凌",
+        "刘正宇",
+        "康雷闪",
+        "杨倩",
+        "谌爱华",
+        "赵延升"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL132031020",
+      "code": "SHL132031020",
+      "name": "民法与人生",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 10,
+      "teacherNames": [
+        "刘玉林",
+        "张学亮",
+        "李凤霞",
+        "杨军",
+        "田国兴"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL132411031",
+      "code": "SHL132411031",
+      "name": "国际私法学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "董金鑫"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL132721020",
+      "code": "SHL132721020",
+      "name": "高级法律英语阅读",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "宋亚容",
+        "徐济宽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL220111020",
+      "code": "SHL220111020",
+      "name": "比较文学原理",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "沈壮娟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL220521020",
+      "code": "SHL220521020",
+      "name": "电影理论与实践",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "沈壮娟",
+        "葛浩然"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL220912100",
+      "code": "SHL220912100",
+      "name": "古代汉语(2-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "罗舒"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL221311020",
+      "code": "SHL221311020",
+      "name": "美学概论",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "毛思敏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL221421020",
+      "code": "SHL221421020",
+      "name": "秘书学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘婧婧",
+        "王宇红"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL221521020",
+      "code": "SHL221521020",
+      "name": "能源文化与生态文学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "沈壮娟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL221621020",
+      "code": "SHL221621020",
+      "name": "女性文学研究",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "刘婧婧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL222011021",
+      "code": "SHL222011021",
+      "name": "摄影摄像基础",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "刘积舜",
+        "王大勇",
+        "葛浩然"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL222312200",
+      "code": "SHL222312200",
+      "name": "外国文学(2-2)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "郝婷婷"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL222421020",
+      "code": "SHL222421020",
+      "name": "文本解读",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "郝婷婷"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL222511030",
+      "code": "SHL222511030",
+      "name": "文学概论",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "毛思敏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL222712100",
+      "code": "SHL222712100",
+      "name": "现代汉语(2-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "罗舒"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL223111010",
+      "code": "SHL223111010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "刘婧婧",
+        "张永宁",
+        "毛思敏",
+        "沈壮娟",
+        "魏学宝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL223311010",
+      "code": "SHL223311010",
+      "name": "新闻概论",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "门红丽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL223611040",
+      "code": "SHL223611040",
+      "name": "中国当代文学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘婧婧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL223714100",
+      "code": "SHL223714100",
+      "name": "中国古代文学(4-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张泰",
+        "王永豪"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL223714300",
+      "code": "SHL223714300",
+      "name": "中国古代文学(4-3)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张欣",
+        "马丽丽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL223921020",
+      "code": "SHL223921020",
+      "name": "中国文化史专题",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "马丽丽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL224121030",
+      "code": "SHL224121030",
+      "name": "中国文学批评专题",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "丁鹏"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL224212100",
+      "code": "SHL224212100",
+      "name": "中国现代文学(2-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "门红丽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL224531021",
+      "code": "SHL224531021",
+      "name": "先秦君子风范",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "王永豪"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL225531020",
+      "code": "SHL225531020",
+      "name": "中国文化专题选讲",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "罗舒"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL225931020",
+      "code": "SHL225931020",
+      "name": "中国现当代小说鉴赏",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘婧婧",
+        "罗蕾"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL226531020",
+      "code": "SHL226531020",
+      "name": "影视鉴赏",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "李芳琴"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL229912200",
+      "code": "SHL229912200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "于露",
+        "刘正宇",
+        "杨倩",
+        "沈壮娟",
+        "赵延升"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL230921020",
+      "code": "SHL230921020",
+      "name": "训诂学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "孙涛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL231431020",
+      "code": "SHL231431020",
+      "name": "古典文学中的历史变迁",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "张欣"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL231531020",
+      "code": "SHL231531020",
+      "name": "中国现当代文学经典品读",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "门红丽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL231731020",
+      "code": "SHL231731020",
+      "name": "中国古典诗词的生命与情感",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "魏学宝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL231821021",
+      "code": "SHL231821021",
+      "name": "基础俄语",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "林超"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL232131020",
+      "code": "SHL232131020",
+      "name": "《庄子》品读",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "张泰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL232231020",
+      "code": "SHL232231020",
+      "name": "字里字外——《说文解字》导读",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "马丽丽"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL232331020",
+      "code": "SHL232331020",
+      "name": "国宝中的中华文明",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙涛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL310412100",
+      "code": "SHL310412100",
+      "name": "和声(2-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "丁琳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL310511020",
+      "code": "SHL310511020",
+      "name": "基本乐理",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "丁琳",
+        "孙慧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL310721021",
+      "code": "SHL310721021",
+      "name": "论文写作",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘清",
+        "苏静"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL310812100",
+      "code": "SHL310812100",
+      "name": "曲式与作品分析(2-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "胥丹青"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL310921020",
+      "code": "SHL310921020",
+      "name": "世界民族音乐",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "朱裔文"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL311013100",
+      "code": "SHL311013100",
+      "name": "视唱练耳(3-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "苏静"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL311013300",
+      "code": "SHL311013300",
+      "name": "视唱练耳(3-3)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "苏静"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL311112100",
+      "code": "SHL311112100",
+      "name": "西方音乐史(2-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "盛辉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL311421020",
+      "code": "SHL311421020",
+      "name": "音乐美学",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "盛辉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL311522100",
+      "code": "SHL311522100",
+      "name": "音乐赏析(2-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "盛辉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL311611020",
+      "code": "SHL311611020",
+      "name": "音乐英语文献选读",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "胥丹青"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL311712100",
+      "code": "SHL311712100",
+      "name": "中国音乐史(2-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "刘清"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL320426100",
+      "code": "SHL320426100",
+      "name": "钢琴集体课(6-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "孙慧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL320921020",
+      "code": "SHL320921020",
+      "name": "歌唱语言训练",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘彬娜",
+        "张楠"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL321016100",
+      "code": "SHL321016100",
+      "name": "管弦乐队合奏(6-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "倪娅",
+        "张冬君",
+        "郭颂"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL321016300",
+      "code": "SHL321016300",
+      "name": "管弦乐队合奏(6-3)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "倪娅",
+        "张冬君",
+        "郭颂"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL321016500",
+      "code": "SHL321016500",
+      "name": "管弦乐队合奏(6-5)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "倪娅",
+        "张冬君",
+        "郭颂"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL321212100",
+      "code": "SHL321212100",
+      "name": "合唱指挥(2-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘彬娜",
+        "孙颖"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL321612100",
+      "code": "SHL321612100",
+      "name": "民族民间音乐(2-1)",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "刘清"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL323431015",
+      "code": "SHL323431015",
+      "name": "花儿",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "盛辉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL323531020",
+      "code": "SHL323531020",
+      "name": "手风琴演奏基础",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "朱裔文"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL323631020",
+      "code": "SHL323631020",
+      "name": "民族民间音乐欣赏",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "刘清"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL323731020",
+      "code": "SHL323731020",
+      "name": "流行音乐鉴赏",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "王睿"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL323831020",
+      "code": "SHL323831020",
+      "name": "钢琴演奏基础",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "丁琳",
+        "孙慧",
+        "石瑛",
+        "陈蓉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL324431020",
+      "code": "SHL324431020",
+      "name": "音乐鉴赏",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "丁琳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL324731020",
+      "code": "SHL324731020",
+      "name": "中国舞蹈基础",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张志雄"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL324831020",
+      "code": "SHL324831020",
+      "name": "歌剧舞剧赏析",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "尹国峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL324931020",
+      "code": "SHL324931020",
+      "name": "歌曲配弹",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "胥丹青"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL325131020",
+      "code": "SHL325131020",
+      "name": "合唱",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘彬娜",
+        "孙颖"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL325531020",
+      "code": "SHL325531020",
+      "name": "舞蹈鉴赏",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王苗苗"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL328721020",
+      "code": "SHL328721020",
+      "name": "歌剧鉴赏",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "尹国峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL331512200",
+      "code": "SHL331512200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "于露",
+        "刘正宇",
+        "尹国峰",
+        "杨倩",
+        "赵延升"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL331631020",
+      "code": "SHL331631020",
+      "name": "中国舞感知与体验",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "张志雄"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL331731020",
+      "code": "SHL331731020",
+      "name": "歌唱与舞台表演",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "尹国峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL331811020",
+      "code": "SHL331811020",
+      "name": "教育概论",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "朱裔文"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL331921020",
+      "code": "SHL331921020",
+      "name": "教育概论",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "朱裔文"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL410411020",
+      "code": "SHL410411020",
+      "name": "新媒体艺术概论",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "菅兴祝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL420621020",
+      "code": "SHL420621020",
+      "name": "交互设计",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "孙峰",
+        "金涛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL420721020",
+      "code": "SHL420721020",
+      "name": "空间造型",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "菅兴祝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL420811020",
+      "code": "SHL420811020",
+      "name": "立体构成",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "冯德华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL421211999",
+      "code": "SHL421211999",
+      "name": "色彩（2-1）",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "孙峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL422131020",
+      "code": "SHL422131020",
+      "name": "书道与篆刻",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王成宝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL422221020",
+      "code": "SHL422221020",
+      "name": "新媒体艺术概论",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "菅兴祝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL422312999",
+      "code": "SHL422312999",
+      "name": "素描（2-1）",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "付寒娇",
+        "孙峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL422431010",
+      "code": "SHL422431010",
+      "name": "美术鉴赏",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "孙峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL422531020",
+      "code": "SHL422531020",
+      "name": "广告设计",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "冯德华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL422731020",
+      "code": "SHL422731020",
+      "name": "大学美术",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "付寒娇",
+        "孙峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL422831020",
+      "code": "SHL422831020",
+      "name": "设计艺术欣赏",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "冯德华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL422931020",
+      "code": "SHL422931020",
+      "name": "西方美术欣赏",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "宋寒儿"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL423011020",
+      "code": "SHL423011020",
+      "name": "形态构成",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "冯德华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL423131020",
+      "code": "SHL423131020",
+      "name": "国画",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王成宝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL423231025",
+      "code": "SHL423231025",
+      "name": "艺术与审美",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 26,
+      "teacherNames": [
+        "冯德华",
+        "孙峰",
+        "宋寒儿"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL423331020",
+      "code": "SHL423331020",
+      "name": "中国美术欣赏",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "宋寒儿"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL423531020",
+      "code": "SHL423531020",
+      "name": "现代装饰绘画",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "付寒娇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL423612100",
+      "code": "SHL423612100",
+      "name": "色彩（2-1）",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "孙峰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL432012100",
+      "code": "SHL432012100",
+      "name": "素描（2-1）",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "菅兴祝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL432231020",
+      "code": "SHL432231020",
+      "name": "中国非遗艺术工作坊",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "付寒娇",
+        "孙峰",
+        "宋寒儿"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL432331020",
+      "code": "SHL432331020",
+      "name": "书画鉴赏与实践",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "王成宝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL432431020",
+      "code": "SHL432431020",
+      "name": "中西美术时空对话",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "付寒娇",
+        "宋寒儿",
+        "菅兴祝"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SHL432541020",
+      "code": "SHL432541020",
+      "name": "AI艺术实验室",
+      "collegeCode": "upc-14",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "菅兴祝"
+      ],
+      "excludedReason": null
+    }
+  ]
+}

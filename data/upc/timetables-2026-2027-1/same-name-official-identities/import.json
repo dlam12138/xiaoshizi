@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-same-name-official-identities-2026-2027-1-20261023",
+  "source": "official profile alias dedup + true same-name course assignments; only explicitly assigned courses",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "cj-c19285-a370914",
+      "name": "孙峰",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC310411040",
+          "name": "工程力学",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "cj-c19287-a370951",
+      "name": "王鑫",
+      "title": "教授",
+      "collegeCode": "upc-05",
+      "campus": null,
+      "courses": [
+        {
+          "code": "PLC520321011",
+          "name": "场地设计",
+          "collegeCode": "upc-05"
+        }
+      ]
+    },
+    {
+      "sourceId": "computer-c20895-a408817",
+      "name": "李克文",
+      "title": "教授",
+      "collegeCode": "upc-10",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CST310211020",
+          "name": "软件工程",
+          "collegeCode": "upc-10"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151996",
+      "name": "张凯",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO221911030",
+          "name": "地震资料数字处理方法",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15052-a324969",
+      "name": "林日亿",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE211411010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ne-c15053-a345743",
+      "name": "徐海亮",
+      "title": "教授",
+      "collegeCode": "upc-07",
+      "campus": null,
+      "courses": [
+        {
+          "code": "CNE323321020",
+          "name": "微电网分析与控制",
+          "collegeCode": "upc-07"
+        },
+        {
+          "code": "CNE323611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-07"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15434-a448604",
+      "name": "何亚文",
+      "title": "副教授",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI111611010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15435-a225012",
+      "name": "李莉",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI322811030",
+          "name": "数字信号处理",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-c15436-a224962",
+      "name": "李莉",
+      "title": "讲师",
+      "collegeCode": "upc-08",
+      "campus": null,
+      "courses": [
+        {
+          "code": "OSI225711020",
+          "name": "离散数学",
+          "collegeCode": "upc-08"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6755-a461574",
+      "name": "宋允全",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211111030",
+          "name": "概率论与数理统计",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC322611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6909-a96262",
+      "name": "王艳",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC251012100",
+          "name": "数学分析(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC261211055",
+          "name": "数学分析(A)I",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6933-a96030",
+      "name": "王艳",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211021020",
+          "name": "概率论与数理统计",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC211111020",
+          "name": "概率论与数理统计",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC250111031",
+          "name": "常微分方程",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC251511010",
+          "name": "数学实验",
+          "collegeCode": "upc-12"
+        }
+      ]
+    }
+  ]
+}

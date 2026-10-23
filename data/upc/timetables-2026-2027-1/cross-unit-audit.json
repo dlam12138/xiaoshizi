@@ -1,0 +1,1805 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-23",
+  "method": "per source-unit official list; unique global name alone rejected",
+  "oldTotals": {
+    "teachers": 1275,
+    "courses": 1190,
+    "offerings": 2446
+  },
+  "newTotals": {
+    "sourceUnitEntries": 1553,
+    "uniqueCandidateNames": 1510,
+    "verifiedPersons": 1381,
+    "verifiedNames": 1355,
+    "officialVerifiedPersons": 1381,
+    "officialVerifiedNames": 1355,
+    "timetableUnitPersons": 173,
+    "timetableUnitNames": 173,
+    "timetableUnitSourceEntries": 173,
+    "totalTeacherIdentities": 1554,
+    "totalTeacherNames": 1510,
+    "acceptedSourceUnitMatches": 1554,
+    "unresolvedSourceEntries": 0,
+    "unresolvedUniqueNames": 0,
+    "nameOverlapVerifiedUnresolved": 0,
+    "nameOverlapTimetableUnresolved": 0,
+    "ambiguousSameUnitEntries": 0,
+    "ambiguousSameUnitNames": 0,
+    "candidateNameUnion": 1510,
+    "crossUnitNameOnlyRejected": 15,
+    "centerEvidenceOnlyUnresolved": 4,
+    "profileAliasGroups": 5,
+    "profileAliasPages": 7,
+    "distinctSameNameGroups": 5,
+    "unassignedCourseRelations": 3
+  },
+  "oldMultiUnitProfiles": 16,
+  "acceptedCrossListedProfiles": [
+    {
+      "name": "王文东",
+      "sourceId": "geori-c20541-a397076",
+      "units": [
+        "石油工程学院"
+      ],
+      "reasons": [
+        "official_profile_cross_listed_same_identity"
+      ],
+      "evidence": [
+        {
+          "profileUrl": "https://pe.upc.edu.cn/2018/1220/c20541a397076/page.htm",
+          "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+          "listedUnits": [
+            "地球科学与技术学院",
+            "石油工程学院"
+          ],
+          "sourceId": "geori-c20541-a397076"
+        }
+      ]
+    },
+    {
+      "name": "王森",
+      "sourceId": "geori-c20541-a397086",
+      "units": [
+        "石油工程学院"
+      ],
+      "reasons": [
+        "official_profile_cross_listed_same_identity"
+      ],
+      "evidence": [
+        {
+          "profileUrl": "https://pe.upc.edu.cn/2018/0922/c20541a397086/page.htm",
+          "listUrl": "http://geori.upc.edu.cn/10927/list.htm",
+          "listedUnits": [
+            "地球科学与技术学院",
+            "石油工程学院"
+          ],
+          "sourceId": "geori-c20541-a397086"
+        }
+      ]
+    }
+  ],
+  "formerUniqueGlobalOnlyNames": [
+    "赵学进",
+    "金涛",
+    "马晓晨",
+    "邢伟",
+    "张军",
+    "张立红",
+    "张欣",
+    "刘积舜"
+  ],
+  "rejectedEntries": [
+    {
+      "sourceUnit": "石油工程学院",
+      "sourceUnitName": "石油工程学院",
+      "name": "王静",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "sci-c6862-a96149",
+          "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6862a96149/page.htm",
+          "unit": "理学院",
+          "listedUnits": [
+            "理学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "SPE113412200"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-02-001"
+    },
+    {
+      "sourceUnit": "机电工程学院",
+      "sourceUnitName": "机电工程学院",
+      "name": "冯德华",
+      "reason": "multiple_global_official_profiles",
+      "candidateProfiles": [
+        {
+          "sourceId": "cj-c19287-a453351",
+          "profileUrl": "http://cj.upc.edu.cn/2025/0325/c19287a453351/page.htm",
+          "unit": "储运与建筑工程学院",
+          "listedUnits": [
+            "储运与建筑工程学院"
+          ]
+        },
+        {
+          "sourceId": "shl-c16888-a310524",
+          "profileUrl": "http://shl.upc.edu.cn/2020/0724/c16888a310524/page.htm",
+          "unit": "文法学院",
+          "listedUnits": [
+            "文法学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "MEE330461030"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-04-001"
+    },
+    {
+      "sourceUnit": "机电工程学院",
+      "sourceUnitName": "机电工程学院",
+      "name": "戴昀",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "cj-c19292-a371002",
+          "profileUrl": "http://cj.upc.edu.cn/2019/0108/c19292a371002/page.htm",
+          "unit": "储运与建筑工程学院",
+          "listedUnits": [
+            "储运与建筑工程学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "MEE329231021"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-04-002"
+    },
+    {
+      "sourceUnit": "机电工程学院",
+      "sourceUnitName": "机电工程学院",
+      "name": "王灵芝",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "cj-c19292-a370958",
+          "profileUrl": "http://cj.upc.edu.cn/2018/0103/c19292a370958/page.htm",
+          "unit": "储运与建筑工程学院",
+          "listedUnits": [
+            "储运与建筑工程学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "MEE329231021"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-04-003"
+    },
+    {
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "name": "张军",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "sci-c6755-a422272",
+          "profileUrl": "https://sci.upc.edu.cn/_s122/2024/0209/c6755a422272/page.psp",
+          "unit": "理学院",
+          "listedUnits": [
+            "理学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "MAT122031015",
+        "MAT321611030",
+        "MAT521611010"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-06-001"
+    },
+    {
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "name": "张立红",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "sci-c6975-a96340",
+          "profileUrl": "http://sci.upc.edu.cn/2016/0926/c6975a96340/page.htm",
+          "unit": "理学院",
+          "listedUnits": [
+            "理学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "OTH921331020"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-06-002"
+    },
+    {
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "name": "李振",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "sports-c7644-a482363",
+          "profileUrl": "http://sports.upc.edu.cn/2026/0109/c7644a482363/page.htm",
+          "unit": "体育教学部",
+          "listedUnits": [
+            "体育教学部"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "MAT122031015",
+        "MAT321611030",
+        "MAT326121020"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-06-003"
+    },
+    {
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "name": "邢伟",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "sem-cv-0029068e-20a4-4449-8b35-e3734654c524",
+          "profileUrl": "https://sem.upc.edu.cn/_upload/article/files/17/08/f3c7732245d9bc25800a97ba209d/0029068e-20a4-4449-8b35-e3734654c524.pdf",
+          "unit": "经济管理学院",
+          "listedUnits": [
+            "经济管理学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "MAT410111041"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-06-004"
+    },
+    {
+      "sourceUnit": "材料科学与工程学院",
+      "sourceUnitName": "材料科学与工程学院",
+      "name": "马晓晨",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "cj-c19288-a487596",
+          "profileUrl": "http://cj.upc.edu.cn/2026/0413/c19288a487596/page.htm",
+          "unit": "储运与建筑工程学院",
+          "listedUnits": [
+            "储运与建筑工程学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "MAT529012200"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-06-005"
+    },
+    {
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "name": "周卫东",
+      "reason": "multiple_global_official_profiles",
+      "candidateProfiles": [
+        {
+          "sourceId": "ocean-c15435-a225008",
+          "profileUrl": "http://ocean.upc.edu.cn/2019/1110/c15435a225008/page.htm",
+          "unit": "海洋与空间信息学院",
+          "listedUnits": [
+            "海洋与空间信息学院"
+          ]
+        },
+        {
+          "sourceId": "pe-c20539-a397021",
+          "profileUrl": "https://pe.upc.edu.cn/2021/0106/c20539a397021/page.htm",
+          "unit": "石油工程学院",
+          "listedUnits": [
+            "石油工程学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "CTL210111030"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-09-001"
+    },
+    {
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "name": "张欣",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "shl-c16886-a301937",
+          "profileUrl": "http://shl.upc.edu.cn/2020/0601/c16886a301937/page.htm",
+          "unit": "文法学院",
+          "listedUnits": [
+            "文法学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "CTL110621020",
+        "CTL132741020"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-09-002"
+    },
+    {
+      "sourceUnit": "控制科学与工程学院",
+      "sourceUnitName": "控制科学与工程学院",
+      "name": "赵学进",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "cmee-c21433-a424321",
+          "profileUrl": "https://cmee.upc.edu.cn/2024/0305/c21433a424321/page.htm",
+          "unit": "机电工程学院",
+          "listedUnits": [
+            "机电工程学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "CTL132741020"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-09-003"
+    },
+    {
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "name": "刘积舜",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "szjyb-c203-a383337",
+          "profileUrl": "https://szjyb.upc.edu.cn/2022/0905/c203a383337/page.htm",
+          "unit": "马克思主义学院",
+          "listedUnits": [
+            "马克思主义学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "SHL222011021"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-14-001"
+    },
+    {
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "name": "林超",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "sfs-c16909-a309496",
+          "profileUrl": "https://sfs.upc.edu.cn/2020/0710/c16909a309496/page.htm",
+          "unit": "外国语学院",
+          "listedUnits": [
+            "外国语学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "SHL231821021"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-14-002"
+    },
+    {
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "name": "王宇红",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "auto-c3976-a76878",
+          "profileUrl": "http://auto.upc.edu.cn/2015/0707/c3976a76878/page.htm",
+          "unit": "控制科学与工程学院",
+          "listedUnits": [
+            "控制科学与工程学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "2091199",
+        "2092199",
+        "SHL221421020"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-14-003"
+    },
+    {
+      "sourceUnit": "文法学院",
+      "sourceUnitName": "文法学院",
+      "name": "金涛",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "cmee-c21434-a424781",
+          "profileUrl": "https://cmee.upc.edu.cn/2024/0308/c21434a424781/page.htm",
+          "unit": "机电工程学院",
+          "listedUnits": [
+            "机电工程学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "SHL420621020"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-14-004"
+    },
+    {
+      "sourceUnit": "马克思主义学院",
+      "sourceUnitName": "马克思主义学院",
+      "name": "王建军",
+      "reason": "cross_unit_name_only_not_accepted",
+      "candidateProfiles": [
+        {
+          "sourceId": "ne-c15054-a331949",
+          "profileUrl": "http://ne.upc.edu.cn/2021/0406/c15054a331949/page.htm",
+          "unit": "石大山能新能源学院",
+          "listedUnits": [
+            "石大山能新能源学院"
+          ]
+        }
+      ],
+      "courseCodes": [
+        "MRX324811031"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-15-001"
+    },
+    {
+      "sourceUnit": "石油工业训练中心",
+      "sourceUnitName": "石油工业训练中心",
+      "name": "李卓军",
+      "reason": "official_center_page_mentions_name_but_no_stable_individual_source_id",
+      "candidateProfiles": [
+        {
+          "sourceId": null,
+          "profileUrl": "https://sygx.upc.edu.cn/2025/1203/c19224a480781/page.htm",
+          "stableIndividualId": false,
+          "unit": "石油工业训练中心"
+        }
+      ],
+      "courseCodes": [
+        "TRN023011030"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-17-001"
+    },
+    {
+      "sourceUnit": "石油工业训练中心",
+      "sourceUnitName": "石油工业训练中心",
+      "name": "苑得鑫",
+      "reason": "official_center_page_mentions_name_but_no_stable_individual_source_id",
+      "candidateProfiles": [
+        {
+          "sourceId": null,
+          "profileUrl": "https://sygx.upc.edu.cn/2025/1203/c19224a480781/page.htm",
+          "stableIndividualId": false,
+          "unit": "石油工业训练中心"
+        }
+      ],
+      "courseCodes": [
+        "TRN023011030"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-17-002"
+    },
+    {
+      "sourceUnit": "石油工业训练中心",
+      "sourceUnitName": "石油工业训练中心",
+      "name": "荆正军",
+      "reason": "official_center_page_mentions_name_but_no_stable_individual_source_id",
+      "candidateProfiles": [
+        {
+          "sourceId": null,
+          "profileUrl": "https://sygx.upc.edu.cn/2025/1203/c19224a480781/page.htm",
+          "stableIndividualId": false,
+          "unit": "石油工业训练中心"
+        }
+      ],
+      "courseCodes": [
+        "TRN022641020",
+        "TRN022911040",
+        "TRN023011030",
+        "TRN023131020"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-17-003"
+    },
+    {
+      "sourceUnit": "石油工业训练中心",
+      "sourceUnitName": "石油工业训练中心",
+      "name": "赵玉明",
+      "reason": "official_center_page_mentions_name_but_no_stable_individual_source_id",
+      "candidateProfiles": [
+        {
+          "sourceId": null,
+          "profileUrl": "https://sygx.upc.edu.cn/2025/1203/c19224a480781/page.htm",
+          "stableIndividualId": false,
+          "unit": "石油工业训练中心"
+        }
+      ],
+      "courseCodes": [
+        "TRN020241040",
+        "TRN022911040",
+        "TRN023011030"
+      ],
+      "resolution": "timetable_unit_identity",
+      "sourceId": "tt-upc-17-004"
+    }
+  ],
+  "summary": {
+    "rejectedSourceUnitEntries": 21,
+    "previouslyImportedRejectedEntries": 13,
+    "previouslyImportedRelationsToRemove": 20,
+    "uniqueOldCourseCodesAffected": [
+      "2091199",
+      "2092199",
+      "CTL110621020",
+      "CTL132741020",
+      "MAT122031015",
+      "MAT321611030",
+      "MAT326121020",
+      "MAT410111041",
+      "MAT521611010",
+      "MAT529012200",
+      "MEE329231021",
+      "MRX324811031",
+      "SHL221421020",
+      "SHL222011021",
+      "SHL420621020",
+      "SPE113412200"
+    ],
+    "alreadyUnresolvedEntries": 18,
+    "lostPersonsWithoutAcceptedUnit": [
+      {
+        "name": "张军",
+        "sourceId": "sci-c6755-a422272"
+      },
+      {
+        "name": "马晓晨",
+        "sourceId": "cj-c19288-a487596"
+      }
+    ],
+    "lostPersonCount": 2,
+    "timetableConvertedEntries": 173,
+    "remainingUnresolvedEntries": 0,
+    "ambiguousSameUnitEntries": 0,
+    "timetableUnitPersons": 173,
+    "timetableConvertedFromRejectedEntries": 21,
+    "sameNameAliasGroups": 5,
+    "sameNameDistinctGroups": 5,
+    "unassignedCourseRelations": 3
+  },
+  "correctionApplied": {
+    "removedOfferings": 20,
+    "removedOrphanCourses": 3,
+    "removedTeachersWithoutAcceptedUnit": 2,
+    "removedRelations": 20,
+    "reviewsTouched": 0,
+    "backup": "temp/supabase-local/backups/upc-before-cross-unit-correction-2026-10-23T05-07-35Z.dump"
+  },
+  "centerAddition": {
+    "teachers": 8,
+    "courses": 6,
+    "offerings": 15,
+    "source": "https://sygx.upc.edu.cn/zzjg/list.htm",
+    "unitCode": "upc-17",
+    "note": "学校直属教学单位，学院级建制；不是 16 个教学院部之一"
+  },
+  "foreignLanguage": {
+    "rosterNames": 110,
+    "candidateNames": 100,
+    "profilePagesVerified": 89,
+    "unresolved": 11,
+    "rosterOnly": 9,
+    "noOfficialProfile": 2,
+    "source": "https://sfs.upc.edu.cn/1546/list.htm",
+    "xlsSha256": "e57b68a407c2fef24de064a6fa9be25eb420733b5d3bab9abef0fe03248e4cc2"
+  },
+  "finalDatasetTotals": {
+    "teachers": 1555,
+    "courses": 1342,
+    "offerings": 2946,
+    "officialProfileTeachers": 1382,
+    "timetableUnitTeachers": 173
+  },
+  "candidateStats": {
+    "sourceUnitEntries": 1553,
+    "uniqueCandidateNames": 1510,
+    "verifiedPersons": 1381,
+    "verifiedNames": 1355,
+    "officialVerifiedPersons": 1381,
+    "officialVerifiedNames": 1355,
+    "timetableUnitPersons": 173,
+    "timetableUnitNames": 173,
+    "timetableUnitSourceEntries": 173,
+    "totalTeacherIdentities": 1554,
+    "totalTeacherNames": 1510,
+    "acceptedSourceUnitMatches": 1554,
+    "unresolvedSourceEntries": 0,
+    "unresolvedUniqueNames": 0,
+    "nameOverlapVerifiedUnresolved": 0,
+    "nameOverlapTimetableUnresolved": 0,
+    "ambiguousSameUnitEntries": 0,
+    "ambiguousSameUnitNames": 0,
+    "candidateNameUnion": 1510,
+    "crossUnitNameOnlyRejected": 15,
+    "centerEvidenceOnlyUnresolved": 4,
+    "profileAliasGroups": 5,
+    "profileAliasPages": 7,
+    "distinctSameNameGroups": 5,
+    "unassignedCourseRelations": 3
+  },
+  "newDatasetTotals": {
+    "teachers": 1419,
+    "courses": 1213,
+    "offerings": 2675
+  },
+  "identityStats": {
+    "officialProfilePersons": 1382,
+    "timetableUnitPersons": 173,
+    "ambiguousSameUnitEntries": 0,
+    "unresolvedOtherEntries": 0,
+    "totalTeacherIdentities": 1555,
+    "profileAliasGroups": 5,
+    "profileAliasPages": 7,
+    "distinctSameNameGroups": 5,
+    "unassignedCourseRelations": 0,
+    "inferredCourseRelations": 3
+  },
+  "timetableIdentities": {
+    "teachers": 173,
+    "courses": 195,
+    "offerings": 294,
+    "newCourses": 41,
+    "namespace": "tt-<collegeCode>-<sequence>",
+    "convertedEntries": 173,
+    "ambiguousRemaining": 0,
+    "sourceFile": "timetable-identities/import.json"
+  },
+  "timetableUnitConversions": [
+    {
+      "name": "徐明权",
+      "sourceId": "tt-upc-01-001",
+      "sourceUnit": "地球科学与技术学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "栗磊",
+      "sourceId": "tt-upc-01-002",
+      "sourceUnit": "地球科学与技术学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王力禾",
+      "sourceId": "tt-upc-01-003",
+      "sourceUnit": "地球科学与技术学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "闫月锋",
+      "sourceId": "tt-upc-01-004",
+      "sourceUnit": "地球科学与技术学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "魏周拓",
+      "sourceId": "tt-upc-01-005",
+      "sourceUnit": "地球科学与技术学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "周晓东",
+      "sourceId": "tt-upc-02-002",
+      "sourceUnit": "石油工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "张浩",
+      "sourceId": "tt-upc-02-003",
+      "sourceUnit": "石油工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "杨琪硕",
+      "sourceId": "tt-upc-02-004",
+      "sourceUnit": "石油工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王静",
+      "sourceId": "tt-upc-02-001",
+      "sourceUnit": "石油工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "刘相",
+      "sourceId": "tt-upc-03-003",
+      "sourceUnit": "化学化工学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "史德青",
+      "sourceId": "tt-upc-03-004",
+      "sourceUnit": "化学化工学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "孙道峰",
+      "sourceId": "tt-upc-03-001",
+      "sourceUnit": "化学化工学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "张卫东",
+      "sourceId": "tt-upc-03-002",
+      "sourceUnit": "化学化工学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "徐永强",
+      "sourceId": "tt-upc-03-005",
+      "sourceUnit": "化学化工学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "赵会吉",
+      "sourceId": "tt-upc-03-006",
+      "sourceUnit": "化学化工学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "路帅",
+      "sourceId": "tt-upc-03-007",
+      "sourceUnit": "化学化工学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "何冬青",
+      "sourceId": "tt-upc-04-004",
+      "sourceUnit": "机电工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "冯德华",
+      "sourceId": "tt-upc-04-001",
+      "sourceUnit": "机电工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "宋金",
+      "sourceId": "tt-upc-04-005",
+      "sourceUnit": "机电工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "庄晶云",
+      "sourceId": "tt-upc-04-006",
+      "sourceUnit": "机电工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "戴昀",
+      "sourceId": "tt-upc-04-002",
+      "sourceUnit": "机电工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王灵芝",
+      "sourceId": "tt-upc-04-003",
+      "sourceUnit": "机电工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "郑超",
+      "sourceId": "tt-upc-04-007",
+      "sourceUnit": "机电工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李洪波",
+      "sourceId": "tt-upc-05-001",
+      "sourceUnit": "储运与建筑工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王凌旭",
+      "sourceId": "tt-upc-05-002",
+      "sourceUnit": "储运与建筑工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "付禹",
+      "sourceId": "tt-upc-06-006",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "任浩",
+      "sourceId": "tt-upc-06-007",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "冯涛",
+      "sourceId": "tt-upc-06-008",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "刘林",
+      "sourceId": "tt-upc-06-009",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "周炎",
+      "sourceId": "tt-upc-06-010",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "唐晓",
+      "sourceId": "tt-upc-06-011",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "孙冲",
+      "sourceId": "tt-upc-06-012",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "张军",
+      "sourceId": "tt-upc-06-001",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "张立红",
+      "sourceId": "tt-upc-06-002",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "张腾",
+      "sourceId": "tt-upc-06-013",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "张苏",
+      "sourceId": "tt-upc-06-014",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "徐奔",
+      "sourceId": "tt-upc-06-015",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "徐静",
+      "sourceId": "tt-upc-06-016",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "曹宁",
+      "sourceId": "tt-upc-06-017",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李振",
+      "sourceId": "tt-upc-06-003",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李焰",
+      "sourceId": "tt-upc-06-018",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "熊伟",
+      "sourceId": "tt-upc-06-019",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王晓",
+      "sourceId": "tt-upc-06-020",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王林",
+      "sourceId": "tt-upc-06-021",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王璟岳",
+      "sourceId": "tt-upc-06-022",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王航",
+      "sourceId": "tt-upc-06-023",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "祝磊",
+      "sourceId": "tt-upc-06-024",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "贺冰",
+      "sourceId": "tt-upc-06-025",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "赵文",
+      "sourceId": "tt-upc-06-026",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "赵明",
+      "sourceId": "tt-upc-06-027",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "邢伟",
+      "sourceId": "tt-upc-06-004",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "郭孟",
+      "sourceId": "tt-upc-06-028",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "鞠虹",
+      "sourceId": "tt-upc-06-029",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "韩彬",
+      "sourceId": "tt-upc-06-030",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "韩涛",
+      "sourceId": "tt-upc-06-031",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "马晓晨",
+      "sourceId": "tt-upc-06-005",
+      "sourceUnit": "材料科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王阳",
+      "sourceId": "tt-upc-07-001",
+      "sourceUnit": "石大山能新能源学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "秦政",
+      "sourceId": "tt-upc-07-002",
+      "sourceUnit": "石大山能新能源学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "薛松",
+      "sourceId": "tt-upc-07-003",
+      "sourceUnit": "石大山能新能源学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "郭晓静",
+      "sourceId": "tt-upc-07-004",
+      "sourceUnit": "石大山能新能源学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "骆浩冉",
+      "sourceId": "tt-upc-07-005",
+      "sourceUnit": "石大山能新能源学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "周飞",
+      "sourceId": "tt-upc-08-001",
+      "sourceUnit": "海洋与空间信息学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "杨华",
+      "sourceId": "tt-upc-08-002",
+      "sourceUnit": "海洋与空间信息学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "刘希臣",
+      "sourceId": "tt-upc-09-004",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "吴荔清",
+      "sourceId": "tt-upc-09-005",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "周卫东",
+      "sourceId": "tt-upc-09-001",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "廖明燕",
+      "sourceId": "tt-upc-09-006",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "张欣",
+      "sourceId": "tt-upc-09-002",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李哲",
+      "sourceId": "tt-upc-09-007",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李霞",
+      "sourceId": "tt-upc-09-008",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "沈学锋",
+      "sourceId": "tt-upc-09-009",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "涂玲",
+      "sourceId": "tt-upc-09-010",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "潘浩",
+      "sourceId": "tt-upc-09-011",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王心刚",
+      "sourceId": "tt-upc-09-012",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王树彬",
+      "sourceId": "tt-upc-09-013",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "蒋仁福",
+      "sourceId": "tt-upc-09-014",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "薄迎春",
+      "sourceId": "tt-upc-09-015",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "贺利",
+      "sourceId": "tt-upc-09-016",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "赵学进",
+      "sourceId": "tt-upc-09-003",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "赵小明",
+      "sourceId": "tt-upc-09-017",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "郭曙光",
+      "sourceId": "tt-upc-09-018",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "陈璨",
+      "sourceId": "tt-upc-09-019",
+      "sourceUnit": "控制科学与工程学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "姚洪波",
+      "sourceId": "tt-upc-10-001",
+      "sourceUnit": "青岛软件学院计算机科学与技术学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李一然",
+      "sourceId": "tt-upc-10-002",
+      "sourceUnit": "青岛软件学院计算机科学与技术学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "游应红",
+      "sourceId": "tt-upc-10-003",
+      "sourceUnit": "青岛软件学院计算机科学与技术学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "郑一",
+      "sourceId": "tt-upc-10-004",
+      "sourceUnit": "青岛软件学院计算机科学与技术学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "郭加树",
+      "sourceId": "tt-upc-10-005",
+      "sourceUnit": "青岛软件学院计算机科学与技术学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "马竟锋",
+      "sourceId": "tt-upc-10-006",
+      "sourceUnit": "青岛软件学院计算机科学与技术学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "魏伟",
+      "sourceId": "tt-upc-10-007",
+      "sourceUnit": "青岛软件学院计算机科学与技术学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "杨坤",
+      "sourceId": "tt-upc-11-001",
+      "sourceUnit": "经济管理学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "刘珊",
+      "sourceId": "tt-upc-12-001",
+      "sourceUnit": "理学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "孙清滢",
+      "sourceId": "tt-upc-12-002",
+      "sourceUnit": "理学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "宁文杰",
+      "sourceId": "tt-upc-12-003",
+      "sourceUnit": "理学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "牛其华",
+      "sourceId": "tt-upc-12-004",
+      "sourceUnit": "理学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "田方",
+      "sourceId": "tt-upc-12-005",
+      "sourceUnit": "理学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "田璐璐",
+      "sourceId": "tt-upc-12-006",
+      "sourceUnit": "理学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "刘晓辉",
+      "sourceId": "tt-upc-13-001",
+      "sourceUnit": "外国语学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "叶艳",
+      "sourceId": "tt-upc-13-002",
+      "sourceUnit": "外国语学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "张亮",
+      "sourceId": "tt-upc-13-003",
+      "sourceUnit": "外国语学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "徐燕燕",
+      "sourceId": "tt-upc-13-004",
+      "sourceUnit": "外国语学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "朱荫成",
+      "sourceId": "tt-upc-13-005",
+      "sourceUnit": "外国语学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李晓丽",
+      "sourceId": "tt-upc-13-006",
+      "sourceUnit": "外国语学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李晓春",
+      "sourceId": "tt-upc-13-007",
+      "sourceUnit": "外国语学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "杨静文",
+      "sourceId": "tt-upc-13-008",
+      "sourceUnit": "外国语学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "梅琳",
+      "sourceId": "tt-upc-13-009",
+      "sourceUnit": "外国语学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "相欣余",
+      "sourceId": "tt-upc-13-010",
+      "sourceUnit": "外国语学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "马红艳",
+      "sourceId": "tt-upc-13-011",
+      "sourceUnit": "外国语学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "于露",
+      "sourceId": "tt-upc-14-005",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "任广志",
+      "sourceId": "tt-upc-14-006",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "倪娅",
+      "sourceId": "tt-upc-14-007",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "刘正宇",
+      "sourceId": "tt-upc-14-008",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "刘积舜",
+      "sourceId": "tt-upc-14-001",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "吴树义",
+      "sourceId": "tt-upc-14-009",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "孙涛",
+      "sourceId": "tt-upc-14-010",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "孙颖",
+      "sourceId": "tt-upc-14-011",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "宋亚容",
+      "sourceId": "tt-upc-14-012",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "张永宁",
+      "sourceId": "tt-upc-14-013",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "张泰",
+      "sourceId": "tt-upc-14-014",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "徐济宽",
+      "sourceId": "tt-upc-14-015",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "曹永海",
+      "sourceId": "tt-upc-14-016",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李康",
+      "sourceId": "tt-upc-14-017",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李猛",
+      "sourceId": "tt-upc-14-018",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李纯泽",
+      "sourceId": "tt-upc-14-019",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "杨倩",
+      "sourceId": "tt-upc-14-020",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "杨军",
+      "sourceId": "tt-upc-14-021",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "杨欣",
+      "sourceId": "tt-upc-14-022",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "林超",
+      "sourceId": "tt-upc-14-002",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "栾著",
+      "sourceId": "tt-upc-14-023",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王大勇",
+      "sourceId": "tt-upc-14-024",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王宇红",
+      "sourceId": "tt-upc-14-003",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "由然",
+      "sourceId": "tt-upc-14-025",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "胥丹青",
+      "sourceId": "tt-upc-14-026",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "葛浩然",
+      "sourceId": "tt-upc-14-027",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "赵延升",
+      "sourceId": "tt-upc-14-028",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "郭杨",
+      "sourceId": "tt-upc-14-029",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "郭颂",
+      "sourceId": "tt-upc-14-030",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "金涛",
+      "sourceId": "tt-upc-14-004",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "马康凤",
+      "sourceId": "tt-upc-14-031",
+      "sourceUnit": "文法学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "周辉",
+      "sourceId": "tt-upc-15-002",
+      "sourceUnit": "马克思主义学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李令功",
+      "sourceId": "tt-upc-15-003",
+      "sourceUnit": "马克思主义学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李桂臣",
+      "sourceId": "tt-upc-15-004",
+      "sourceUnit": "马克思主义学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "杨超",
+      "sourceId": "tt-upc-15-005",
+      "sourceUnit": "马克思主义学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王建军",
+      "sourceId": "tt-upc-15-001",
+      "sourceUnit": "马克思主义学院",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "于晓红",
+      "sourceId": "tt-upc-16-002",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "史海鹏",
+      "sourceId": "tt-upc-16-003",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "吕娜",
+      "sourceId": "tt-upc-16-004",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "周吉兰",
+      "sourceId": "tt-upc-16-005",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "姜庆林",
+      "sourceId": "tt-upc-16-006",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "宋清",
+      "sourceId": "tt-upc-16-007",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "曹伟",
+      "sourceId": "tt-upc-16-001",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李仁熙",
+      "sourceId": "tt-upc-16-008",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "杨宏",
+      "sourceId": "tt-upc-16-009",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "林明贵",
+      "sourceId": "tt-upc-16-010",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "梁莎莎",
+      "sourceId": "tt-upc-16-011",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "欧阳勇强",
+      "sourceId": "tt-upc-16-012",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "焦喜便",
+      "sourceId": "tt-upc-16-013",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "牛静",
+      "sourceId": "tt-upc-16-014",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "牟小刚",
+      "sourceId": "tt-upc-16-015",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王子贤",
+      "sourceId": "tt-upc-16-016",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王峰",
+      "sourceId": "tt-upc-16-017",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "王成国",
+      "sourceId": "tt-upc-16-018",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "翁炀晖",
+      "sourceId": "tt-upc-16-019",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "谢小英",
+      "sourceId": "tt-upc-16-020",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "赵岑",
+      "sourceId": "tt-upc-16-021",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "赵延敏",
+      "sourceId": "tt-upc-16-022",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "赵晶晶",
+      "sourceId": "tt-upc-16-023",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "赵莹莹",
+      "sourceId": "tt-upc-16-024",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "韩蕾",
+      "sourceId": "tt-upc-16-025",
+      "sourceUnit": "体育教学部",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "李卓军",
+      "sourceId": "tt-upc-17-001",
+      "sourceUnit": "石油工业训练中心",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "苑得鑫",
+      "sourceId": "tt-upc-17-002",
+      "sourceUnit": "石油工业训练中心",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "荆正军",
+      "sourceId": "tt-upc-17-003",
+      "sourceUnit": "石油工业训练中心",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "赵玉明",
+      "sourceId": "tt-upc-17-004",
+      "sourceUnit": "石油工业训练中心",
+      "reason": "timetable_unit_name_same_name_preserved"
+    },
+    {
+      "name": "陈琳",
+      "sourceId": "tt-upc-17-005",
+      "sourceUnit": "石油工业训练中心",
+      "reason": "timetable_unit_name_same_name_preserved"
+    }
+  ],
+  "historicalRejectedEntries": 31,
+  "unassignedCourseRelations": [],
+  "sameNameReconciliation": "scripts/upc-timetable/same-name-reconciliation.json",
+  "inferredCourseRelations": [
+    {
+      "sourceUnit": "海洋与空间信息学院",
+      "name": "李莉",
+      "sourceId": "ocean-c15436-a224962",
+      "courseCodes": [
+        "OSI225711020"
+      ],
+      "method": "research_direction_plus_timetable_cohort",
+      "confidence": "medium",
+      "officialConfirmation": false,
+      "correctable": true,
+      "basis": [
+        "all six timetable blocks are for 通信2501/2502/2503 classes",
+        "canonical profile c15436 is 通信工程系; c15435 is 电子信息工程系",
+        "c15436 research is wireless resource optimization and ad-hoc communication networks",
+        "c15435 research/main courses are ML, pattern recognition, microcomputer and Linux",
+        "离散数学 is a communication-program foundational course; the cohort/department evidence is stronger than generic subject similarity"
+      ],
+      "evidence": {
+        "classCohorts": [
+          "通信2501",
+          "通信2502",
+          "通信2503"
+        ],
+        "sourceBlocks": 6,
+        "profileDepartment": "通信工程系",
+        "profileMainCourses": [
+          "信息论与编码",
+          "光纤通信",
+          "数字逻辑电路",
+          "通信电子实习",
+          "移动通信",
+          "通信网理论"
+        ],
+        "profileResearch": [
+          "无线资源优化",
+          "无人机无人船自动组网通信"
+        ]
+      },
+      "alternativeSourceId": "ocean-c15435-a225012"
+    },
+    {
+      "sourceUnit": "理学院",
+      "name": "王艳",
+      "sourceId": "sci-c6933-a96030",
+      "courseCodes": [
+        "SCC211021020",
+        "SCC211111020"
+      ],
+      "method": "research_direction_plus_course_context",
+      "confidence": "low-medium",
+      "officialConfirmation": false,
+      "correctable": true,
+      "basis": [
+        "c6933 research is biological mathematics and stochastic infectious-disease models, directly probability/stochastic",
+        "c6909 research is game theory and its listed main course is mathematical analysis",
+        "both probability codes are taught by 王艳 with broad engineering/AI/measurement cohorts; the timetable classes do not distinguish the two profiles",
+        "the stochastic-model research is closer to probability than game theory, but this remains a tentative inference"
+      ],
+      "evidence": {
+        "classCohorts": [
+          "石工(双学位)",
+          "光电",
+          "人工智能",
+          "智能科学",
+          "测控",
+          "智能感知"
+        ],
+        "sourceBlocks": 22,
+        "c6933Research": "生物数学、随机传染病模型",
+        "c6909Research": "博弈理论、数学分析",
+        "officialMainCoursesDoNotListProbability": true
+      },
+      "alternativeSourceId": "sci-c6909-a96262"
+    }
+  ]
+}

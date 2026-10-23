@@ -1,0 +1,2735 @@
+{
+  "schemaVersion": 1,
+  "unit": "文法学院",
+  "collegeCode": "upc-14",
+  "candidates": [
+    {
+      "name": "丁琳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a310388",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0722/c16887a310388/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0722/c16887a310388/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/ylx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a310388",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL310412100",
+        "SHL310511020",
+        "SHL323831020",
+        "SHL324431020"
+      ],
+      "courseNames": [
+        "和声(2-1)",
+        "基本乐理",
+        "钢琴演奏基础",
+        "音乐鉴赏"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "丁鹏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a309937",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0714/c16886a309937/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0714/c16886a309937/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a309937",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2091199",
+        "OTH921331020",
+        "SHL224121030"
+      ],
+      "courseNames": [
+        "中国文学批评专题",
+        "初级汉语口语2-1",
+        "沟通与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "于露",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-005",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "于露"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL131812200",
+        "SHL229912200",
+        "SHL331512200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "付寒娇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16888-a310525",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0724/c16888a310525/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0724/c16888a310525/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/msx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16888-a310525",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL422312999",
+        "SHL422731020",
+        "SHL423531020",
+        "SHL432231020",
+        "SHL432431020"
+      ],
+      "courseNames": [
+        "中国非遗艺术工作坊",
+        "中西美术时空对话",
+        "大学美术",
+        "现代装饰绘画",
+        "素描（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "任广志",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-006",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "任广志"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL121311020",
+        "SHL124711030",
+        "SHL126431020"
+      ],
+      "courseNames": [
+        "刑法学",
+        "法律职业伦理",
+        "犯罪学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "倪娅",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-007",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "倪娅"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL321016100",
+        "SHL321016300",
+        "SHL321016500"
+      ],
+      "courseNames": [
+        "管弦乐队合奏(6-1)",
+        "管弦乐队合奏(6-3)",
+        "管弦乐队合奏(6-5)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "冯德华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16888-a310524",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0724/c16888a310524/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0724/c16888a310524/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/msx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16888-a310524",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2091199",
+        "SHL420811020",
+        "SHL422531020",
+        "SHL422831020",
+        "SHL423011020",
+        "SHL423231025"
+      ],
+      "courseNames": [
+        "初级汉语口语2-1",
+        "广告设计",
+        "形态构成",
+        "立体构成",
+        "艺术与审美",
+        "设计艺术欣赏"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "冷凌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16885-a49598",
+      "title": "教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2014/0311/c16885a49598/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2014/0311/c16885a49598/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/fxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16885-a49598",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SHL124712100",
+        "SHL126131020",
+        "SHL131812200"
+      ],
+      "courseNames": [
+        "刑法学(2-1)",
+        "心理健康与职业发展（2-2）",
+        "沟通与写作",
+        "法律人生"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘婧婧",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a297618",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0416/c16886a297618/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0416/c16886a297618/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a297618",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2092199",
+        "SHL221421020",
+        "SHL221621020",
+        "SHL223111010",
+        "SHL223611040",
+        "SHL225931020"
+      ],
+      "courseNames": [
+        "中国当代文学",
+        "中国现当代小说鉴赏",
+        "初级汉语精读2-1",
+        "女性文学研究",
+        "新生研讨课",
+        "秘书学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘彬娜",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a310393",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0722/c16887a310393/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0722/c16887a310393/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/ylx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a310393",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL320921020",
+        "SHL321212100",
+        "SHL325131020"
+      ],
+      "courseNames": [
+        "合唱",
+        "合唱指挥(2-1)",
+        "歌唱语言训练"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘正宇",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-008",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "刘正宇"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL131812200",
+        "SHL229912200",
+        "SHL331512200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘清",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a49560",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2014/0311/c16887a49560/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2014/0311/c16887a49560/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/ylx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a49560",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2091199",
+        "SHL310721021",
+        "SHL311712100",
+        "SHL321612100",
+        "SHL323631020"
+      ],
+      "courseNames": [
+        "中国音乐史(2-1)",
+        "初级汉语口语2-1",
+        "民族民间音乐(2-1)",
+        "民族民间音乐欣赏",
+        "论文写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘玉林",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16885-a297328",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0413/c16885a297328/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0413/c16885a297328/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/fxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16885-a297328",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL120421020",
+        "SHL122811020",
+        "SHL123111030",
+        "SHL132031020"
+      ],
+      "courseNames": [
+        "民法与人生",
+        "民法学",
+        "经济法学",
+        "财税法学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘积舜",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-001",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "刘积舜"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL222011021"
+      ],
+      "courseNames": [
+        "摄影摄像基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴树义",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-009",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "吴树义"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SHL123011030",
+        "SHL127311011"
+      ],
+      "courseNames": [
+        "模拟环资法庭审判",
+        "沟通与写作",
+        "行政法与行政诉讼法"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴睿佳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16885-a420205",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2024/0104/c16885a420205/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2024/0104/c16885a420205/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/fxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16885-a420205",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SHL120821021",
+        "SHL127611010"
+      ],
+      "courseNames": [
+        "人工智能法学",
+        "沟通与写作",
+        "法律逻辑学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16888-a310528",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0724/c16888a310528/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0724/c16888a310528/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/1544/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16888-a310528",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2092199",
+        "SHL420621020",
+        "SHL421211999",
+        "SHL422312999",
+        "SHL422431010",
+        "SHL422731020",
+        "SHL423231025",
+        "SHL423612100",
+        "SHL432231020"
+      ],
+      "courseNames": [
+        "中国非遗艺术工作坊",
+        "交互设计",
+        "初级汉语精读2-1",
+        "大学美术",
+        "素描（2-1）",
+        "美术鉴赏",
+        "色彩（2-1）",
+        "艺术与审美"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙慧",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a310430",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0723/c16887a310430/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0723/c16887a310430/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/ylx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a310430",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL310511020",
+        "SHL320426100",
+        "SHL323831020"
+      ],
+      "courseNames": [
+        "基本乐理",
+        "钢琴演奏基础",
+        "钢琴集体课(6-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙涛",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-010",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "孙涛"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "2091199",
+        "SHL230921020",
+        "SHL232331020"
+      ],
+      "courseNames": [
+        "初级汉语口语2-1",
+        "国宝中的中华文明",
+        "训诂学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙颖",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-011",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "孙颖"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL321212100",
+        "SHL325131020"
+      ],
+      "courseNames": [
+        "合唱",
+        "合唱指挥(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋亚容",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-012",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "宋亚容"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL121721020",
+        "SHL126731020",
+        "SHL132721020"
+      ],
+      "courseNames": [
+        "国际环境法学",
+        "能源法学",
+        "高级法律英语阅读"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋寒儿",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16888-a407473",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2023/0705/c16888a407473/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2023/0705/c16888a407473/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/msx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16888-a407473",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL422931020",
+        "SHL423231025",
+        "SHL423331020",
+        "SHL432231020",
+        "SHL432431020"
+      ],
+      "courseNames": [
+        "中国美术欣赏",
+        "中国非遗艺术工作坊",
+        "中西美术时空对话",
+        "艺术与审美",
+        "西方美术欣赏"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "尹国峰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a310435",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0723/c16887a310435/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0723/c16887a310435/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/ylx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a310435",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL324831020",
+        "SHL328721020",
+        "SHL331512200",
+        "SHL331731020"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）",
+        "歌剧舞剧赏析",
+        "歌剧鉴赏",
+        "歌唱与舞台表演"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "康雷闪",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16885-a297313",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0413/c16885a297313/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0413/c16885a297313/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/fxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16885-a297313",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL124511010",
+        "SHL127031020",
+        "SHL131812200"
+      ],
+      "courseNames": [
+        "人生风险与保险保障",
+        "心理健康与职业发展（2-2）",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张冬君",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a310436",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0723/c16887a310436/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0723/c16887a310436/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/ylx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a310436",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2092199",
+        "SHL321016100",
+        "SHL321016300",
+        "SHL321016500"
+      ],
+      "courseNames": [
+        "初级汉语精读2-1",
+        "管弦乐队合奏(6-1)",
+        "管弦乐队合奏(6-3)",
+        "管弦乐队合奏(6-5)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张学亮",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16885-a49125",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2012/0705/c16885a49125/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2012/0705/c16885a49125/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/fxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16885-a49125",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL120611020",
+        "SHL132031020"
+      ],
+      "courseNames": [
+        "民法与人生",
+        "法理学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张志雄",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a310438",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0723/c16887a310438/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0723/c16887a310438/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/1544/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a310438",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SHL324731020",
+        "SHL331631020"
+      ],
+      "courseNames": [
+        "中国舞感知与体验",
+        "中国舞蹈基础",
+        "沟通与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张楠",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a310437",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0723/c16887a310437/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0723/c16887a310437/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/ylx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a310437",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL320921020"
+      ],
+      "courseNames": [
+        "歌唱语言训练"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张欣",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a301937",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0601/c16886a301937/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0601/c16886a301937/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a301937",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2092199",
+        "SHL223714300",
+        "SHL231431020"
+      ],
+      "courseNames": [
+        "中国古代文学(4-3)",
+        "初级汉语精读2-1",
+        "古典文学中的历史变迁"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张永宁",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-013",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "张永宁"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL223111010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张泰",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-014",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "张泰"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "2095199",
+        "OTH921331020",
+        "SHL223714100",
+        "SHL232131020"
+      ],
+      "courseNames": [
+        "《庄子》品读",
+        "中国古代文学(4-1)",
+        "中级汉语2-1",
+        "沟通与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张袁月",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a301944",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0601/c16886a301944/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0601/c16886a301944/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/1544/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a301944",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2092199"
+      ],
+      "courseNames": [
+        "初级汉语精读2-1"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐济宽",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-015",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "徐济宽"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL122411031",
+        "SHL132721020"
+      ],
+      "courseNames": [
+        "合同法学",
+        "高级法律英语阅读"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曹永海",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-016",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "曹永海"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL120611020",
+        "SHL127031020"
+      ],
+      "courseNames": [
+        "人生风险与保险保障",
+        "法理学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱裔文",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a310511",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0724/c16887a310511/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0724/c16887a310511/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/ylx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a310511",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL310921020",
+        "SHL323531020",
+        "SHL331811020",
+        "SHL331921020"
+      ],
+      "courseNames": [
+        "世界民族音乐",
+        "手风琴演奏基础",
+        "教育概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李凤霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16885-a49162",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2012/0705/c16885a49162/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2012/0705/c16885a49162/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/fxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16885-a49162",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL122721020",
+        "SHL132031020"
+      ],
+      "courseNames": [
+        "婚姻家庭与继承法学",
+        "民法与人生"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李康",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-017",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "李康"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL110321020",
+        "SHL120611020",
+        "SHL120921021",
+        "SHL126131020"
+      ],
+      "courseNames": [
+        "法律人生",
+        "法律文献检索与写作",
+        "法理学",
+        "能源法律与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李智卓",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16885-a394595",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2023/0218/c16885a394595/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2023/0218/c16885a394595/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/fxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16885-a394595",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL110321020",
+        "SHL125321020"
+      ],
+      "courseNames": [
+        "能源法律与政策",
+        "自然资源法学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李猛",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-018",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "李猛"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SHL124321021",
+        "SHL124411020",
+        "SHL128921010"
+      ],
+      "courseNames": [
+        "宪法学",
+        "沟通与写作",
+        "监察法学",
+        "西方法律思想史"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李纯泽",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-019",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "李纯泽"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "2096099"
+      ],
+      "courseNames": [
+        "中国概况"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李芳琴",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a49009",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2012/0704/c16886a49009/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2012/0704/c16886a49009/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a49009",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2095199",
+        "SHL226531020"
+      ],
+      "courseNames": [
+        "中级汉语2-1",
+        "影视鉴赏"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨倩",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-020",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "杨倩"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL131812200",
+        "SHL229912200",
+        "SHL331512200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨军",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-021",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "杨军"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SHL123211031",
+        "SHL132031020"
+      ],
+      "courseNames": [
+        "民事诉讼法学",
+        "民法与人生",
+        "沟通与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨欣",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-022",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "杨欣"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SHL121721020",
+        "SHL122621020"
+      ],
+      "courseNames": [
+        "国际环境法学",
+        "国际经济法学",
+        "沟通与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "林超",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-002",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "林超"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL231821021"
+      ],
+      "courseNames": [
+        "基础俄语"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "栾著",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-023",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "栾著"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "2094199",
+        "2095199"
+      ],
+      "courseNames": [
+        "中国概况2-1",
+        "中级汉语2-1"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "毛思敏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a297621",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0416/c16886a297621/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0416/c16886a297621/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a297621",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2092199",
+        "SHL221311020",
+        "SHL222511030",
+        "SHL223111010"
+      ],
+      "courseNames": [
+        "初级汉语精读2-1",
+        "文学概论",
+        "新生研讨课",
+        "美学概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "沈壮娟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a49036",
+      "title": "教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2012/0704/c16886a49036/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2012/0704/c16886a49036/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a49036",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL220111020",
+        "SHL220521020",
+        "SHL221521020",
+        "SHL223111010",
+        "SHL229912200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）",
+        "新生研讨课",
+        "比较文学原理",
+        "电影理论与实践",
+        "能源文化与生态文学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王大勇",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-024",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "王大勇"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL222011021"
+      ],
+      "courseNames": [
+        "摄影摄像基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王学栋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16885-a49767",
+      "title": "教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2012/0705/c16885a49767/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2012/0705/c16885a49767/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/fxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16885-a49767",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL122211030"
+      ],
+      "courseNames": [
+        "行政法学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王宇红",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-003",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "王宇红"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "2091199",
+        "2092199",
+        "SHL221421020"
+      ],
+      "courseNames": [
+        "初级汉语口语2-1",
+        "初级汉语精读2-1",
+        "秘书学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王成宝",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16888-a310529",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0724/c16888a310529/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0724/c16888a310529/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/msx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16888-a310529",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL422131020",
+        "SHL423131020",
+        "SHL432331020"
+      ],
+      "courseNames": [
+        "书画鉴赏与实践",
+        "书道与篆刻",
+        "国画"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王永豪",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a49041",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2012/0704/c16886a49041/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2012/0704/c16886a49041/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a49041",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL223714100",
+        "SHL224531021"
+      ],
+      "courseNames": [
+        "中国古代文学(4-1)",
+        "先秦君子风范"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王睿",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a310433",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0723/c16887a310433/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0723/c16887a310433/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/ylx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a310433",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL323731020"
+      ],
+      "courseNames": [
+        "流行音乐鉴赏"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王苗苗",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a310411",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0722/c16887a310411/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0722/c16887a310411/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/ylx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a310411",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL325531020"
+      ],
+      "courseNames": [
+        "舞蹈鉴赏"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "田国兴",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16885-a49256",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2012/0705/c16885a49256/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2012/0705/c16885a49256/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/fxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16885-a49256",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL123112100",
+        "SHL125421020",
+        "SHL132031020"
+      ],
+      "courseNames": [
+        "民法与人生",
+        "民法学(2-1)",
+        "证券法学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "由然",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-025",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "由然"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL120721020",
+        "SHL125631020",
+        "SHL126131020"
+      ],
+      "courseNames": [
+        "刑法概论",
+        "法律人生",
+        "法律经济学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "盛辉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a310395",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0722/c16887a310395/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0722/c16887a310395/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/ylx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a310395",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL311112100",
+        "SHL311421020",
+        "SHL311522100",
+        "SHL323431015"
+      ],
+      "courseNames": [
+        "花儿",
+        "西方音乐史(2-1)",
+        "音乐美学",
+        "音乐赏析(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "石瑛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a310396",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0722/c16887a310396/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0722/c16887a310396/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/ylx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a310396",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL323831020"
+      ],
+      "courseNames": [
+        "钢琴演奏基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "秦勇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16885-a49136",
+      "title": "教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2012/0705/c16885a49136/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2012/0705/c16885a49136/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/1544/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16885-a49136",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL121311020",
+        "SHL123821020",
+        "SHL125011020"
+      ],
+      "courseNames": [
+        "侵权责任法学",
+        "法律职业伦理",
+        "知识产权法学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "罗舒",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a309936",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0714/c16886a309936/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0714/c16886a309936/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a309936",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2091199",
+        "SHL220912100",
+        "SHL222712100",
+        "SHL225531020"
+      ],
+      "courseNames": [
+        "中国文化专题选讲",
+        "初级汉语口语2-1",
+        "古代汉语(2-1)",
+        "现代汉语(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "罗蕾",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a309889",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0713/c16886a309889/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0713/c16886a309889/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a309889",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL225931020"
+      ],
+      "courseNames": [
+        "中国现当代小说鉴赏"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "耿静颖",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a309891",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0713/c16886a309891/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0713/c16886a309891/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a309891",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2096199"
+      ],
+      "courseNames": [
+        "高级汉语2-1"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "胥丹青",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-026",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "胥丹青"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL310812100",
+        "SHL311611020",
+        "SHL324931020"
+      ],
+      "courseNames": [
+        "曲式与作品分析(2-1)",
+        "歌曲配弹",
+        "音乐英语文献选读"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "苏静",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a310408",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0722/c16887a310408/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0722/c16887a310408/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/1544/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a310408",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL310721021",
+        "SHL311013100",
+        "SHL311013300"
+      ],
+      "courseNames": [
+        "视唱练耳(3-1)",
+        "视唱练耳(3-3)",
+        "论文写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "菅兴祝",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16888-a310526",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0724/c16888a310526/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0724/c16888a310526/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/msx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16888-a310526",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL410411020",
+        "SHL420721020",
+        "SHL422221020",
+        "SHL432012100",
+        "SHL432431020",
+        "SHL432541020"
+      ],
+      "courseNames": [
+        "AI艺术实验室",
+        "中西美术时空对话",
+        "新媒体艺术概论",
+        "空间造型",
+        "素描（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "葛浩然",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-027",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "葛浩然"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL220521020",
+        "SHL222011021"
+      ],
+      "courseNames": [
+        "摄影摄像基础",
+        "电影理论与实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "董岩",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16885-a297304",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0413/c16885a297304/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0413/c16885a297304/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/fxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16885-a297304",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL123211030",
+        "SHL123311010",
+        "SHL125321020",
+        "SHL127311011"
+      ],
+      "courseNames": [
+        "模拟环资法庭审判",
+        "模拟行政法庭审判",
+        "民事诉讼法学",
+        "自然资源法学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "董金鑫",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16885-a219003",
+      "title": "教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2019/0927/c16885a219003/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2019/0927/c16885a219003/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/1544/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16885-a219003",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL122011020",
+        "SHL132411031"
+      ],
+      "courseNames": [
+        "国际私法",
+        "国际私法学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "谌爱华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16885-a49959",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2016/0510/c16885a49959/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2016/0510/c16885a49959/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/fxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16885-a49959",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL123311010",
+        "SHL124411020",
+        "SHL131812200"
+      ],
+      "courseNames": [
+        "宪法学",
+        "心理健康与职业发展（2-2）",
+        "模拟行政法庭审判"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "贺小军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16885-a384650",
+      "title": "教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2022/0919/c16885a384650/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2022/0919/c16885a384650/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/1544/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16885-a384650",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL124811030",
+        "SHL127521020"
+      ],
+      "courseNames": [
+        "刑事侦查学",
+        "刑事诉讼法学"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵延升",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-028",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "赵延升"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL131812200",
+        "SHL229912200",
+        "SHL331512200"
+      ],
+      "courseNames": [
+        "心理健康与职业发展（2-2）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郝婷婷",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a309935",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0714/c16886a309935/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0714/c16886a309935/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a309935",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL222312200",
+        "SHL222421020"
+      ],
+      "courseNames": [
+        "外国文学(2-2)",
+        "文本解读"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭杨",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-029",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "郭杨"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "2094199",
+        "2095199"
+      ],
+      "courseNames": [
+        "中国概况2-1",
+        "中级汉语2-1"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭颂",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-030",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "郭颂"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL321016100",
+        "SHL321016300",
+        "SHL321016500"
+      ],
+      "courseNames": [
+        "管弦乐队合奏(6-1)",
+        "管弦乐队合奏(6-3)",
+        "管弦乐队合奏(6-5)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "金涛",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-004",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "金涛"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "SHL420621020"
+      ],
+      "courseNames": [
+        "交互设计"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "门红丽",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a297622",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0416/c16886a297622/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0416/c16886a297622/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a297622",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL223311010",
+        "SHL224212100",
+        "SHL231531020"
+      ],
+      "courseNames": [
+        "中国现代文学(2-1)",
+        "中国现当代文学经典品读",
+        "新闻概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈蓉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16887-a310387",
+      "title": "讲师",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0722/c16887a310387/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0722/c16887a310387/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/ylx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16887-a310387",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "SHL323831020"
+      ],
+      "courseNames": [
+        "钢琴演奏基础"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马丽丽",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a49862",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2016/0301/c16886a49862/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2016/0301/c16886a49862/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a49862",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2095199",
+        "SHL223714300",
+        "SHL223921020",
+        "SHL232231020"
+      ],
+      "courseNames": [
+        "中国古代文学(4-3)",
+        "中国文化史专题",
+        "中级汉语2-1",
+        "字里字外——《说文解字》导读"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马康凤",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-14-031",
+      "title": null,
+      "collegeCode": "upc-14",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "文法学院",
+        "sourceFile": "课表/文法学院/课表打印.xls",
+        "sourceSha256": "effc364406aca1b66092739b8f6ca8ba97c3bee2abb9f056517a7667cd9c06a3",
+        "rawNames": [
+          "马康凤"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "OTH921331020",
+        "SHL127031020"
+      ],
+      "courseNames": [
+        "人生风险与保险保障",
+        "沟通与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "魏学宝",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a49842",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2016/0229/c16886a49842/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2016/0229/c16886a49842/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a49842",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2096199",
+        "SHL223111010",
+        "SHL231731020"
+      ],
+      "courseNames": [
+        "中国古典诗词的生命与情感",
+        "新生研讨课",
+        "高级汉语2-1"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "齐卫华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "shl-c16886-a302003",
+      "title": "副教授",
+      "collegeCode": "upc-14",
+      "profileUrl": "http://shl.upc.edu.cn/2020/0602/c16886a302003/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://shl.upc.edu.cn/2020/0602/c16886a302003/page.htm",
+        "listUrl": "http://shl.upc.edu.cn/hyywxx/list.htm",
+        "listedUnits": [
+          "文法学院"
+        ],
+        "sourceId": "shl-c16886-a302003",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "2092199",
+        "2095799"
+      ],
+      "courseNames": [
+        "初级汉语精读2-1",
+        "高级汉语（2-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

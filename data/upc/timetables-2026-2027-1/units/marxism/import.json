@@ -1,0 +1,1407 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-marxism-2026-2027-1-timetable-20261023",
+  "source": "课表/马克思主义学院/课表打印.xls sha256:f9d6a78351c2853367531677050fc1edb403868ad934d563ed25a688aee91a2c; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "szjyb-c203-a222396",
+      "name": "于常有",
+      "title": null,
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX210111053",
+          "name": "毛泽东思想和中国特色社会主义理论体系概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1418",
+      "name": "于泳",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324911022",
+          "name": "思想政治理论课社会实践",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX410111031",
+          "name": "中国近现代史纲要",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX424911010",
+          "name": "新中国史",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a436091",
+      "name": "仇乐宁",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX210111053",
+          "name": "毛泽东思想和中国特色社会主义理论体系概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a436089",
+      "name": "何大海",
+      "title": "特任教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX510111021",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a485419",
+      "name": "俞继仙",
+      "title": "副研究员",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1063",
+      "name": "冯晓玲",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a449891",
+      "name": "刘东旺",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a222402",
+      "name": "刘兴波",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX210111053",
+          "name": "毛泽东思想和中国特色社会主义理论体系概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a383338",
+      "name": "刘宇培",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a597",
+      "name": "刘明文",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX120211031",
+          "name": "马克思主义基本原理",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX121611010",
+          "name": "社会主义发展史",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a383337",
+      "name": "刘积舜",
+      "title": "研究员",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a225639",
+      "name": "刘继高",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX120211031",
+          "name": "马克思主义基本原理",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX121611010",
+          "name": "社会主义发展史",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX324911022",
+          "name": "思想政治理论课社会实践",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a932",
+      "name": "刘超",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX120211031",
+          "name": "马克思主义基本原理",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a485417",
+      "name": "刚旭",
+      "title": "副研究员",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a461",
+      "name": "原丽红",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a945",
+      "name": "司江伟",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a222399",
+      "name": "吕云涛",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX320531020",
+          "name": "卓越领导力",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX325111010",
+          "name": "党史",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a292",
+      "name": "吕前昌",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX120211031",
+          "name": "马克思主义基本原理",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a436092",
+      "name": "吴凡",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a383507",
+      "name": "周强",
+      "title": "助理研究员",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-15-002",
+      "name": "周辉",
+      "title": null,
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX610111021",
+          "name": "军事理论与国家安全",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a383342",
+      "name": "姚成郡",
+      "title": "研究员",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX410111031",
+          "name": "中国近现代史纲要",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a383931",
+      "name": "姚海田",
+      "title": "研究员",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a471690",
+      "name": "姜逸",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a898",
+      "name": "孙念超",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX410111031",
+          "name": "中国近现代史纲要",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX424911010",
+          "name": "新中国史",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1199",
+      "name": "宋海儆",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX210111053",
+          "name": "毛泽东思想和中国特色社会主义理论体系概论",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX324911022",
+          "name": "思想政治理论课社会实践",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a222395",
+      "name": "宋红燕",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a434557",
+      "name": "宋霞",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a588",
+      "name": "岳金霞",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a372504",
+      "name": "崔伟",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX610111021",
+          "name": "军事理论与国家安全",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a875",
+      "name": "崔军伟",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX410111031",
+          "name": "中国近现代史纲要",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX424731010",
+          "name": "新中国史",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1025",
+      "name": "张会芸",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a658",
+      "name": "张瑞涛",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1194",
+      "name": "张璐",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX120211031",
+          "name": "马克思主义基本原理",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a595",
+      "name": "张福运",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX410111031",
+          "name": "中国近现代史纲要",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1412",
+      "name": "徐越",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX120211031",
+          "name": "马克思主义基本原理",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX121611010",
+          "name": "社会主义发展史",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a383333",
+      "name": "成宏涛",
+      "title": "副研究员",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a485425",
+      "name": "朱华",
+      "title": "副研究员",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a485422",
+      "name": "朱惠平",
+      "title": "副研究员",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1019",
+      "name": "朱淑君",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX410111031",
+          "name": "中国近现代史纲要",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a450285",
+      "name": "朱玉杰",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX325111010",
+          "name": "党史",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-15-003",
+      "name": "李令功",
+      "title": null,
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX610111021",
+          "name": "军事理论与国家安全",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a485416",
+      "name": "李健",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a381105",
+      "name": "李文君",
+      "title": null,
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-15-004",
+      "name": "李桂臣",
+      "title": null,
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX610111021",
+          "name": "军事理论与国家安全",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a449851",
+      "name": "李路遥",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX210111053",
+          "name": "毛泽东思想和中国特色社会主义理论体系概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a485421",
+      "name": "杨政",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX410111031",
+          "name": "中国近现代史纲要",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a880",
+      "name": "杨晓燕",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-15-005",
+      "name": "杨超",
+      "title": null,
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX410111031",
+          "name": "中国近现代史纲要",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX610111021",
+          "name": "军事理论与国家安全",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a436090",
+      "name": "杨鹏云",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX410111031",
+          "name": "中国近现代史纲要",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a222394",
+      "name": "毕松",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324911022",
+          "name": "思想政治理论课社会实践",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a222400",
+      "name": "汝绪华",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX210111053",
+          "name": "毛泽东思想和中国特色社会主义理论体系概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a581",
+      "name": "汪怀君",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX120211031",
+          "name": "马克思主义基本原理",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a383749",
+      "name": "沈刘峡",
+      "title": "研究员",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1292",
+      "name": "潘娜娜",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a283",
+      "name": "牛继玲",
+      "title": null,
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX324911021",
+          "name": "思想政治理论课社会实践",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a225490",
+      "name": "王会",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a835",
+      "name": "王克霞",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX410111031",
+          "name": "中国近现代史纲要",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX424911010",
+          "name": "新中国史",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1185",
+      "name": "王庆忠",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-15-001",
+      "name": "王建军",
+      "title": null,
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a485410",
+      "name": "王晓彤",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a348445",
+      "name": "王青",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX320231020",
+          "name": "大学生心理学",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a372512",
+      "name": "王鹏翔",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324911022",
+          "name": "思想政治理论课社会实践",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX510111021",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a545",
+      "name": "白春雨",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX120211031",
+          "name": "马克思主义基本原理",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX120731020",
+          "name": "哲学导论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a372511",
+      "name": "盛阿赛",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX610111021",
+          "name": "军事理论与国家安全",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1191",
+      "name": "石超",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX320431020",
+          "name": "中国哲学经典著作导读",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1155",
+      "name": "秦相平",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a884",
+      "name": "胡静",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX325111010",
+          "name": "党史",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1289",
+      "name": "薛俊清",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX120211031",
+          "name": "马克思主义基本原理",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a485420",
+      "name": "袁永红",
+      "title": "副研究员",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1420",
+      "name": "袁爱军",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1249",
+      "name": "谷晓芸",
+      "title": null,
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX120211031",
+          "name": "马克思主义基本原理",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a471691",
+      "name": "赵嘉霖",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX120211031",
+          "name": "马克思主义基本原理",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1261",
+      "name": "赵国营",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX210111053",
+          "name": "毛泽东思想和中国特色社会主义理论体系概论",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX324911022",
+          "name": "思想政治理论课社会实践",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a471689",
+      "name": "赵忠璐",
+      "title": null,
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a383347",
+      "name": "赵振华",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a383345",
+      "name": "赵放辉",
+      "title": "研究员",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a383346",
+      "name": "赵晓珂",
+      "title": "副研究员",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a223121",
+      "name": "赵霞",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX210111053",
+          "name": "毛泽东思想和中国特色社会主义理论体系概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a485430",
+      "name": "邢清琨",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1413",
+      "name": "郎帅",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX610111021",
+          "name": "军事理论与国家安全",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a485415",
+      "name": "郭文",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX510111020",
+          "name": "形势与政策",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a409195",
+      "name": "郭露凝",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX410111031",
+          "name": "中国近现代史纲要",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a1031",
+      "name": "金银珠",
+      "title": null,
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX324811031",
+          "name": "思想道德与法治",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX325031010",
+          "name": "党史",
+          "collegeCode": "upc-15"
+        },
+        {
+          "code": "MRX325111010",
+          "name": "党史",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a223850",
+      "name": "闫林霞",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX120211031",
+          "name": "马克思主义基本原理",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a471688",
+      "name": "陈璐",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX710211021",
+          "name": "习近平新时代中国特色社会主义思想概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a436738",
+      "name": "陈骏",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX410111031",
+          "name": "中国近现代史纲要",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a485423",
+      "name": "马梦华",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX410111031",
+          "name": "中国近现代史纲要",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a428719",
+      "name": "马超",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX120211031",
+          "name": "马克思主义基本原理",
+          "collegeCode": "upc-15"
+        }
+      ]
+    },
+    {
+      "sourceId": "szjyb-c203-a223651",
+      "name": "鲁彦平",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "campus": null,
+      "courses": [
+        {
+          "code": "MRX210111053",
+          "name": "毛泽东思想和中国特色社会主义理论体系概论",
+          "collegeCode": "upc-15"
+        }
+      ]
+    }
+  ]
+}

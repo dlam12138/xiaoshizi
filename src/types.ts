@@ -1,16 +1,18 @@
 export interface TeacherDimensions {
-  attendanceStrictness: number; // 1 = 每次都点, 5 = 几乎不点名
-  gradingLeniency: number;      // 1 = 杀手给分低, 5 = 整体给分大方
-  effortMatters: number;        // 1 = 努力回报少, 5 = 认真投入有合理回报
-  workloadDifficulty: number;   // 1 = 作业繁重, 5 = 作业少负担轻
-  approachability: number;      // 1 = 严肃难沟通, 5 = 亲和友善好相处
-  teachingQuality: number;      // 1 = 照念PPT, 5 = 干货满满讲得透
+  // Historical records use 1–5; new submissions validate 4.0–5.0 separately.
+  attendanceStrictness: number; // 越高越宽松，几乎不点名
+  gradingLeniency: number;      // 越高给分越大方
+  effortMatters: number;        // 越高越认可认真投入的回报
+  workloadDifficulty: number;   // 越高作业负担越轻
+  approachability: number;      // 越高越亲和好沟通
+  teachingQuality: number;      // 越高讲解越清晰扎实
 }
 
 export type TeacherRatingDimensions = { [K in keyof TeacherDimensions]: number | null };
 
 export interface Course {
   id: string;
+  code?: string | null;
   name: string;
   collegeId?: string;
   createdAt?: string;
@@ -18,6 +20,7 @@ export interface Course {
 
 export interface Term {
   id: string;
+  code: string;
   yearTerm: string;
   isCurrent: boolean;
   createdAt?: string;
@@ -48,6 +51,7 @@ export interface Review {
   teacherName?: string;
   courseId?: string; // Foreign key -> courses.id (NOT NULL in DB)
   courseName?: string; // Joined from courses.name
+  termId?: string; // Foreign key -> terms.id
   yearTerm: string;
   dimensions: Partial<TeacherDimensions>;
   comment?: string;
@@ -75,7 +79,6 @@ export interface TeacherQuery {
   collegeId?: string;
   onlyThisTerm?: boolean;
   courseOnly?: boolean;
-  sortBy?: 'overall' | 'leniency' | 'quality' | 'attendance';
   page?: number;
   pageSize?: number;
 }
@@ -95,10 +98,11 @@ export interface Teacher {
   ratingVersion?: number;
   id: string;
   name: string;
-  title: string; // 教授、副教授、讲师
-  college: string; // 学院名称（由 college_id 关联 colleges.name 获得）
+  title: string | null; // 职称；未核实时为 null，不填默认值
+  college: string; // 学院/课表来源单位名称（由 college_id 关联 colleges.name 获得）
   collegeId?: string; // 外键关联 colleges 表 (NOT NULL in DB)
-  campus: '犀浦校区' | '九里校区' | string;
+  identityKind?: 'official_profile' | 'timetable_unit_name'; // 官方 profile 或课表来源学院身份
+  campus: string | null; // 唐岛湾校区 / 古镇口校区 / 东营科教园区；未知为 null
   courses: string[]; // 由 course_offerings 关联获得
   courseOfferings?: TeacherCourseOffering[];
   isTeachingThisTerm: boolean; // 由 course_offerings 关联 terms (is_current = true) 获得
@@ -129,19 +133,6 @@ export interface UserPointTransaction {
   relatedReviewId?: string;
 }
 
-export interface AiChatMessage {
-  id: string;
-  sender: 'user' | 'assistant';
-  content: string;
-  timestamp: string;
-  citedTeachers?: {
-    id: string;
-    name: string;
-    course: string;
-    reason: string;
-  }[];
-}
-
 export interface UserProfile {
   id: string;
   email: string;
@@ -149,53 +140,4 @@ export interface UserProfile {
   college?: string;
   campus?: string;
   points: number;
-}
-
-export interface CourseSectionMeeting {
-  id?: string;
-  weeks?: number[];
-  weekday?: number | null;
-  periodStart?: number | null;
-  periodEnd?: number | null;
-  classroomCampus?: string | null;
-  classroom?: string | null;
-  rawSchedule?: string | null;
-  rawLocation?: string | null;
-}
-
-export interface CourseSection {
-  sectionId: string;
-  selectionCode: string;
-  courseCode?: string;
-  courseName?: string;
-  credits?: number | null;
-  nature?: string | null;
-  campus?: string | null;
-  capacity?: number | null;
-  preferred?: string | null;
-  meetings: CourseSectionMeeting[];
-}
-
-export interface TeacherWithSections {
-  teacher: Teacher;
-  sections: CourseSection[];
-}
-
-
-export interface Notice {
-  id: number;
-  url: string;
-  title: string;
-  /** YYYY-MM-DD */
-  publishedOn: string;
-  /** 教务网分类代码，如 jxyx、jsfz */
-  categories: string[];
-}
-
-export interface NoticeQuery {
-  query?: string;
-  /** 'all' 或 NOTICE_CATEGORIES 中的代码 */
-  category?: string;
-  page?: number;
-  pageSize?: number;
 }

@@ -3,12 +3,11 @@ import { formatRating, isRating, RATING_DIMENSIONS } from '../lib/ratings';
 import { RatingRadar } from './RatingRadar';
 import { usePagedQuery } from '../hooks/usePagedQuery';
 import { supabaseService } from '../services/supabaseService';
-import { isSupabaseConfigured } from '../lib/supabase';
 import { Pagination, PageFeedback } from './Pagination';
 import { ReviewListSkeleton } from './Skeletons';
 import React, { useState, useEffect } from 'react';
 import { Teacher, Review } from '../types';
-import { X, Star, Heart, Award, Sparkles, AlertCircle, History, MessageSquarePlus, ThumbsUp, CheckCircle2 } from 'lucide-react';
+import { X, Star, Heart, Award, Sparkles, MessageSquarePlus, ThumbsUp, CheckCircle2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 interface TeacherDetailModalProps {
@@ -32,11 +31,15 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
 }) => {
   const [activeTab, setActiveTab] = useState<'reviews' | 'dimensions'>('dimensions');
 
-  const page = usePagedQuery<Review>(teacher?.id || '', (index, signal) => {
-    if (isSupabaseConfigured) return supabaseService.getReviewsPage({ teacherId: teacher!.id, status: 'approved', page: index }, signal);
-    const items = reviews.filter(r => r.teacherId === teacher?.id && r.status === 'approved');
-    return Promise.resolve({ items: items.slice(index * 20, (index + 1) * 20), total: items.length });
-  }, Boolean(teacher) && activeTab === 'reviews', likedReviewIds);
+  const page = usePagedQuery<Review>(
+    teacher?.id || '',
+    (index, signal) => supabaseService.getReviewsPage(
+      { teacherId: teacher!.id, status: 'approved', page: index },
+      signal,
+    ),
+    Boolean(teacher) && activeTab === 'reviews',
+    likedReviewIds,
+  );
   useEffect(() => { page.reload(); }, [refreshToken]);
 
   if (!teacher) return null;
@@ -74,7 +77,9 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
               <div className="flex flex-wrap items-center gap-2">
                 <h3 className="text-xl font-bold text-gray-900">{teacher.name}</h3>
                 <span className="px-2 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-600">
-                  {teacher.title}
+                  {teacher.identityKind === 'timetable_unit_name'
+                    ? '课表来源身份'
+                    : (teacher.title || '职称待核实')}
                 </span>
                 {teacher.isTeachingThisTerm ? (
                   <span className="px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700 border border-emerald-200 flex items-center gap-1">
@@ -87,7 +92,8 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
                 )}
               </div>
               <p className="text-xs text-gray-500 mt-1">
-                {teacher.college} · {teacher.campus}
+                {teacher.identityKind === 'timetable_unit_name' ? '课表单位：' : ''}
+                {teacher.college}{teacher.campus ? ` · ${teacher.campus}` : ''}
               </p>
             </div>
           </div>
@@ -125,11 +131,6 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
           </div>
           <div className="flex items-center gap-2">
             <span className="text-gray-500">评价数: {teacher.reviewCount}条</span>
-            {teacher.hasHistoricalData && (
-              <span className="px-2 py-0.5 bg-blue-50 text-blue-600 rounded text-2xs font-medium border border-blue-100 flex items-center gap-1">
-                <History className="w-3 h-3" /> 含旧站评价
-              </span>
-            )}
           </div>
         </div>
 
@@ -196,19 +197,6 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
               </div>
 
               <RatingRadar dimensions={teacher.dimensions} />
-
-              {/* Data migration footnote */}
-              {teacher.hasHistoricalData && (
-                <div className="p-3 bg-amber-50/70 rounded-xl border border-amber-200 text-xs text-amber-800 flex items-start gap-2">
-                  <AlertCircle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
-                  <div>
-                    <p className="font-semibold">历史数据迁移说明</p>
-                    <p className="text-2xs text-amber-700 mt-0.5">
-                      旧站评价保留教学质量、给分宽松度和作业轻松度评分。考勤宽松度、努力回报和师生亲和力由新评价逐步补齐，暂无评分时显示“暂无数据”。
-                    </p>
-                  </div>
-                </div>
-              )}
             </div>
           ) : (
             <div className="space-y-3">
@@ -217,7 +205,7 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
                 <ReviewListSkeleton count={3} />
               ) : page.error ? null : teacherReviews.length === 0 ? (
                 <div className="text-center py-10 text-gray-400">
-                  <p className="text-sm">暂无该老师的文字评价</p>
+                  <p className="text-sm">暂无该老师的评价</p>
                   <p className="text-xs mt-1">成为第一个评价的人，审核通过可得 +20 积分！</p>
                 </div>
               ) : (

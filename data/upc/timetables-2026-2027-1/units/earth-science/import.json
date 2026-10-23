@@ -1,0 +1,1844 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-earth-science-2026-2027-1-timetable-20261023",
+  "source": "课表/地球科学与技术学院/课表打印.xls sha256:52c36077eab0b31e73788206884c9a62a86d27ff6665babe2f2a5115c97a6c4c; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "geori-c10382-a152116",
+      "name": "丁修建",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO162711046",
+          "name": "油气地质与勘探",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a434031",
+      "name": "丛富云",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO150321031",
+          "name": "石油地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a372866",
+      "name": "严一鸣",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO163411025",
+          "name": "油田开发地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151964",
+      "name": "乐友喜",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO210811040",
+          "name": "地球物理勘探",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a432543",
+      "name": "付欣",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO222221025",
+          "name": "地震资料综合解释",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152124",
+      "name": "任丽华",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO160421020",
+          "name": "储层地质学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO163411025",
+          "name": "油田开发地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152114",
+      "name": "冯子齐",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO163411025",
+          "name": "油田开发地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a442869",
+      "name": "刘一鸣",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO172011035",
+          "name": "地层学、地史学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152130",
+      "name": "刘华",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO166221020",
+          "name": "高等石油地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152005",
+      "name": "刘可禹",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152127",
+      "name": "刘太勋",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO163411025",
+          "name": "油田开发地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152003",
+      "name": "刘寅",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO110811040",
+          "name": "构造地质学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO122421020",
+          "name": "矿床学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152128",
+      "name": "刘景东",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO162711046",
+          "name": "油气地质与勘探",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152126",
+      "name": "刘长江",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0110199",
+          "name": "地球科学概论",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO110611040",
+          "name": "地质学基础",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO175411033",
+          "name": "地球科学概论",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151976",
+      "name": "吴国忱",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO222111020",
+          "name": "地震资料综合解释",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152087",
+      "name": "吴孔友",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO120711020",
+          "name": "大地构造学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO120821020",
+          "name": "大地构造学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO122811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152086",
+      "name": "吴智平",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO121611030",
+          "name": "古生物学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO122811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a433325",
+      "name": "吴玉其",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122611049",
+          "name": "矿物岩石学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151978",
+      "name": "唐杰",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO211321035",
+          "name": "计算机原理与操作系统",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO268821020",
+          "name": "岩石物理学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151979",
+      "name": "孙小东",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO269311030",
+          "name": "地震资料数字处理方法(全英文)",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a380590",
+      "name": "孙小龙",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO170311020",
+          "name": "行星地质学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO171621020",
+          "name": "行星地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151980",
+      "name": "孙成禹",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO210511036",
+          "name": "弹性波动力学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152030",
+      "name": "孟凡超",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122611045",
+          "name": "矿物岩石学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a335351",
+      "name": "孟庆峰",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO171721020",
+          "name": "石油地质专业英语",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151982",
+      "name": "宋娟",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO220421036",
+          "name": "地球动力学基础",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151983",
+      "name": "宋建国",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO268311020",
+          "name": "地球物理反演理论(全英文)",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152123",
+      "name": "宋璠",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO162221020",
+          "name": "油藏描述",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO163411025",
+          "name": "油田开发地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a157549",
+      "name": "宋鹰",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO110811035",
+          "name": "构造地质学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO123431015",
+          "name": "宝玉石鉴赏",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151993",
+      "name": "宗兆云",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO222221025",
+          "name": "地震资料综合解释",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151973",
+      "name": "尹兵祥",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO221411030",
+          "name": "地球物理学概论",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO222911020",
+          "name": "重磁勘探",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO222911021",
+          "name": "重磁勘探",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a156369",
+      "name": "张世奇",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0111499",
+          "name": "油田开发地质学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO164821020",
+          "name": "层序地层学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151998",
+      "name": "张佳佳",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO222721025",
+          "name": "开发地震",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151996",
+      "name": "张凯",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO221911030",
+          "name": "地震资料数字处理方法",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a373976",
+      "name": "张国印",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO163411025",
+          "name": "油田开发地质学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO262011020",
+          "name": "地学大数据",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152155",
+      "name": "张宪国",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO164121025",
+          "name": "油矿地质学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO169311020",
+          "name": "储层地质学及油气藏描述(全英文)",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151999",
+      "name": "张广智",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO211611031",
+          "name": "信号分析与处理",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a156245",
+      "name": "张福明",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO261911040",
+          "name": "地球物理测井",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152158",
+      "name": "张立强",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO163411025",
+          "name": "油田开发地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a152000",
+      "name": "张繁昌",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO211511011",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO211611031",
+          "name": "信号分析与处理",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO212412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a151852",
+      "name": "张锋",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO261011016",
+          "name": "测井方法与原理（核）",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO275311015",
+          "name": "智能地球物理探测概论",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151975",
+      "name": "徐凯军",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO222311018",
+          "name": "电法勘探",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO225211025",
+          "name": "工程与环境地球物理",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152160",
+      "name": "徐守余",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO160821030",
+          "name": "地质统计与建模",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO161021020",
+          "name": "工程地质勘察",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO161421010",
+          "name": "科技论文写作",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO166021020",
+          "name": "储层表征与建模",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-01-001",
+      "name": "徐明权",
+      "title": null,
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO173931020",
+          "name": "寻油中国：科技、历史与人文之旅",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152016",
+      "name": "操应长",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO211511011",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152026",
+      "name": "曲希玉",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122611049",
+          "name": "矿物岩石学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a331434",
+      "name": "曲江秀",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO162711046",
+          "name": "油气地质与勘探",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a161058",
+      "name": "曲英铭",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO211721030",
+          "name": "Python程序设计",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151971",
+      "name": "曹丹平",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO222221025",
+          "name": "地震资料综合解释",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151970",
+      "name": "曹文俊",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO211721030",
+          "name": "Python程序设计",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO222021030",
+          "name": "地震资料数字处理方法",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a438702",
+      "name": "朱丹",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO222911020",
+          "name": "重磁勘探",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO222911021",
+          "name": "重磁勘探",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a156239",
+      "name": "李伟",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO172011035",
+          "name": "地层学、地史学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151963",
+      "name": "李卿卿",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO210811040",
+          "name": "地球物理勘探",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a151867",
+      "name": "李召成",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO261911040",
+          "name": "地球物理测井",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a160052",
+      "name": "李吉君",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO320411030",
+          "name": "碳储地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152149",
+      "name": "李宝刚",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO160611010",
+          "name": "地震资料地质综合解释",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152010",
+      "name": "李理",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO110811040",
+          "name": "构造地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a331613",
+      "name": "李盛清",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO211611031",
+          "name": "信号分析与处理",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152134",
+      "name": "李福来",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO163411025",
+          "name": "油田开发地质学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO165831020",
+          "name": "自然灾害",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152133",
+      "name": "李红南",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO163411025",
+          "name": "油田开发地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151968",
+      "name": "杜启振",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO210511036",
+          "name": "弹性波动力学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a156283",
+      "name": "杨俊生",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0113499",
+          "name": "沉积学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a300146",
+      "name": "杨升宇",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO163521015",
+          "name": "油气资源评价",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a312761",
+      "name": "杨继东",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO220511031",
+          "name": "地球动力学基础",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a160055",
+      "name": "杨金秀",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO320411030",
+          "name": "碳储地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152131",
+      "name": "林腊梅",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO162921021",
+          "name": "非常规油气地质学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO163411026",
+          "name": "油田开发地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-01-002",
+      "name": "栗磊",
+      "title": null,
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO212412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152006",
+      "name": "梁超",
+      "title": "特任教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122011020",
+          "name": "海洋地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151960",
+      "name": "梁锴",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO210511036",
+          "name": "弹性波动力学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO223211026",
+          "name": "地球物理场论",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152115",
+      "name": "段忠丰",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO150121030",
+          "name": "工程地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152021",
+      "name": "汪必峰",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO110811041",
+          "name": "构造地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a392856",
+      "name": "沈奕",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO225211025",
+          "name": "工程与环境地球物理",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a160050",
+      "name": "王伟明",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO110311030",
+          "name": "地球科学概论",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO175411033",
+          "name": "地球科学概论",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151977",
+      "name": "王保丽",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO211611031",
+          "name": "信号分析与处理",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO269021020",
+          "name": "信号分析与处理",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152020",
+      "name": "王冠民",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO110311030",
+          "name": "地球科学概论",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-01-003",
+      "name": "王力禾",
+      "title": null,
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO212412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152163",
+      "name": "王奇",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO150321031",
+          "name": "石油地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152166",
+      "name": "王广伟",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO163411025",
+          "name": "油田开发地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a151855",
+      "name": "王新光",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0122999",
+          "name": "测井方法及综合解释",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO263311020",
+          "name": "原子核物理",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a151854",
+      "name": "王正楷",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO262411025",
+          "name": "电磁场论",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a400642",
+      "name": "王淼",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO171311040",
+          "name": "地球化学（含应用地球化学）",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a325803",
+      "name": "王磊",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0122999",
+          "name": "测井方法及综合解释",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO260911021",
+          "name": "测井方法与原理（电法）",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152164",
+      "name": "王金友",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO161521020",
+          "name": "录井地质学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO163411025",
+          "name": "油田开发地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152121",
+      "name": "田金强",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO125621020",
+          "name": "含油气盆地分析",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a152117",
+      "name": "程付启",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO173931020",
+          "name": "寻油中国：科技、历史与人文之旅",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152102",
+      "name": "章大港",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO110611040",
+          "name": "地质学基础",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO369511020",
+          "name": "地质学基础",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a160049",
+      "name": "肖佃师",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO261911040",
+          "name": "地球物理测井",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a433322",
+      "name": "胡万龙",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122611049",
+          "name": "矿物岩石学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a405267",
+      "name": "胡钦红",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a218273",
+      "name": "苏远大",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO261111016",
+          "name": "测井方法与原理（声波）",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO275311015",
+          "name": "智能地球物理探测概论",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a151841",
+      "name": "范宜仁",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO212412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a151840",
+      "name": "葛新民",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO263121020",
+          "name": "岩石物理基础",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a162306",
+      "name": "葸克来",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO110311030",
+          "name": "地球科学概论",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152105",
+      "name": "袁静",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a204727",
+      "name": "裴仰文",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO110811035",
+          "name": "构造地质学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a325986",
+      "name": "许启鲁",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO162711046",
+          "name": "油气地质与勘探",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a302924",
+      "name": "谭宝海",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO212412200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO262921032",
+          "name": "微控制器原理及接口技术",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151966",
+      "name": "谷丙洛",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO210921020",
+          "name": "地球物理勘探概论",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152101",
+      "name": "赵勇生",
+      "title": "讲师",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122121020",
+          "name": "环境地质学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO122611049",
+          "name": "矿物岩石学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a198934",
+      "name": "远光辉",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO110311030",
+          "name": "地球科学概论",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO122811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a151842",
+      "name": "邓少贵",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO260911021",
+          "name": "测井方法与原理（电法）",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO275311015",
+          "name": "智能地球物理探测概论",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a156238",
+      "name": "邱隆伟",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122611049",
+          "name": "矿物岩石学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO122811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a486664",
+      "name": "郝文星",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO123631020",
+          "name": "认识地球",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152075",
+      "name": "鄢继华",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO124021020",
+          "name": "岩相古地理学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a464975",
+      "name": "金超",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO273711020",
+          "name": "地球物理数据智能化分析",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-01-004",
+      "name": "闫月锋",
+      "title": null,
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO225211025",
+          "name": "工程与环境地球物理",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a152046",
+      "name": "陆诗阔",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO120711020",
+          "name": "大地构造学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO120821020",
+          "name": "大地构造学",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a168467",
+      "name": "陈中红",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO171311040",
+          "name": "地球化学（含应用地球化学）",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10381-a200362",
+      "name": "陈勇",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO120911031",
+          "name": "地球化学",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO122811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10382-a160057",
+      "name": "陈方文",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO161731020",
+          "name": "认识新能源",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO172621020",
+          "name": "新能源概论",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a302869",
+      "name": "陈雪莲",
+      "title": "副教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO262611020",
+          "name": "井筒声学基础",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10378-a212034",
+      "name": "韩同城",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO122811010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-01-005",
+      "name": "魏周拓",
+      "title": null,
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0122999",
+          "name": "测井方法及综合解释",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO261911040",
+          "name": "地球物理测井",
+          "collegeCode": "upc-01"
+        },
+        {
+          "code": "GEO266111020",
+          "name": "大数据技术与应用",
+          "collegeCode": "upc-01"
+        }
+      ]
+    },
+    {
+      "sourceId": "geori-c10380-a151965",
+      "name": "黄建平",
+      "title": "教授",
+      "collegeCode": "upc-01",
+      "campus": null,
+      "courses": [
+        {
+          "code": "GEO220711010",
+          "name": "地球物理学进展(双语)",
+          "collegeCode": "upc-01"
+        }
+      ]
+    }
+  ]
+}

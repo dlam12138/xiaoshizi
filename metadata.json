@@ -1,6 +1,5 @@
 {
-  "name": "西南交大教师评价与智能助手",
-  "description": "基于西南交通大学教师评价库的校园智能助手与个性化选课推荐系统",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "name": "石大评教",
+  "description": "中国石油大学（华东）教师评价平台，提供六维课堂反馈、教师检索与审核后公开评价。",
+  "requestFramePermissions": []
 }

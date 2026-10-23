@@ -1,0 +1,1478 @@
+{
+  "schemaVersion": 1,
+  "source": "https://cce.upc.edu.cn/2568/listm.htm",
+  "sourceLabel": "中国石油大学（华东）化学化工学院 教师队伍",
+  "checkedAt": "2026-10-22",
+  "method": "官方教师列表姓名 + 官方个人详情页标题姓名一致；sourceId 取自官方详情页文章路径，不由姓名生成",
+  "notes": [
+    "只保存姓名、职称、系室、官方页面 URL，不保存邮箱/电话等联系方式。",
+    "职称和系室优先取官方教师列表；列表缺失时取详情页。",
+    "未找到唯一官方详情页的教师不生成 sourceId，保留在 unresolved。"
+  ],
+  "verified": [
+    {
+      "name": "丁传芹",
+      "title": "讲师",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a365302",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365302/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "丁雪",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a365303",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365303/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "严文娟",
+      "title": "副教授",
+      "department": "化学实验中心",
+      "sourceId": "cce-c19261-a369373",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19261a369373/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "于剑峰",
+      "title": "讲师",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369226",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369226/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "于筱溪",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a369215",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369215/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "于英民",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a369216",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369216/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "于道永",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369310",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369310/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "任中飞",
+      "title": "特任副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a449795",
+      "profileUrl": "https://cce.upc.edu.cn/2025/0102/c19257a449795/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "何化",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369292",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369292/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "傅惠",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369218",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369218/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "冯锡兰",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369221",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369221/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "刘东",
+      "title": "教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a369249",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369249/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "刘义",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a382399",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0819/c19257a382399/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "刘会娥",
+      "title": "教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a365314",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365314/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "刘其友",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a369281",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369281/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "刘大鹏",
+      "title": "副教授",
+      "department": "化学实验中心",
+      "sourceId": "cce-c19260-a369353",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19260a369353/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "刘子媛",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a365316",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365316/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "刘宾",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19259-a369333",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369333/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "刘建国",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369296",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369296/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "刘振",
+      "title": "教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a365315",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365315/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "刘春爽",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a369279",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369279/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "刘欣梅",
+      "title": "教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a369210",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369210/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "刘芳",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a369280",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369280/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "刘金河",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19068-a360952",
+      "profileUrl": "https://cce.upc.edu.cn/2015/0603/c19068a360952/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "华琪",
+      "title": "特任副教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a446495",
+      "profileUrl": "https://cce.upc.edu.cn/2024/1122/c19256a446495/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "卢玉坤",
+      "title": "教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369238",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369238/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "卢磊",
+      "title": "讲师",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a369278",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369278/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "叶天旭",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19067-a360859",
+      "profileUrl": "https://cce.upc.edu.cn/2021/1201/c19067a360859/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "吕仁庆",
+      "title": "副教授",
+      "department": "化学实验中心",
+      "sourceId": "cce-c19260-a369354",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19260a369354/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "吴文婷",
+      "title": "教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a369261",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369261/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "吴萍萍",
+      "title": "副教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a369260",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369260/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "周亭",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369247",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369247/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "周玉路",
+      "title": "讲师",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369228",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369228/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "夏永清",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369306",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369306/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "夏薇",
+      "title": "教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a369262",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369262/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "姜磊",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369293",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369293/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "姜翠玉",
+      "title": "教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369235",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369235/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2024/0227/c17642a488360/pagem.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "孔德桢",
+      "title": "特任副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a450843",
+      "profileUrl": "https://cce.upc.edu.cn/2025/0219/c19257a450843/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "孙亚伟",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369299",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369299/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "孙兰义",
+      "title": "教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a369213",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369213/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "孙娟",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a369282",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369282/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "孙昭玥",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a469725",
+      "profileUrl": "https://cce.upc.edu.cn/2025/0902/c19257a469725/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "孙洪满",
+      "title": "副教授",
+      "department": "化学实验中心",
+      "sourceId": "cce-c19260-a369356",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19260a369356/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "孟亦飞",
+      "title": "讲师",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a429378",
+      "profileUrl": "https://cce.upc.edu.cn/2024/0422/c19257a429378/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "宋春敏",
+      "title": "教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a365317",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365317/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2024/0227/c17642a488360/pagem.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "宋林花",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369241",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369241/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "宗思宇",
+      "title": "讲师",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a482990",
+      "profileUrl": "https://cce.upc.edu.cn/2026/0120/c19255a482990/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "平平",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a428923",
+      "profileUrl": "https://cce.upc.edu.cn/2024/0418/c19257a428923/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "张予辉",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369233",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369233/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "张国栋",
+      "title": "讲师",
+      "department": "化学实验中心",
+      "sourceId": "cce-c19260-a369363",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19260a369363/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "张庆冬",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a369286",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369286/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "张强",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19259-a369339",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369339/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "张洪伟",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369246",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369246/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "张海鹏",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a369188",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369188/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "张金弘",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19259-a369329",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369329/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "张颖",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a365321",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365321/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "张龙力",
+      "title": "教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369220",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369220/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "彭志华",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369231",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369231/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "徐海",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369308",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369308/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "戚建楠",
+      "title": "讲师",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a482989",
+      "profileUrl": "https://cce.upc.edu.cn/2026/0120/c19255a482989/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "曲剑波",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369298",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369298/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "曹伟",
+      "title": "特任副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a471122",
+      "profileUrl": "https://cce.upc.edu.cn/2025/0916/c19255a471122/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "曹美文",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369290",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369290/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "曾景斌",
+      "title": "教授",
+      "department": "化学实验中心",
+      "sourceId": "cce-c19260-a369342",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19260a369342/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "李传",
+      "title": "教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a369209",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369209/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "李大伟",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19259-a369332",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369332/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "李慧",
+      "title": "讲师",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369294",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369294/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "李春义",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19259-a369331",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369331/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "李石",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a369276",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369276/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "李静",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369414",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0325/c19258a369414/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "李鹏",
+      "title": "副教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a369252",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369252/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "杨丽敏",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369309",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369309/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "杨修洁",
+      "title": "副教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a369264",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369264/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "杨军卫",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a369214",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369214/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "杨妲",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369232",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369232/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "杨普江",
+      "title": "讲师",
+      "department": "化学系",
+      "sourceId": "cce-c19067-a360853",
+      "profileUrl": "https://cce.upc.edu.cn/2015/0603/c19067a360853/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "林旭锋",
+      "title": "教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369222",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369222/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "柴永明",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19259-a369315",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369315/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "段红玲",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a365310",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365310/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "殷长龙",
+      "title": "副教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a369265",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369265/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "毕佳慧",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a420758",
+      "profileUrl": "https://cce.upc.edu.cn/2024/0112/c19255a420758/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "温聪颖",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369245",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369245/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "潘原",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19259-a369327",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369327/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王万里",
+      "title": "讲师",
+      "department": "化学工程系",
+      "sourceId": "cce-c2668-a46055",
+      "profileUrl": "https://cce.upc.edu.cn/2017/0226/c2668a46055/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王刚",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a369283",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369283/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王创业",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369229",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369229/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王子",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369244",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369244/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王小强",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369304",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369304/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王延臻",
+      "title": "教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a369259",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369259/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王敬贤",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19259-a369325",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369325/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王斌",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a398886",
+      "profileUrl": "https://cce.upc.edu.cn/2023/0321/c19254a398886/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王明",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a369284",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369284/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王晓娟",
+      "title": "副教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a369258",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369258/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王有和",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369230",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369230/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王栋",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369300",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369300/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王波",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c2668-a186919",
+      "profileUrl": "https://cce.upc.edu.cn/2018/1228/c2668a186919/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王淑涛",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369243",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369243/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王瑞",
+      "title": "讲师",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a484248",
+      "profileUrl": "https://cce.upc.edu.cn/2026/0309/c19255a484248/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王璞",
+      "title": "讲师",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a429186",
+      "profileUrl": "https://cce.upc.edu.cn/2024/0420/c19257a429186/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王生杰",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369302",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369302/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王秀凤",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369224",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369224/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王纯正",
+      "title": "教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a365318",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365318/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王继乾",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369301",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369301/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "王芳",
+      "title": "副教授",
+      "department": "化学实验中心",
+      "sourceId": "cce-c19260-a369358",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19260a369358/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "田原宇",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19259-a369317",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369317/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "白鹏",
+      "title": "教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a365383",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365383/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "石斌",
+      "title": "副教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a369257",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369257/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "罗辉",
+      "title": "副教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a369254",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369254/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "耿春香",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a369273",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369273/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "肖梓军",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369307",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369307/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "胡涵",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19259-a370615",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0328/c19259a370615/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "葛保胜",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a429096",
+      "profileUrl": "https://cce.upc.edu.cn/2024/0419/c19258a429096/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "董斌",
+      "title": "教授",
+      "department": "化学实验中心",
+      "sourceId": "cce-c19260-a369345",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19260a369345/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "覃兴龙",
+      "title": "特任副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a484613",
+      "profileUrl": "https://cce.upc.edu.cn/2026/0313/c19254a484613/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "覃正兴",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19259-a369328",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369328/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "赵玉荣",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369313",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369313/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "赵青山",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a369207",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19254a369207/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "邓文安",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19259-a369324",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19259a369324/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "邓深圳",
+      "title": "特任副教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a448991",
+      "profileUrl": "https://cce.upc.edu.cn/2024/1223/c19256a448991/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "郗丽君",
+      "title": "讲师",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369305",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369305/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "郭晓艳",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a365311",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365311/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "郭海玲",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19259-a370669",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0329/c19259a370669/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "郭爱军",
+      "title": "教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a369251",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369251/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "金鑫",
+      "title": "教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a365313",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365313/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "陈坤",
+      "title": "副教授",
+      "department": "应用化学系",
+      "sourceId": "cce-c19256-a369250",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19256a369250/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "陈永栋",
+      "title": "讲师",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a445957",
+      "profileUrl": "https://cce.upc.edu.cn/2024/1118/c19257a445957/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "陈爽",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a365405",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365405/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "陈翠霞",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369291",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369291/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "陈金庆",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c19254-a365309",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0323/c19254a365309/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "韩成友",
+      "title": "讲师",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369219",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369219/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "顾莹莹",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19257-a369274",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19257a369274/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "马丽爽",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a369240",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19255a369240/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "马占华",
+      "title": "副教授",
+      "department": "化学工程系",
+      "sourceId": "cce-c2668-a46014",
+      "profileUrl": "https://cce.upc.edu.cn/2017/0226/c2668a46014/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "马哲",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": "cce-c19255-a426574",
+      "profileUrl": "https://cce.upc.edu.cn/2024/0326/c19255a426574/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "马洪超",
+      "title": "副教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a369297",
+      "profileUrl": "https://cce.upc.edu.cn/2022/0324/c19258a369297/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    },
+    {
+      "name": "黄方",
+      "title": "教授",
+      "department": "环境与安全工程系",
+      "sourceId": "cce-c19258-a429377",
+      "profileUrl": "https://cce.upc.edu.cn/2024/0422/c19258a429377/page.htm",
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "checkedAt": "2026-10-22",
+      "status": "verified_official_detail"
+    }
+  ],
+  "unresolved": [
+    {
+      "name": "刘相",
+      "title": "讲师",
+      "department": "化学工程系",
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "status": "official_list_without_profile",
+      "reason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    },
+    {
+      "name": "史德青",
+      "title": null,
+      "department": null,
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": null,
+      "status": "no_official_profile",
+      "reason": "no official profile URL found",
+      "needed": [
+        "官方教师详情页或教工号",
+        "教师人事归属学院",
+        "确认是否为本校在岗教师"
+      ]
+    },
+    {
+      "name": "孙道峰",
+      "title": null,
+      "department": null,
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": null,
+      "status": "no_official_profile",
+      "reason": "no official profile URL found",
+      "needed": [
+        "官方教师详情页或教工号",
+        "教师人事归属学院",
+        "确认是否为本校在岗教师"
+      ]
+    },
+    {
+      "name": "张卫东",
+      "title": null,
+      "department": null,
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": null,
+      "status": "no_official_profile",
+      "reason": "no official profile URL found",
+      "needed": [
+        "官方教师详情页或教工号",
+        "教师人事归属学院",
+        "确认是否为本校在岗教师"
+      ]
+    },
+    {
+      "name": "徐永强",
+      "title": "副教授",
+      "department": "化学系",
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "status": "official_list_without_profile",
+      "reason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    },
+    {
+      "name": "赵会吉",
+      "title": "副教授",
+      "department": "应用化学系",
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "status": "official_list_without_profile",
+      "reason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    },
+    {
+      "name": "路帅",
+      "title": "高级实验师",
+      "department": "环境与安全工程系",
+      "sourceId": null,
+      "profileUrl": null,
+      "listUrl": "https://cce.upc.edu.cn/2568/listm.htm",
+      "status": "official_list_without_profile",
+      "reason": "official faculty list confirms the name but has no detail URL",
+      "needed": [
+        "可核实的官方教师详情页或教工号",
+        "教师人事归属学院"
+      ]
+    }
+  ],
+  "conflicts": []
+}

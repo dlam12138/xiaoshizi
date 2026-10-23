@@ -1,0 +1,993 @@
+{
+  "schemaVersion": 1,
+  "unit": "石油工程学院",
+  "collegeCode": "upc-02",
+  "courses": [
+    {
+      "key": "0201499",
+      "code": "0201499",
+      "name": "石油工程HSE",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "宫厚健",
+        "江琳",
+        "赵明伟"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0210599",
+      "code": "0210599",
+      "name": "气藏工程",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "孙仁远",
+        "杨永飞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0210899",
+      "code": "0210899",
+      "name": "渗流力学",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "陈付真"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0211299",
+      "code": "0211299",
+      "name": "岩石力学",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "朱丽红"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0212199",
+      "code": "0212199",
+      "name": "油藏数值模拟基础",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "张伟",
+        "李亚军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0212699",
+      "code": "0212699",
+      "name": "油水井增产增注技术",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "刘拥赞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0230199",
+      "code": "0230199",
+      "name": "油田化学",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "吴一宁",
+        "江琳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0230399",
+      "code": "0230399",
+      "name": "提高采收率原理",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "孙永鹏",
+        "杨红斌"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0230499",
+      "code": "0230499",
+      "name": "油气层保护技术",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "江琳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "0231499",
+      "code": "0231499",
+      "name": "应用物理化学",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张丽媛",
+        "金家锋"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE110221020",
+      "code": "SPE110221020",
+      "name": "定向钻井理论与技术",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "黄根炉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE110421010",
+      "code": "SPE110421010",
+      "name": "科技论文检索与写作",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘永旺",
+        "庞学玉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE110621020",
+      "code": "SPE110621020",
+      "name": "石油工程概论",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "杜殿发",
+        "陈德春",
+        "鲍丙生"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE110821020",
+      "code": "SPE110821020",
+      "name": "油气田环境保护",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "宫厚健",
+        "王彦玲"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE111021020",
+      "code": "SPE111021020",
+      "name": "钻井新技术",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "倪红坚",
+        "宋洵成"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE111121020",
+      "code": "SPE111121020",
+      "name": "多相管流理论与计算",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "刘陈伟",
+        "张黎明",
+        "王卫阳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE111221020",
+      "code": "SPE111221020",
+      "name": "气藏工程",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "姚同玉",
+        "樊冬艳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE111411020",
+      "code": "SPE111411020",
+      "name": "工程概论与HSE管理",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 28,
+      "teacherNames": [
+        "刘逸飞",
+        "吴飞鹏",
+        "周童",
+        "张卫东",
+        "曹杰",
+        "朱丽红",
+        "杜殿发",
+        "王京印",
+        "王富华",
+        "赵欣",
+        "陈铭",
+        "黄维安"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE111721020",
+      "code": "SPE111721020",
+      "name": "国际能源学术交流",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "刘拥赞",
+        "李蕾",
+        "王明波"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE111921020",
+      "code": "SPE111921020",
+      "name": "水射流理论与应用",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王明波"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE112011020",
+      "code": "SPE112011020",
+      "name": "石油工业与碳中和",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 28,
+      "teacherNames": [
+        "倪红坚",
+        "刘树阳",
+        "周童",
+        "张卫东",
+        "李美春",
+        "王子振",
+        "王富华",
+        "王金堂",
+        "郑俊杰",
+        "陈泽华",
+        "黄贤斌",
+        "黎剑"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE113412200",
+      "code": "SPE113412200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "周晓东",
+        "张浩",
+        "杨琪硕",
+        "王静",
+        "贾寒"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE114921020",
+      "code": "SPE114921020",
+      "name": "油气人工智能概论",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "刘永旺",
+        "姚传进",
+        "孙文跃",
+        "徐建春"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE121111030",
+      "code": "SPE121111030",
+      "name": "胶体界面化学",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "孙明波",
+        "宫厚健"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE121221020",
+      "code": "SPE121221020",
+      "name": "固井理论与技术",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "庞学玉",
+        "郭胜来"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE121421021",
+      "code": "SPE121421021",
+      "name": "泡沫理论与采油技术",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "李宾飞",
+        "李松岩"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE121621020",
+      "code": "SPE121621020",
+      "name": "清洁能源与储能技术",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘永旺",
+        "黄勇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE121811030",
+      "code": "SPE121811030",
+      "name": "渗流力学",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 48,
+      "teacherNames": [
+        "严侠",
+        "侯健",
+        "吕爱民",
+        "姚传进",
+        "孙晓飞",
+        "孙海",
+        "李亚军",
+        "李明川",
+        "李淑霞",
+        "李蕾",
+        "杜庆军",
+        "杜殿发",
+        "杨永飞",
+        "樊冬艳",
+        "王建忠",
+        "袁彬"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE122121020",
+      "code": "SPE122121020",
+      "name": "石油工业概论",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张卫东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE122121030",
+      "code": "SPE122121030",
+      "name": "石油工业概论",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张卫东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE122711020",
+      "code": "SPE122711020",
+      "name": "天然气开采与安全",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "冯国强",
+        "刘陈伟",
+        "李宾飞",
+        "王卫阳",
+        "罗明良",
+        "董长银",
+        "郭天魁",
+        "陈德春"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE122921020",
+      "code": "SPE122921020",
+      "name": "现代试井解释原理",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "吴明录"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE123011010",
+      "code": "SPE123011010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 64,
+      "teacherNames": [
+        "刘德新",
+        "刘拥赞",
+        "刘永旺",
+        "吴飞鹏",
+        "姚传进",
+        "姚军",
+        "孙海",
+        "崔传智",
+        "廖华林",
+        "张锐",
+        "张黎明",
+        "徐加放",
+        "李宾飞",
+        "李松岩",
+        "杜殿发",
+        "王卫阳",
+        "王子振",
+        "王森",
+        "王金堂",
+        "白英睿",
+        "罗明良",
+        "董长银",
+        "许玉强",
+        "谷建伟",
+        "贾寒",
+        "赵光",
+        "赵明伟",
+        "郭胜来",
+        "闫传梁",
+        "陈德春",
+        "黄维安"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE123211020",
+      "code": "SPE123211020",
+      "name": "岩石力学",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 34,
+      "teacherNames": [
+        "庞学玉",
+        "廖华林",
+        "王京印",
+        "许玉强",
+        "金业权",
+        "闫传梁",
+        "韩忠英",
+        "黄勇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE123321020",
+      "code": "SPE123321020",
+      "name": "岩石力学",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王京印"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE124111025",
+      "code": "SPE124111025",
+      "name": "油层物理",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "孙仁远",
+        "张磊"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE124221020",
+      "code": "SPE124221020",
+      "name": "油气层保护技术",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "黄维安",
+        "黎剑"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE124311025",
+      "code": "SPE124311025",
+      "name": "油气田开发工程",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "孙致学",
+        "李明川",
+        "范海军"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE124411037",
+      "code": "SPE124411037",
+      "name": "油气田开发基础",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 12,
+      "teacherNames": [
+        "姚同玉",
+        "张纪远",
+        "王森",
+        "田伟兵"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE124611020",
+      "code": "SPE124611020",
+      "name": "油田化学",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 48,
+      "teacherNames": [
+        "刘德新",
+        "刘敬平",
+        "吕开河",
+        "孙明波",
+        "戴彩丽",
+        "李琳",
+        "李美春",
+        "江琳",
+        "王业飞",
+        "白英睿",
+        "葛际江",
+        "贾寒",
+        "赵明伟",
+        "黄维安"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE124821020",
+      "code": "SPE124821020",
+      "name": "油田污水处理",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "宫厚健",
+        "王彦玲"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE125421020",
+      "code": "SPE125421020",
+      "name": "钻井地质环境描述",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 3,
+      "teacherNames": [
+        "陈泽华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE125621020",
+      "code": "SPE125621020",
+      "name": "钻井液工艺原理",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "刘敬平",
+        "江琳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE126521021",
+      "code": "SPE126521021",
+      "name": "Matlab编程技术",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "吴明录"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE131131020",
+      "code": "SPE131131020",
+      "name": "中外石油文化",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 1,
+      "teacherNames": [
+        "张卫东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE132421020",
+      "code": "SPE132421020",
+      "name": "油气高效完井技术",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "白莉",
+        "董长银"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE132721020",
+      "code": "SPE132721020",
+      "name": "有杆抽油系统与智能调控",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "周童",
+        "陈德春"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE133321020",
+      "code": "SPE133321020",
+      "name": "天然气开采与安全",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "薛建泉",
+        "隋义勇"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE133641020",
+      "code": "SPE133641020",
+      "name": "油层物理",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "姚同玉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE133741027",
+      "code": "SPE133741027",
+      "name": "智能油气开采工程",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "刘拥赞",
+        "王卫阳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE133941027",
+      "code": "SPE133941027",
+      "name": "智能钻完井工程",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "宋洵成"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE134311020",
+      "code": "SPE134311020",
+      "name": "油气高效完井举升理论与技术",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "董长银",
+        "陈德春"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE134711020",
+      "code": "SPE134711020",
+      "name": "高等渗流力学",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "姚军",
+        "孙海"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE136741020",
+      "code": "SPE136741020",
+      "name": "石油工业与碳中和",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "杨红斌",
+        "郑俊杰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE137221020",
+      "code": "SPE137221020",
+      "name": "传热学",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "刘树阳",
+        "张丽媛",
+        "张伟",
+        "钟俊杰"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE138511030",
+      "code": "SPE138511030",
+      "name": "人工智能模型与算法",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "严侠",
+        "张黎明"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE138941020",
+      "code": "SPE138941020",
+      "name": "油气人工智能概论",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 9,
+      "teacherNames": [
+        "刘树阳",
+        "吴明录",
+        "周童",
+        "樊冬艳"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE410111020",
+      "code": "SPE410111020",
+      "name": "高等流体力学",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘玉泉"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE410421020",
+      "code": "SPE410421020",
+      "name": "流体力学模拟与实验",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "王晓璞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE410511020",
+      "code": "SPE410511020",
+      "name": "工程流体力学",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "付静",
+        "刘树阳",
+        "高慧"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE410511030",
+      "code": "SPE410511030",
+      "name": "工程流体力学",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 8,
+      "teacherNames": [
+        "付静",
+        "刘成文",
+        "李爱华"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE410611020",
+      "code": "SPE410611020",
+      "name": "海洋平台与工程环境",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "王腾"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE411011030",
+      "code": "SPE411011030",
+      "name": "海洋油气化学工程",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "徐加放",
+        "王晓璞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE420721020",
+      "code": "SPE420721020",
+      "name": "海洋石油工程",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "刘峻嵘",
+        "张剑波"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE421021020",
+      "code": "SPE421021020",
+      "name": "海洋油气测试技术",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "徐建春"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE421211030",
+      "code": "SPE421211030",
+      "name": "海洋油气井工作液及环保",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "徐加放",
+        "王晓璞"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE421511020",
+      "code": "SPE421511020",
+      "name": "海洋油气作业管理",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "刘均荣"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE421821020",
+      "code": "SPE421821020",
+      "name": "深水油气开发概论",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张剑波",
+        "徐建春"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE422111010",
+      "code": "SPE422111010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 6,
+      "teacherNames": [
+        "徐加放",
+        "钟杰",
+        "高永海"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE438711020",
+      "code": "SPE438711020",
+      "name": "工程概论与HSE管理",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "尹邦堂",
+        "陈立涛"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE438912200",
+      "code": "SPE438912200",
+      "name": "心理健康与职业发展（2-2）",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 2,
+      "teacherNames": [
+        "张浩"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE520311020",
+      "code": "SPE520311020",
+      "name": "地下储碳储能数值模拟方法",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "张伟",
+        "王文东"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE521011010",
+      "code": "SPE521011010",
+      "name": "新生研讨课",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 4,
+      "teacherNames": [
+        "王文东",
+        "贾寒"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE521321020",
+      "code": "SPE521321020",
+      "name": "专业外语",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 7,
+      "teacherNames": [
+        "刘陈伟",
+        "宋洵成",
+        "陈付真"
+      ],
+      "excludedReason": null
+    },
+    {
+      "key": "SPE539061021",
+      "code": "SPE539061021",
+      "name": "石油工业与碳中和",
+      "collegeCode": "upc-02",
+      "sourceBlocks": 5,
+      "teacherNames": [
+        "王子振",
+        "黄贤斌"
+      ],
+      "excludedReason": null
+    }
+  ]
+}

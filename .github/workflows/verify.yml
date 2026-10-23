@@ -1,0 +1,33 @@
+name: Verify UPC
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            server/package-lock.json
+      - run: npm ci
+      - run: npm --prefix server ci
+      - run: npm run schema:build
+      - name: Check generated SQL is committed
+        run: git diff --exit-code -- supabase_schema.sql supabase/upc-init.sql supabase/seed/upc-colleges.sql
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build
+      - run: npm run test:server

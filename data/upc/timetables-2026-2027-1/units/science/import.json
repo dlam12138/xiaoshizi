@@ -1,0 +1,2802 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-science-2026-2027-1-timetable-20261023",
+  "source": "课表/理学院/课表打印.xls sha256:fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "sci-c6868-a97157",
+      "name": "于娟",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7078-a96331",
+      "name": "于红",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0941299",
+          "name": "大学物理实验2-2",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC710112200",
+          "name": "大学物理实验(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6873-a96507",
+      "name": "侯英敏",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6936-a96254",
+      "name": "刘丙辰",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211911020",
+          "name": "线性代数",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC212311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7069-a96417",
+      "name": "刘云杰",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710111010",
+          "name": "大学物理实验",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC710212200",
+          "name": "基础物理实验(2-2)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC764612210",
+          "name": "物理与工程实验（2-2）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7091-a96271",
+      "name": "刘伟华",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710111010",
+          "name": "大学物理实验",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC720112100",
+          "name": "普通物理实验(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7023-a96723",
+      "name": "刘健",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC523311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC523521030",
+          "name": "原子核物理",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC524741031",
+          "name": "量子力学",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6924-a96233",
+      "name": "刘军",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC253221010",
+          "name": "数学实验",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC260921030",
+          "name": "数据库原理与应用",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6970-a96344",
+      "name": "刘冰",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC522321030",
+          "name": "能源物理多尺度模拟",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6995-a97150",
+      "name": "刘学锋",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC522111030",
+          "name": "力学",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC523411010",
+          "name": "学科前沿知识专题讲座",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6926-a96235",
+      "name": "刘新海",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC253011031",
+          "name": "矩阵理论",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC262611020",
+          "name": "数值计算与实验",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC263321031",
+          "name": "矩阵理论",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-12-001",
+      "name": "刘珊",
+      "title": null,
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6980-a96293",
+      "name": "刘素美",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112201",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7006-a97030",
+      "name": "刘超卓",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC464912240",
+          "name": "物理与工程力学（2-2）",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC523931016",
+          "name": "两弹一星精神选讲",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC524131020",
+          "name": "走近核科学技术",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6946-a130744",
+      "name": "单娴",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC212111030",
+          "name": "线性代数",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC212411035",
+          "name": "线性代数与解析几何",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6887-a96744",
+      "name": "吕川",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211911020",
+          "name": "线性代数",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC251012101",
+          "name": "数学分析Ⅰ",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6867-a97158",
+      "name": "吕炜",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110111040",
+          "name": "高等数学",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC110112101",
+          "name": "高等数学（经管类）（2-1）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6912-a96270",
+      "name": "吕锋",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC251011040",
+          "name": "数学分析Ⅲ",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6957-a130730",
+      "name": "吴国丽",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC210511020",
+          "name": "复变函数",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6893-a96677",
+      "name": "吴淑君",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6877-a96448",
+      "name": "吴瑞华",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112101",
+          "name": "高等数学（经管类）（2-1）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6965-a130885",
+      "name": "吴霜",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211111030",
+          "name": "概率论与数理统计",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7005-a97029",
+      "name": "周丽霞",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC564511020",
+          "name": "物理光学",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7018-a97126",
+      "name": "周伟",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC510111030",
+          "name": "原子物理学",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6983-a96309",
+      "name": "周勇",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112200",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7071-a96343",
+      "name": "周小岩",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710111010",
+          "name": "大学物理实验",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC710112200",
+          "name": "大学物理实验(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6961-a130725",
+      "name": "周峰",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211111020",
+          "name": "概率论与数理统计",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7061-a96516",
+      "name": "姚琦",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6879-a96370",
+      "name": "孙建国",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC212311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6882-a96401",
+      "name": "孙新国",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-12-002",
+      "name": "孙清滢",
+      "title": null,
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC251012100",
+          "name": "数学分析(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6923-a96228",
+      "name": "孙玉花",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC250521030",
+          "name": "近世代数",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC262411030",
+          "name": "信息论基础",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-12-003",
+      "name": "宁文杰",
+      "title": null,
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC252411030",
+          "name": "最优化方法",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC260621032",
+          "name": "离散数学",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6755-a461574",
+      "name": "宋允全",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211111030",
+          "name": "概率论与数理统计",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC322611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7011-a97071",
+      "name": "宋新祥",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC266921030",
+          "name": "信息论基础",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC620231020",
+          "name": "从世纪之争到量子通信",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC666011030",
+          "name": "光电信息与信号处理",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c22605-a488475",
+      "name": "宝天琦",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710112200",
+          "name": "大学物理实验(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7067-a96407",
+      "name": "尹教建",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0941299",
+          "name": "大学物理实验2-2",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC764612210",
+          "name": "物理与工程实验（2-2）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6973-a96352",
+      "name": "展凯云",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC664711030",
+          "name": "光学中的数学方法",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7064-a96419",
+      "name": "崔璐",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC210811020",
+          "name": "复变函数与积分变换",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6871-a96513",
+      "name": "左文杰",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC250212101",
+          "name": "高等代数Ⅰ",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC266611040",
+          "name": "高等代数I",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC322611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6949-a130741",
+      "name": "常秦",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC221011030",
+          "name": "统计计算",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7057-a96396",
+      "name": "张亚萍",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710112200",
+          "name": "大学物理实验(2-2)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC710212200",
+          "name": "基础物理实验(2-2)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC720112100",
+          "name": "普通物理实验(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC764612210",
+          "name": "物理与工程实验（2-2）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7073-a96327",
+      "name": "张令坦",
+      "title": "高级实验师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC720221020",
+          "name": "实验误差与数据处理",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6870-a96509",
+      "name": "张会娜",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC267111055",
+          "name": "数学分析I",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6979-a96295",
+      "name": "张伟伟",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112200",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6920-a96226",
+      "name": "张健",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC265411030",
+          "name": "实变函数",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6950-a130734",
+      "name": "张凤荣",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211911020",
+          "name": "线性代数",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7019-a97148",
+      "name": "张刚",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC622111020",
+          "name": "激光原理与技术",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC622611032",
+          "name": "微机检测技术与系统",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6907-a96614",
+      "name": "张华清",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC310521020",
+          "name": "大数据概论",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC310621030",
+          "name": "人工智能",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6938-a96175",
+      "name": "张建松",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211111030",
+          "name": "概率论与数理统计",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC212311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6959-a130728",
+      "name": "张敏",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC210121030",
+          "name": "泛函分析",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC211111030",
+          "name": "概率论与数理统计",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6967-a96105",
+      "name": "张新红",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC210911041",
+          "name": "概率论",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6960-a130727",
+      "name": "张景明",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC212111030",
+          "name": "线性代数",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6888-a96685",
+      "name": "张海军",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6975-a96340",
+      "name": "张立红",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112200",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC410112201",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6874-a96447",
+      "name": "张艳华",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC321911031",
+          "name": "数据分析与统计软件",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC322321020",
+          "name": "数据融合与同化",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6984-a96307",
+      "name": "彭爱华",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112202",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7001-a96194",
+      "name": "徐先锋",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC666011030",
+          "name": "光电信息与信号处理",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6971-a96289",
+      "name": "徐志杰",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112201",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC464912240",
+          "name": "物理与工程力学（2-2）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7002-a97153",
+      "name": "房文静",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC522321030",
+          "name": "能源物理多尺度模拟",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6885-a96748",
+      "name": "排新颖",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7079-a96306",
+      "name": "方恒忠",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC521221031",
+          "name": "广义相对论基础",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC523721020",
+          "name": "专业外语",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC523831020",
+          "name": "天文漫谈",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC568431020",
+          "name": "探寻宇宙的秘密—从哥白尼到霍金",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6854-a96176",
+      "name": "施章磊",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC252411020",
+          "name": "最优化方法",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC252521020",
+          "name": "最优化方法",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6863-a96152",
+      "name": "智红燕",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6978-a96281",
+      "name": "曲晓波",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112200",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6966-a130884",
+      "name": "曹晓敏",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211111020",
+          "name": "概率论与数理统计",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7007-a97031",
+      "name": "曹贞斌",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC522711040",
+          "name": "数学物理方法及应用",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC523831010",
+          "name": "从爱因斯坦到霍金的宇宙",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6977-a96300",
+      "name": "朱化凤",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112202",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6954-a130733",
+      "name": "朱同帅",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC567912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7059-a96360",
+      "name": "朱海丰",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0941299",
+          "name": "大学物理实验2-2",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC710112100",
+          "name": "大学物理实验(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC710112200",
+          "name": "大学物理实验(2-2)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC764612210",
+          "name": "物理与工程实验（2-2）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7076-a96334",
+      "name": "李东霞",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710112200",
+          "name": "大学物理实验(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7000-a96193",
+      "name": "李代林",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC621411020",
+          "name": "光学系统设计",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7010-a97072",
+      "name": "李媛媛",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410111030",
+          "name": "大学物理",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC410112201",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC521321030",
+          "name": "核电站原理与系统",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6881-a96399",
+      "name": "李小平",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC110112200",
+          "name": "R高等数学(2-2)重修",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC110112201",
+          "name": "R高等数学(2-2)重修",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6939-a130717",
+      "name": "李明",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0910399",
+          "name": "线性代数",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC211111030",
+          "name": "概率论与数理统计",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6884-a96404",
+      "name": "李洪芳",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6948-a130739",
+      "name": "李燕",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211911020",
+          "name": "线性代数",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6886-a96746",
+      "name": "李磊",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6976-a96337",
+      "name": "李红",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112202",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6860-a96123",
+      "name": "李锋杰",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211911020",
+          "name": "线性代数",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7072-a96330",
+      "name": "李静",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710111010",
+          "name": "大学物理实验",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC710112100",
+          "name": "大学物理实验(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC710112200",
+          "name": "大学物理实验(2-2)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC710212200",
+          "name": "基础物理实验(2-2)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC720112100",
+          "name": "普通物理实验(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC764612210",
+          "name": "物理与工程实验（2-2）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7012-a97076",
+      "name": "杜永刚",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC620421020",
+          "name": "固体物理基础",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7009-a97070",
+      "name": "杨喜峰",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC520521020",
+          "name": "传感器原理及应用",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c21779-a450115",
+      "name": "杨广武",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710112200",
+          "name": "大学物理实验(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7070-a96345",
+      "name": "杨新建",
+      "title": "高级实验师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0941299",
+          "name": "大学物理实验2-2",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6922-a96229",
+      "name": "杨蕾",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC251511010",
+          "name": "数学实验",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC311321020",
+          "name": "数学建模",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6925-a96230",
+      "name": "柳毓松",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC321211035",
+          "name": "机器学习",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6876-a96449",
+      "name": "梁锡军",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC320511030",
+          "name": "大数据分析与挖掘",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6916-a96277",
+      "name": "殷海青",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC252411030",
+          "name": "最优化方法",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC252411031",
+          "name": "最优化方法",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC252521030",
+          "name": "最优化方法",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC260421030",
+          "name": "矩阵理论与计算",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC322421030",
+          "name": "数字图像处理",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6872-a96502",
+      "name": "江玲玲",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC322421030",
+          "name": "数字图像处理",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7008-a97068",
+      "name": "江萍",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC622421020",
+          "name": "纳米光学及应用",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC667231020",
+          "name": "光行天下",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6993-a97125",
+      "name": "焦志勇",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC620311020",
+          "name": "工程概论",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC622111030",
+          "name": "激光原理与技术",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-12-004",
+      "name": "牛其华",
+      "title": null,
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0911199",
+          "name": "高等数学2-1",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6917-a96276",
+      "name": "牟海宁",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211911020",
+          "name": "线性代数",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC251911030",
+          "name": "数值计算方法",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC267311010",
+          "name": "数学专业实验",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6861-a96139",
+      "name": "王娟",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6955-a130732",
+      "name": "王媛媛",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC210811020",
+          "name": "复变函数与积分变换",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6994-a97149",
+      "name": "王宁",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC620311020",
+          "name": "工程概论",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC621111020",
+          "name": "光通信原理与技术",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7074-a96323",
+      "name": "王文新",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710112200",
+          "name": "大学物理实验(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7022-a97130",
+      "name": "王涛",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC621221020",
+          "name": "光纤传感技术",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC623011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6999-a96192",
+      "name": "王玉斗",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC522621030",
+          "name": "渗流物理学",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6909-a96262",
+      "name": "王艳",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC251012100",
+          "name": "数学分析(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC261211055",
+          "name": "数学分析(A)I",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6933-a96030",
+      "name": "王艳",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211021020",
+          "name": "概率论与数理统计",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC211111020",
+          "name": "概率论与数理统计",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC250111031",
+          "name": "常微分方程",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC251511010",
+          "name": "数学实验",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7063-a96384",
+      "name": "王茂槐",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112202",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6915-a96278",
+      "name": "王际朝",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC212311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC262611020",
+          "name": "数值计算与实验",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6862-a96149",
+      "name": "王静",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7085-a96296",
+      "name": "王龙",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710111010",
+          "name": "大学物理实验",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC720112100",
+          "name": "普通物理实验(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7027-a96701",
+      "name": "琚敏",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC510111015",
+          "name": "原子物理学",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC521321030",
+          "name": "核电站原理与系统",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC565021020",
+          "name": "信息论基础",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC567912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7096-a96263",
+      "name": "田咏桃",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710111010",
+          "name": "大学物理实验",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC720112100",
+          "name": "普通物理实验(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-12-005",
+      "name": "田方",
+      "title": null,
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC262212200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC366812200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC567912200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC666112200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-12-006",
+      "name": "田璐璐",
+      "title": null,
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC251911030",
+          "name": "数值计算方法",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6987-a96196",
+      "name": "田艳杰",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0931299",
+          "name": "大学物理2-2",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC410112202",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6903-a96624",
+      "name": "申淑谦",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC212311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC250212101",
+          "name": "高等代数Ⅰ",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC266611040",
+          "name": "高等代数I",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7021-a97137",
+      "name": "白芬",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC622111020",
+          "name": "激光原理与技术",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC623211031",
+          "name": "应用光学",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7054-a96562",
+      "name": "盛海龙",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC310321032",
+          "name": "并行计算与分布式计算",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6890-a96679",
+      "name": "石丽娜",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6918-a96274",
+      "name": "石仁刚",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC311321020",
+          "name": "数学建模",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7058-a96413",
+      "name": "程剑波",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710112200",
+          "name": "大学物理实验(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6855-a96450",
+      "name": "纪凤辉",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0911199",
+          "name": "高等数学2-1",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC110112200",
+          "name": "R高等数学(2-2)重修",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC110112201",
+          "name": "R高等数学(2-2)重修",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6892-a96676",
+      "name": "纪艳菊",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC110112101",
+          "name": "高等数学（经管类）（2-1）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6889-a96687",
+      "name": "胡哲",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6928-a96241",
+      "name": "芮杰",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC212311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC250321020",
+          "name": "计算方法",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC250411020",
+          "name": "计算方法",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC251911030",
+          "name": "数值计算方法",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6963-a130722",
+      "name": "葛菊",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211111020",
+          "name": "概率论与数理统计",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6990-a96209",
+      "name": "董梅峰",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112200",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6988-a96198",
+      "name": "董鹏",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112202",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6972-a96339",
+      "name": "袁顺东",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112100",
+          "name": "大学物理(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC410112201",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7088-a96297",
+      "name": "许令周",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710112200",
+          "name": "大学物理实验(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6864-a96154",
+      "name": "许晓婕",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC211311040",
+          "name": "概率论与数理统计",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC323031020",
+          "name": "数学文化",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6902-a96621",
+      "name": "谢雪涛",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211911020",
+          "name": "线性代数",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC212021020",
+          "name": "线性代数",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6996-a97020",
+      "name": "贾玉磊",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC522111030",
+          "name": "力学",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC621821020",
+          "name": "激光测量技术",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6982-a96302",
+      "name": "贾翠萍",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0941299",
+          "name": "大学物理实验2-2",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6891-a96683",
+      "name": "赵旭波",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC262411030",
+          "name": "信息论基础",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6919-a96224",
+      "name": "赵春娥",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC250711041",
+          "name": "离散数学",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6974-a96364",
+      "name": "赵莉",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112200",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6878-a96376",
+      "name": "邢丽丽",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6911-a96272",
+      "name": "邵红梅",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC251012101",
+          "name": "数学分析Ⅰ",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7089-a96275",
+      "name": "邹俭英",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710111010",
+          "name": "大学物理实验",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6981-a96305",
+      "name": "郑海霞",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112200",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC521011040",
+          "name": "电动力学",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6910-a96261",
+      "name": "郝彬彬",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC251012100",
+          "name": "数学分析(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC253221010",
+          "name": "数学实验",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC261211055",
+          "name": "数学分析(A)I",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6896-a96674",
+      "name": "郭会",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC212311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC250911030",
+          "name": "数理方程",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC251911030",
+          "name": "数值计算方法",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7068-a96410",
+      "name": "郭雅慧",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "0941299",
+          "name": "大学物理实验2-2",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC710111010",
+          "name": "大学物理实验",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC720112100",
+          "name": "普通物理实验(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6998-a96191",
+      "name": "闫向宏",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC410112200",
+          "name": "大学物理(2-2)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC522111030",
+          "name": "力学",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC523311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6900-a96616",
+      "name": "闫统江",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC212311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC262212200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6930-a96325",
+      "name": "阮宗利",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC364111030",
+          "name": "大数据采集与可视化",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7004-a97021",
+      "name": "陈东猛",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC520911030",
+          "name": "电磁学",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC522211040",
+          "name": "量子力学",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6899-a96638",
+      "name": "陈华",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC320311031",
+          "name": "并行计算与分布式计算",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC322111020",
+          "name": "数据科学与大数据技术导论",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC322611010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC364821025",
+          "name": "人工智能数学基础",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC366812200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6875-a96446",
+      "name": "陈永刚",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC110112100",
+          "name": "高等数学(2-1)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7065-a96424",
+      "name": "隋宏光",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710112200",
+          "name": "大学物理实验(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7003-a97152",
+      "name": "韩国霞",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC623011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC623211031",
+          "name": "应用光学",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC666112200",
+          "name": "心理健康与职业发展（2-2）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7080-a96303",
+      "name": "马秀波",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710112200",
+          "name": "大学物理实验(2-2)",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7060-a96431",
+      "name": "马红章",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710112100",
+          "name": "大学物理实验(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC710112200",
+          "name": "大学物理实验(2-2)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC764522100",
+          "name": "大学物理实验(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC764612210",
+          "name": "物理与工程实验（2-2）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6962-a130726",
+      "name": "高永丽",
+      "title": "讲师",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC211911020",
+          "name": "线性代数",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC321911031",
+          "name": "数据分析与统计软件",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6914-a96266",
+      "name": "高理平",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC250411020",
+          "name": "计算方法",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC251511010",
+          "name": "数学实验",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6997-a96210",
+      "name": "魏宝君",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC521011040",
+          "name": "电动力学",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC665811020",
+          "name": "光的电磁理论",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c7081-a96310",
+      "name": "魏淑贤",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC710112101",
+          "name": "大学物理实验(2-1)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC710212200",
+          "name": "基础物理实验(2-2)",
+          "collegeCode": "upc-12"
+        },
+        {
+          "code": "SCC764612210",
+          "name": "物理与工程实验（2-2）",
+          "collegeCode": "upc-12"
+        }
+      ]
+    },
+    {
+      "sourceId": "sci-c6921-a96225",
+      "name": "鲍文娣",
+      "title": "副教授",
+      "collegeCode": "upc-12",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SCC250611021",
+          "name": "空间解析几何",
+          "collegeCode": "upc-12"
+        }
+      ]
+    }
+  ]
+}

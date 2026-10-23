@@ -1,0 +1,1906 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-economics-management-2026-2027-1-timetable-20261023",
+  "source": "课表/经济管理学院/课表打印 (1).xls sha256:f63cec51a55573f1e37931563fb6c3677de879786bbab9df5698b360c3a1a7fc; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "sem-cv-ea93386a-79ea-412d-b993-ec5b3d438ba9",
+      "name": "丁红燕",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM320911036",
+          "name": "高级财务会计",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-1bd66041-ae4f-4d44-a3dd-4d1d75990be2",
+      "name": "于莎莎",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM110311020",
+          "name": "技术经济学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-1e9ebb5c-f635-4fc1-978a-3439f3bf4ac8",
+      "name": "付代红",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM224911020",
+          "name": "创业基础与实践",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-1aede01e-a6df-4046-bc43-8a4f4f89df32",
+      "name": "付峰",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM121011031",
+          "name": "工程项目管理",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-bdf974a2-2ae9-4b3d-a868-3166f22c9e98",
+      "name": "付芳",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM110121020",
+          "name": "工程项目管理",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-b62b4d48-10b4-4043-8b5b-f82f88046139",
+      "name": "何立华",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM125321020",
+          "name": "绿色建筑与可持续发展",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM125411030",
+          "name": "工程施工技术与组织",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-a60cbdc1-189e-4fe9-aa75-ab58880b855d",
+      "name": "冯磊",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM224911020",
+          "name": "创业基础与实践",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM410221020",
+          "name": "管理学基础",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-ce24c77d-c3aa-451c-b3c3-2e70ba46803b",
+      "name": "刘丙泉",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM222511020",
+          "name": "信息资源管理",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-8e572493-cac4-47de-a7e1-5d428b1d90d6",
+      "name": "刘宗明",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM531511030",
+          "name": "中级计量经济学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-02517d70-6c2f-4dde-81f0-9e346d6ec7d0",
+      "name": "刘广生",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM320821020",
+          "name": "高级财务管理",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM323311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM330921020",
+          "name": "财务成本管理",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-587da83b-9dce-4982-b4ad-a49e649adc67",
+      "name": "刘志斌",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM422211020",
+          "name": "消费者行为学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM422421020",
+          "name": "营销建模与数据挖掘",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM435661021",
+          "name": "营销建模与数据挖掘",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-5560833b-a9fa-49b6-b61e-d4a721a2d58a",
+      "name": "刘慧",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM328811030",
+          "name": "F4-Corporate and Business Law",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM520411020",
+          "name": "当代中国经济",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM522711020",
+          "name": "经济学专题问题研究",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-2f11b2cd-9d27-440e-b6ed-402ee203be7c",
+      "name": "刘玲",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM132721020",
+          "name": "工程信息管理",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-bf0f8a3c-02a7-44a0-8f80-b3388e3958c2",
+      "name": "刘福东",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM322621020",
+          "name": "政府与非营利组织会计",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM328511030",
+          "name": "F2-Management Accounting",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-562623bb-e35d-474a-a1bd-e6a18133c81c",
+      "name": "刘素荣",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM310211030",
+          "name": "管理统计学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-eb7b3415-d532-488c-a90b-b330361a045f",
+      "name": "刘苇",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM223011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM229711020",
+          "name": "管理信息系统（英文）",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-1dd24d64-34f7-431d-9cba-46e2f54b3991",
+      "name": "刘赟",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM236511020",
+          "name": "大数据管理与应用概论",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM236611030",
+          "name": "数据库原理与应用",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-4b0975b2-034e-4fbc-a079-5d24d3cb005e",
+      "name": "刘锴",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM310111030",
+          "name": "财务管理学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM321021021",
+          "name": "公司战略与风险管理",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-22859229-9031-4648-a6fe-1783b58153c9",
+      "name": "厉松芮",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM125411030",
+          "name": "工程施工技术与组织",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM128121020",
+          "name": "现代能源系统",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-0e192212-c535-4504-9551-6ca1559b3110",
+      "name": "吕肖东",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM421511020",
+          "name": "商业伦理",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-722caf18-dff6-445f-849f-2c391c9919b0",
+      "name": "周鹏",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM120911031",
+          "name": "工程经济学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-f8c165e2-7371-4433-a87e-c80ebbbd93ed",
+      "name": "孙燕芳",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM321611026",
+          "name": "基础会计学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-a325a1c0-25ec-4185-907a-8b80557d9838",
+      "name": "孙瑞华",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM510121025",
+          "name": "国际贸易",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM522711020",
+          "name": "经济学专题问题研究",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM524931020",
+          "name": "国际贸易基础",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM532521030",
+          "name": "国际贸易理论与实务",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM532931020",
+          "name": "世界变局与中国开放",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-2c518dfe-9544-40d4-aae5-9d53b71498f8",
+      "name": "孙金凤",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM211421020",
+          "name": "现代管理科学前沿",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM229711020",
+          "name": "管理信息系统（英文）",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-d568b96e-ccb0-467c-aef0-8710ad6e7296",
+      "name": "孟凡一",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM510211025",
+          "name": "宏观经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM522711020",
+          "name": "经济学专题问题研究",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM523321020",
+          "name": "能源经济学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-ba106325-378d-4618-920d-9c7de9494fc4",
+      "name": "安贵鑫",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM220711025",
+          "name": "管理系统建模与仿真",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM220711026",
+          "name": "管理系统建模与仿真",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-b885fd9a-6728-4dca-906a-d6d44b8dfaac",
+      "name": "宋伟",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM435461020",
+          "name": "新媒体营销",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-a804f18e-570b-40f7-9909-bcc3c2277c48",
+      "name": "宋杰鲲",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM110711010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM121011030",
+          "name": "工程项目管理",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM121321020",
+          "name": "公文写作与处理",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-12a78c41-5ce0-47df-8f85-fd2471b1c33a",
+      "name": "崔琦",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM521421020",
+          "name": "国际能源合作",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM522711020",
+          "name": "经济学专题问题研究",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM531311020",
+          "name": "经济史",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM532931020",
+          "name": "世界变局与中国开放",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-eb2f1104-9cd5-42bf-9233-f594d1da7425",
+      "name": "崔耕",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM220911020",
+          "name": "决策理论与方法",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-950c3c47-7997-488b-84aa-76f315af27a6",
+      "name": "左马华青",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM526611040",
+          "name": "经济学原理",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-3408ef3e-e967-44b3-9e62-baf836f5e102",
+      "name": "张妍",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM433821020",
+          "name": "分销渠道管理",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-025414d5-b1f6-4801-aa21-b94138bc400a",
+      "name": "张明明",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM523211031",
+          "name": "能源经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM533611020",
+          "name": "能源金融",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-b8e257eb-b710-45d0-a475-c9d3df049774",
+      "name": "张樨樨",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM421311021",
+          "name": "人力资源管理",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-ff79807d-c7c0-436d-b29c-d42ce15357fb",
+      "name": "张涛",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM121521031",
+          "name": "管理系统工程",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-f1329a3e-c750-4903-ad34-cd225743718a",
+      "name": "张艳婷",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM310111031",
+          "name": "财务管理学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-c43696af-072b-4076-bfeb-123d8c8c6687",
+      "name": "张雪慧",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM510311041",
+          "name": "微观经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM524531015",
+          "name": "创造性思维与创新方法",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-13e08c36-b624-4342-b8e2-2959f5762bd1",
+      "name": "张露平",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM228411021",
+          "name": "数据结构与算法",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-a564d984-94bc-4033-bc08-fac298d05ff2",
+      "name": "张音",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM434021020",
+          "name": "品牌策划与推广",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-e3c66415-f8c6-4895-81d7-b25da77a2512",
+      "name": "张鸿雁",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM128721020",
+          "name": "能源与社会",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-6a5ea250-3844-4b3f-810d-222d1ceffdcf",
+      "name": "徐凌",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM322421030",
+          "name": "统计分析与软件应用",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-3e11fbc3-028f-40ea-9953-10c6ed2c2c28",
+      "name": "徐小峰",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM129011020",
+          "name": "高级运筹学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-db738133-84ca-4bcd-862e-999a385ad4b6",
+      "name": "徐梅",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM321211030",
+          "name": "国家税收",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-bfd61db6-5efb-4cc6-9936-0405f6275ec1",
+      "name": "李亮",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM320711020",
+          "name": "大数据与智能会计",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-330aa2a4-1755-444f-a249-686184cc7e45",
+      "name": "李文斌",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM224911020",
+          "name": "创业基础与实践",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-c41d4467-1e08-4f6e-be9f-e69596cc5479",
+      "name": "李永波",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM522711020",
+          "name": "经济学专题问题研究",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM525511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM532411030",
+          "name": "中级微观经济学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-5a21ab2e-596b-4f5d-ba09-f94578def909",
+      "name": "李治国",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM525511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-f2ac4254-e4f3-472e-a2ea-d7bf733172a7",
+      "name": "李玉萍",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM324311030",
+          "name": "F6-Taxation",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-9a7b591c-8c7e-4014-9c0b-0609a8e896d2",
+      "name": "李秀娥",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM510211025",
+          "name": "宏观经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM510211030",
+          "name": "宏观经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM525511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM532931020",
+          "name": "世界变局与中国开放",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-e7109ed2-3873-4130-8c02-9ae2da78baf7",
+      "name": "李荣荣",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-2e0c8eb9-109e-4e77-a250-8b9234abe594",
+      "name": "杨光",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM110121020",
+          "name": "工程项目管理",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM122211020",
+          "name": "经济法与建设法规",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-df9a6f3a-30a3-4673-8e92-fced57be157d",
+      "name": "杨兴寿",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM222021020",
+          "name": "信息经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM222411031",
+          "name": "信息系统开发工具与方法",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-2f800668-5b53-4d7b-8bd3-3eb75603fd73",
+      "name": "杨坚",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM510311041",
+          "name": "微观经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM522711020",
+          "name": "经济学专题问题研究",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM523421020",
+          "name": "区域经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM532731020",
+          "name": "当代中国经济问题评析",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM532931020",
+          "name": "世界变局与中国开放",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-11-001",
+      "name": "杨坤",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM322421030",
+          "name": "统计分析与软件应用",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-5cdb5885-8c0c-4d2d-b6ce-63270a0de0a3",
+      "name": "杨磊",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM522611020",
+          "name": "经济学说思想史",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-a080728d-67a4-4f2c-b0f0-5c19f3d61634",
+      "name": "栾琨",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM434731020",
+          "name": "心理学与生活",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-80e2fdf9-e79b-417d-a186-99d0867695c5",
+      "name": "梁岩",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM110311020",
+          "name": "技术经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM224911020",
+          "name": "创业基础与实践",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-5b033d57-f12b-4fc8-a961-04a4dd67ab34",
+      "name": "殷爱贞",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM321411021",
+          "name": "会计学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-43b746fd-4fe1-443f-839b-3fcf49cf60ac",
+      "name": "江玮滢",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM326311030",
+          "name": "F5-Performance Management",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-5f544ed7-6fd6-4f80-8864-7a373bfa5c81",
+      "name": "渐令",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM110711010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM210621020",
+          "name": "智能优化算法",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM211421020",
+          "name": "现代管理科学前沿",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM220911020",
+          "name": "决策理论与方法",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM223011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-69ef7e98-5f04-4feb-9fb4-e808f6084d7b",
+      "name": "王丛",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM521921020",
+          "name": "金融市场学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM533611020",
+          "name": "能源金融",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM533711020",
+          "name": "投资学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-9ee56831-44dc-4220-b174-a6f166c1bfdd",
+      "name": "王信敏",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM221121021",
+          "name": "能源大数据处理与分析",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM223011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM229111020",
+          "name": "大数据分析",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-f03c5e57-6c60-44f2-b2e4-25efdf7741d3",
+      "name": "王军",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM523911031",
+          "name": "政治经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM524531020",
+          "name": "经济学与生活",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM525931020",
+          "name": "经济学基础",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-f46ab28a-9f42-425c-9abc-90cf60c5ad68",
+      "name": "王军会",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM323311010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM331311030",
+          "name": "F1-Business and Technology",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-7b27b8be-b540-4243-87f1-7e66336f01ef",
+      "name": "王勇",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM323121020",
+          "name": "资产评估",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-1a44e1a2-f6e4-41a7-ae1d-3d1e2d53c6cb",
+      "name": "王宁宁",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM110711010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM111111020",
+          "name": "生产运作管理",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM223011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-a8e6a39e-74c8-44d6-9f99-28fcda51539d",
+      "name": "王强",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM211421020",
+          "name": "现代管理科学前沿",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-31699ae9-e97e-4c42-942e-50075b367122",
+      "name": "王文雅",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM128121020",
+          "name": "现代能源系统",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM134761021",
+          "name": "现代能源系统",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM221511020",
+          "name": "商务智能综合实训",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-2b6e301d-9039-4d90-9296-a5c8b0eb6033",
+      "name": "王爱玲",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM224911020",
+          "name": "创业基础与实践",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-e77119dd-ff7a-42b3-ab1a-86d766acc2a0",
+      "name": "王玲玲",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM420311020",
+          "name": "定价策略",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM434211020",
+          "name": "人工智能与数字营销",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-36503a78-1821-4120-858c-8bf24c60a845",
+      "name": "王芳芳",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM510621020",
+          "name": "资源与环境经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM523521020",
+          "name": "人口、资源与环境经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM531011020",
+          "name": "碳市场与碳交易",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM531141020",
+          "name": "碳市场与碳交易",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-39e19b67-056e-4743-a4f9-3dd7c0ad7965",
+      "name": "王菊娥",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM224911020",
+          "name": "创业基础与实践",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM522511020",
+          "name": "经济法",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-787f99bc-c29a-4a01-bbb8-113734799181",
+      "name": "王辉",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM110221020",
+          "name": "技术经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM110311020",
+          "name": "技术经济学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-28278dc0-184c-4785-bd85-d554aa8fc6e0",
+      "name": "田玉英",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM125511020",
+          "name": "工程合同管理",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-890b7fd3-bc6f-4970-a20a-525f94c8b7d3",
+      "name": "田雪峰",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM321311020",
+          "name": "会计理论与前沿专题",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM322712100",
+          "name": "中级财务会计(2-1)",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM328611030",
+          "name": "F3-Financial Accounting",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-968873cb-aa1b-4f83-ae8d-faf273288e7a",
+      "name": "白春光",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM110711010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM223011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM236511020",
+          "name": "大数据管理与应用概论",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-8a53466a-f120-4b6a-868d-bd063a5ca20f",
+      "name": "白洋",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM110311020",
+          "name": "技术经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM223011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-96222c2f-7953-4f4d-bbda-8bb80e9e854d",
+      "name": "相林",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM128721020",
+          "name": "能源与社会",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM521421020",
+          "name": "国际能源合作",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-a1dfce70-9156-4305-9b8c-b1a830b7d6b3",
+      "name": "胡晓娟",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM436611020",
+          "name": "大数据采集与预处理",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-5434e442-1f60-4c3d-a567-d9907990673b",
+      "name": "苏辉",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-8aeec2d5-574c-4a47-bbc0-ed92b2768cb7",
+      "name": "范丽伟",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM223011010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-055a8615-7224-47e0-8b6c-1b286047268c",
+      "name": "范水清",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM421421010",
+          "name": "商务礼仪",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM422511020",
+          "name": "战略管理",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-c99a8b10-a1d4-41e3-bbdd-a414f6bf0637",
+      "name": "袁梦琪",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM110311020",
+          "name": "技术经济学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-9b15738c-f64b-45d9-a530-7966345db9c1",
+      "name": "赵海平",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM129711010",
+          "name": "文献阅读与开题报告",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM211421020",
+          "name": "现代管理科学前沿",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-f329e3ff-fbba-464e-820b-bccd21a68307",
+      "name": "车诚",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-110e8bd0-e5f9-4e44-9d24-7fcb40856cc7",
+      "name": "邓忆瑞",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM110621030",
+          "name": "运筹学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM129511020",
+          "name": "管理科学研究方法",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM233511020",
+          "name": "客户关系管理",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-0029068e-20a4-4449-8b35-e3734654c524",
+      "name": "邢伟",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM126821020",
+          "name": "生产运作管理",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM129511020",
+          "name": "管理科学研究方法",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-8ba72bb4-6c15-42b0-aaee-4f61679a3c27",
+      "name": "郝增亮",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-04dff57c-e690-4cb7-b7da-451539daa55a",
+      "name": "郭宁宁",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM224911020",
+          "name": "创业基础与实践",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-92d58a53-50a5-4fa3-abc6-2c201509f4e6",
+      "name": "闻雯",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM120911030",
+          "name": "工程经济学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-7476bfe9-b3c4-4c64-87c5-bebc6eae00e5",
+      "name": "陈映彤",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM523211031",
+          "name": "能源经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM533611020",
+          "name": "能源金融",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-17797574-adc1-4448-9e0f-217dffd5ee9d",
+      "name": "陈晨",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM221011026",
+          "name": "面向对象程序设计",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-ca854184-06f7-4194-bda3-c25742ed49d6",
+      "name": "陈月璇",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM110311020",
+          "name": "技术经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM120411020",
+          "name": "工程估价",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-c75725f0-0155-4b8e-8aad-ff5695d1a395",
+      "name": "霍江林",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM522711020",
+          "name": "经济学专题问题研究",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM525511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM530721020",
+          "name": "金融学基础",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM533711020",
+          "name": "投资学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-3bbc582b-d0ed-4f55-93f3-71feaf466bd7",
+      "name": "韩民",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM521921020",
+          "name": "金融市场学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-cbfa44dd-06f7-4681-9792-4584309f67ad",
+      "name": "马志强",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM121011030",
+          "name": "工程项目管理",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-10f87fff-842c-4534-827d-be3f65bdc7d4",
+      "name": "马颖",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM510211025",
+          "name": "宏观经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM510211030",
+          "name": "宏观经济学",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM521811031",
+          "name": "计量经济学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-5011c55d-cd19-44b9-a5a3-4cf56ac00711",
+      "name": "高学贤",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM210121030",
+          "name": "供应链与物流管理",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-477a91a1-c8c2-493e-9f28-c367508f809f",
+      "name": "高新伟",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM521521020",
+          "name": "国际商务谈判",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-cv-96e2d4ec-2a5a-45f2-bc91-472e167de64a",
+      "name": "黄昶生",
+      "title": null,
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM434811020",
+          "name": "管理心理学",
+          "collegeCode": "upc-11"
+        }
+      ]
+    },
+    {
+      "sourceId": "sem-c13294-a185398",
+      "name": "齐建民",
+      "title": "教授",
+      "collegeCode": "upc-11",
+      "campus": null,
+      "courses": [
+        {
+          "code": "SEM234311020",
+          "name": "创新创业基础与实践",
+          "collegeCode": "upc-11"
+        },
+        {
+          "code": "SEM321911010",
+          "name": "商业伦理与会计道德",
+          "collegeCode": "upc-11"
+        }
+      ]
+    }
+  ]
+}

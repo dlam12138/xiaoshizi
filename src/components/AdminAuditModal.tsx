@@ -7,11 +7,12 @@ import { Review, Teacher } from '../types';
 import { 
   X, ShieldCheck, CheckCircle2, XCircle, AlertTriangle, 
   Search, Filter, Clock, Eye, Trash2, Send, Lock, UserCheck, Sparkles, MessageSquare,
-  Users, UserPlus, Database, RefreshCw, Check, Copy, UserCog, Plus
+  Users, UserPlus, Database, RefreshCw, Check, Copy, UserCog
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { checkSensitiveContent } from '../utils/sensitiveFilter';
 import { supabaseService } from '../services/supabaseService';
+import { UPC_APP_NAME } from '../config/upc';
 
 interface AdminAuditModalProps {
   isOpen: boolean;
@@ -95,7 +96,7 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
   const [reviewRevision, setReviewRevision] = useState(0);
   const [reviewCounts, setReviewCounts] = useState({ pending: 0, approved: 0, rejected: 0 });
   const reviewPage = usePagedQuery<Review>(JSON.stringify([currentUserId, currentTab, searchKeyword]),
-    (page, signal) => supabaseService.getReviewsPage({ status: currentTab, query: searchKeyword, page }, signal),
+    (page, signal) => supabaseService.getAdminReviewsPage({ status: currentTab, query: searchKeyword, page }, signal),
     isSupabaseConfigured && isOpen && isAdminAuthenticated && activeSection === 'reviews', reviewRevision);
   const reviews = isSupabaseConfigured ? reviewPage.items : initialReviews;
   useEffect(() => {
@@ -156,7 +157,7 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
     const success = await supabaseService.addAdminUser(
       newAdminEmail.trim(),
       newAdminRole,
-      newAdminNickname.trim() || '评教审核员'
+      newAdminNickname.trim() || '反馈审核员'
     );
 
     if (success) {
@@ -179,7 +180,7 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
 
   const copyMigrationInstructions = async (kind: 'schema' | 'rls') => {
     // SQL is versioned in the repository; never distribute alternate, weaker policies.
-    await navigator.clipboard.writeText('请按 docs/supabase-p1-migration.md 执行版本化数据库迁移。现有数据库先运行 supabase/preflight.sql 核对结构，不要使用旧版快捷修复 SQL。');
+    await navigator.clipboard.writeText('请按 docs/upc-database.md 和 supabase/upc-init.sql 的完整顺序初始化独立 UPC 项目；不要在已有业务库上重复执行建表片段，也不要使用旧校迁移或快捷修复 SQL。');
     if (kind === 'schema') setCopiedSql(true); else setCopiedRlsSql(true);
     setTimeout(() => { setCopiedSql(false); setCopiedRlsSql(false); }, 2000);
   };
@@ -204,61 +205,6 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
       onRefreshReviews();
     }
   }, [isOpen]);
-
-  const handleCreateTestReview = async () => {
-    setIsRefreshingReviews(true);
-    try {
-      const firstTeacher = teachers[0];
-      const offering = firstTeacher?.courseOfferings?.[0];
-      
-      // Get current authenticated user
-      const authUser = await supabaseService.getCurrentUser();
-      const resolvedUid = authUser?.id || currentUserId;
-
-      if (!resolvedUid) {
-        showToast('error', '生成待审评价失败：请先登录管理员账号，安全策略需要关联有效用户身份。');
-        return;
-      }
-
-      const testRev: Review = {
-        id: `rev_test_${Date.now()}`,
-        teacherId: firstTeacher?.id || 't_001',
-        courseId: offering?.courseId,
-        courseName: offering?.courseName || firstTeacher?.courses[0] || '高等数学 (测试待审样本)',
-        yearTerm: '2024-2025第1学期',
-        dimensions: {
-          attendanceStrictness: 3,
-          gradingLeniency: 5,
-          effortMatters: 4,
-          workloadDifficulty: 3,
-          approachability: 5,
-          teachingQuality: 5,
-        },
-        comment: '（这是一条测试待审核评价）老师授课条理极其清晰，期末还会重点答疑。给分很公道，平时作业认真完成就能拿优秀！',
-        authorNickname: '交大测评小助手',
-        status: 'pending',
-        userId: resolvedUid,
-        createdAt: new Date().toISOString(),
-        likes: 0,
-      };
-
-      const res = await supabaseService.submitReview(testRev);
-      if (!res.success) {
-        showToast('error', `生成测试评价未成功：${res.message || '请检查数据库权限'}`);
-        return;
-      }
-
-      showToast('success', '已成功生成一条模拟待审评价！');
-      if (onRefreshReviews) {
-        await onRefreshReviews();
-      }
-    } catch (err: any) {
-      showToast('error', `生成失败: ${err?.message || '未知异常'}`);
-    } finally {
-      setIsRefreshingReviews(false);
-      setReviewRevision(value => value + 1);
-    }
-  };
 
   // Status counts
   const pendingCount = isSupabaseConfigured ? reviewCounts.pending : reviews.filter((r) => r.status === 'pending').length;
@@ -339,14 +285,14 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
             <div>
               <div className="flex flex-wrap items-center gap-2">
                 <h3 className="text-base font-bold tracking-tight text-white">
-                  西南交大选课评教 · 管理工作台
+                  {UPC_APP_NAME} · 管理工作台
                 </h3>
                 <span className="px-2 py-0.5 rounded-full text-3xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
                   {adminRole === 'super_admin' ? '超管权限' : '审核权限'}
                 </span>
               </div>
               <p className="text-xs text-slate-400">
-                严格把关评教内容 · 动态管理审核团队名单 (Supabase 数据库驱动)
+                严格把关反馈内容 · 动态管理审核团队名单 (Supabase 数据库驱动)
               </p>
             </div>
           </div>
@@ -368,7 +314,7 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
                   }`}
                 >
                   <MessageSquare className="w-3.5 h-3.5" />
-                  <span>评教审核</span>
+                  <span>反馈审核</span>
                   {pendingCount > 0 && (
                     <span className="px-1.5 py-0.2 bg-amber-500 text-slate-950 rounded-full text-4xs font-black">
                       {pendingCount}
@@ -504,7 +450,7 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
                   <input
                     type="email"
                     required
-                    placeholder="如: admin@swjtu.edu.cn 或 stu@swjtu.edu.cn"
+                    placeholder="如: admin@example.edu.cn"
                     value={newAdminEmail}
                     onChange={(e) => setNewAdminEmail(e.target.value)}
                     className="w-full px-3 py-2 text-xs rounded-xl border border-gray-200 focus:outline-none focus:border-indigo-600 bg-gray-50 focus:bg-white"
@@ -515,7 +461,7 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
                   <label className="text-xs font-semibold text-gray-700">审核员备注昵称</label>
                   <input
                     type="text"
-                    placeholder="如: 学工处李老师 / 评教组长"
+                    placeholder="如: 学工处李老师 / 反馈审核组长"
                     value={newAdminNickname}
                     onChange={(e) => setNewAdminNickname(e.target.value)}
                     className="w-full px-3 py-2 text-xs rounded-xl border border-gray-200 focus:outline-none focus:border-indigo-600 bg-gray-50 focus:bg-white"
@@ -709,7 +655,7 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
                   onClick={handleManualRefresh}
                   disabled={isRefreshingReviews}
                   className="flex items-center gap-1.5 px-3 py-1.5 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-xl text-xs font-semibold transition-all shrink-0 disabled:opacity-50"
-                  title="重新从 Supabase 云端拉取最新评教与待审数据"
+                  title="重新从 Supabase 云端拉取最新反馈与待审数据"
                 >
                   <RefreshCw className={`w-3.5 h-3.5 ${isRefreshingReviews ? 'animate-spin text-indigo-600' : ''}`} />
                   <span>刷新数据</span>
@@ -740,11 +686,11 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
                   </div>
                   <div>
                     <h5 className="text-sm font-bold text-gray-800">
-                      {currentTab === 'pending' ? '当前暂无待审核评教' : '暂无匹配的评价记录'}
+                      {currentTab === 'pending' ? '当前暂无待审核反馈' : '暂无匹配的评价记录'}
                     </h5>
                     <p className="text-xs text-gray-400 mt-1">
                       {currentTab === 'pending'
-                        ? '当有学子提交新的课程评教时，系统将汇总至此供您审批公示。'
+                        ? '当有学子提交新的课堂反馈时，系统将汇总至此供您审批公示。'
                         : '您可以通过上方筛选查看其他状态分类。'}
                     </p>
                   </div>
@@ -768,14 +714,6 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
                         <span>{copiedRlsSql ? '已复制迁移说明' : '复制数据库迁移说明'}</span>
                       </button>
 
-                      <button
-                        onClick={handleCreateTestReview}
-                        disabled={isRefreshingReviews}
-                        className="w-full py-1.5 bg-white hover:bg-amber-100/70 text-amber-900 border border-amber-300/80 rounded-xl text-xs font-semibold transition-all flex items-center justify-center gap-1.5 shadow-2xs disabled:opacity-50"
-                      >
-                        <Plus className="w-3.5 h-3.5 text-amber-700" />
-                        <span>一键生成模拟待审评价 (用于验证审批流)</span>
-                      </button>
                     </div>
                   )}
                 </div>

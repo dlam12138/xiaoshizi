@@ -1,0 +1,1286 @@
+{
+  "schemaVersion": 1,
+  "unit": "体育教学部",
+  "collegeCode": "upc-16",
+  "candidates": [
+    {
+      "name": "于晓红",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-002",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "于晓红"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘高强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a452667",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2025/0319/c7644a452667/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2025/0319/c7644a452667/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7644/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a452667",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "史海鹏",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-003",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "史海鹏"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吕娜",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-004",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "吕娜"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a414402",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1024/c7644a414402/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1024/c7644a414402/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7642/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a414402",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114301",
+        "UPE122031010",
+        "UPE125511010"
+      ],
+      "courseNames": [
+        "体育（4-3）",
+        "新生研讨课",
+        "羽毛球"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周吉兰",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-005",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "周吉兰"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "商勇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a414456",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1025/c7644a414456/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1025/c7644a414456/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7642/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a414456",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "夏娇阳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a414464",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1025/c7644a414464/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1025/c7644a414464/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7643/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a414464",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姜庆林",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-006",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "姜庆林"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE125511010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孔勇",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a418562",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1215/c7644a418562/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1215/c7644a418562/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7644/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a418562",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋清",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-007",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "宋清"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋述光",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7645-a414415",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1024/c7645a414415/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1024/c7645a414415/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7643/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7645-a414415",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE125511010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "尤洋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a414467",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1025/c7644a414467/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1025/c7644a414467/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7644/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a414467",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114101",
+        "UPE125511010"
+      ],
+      "courseNames": [
+        "体育（4-1）",
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张晓明",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a418983",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1221/c7644a418983/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1221/c7644a418983/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7644/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a418983",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "彭双发",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a418565",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1215/c7644a418565/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1215/c7644a418565/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7644/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a418565",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "曹伟",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-001",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "曹伟"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李仁熙",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-008",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "李仁熙"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李承伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a414439",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1025/c7644a414439/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1025/c7644a414439/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7643/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a414439",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE125511010"
+      ],
+      "courseNames": [
+        "新生研讨课"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李振",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a482363",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2026/0109/c7644a482363/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2026/0109/c7644a482363/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7644/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a482363",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114301",
+        "UPE123111020"
+      ],
+      "courseNames": [
+        "体育（4-3）",
+        "运动解剖学(2-1)"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李新",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a418563",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1215/c7644a418563/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1215/c7644a418563/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7644/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a418563",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨宏",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-009",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "杨宏"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "林明贵",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-010",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "林明贵"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "梁国强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a418564",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1215/c7644a418564/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1215/c7644a418564/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7644/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a418564",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "梁莎莎",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-011",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "梁莎莎"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "欧阳勇强",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-012",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "欧阳勇强"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "焦喜便",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-013",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "焦喜便"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "牛静",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-014",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "牛静"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "牟小刚",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-015",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "牟小刚"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王子贤",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-016",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "王子贤"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王峰",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-017",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "王峰"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王成国",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-018",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "王成国"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王海燕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a443793",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2024/1025/c7644a443793/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2024/1025/c7644a443793/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7644/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a443793",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114101",
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-1）",
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王燕珍",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a418567",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1215/c7644a418567/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1215/c7644a418567/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7644/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a418567",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "窦兆波",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7645-a414414",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1024/c7645a414414/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1024/c7645a414414/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7645/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7645-a414414",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "翁炀晖",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-019",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "翁炀晖"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "胡洋",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7644-a418560",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1215/c7644a418560/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1215/c7644a418560/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7644/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7644-a418560",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114101",
+        "UPE120531010"
+      ],
+      "courseNames": [
+        "乒乓球",
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "谢小英",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-020",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "谢小英"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵岑",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-021",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "赵岑"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵延敏",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-022",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "赵延敏"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵晶晶",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-023",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "赵晶晶"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵莹莹",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-024",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "赵莹莹"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114101",
+        "UPE122931020"
+      ],
+      "courseNames": [
+        "体育（4-1）",
+        "运动营养与体态管理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "韩蕾",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-16-025",
+      "title": null,
+      "collegeCode": "upc-16",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "体育教学部",
+        "sourceFile": "课表/体育教学部/课表打印.xls",
+        "sourceSha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+        "rawNames": [
+          "韩蕾"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "UPE110114101"
+      ],
+      "courseNames": [
+        "体育（4-1）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "高千里",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sports-c7645-a414411",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "profileUrl": "http://sports.upc.edu.cn/2023/1024/c7645a414411/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://sports.upc.edu.cn/2023/1024/c7645a414411/page.htm",
+        "listUrl": "http://sports.upc.edu.cn/7645/list.htm",
+        "listedUnits": [
+          "体育教学部"
+        ],
+        "sourceId": "sports-c7645-a414411",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "UPE110114301"
+      ],
+      "courseNames": [
+        "体育（4-3）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

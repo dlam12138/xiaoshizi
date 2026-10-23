@@ -1,8 +1,8 @@
 import React from 'react';
-import { Search, Sliders, User, BookOpen, LayoutGrid } from 'lucide-react';
+import { Search, User, BookOpen, LayoutGrid } from 'lucide-react';
 import { motion } from 'motion/react';
 
-export type NavTab = 'home' | 'search' | 'services' | 'recommend' | 'profile';
+export type NavTab = 'home' | 'search' | 'services' | 'profile';
 
 interface BottomNavProps {
   currentTab: NavTab;
@@ -19,7 +19,6 @@ export const BottomNav: React.FC<BottomNavProps> = ({
     { id: 'home', label: '首页', icon: BookOpen },
     { id: 'search', label: '教师库', icon: Search },
     { id: 'services', label: '服务', icon: LayoutGrid },
-    { id: 'recommend', label: '智能选课', icon: Sliders },
     { id: 'profile', label: '我的', icon: User },
   ];
 

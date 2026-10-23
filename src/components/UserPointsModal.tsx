@@ -53,7 +53,7 @@ export const UserPointsModal: React.FC<UserPointsModalProps> = ({
               <Coins className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="text-lg font-bold text-gray-900">交大积分中心</h3>
+              <h3 className="text-lg font-bold text-gray-900">石大积分中心</h3>
               <p className="text-xs text-gray-500">签到、评价奖励与积分流水</p>
             </div>
           </div>
@@ -121,7 +121,7 @@ export const UserPointsModal: React.FC<UserPointsModalProps> = ({
             </div>
 
             <div className="pt-4 mt-4 border-t border-gray-700/60 flex items-center justify-between text-xs text-gray-300 relative z-10">
-              <span>商业模式：暂不收现金，靠评价共享社区共建</span>
+              <span>公益共建：查老师与六维评分永久免费</span>
               <motion.button
                 whileTap={{ scale: 0.92 }}
                 onClick={() => {
@@ -148,18 +148,17 @@ export const UserPointsModal: React.FC<UserPointsModalProps> = ({
                   + 获取途径
                 </span>
                 <p className="text-gray-600 text-2xs">✍️ 写评价审核通过：<strong>+20 分</strong> (主渠道)</p>
-                <p className="text-gray-600 text-2xs">📅 每日登录/签到：<strong>+5 分</strong></p>
-                <p className="text-gray-600 text-2xs">🤝 邀请校友注册：<strong>+10 分</strong></p>
+                <p className="text-gray-600 text-2xs">📅 每日签到：<strong>+5 分</strong></p>
+                <p className="text-gray-600 text-2xs">🎁 首次注册：<strong>+100 分</strong></p>
               </div>
 
               <div className="p-2.5 bg-white rounded-xl border border-gray-200/80 space-y-1">
-                <span className="font-semibold text-gray-800 text-2xs block text-amber-600">
-                  - 消耗规则
+                <span className="font-semibold text-gray-800 text-2xs block text-emerald-600">
+                  一期免费范围
                 </span>
-                <p className="text-gray-600 text-2xs">🤖 AI 自然语言提问：<strong>2 分/次</strong></p>
-                <p className="text-gray-600 text-2xs">🎯 偏好加权智能推荐：<strong>3 分/次</strong></p>
-                <p className="text-gray-600 text-2xs">📖 经验攻略内容：<strong>5 分/篇</strong></p>
-                <p className="text-gray-600 text-2xs">📢 教务网通知/查老师：<strong>永久免费</strong></p>
+                <p className="text-gray-600 text-2xs">🔎 教师检索与详情：<strong>永久免费</strong></p>
+                <p className="text-gray-600 text-2xs">📊 六维评分与评价阅读：<strong>永久免费</strong></p>
+                <p className="text-gray-600 text-2xs">💡 当前没有积分消费项目</p>
               </div>
             </div>
           </div>

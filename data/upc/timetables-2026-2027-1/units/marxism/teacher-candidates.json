@@ -1,0 +1,2755 @@
+{
+  "schemaVersion": 1,
+  "unit": "马克思主义学院",
+  "collegeCode": "upc-15",
+  "candidates": [
+    {
+      "name": "于常有",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a222396",
+      "title": null,
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2019/1024/c203a222396/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2019/1024/c203a222396/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a222396",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX210111053"
+      ],
+      "courseNames": [
+        "毛泽东思想和中国特色社会主义理论体系概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "于泳",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1418",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2017/1102/c203a1418/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2017/1102/c203a1418/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1418",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX324911022",
+        "MRX410111031",
+        "MRX424911010"
+      ],
+      "courseNames": [
+        "中国近现代史纲要",
+        "思想政治理论课社会实践",
+        "新中国史"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "仇乐宁",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a436091",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2024/0712/c203a436091/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2024/0712/c203a436091/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a436091",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX210111053"
+      ],
+      "courseNames": [
+        "毛泽东思想和中国特色社会主义理论体系概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "何大海",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a436089",
+      "title": "特任教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "https://szjyb.upc.edu.cn/2024/0712/c203a436089/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://szjyb.upc.edu.cn/2024/0712/c203a436089/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a436089",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020",
+        "MRX510111021"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "俞继仙",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a485419",
+      "title": "副研究员",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485419/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485419/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a485419",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "冯晓玲",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1063",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2015/0915/c203a1063/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2015/0915/c203a1063/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1063",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX324811031"
+      ],
+      "courseNames": [
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘东旺",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a449891",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2025/0103/c203a449891/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2025/0103/c203a449891/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a449891",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘兴波",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a222402",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2019/1024/c203a222402/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2019/1024/c203a222402/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a222402",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX210111053",
+        "OTH921331020"
+      ],
+      "courseNames": [
+        "毛泽东思想和中国特色社会主义理论体系概论",
+        "沟通与写作"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘宇培",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a383338",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "https://szjyb.upc.edu.cn/2022/0905/c203a383338/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://szjyb.upc.edu.cn/2022/0905/c203a383338/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a383338",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘明文",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a597",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2012/0305/c203a597/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2012/0305/c203a597/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a597",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX120211031",
+        "MRX121611010"
+      ],
+      "courseNames": [
+        "社会主义发展史",
+        "马克思主义基本原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘积舜",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a383337",
+      "title": "研究员",
+      "collegeCode": "upc-15",
+      "profileUrl": "https://szjyb.upc.edu.cn/2022/0905/c203a383337/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://szjyb.upc.edu.cn/2022/0905/c203a383337/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a383337",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘继高",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a225639",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2019/1114/c203a225639/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2019/1114/c203a225639/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a225639",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX120211031",
+        "MRX121611010",
+        "MRX324911022"
+      ],
+      "courseNames": [
+        "思想政治理论课社会实践",
+        "社会主义发展史",
+        "马克思主义基本原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘超",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a932",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2012/0702/c203a932/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2012/0702/c203a932/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a932",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX120211031"
+      ],
+      "courseNames": [
+        "马克思主义基本原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刚旭",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a485417",
+      "title": "副研究员",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485417/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485417/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a485417",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "原丽红",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a461",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2011/1213/c203a461/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2011/1213/c203a461/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a461",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "司江伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a945",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2013/0502/c203a945/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2013/0502/c203a945/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a945",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吕云涛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a222399",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2019/1024/c203a222399/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2019/1024/c203a222399/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a222399",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX320531020",
+        "MRX324811031",
+        "MRX325111010"
+      ],
+      "courseNames": [
+        "党史",
+        "卓越领导力",
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吕前昌",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a292",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2011/1213/c203a292/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2011/1213/c203a292/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a292",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX120211031"
+      ],
+      "courseNames": [
+        "马克思主义基本原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "吴凡",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a436092",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2024/0712/c203a436092/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2024/0712/c203a436092/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a436092",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周强",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a383507",
+      "title": "助理研究员",
+      "collegeCode": "upc-15",
+      "profileUrl": "https://szjyb.upc.edu.cn/2022/0907/c203a383507/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://szjyb.upc.edu.cn/2022/0907/c203a383507/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a383507",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "周辉",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-15-002",
+      "title": null,
+      "collegeCode": "upc-15",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "马克思主义学院",
+        "sourceFile": "课表/马克思主义学院/课表打印.xls",
+        "sourceSha256": "f9d6a78351c2853367531677050fc1edb403868ad934d563ed25a688aee91a2c",
+        "rawNames": [
+          "周辉"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MRX610111021"
+      ],
+      "courseNames": [
+        "军事理论与国家安全"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姚成郡",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a383342",
+      "title": "研究员",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2022/0905/c203a383342/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2022/0905/c203a383342/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a383342",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX410111031"
+      ],
+      "courseNames": [
+        "中国近现代史纲要"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姚海田",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a383931",
+      "title": "研究员",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2022/0913/c203a383931/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2022/0913/c203a383931/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a383931",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX324811031"
+      ],
+      "courseNames": [
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "姜逸",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a471690",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "https://szjyb.upc.edu.cn/2025/0923/c203a471690/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://szjyb.upc.edu.cn/2025/0923/c203a471690/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a471690",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "孙念超",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a898",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2012/0629/c203a898/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2012/0629/c203a898/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a898",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX410111031",
+        "MRX424911010"
+      ],
+      "courseNames": [
+        "中国近现代史纲要",
+        "新中国史"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋海儆",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1199",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2015/0917/c203a1199/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2015/0917/c203a1199/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1199",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX210111053",
+        "MRX324911022"
+      ],
+      "courseNames": [
+        "思想政治理论课社会实践",
+        "毛泽东思想和中国特色社会主义理论体系概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋红燕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a222395",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2019/1024/c203a222395/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2019/1024/c203a222395/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a222395",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX324811031"
+      ],
+      "courseNames": [
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "宋霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a434557",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2024/0620/c203a434557/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2024/0620/c203a434557/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a434557",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "岳金霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a588",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2012/0217/c203a588/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2012/0217/c203a588/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a588",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX324811031"
+      ],
+      "courseNames": [
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "崔伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a372504",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "https://szjyb.upc.edu.cn/2022/0419/c203a372504/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://szjyb.upc.edu.cn/2022/0419/c203a372504/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a372504",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX610111021"
+      ],
+      "courseNames": [
+        "军事理论与国家安全"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "崔军伟",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a875",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2012/0627/c203a875/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2012/0627/c203a875/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a875",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX410111031",
+        "MRX424731010"
+      ],
+      "courseNames": [
+        "中国近现代史纲要",
+        "新中国史"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张会芸",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1025",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2015/0915/c203a1025/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2015/0915/c203a1025/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1025",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX324811031"
+      ],
+      "courseNames": [
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张瑞涛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a658",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2012/0307/c203a658/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2012/0307/c203a658/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a658",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张璐",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1194",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2015/0917/c203a1194/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2015/0917/c203a1194/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1194",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX120211031"
+      ],
+      "courseNames": [
+        "马克思主义基本原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "张福运",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a595",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2012/0217/c203a595/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2012/0217/c203a595/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a595",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX410111031"
+      ],
+      "courseNames": [
+        "中国近现代史纲要"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "徐越",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1412",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2017/1102/c203a1412/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2017/1102/c203a1412/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1412",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX120211031",
+        "MRX121611010"
+      ],
+      "courseNames": [
+        "社会主义发展史",
+        "马克思主义基本原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "成宏涛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a383333",
+      "title": "副研究员",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2022/0905/c203a383333/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2022/0905/c203a383333/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a383333",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX324811031"
+      ],
+      "courseNames": [
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a485425",
+      "title": "副研究员",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485425/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485425/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a485425",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱惠平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a485422",
+      "title": "副研究员",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485422/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485422/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a485422",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱淑君",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1019",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2015/0914/c203a1019/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2015/0914/c203a1019/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1019",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX410111031"
+      ],
+      "courseNames": [
+        "中国近现代史纲要"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "朱玉杰",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a450285",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2025/0110/c203a450285/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2025/0110/c203a450285/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a450285",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX324811031",
+        "MRX325111010"
+      ],
+      "courseNames": [
+        "党史",
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李令功",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-15-003",
+      "title": null,
+      "collegeCode": "upc-15",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "马克思主义学院",
+        "sourceFile": "课表/马克思主义学院/课表打印.xls",
+        "sourceSha256": "f9d6a78351c2853367531677050fc1edb403868ad934d563ed25a688aee91a2c",
+        "rawNames": [
+          "李令功"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MRX610111021"
+      ],
+      "courseNames": [
+        "军事理论与国家安全"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李健",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a485416",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485416/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485416/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a485416",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李文君",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a381105",
+      "title": null,
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2022/0722/c203a381105/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2022/0722/c203a381105/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a381105",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李桂臣",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-15-004",
+      "title": null,
+      "collegeCode": "upc-15",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "马克思主义学院",
+        "sourceFile": "课表/马克思主义学院/课表打印.xls",
+        "sourceSha256": "f9d6a78351c2853367531677050fc1edb403868ad934d563ed25a688aee91a2c",
+        "rawNames": [
+          "李桂臣"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MRX610111021"
+      ],
+      "courseNames": [
+        "军事理论与国家安全"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李路遥",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a449851",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2025/0103/c203a449851/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2025/0103/c203a449851/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a449851",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX210111053"
+      ],
+      "courseNames": [
+        "毛泽东思想和中国特色社会主义理论体系概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨政",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a485421",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485421/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485421/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a485421",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX410111031"
+      ],
+      "courseNames": [
+        "中国近现代史纲要"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨晓燕",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a880",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2012/0629/c203a880/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2012/0629/c203a880/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a880",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨超",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-15-005",
+      "title": null,
+      "collegeCode": "upc-15",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "马克思主义学院",
+        "sourceFile": "课表/马克思主义学院/课表打印.xls",
+        "sourceSha256": "f9d6a78351c2853367531677050fc1edb403868ad934d563ed25a688aee91a2c",
+        "rawNames": [
+          "杨超"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MRX410111031",
+        "MRX610111021"
+      ],
+      "courseNames": [
+        "中国近现代史纲要",
+        "军事理论与国家安全"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "杨鹏云",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a436090",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2024/0712/c203a436090/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2024/0712/c203a436090/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a436090",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX410111031"
+      ],
+      "courseNames": [
+        "中国近现代史纲要"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "毕松",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a222394",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2019/1024/c203a222394/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2019/1024/c203a222394/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a222394",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX324911022",
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论",
+        "思想政治理论课社会实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "汝绪华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a222400",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2019/1024/c203a222400/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2019/1024/c203a222400/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a222400",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX210111053"
+      ],
+      "courseNames": [
+        "毛泽东思想和中国特色社会主义理论体系概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "汪怀君",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a581",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2012/0217/c203a581/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2012/0217/c203a581/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a581",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX120211031"
+      ],
+      "courseNames": [
+        "马克思主义基本原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "沈刘峡",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a383749",
+      "title": "研究员",
+      "collegeCode": "upc-15",
+      "profileUrl": "https://szjyb.upc.edu.cn/2022/0909/c203a383749/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://szjyb.upc.edu.cn/2022/0909/c203a383749/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a383749",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "潘娜娜",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1292",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2017/0605/c203a1292/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2017/0605/c203a1292/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1292",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "牛继玲",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a283",
+      "title": null,
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2011/1213/c203a283/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2011/1213/c203a283/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a283",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX324811031",
+        "MRX324911021"
+      ],
+      "courseNames": [
+        "思想政治理论课社会实践",
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王会",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a225490",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2019/1113/c203a225490/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2019/1113/c203a225490/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a225490",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王克霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a835",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2012/0627/c203a835/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2012/0627/c203a835/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a835",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX410111031",
+        "MRX424911010"
+      ],
+      "courseNames": [
+        "中国近现代史纲要",
+        "新中国史"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王庆忠",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1185",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2015/0916/c203a1185/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2015/0916/c203a1185/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1185",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王建军",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-15-001",
+      "title": null,
+      "collegeCode": "upc-15",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "马克思主义学院",
+        "sourceFile": "课表/马克思主义学院/课表打印.xls",
+        "sourceSha256": "f9d6a78351c2853367531677050fc1edb403868ad934d563ed25a688aee91a2c",
+        "rawNames": [
+          "王建军"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "MRX324811031"
+      ],
+      "courseNames": [
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王晓彤",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a485410",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485410/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485410/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a485410",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王青",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a348445",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2021/1013/c203a348445/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2021/1013/c203a348445/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a348445",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX320231020",
+        "MRX324811031"
+      ],
+      "courseNames": [
+        "大学生心理学",
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王鹏翔",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a372512",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2022/0419/c203a372512/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2022/0419/c203a372512/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a372512",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX324911022",
+        "MRX510111020",
+        "MRX510111021"
+      ],
+      "courseNames": [
+        "形势与政策",
+        "思想政治理论课社会实践"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "白春雨",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a545",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2012/0217/c203a545/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2012/0217/c203a545/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a545",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX120211031",
+        "MRX120731020"
+      ],
+      "courseNames": [
+        "哲学导论",
+        "马克思主义基本原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "盛阿赛",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a372511",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2022/0419/c203a372511/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2022/0419/c203a372511/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a372511",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX610111021"
+      ],
+      "courseNames": [
+        "军事理论与国家安全"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "石超",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1191",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2015/0917/c203a1191/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2015/0917/c203a1191/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1191",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX320431020",
+        "MRX324811031"
+      ],
+      "courseNames": [
+        "中国哲学经典著作导读",
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "秦相平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1155",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2015/0915/c203a1155/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2015/0915/c203a1155/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1155",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "胡静",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a884",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2012/0629/c203a884/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2012/0629/c203a884/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a884",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX324811031",
+        "MRX325111010"
+      ],
+      "courseNames": [
+        "党史",
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "薛俊清",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1289",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2017/0424/c203a1289/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2017/0424/c203a1289/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1289",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX120211031"
+      ],
+      "courseNames": [
+        "马克思主义基本原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "袁永红",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a485420",
+      "title": "副研究员",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485420/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485420/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a485420",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "袁爱军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1420",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2017/1124/c203a1420/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2017/1124/c203a1420/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1420",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "谷晓芸",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1249",
+      "title": null,
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2015/0917/c203a1249/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2015/0917/c203a1249/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1249",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX120211031"
+      ],
+      "courseNames": [
+        "马克思主义基本原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵嘉霖",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a471691",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2025/0923/c203a471691/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2025/0923/c203a471691/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a471691",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX120211031"
+      ],
+      "courseNames": [
+        "马克思主义基本原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵国营",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1261",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2015/0922/c203a1261/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2015/0922/c203a1261/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1261",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX210111053",
+        "MRX324911022"
+      ],
+      "courseNames": [
+        "思想政治理论课社会实践",
+        "毛泽东思想和中国特色社会主义理论体系概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵忠璐",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a471689",
+      "title": null,
+      "collegeCode": "upc-15",
+      "profileUrl": "https://szjyb.upc.edu.cn/2025/0923/c203a471689/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://szjyb.upc.edu.cn/2025/0923/c203a471689/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a471689",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵振华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a383347",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2022/0905/c203a383347/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2022/0905/c203a383347/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a383347",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX324811031"
+      ],
+      "courseNames": [
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵放辉",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a383345",
+      "title": "研究员",
+      "collegeCode": "upc-15",
+      "profileUrl": "https://szjyb.upc.edu.cn/2022/0905/c203a383345/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://szjyb.upc.edu.cn/2022/0905/c203a383345/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a383345",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵晓珂",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a383346",
+      "title": "副研究员",
+      "collegeCode": "upc-15",
+      "profileUrl": "https://szjyb.upc.edu.cn/2022/0905/c203a383346/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://szjyb.upc.edu.cn/2022/0905/c203a383346/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a383346",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a223121",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2019/1029/c203a223121/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2019/1029/c203a223121/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a223121",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX210111053"
+      ],
+      "courseNames": [
+        "毛泽东思想和中国特色社会主义理论体系概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "邢清琨",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a485430",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485430/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485430/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a485430",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郎帅",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1413",
+      "title": "副教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2017/1102/c203a1413/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2017/1102/c203a1413/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1413",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020",
+        "MRX610111021"
+      ],
+      "courseNames": [
+        "军事理论与国家安全",
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭文",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a485415",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485415/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485415/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a485415",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX510111020"
+      ],
+      "courseNames": [
+        "形势与政策"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭露凝",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a409195",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2023/0728/c203a409195/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2023/0728/c203a409195/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a409195",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX410111031"
+      ],
+      "courseNames": [
+        "中国近现代史纲要"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "金银珠",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a1031",
+      "title": null,
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2015/0915/c203a1031/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2015/0915/c203a1031/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a1031",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX324811031",
+        "MRX325031010",
+        "MRX325111010"
+      ],
+      "courseNames": [
+        "党史",
+        "思想道德与法治"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "闫林霞",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a223850",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2019/1104/c203a223850/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2019/1104/c203a223850/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a223850",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX120211031"
+      ],
+      "courseNames": [
+        "马克思主义基本原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈璐",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a471688",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "https://szjyb.upc.edu.cn/2025/0923/c203a471688/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "https://szjyb.upc.edu.cn/2025/0923/c203a471688/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a471688",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX710211021"
+      ],
+      "courseNames": [
+        "习近平新时代中国特色社会主义思想概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈骏",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a436738",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2024/0722/c203a436738/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2024/0722/c203a436738/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a436738",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX410111031"
+      ],
+      "courseNames": [
+        "中国近现代史纲要"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马梦华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a485423",
+      "title": "教授",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485423/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2026/0320/c203a485423/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a485423",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX410111031"
+      ],
+      "courseNames": [
+        "中国近现代史纲要"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马超",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a428719",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2024/0416/c203a428719/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2024/0416/c203a428719/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/dsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a428719",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX120211031"
+      ],
+      "courseNames": [
+        "马克思主义基本原理"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "鲁彦平",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "szjyb-c203-a223651",
+      "title": "讲师",
+      "collegeCode": "upc-15",
+      "profileUrl": "http://szjyb.upc.edu.cn/2019/1101/c203a223651/page.htm",
+      "profileKind": "official_profile",
+      "matchReason": "official_same_unit_profile",
+      "matchEvidence": {
+        "profileUrl": "http://szjyb.upc.edu.cn/2019/1101/c203a223651/page.htm",
+        "listUrl": "http://szjyb.upc.edu.cn/jsdw/list.htm",
+        "listedUnits": [
+          "马克思主义学院"
+        ],
+        "sourceId": "szjyb-c203-a223651",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "MRX210111053"
+      ],
+      "courseNames": [
+        "毛泽东思想和中国特色社会主义理论体系概论"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

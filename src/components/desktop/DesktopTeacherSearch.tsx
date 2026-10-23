@@ -1,17 +1,15 @@
 import { useTeacherSearch } from '../../hooks/useTeacherSearch';
 import { Pagination, PageFeedback } from '../Pagination';
 import { TeacherListSkeleton } from '../Skeletons';
-import { formatRating, compareRatings } from '../../lib/ratings';
+import { formatRating } from '../../lib/ratings';
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 import { Teacher, College } from '../../types';
-import { SWJTU_COLLEGES } from '../../data/mockTeachers';
 import { 
   Search, 
   Star, 
   CheckCircle2, 
   ChevronRight, 
   History, 
-  ArrowUpDown, 
   BookOpen, 
   X,
   SlidersHorizontal,
@@ -38,7 +36,6 @@ export const DesktopTeacherSearch: React.FC<DesktopTeacherSearchProps> = ({
   const [searchTerm, setSearchTerm] = useState<string>(initialSearch);
   const [selectedCollege, setSelectedCollege] = useState<string>('all');
   const [onlyThisTerm, setOnlyThisTerm] = useState<boolean>(false);
-  const [sortBy, setSortBy] = useState<'overall' | 'leniency' | 'quality' | 'attendance'>('overall');
   const [isSearchFocused, setIsSearchFocused] = useState<boolean>(false);
   const searchContainerRef = useRef<HTMLDivElement>(null);
 
@@ -60,13 +57,12 @@ export const DesktopTeacherSearch: React.FC<DesktopTeacherSearchProps> = ({
         ...colleges.map((c) => ({ value: c.id, label: c.name })),
       ];
     }
-    return SWJTU_COLLEGES.map((col) => ({
-      value: col === '全部学院' ? 'all' : col,
-      label: col,
-    }));
+    // Without database IDs, filtering by a college name would send an invalid
+    // UUID filter. Keep only "all" until the dictionary loads.
+    return [{ value: 'all', label: '全部学院' }];
   }, [colleges]);
 
-  const result = useTeacherSearch(teachers, { query: searchTerm, collegeId: selectedCollege, onlyThisTerm, sortBy });
+  const result = useTeacherSearch(teachers, { query: searchTerm, collegeId: selectedCollege, onlyThisTerm });
   const filteredTeachers = result.items;
   useEffect(() => {
     const college = colleges?.find(c => c.id === initialSearch || c.name === initialSearch);
@@ -89,7 +85,7 @@ export const DesktopTeacherSearch: React.FC<DesktopTeacherSearchProps> = ({
                 setSearchTerm(e.target.value);
                 setIsSearchFocused(true);
               }}
-              placeholder="在西南交大全校教师库中搜索教师姓名、开设课程、标签（如：高等数学、李维宏、不点名、给分好）..."
+              placeholder="在已导入的石大教师库中搜索姓名、课程、标签（如：高等数学、不点名、给分好）..."
               className="w-full pl-12 pr-10 py-3 bg-gray-50 rounded-2xl border border-gray-200 text-sm focus:outline-hidden focus:border-indigo-500 focus:bg-white transition-all"
             />
             {searchTerm && (
@@ -137,7 +133,7 @@ export const DesktopTeacherSearch: React.FC<DesktopTeacherSearchProps> = ({
                             <span className="text-sm font-bold text-gray-900">{t.name}</span>
                             <span className="text-xs text-gray-400">{t.college}</span>
                             <span className="text-xs text-indigo-600 bg-indigo-50 px-1.5 py-0.5 rounded-md">
-                              {t.title}
+                              {t.identityKind === 'timetable_unit_name' ? '课表来源身份' : (t.title || '职称待核实')}
                             </span>
                           </div>
                           <p className="text-xs text-gray-500 truncate mt-0.5">
@@ -186,24 +182,6 @@ export const DesktopTeacherSearch: React.FC<DesktopTeacherSearchProps> = ({
             </motion.button>
           </div>
 
-          <div className="flex items-center gap-2 text-gray-500">
-            <ArrowUpDown className="w-3.5 h-3.5" />
-            <span className="text-gray-400">排序:</span>
-            <AnimatedDropdown
-              id="desktop-sort-dropdown"
-              value={sortBy}
-              onChange={(v) => setSortBy(v as any)}
-              options={[
-                { value: 'overall', label: '综合评分最高' },
-                { value: 'leniency', label: '给分最大方' },
-                { value: 'quality', label: '教学质量最高' },
-                { value: 'attendance', label: '最少点名' },
-              ]}
-              align="right"
-              buttonClassName="bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-xl px-3 py-1.5"
-              menuClassName="w-40"
-            />
-          </div>
         </div>
       </div>
 
@@ -211,7 +189,7 @@ export const DesktopTeacherSearch: React.FC<DesktopTeacherSearchProps> = ({
       {/* 2. Count Bar */}
       <div className="flex items-center justify-between px-1 text-xs text-gray-500">
         <span>共找到 <strong className="text-gray-900 font-bold">{result.total}</strong> 位教师</span>
-        <span className="text-gray-400">结构化全校教师档案 · 永久免费查阅</span>
+        <span className="text-gray-400">已导入教师档案 · 永久免费查阅</span>
       </div>
 
       {/* 3. Teachers Grid (2-Column for Desktop) */}
@@ -219,8 +197,14 @@ export const DesktopTeacherSearch: React.FC<DesktopTeacherSearchProps> = ({
         <TeacherListSkeleton layout="desktop" count={6} />
       ) : result.error ? null : filteredTeachers.length === 0 ? (
         <div className="bg-white p-16 rounded-3xl border border-gray-100 text-center text-gray-400 space-y-2">
-          <p className="text-base font-semibold text-gray-700">没有找到匹配的老师</p>
-          <p className="text-xs">尝试更换关键词或在“全部学院”中搜索</p>
+          <p className="text-base font-semibold text-gray-700">
+            {result.total === 0 && !searchTerm.trim() ? '教师数据尚未导入' : '没有找到匹配的老师'}
+          </p>
+          <p className="text-xs">
+            {result.total === 0 && !searchTerm.trim()
+              ? '管理员完成学院、教师与开课关系导入后，这里会显示可核对的数据'
+              : '尝试更换关键词或在“全部学院”中搜索'}
+          </p>
         </div>
       ) : (
         <div className="grid grid-cols-2 gap-4">
@@ -241,7 +225,9 @@ export const DesktopTeacherSearch: React.FC<DesktopTeacherSearchProps> = ({
                         <h4 className="font-bold text-gray-950 text-base group-hover:text-indigo-600 transition-colors">
                           {teacher.name}
                         </h4>
-                        <span className="text-xs text-gray-500 font-medium">{teacher.title}</span>
+                        <span className="text-xs text-gray-500 font-medium">
+                          {teacher.identityKind === 'timetable_unit_name' ? '课表来源身份' : (teacher.title || '职称待核实')}
+                        </span>
                         {teacher.isTeachingThisTerm && (
                           <span className="text-3xs px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 flex items-center gap-0.5">
                             <CheckCircle2 className="w-2.5 h-2.5" /> 本学期在教
@@ -249,7 +235,8 @@ export const DesktopTeacherSearch: React.FC<DesktopTeacherSearchProps> = ({
                         )}
                       </div>
                       <p className="text-xs text-gray-500 mt-0.5">
-                        {teacher.college} · {teacher.campus}
+                        {teacher.identityKind === 'timetable_unit_name' ? '课表单位：' : ''}
+                        {teacher.college}{teacher.campus ? ` · ${teacher.campus}` : ''}
                       </p>
                     </div>
                   </div>

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "source": "https://jwc.upc.edu.cn/611/list.htm; https://sygx.upc.edu.cn/zzjg/list.htm",
+  "sourceLabel": "教务处 16 个教学院部 + 学校直属教学单位石油工业训练中心（学院级建制）",
+  "retrievedOn": "2026-10-23",
+  "campuses": [
+    "唐岛湾校区",
+    "古镇口校区",
+    "东营科教园区"
+  ],
+  "colleges": [
+    {
+      "code": "upc-01",
+      "name": "地球科学与技术学院",
+      "aliases": []
+    },
+    {
+      "code": "upc-02",
+      "name": "石油工程学院",
+      "aliases": []
+    },
+    {
+      "code": "upc-03",
+      "name": "化学工程学院",
+      "aliases": ["化学化工学院"]
+    },
+    {
+      "code": "upc-04",
+      "name": "机电工程学院",
+      "aliases": []
+    },
+    {
+      "code": "upc-05",
+      "name": "储运与建筑工程学院",
+      "aliases": []
+    },
+    {
+      "code": "upc-06",
+      "name": "材料科学与工程学院",
+      "aliases": []
+    },
+    {
+      "code": "upc-07",
+      "name": "新能源学院",
+      "aliases": ["石大山能新能源学院", "石大山新能源学院"]
+    },
+    {
+      "code": "upc-08",
+      "name": "海洋与空间信息学院",
+      "aliases": []
+    },
+    {
+      "code": "upc-09",
+      "name": "控制科学与工程学院",
+      "aliases": []
+    },
+    {
+      "code": "upc-10",
+      "name": "计算机科学与技术学院",
+      "aliases": ["青岛软件学院、计算机科学与技术学院"]
+    },
+    {
+      "code": "upc-11",
+      "name": "经济管理学院",
+      "aliases": []
+    },
+    {
+      "code": "upc-12",
+      "name": "理学院",
+      "aliases": []
+    },
+    {
+      "code": "upc-13",
+      "name": "外国语学院",
+      "aliases": []
+    },
+    {
+      "code": "upc-14",
+      "name": "文法学院",
+      "aliases": []
+    },
+    {
+      "code": "upc-15",
+      "name": "马克思主义学院",
+      "aliases": []
+    },
+    {
+      "code": "upc-16",
+      "name": "体育教学部",
+      "aliases": []
+    },
+    {
+      "code": "upc-17",
+      "name": "石油工业训练中心",
+      "aliases": [
+        "工训中心",
+        "石油工业实训中心"
+      ],
+      "unitType": "teaching_center"
+    }
+  ],
+  "additionalUnits": [
+    {
+      "code": "upc-17",
+      "name": "石油工业训练中心",
+      "unitType": "teaching_center",
+      "source": "https://sygx.upc.edu.cn/zzjg/list.htm",
+      "evidence": "学校直属教学单位，按照学院级建制；不是 16 个教学院部之一"
+    }
+  ]
+}

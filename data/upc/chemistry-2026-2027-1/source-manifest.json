@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-22",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false,
+    "titleText": "中国石油大学（华东） 化学化工学院  教研室课表"
+  },
+  "sourceUnit": {
+    "name": "化学化工学院",
+    "canonicalName": "化学工程学院",
+    "collegeCode": "upc-03"
+  },
+  "files": {
+    "original": {
+      "path": "课表/化学化工学院/课表打印.xls",
+      "sha256": "64bd913b47aacc0396331aa2b059486af03bc1fb2b7e5de0f7f5fd2da9325ca0",
+      "bytes": 108032,
+      "format": "BIFF8/OLE2"
+    },
+    "zip": {
+      "path": "课表/化学化工学院/课表打印.zip",
+      "sha256": "9485095f6f6130becd7614ab1348b5a0cab77469d9a488a102e6aac2567650b1",
+      "bytes": 17570,
+      "entries": [
+        {
+          "rawName": "╗»╤º╗»╣ñ╤º╘║.xls",
+          "decodedName": "化学化工学院.xls",
+          "size": 109056,
+          "sha256": "43d352023a63ba7bac50a219719ac977261cd3ab7ae72947105acbbe68677c7a"
+        }
+      ],
+      "chosenEntry": {
+        "rawName": "╗»╤º╗»╣ñ╤º╘║.xls",
+        "decodedName": "化学化工学院.xls",
+        "size": 109056,
+        "sha256": "43d352023a63ba7bac50a219719ac977261cd3ab7ae72947105acbbe68677c7a"
+      }
+    }
+  },
+  "workbooks": {
+    "original": {
+      "sheets": [
+        {
+          "name": "Sheet4",
+          "rows": 9,
+          "cols": 256,
+          "headerRow": 3,
+          "weekdayColumns": {
+            "B3": "星期日",
+            "C3": "星期一",
+            "D3": "星期二",
+            "E3": "星期三",
+            "F3": "星期四",
+            "G3": "星期五",
+            "H3": "星期六"
+          },
+          "mergedCells": [
+            [
+              0,
+              1,
+              0,
+              8
+            ],
+            [
+              1,
+              2,
+              1,
+              7
+            ],
+            [
+              8,
+              9,
+              0,
+              8
+            ]
+          ],
+          "blocks": 715,
+          "anomalies": []
+        }
+      ]
+    },
+    "zip": {
+      "sheets": [
+        {
+          "name": "Sheet1",
+          "rows": 9,
+          "cols": 256,
+          "headerRow": 3,
+          "weekdayColumns": {
+            "B3": "星期日",
+            "C3": "星期一",
+            "D3": "星期二",
+            "E3": "星期三",
+            "F3": "星期四",
+            "G3": "星期五",
+            "H3": "星期六"
+          },
+          "mergedCells": [
+            [
+              0,
+              1,
+              0,
+              8
+            ],
+            [
+              1,
+              2,
+              1,
+              7
+            ],
+            [
+              8,
+              9,
+              0,
+              8
+            ]
+          ],
+          "blocks": 715,
+          "anomalies": []
+        },
+        {
+          "name": "Sheet2",
+          "rows": 0,
+          "cols": 0,
+          "headerRow": null,
+          "weekdayColumns": {},
+          "mergedCells": [],
+          "blocks": 0,
+          "anomalies": [
+            "no_weekday_header"
+          ]
+        },
+        {
+          "name": "Sheet3",
+          "rows": 0,
+          "cols": 0,
+          "headerRow": null,
+          "weekdayColumns": {},
+          "mergedCells": [],
+          "blocks": 0,
+          "anomalies": [
+            "no_weekday_header"
+          ]
+        }
+      ]
+    }
+  },
+  "comparison": {
+    "sameSignatureMultiset": true,
+    "originalOnlySignatures": 0,
+    "zipOnlySignatures": 0,
+    "originalBlocks": 715,
+    "zipBlocks": 715,
+    "uniqueSignatures": 627,
+    "duplicateOccurrencesOriginal": 88,
+    "duplicateOccurrencesZip": 88,
+    "weekday": {
+      "zipShiftDays": 6,
+      "zipShiftSignedDays": -1,
+      "zipShiftDescription": "提前 1 天",
+      "candidateShifts": [
+        6
+      ],
+      "dayCounts": {
+        "original": {
+          "星期日": 9,
+          "星期一": 129,
+          "星期二": 175,
+          "星期三": 151,
+          "星期四": 150,
+          "星期五": 89,
+          "星期六": 12
+        },
+        "zip": {
+          "星期日": 129,
+          "星期一": 175,
+          "星期二": 151,
+          "星期三": 150,
+          "星期四": 89,
+          "星期五": 12,
+          "星期六": 9
+        }
+      },
+      "mappingNote": "ZIP weekday = original weekday shifted by 6 day(s) in the Sunday-first sequence (提前 1 天)"
+    }
+  },
+  "normalization": {
+    "duplicatePolicy": "one normalized block per exact course block signature; all source occurrences retained",
+    "courseIdentity": "code when present, otherwise (name, college); same name with different codes is not merged",
+    "weekdayUse": "weekday retained for source evidence; timetable display/recommendation stays out of phase one"
+  }
+}

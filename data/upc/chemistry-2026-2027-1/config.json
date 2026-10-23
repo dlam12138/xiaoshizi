@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "markAsCurrent": false,
+  "termName": "2026-2027-1",
+  "courseCollegeCode": "upc-03",
+  "teacherCollegeCode": "upc-03",
+  "sourceUnitName": "化学化工学院",
+  "note": "学期编码读取自文件标题。markAsCurrent 必须显式设置；没有教务处当前学期确认时保持 false。"
+}

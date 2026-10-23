@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 1,
+  "unit": "石油工业训练中心",
+  "collegeCode": "upc-17",
+  "candidates": [
+    {
+      "name": "刘冬冬",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sygx-c19224-a497156",
+      "title": null,
+      "collegeCode": "upc-17",
+      "profileUrl": "https://sygx.upc.edu.cn/2026/0714/c4379a497156/page.htm",
+      "profileKind": "official_center_page",
+      "matchReason": "official_center_page_teacher_evidence",
+      "matchEvidence": {
+        "profileUrl": "https://sygx.upc.edu.cn/2026/0714/c4379a497156/page.htm",
+        "listUrl": "https://sygx.upc.edu.cn/zzjg/list.htm",
+        "listedUnits": [
+          "石油工业训练中心"
+        ],
+        "sourceId": "sygx-c19224-a497156",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "TRN023011030"
+      ],
+      "courseNames": [
+        "工程综合训练与创新（B）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "刘振东",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sygx-c19224-a491963",
+      "title": null,
+      "collegeCode": "upc-17",
+      "profileUrl": "https://sygx.upc.edu.cn/2026/0529/c19224a491963/page.htm",
+      "profileKind": "official_center_page",
+      "matchReason": "official_center_page_teacher_evidence",
+      "matchEvidence": {
+        "profileUrl": "https://sygx.upc.edu.cn/2026/0529/c19224a491963/page.htm",
+        "listUrl": "https://sygx.upc.edu.cn/zzjg/list.htm",
+        "listedUnits": [
+          "石油工业训练中心"
+        ],
+        "sourceId": "sygx-c19224-a491963",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "TRN023011030"
+      ],
+      "courseNames": [
+        "工程综合训练与创新（B）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李卓军",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-17-001",
+      "title": null,
+      "collegeCode": "upc-17",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "石油工业训练中心",
+        "sourceFile": "课表/石油工业训练中心/课表打印.xls",
+        "sourceSha256": "86426e2e9497d75c5c8211acc4a266facff4ffae9b9e4ee6231b57f1716b4419",
+        "rawNames": [
+          "李卓军"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "TRN023011030"
+      ],
+      "courseNames": [
+        "工程综合训练与创新（B）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "李雪琴",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sygx-c19224-a482534",
+      "title": null,
+      "collegeCode": "upc-17",
+      "profileUrl": "https://sygx.upc.edu.cn/2026/0112/c19224a482534/page.htm",
+      "profileKind": "official_center_page",
+      "matchReason": "official_center_page_teacher_evidence",
+      "matchEvidence": {
+        "profileUrl": "https://sygx.upc.edu.cn/2026/0112/c19224a482534/page.htm",
+        "listUrl": "https://sygx.upc.edu.cn/zzjg/list.htm",
+        "listedUnits": [
+          "石油工业训练中心"
+        ],
+        "sourceId": "sygx-c19224-a482534",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "TRN022711020"
+      ],
+      "courseNames": [
+        "工程综合训练与创新（C）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "王淑萍",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sygx-c19224-a498581",
+      "title": "副教授",
+      "collegeCode": "upc-17",
+      "profileUrl": "https://sygx.upc.edu.cn/2026/0825/c19224a498581/page.htm",
+      "profileKind": "official_center_page",
+      "matchReason": "official_center_page_teacher_evidence",
+      "matchEvidence": {
+        "profileUrl": "https://sygx.upc.edu.cn/2026/0825/c19224a498581/page.htm",
+        "listUrl": "https://sygx.upc.edu.cn/zzjg/list.htm",
+        "listedUnits": [
+          "石油工业训练中心"
+        ],
+        "sourceId": "sygx-c19224-a498581",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "TRN022911040",
+        "TRN023011030",
+        "TRN023131020"
+      ],
+      "courseNames": [
+        "工程综合训练与创新（A）",
+        "工程综合训练与创新（B）",
+        "漫步能源大世界"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "苑得鑫",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-17-002",
+      "title": null,
+      "collegeCode": "upc-17",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "石油工业训练中心",
+        "sourceFile": "课表/石油工业训练中心/课表打印.xls",
+        "sourceSha256": "86426e2e9497d75c5c8211acc4a266facff4ffae9b9e4ee6231b57f1716b4419",
+        "rawNames": [
+          "苑得鑫"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "TRN023011030"
+      ],
+      "courseNames": [
+        "工程综合训练与创新（B）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "荆正军",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-17-003",
+      "title": null,
+      "collegeCode": "upc-17",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "石油工业训练中心",
+        "sourceFile": "课表/石油工业训练中心/课表打印.xls",
+        "sourceSha256": "86426e2e9497d75c5c8211acc4a266facff4ffae9b9e4ee6231b57f1716b4419",
+        "rawNames": [
+          "荆正军"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "TRN022641020",
+        "TRN022911040",
+        "TRN023011030",
+        "TRN023131020"
+      ],
+      "courseNames": [
+        "AI创新与AI发明",
+        "工程综合训练与创新（A）",
+        "工程综合训练与创新（B）",
+        "漫步能源大世界"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "赵玉明",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-17-004",
+      "title": null,
+      "collegeCode": "upc-17",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "石油工业训练中心",
+        "sourceFile": "课表/石油工业训练中心/课表打印.xls",
+        "sourceSha256": "86426e2e9497d75c5c8211acc4a266facff4ffae9b9e4ee6231b57f1716b4419",
+        "rawNames": [
+          "赵玉明"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "TRN020241040",
+        "TRN022911040",
+        "TRN023011030"
+      ],
+      "courseNames": [
+        "AI机器人创新实战",
+        "工程综合训练与创新（A）",
+        "工程综合训练与创新（B）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "郭卫萍",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sygx-c19224-a480780",
+      "title": null,
+      "collegeCode": "upc-17",
+      "profileUrl": "https://sygx.upc.edu.cn/2025/1222/c19224a480780/page.htm",
+      "profileKind": "official_center_page",
+      "matchReason": "official_center_page_teacher_evidence",
+      "matchEvidence": {
+        "profileUrl": "https://sygx.upc.edu.cn/2025/1222/c19224a480780/page.htm",
+        "listUrl": "https://sygx.upc.edu.cn/zzjg/list.htm",
+        "listedUnits": [
+          "石油工业训练中心"
+        ],
+        "sourceId": "sygx-c19224-a480780",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "TRN022711020"
+      ],
+      "courseNames": [
+        "工程综合训练与创新（C）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "陈琳",
+      "status": "timetable_unit",
+      "identityType": "timetable_unit_name",
+      "sourceId": "tt-upc-17-005",
+      "title": null,
+      "collegeCode": "upc-17",
+      "profileUrl": null,
+      "profileKind": "timetable_unit_name",
+      "matchReason": "timetable_unit_name_same_name_preserved",
+      "matchEvidence": {
+        "timetableUnit": "石油工业训练中心",
+        "sourceFile": "课表/石油工业训练中心/课表打印.xls",
+        "sourceSha256": "86426e2e9497d75c5c8211acc4a266facff4ffae9b9e4ee6231b57f1716b4419",
+        "rawNames": [
+          "陈琳"
+        ],
+        "identityType": "timetable_unit_name"
+      },
+      "courseCodes": [
+        "TRN022911040"
+      ],
+      "courseNames": [
+        "工程综合训练与创新（A）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "靳纪军",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sygx-c19224-a482539",
+      "title": null,
+      "collegeCode": "upc-17",
+      "profileUrl": "https://sygx.upc.edu.cn/2026/0112/c19224a482539/page.htm",
+      "profileKind": "official_center_page",
+      "matchReason": "official_center_page_teacher_evidence",
+      "matchEvidence": {
+        "profileUrl": "https://sygx.upc.edu.cn/2026/0112/c19224a482539/page.htm",
+        "listUrl": "https://sygx.upc.edu.cn/zzjg/list.htm",
+        "listedUnits": [
+          "石油工业训练中心"
+        ],
+        "sourceId": "sygx-c19224-a482539",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "TRN020241040",
+        "TRN022711020",
+        "TRN023131020"
+      ],
+      "courseNames": [
+        "AI机器人创新实战",
+        "工程综合训练与创新（C）",
+        "漫步能源大世界"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马少华",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sygx-c19226-a449724",
+      "title": null,
+      "collegeCode": "upc-17",
+      "profileUrl": "https://sygx.upc.edu.cn/2025/0102/c19226a449724/page.htm",
+      "profileKind": "official_center_page",
+      "matchReason": "official_center_page_teacher_evidence",
+      "matchEvidence": {
+        "profileUrl": "https://sygx.upc.edu.cn/2025/0102/c19226a449724/page.htm",
+        "listUrl": "https://sygx.upc.edu.cn/zzjg/list.htm",
+        "listedUnits": [
+          "石油工业训练中心"
+        ],
+        "sourceId": "sygx-c19226-a449724",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "TRN020241040",
+        "TRN022641020",
+        "TRN022711020"
+      ],
+      "courseNames": [
+        "AI创新与AI发明",
+        "AI机器人创新实战",
+        "工程综合训练与创新（C）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    },
+    {
+      "name": "马建民",
+      "status": "verified",
+      "identityType": "official_profile",
+      "sourceId": "sygx-c19225-a448419",
+      "title": null,
+      "collegeCode": "upc-17",
+      "profileUrl": "https://sygx.upc.edu.cn/2024/1210/c19225a448419/page.htm",
+      "profileKind": "official_center_page",
+      "matchReason": "official_center_page_teacher_evidence",
+      "matchEvidence": {
+        "profileUrl": "https://sygx.upc.edu.cn/2024/1210/c19225a448419/page.htm",
+        "listUrl": "https://sygx.upc.edu.cn/zzjg/list.htm",
+        "listedUnits": [
+          "石油工业训练中心"
+        ],
+        "sourceId": "sygx-c19225-a448419",
+        "aliasSourceIds": [],
+        "aliasUrls": []
+      },
+      "courseCodes": [
+        "TRN022911040",
+        "TRN023011030"
+      ],
+      "courseNames": [
+        "工程综合训练与创新（A）",
+        "工程综合训练与创新（B）"
+      ],
+      "unresolvedReason": null,
+      "candidateProfiles": [],
+      "affectedCourseRelations": 0
+    }
+  ]
+}

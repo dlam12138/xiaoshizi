@@ -1,0 +1,3252 @@
+{
+  "schemaVersion": 1,
+  "collegeCode": "upc-03",
+  "courses": [
+    {
+      "code": "CHM110412100",
+      "name": "工程概论(2-1)",
+      "normalizedName": "工程概论(2-1)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "于筱溪",
+        "刘会娥",
+        "姜磊",
+        "曹美文",
+        "王继乾",
+        "白鹏",
+        "金鑫"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0001",
+        "upc-chem-2026-2027-1-0002",
+        "upc-chem-2026-2027-1-0003",
+        "upc-chem-2026-2027-1-0004",
+        "upc-chem-2026-2027-1-0005",
+        "upc-chem-2026-2027-1-0006",
+        "upc-chem-2026-2027-1-0007",
+        "upc-chem-2026-2027-1-0008",
+        "upc-chem-2026-2027-1-0009",
+        "upc-chem-2026-2027-1-0010",
+        "upc-chem-2026-2027-1-0011",
+        "upc-chem-2026-2027-1-0012",
+        "upc-chem-2026-2027-1-0013",
+        "upc-chem-2026-2027-1-0014",
+        "upc-chem-2026-2027-1-0015",
+        "upc-chem-2026-2027-1-0016",
+        "upc-chem-2026-2027-1-0017",
+        "upc-chem-2026-2027-1-0018"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期三",
+        "星期四"
+      ],
+      "blockCount": 18
+    },
+    {
+      "code": "CHM110911030",
+      "name": "化工热力学",
+      "normalizedName": "化工热力学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "丁雪"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0019"
+      ],
+      "weekdays": [
+        "星期四",
+        "星期六"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM111112100",
+      "name": "化工原理(2-1)",
+      "normalizedName": "化工原理(2-1)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘相",
+        "段红玲"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0020",
+        "upc-chem-2026-2027-1-0021",
+        "upc-chem-2026-2027-1-0022",
+        "upc-chem-2026-2027-1-0023"
+      ],
+      "weekdays": [
+        "星期日",
+        "星期二",
+        "星期三"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM111112200",
+      "name": "化工原理(2-2)",
+      "normalizedName": "化工原理(2-2)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘振",
+        "刘相",
+        "张海鹏",
+        "张颖",
+        "段红玲",
+        "王万里",
+        "郭晓艳",
+        "陈爽",
+        "陈金庆"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0024",
+        "upc-chem-2026-2027-1-0025",
+        "upc-chem-2026-2027-1-0026",
+        "upc-chem-2026-2027-1-0027",
+        "upc-chem-2026-2027-1-0028",
+        "upc-chem-2026-2027-1-0029",
+        "upc-chem-2026-2027-1-0030",
+        "upc-chem-2026-2027-1-0031",
+        "upc-chem-2026-2027-1-0032",
+        "upc-chem-2026-2027-1-0033",
+        "upc-chem-2026-2027-1-0034",
+        "upc-chem-2026-2027-1-0035",
+        "upc-chem-2026-2027-1-0036",
+        "upc-chem-2026-2027-1-0037",
+        "upc-chem-2026-2027-1-0038",
+        "upc-chem-2026-2027-1-0039",
+        "upc-chem-2026-2027-1-0040",
+        "upc-chem-2026-2027-1-0041",
+        "upc-chem-2026-2027-1-0042",
+        "upc-chem-2026-2027-1-0043",
+        "upc-chem-2026-2027-1-0044",
+        "upc-chem-2026-2027-1-0045",
+        "upc-chem-2026-2027-1-0046",
+        "upc-chem-2026-2027-1-0047",
+        "upc-chem-2026-2027-1-0048",
+        "upc-chem-2026-2027-1-0049"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期三",
+        "星期四"
+      ],
+      "blockCount": 26
+    },
+    {
+      "code": "CHM111112201",
+      "name": "化工原理(2-2)(双语)",
+      "normalizedName": "化工原理(2-2)(双语)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "于筱溪",
+        "王斌"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0050",
+        "upc-chem-2026-2027-1-0051",
+        "upc-chem-2026-2027-1-0052",
+        "upc-chem-2026-2027-1-0053"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM111421020",
+      "name": "能量利用过程原理",
+      "normalizedName": "能量利用过程原理",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "宋春敏",
+        "杨军卫",
+        "覃兴龙"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0054",
+        "upc-chem-2026-2027-1-0055",
+        "upc-chem-2026-2027-1-0056",
+        "upc-chem-2026-2027-1-0057",
+        "upc-chem-2026-2027-1-0058",
+        "upc-chem-2026-2027-1-0059"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 6
+    },
+    {
+      "code": "CHM111721020",
+      "name": "石油加工概论",
+      "normalizedName": "石油加工概论",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "丁雪",
+        "李传"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0060",
+        "upc-chem-2026-2027-1-0061"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM111821020",
+      "name": "数据处理与实验设计",
+      "normalizedName": "数据处理与实验设计",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘子媛"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0062",
+        "upc-chem-2026-2027-1-0063",
+        "upc-chem-2026-2027-1-0064"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 3
+    },
+    {
+      "code": "CHM112011010",
+      "name": "新生研讨课",
+      "normalizedName": "新生研讨课",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘义",
+        "刘欣梅",
+        "孙兰义",
+        "李春义",
+        "柴永明",
+        "王继乾",
+        "田原宇",
+        "黄方"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0065",
+        "upc-chem-2026-2027-1-0066",
+        "upc-chem-2026-2027-1-0067",
+        "upc-chem-2026-2027-1-0068",
+        "upc-chem-2026-2027-1-0069",
+        "upc-chem-2026-2027-1-0070",
+        "upc-chem-2026-2027-1-0071",
+        "upc-chem-2026-2027-1-0072",
+        "upc-chem-2026-2027-1-0073",
+        "upc-chem-2026-2027-1-0074",
+        "upc-chem-2026-2027-1-0075",
+        "upc-chem-2026-2027-1-0076",
+        "upc-chem-2026-2027-1-0077",
+        "upc-chem-2026-2027-1-0078",
+        "upc-chem-2026-2027-1-0079",
+        "upc-chem-2026-2027-1-0080",
+        "upc-chem-2026-2027-1-0081",
+        "upc-chem-2026-2027-1-0082",
+        "upc-chem-2026-2027-1-0083",
+        "upc-chem-2026-2027-1-0084",
+        "upc-chem-2026-2027-1-0085",
+        "upc-chem-2026-2027-1-0086",
+        "upc-chem-2026-2027-1-0087",
+        "upc-chem-2026-2027-1-0088",
+        "upc-chem-2026-2027-1-0089",
+        "upc-chem-2026-2027-1-0090",
+        "upc-chem-2026-2027-1-0091",
+        "upc-chem-2026-2027-1-0092",
+        "upc-chem-2026-2027-1-0093",
+        "upc-chem-2026-2027-1-0094",
+        "upc-chem-2026-2027-1-0095",
+        "upc-chem-2026-2027-1-0096",
+        "upc-chem-2026-2027-1-0097",
+        "upc-chem-2026-2027-1-0098",
+        "upc-chem-2026-2027-1-0099",
+        "upc-chem-2026-2027-1-0100",
+        "upc-chem-2026-2027-1-0101",
+        "upc-chem-2026-2027-1-0102",
+        "upc-chem-2026-2027-1-0103",
+        "upc-chem-2026-2027-1-0104"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期三",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 40
+    },
+    {
+      "code": "CHM120121010",
+      "name": "C1化学与化工",
+      "normalizedName": "C1化学与化工",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "张颖"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0105",
+        "upc-chem-2026-2027-1-0106"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM120121020",
+      "name": "C1化学与化工",
+      "normalizedName": "C1化学与化工",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘振"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0107"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM120421010",
+      "name": "催化新材料与新型催化剂",
+      "normalizedName": "催化新材料与新型催化剂",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘振"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0108",
+        "upc-chem-2026-2027-1-0109"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM120731010",
+      "name": "多彩的晶体世界",
+      "normalizedName": "多彩的晶体世界",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "张强",
+        "郭海玲"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0110",
+        "upc-chem-2026-2027-1-0111",
+        "upc-chem-2026-2027-1-0112",
+        "upc-chem-2026-2027-1-0113"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期四"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM121421021",
+      "name": "化学反应工程",
+      "normalizedName": "化学反应工程",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "王纯正"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0114",
+        "upc-chem-2026-2027-1-0115"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM121611030",
+      "name": "化学反应工程(双语)",
+      "normalizedName": "化学反应工程(双语)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "丁传芹",
+        "刘会娥",
+        "白鹏"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0116",
+        "upc-chem-2026-2027-1-0117",
+        "upc-chem-2026-2027-1-0118",
+        "upc-chem-2026-2027-1-0119"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM121711035",
+      "name": "化学工程基础",
+      "normalizedName": "化学工程基础",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘相",
+        "史德青",
+        "张海鹏",
+        "郭晓艳"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0120",
+        "upc-chem-2026-2027-1-0121",
+        "upc-chem-2026-2027-1-0122",
+        "upc-chem-2026-2027-1-0123",
+        "upc-chem-2026-2027-1-0124",
+        "upc-chem-2026-2027-1-0125"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期三",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 6
+    },
+    {
+      "code": "CHM121711036",
+      "name": "化学工程基础",
+      "normalizedName": "化学工程基础",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "王万里",
+        "马占华"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0126",
+        "upc-chem-2026-2027-1-0127",
+        "upc-chem-2026-2027-1-0128",
+        "upc-chem-2026-2027-1-0129",
+        "upc-chem-2026-2027-1-0130",
+        "upc-chem-2026-2027-1-0131"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 6
+    },
+    {
+      "code": "CHM121911030",
+      "name": "化学工程基础",
+      "normalizedName": "化学工程基础",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "王万里"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0132",
+        "upc-chem-2026-2027-1-0133"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM122111030",
+      "name": "环境工程原理",
+      "normalizedName": "环境工程原理",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "于英民"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0134",
+        "upc-chem-2026-2027-1-0135"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM123011030",
+      "name": "能源化学反应工程",
+      "normalizedName": "能源化学反应工程",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "王波"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0136",
+        "upc-chem-2026-2027-1-0137"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM123621020",
+      "name": "天然气处理与加工",
+      "normalizedName": "天然气处理与加工",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "王万里"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0138",
+        "upc-chem-2026-2027-1-0139"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM123821020",
+      "name": "新型碳材料",
+      "normalizedName": "新型碳材料",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "赵青山"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0140",
+        "upc-chem-2026-2027-1-0141"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM124021010",
+      "name": "重质油加工技术",
+      "normalizedName": "重质油加工技术",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "邓文安"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0142",
+        "upc-chem-2026-2027-1-0143"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM124821010",
+      "name": "清洁能源技术",
+      "normalizedName": "清洁能源技术",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘宾",
+        "潘原"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0144",
+        "upc-chem-2026-2027-1-0145",
+        "upc-chem-2026-2027-1-0146",
+        "upc-chem-2026-2027-1-0147"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM151521020",
+      "name": "碳足迹及生命周期分析原理",
+      "normalizedName": "碳足迹及生命周期分析原理",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "金鑫"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0148"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM157121020",
+      "name": "催化作用原理（双语）",
+      "normalizedName": "催化作用原理(双语)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘欣梅"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0149"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM210121020",
+      "name": "精细化学品化学",
+      "normalizedName": "精细化学品化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "华琪",
+        "吴文婷"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0150",
+        "upc-chem-2026-2027-1-0151",
+        "upc-chem-2026-2027-1-0152",
+        "upc-chem-2026-2027-1-0153"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期五"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM210221020",
+      "name": "绿色化学与化工导论",
+      "normalizedName": "绿色化学与化工导论",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "吴萍萍"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0154"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM220331021",
+      "name": "芳香世界",
+      "normalizedName": "芳香世界",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "夏薇",
+        "陈坤"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0155",
+        "upc-chem-2026-2027-1-0156",
+        "upc-chem-2026-2027-1-0157",
+        "upc-chem-2026-2027-1-0158"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM220421020",
+      "name": "高分子化学与物理",
+      "normalizedName": "高分子化学与物理",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "夏薇",
+        "李鹏"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0159",
+        "upc-chem-2026-2027-1-0160",
+        "upc-chem-2026-2027-1-0161",
+        "upc-chem-2026-2027-1-0162"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM221021020",
+      "name": "精细化工工艺学",
+      "normalizedName": "精细化工工艺学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "吴文婷",
+        "罗辉"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0163",
+        "upc-chem-2026-2027-1-0164",
+        "upc-chem-2026-2027-1-0165",
+        "upc-chem-2026-2027-1-0166"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM221321020",
+      "name": "沥青化学",
+      "normalizedName": "沥青化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "罗辉"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0167",
+        "upc-chem-2026-2027-1-0168"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM221621020",
+      "name": "润滑油化学与工艺",
+      "normalizedName": "润滑油化学与工艺",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "王延臻"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0169"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM222211040",
+      "name": "石油化学",
+      "normalizedName": "石油化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘东",
+        "王延臻",
+        "石斌",
+        "陈坤"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0170",
+        "upc-chem-2026-2027-1-0171",
+        "upc-chem-2026-2027-1-0172",
+        "upc-chem-2026-2027-1-0173",
+        "upc-chem-2026-2027-1-0174",
+        "upc-chem-2026-2027-1-0175"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期三",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 6
+    },
+    {
+      "code": "CHM222521010",
+      "name": "天然气化学",
+      "normalizedName": "天然气化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "石斌"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0176",
+        "upc-chem-2026-2027-1-0177"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM222921020",
+      "name": "新能源与化学电源",
+      "normalizedName": "新能源与化学电源",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "潘原",
+        "邓深圳"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0178",
+        "upc-chem-2026-2027-1-0179",
+        "upc-chem-2026-2027-1-0180"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 3
+    },
+    {
+      "code": "CHM223011010",
+      "name": "新生研讨课",
+      "normalizedName": "新生研讨课",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘东",
+        "吴文婷",
+        "夏薇",
+        "李鹏"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0181",
+        "upc-chem-2026-2027-1-0182",
+        "upc-chem-2026-2027-1-0183",
+        "upc-chem-2026-2027-1-0184",
+        "upc-chem-2026-2027-1-0185",
+        "upc-chem-2026-2027-1-0186",
+        "upc-chem-2026-2027-1-0187",
+        "upc-chem-2026-2027-1-0188",
+        "upc-chem-2026-2027-1-0189",
+        "upc-chem-2026-2027-1-0190",
+        "upc-chem-2026-2027-1-0191",
+        "upc-chem-2026-2027-1-0192",
+        "upc-chem-2026-2027-1-0193",
+        "upc-chem-2026-2027-1-0194",
+        "upc-chem-2026-2027-1-0195",
+        "upc-chem-2026-2027-1-0196",
+        "upc-chem-2026-2027-1-0197",
+        "upc-chem-2026-2027-1-0198",
+        "upc-chem-2026-2027-1-0199",
+        "upc-chem-2026-2027-1-0200",
+        "upc-chem-2026-2027-1-0201",
+        "upc-chem-2026-2027-1-0202",
+        "upc-chem-2026-2027-1-0203"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期三",
+        "星期四"
+      ],
+      "blockCount": 23
+    },
+    {
+      "code": "CHM223231010",
+      "name": "食品添加剂与食品安全",
+      "normalizedName": "食品添加剂与食品安全",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "吴萍萍"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0204",
+        "upc-chem-2026-2027-1-0205"
+      ],
+      "weekdays": [
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM223621020",
+      "name": "专业外语",
+      "normalizedName": "专业外语",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "杨修洁",
+        "王晓娟"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0206",
+        "upc-chem-2026-2027-1-0207",
+        "upc-chem-2026-2027-1-0208",
+        "upc-chem-2026-2027-1-0209",
+        "upc-chem-2026-2027-1-0210",
+        "upc-chem-2026-2027-1-0211",
+        "upc-chem-2026-2027-1-0212",
+        "upc-chem-2026-2027-1-0213"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 8
+    },
+    {
+      "code": "CHM223831010",
+      "name": "化学与服饰",
+      "normalizedName": "化学与服饰",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "王晓娟"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0214",
+        "upc-chem-2026-2027-1-0215"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期五"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM224131020",
+      "name": "石油化学",
+      "normalizedName": "石油化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "郭爱军"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0216",
+        "upc-chem-2026-2027-1-0217"
+      ],
+      "weekdays": [
+        "星期三"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM256431020",
+      "name": "美丽秘籍——化妆品化学",
+      "normalizedName": "美丽秘籍——化妆品化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "杨修洁",
+        "赵玉荣"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0218",
+        "upc-chem-2026-2027-1-0219",
+        "upc-chem-2026-2027-1-0220"
+      ],
+      "weekdays": [
+        "星期三"
+      ],
+      "blockCount": 3
+    },
+    {
+      "code": "CHM256531020",
+      "name": "化学与人类文明",
+      "normalizedName": "化学与人类文明",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "殷长龙"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0221"
+      ],
+      "weekdays": [
+        "星期三"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM310112100",
+      "name": "工程概论（2-1）",
+      "normalizedName": "工程概论(2-1)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "卢磊",
+        "孙娟"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0222",
+        "upc-chem-2026-2027-1-0223",
+        "upc-chem-2026-2027-1-0224",
+        "upc-chem-2026-2027-1-0225"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM310211020",
+      "name": "化工安全与环保",
+      "normalizedName": "化工安全与环保",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘义"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0226",
+        "upc-chem-2026-2027-1-0227"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM310321010",
+      "name": "环境保护与可持续发展概论",
+      "normalizedName": "环境保护与可持续发展概论",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "孙娟"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0228",
+        "upc-chem-2026-2027-1-0229"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM310721020",
+      "name": "生物化学基础",
+      "normalizedName": "生物化学基础",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘其友",
+        "刘春爽",
+        "王璞"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0230",
+        "upc-chem-2026-2027-1-0231",
+        "upc-chem-2026-2027-1-0232",
+        "upc-chem-2026-2027-1-0233",
+        "upc-chem-2026-2027-1-0234",
+        "upc-chem-2026-2027-1-0235"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 6
+    },
+    {
+      "code": "CHM310821010",
+      "name": "实验室安全与环保",
+      "normalizedName": "实验室安全与环保",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "严文娟",
+        "刘建国",
+        "卢磊",
+        "姜磊",
+        "孟亦飞",
+        "王明",
+        "路帅"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0236",
+        "upc-chem-2026-2027-1-0237",
+        "upc-chem-2026-2027-1-0238",
+        "upc-chem-2026-2027-1-0239",
+        "upc-chem-2026-2027-1-0240",
+        "upc-chem-2026-2027-1-0241",
+        "upc-chem-2026-2027-1-0242",
+        "upc-chem-2026-2027-1-0243",
+        "upc-chem-2026-2027-1-0244",
+        "upc-chem-2026-2027-1-0245",
+        "upc-chem-2026-2027-1-0246",
+        "upc-chem-2026-2027-1-0247",
+        "upc-chem-2026-2027-1-0248",
+        "upc-chem-2026-2027-1-0249",
+        "upc-chem-2026-2027-1-0250",
+        "upc-chem-2026-2027-1-0251",
+        "upc-chem-2026-2027-1-0252",
+        "upc-chem-2026-2027-1-0253"
+      ],
+      "weekdays": [
+        "星期日",
+        "星期一",
+        "星期二",
+        "星期三",
+        "星期四",
+        "星期五",
+        "星期六"
+      ],
+      "blockCount": 18
+    },
+    {
+      "code": "CHM320511021",
+      "name": "安全系统工程",
+      "normalizedName": "安全系统工程",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "孟亦飞"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0254",
+        "upc-chem-2026-2027-1-0255",
+        "upc-chem-2026-2027-1-0256",
+        "upc-chem-2026-2027-1-0257",
+        "upc-chem-2026-2027-1-0258"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 5
+    },
+    {
+      "code": "CHM321411030",
+      "name": "固体废物处理与处置工程",
+      "normalizedName": "固体废物处理与处置工程",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "孔德桢",
+        "陈永栋"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0259",
+        "upc-chem-2026-2027-1-0260",
+        "upc-chem-2026-2027-1-0261"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 3
+    },
+    {
+      "code": "CHM321711011",
+      "name": "化工安全导论",
+      "normalizedName": "化工安全导论",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘义",
+        "孟亦飞",
+        "平平"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0262",
+        "upc-chem-2026-2027-1-0263",
+        "upc-chem-2026-2027-1-0264",
+        "upc-chem-2026-2027-1-0265"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM322821020",
+      "name": "化工事故仿真技术",
+      "normalizedName": "化工事故仿真技术",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "孟亦飞"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0266",
+        "upc-chem-2026-2027-1-0267",
+        "upc-chem-2026-2027-1-0268"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 3
+    },
+    {
+      "code": "CHM323411020",
+      "name": "环境工程微生物学",
+      "normalizedName": "环境工程微生物学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘其友"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0269",
+        "upc-chem-2026-2027-1-0270"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM324321020",
+      "name": "计算机辅助设计",
+      "normalizedName": "计算机辅助设计",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "陈永栋"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0271",
+        "upc-chem-2026-2027-1-0272",
+        "upc-chem-2026-2027-1-0273",
+        "upc-chem-2026-2027-1-0274"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期三",
+        "星期四"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM324711010",
+      "name": "石油工业与环境保护概论",
+      "normalizedName": "石油工业与环境保护概论",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "李石"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0275",
+        "upc-chem-2026-2027-1-0276"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM324821020",
+      "name": "石油工业与环境保护概论",
+      "normalizedName": "石油工业与环境保护概论",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "卢磊"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0277",
+        "upc-chem-2026-2027-1-0278"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM325111030",
+      "name": "水污染控制工程",
+      "normalizedName": "水污染控制工程",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘芳",
+        "卢磊"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0279",
+        "upc-chem-2026-2027-1-0280",
+        "upc-chem-2026-2027-1-0281",
+        "upc-chem-2026-2027-1-0282"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM325711021",
+      "name": "物理性污染控制",
+      "normalizedName": "物理性污染控制",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "任中飞",
+        "顾莹莹"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0283",
+        "upc-chem-2026-2027-1-0284",
+        "upc-chem-2026-2027-1-0285",
+        "upc-chem-2026-2027-1-0286"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM326121010",
+      "name": "学科前沿知识专题讲座",
+      "normalizedName": "学科前沿知识专题讲座",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "任中飞",
+        "王刚"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0287",
+        "upc-chem-2026-2027-1-0288"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期五"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM326221015",
+      "name": "应急技术与管理",
+      "normalizedName": "应急技术与管理",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "平平"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0289"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM326831020",
+      "name": "环境保护导论",
+      "normalizedName": "环境保护导论",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "张庆冬"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0290",
+        "upc-chem-2026-2027-1-0291"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM326931020",
+      "name": "环境与健康",
+      "normalizedName": "环境与健康",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "孙昭玥"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0292",
+        "upc-chem-2026-2027-1-0293"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM350711021",
+      "name": "环境保护导论",
+      "normalizedName": "环境保护导论",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "张庆冬"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0294",
+        "upc-chem-2026-2027-1-0295"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM352711010",
+      "name": "环境生态修复技术",
+      "normalizedName": "环境生态修复技术",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘春爽"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0296"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM356711030",
+      "name": "环境监测（含实验）",
+      "normalizedName": "环境监测(含实验)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "耿春香"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0297",
+        "upc-chem-2026-2027-1-0298"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM358911030",
+      "name": "化工防火与防爆",
+      "normalizedName": "化工防火与防爆",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘义",
+        "平平"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0299",
+        "upc-chem-2026-2027-1-0300",
+        "upc-chem-2026-2027-1-0301",
+        "upc-chem-2026-2027-1-0302",
+        "upc-chem-2026-2027-1-0303",
+        "upc-chem-2026-2027-1-0304"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期五"
+      ],
+      "blockCount": 6
+    },
+    {
+      "code": "CHM359641020",
+      "name": "与地球共生-大学生环保入门",
+      "normalizedName": "与地球共生-大学生环保入门",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "卢磊",
+        "孙昭玥"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0305",
+        "upc-chem-2026-2027-1-0306"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM360061020",
+      "name": "碳生态工业",
+      "normalizedName": "碳生态工业",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "任中飞",
+        "张卫东"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0307",
+        "upc-chem-2026-2027-1-0308",
+        "upc-chem-2026-2027-1-0309",
+        "upc-chem-2026-2027-1-0310"
+      ],
+      "weekdays": [
+        "星期二"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM410221020",
+      "name": "生物能源技术",
+      "normalizedName": "生物能源技术",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "王生杰",
+        "王继乾"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0311",
+        "upc-chem-2026-2027-1-0312"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM420221020",
+      "name": "工业微生物",
+      "normalizedName": "工业微生物",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "肖梓军"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0313"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM420621020",
+      "name": "生物化工基础",
+      "normalizedName": "生物化工基础",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "曲剑波",
+        "李静"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0314",
+        "upc-chem-2026-2027-1-0315"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM420721025",
+      "name": "生物化学",
+      "normalizedName": "生物化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "徐海",
+        "赵玉荣"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0316",
+        "upc-chem-2026-2027-1-0317",
+        "upc-chem-2026-2027-1-0318",
+        "upc-chem-2026-2027-1-0319"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM421331020",
+      "name": "生命科学史",
+      "normalizedName": "生命科学史",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "姜磊",
+        "马洪超"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0320",
+        "upc-chem-2026-2027-1-0321"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期五"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM421431020",
+      "name": "材料与环境",
+      "normalizedName": "材料与环境",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "王生杰"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0322"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM421531020",
+      "name": "生活中的高分子材料",
+      "normalizedName": "生活中的高分子材料",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "王生杰"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0323"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM421631010",
+      "name": "微生物世界",
+      "normalizedName": "微生物世界",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "郗丽君"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0324"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM421731020",
+      "name": "微生物与人类",
+      "normalizedName": "微生物与人类",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "李慧",
+        "肖梓军"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0325",
+        "upc-chem-2026-2027-1-0326"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM422031010",
+      "name": "美食中的化学与物理",
+      "normalizedName": "美食中的化学与物理",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "孙亚伟"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0327"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM422231010",
+      "name": "神奇的海洋生物世界",
+      "normalizedName": "神奇的海洋生物世界",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "李静"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0328"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM422631010",
+      "name": "宏观、介观与微观",
+      "normalizedName": "宏观、介观与微观",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "曹美文"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0329",
+        "upc-chem-2026-2027-1-0330",
+        "upc-chem-2026-2027-1-0331"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 3
+    },
+    {
+      "code": "CHM422731010",
+      "name": "色彩中的化学与物理",
+      "normalizedName": "色彩中的化学与物理",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "孙亚伟"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0332"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM423931010",
+      "name": "健康生活中的化学奥秘",
+      "normalizedName": "健康生活中的化学奥秘",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "曲剑波"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0333",
+        "upc-chem-2026-2027-1-0334"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM428441020",
+      "name": "微生物细胞工厂",
+      "normalizedName": "微生物细胞工厂",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "肖梓军"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0335"
+      ],
+      "weekdays": [
+        "星期日",
+        "星期六"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "CHM428541020",
+      "name": "生物分离工程",
+      "normalizedName": "生物分离工程",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "孙亚伟",
+        "曲剑波"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0336",
+        "upc-chem-2026-2027-1-0337",
+        "upc-chem-2026-2027-1-0338"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 3
+    },
+    {
+      "code": "CHM428941010",
+      "name": "生物信息学与人工智能",
+      "normalizedName": "生物信息学与人工智能",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "何化",
+        "李静"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0339",
+        "upc-chem-2026-2027-1-0340"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期五"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM429041020",
+      "name": "生物化学",
+      "normalizedName": "生物化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "徐海",
+        "陈翠霞"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0341",
+        "upc-chem-2026-2027-1-0342",
+        "upc-chem-2026-2027-1-0343"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四",
+        "星期六"
+      ],
+      "blockCount": 3
+    },
+    {
+      "code": "CHM450711030",
+      "name": "碳捕集及转化原理",
+      "normalizedName": "碳捕集及转化原理",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "于道永",
+        "葛保胜"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0344",
+        "upc-chem-2026-2027-1-0345",
+        "upc-chem-2026-2027-1-0346"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 3
+    },
+    {
+      "code": "CHM455011020",
+      "name": "基本化工设备与选型",
+      "normalizedName": "基本化工设备与选型",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "张金弘",
+        "李大伟"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0347",
+        "upc-chem-2026-2027-1-0348"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM458831020",
+      "name": "绿色“酶”好生活",
+      "normalizedName": "绿色“酶”好生活",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "杨丽敏",
+        "王小强"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0349",
+        "upc-chem-2026-2027-1-0350"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "CHM459331020",
+      "name": "生命密码的双重奏：人类基因与微生物",
+      "normalizedName": "生命密码的双重奏：人类基因与微生物",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "李慧",
+        "陈翠霞"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0351",
+        "upc-chem-2026-2027-1-0352",
+        "upc-chem-2026-2027-1-0353",
+        "upc-chem-2026-2027-1-0354"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM459431020",
+      "name": "探秘海洋宝库",
+      "normalizedName": "探秘海洋宝库",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "曲剑波",
+        "李静"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0355",
+        "upc-chem-2026-2027-1-0356",
+        "upc-chem-2026-2027-1-0357",
+        "upc-chem-2026-2027-1-0358"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "CHM620311010",
+      "name": "工程伦理（全英文）",
+      "normalizedName": "工程伦理(全英文)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "于筱溪",
+        "刘会娥",
+        "白鹏",
+        "金鑫"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0359",
+        "upc-chem-2026-2027-1-0360",
+        "upc-chem-2026-2027-1-0361",
+        "upc-chem-2026-2027-1-0362",
+        "upc-chem-2026-2027-1-0363"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三"
+      ],
+      "blockCount": 5
+    },
+    {
+      "code": "CHM923631020",
+      "name": "低碳清洁能源与未来",
+      "normalizedName": "低碳清洁能源与未来",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "严文娟"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0364"
+      ],
+      "weekdays": [
+        "星期日",
+        "星期六"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "OTH921331020",
+      "name": "沟通与写作",
+      "normalizedName": "沟通与写作",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "覃正兴"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0365"
+      ],
+      "weekdays": [
+        "星期一"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "SCC810611021",
+      "name": "分析化学实验",
+      "normalizedName": "分析化学实验",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "何化",
+        "毕佳慧",
+        "王生杰"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0366",
+        "upc-chem-2026-2027-1-0367",
+        "upc-chem-2026-2027-1-0368",
+        "upc-chem-2026-2027-1-0369",
+        "upc-chem-2026-2027-1-0370",
+        "upc-chem-2026-2027-1-0371",
+        "upc-chem-2026-2027-1-0372",
+        "upc-chem-2026-2027-1-0373",
+        "upc-chem-2026-2027-1-0374",
+        "upc-chem-2026-2027-1-0375"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 10
+    },
+    {
+      "code": "SCC810721020",
+      "name": "高等有机化学",
+      "normalizedName": "高等有机化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "宋林花"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0376",
+        "upc-chem-2026-2027-1-0377"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期五"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "SCC811121020",
+      "name": "结构化学",
+      "normalizedName": "结构化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "马丽爽"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0378",
+        "upc-chem-2026-2027-1-0379"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "SCC811512100",
+      "name": "无机化学实验(2-1)",
+      "normalizedName": "无机化学实验(2-1)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "王淑涛",
+        "王瑞",
+        "董斌"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0380",
+        "upc-chem-2026-2027-1-0381",
+        "upc-chem-2026-2027-1-0382",
+        "upc-chem-2026-2027-1-0383",
+        "upc-chem-2026-2027-1-0384",
+        "upc-chem-2026-2027-1-0385"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 6
+    },
+    {
+      "code": "SCC811711030",
+      "name": "无机及分析化学",
+      "normalizedName": "无机及分析化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "冯锡兰",
+        "刘春爽",
+        "孙娟",
+        "戚建楠",
+        "王敬贤",
+        "王有和",
+        "邓深圳",
+        "马哲"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0386",
+        "upc-chem-2026-2027-1-0387",
+        "upc-chem-2026-2027-1-0388",
+        "upc-chem-2026-2027-1-0389",
+        "upc-chem-2026-2027-1-0390",
+        "upc-chem-2026-2027-1-0391",
+        "upc-chem-2026-2027-1-0392",
+        "upc-chem-2026-2027-1-0393",
+        "upc-chem-2026-2027-1-0394",
+        "upc-chem-2026-2027-1-0395",
+        "upc-chem-2026-2027-1-0396",
+        "upc-chem-2026-2027-1-0397",
+        "upc-chem-2026-2027-1-0398",
+        "upc-chem-2026-2027-1-0399",
+        "upc-chem-2026-2027-1-0400",
+        "upc-chem-2026-2027-1-0401",
+        "upc-chem-2026-2027-1-0402",
+        "upc-chem-2026-2027-1-0403",
+        "upc-chem-2026-2027-1-0404",
+        "upc-chem-2026-2027-1-0405",
+        "upc-chem-2026-2027-1-0406",
+        "upc-chem-2026-2027-1-0407"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期三",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 22
+    },
+    {
+      "code": "SCC812211025",
+      "name": "物理化学",
+      "normalizedName": "物理化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "周亭",
+        "宗思宇"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0408",
+        "upc-chem-2026-2027-1-0409",
+        "upc-chem-2026-2027-1-0410",
+        "upc-chem-2026-2027-1-0411",
+        "upc-chem-2026-2027-1-0412"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 5
+    },
+    {
+      "code": "SCC812211030",
+      "name": "物理化学",
+      "normalizedName": "物理化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "张国栋"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0413",
+        "upc-chem-2026-2027-1-0414",
+        "upc-chem-2026-2027-1-0415"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 3
+    },
+    {
+      "code": "SCC812212101",
+      "name": "物理化学(2-1)",
+      "normalizedName": "物理化学(2-1)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘金河",
+        "张龙力",
+        "杨普江",
+        "林旭锋",
+        "王创业"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0416",
+        "upc-chem-2026-2027-1-0417",
+        "upc-chem-2026-2027-1-0418",
+        "upc-chem-2026-2027-1-0419",
+        "upc-chem-2026-2027-1-0420",
+        "upc-chem-2026-2027-1-0421",
+        "upc-chem-2026-2027-1-0422",
+        "upc-chem-2026-2027-1-0423",
+        "upc-chem-2026-2027-1-0424",
+        "upc-chem-2026-2027-1-0425",
+        "upc-chem-2026-2027-1-0426",
+        "upc-chem-2026-2027-1-0427",
+        "upc-chem-2026-2027-1-0428",
+        "upc-chem-2026-2027-1-0429",
+        "upc-chem-2026-2027-1-0430",
+        "upc-chem-2026-2027-1-0431",
+        "upc-chem-2026-2027-1-0432",
+        "upc-chem-2026-2027-1-0433",
+        "upc-chem-2026-2027-1-0434"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期三",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 19
+    },
+    {
+      "code": "SCC812212200",
+      "name": "物理化学(2-2)",
+      "normalizedName": "物理化学(2-2)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "叶天旭"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0435",
+        "upc-chem-2026-2027-1-0436",
+        "upc-chem-2026-2027-1-0437"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 3
+    },
+    {
+      "code": "SCC812212201",
+      "name": "物理化学(2-2)",
+      "normalizedName": "物理化学(2-2)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "张予辉"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0438",
+        "upc-chem-2026-2027-1-0439"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "SCC812421020",
+      "name": "现代分析技术",
+      "normalizedName": "现代分析技术",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "何化",
+        "杨丽敏",
+        "温聪颖",
+        "马洪超"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0440",
+        "upc-chem-2026-2027-1-0441",
+        "upc-chem-2026-2027-1-0442",
+        "upc-chem-2026-2027-1-0443",
+        "upc-chem-2026-2027-1-0444",
+        "upc-chem-2026-2027-1-0445",
+        "upc-chem-2026-2027-1-0446"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期三",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 7
+    },
+    {
+      "code": "SCC812521020",
+      "name": "新能源化学",
+      "normalizedName": "新能源化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "胡涵",
+        "董斌"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0447",
+        "upc-chem-2026-2027-1-0448",
+        "upc-chem-2026-2027-1-0449",
+        "upc-chem-2026-2027-1-0450"
+      ],
+      "weekdays": [
+        "星期日",
+        "星期五"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "SCC812611010",
+      "name": "学科前沿知识专题讲座",
+      "normalizedName": "学科前沿知识专题讲座",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "孙道峰",
+        "张龙力",
+        "徐海",
+        "董斌"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0451",
+        "upc-chem-2026-2027-1-0452",
+        "upc-chem-2026-2027-1-0453",
+        "upc-chem-2026-2027-1-0454",
+        "upc-chem-2026-2027-1-0455",
+        "upc-chem-2026-2027-1-0456"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 6
+    },
+    {
+      "code": "SCC813111036",
+      "name": "仪器分析",
+      "normalizedName": "仪器分析",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "于剑峰"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0457",
+        "upc-chem-2026-2027-1-0458"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期四"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "SCC813711020",
+      "name": "有机化学",
+      "normalizedName": "有机化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "徐永强",
+        "曹伟",
+        "杨妲"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0459",
+        "upc-chem-2026-2027-1-0460",
+        "upc-chem-2026-2027-1-0461",
+        "upc-chem-2026-2027-1-0462",
+        "upc-chem-2026-2027-1-0463",
+        "upc-chem-2026-2027-1-0464"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 6
+    },
+    {
+      "code": "SCC814021020",
+      "name": "专业外语",
+      "normalizedName": "专业外语",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "王创业",
+        "王子",
+        "王瑞"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0465",
+        "upc-chem-2026-2027-1-0466",
+        "upc-chem-2026-2027-1-0467",
+        "upc-chem-2026-2027-1-0468",
+        "upc-chem-2026-2027-1-0469",
+        "upc-chem-2026-2027-1-0470"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 6
+    },
+    {
+      "code": "SCC820611020",
+      "name": "分析化学实验",
+      "normalizedName": "分析化学实验",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "毕佳慧"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0471",
+        "upc-chem-2026-2027-1-0472"
+      ],
+      "weekdays": [
+        "星期二"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "SCC820811025",
+      "name": "高分子化学",
+      "normalizedName": "高分子化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "韩成友"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0473",
+        "upc-chem-2026-2027-1-0474"
+      ],
+      "weekdays": [
+        "星期四",
+        "星期六"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "SCC821111010",
+      "name": "新生研讨课",
+      "normalizedName": "新生研讨课",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "卢玉坤",
+        "孙道峰",
+        "曾景斌",
+        "林旭锋"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0475",
+        "upc-chem-2026-2027-1-0476",
+        "upc-chem-2026-2027-1-0477",
+        "upc-chem-2026-2027-1-0478",
+        "upc-chem-2026-2027-1-0479"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期五"
+      ],
+      "blockCount": 5
+    },
+    {
+      "code": "SCC828911010",
+      "name": "有机化学实验",
+      "normalizedName": "有机化学实验",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "周玉路",
+        "姜翠玉",
+        "张洪伟",
+        "徐永强",
+        "曹伟",
+        "杨妲",
+        "韩成友"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0480",
+        "upc-chem-2026-2027-1-0481",
+        "upc-chem-2026-2027-1-0482",
+        "upc-chem-2026-2027-1-0483",
+        "upc-chem-2026-2027-1-0484",
+        "upc-chem-2026-2027-1-0485",
+        "upc-chem-2026-2027-1-0486",
+        "upc-chem-2026-2027-1-0487",
+        "upc-chem-2026-2027-1-0488",
+        "upc-chem-2026-2027-1-0489",
+        "upc-chem-2026-2027-1-0490",
+        "upc-chem-2026-2027-1-0491",
+        "upc-chem-2026-2027-1-0492",
+        "upc-chem-2026-2027-1-0493",
+        "upc-chem-2026-2027-1-0494",
+        "upc-chem-2026-2027-1-0495"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期四"
+      ],
+      "blockCount": 16
+    },
+    {
+      "code": "SCC829021042",
+      "name": "物理化学",
+      "normalizedName": "物理化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "王秀凤"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0496",
+        "upc-chem-2026-2027-1-0497"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期六"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "SCC829111030",
+      "name": "有机化学",
+      "normalizedName": "有机化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "徐永强",
+        "王子"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0498",
+        "upc-chem-2026-2027-1-0499",
+        "upc-chem-2026-2027-1-0500",
+        "upc-chem-2026-2027-1-0501"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "SCC829112101",
+      "name": "有机化学（2-1）",
+      "normalizedName": "有机化学(2-1)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "彭志华"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0502",
+        "upc-chem-2026-2027-1-0503"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "SCC829611036",
+      "name": "结构化学",
+      "normalizedName": "结构化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "傅惠"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0504",
+        "upc-chem-2026-2027-1-0505"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期三",
+        "星期六"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "SCC830412100",
+      "name": "无机及分析化学实验(2-1)",
+      "normalizedName": "无机及分析化学实验(2-1)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "于剑峰",
+        "冯锡兰",
+        "刘春爽",
+        "夏永清",
+        "孙娟",
+        "戚建楠",
+        "曲剑波",
+        "马哲",
+        "马洪超"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0506",
+        "upc-chem-2026-2027-1-0507",
+        "upc-chem-2026-2027-1-0508",
+        "upc-chem-2026-2027-1-0509",
+        "upc-chem-2026-2027-1-0510",
+        "upc-chem-2026-2027-1-0511",
+        "upc-chem-2026-2027-1-0512",
+        "upc-chem-2026-2027-1-0513",
+        "upc-chem-2026-2027-1-0514",
+        "upc-chem-2026-2027-1-0515",
+        "upc-chem-2026-2027-1-0516",
+        "upc-chem-2026-2027-1-0517",
+        "upc-chem-2026-2027-1-0518",
+        "upc-chem-2026-2027-1-0519",
+        "upc-chem-2026-2027-1-0520",
+        "upc-chem-2026-2027-1-0521",
+        "upc-chem-2026-2027-1-0522",
+        "upc-chem-2026-2027-1-0523",
+        "upc-chem-2026-2027-1-0524",
+        "upc-chem-2026-2027-1-0525",
+        "upc-chem-2026-2027-1-0526",
+        "upc-chem-2026-2027-1-0527",
+        "upc-chem-2026-2027-1-0528",
+        "upc-chem-2026-2027-1-0529",
+        "upc-chem-2026-2027-1-0530",
+        "upc-chem-2026-2027-1-0531",
+        "upc-chem-2026-2027-1-0532",
+        "upc-chem-2026-2027-1-0533",
+        "upc-chem-2026-2027-1-0534",
+        "upc-chem-2026-2027-1-0535"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 30
+    },
+    {
+      "code": "SCC830611020",
+      "name": "分析化学",
+      "normalizedName": "分析化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "何化",
+        "毕佳慧"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0536",
+        "upc-chem-2026-2027-1-0537",
+        "upc-chem-2026-2027-1-0538"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 3
+    },
+    {
+      "code": "SCC830811020",
+      "name": "有机化学实验",
+      "normalizedName": "有机化学实验",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "宋林花",
+        "彭志华",
+        "王子"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0539",
+        "upc-chem-2026-2027-1-0540",
+        "upc-chem-2026-2027-1-0541",
+        "upc-chem-2026-2027-1-0542"
+      ],
+      "weekdays": [
+        "星期二"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "SCC830812100",
+      "name": "有机化学实验(2-1)",
+      "normalizedName": "有机化学实验(2-1)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "彭志华"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0543",
+        "upc-chem-2026-2027-1-0544"
+      ],
+      "weekdays": [
+        "星期一"
+      ],
+      "blockCount": 2
+    },
+    {
+      "code": "SCC831211015",
+      "name": "有机化学实验",
+      "normalizedName": "有机化学实验",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "周玉路",
+        "姜翠玉",
+        "宋林花",
+        "张洪伟",
+        "徐永强",
+        "杨妲",
+        "王子",
+        "韩成友"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0545",
+        "upc-chem-2026-2027-1-0546",
+        "upc-chem-2026-2027-1-0547",
+        "upc-chem-2026-2027-1-0548",
+        "upc-chem-2026-2027-1-0549",
+        "upc-chem-2026-2027-1-0550",
+        "upc-chem-2026-2027-1-0551",
+        "upc-chem-2026-2027-1-0552",
+        "upc-chem-2026-2027-1-0553",
+        "upc-chem-2026-2027-1-0554",
+        "upc-chem-2026-2027-1-0555",
+        "upc-chem-2026-2027-1-0556",
+        "upc-chem-2026-2027-1-0557",
+        "upc-chem-2026-2027-1-0558",
+        "upc-chem-2026-2027-1-0559",
+        "upc-chem-2026-2027-1-0560",
+        "upc-chem-2026-2027-1-0561",
+        "upc-chem-2026-2027-1-0562",
+        "upc-chem-2026-2027-1-0563",
+        "upc-chem-2026-2027-1-0564",
+        "upc-chem-2026-2027-1-0565",
+        "upc-chem-2026-2027-1-0566",
+        "upc-chem-2026-2027-1-0567",
+        "upc-chem-2026-2027-1-0568",
+        "upc-chem-2026-2027-1-0569",
+        "upc-chem-2026-2027-1-0570",
+        "upc-chem-2026-2027-1-0571",
+        "upc-chem-2026-2027-1-0572",
+        "upc-chem-2026-2027-1-0573",
+        "upc-chem-2026-2027-1-0574"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期三"
+      ],
+      "blockCount": 30
+    },
+    {
+      "code": "SCC831311035",
+      "name": "有机化学",
+      "normalizedName": "有机化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "姜翠玉"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0575"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期四"
+      ],
+      "blockCount": 1
+    },
+    {
+      "code": "SCC831612101",
+      "name": "无机化学（2-1）",
+      "normalizedName": "无机化学(2-1)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "卢玉坤",
+        "王淑涛",
+        "王瑞",
+        "董斌"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0576",
+        "upc-chem-2026-2027-1-0577",
+        "upc-chem-2026-2027-1-0578",
+        "upc-chem-2026-2027-1-0579",
+        "upc-chem-2026-2027-1-0580",
+        "upc-chem-2026-2027-1-0581",
+        "upc-chem-2026-2027-1-0582"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期三",
+        "星期五"
+      ],
+      "blockCount": 7
+    },
+    {
+      "code": "SCC832012100",
+      "name": "有机化学(2-1)",
+      "normalizedName": "有机化学(2-1)",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "周玉路",
+        "彭志华"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0583",
+        "upc-chem-2026-2027-1-0584",
+        "upc-chem-2026-2027-1-0585"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 3
+    },
+    {
+      "code": "SCC850111025",
+      "name": "大学化学",
+      "normalizedName": "大学化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘大鹏",
+        "刘春爽",
+        "吕仁庆",
+        "夏永清",
+        "孙洪满",
+        "张强",
+        "曾景斌",
+        "杨修洁",
+        "王栋",
+        "王芳",
+        "赵会吉",
+        "赵玉荣",
+        "郭海玲",
+        "顾莹莹",
+        "马洪超"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0586",
+        "upc-chem-2026-2027-1-0587",
+        "upc-chem-2026-2027-1-0588",
+        "upc-chem-2026-2027-1-0589",
+        "upc-chem-2026-2027-1-0590",
+        "upc-chem-2026-2027-1-0591",
+        "upc-chem-2026-2027-1-0592",
+        "upc-chem-2026-2027-1-0593",
+        "upc-chem-2026-2027-1-0594",
+        "upc-chem-2026-2027-1-0595",
+        "upc-chem-2026-2027-1-0596",
+        "upc-chem-2026-2027-1-0597",
+        "upc-chem-2026-2027-1-0598",
+        "upc-chem-2026-2027-1-0599",
+        "upc-chem-2026-2027-1-0600",
+        "upc-chem-2026-2027-1-0601",
+        "upc-chem-2026-2027-1-0602",
+        "upc-chem-2026-2027-1-0603",
+        "upc-chem-2026-2027-1-0604",
+        "upc-chem-2026-2027-1-0605",
+        "upc-chem-2026-2027-1-0606",
+        "upc-chem-2026-2027-1-0607",
+        "upc-chem-2026-2027-1-0608",
+        "upc-chem-2026-2027-1-0609",
+        "upc-chem-2026-2027-1-0610",
+        "upc-chem-2026-2027-1-0611",
+        "upc-chem-2026-2027-1-0612",
+        "upc-chem-2026-2027-1-0613",
+        "upc-chem-2026-2027-1-0614",
+        "upc-chem-2026-2027-1-0615",
+        "upc-chem-2026-2027-1-0616",
+        "upc-chem-2026-2027-1-0617",
+        "upc-chem-2026-2027-1-0618",
+        "upc-chem-2026-2027-1-0619",
+        "upc-chem-2026-2027-1-0620",
+        "upc-chem-2026-2027-1-0621"
+      ],
+      "weekdays": [
+        "星期一",
+        "星期二",
+        "星期三",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 36
+    },
+    {
+      "code": "SCC850311020",
+      "name": "大学化学",
+      "normalizedName": "大学化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘其友",
+        "卢磊"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0622",
+        "upc-chem-2026-2027-1-0623",
+        "upc-chem-2026-2027-1-0624",
+        "upc-chem-2026-2027-1-0625"
+      ],
+      "weekdays": [
+        "星期三",
+        "星期四",
+        "星期五"
+      ],
+      "blockCount": 4
+    },
+    {
+      "code": "SCC850611035",
+      "name": "大学化学",
+      "normalizedName": "大学化学",
+      "collegeCode": "upc-03",
+      "teacherNames": [
+        "刘大鹏"
+      ],
+      "blockIds": [
+        "upc-chem-2026-2027-1-0626",
+        "upc-chem-2026-2027-1-0627"
+      ],
+      "weekdays": [
+        "星期二",
+        "星期四"
+      ],
+      "blockCount": 2
+    }
+  ],
+  "exactSameNameDifferentCodes": [
+    {
+      "name": "C1化学与化工",
+      "codes": [
+        "CHM120121010",
+        "CHM120121020"
+      ],
+      "normalizedName": "C1化学与化工"
+    },
+    {
+      "name": "专业外语",
+      "codes": [
+        "CHM223621020",
+        "SCC814021020"
+      ],
+      "normalizedName": "专业外语"
+    },
+    {
+      "name": "分析化学实验",
+      "codes": [
+        "SCC810611021",
+        "SCC820611020"
+      ],
+      "normalizedName": "分析化学实验"
+    },
+    {
+      "name": "化学工程基础",
+      "codes": [
+        "CHM121711035",
+        "CHM121711036",
+        "CHM121911030"
+      ],
+      "normalizedName": "化学工程基础"
+    },
+    {
+      "name": "大学化学",
+      "codes": [
+        "SCC850111025",
+        "SCC850311020",
+        "SCC850611035"
+      ],
+      "normalizedName": "大学化学"
+    },
+    {
+      "name": "学科前沿知识专题讲座",
+      "codes": [
+        "CHM326121010",
+        "SCC812611010"
+      ],
+      "normalizedName": "学科前沿知识专题讲座"
+    },
+    {
+      "name": "新生研讨课",
+      "codes": [
+        "CHM112011010",
+        "CHM223011010",
+        "SCC821111010"
+      ],
+      "normalizedName": "新生研讨课"
+    },
+    {
+      "name": "有机化学",
+      "codes": [
+        "SCC813711020",
+        "SCC829111030",
+        "SCC831311035"
+      ],
+      "normalizedName": "有机化学"
+    },
+    {
+      "name": "有机化学实验",
+      "codes": [
+        "SCC828911010",
+        "SCC830811020",
+        "SCC831211015"
+      ],
+      "normalizedName": "有机化学实验"
+    },
+    {
+      "name": "物理化学",
+      "codes": [
+        "SCC812211025",
+        "SCC812211030",
+        "SCC829021042"
+      ],
+      "normalizedName": "物理化学"
+    },
+    {
+      "name": "物理化学(2-2)",
+      "codes": [
+        "SCC812212200",
+        "SCC812212201"
+      ],
+      "normalizedName": "物理化学(2-2)"
+    },
+    {
+      "name": "环境保护导论",
+      "codes": [
+        "CHM326831020",
+        "CHM350711021"
+      ],
+      "normalizedName": "环境保护导论"
+    },
+    {
+      "name": "生物化学",
+      "codes": [
+        "CHM420721025",
+        "CHM429041020"
+      ],
+      "normalizedName": "生物化学"
+    },
+    {
+      "name": "石油化学",
+      "codes": [
+        "CHM222211040",
+        "CHM224131020"
+      ],
+      "normalizedName": "石油化学"
+    },
+    {
+      "name": "石油工业与环境保护概论",
+      "codes": [
+        "CHM324711010",
+        "CHM324821020"
+      ],
+      "normalizedName": "石油工业与环境保护概论"
+    },
+    {
+      "name": "结构化学",
+      "codes": [
+        "SCC811121020",
+        "SCC829611036"
+      ],
+      "normalizedName": "结构化学"
+    }
+  ],
+  "normalizedSameNameDifferentCodes": [
+    {
+      "name": "C1化学与化工",
+      "codes": [
+        "CHM120121010",
+        "CHM120121020"
+      ],
+      "displayNames": [
+        "C1化学与化工"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "专业外语",
+      "codes": [
+        "CHM223621020",
+        "SCC814021020"
+      ],
+      "displayNames": [
+        "专业外语"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "分析化学实验",
+      "codes": [
+        "SCC810611021",
+        "SCC820611020"
+      ],
+      "displayNames": [
+        "分析化学实验"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "化学工程基础",
+      "codes": [
+        "CHM121711035",
+        "CHM121711036",
+        "CHM121911030"
+      ],
+      "displayNames": [
+        "化学工程基础"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "大学化学",
+      "codes": [
+        "SCC850111025",
+        "SCC850311020",
+        "SCC850611035"
+      ],
+      "displayNames": [
+        "大学化学"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "学科前沿知识专题讲座",
+      "codes": [
+        "CHM326121010",
+        "SCC812611010"
+      ],
+      "displayNames": [
+        "学科前沿知识专题讲座"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "工程概论(2-1)",
+      "codes": [
+        "CHM110412100",
+        "CHM310112100"
+      ],
+      "displayNames": [
+        "工程概论(2-1)",
+        "工程概论（2-1）"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "新生研讨课",
+      "codes": [
+        "CHM112011010",
+        "CHM223011010",
+        "SCC821111010"
+      ],
+      "displayNames": [
+        "新生研讨课"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "有机化学",
+      "codes": [
+        "SCC813711020",
+        "SCC829111030",
+        "SCC831311035"
+      ],
+      "displayNames": [
+        "有机化学"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "有机化学(2-1)",
+      "codes": [
+        "SCC829112101",
+        "SCC832012100"
+      ],
+      "displayNames": [
+        "有机化学(2-1)",
+        "有机化学（2-1）"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "有机化学实验",
+      "codes": [
+        "SCC828911010",
+        "SCC830811020",
+        "SCC831211015"
+      ],
+      "displayNames": [
+        "有机化学实验"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "物理化学",
+      "codes": [
+        "SCC812211025",
+        "SCC812211030",
+        "SCC829021042"
+      ],
+      "displayNames": [
+        "物理化学"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "物理化学(2-2)",
+      "codes": [
+        "SCC812212200",
+        "SCC812212201"
+      ],
+      "displayNames": [
+        "物理化学(2-2)"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "环境保护导论",
+      "codes": [
+        "CHM326831020",
+        "CHM350711021"
+      ],
+      "displayNames": [
+        "环境保护导论"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "生物化学",
+      "codes": [
+        "CHM420721025",
+        "CHM429041020"
+      ],
+      "displayNames": [
+        "生物化学"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "石油化学",
+      "codes": [
+        "CHM222211040",
+        "CHM224131020"
+      ],
+      "displayNames": [
+        "石油化学"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "石油工业与环境保护概论",
+      "codes": [
+        "CHM324711010",
+        "CHM324821020"
+      ],
+      "displayNames": [
+        "石油工业与环境保护概论"
+      ],
+      "note": "same normalized name; not merged"
+    },
+    {
+      "name": "结构化学",
+      "codes": [
+        "SCC811121020",
+        "SCC829611036"
+      ],
+      "displayNames": [
+        "结构化学"
+      ],
+      "note": "same normalized name; not merged"
+    }
+  ],
+  "counts": {
+    "uniqueCourses": 129,
+    "sameNameDifferentCodeGroups": 16,
+    "sameNormalizedNameDifferentCodeGroups": 18
+  }
+}

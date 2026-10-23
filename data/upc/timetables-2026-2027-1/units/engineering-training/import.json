@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-engineering-training-2026-2027-1-timetable-20261023",
+  "source": "课表/石油工业训练中心/课表打印.xls sha256:86426e2e9497d75c5c8211acc4a266facff4ffae9b9e4ee6231b57f1716b4419; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "sygx-c19224-a497156",
+      "name": "刘冬冬",
+      "title": null,
+      "collegeCode": "upc-17",
+      "campus": null,
+      "courses": [
+        {
+          "code": "TRN023011030",
+          "name": "工程综合训练与创新（B）",
+          "collegeCode": "upc-17"
+        }
+      ]
+    },
+    {
+      "sourceId": "sygx-c19224-a491963",
+      "name": "刘振东",
+      "title": null,
+      "collegeCode": "upc-17",
+      "campus": null,
+      "courses": [
+        {
+          "code": "TRN023011030",
+          "name": "工程综合训练与创新（B）",
+          "collegeCode": "upc-17"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-17-001",
+      "name": "李卓军",
+      "title": null,
+      "collegeCode": "upc-17",
+      "campus": null,
+      "courses": [
+        {
+          "code": "TRN023011030",
+          "name": "工程综合训练与创新（B）",
+          "collegeCode": "upc-17"
+        }
+      ]
+    },
+    {
+      "sourceId": "sygx-c19224-a482534",
+      "name": "李雪琴",
+      "title": null,
+      "collegeCode": "upc-17",
+      "campus": null,
+      "courses": [
+        {
+          "code": "TRN022711020",
+          "name": "工程综合训练与创新（C）",
+          "collegeCode": "upc-17"
+        }
+      ]
+    },
+    {
+      "sourceId": "sygx-c19224-a498581",
+      "name": "王淑萍",
+      "title": "副教授",
+      "collegeCode": "upc-17",
+      "campus": null,
+      "courses": [
+        {
+          "code": "TRN022911040",
+          "name": "工程综合训练与创新（A）",
+          "collegeCode": "upc-17"
+        },
+        {
+          "code": "TRN023011030",
+          "name": "工程综合训练与创新（B）",
+          "collegeCode": "upc-17"
+        },
+        {
+          "code": "TRN023131020",
+          "name": "漫步能源大世界",
+          "collegeCode": "upc-17"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-17-002",
+      "name": "苑得鑫",
+      "title": null,
+      "collegeCode": "upc-17",
+      "campus": null,
+      "courses": [
+        {
+          "code": "TRN023011030",
+          "name": "工程综合训练与创新（B）",
+          "collegeCode": "upc-17"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-17-003",
+      "name": "荆正军",
+      "title": null,
+      "collegeCode": "upc-17",
+      "campus": null,
+      "courses": [
+        {
+          "code": "TRN022641020",
+          "name": "AI创新与AI发明",
+          "collegeCode": "upc-17"
+        },
+        {
+          "code": "TRN022911040",
+          "name": "工程综合训练与创新（A）",
+          "collegeCode": "upc-17"
+        },
+        {
+          "code": "TRN023011030",
+          "name": "工程综合训练与创新（B）",
+          "collegeCode": "upc-17"
+        },
+        {
+          "code": "TRN023131020",
+          "name": "漫步能源大世界",
+          "collegeCode": "upc-17"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-17-004",
+      "name": "赵玉明",
+      "title": null,
+      "collegeCode": "upc-17",
+      "campus": null,
+      "courses": [
+        {
+          "code": "TRN020241040",
+          "name": "AI机器人创新实战",
+          "collegeCode": "upc-17"
+        },
+        {
+          "code": "TRN022911040",
+          "name": "工程综合训练与创新（A）",
+          "collegeCode": "upc-17"
+        },
+        {
+          "code": "TRN023011030",
+          "name": "工程综合训练与创新（B）",
+          "collegeCode": "upc-17"
+        }
+      ]
+    },
+    {
+      "sourceId": "sygx-c19224-a480780",
+      "name": "郭卫萍",
+      "title": null,
+      "collegeCode": "upc-17",
+      "campus": null,
+      "courses": [
+        {
+          "code": "TRN022711020",
+          "name": "工程综合训练与创新（C）",
+          "collegeCode": "upc-17"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-17-005",
+      "name": "陈琳",
+      "title": null,
+      "collegeCode": "upc-17",
+      "campus": null,
+      "courses": [
+        {
+          "code": "TRN022911040",
+          "name": "工程综合训练与创新（A）",
+          "collegeCode": "upc-17"
+        }
+      ]
+    },
+    {
+      "sourceId": "sygx-c19224-a482539",
+      "name": "靳纪军",
+      "title": null,
+      "collegeCode": "upc-17",
+      "campus": null,
+      "courses": [
+        {
+          "code": "TRN020241040",
+          "name": "AI机器人创新实战",
+          "collegeCode": "upc-17"
+        },
+        {
+          "code": "TRN022711020",
+          "name": "工程综合训练与创新（C）",
+          "collegeCode": "upc-17"
+        },
+        {
+          "code": "TRN023131020",
+          "name": "漫步能源大世界",
+          "collegeCode": "upc-17"
+        }
+      ]
+    },
+    {
+      "sourceId": "sygx-c19226-a449724",
+      "name": "马少华",
+      "title": null,
+      "collegeCode": "upc-17",
+      "campus": null,
+      "courses": [
+        {
+          "code": "TRN020241040",
+          "name": "AI机器人创新实战",
+          "collegeCode": "upc-17"
+        },
+        {
+          "code": "TRN022641020",
+          "name": "AI创新与AI发明",
+          "collegeCode": "upc-17"
+        },
+        {
+          "code": "TRN022711020",
+          "name": "工程综合训练与创新（C）",
+          "collegeCode": "upc-17"
+        }
+      ]
+    },
+    {
+      "sourceId": "sygx-c19225-a448419",
+      "name": "马建民",
+      "title": null,
+      "collegeCode": "upc-17",
+      "campus": null,
+      "courses": [
+        {
+          "code": "TRN022911040",
+          "name": "工程综合训练与创新（A）",
+          "collegeCode": "upc-17"
+        },
+        {
+          "code": "TRN023011030",
+          "name": "工程综合训练与创新（B）",
+          "collegeCode": "upc-17"
+        }
+      ]
+    }
+  ]
+}

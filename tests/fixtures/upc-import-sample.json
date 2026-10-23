@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "dataset": "fixture-upc-import-sample",
+  "source": "local synthetic fixture for automated tests only",
+  "term": {
+    "code": "test-term-1",
+    "name": "测试学期（合成）",
+    "isCurrent": true
+  },
+  "teachers": [
+    {
+      "sourceId": "fixture-import-001",
+      "name": "测试教师甲",
+      "title": "教授",
+      "collegeCode": "upc-12",
+      "campus": "唐岛湾校区",
+      "courses": [
+        { "code": "TEST-IMPORT-101", "name": "测试导入课程" }
+      ]
+    },
+    {
+      "sourceId": "fixture-import-002",
+      "name": "测试教师甲",
+      "title": null,
+      "collegeCode": "upc-12",
+      "campus": "古镇口校区",
+      "courses": [
+        { "code": "TEST-IMPORT-101", "name": "测试导入课程" }
+      ]
+    }
+  ]
+}

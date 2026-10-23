@@ -1,0 +1,41 @@
+{
+  "slug": "physical-education",
+  "sourceUnit": "体育教学部",
+  "collegeCode": "upc-16",
+  "status": "active",
+  "sourceDir": "体育教学部",
+  "rawBlocks": 94,
+  "candidates": 43,
+  "verified": 43,
+  "officialVerified": 18,
+  "timetableVerified": 25,
+  "unresolved": 0,
+  "unresolvedDetails": [],
+  "excludedBlocks": 7,
+  "excludedBlockReasons": {
+    "missing_course_identity": 6,
+    "missing_teacher": 1
+  },
+  "coursesRaw": 7,
+  "sourceFile": {
+    "path": "课表/体育教学部/课表打印.xls",
+    "bytes": 86016,
+    "sha256": "6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8",
+    "format": "BIFF8/OLE2",
+    "title": "中国石油大学（华东） 体育教学部  教研室课表",
+    "term": "2026-2027-1",
+    "sheets": [
+      {
+        "name": "Sheet4",
+        "rows": 9,
+        "cols": 256,
+        "headerRow": 3,
+        "blocks": 94,
+        "anomalies": []
+      }
+    ]
+  },
+  "courses": 7,
+  "offerings": 50,
+  "importFile": "units/physical-education/import.json"
+}

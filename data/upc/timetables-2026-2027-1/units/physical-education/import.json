@@ -1,0 +1,649 @@
+{
+  "schemaVersion": 1,
+  "dataset": "upc-physical-education-2026-2027-1-timetable-20261023",
+  "source": "课表/体育教学部/课表打印.xls sha256:6ecda328dd462cd3ced0d3e367fd6c17cad1c39ec0b334d495ff73f4b99d20e8; official teacher lists/profiles",
+  "term": {
+    "code": "2026-2027-1",
+    "name": "2026-2027-1",
+    "isCurrent": false
+  },
+  "teachers": [
+    {
+      "sourceId": "tt-upc-16-002",
+      "name": "于晓红",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a452667",
+      "name": "刘高强",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-003",
+      "name": "史海鹏",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-004",
+      "name": "吕娜",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a414402",
+      "name": "周伟",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        },
+        {
+          "code": "UPE122031010",
+          "name": "羽毛球",
+          "collegeCode": "upc-16"
+        },
+        {
+          "code": "UPE125511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-005",
+      "name": "周吉兰",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a414456",
+      "name": "商勇",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a414464",
+      "name": "夏娇阳",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-006",
+      "name": "姜庆林",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE125511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a418562",
+      "name": "孔勇",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-007",
+      "name": "宋清",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7645-a414415",
+      "name": "宋述光",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE125511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a414467",
+      "name": "尤洋",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        },
+        {
+          "code": "UPE125511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a418983",
+      "name": "张晓明",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a418565",
+      "name": "彭双发",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-001",
+      "name": "曹伟",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-008",
+      "name": "李仁熙",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a414439",
+      "name": "李承伟",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE125511010",
+          "name": "新生研讨课",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a482363",
+      "name": "李振",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        },
+        {
+          "code": "UPE123111020",
+          "name": "运动解剖学(2-1)",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a418563",
+      "name": "李新",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-009",
+      "name": "杨宏",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-010",
+      "name": "林明贵",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a418564",
+      "name": "梁国强",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-011",
+      "name": "梁莎莎",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-012",
+      "name": "欧阳勇强",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-013",
+      "name": "焦喜便",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-014",
+      "name": "牛静",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-015",
+      "name": "牟小刚",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-016",
+      "name": "王子贤",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-017",
+      "name": "王峰",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-018",
+      "name": "王成国",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a443793",
+      "name": "王海燕",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        },
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a418567",
+      "name": "王燕珍",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7645-a414414",
+      "name": "窦兆波",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-019",
+      "name": "翁炀晖",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7644-a418560",
+      "name": "胡洋",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        },
+        {
+          "code": "UPE120531010",
+          "name": "乒乓球",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-020",
+      "name": "谢小英",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-021",
+      "name": "赵岑",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-022",
+      "name": "赵延敏",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-023",
+      "name": "赵晶晶",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-024",
+      "name": "赵莹莹",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        },
+        {
+          "code": "UPE122931020",
+          "name": "运动营养与体态管理",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "tt-upc-16-025",
+      "name": "韩蕾",
+      "title": null,
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114101",
+          "name": "体育（4-1）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    },
+    {
+      "sourceId": "sports-c7645-a414411",
+      "name": "高千里",
+      "title": "教授",
+      "collegeCode": "upc-16",
+      "campus": null,
+      "courses": [
+        {
+          "code": "UPE110114301",
+          "name": "体育（4-3）",
+          "collegeCode": "upc-16"
+        }
+      ]
+    }
+  ]
+}

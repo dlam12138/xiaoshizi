@@ -1,0 +1,38 @@
+{
+  "slug": "science",
+  "sourceUnit": "理学院",
+  "collegeCode": "upc-12",
+  "status": "active",
+  "sourceDir": "理学院",
+  "rawBlocks": 889,
+  "candidates": 154,
+  "verified": 155,
+  "officialVerified": 149,
+  "timetableVerified": 6,
+  "unresolved": 0,
+  "unresolvedDetails": [],
+  "excludedBlocks": 0,
+  "excludedBlockReasons": {},
+  "coursesRaw": 130,
+  "sourceFile": {
+    "path": "课表/理学院/课表打印.xls",
+    "bytes": 153600,
+    "sha256": "fb2798624f5412da0705993f496be5e243762f00fe2fa38b91b64588b4351a7f",
+    "format": "BIFF8/OLE2",
+    "title": "中国石油大学（华东） 理学院  教研室课表",
+    "term": "2026-2027-1",
+    "sheets": [
+      {
+        "name": "Sheet4",
+        "rows": 9,
+        "cols": 256,
+        "headerRow": 3,
+        "blocks": 889,
+        "anomalies": []
+      }
+    ]
+  },
+  "courses": 130,
+  "offerings": 279,
+  "importFile": "units/science/import.json"
+}

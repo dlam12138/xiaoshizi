@@ -1,12 +1,13 @@
 import express from 'express';
-import { pagination, teacherOptions, teacherPage, reviewPage } from './data.mjs';
-import { timetableOptions, timetableRecommendations } from './timetable.mjs';
-import { noticeOptions, createNoticeReader } from './notices.mjs';
+import { pagination, teacherOptions, teacherPage, reviewPage, validateNewRatingPayload } from './data.mjs';
 
 const asyncRoute = fn => (req, res, next) => Promise.resolve(fn(req, res)).catch(next);
 const httpError = (status, message) => Object.assign(new Error(message), { status });
 function id(value) {
-  if (typeof value !== 'string' || !/^[a-zA-Z0-9_-]{1,128}$/.test(value) || value === '__meta') {
+  // Teacher IDs are 'upc:<sourceId>' and may contain non-ASCII characters.
+  // The value is only used as a parameterized database filter, never as a path.
+  if (typeof value !== 'string' || value.length < 1 || value.length > 200
+      || value === '__meta' || /[\/\\\u0000-\u001f\u007f]/.test(value)) {
     throw httpError(400, 'Invalid record ID');
   }
   return value;
@@ -18,7 +19,6 @@ function check(result) {
 
 export function createApp({ cache, authClient, userClient, logger = console }) {
   const app = express();
-  const readNotices = createNoticeReader(authClient);
   app.disable('x-powered-by');
   app.use(express.json({ limit: '32kb' }));
   app.use((req, _res, next) => { req.body ||= {}; next(); });
@@ -26,19 +26,11 @@ export function createApp({ cache, authClient, userClient, logger = console }) {
     res.set('Cache-Control', 'no-store');
     next();
   });
-  app.get('/health', (_req, res) => res.json({ ok: true, cache: cache.available ? 'ready' : 'bypass', lastSync: cache.lastSync }));
-  app.get('/api/timetable/recommendations', asyncRoute(async (req, res) => {
-    let options;
-    try { options = timetableOptions(req.query); }
-    catch (error) { throw httpError(400, error.message); }
-    const terms = await cache.terms();
-    const current = terms.rows.filter(term => term.is_current);
-    if (current.length !== 1) throw httpError(503, 'Current term is not configured uniquely');
-    const timetable = await cache.timetable(current[0].id);
-    const teachers = await cache.teachers();
-    const states = [terms.cache, timetable.cache, teachers.cache];
-    res.set('X-Cache', states.includes('BYPASS') ? 'BYPASS' : states.includes('MISS') ? 'MISS' : 'HIT')
-      .json({ data: timetableRecommendations(timetable.rows, teachers.rows, options) });
+  app.get('/health', (_req, res) => res.json({
+    ok: true,
+    cache: cache.available ? 'ready' : 'bypass',
+    lastSync: cache.lastSync,
+    timetable: 'disabled',
   }));
   app.get('/api/teachers', asyncRoute(async (req, res) => {
     let options;
@@ -59,14 +51,6 @@ export function createApp({ cache, authClient, userClient, logger = console }) {
     catch (error) { throw httpError(400, error.message); }
     const result = await cache.reviews(teacherId);
     res.set('X-Cache', result.cache).json({ data: reviewPage(result.rows, options) });
-  }));
-
-  app.get('/api/notices', asyncRoute(async (req, res) => {
-    let options;
-    try { options = noticeOptions(req.query); }
-    catch (error) { throw httpError(400, error.message); }
-    const result = await readNotices(options);
-    res.set('X-Cache', result.cache).json({ data: result.data });
   }));
 
   // Express 4 does not automatically forward rejected promises from async middleware.
@@ -107,9 +91,21 @@ export function createApp({ cache, authClient, userClient, logger = console }) {
   }
   app.post('/api/reviews/:id/like', asyncRoute(async (req, res) => {
     if (typeof req.body.liked !== 'boolean') throw httpError(400, 'Invalid liked state');
-    const data = await perform(req, reviewId => req.db.rpc('set_review_like', {
-      p_review_id: reviewId, p_liked: req.body.liked,
-    }).then(check), false);
+    const reviewId = id(req.params.id);
+    // Do not pre-read the base reviews table: another user's approved review is
+    // intentionally invisible there. The SECURITY DEFINER RPC authorizes the
+    // like/unlike and returns the teacher ID needed for cache invalidation.
+    const data = await cache.mutate(async () => {
+      const result = check(await req.db.rpc('set_review_like', {
+        p_review_id: reviewId, p_liked: req.body.liked,
+      }));
+      if (!result || typeof result.teacher_id !== 'string' || !result.teacher_id) {
+        throw httpError(404, 'Review not found or access denied');
+      }
+      await cache.changedReview(result.teacher_id, reviewId, { teacherChanged: false });
+      const { teacher_id: _teacherId, ...publicResult } = result;
+      return publicResult;
+    });
     res.json({ data });
   }));
   app.delete('/api/reviews/:id', asyncRoute(async (req, res) => {
@@ -121,10 +117,12 @@ export function createApp({ cache, authClient, userClient, logger = console }) {
     res.json({ data });
   }));
   app.patch('/api/reviews/:id', asyncRoute(async (req, res) => {
-    const fields = ['rating_version', 'course_id', 'year_term', 'attendance_strictness', 'grading_leniency',
+    const fields = ['rating_version', 'course_id', 'term_id', 'year_term', 'attendance_strictness', 'grading_leniency',
       'effort_matters', 'workload_difficulty', 'approachability', 'teaching_quality', 'comment'];
     const payload = Object.fromEntries(fields.filter(key => req.body[key] !== undefined).map(key => [key, req.body[key]]));
     if (payload.rating_version !== 2) throw httpError(400, 'Invalid rating version');
+    const ratingError = validateNewRatingPayload(payload);
+    if (ratingError) throw httpError(400, ratingError);
     payload.status = 'pending';
     payload.reject_reason = null;
     const data = await perform(req, async (reviewId, before) => {

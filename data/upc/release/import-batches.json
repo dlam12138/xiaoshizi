@@ -1,0 +1,1278 @@
+[
+  {
+    "dataset": "upc-chemistry-2026-2027-1-timetable-20261022",
+    "checksum": "efdfdf082d5e1dc59094c65ffe54bc4cb9e90aef3a053a3775aaf3ca3fc242ff",
+    "imported_at": "2026-10-23T01:58:55.397254+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 1,
+        "updated": 0,
+        "skipped": 0
+      },
+      "courses": {
+        "inserted": 129,
+        "updated": 0,
+        "skipped": 142
+      },
+      "teachers": {
+        "inserted": 136,
+        "updated": 0,
+        "skipped": 0
+      },
+      "offerings": {
+        "inserted": 271,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-chemistry-2026-2027-1-timetable-20261022",
+    "checksum": "efdfdf082d5e1dc59094c65ffe54bc4cb9e90aef3a053a3775aaf3ca3fc242ff",
+    "imported_at": "2026-10-23T01:59:03.425129+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 271
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 136
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 271
+      }
+    }
+  },
+  {
+    "dataset": "upc-computer-software-2026-2027-1-timetable-20261023",
+    "checksum": "0ff2212ff4a2df22d31f55c20544ba2bc3393de130d429a4874cb7e82c215a79",
+    "imported_at": "2026-10-23T04:11:56.952911+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 72,
+        "updated": 0,
+        "skipped": 93
+      },
+      "teachers": {
+        "inserted": 79,
+        "updated": 0,
+        "skipped": 0
+      },
+      "offerings": {
+        "inserted": 165,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-control-2026-2027-1-timetable-20261023",
+    "checksum": "9b689ed38688a9460bd74a5aad700861f1d78273142309ef99d1c5fe1f511921",
+    "imported_at": "2026-10-23T04:11:57.203139+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 48,
+        "updated": 0,
+        "skipped": 51
+      },
+      "teachers": {
+        "inserted": 54,
+        "updated": 0,
+        "skipped": 0
+      },
+      "offerings": {
+        "inserted": 99,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-earth-science-2026-2027-1-timetable-20261023",
+    "checksum": "db47a0ebfedac0e624204f61a205ba068ebe36a5da083ed77e15dc4add72b870",
+    "imported_at": "2026-10-23T04:11:57.430424+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 91,
+        "updated": 0,
+        "skipped": 64
+      },
+      "teachers": {
+        "inserted": 107,
+        "updated": 0,
+        "skipped": 0
+      },
+      "offerings": {
+        "inserted": 155,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-economics-management-2026-2027-1-timetable-20261023",
+    "checksum": "43df9a47fafd1f2a7f23cccba6e6ddc401aafb0719415ba89cdd76c9f9a55c4d",
+    "imported_at": "2026-10-23T04:11:57.669249+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 121,
+        "updated": 0,
+        "skipped": 75
+      },
+      "teachers": {
+        "inserted": 100,
+        "updated": 0,
+        "skipped": 0
+      },
+      "offerings": {
+        "inserted": 196,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-humanities-law-2026-2027-1-timetable-20261023",
+    "checksum": "d5233f22cd7040ac90246bb589763a1e33c98aa84d1c29095b8139235325cf20",
+    "imported_at": "2026-10-23T04:11:57.906362+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 120,
+        "updated": 0,
+        "skipped": 41
+      },
+      "teachers": {
+        "inserted": 52,
+        "updated": 0,
+        "skipped": 2
+      },
+      "offerings": {
+        "inserted": 161,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-marxism-2026-2027-1-timetable-20261023",
+    "checksum": "08ae5ed73d00cb85ee8819e10aeccfa11eb13884e40aacbc64fc6b5fd5ce9b34",
+    "imported_at": "2026-10-23T04:11:58.138981+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 19,
+        "updated": 0,
+        "skipped": 93
+      },
+      "teachers": {
+        "inserted": 85,
+        "updated": 0,
+        "skipped": 1
+      },
+      "offerings": {
+        "inserted": 112,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-materials-2026-2027-1-timetable-20261023",
+    "checksum": "182e5ce62b26c46b36e3193e7bd5647c734a7529e3a70b51f984c638560e5d7e",
+    "imported_at": "2026-10-23T04:11:58.376372+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 67,
+        "updated": 0,
+        "skipped": 47
+      },
+      "teachers": {
+        "inserted": 53,
+        "updated": 0,
+        "skipped": 1
+      },
+      "offerings": {
+        "inserted": 114,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-mechanical-engineering-2026-2027-1-timetable-20261023",
+    "checksum": "4406f7fe927c2a1e1a70db75a27639bb07cbaa1acf13562810a9461189338dff",
+    "imported_at": "2026-10-23T04:11:58.61675+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 93,
+        "updated": 0,
+        "skipped": 114
+      },
+      "teachers": {
+        "inserted": 105,
+        "updated": 0,
+        "skipped": 2
+      },
+      "offerings": {
+        "inserted": 207,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-new-energy-2026-2027-1-timetable-20261023",
+    "checksum": "ea6b6ef0b1aff6ac1fe011f8462f95382ff0244ef9106826d8fd6ed45c14973c",
+    "imported_at": "2026-10-23T04:11:58.852376+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 62,
+        "updated": 0,
+        "skipped": 86
+      },
+      "teachers": {
+        "inserted": 73,
+        "updated": 0,
+        "skipped": 1
+      },
+      "offerings": {
+        "inserted": 148,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-ocean-space-2026-2027-1-timetable-20261023",
+    "checksum": "1b12015e87591ba94835d86c823de96270ec022eb4628313fb87cca9655fca79",
+    "imported_at": "2026-10-23T04:11:59.101083+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 72,
+        "updated": 0,
+        "skipped": 49
+      },
+      "teachers": {
+        "inserted": 61,
+        "updated": 0,
+        "skipped": 0
+      },
+      "offerings": {
+        "inserted": 121,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-petroleum-engineering-2026-2027-1-timetable-20261023",
+    "checksum": "1aca3a001fb82d62dbd2afbe19192dd372b769dab6b1e201d12b5d56a44542a5",
+    "imported_at": "2026-10-23T04:11:59.32319+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 74,
+        "updated": 0,
+        "skipped": 158
+      },
+      "teachers": {
+        "inserted": 118,
+        "updated": 0,
+        "skipped": 0
+      },
+      "offerings": {
+        "inserted": 232,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-physical-education-2026-2027-1-timetable-20261023",
+    "checksum": "26a1837567002c2a4f0b7a86b8f8db93c4fe2cb61b227c0354fbf5a84866d451",
+    "imported_at": "2026-10-23T04:11:59.585271+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 6,
+        "updated": 0,
+        "skipped": 18
+      },
+      "teachers": {
+        "inserted": 17,
+        "updated": 0,
+        "skipped": 1
+      },
+      "offerings": {
+        "inserted": 24,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-science-2026-2027-1-timetable-20261023",
+    "checksum": "d54427e04638ef956f4cbe689792f3bbd0cbe83ad5c5a8c2819244f3aadc0521",
+    "imported_at": "2026-10-23T04:11:59.81399+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 127,
+        "updated": 0,
+        "skipped": 133
+      },
+      "teachers": {
+        "inserted": 144,
+        "updated": 0,
+        "skipped": 2
+      },
+      "offerings": {
+        "inserted": 260,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-storage-civil-2026-2027-1-timetable-20261023",
+    "checksum": "529a9256e3958ad859c5ea1dc1cfd8410c33278d56fe65717ba742d2db9aaec7",
+    "imported_at": "2026-10-23T04:12:00.048994+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 89,
+        "updated": 0,
+        "skipped": 92
+      },
+      "teachers": {
+        "inserted": 91,
+        "updated": 0,
+        "skipped": 2
+      },
+      "offerings": {
+        "inserted": 181,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-computer-software-2026-2027-1-timetable-20261023",
+    "checksum": "0ff2212ff4a2df22d31f55c20544ba2bc3393de130d429a4874cb7e82c215a79",
+    "imported_at": "2026-10-23T04:13:38.70321+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 165
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 79
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 165
+      }
+    }
+  },
+  {
+    "dataset": "upc-control-2026-2027-1-timetable-20261023",
+    "checksum": "9b689ed38688a9460bd74a5aad700861f1d78273142309ef99d1c5fe1f511921",
+    "imported_at": "2026-10-23T04:13:38.968196+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 99
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 54
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 99
+      }
+    }
+  },
+  {
+    "dataset": "upc-earth-science-2026-2027-1-timetable-20261023",
+    "checksum": "db47a0ebfedac0e624204f61a205ba068ebe36a5da083ed77e15dc4add72b870",
+    "imported_at": "2026-10-23T04:13:39.186394+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 155
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 107
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 155
+      }
+    }
+  },
+  {
+    "dataset": "upc-economics-management-2026-2027-1-timetable-20261023",
+    "checksum": "43df9a47fafd1f2a7f23cccba6e6ddc401aafb0719415ba89cdd76c9f9a55c4d",
+    "imported_at": "2026-10-23T04:13:39.392239+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 196
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 100
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 196
+      }
+    }
+  },
+  {
+    "dataset": "upc-humanities-law-2026-2027-1-timetable-20261023",
+    "checksum": "d5233f22cd7040ac90246bb589763a1e33c98aa84d1c29095b8139235325cf20",
+    "imported_at": "2026-10-23T04:13:39.60665+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 161
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 54
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 161
+      }
+    }
+  },
+  {
+    "dataset": "upc-marxism-2026-2027-1-timetable-20261023",
+    "checksum": "08ae5ed73d00cb85ee8819e10aeccfa11eb13884e40aacbc64fc6b5fd5ce9b34",
+    "imported_at": "2026-10-23T04:13:39.831422+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 112
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 86
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 112
+      }
+    }
+  },
+  {
+    "dataset": "upc-materials-2026-2027-1-timetable-20261023",
+    "checksum": "182e5ce62b26c46b36e3193e7bd5647c734a7529e3a70b51f984c638560e5d7e",
+    "imported_at": "2026-10-23T04:13:40.06477+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 114
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 54
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 114
+      }
+    }
+  },
+  {
+    "dataset": "upc-mechanical-engineering-2026-2027-1-timetable-20261023",
+    "checksum": "4406f7fe927c2a1e1a70db75a27639bb07cbaa1acf13562810a9461189338dff",
+    "imported_at": "2026-10-23T04:13:40.282324+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 207
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 107
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 207
+      }
+    }
+  },
+  {
+    "dataset": "upc-new-energy-2026-2027-1-timetable-20261023",
+    "checksum": "ea6b6ef0b1aff6ac1fe011f8462f95382ff0244ef9106826d8fd6ed45c14973c",
+    "imported_at": "2026-10-23T04:13:40.490717+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 148
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 74
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 148
+      }
+    }
+  },
+  {
+    "dataset": "upc-ocean-space-2026-2027-1-timetable-20261023",
+    "checksum": "1b12015e87591ba94835d86c823de96270ec022eb4628313fb87cca9655fca79",
+    "imported_at": "2026-10-23T04:13:40.694231+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 121
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 61
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 121
+      }
+    }
+  },
+  {
+    "dataset": "upc-petroleum-engineering-2026-2027-1-timetable-20261023",
+    "checksum": "1aca3a001fb82d62dbd2afbe19192dd372b769dab6b1e201d12b5d56a44542a5",
+    "imported_at": "2026-10-23T04:13:40.892893+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 232
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 118
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 232
+      }
+    }
+  },
+  {
+    "dataset": "upc-physical-education-2026-2027-1-timetable-20261023",
+    "checksum": "26a1837567002c2a4f0b7a86b8f8db93c4fe2cb61b227c0354fbf5a84866d451",
+    "imported_at": "2026-10-23T04:13:41.094417+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 24
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 18
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 24
+      }
+    }
+  },
+  {
+    "dataset": "upc-science-2026-2027-1-timetable-20261023",
+    "checksum": "d54427e04638ef956f4cbe689792f3bbd0cbe83ad5c5a8c2819244f3aadc0521",
+    "imported_at": "2026-10-23T04:13:41.294503+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 260
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 146
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 260
+      }
+    }
+  },
+  {
+    "dataset": "upc-storage-civil-2026-2027-1-timetable-20261023",
+    "checksum": "529a9256e3958ad859c5ea1dc1cfd8410c33278d56fe65717ba742d2db9aaec7",
+    "imported_at": "2026-10-23T04:13:41.503072+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 181
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 93
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 181
+      }
+    }
+  },
+  {
+    "dataset": "upc-engineering-training-2026-2027-1-timetable-20261023",
+    "checksum": "8ed34c7c4cd14b71fd8f295a66cc3f70cc48964074094d6df410164c309e1b43",
+    "imported_at": "2026-10-23T05:09:41.448156+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 6,
+        "updated": 0,
+        "skipped": 9
+      },
+      "teachers": {
+        "inserted": 8,
+        "updated": 0,
+        "skipped": 0
+      },
+      "offerings": {
+        "inserted": 15,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-engineering-training-2026-2027-1-timetable-20261023",
+    "checksum": "8ed34c7c4cd14b71fd8f295a66cc3f70cc48964074094d6df410164c309e1b43",
+    "imported_at": "2026-10-23T05:09:41.716136+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 15
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 8
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 15
+      }
+    }
+  },
+  {
+    "dataset": "upc-foreign-languages-2026-2027-1-timetable-20261023",
+    "checksum": "6bfd3502f07215a711cdefa18744268e61448afa541bca88de95b162510db0d0",
+    "imported_at": "2026-10-23T06:03:45.900566+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 86,
+        "updated": 0,
+        "skipped": 107
+      },
+      "teachers": {
+        "inserted": 89,
+        "updated": 0,
+        "skipped": 0
+      },
+      "offerings": {
+        "inserted": 193,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-foreign-languages-2026-2027-1-timetable-20261023",
+    "checksum": "6bfd3502f07215a711cdefa18744268e61448afa541bca88de95b162510db0d0",
+    "imported_at": "2026-10-23T06:03:46.127383+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 193
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 89
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 193
+      }
+    }
+  },
+  {
+    "dataset": "upc-timetable-unit-identities-2026-2027-1-20261023",
+    "checksum": "4df40886f75562fd82b383eb713a3c375757e3809a3b00bd3e448525dcd659af",
+    "imported_at": "2026-10-23T06:51:24.901677+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 5,
+        "updated": 0,
+        "skipped": 19
+      },
+      "teachers": {
+        "inserted": 18,
+        "updated": 0,
+        "skipped": 0
+      },
+      "offerings": {
+        "inserted": 24,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-timetable-unit-identities-2026-2027-1-20261023",
+    "checksum": "4df40886f75562fd82b383eb713a3c375757e3809a3b00bd3e448525dcd659af",
+    "imported_at": "2026-10-23T06:51:25.2459+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 24
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 18
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 24
+      }
+    }
+  },
+  {
+    "dataset": "upc-timetable-unit-identities-2026-2027-1-20261023",
+    "checksum": "bd7c37f3fa63a8a217842cb26e2c177fd3c9da7e98d4ced265b8bbff189ddfd4",
+    "imported_at": "2026-10-23T07:34:59.646892+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 27
+      },
+      "teachers": {
+        "inserted": 2,
+        "updated": 0,
+        "skipped": 18
+      },
+      "offerings": {
+        "inserted": 3,
+        "updated": 0,
+        "skipped": 24
+      }
+    }
+  },
+  {
+    "dataset": "upc-timetable-unit-identities-2026-2027-1-20261023",
+    "checksum": "bd7c37f3fa63a8a217842cb26e2c177fd3c9da7e98d4ced265b8bbff189ddfd4",
+    "imported_at": "2026-10-23T07:34:59.862426+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 27
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 20
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 27
+      }
+    }
+  },
+  {
+    "dataset": "upc-same-name-official-identities-2026-2027-1-20261023",
+    "checksum": "5e3bd3ffe043a388d9a6c611afecb99e0ac7b734646eb1d45f380a04a4893508",
+    "imported_at": "2026-10-23T08:39:15.066119+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 4,
+        "updated": 0,
+        "skipped": 11
+      },
+      "teachers": {
+        "inserted": 11,
+        "updated": 0,
+        "skipped": 0
+      },
+      "offerings": {
+        "inserted": 15,
+        "updated": 0,
+        "skipped": 0
+      }
+    }
+  },
+  {
+    "dataset": "upc-timetable-unit-identities-2026-2027-1-20261023",
+    "checksum": "3954ee5771bb36e43b998cf894f11dc2bc22d8b0fa28ada37b7c2f47fce45d52",
+    "imported_at": "2026-10-23T08:39:15.422829+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 52,
+        "updated": 0,
+        "skipped": 242
+      },
+      "teachers": {
+        "inserted": 153,
+        "updated": 0,
+        "skipped": 20
+      },
+      "offerings": {
+        "inserted": 267,
+        "updated": 0,
+        "skipped": 27
+      }
+    }
+  },
+  {
+    "dataset": "upc-same-name-official-identities-2026-2027-1-20261023",
+    "checksum": "5e3bd3ffe043a388d9a6c611afecb99e0ac7b734646eb1d45f380a04a4893508",
+    "imported_at": "2026-10-23T08:39:26.873392+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 15
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 11
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 15
+      }
+    }
+  },
+  {
+    "dataset": "upc-timetable-unit-identities-2026-2027-1-20261023",
+    "checksum": "3954ee5771bb36e43b998cf894f11dc2bc22d8b0fa28ada37b7c2f47fce45d52",
+    "imported_at": "2026-10-23T08:39:27.079638+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 294
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 173
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 294
+      }
+    }
+  },
+  {
+    "dataset": "upc-same-name-official-identities-2026-2027-1-20261023",
+    "checksum": "cbff5f31fc696806f37494a0d798ca9715fc3d0e18367d63ec2b2077ebf65524",
+    "imported_at": "2026-10-23T09:33:01.895527+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 2,
+        "updated": 0,
+        "skipped": 16
+      },
+      "teachers": {
+        "inserted": 1,
+        "updated": 0,
+        "skipped": 11
+      },
+      "offerings": {
+        "inserted": 3,
+        "updated": 0,
+        "skipped": 15
+      }
+    }
+  },
+  {
+    "dataset": "upc-same-name-official-identities-2026-2027-1-20261023",
+    "checksum": "cbff5f31fc696806f37494a0d798ca9715fc3d0e18367d63ec2b2077ebf65524",
+    "imported_at": "2026-10-23T09:33:02.121433+00:00",
+    "counts": {
+      "success": true,
+      "dryRun": false,
+      "term": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 1
+      },
+      "courses": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 18
+      },
+      "teachers": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 12
+      },
+      "offerings": {
+        "inserted": 0,
+        "updated": 0,
+        "skipped": 18
+      }
+    }
+  }
+]
