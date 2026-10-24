@@ -1,7 +1,7 @@
 export const TEACHER_SELECT = '*,colleges(id,name),course_offerings(course_id,courses(id,name),term_id,terms(id,year_term,is_current))';
 // Public review reads must use the safe view. The base reviews table is reserved
 // for authors/reviewers and is not readable with the anon key.
-export const REVIEW_SELECT = 'id,teacher_id,course_id,term_id,year_term,attendance_strictness,grading_leniency,effort_matters,workload_difficulty,approachability,teaching_quality,comment,author_nickname,is_historical_migrated,status,created_at,likes,rating_version,course_name,teacher_name';
+export const REVIEW_SELECT = 'id,teacher_id,course_id,term_id,year_term,attendance_strictness,grading_leniency,effort_matters,workload_difficulty,approachability,teaching_quality,author_nickname,status,created_week,likes,rating_version,course_name,teacher_name';
 
 export const NEW_RATING_KEYS = ['attendance_strictness', 'grading_leniency', 'effort_matters',
   'workload_difficulty', 'approachability', 'teaching_quality'];
@@ -16,13 +16,14 @@ export function validateNewRatingPayload(payload) {
 }
 
 const teacherFields = ['id', 'name', 'title', 'college', 'college_id', 'campus', 'courses',
-  'is_teaching_this_term', 'overall_score', 'review_count', 'attendance_strictness',
+  'is_teaching_this_term', 'overall_score', 'review_count', 'independent_reviewer_count',
+  'rating_public', 'attendance_strictness',
   'grading_leniency', 'effort_matters', 'workload_difficulty', 'approachability',
   'teaching_quality', 'has_historical_data', 'tags', 'recent_term_courses', 'rating_version'];
 const reviewFields = ['id', 'teacher_id', 'course_id', 'term_id', 'year_term', 'attendance_strictness',
   'grading_leniency', 'effort_matters', 'workload_difficulty', 'approachability',
-  'teaching_quality', 'comment', 'author_nickname', 'is_historical_migrated', 'status',
-  'created_at', 'likes', 'rating_version', 'course_name', 'teacher_name'];
+  'teaching_quality', 'author_nickname', 'status', 'created_week', 'likes', 'rating_version',
+  'course_name', 'teacher_name'];
 const pick = (row, fields) => Object.fromEntries(fields.filter(key => row[key] !== undefined).map(key => [key, row[key]]));
 
 export function publicTeacher(row) {
@@ -42,6 +43,7 @@ export function publicReview(row) {
   const courseName = row.course_name || row.courses?.name;
   const teacherName = row.teacher_name || row.teachers?.name;
   return { ...pick(row, reviewFields),
+    author_nickname: '匿名石大学子',
     courses: row.courses ? pick(row.courses, ['id', 'name'])
       : (courseName ? { id: row.course_id, name: courseName } : null),
     teachers: row.teachers ? pick(row.teachers, ['name'])
@@ -138,6 +140,7 @@ export function teacherPage(rows, options) {
   return { items: filtered.slice(start, start + options.pageSize), total: filtered.length };
 }
 export function reviewPage(rows, { page, pageSize }) {
-  const sorted = [...rows].sort((a, b) => Date.parse(b.created_at) - Date.parse(a.created_at) || compareId(a.id, b.id));
+  const sorted = [...rows].sort((a, b) => String(b.created_week || '').localeCompare(String(a.created_week || ''))
+    || compareId(a.id, b.id));
   return { items: sorted.slice(page * pageSize, (page + 1) * pageSize), total: sorted.length };
 }

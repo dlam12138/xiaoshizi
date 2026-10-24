@@ -13,6 +13,15 @@ const checksum = 'a'.repeat(64);
 const STUDENT = '00000000-0000-0000-0000-000000000001';
 const OTHER = '00000000-0000-0000-0000-000000000002';
 const ADMIN = '00000000-0000-0000-0000-000000000003';
+const DELETED = '00000000-0000-0000-0000-000000000004';
+const SESSION_STUDENT = '60000000-0000-0000-0000-000000000001';
+const SESSION_OTHER = '60000000-0000-0000-0000-000000000002';
+const SESSION_ADMIN = '60000000-0000-0000-0000-000000000003';
+const SESSION_BY_USER = {
+  [STUDENT]: SESSION_STUDENT,
+  [OTHER]: SESSION_OTHER,
+  [ADMIN]: SESSION_ADMIN,
+};
 const TERM = '30000000-0000-0000-0000-000000000001';
 const COURSE = '40000000-0000-0000-0000-000000000001';
 const COLLEGE = '10000000-0000-0000-0000-000000000001';
@@ -23,8 +32,10 @@ async function createDB() {
   await db.exec(`
     CREATE ROLE anon;
     CREATE ROLE authenticated;
+    CREATE ROLE service_role;
     CREATE SCHEMA auth;
-    CREATE TABLE auth.users(id UUID PRIMARY KEY, email TEXT, email_confirmed_at TIMESTAMPTZ);
+    CREATE TABLE auth.users(id UUID PRIMARY KEY, email TEXT, email_confirmed_at TIMESTAMPTZ, email_change TEXT);
+    CREATE TABLE auth.sessions(id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id UUID, created_at TIMESTAMPTZ DEFAULT now());
     CREATE FUNCTION auth.uid() RETURNS UUID LANGUAGE sql STABLE AS
       $$SELECT nullif(current_setting('request.jwt.claim.sub', true), '')::uuid$$;
     GRANT USAGE ON SCHEMA auth, public TO anon, authenticated;
@@ -33,10 +44,17 @@ async function createDB() {
   await db.exec(schema());
   await db.exec(`
     INSERT INTO auth.users VALUES
-      ('${STUDENT}', 'student@example.test', now()),
-      ('${OTHER}', 'other@example.test', now()),
-      ('${ADMIN}', 'reviewer@example.test', now());
-    INSERT INTO public.admin_users(email, role) VALUES ('reviewer@example.test', 'super_admin');
+      ('${STUDENT}', 'student@s.upc.edu.cn', now(), NULL),
+      ('${OTHER}', 'other@s.upc.edu.cn', now(), NULL),
+      ('${ADMIN}', 'reviewer@s.upc.edu.cn', now(), NULL);
+    INSERT INTO auth.sessions(id, user_id) VALUES
+      ('${SESSION_STUDENT}', '${STUDENT}'),
+      ('${SESSION_OTHER}', '${OTHER}'),
+      ('${SESSION_ADMIN}', '${ADMIN}');
+    INSERT INTO public.admin_users(user_id, email, role)
+      VALUES ('${ADMIN}', 'reviewer@s.upc.edu.cn', 'super_admin');
+    UPDATE private.upc_security_settings SET value = '0'::jsonb WHERE key = 'review_rate_seconds';
+    UPDATE private.upc_security_settings SET value = '1'::jsonb WHERE key = 'min_independent_reviews';
     INSERT INTO public.terms(id, code, year_term, is_current) VALUES ('${TERM}', 'test-term-1', '测试学期', true);
     INSERT INTO public.courses(id, code, name, college_id)
       SELECT '${COURSE}', 'TEST-MATH-101', '测试高等数学', id FROM public.colleges WHERE code = 'upc-12';
@@ -49,13 +67,29 @@ async function createDB() {
   return db;
 }
 
-async function asRole(db, role, uid, sql) {
+async function asRoleWithAal(db, role, uid, aal, sql, sessionId = SESSION_BY_USER[uid] || '') {
   await db.exec(`SET ROLE ${role};`);
   try {
     await db.exec(`
       SELECT set_config('request.jwt.claim.sub', '${uid || ''}', false);
+      SELECT set_config('request.jwt.claims', '{"sub":"${uid || ''}","aal":"${aal}","session_id":"${sessionId}"}', false);
       SELECT set_config('request.headers', '{"x-rating-version":"2"}', false);
     `);
+    return await db.query(sql);
+  } finally {
+    await db.exec('RESET ROLE');
+  }
+}
+
+async function asRole(db, role, uid, sql) {
+  const aal = role === 'authenticated' && uid === ADMIN ? 'aal2' : 'aal1';
+  return asRoleWithAal(db, role, uid, aal, sql);
+}
+
+async function asServiceRole(db, sql) {
+  await db.exec('SET ROLE service_role;');
+  try {
+    await db.exec(`SELECT set_config('request.jwt.claims', '{"role":"service_role"}', false);`);
     return await db.query(sql);
   } finally {
     await db.exec('RESET ROLE');
@@ -67,11 +101,34 @@ const insertReview = (id = 'review-1', status = 'pending', user = STUDENT, ratin
     id, teacher_id, course_id, term_id, year_term, rating_version,
     attendance_strictness, grading_leniency, effort_matters,
     workload_difficulty, approachability, teaching_quality,
-    comment, author_nickname, user_id, status
+    author_nickname, user_id, status
   ) VALUES (
     '${id}', '${TEACHER}', '${course}', '${TERM}', '测试学期', ${ratingVersion},
-    5, 4, 4, 4, 5, 5, '真实课堂体验', '匿名石大学子', '${user}', '${status}'
+    5, 4, 4, 4, 5, 5, '匿名石大学子', '${user}', '${status}'
   )`;
+
+test('administrator and governance incremental patches stay aligned with source policy', () => {
+  const owner = fs.readFileSync(new URL('../supabase/upgrades/20261024-owner-admin-policy.sql', import.meta.url), 'utf8');
+  const boundary = fs.readFileSync(new URL('../supabase/upgrades/20261024-governance-boundary.sql', import.meta.url), 'utf8');
+  const correction = fs.readFileSync(new URL('../supabase/upgrades/20261024-governance-correction-closure.sql', import.meta.url), 'utf8');
+  assert.match(owner, /private\.upc_is_admin_email/);
+  assert.match(owner, /@gmail\.com/);
+  assert.match(owner, /ON CONFLICT \(user_id\) WHERE user_id IS NOT NULL DO UPDATE/);
+  assert.doesNotMatch(owner, /upc_is_staff_email/);
+  assert.match(boundary, /status <> 'withdrawn'/);
+  assert.match(boundary, /auth\.uid\(\)::text = NEW\.user_id/);
+  assert.match(boundary, /DROP INDEX IF EXISTS public\.reviews_business_key_uidx/);
+  assert.match(correction, /private\.upc_data_corrections/);
+  assert.match(correction, /private\.upc_correction_pins/);
+  assert.match(correction, /apply_governance_correction/);
+  assert.match(correction, /record_admin_mfa_recovery/);
+  assert.match(correction, /GRANT EXECUTE ON FUNCTION public\.record_admin_mfa_recovery[\s\S]*TO service_role/);
+  assert.match(correction, /DELETE FROM auth\.sessions/);
+  assert.match(correction, /protectedFields/);
+  assert.match(correction, /protectedRelations/);
+  assert.match(correction, /拒绝自动删除或转移/);
+  assert.doesNotMatch(correction, /DROP TABLE|TRUNCATE|DELETE FROM public\.reviews/);
+});
 
 test('clean init has sixteen UPC colleges plus the independent training center', async () => {
   const db = await createDB();
@@ -169,7 +226,7 @@ test('reject, author re-edit, last-review score clearing and like idempotency', 
 
     await asRole(db, 'authenticated', STUDENT, `
       UPDATE public.reviews
-      SET comment='补充后的具体体验', status='pending', reject_reason=NULL, rating_version=2
+      SET attendance_strictness=4.5, status='pending', reject_reason=NULL, rating_version=2
       WHERE id='review-1'
     `);
     assert.equal((await db.query("SELECT status FROM public.reviews WHERE id='review-1'")).rows[0].status, 'pending');
@@ -482,11 +539,11 @@ test('the real chemistry timetable dataset imports idempotently with 129 courses
         id, teacher_id, course_id, term_id, year_term, rating_version,
         attendance_strictness, grading_leniency, effort_matters,
         workload_difficulty, approachability, teaching_quality,
-        comment, author_nickname, user_id, status
+        author_nickname, user_id, status
       ) VALUES (
         'real-review-1', '${realTeacher}', '${realOffering.course_id}',
         '${realOffering.term_id}', '${realOffering.year_term.replaceAll("'", "''")}', 2,
-        5, 4, 4, 4, 5, 5, '真实批次闭环评价', '匿名石大学子', '${STUDENT}', 'pending'
+        5, 4, 4, 4, 5, 5, '匿名石大学子', '${STUDENT}', 'pending'
       )
     `);
     await asRole(db, 'authenticated', ADMIN, "SELECT public.approve_review('real-review-1')");
@@ -693,6 +750,586 @@ test('course-code upgrade refreshes the old importer and imports the real datase
   }
 });
 
+test('student email hook and auth.users update guard reject non-student paths', async () => {
+  const db = await createDB();
+  try {
+    const rejected = (await db.query(
+      "SELECT public.before_user_created_hook($1::jsonb) AS result",
+      [JSON.stringify({ user: { email: 'person@upc.edu.cn' } })],
+    )).rows[0].result;
+    assert.equal(rejected.error.http_code, 400);
+    assert.match(rejected.error.message, /s\.upc\.edu\.cn/);
+    const allowed = (await db.query(
+      "SELECT public.before_user_created_hook($1::jsonb) AS result",
+      [JSON.stringify({ user: { email: 'Alias.Student+lab@s.upc.Edu.Cn' } })],
+    )).rows[0].result;
+    assert.equal(allowed.user.email, 'Alias.Student+lab@s.upc.Edu.Cn');
+
+    await assert.rejects(
+      db.exec("INSERT INTO auth.users(id,email,email_confirmed_at) VALUES (gen_random_uuid(),'x@example.test',now())"),
+      /s\.upc\.edu\.cn/,
+    );
+    await assert.rejects(
+      db.exec(`UPDATE auth.users SET email='x@example.test' WHERE id='${STUDENT}'`),
+      /s\.upc\.edu\.cn/,
+    );
+    await db.exec('ALTER TABLE auth.users DISABLE TRIGGER upc_guard_auth_email');
+    await db.exec(`
+      INSERT INTO auth.users(id,email,email_confirmed_at,email_change)
+      VALUES ('00000000-0000-0000-0000-000000000099','legacy@example.test',now(),NULL)
+    `);
+    await db.exec('ALTER TABLE auth.users ENABLE TRIGGER upc_guard_auth_email');
+    await assert.rejects(
+      db.exec("UPDATE auth.users SET email_change='new@s.upc.edu.cn' WHERE id='00000000-0000-0000-0000-000000000099'"),
+      /历史非学生账户/,
+    );
+
+    await assert.rejects(
+      db.exec("INSERT INTO auth.users(id,email,email_confirmed_at) VALUES (gen_random_uuid(),'staff@upc.edu.cn',now())"),
+      /受控邀请/,
+    );
+    await assert.rejects(asRole(db, 'authenticated', ADMIN,
+      "SELECT public.create_admin_invite('staff@upc.edu.cn', 2)"), /gmail/);
+    await assert.rejects(db.exec("INSERT INTO auth.users(id,email,email_confirmed_at) VALUES (gen_random_uuid(),'operator@gmail.com',now())"), /受控邀请/);
+    const invite = (await asRole(db, 'authenticated', ADMIN,
+      "SELECT public.create_admin_invite('operator@gmail.com', 2) AS result")).rows[0].result;
+    assert.equal(invite.success, true);
+    const invited = (await db.query(
+      "SELECT public.before_user_created_hook($1::jsonb) AS result",
+      [JSON.stringify({ user: { email: 'operator@gmail.com' } })],
+    )).rows[0].result;
+    assert.equal(invited.user.email, 'operator@gmail.com');
+    await db.exec("INSERT INTO auth.users(id,email,email_confirmed_at) VALUES ('00000000-0000-0000-0000-000000000098','operator@gmail.com',now())");
+    assert.ok((await db.query("SELECT used_at FROM private.upc_admin_invites WHERE email='operator@gmail.com'")).rows[0].used_at);
+    assert.equal((await db.query("SELECT count(*)::int AS n FROM public.admin_users WHERE user_id='00000000-0000-0000-0000-000000000098'")).rows[0].n, 0);
+    await asRole(db, 'authenticated', ADMIN, "SELECT public.set_admin_role('00000000-0000-0000-0000-000000000098','moderator')");
+    await asRole(db, 'authenticated', ADMIN, "SELECT public.set_admin_role('00000000-0000-0000-0000-000000000098','admin')");
+    assert.equal((await db.query("SELECT role FROM public.admin_users WHERE user_id='00000000-0000-0000-0000-000000000098'")).rows[0].role, 'admin');
+    assert.ok((await db.query("SELECT count(*)::int AS n FROM private.upc_admin_audit_log WHERE action='admin_role_set'")).rows[0].n >= 2);
+
+    await db.exec(`
+      INSERT INTO public.admin_users(user_id, email, role)
+      VALUES ('${OTHER}', 'ordinary@s.upc.edu.cn', 'admin')
+    `);
+    await assert.rejects(
+      asRole(db, 'authenticated', STUDENT, "SELECT public.create_admin_invite('owner@gmail.com', 1)"),
+      /审核权限|管理员/,
+    );
+    await assert.rejects(
+      asRoleWithAal(db, 'authenticated', OTHER, 'aal2',
+        "SELECT public.create_admin_invite('owner@gmail.com', 1)"),
+      /超级管理员/,
+    );
+    await assert.rejects(
+      asRoleWithAal(db, 'authenticated', OTHER, 'aal2',
+        "SELECT public.set_admin_role('00000000-0000-0000-0000-000000000098','moderator')"),
+      /超级管理员/,
+    );
+    await assert.rejects(
+      asRoleWithAal(db, 'authenticated', ADMIN, 'aal1',
+        "SELECT public.create_admin_invite('owner@gmail.com', 1)"),
+      /AAL2|MFA/,
+    );
+    await assert.rejects(
+      asRoleWithAal(db, 'authenticated', ADMIN, 'aal1',
+        "SELECT public.set_admin_role('00000000-0000-0000-0000-000000000098','admin')"),
+      /AAL2|MFA/,
+    );
+    await assert.rejects(
+      asRole(db, 'authenticated', ADMIN,
+        `SELECT public.set_admin_role('${ADMIN}','admin')`),
+      /gmail/,
+    );
+    await assert.rejects(
+      db.exec("UPDATE auth.users SET email='other@gmail.com' WHERE id='00000000-0000-0000-0000-000000000098'"),
+      /历史非学生账户/,
+    );
+    await db.exec(`
+      INSERT INTO private.upc_admin_invites(email, expires_at)
+      VALUES ('legacy-admin@upc.edu.cn', now() + interval '1 hour')
+    `);
+    const legacyInvite = (await db.query(
+      "SELECT public.before_user_created_hook($1::jsonb) AS result",
+      [JSON.stringify({ user: { email: 'legacy-admin@upc.edu.cn' } })],
+    )).rows[0].result;
+    assert.equal(legacyInvite.error.http_code, 400);
+  } finally {
+    await db.close();
+  }
+});
+
+test('administrators can moderate historical non-student reviews but the legacy author cannot edit ratings', async () => {
+  const db = await createDB();
+  try {
+    const legacy = '00000000-0000-0000-0000-000000000097';
+    await db.exec('ALTER TABLE auth.users DISABLE TRIGGER upc_guard_auth_email');
+    await db.exec(`INSERT INTO auth.users(id,email,email_confirmed_at)
+      VALUES ('${legacy}','legacy-owner@example.test',now())`);
+    await db.exec('ALTER TABLE auth.users ENABLE TRIGGER upc_guard_auth_email');
+    const legacyCourses = [
+      '40000000-0000-0000-0000-000000000501',
+      '40000000-0000-0000-0000-000000000502',
+      '40000000-0000-0000-0000-000000000503',
+    ];
+    await db.exec(`
+      INSERT INTO public.courses(id, code, name, college_id)
+        SELECT '${legacyCourses[0]}', 'LEGACY-1', '历史课程一', id FROM public.colleges WHERE code='upc-12';
+      INSERT INTO public.courses(id, code, name, college_id)
+        SELECT '${legacyCourses[1]}', 'LEGACY-2', '历史课程二', id FROM public.colleges WHERE code='upc-12';
+      INSERT INTO public.courses(id, code, name, college_id)
+        SELECT '${legacyCourses[2]}', 'LEGACY-3', '历史课程三', id FROM public.colleges WHERE code='upc-12';
+      INSERT INTO public.course_offerings(teacher_id, course_id, term_id) VALUES
+        ('${TEACHER}', '${legacyCourses[0]}', '${TERM}'),
+        ('${TEACHER}', '${legacyCourses[1]}', '${TERM}'),
+        ('${TEACHER}', '${legacyCourses[2]}', '${TERM}');
+      INSERT INTO public.reviews(
+        id, teacher_id, course_id, term_id, year_term, rating_version,
+        attendance_strictness, grading_leniency, effort_matters,
+        workload_difficulty, approachability, teaching_quality,
+        author_nickname, user_id, status, is_historical_migrated
+      ) VALUES
+        ('legacy-approve', '${TEACHER}', '${legacyCourses[0]}', '${TERM}', '测试学期', 2,
+         5, 4, 4, 4, 5, 5, '历史用户', '${legacy}', 'pending', true),
+        ('legacy-reject', '${TEACHER}', '${legacyCourses[1]}', '${TERM}', '测试学期', 2,
+         5, 4, 4, 4, 5, 5, '历史用户', '${legacy}', 'pending', true),
+        ('legacy-edit', '${TEACHER}', '${legacyCourses[2]}', '${TERM}', '测试学期', 2,
+         5, 4, 4, 4, 5, 5, '历史用户', '${legacy}', 'pending', true);
+    `);
+    await asRole(db, 'authenticated', ADMIN, "SELECT public.approve_review('legacy-approve')");
+    await asRole(db, 'authenticated', ADMIN,
+      "SELECT public.reject_review('legacy-reject', '历史记录治理校验')");
+    await assert.rejects(
+      asRole(db, 'authenticated', legacy,
+        "UPDATE public.reviews SET teaching_quality=4.9 WHERE id='legacy-edit'"),
+      /row-level security|仅已验证学生邮箱/,
+    );
+    assert.equal((await db.query("SELECT status FROM public.reviews WHERE id='legacy-approve'")).rows[0].status, 'approved');
+    assert.equal((await db.query("SELECT status FROM public.reviews WHERE id='legacy-reject'")).rows[0].status, 'rejected');
+    assert.equal(Number((await db.query("SELECT teaching_quality FROM public.reviews WHERE id='legacy-edit'")).rows[0].teaching_quality), 5);
+
+    const request = (await asRole(db, 'authenticated', legacy, `
+      SELECT public.submit_governance_request(
+        'review_withdrawal', '历史账户请求撤回已公开评价并停止公开统计。',
+        NULL, 'legacy-approve', NULL, NULL, NULL
+      ) AS result
+    `)).rows[0].result;
+    await asRole(db, 'authenticated', ADMIN,
+      `SELECT public.process_governance_request('${request.id}', 'accepted', '已核对历史作者并撤回')`);
+    assert.equal((await db.query("SELECT status FROM public.reviews WHERE id='legacy-approve'")).rows[0].status, 'withdrawn');
+  } finally {
+    await db.close();
+  }
+});
+
+test('rate limit, governance withdrawal and five-review sample threshold are enforced', async () => {
+  const db = await createDB();
+  try {
+    await db.exec(`
+      UPDATE private.upc_security_settings SET value='0'::jsonb WHERE key='review_rate_seconds';
+      UPDATE private.upc_security_settings SET value='5'::jsonb WHERE key='min_independent_reviews';
+      INSERT INTO public.courses(id, code, name, college_id)
+        SELECT '40000000-0000-0000-0000-000000000002', 'SECOND-COURSE', '第二门课', id
+        FROM public.colleges WHERE code='upc-12';
+      INSERT INTO public.course_offerings(teacher_id, course_id, term_id)
+        VALUES ('${TEACHER}', '40000000-0000-0000-0000-000000000002', '${TERM}');
+    `);
+
+    await asRole(db, 'authenticated', STUDENT, insertReview('rate-1'));
+    await db.exec("UPDATE private.upc_security_settings SET value='60'::jsonb WHERE key='review_rate_seconds'");
+    await assert.rejects(
+      asRole(db, 'authenticated', STUDENT, insertReview('rate-2', 'pending', STUDENT, 2, '40000000-0000-0000-0000-000000000002')),
+      /提交过于频繁/,
+    );
+    await db.exec("UPDATE private.upc_security_settings SET value='0'::jsonb WHERE key='review_rate_seconds'");
+    await assert.rejects(
+      asRole(db, 'authenticated', STUDENT, insertReview('duplicate-id')),
+      /duplicate key|unique/i,
+    );
+
+    const thresholdUsers = [1, 2, 3, 4, 5].map((n) => `00000000-0000-0000-0000-00000000010${n}`);
+    for (const [index, user] of thresholdUsers.entries()) {
+      await db.exec(`INSERT INTO auth.users(id,email,email_confirmed_at) VALUES ('${user}','th${index}@s.upc.edu.cn',now())`);
+    }
+    await db.exec(`
+      INSERT INTO public.courses(id, code, name, college_id)
+        SELECT '40000000-0000-0000-0000-000000000003', 'THRESHOLD-COURSE', '门槛课程', id
+        FROM public.colleges WHERE code='upc-12';
+      INSERT INTO public.course_offerings(teacher_id, course_id, term_id)
+        VALUES ('${TEACHER}', '40000000-0000-0000-0000-000000000003', '${TERM}');
+    `);
+    for (let i = 0; i < 4; i += 1) {
+      await asRole(db, 'authenticated', thresholdUsers[i],
+        insertReview(`threshold-${i}`, 'pending', thresholdUsers[i], 2, '40000000-0000-0000-0000-000000000003'));
+      await asRole(db, 'authenticated', ADMIN, `SELECT public.approve_review('threshold-${i}')`);
+    }
+    assert.equal((await asRole(db, 'anon', '', "SELECT count(*)::int AS n FROM public.review_feed WHERE course_id='40000000-0000-0000-0000-000000000003'")).rows[0].n, 0);
+    assert.equal((await db.query(`SELECT rating_public FROM public.teachers WHERE id='${TEACHER}'`)).rows[0].rating_public, false);
+    const feedColumns = (await db.query("SELECT column_name FROM information_schema.columns WHERE table_schema='public' AND table_name='review_feed'")).rows.map((row) => row.column_name);
+    assert.equal(feedColumns.includes('comment'), false);
+    assert.equal(feedColumns.includes('created_at'), false);
+    assert.equal(feedColumns.includes('created_week'), true);
+
+    await asRole(db, 'authenticated', thresholdUsers[4],
+      insertReview('threshold-4', 'pending', thresholdUsers[4], 2, '40000000-0000-0000-0000-000000000003'));
+    const risk = (await db.query("SELECT risk_flags FROM public.reviews WHERE id='threshold-4'")).rows[0].risk_flags;
+    assert.ok(Array.isArray(risk) && risk.includes('offering_burst'));
+    await asRole(db, 'authenticated', ADMIN, "SELECT public.approve_review('threshold-4')");
+    assert.equal((await asRole(db, 'anon', '', "SELECT count(*)::int AS n FROM public.review_feed WHERE course_id='40000000-0000-0000-0000-000000000003'")).rows[0].n, 5);
+    assert.equal((await db.query(`SELECT rating_public FROM public.teachers WHERE id='${TEACHER}'`)).rows[0].rating_public, true);
+
+    const request = (await asRole(db, 'authenticated', thresholdUsers[0], `
+      SELECT public.submit_governance_request(
+        'review_withdrawal', '本人已毕业，希望撤回这条公开评价以降低可识别风险。',
+        NULL, 'threshold-0', NULL, NULL, NULL
+      ) AS result
+    `)).rows[0].result;
+    assert.equal(request.success, true);
+    assert.equal((await asRole(db, 'authenticated', thresholdUsers[1],
+      `SELECT count(*)::int AS n FROM public.governance_requests WHERE id='${request.id}'`)).rows[0].n, 0);
+    await asRole(db, 'authenticated', ADMIN,
+      `SELECT public.process_governance_request('${request.id}', 'accepted', '已核对作者身份并撤回')`);
+    assert.equal((await db.query(`SELECT status, is_public FROM public.reviews WHERE id='threshold-0'`)).rows[0].status, 'withdrawn');
+    assert.equal((await db.query(`SELECT is_public FROM public.reviews WHERE id='threshold-0'`)).rows[0].is_public, false);
+    assert.equal((await asRole(db, 'anon', '', "SELECT count(*)::int AS n FROM public.review_feed WHERE course_id='40000000-0000-0000-0000-000000000003'")).rows[0].n, 0);
+    assert.equal((await db.query(`SELECT rating_public FROM public.teachers WHERE id='${TEACHER}'`)).rows[0].rating_public, false);
+
+    await asRole(db, 'authenticated', thresholdUsers[0],
+      insertReview('threshold-0-resubmit', 'pending', thresholdUsers[0], 2, '40000000-0000-0000-0000-000000000003'));
+    assert.equal((await db.query("SELECT count(*)::int AS n FROM public.reviews WHERE id IN ('threshold-0','threshold-0-resubmit')")).rows[0].n, 2);
+    await asRole(db, 'authenticated', ADMIN, "SELECT public.approve_review('threshold-0-resubmit')");
+    assert.equal((await asRole(db, 'anon', '', "SELECT count(*)::int AS n FROM public.review_feed WHERE course_id='40000000-0000-0000-0000-000000000003'")).rows[0].n, 5);
+  } finally {
+    await db.close();
+  }
+});
+
+test('backfill rebuild removes stale pre-migration scores below the threshold', async () => {
+  const db = await createDB();
+  try {
+    await db.exec("UPDATE private.upc_security_settings SET value='5'::jsonb WHERE key='min_independent_reviews'");
+    await asRole(db, 'authenticated', STUDENT, insertReview('backfill-review', 'pending'));
+    await asRole(db, 'authenticated', ADMIN, "SELECT public.approve_review('backfill-review')");
+    await db.exec(`UPDATE public.teachers SET overall_score=4.5, rating_public=true,
+      independent_reviewer_count=1 WHERE id='${TEACHER}'`);
+    await db.exec('SELECT private.upc_rebuild_public_ratings()');
+    const teacher = (await db.query(`SELECT overall_score, rating_public, independent_reviewer_count
+      FROM public.teachers WHERE id='${TEACHER}'`)).rows[0];
+    assert.equal(teacher.overall_score, null);
+    assert.equal(teacher.rating_public, false);
+    assert.equal(teacher.independent_reviewer_count, 1);
+  } finally {
+    await db.close();
+  }
+});
+
+test('governance boundary patch releases withdrawn keys without deleting history', async () => {
+  const db = await createDB();
+  try {
+    await db.exec(`
+      DROP INDEX public.reviews_business_key_uidx;
+      CREATE UNIQUE INDEX reviews_business_key_uidx
+        ON public.reviews (user_id, teacher_id, course_id, term_id)
+        WHERE user_id IS NOT NULL;
+    `);
+    await asRole(db, 'authenticated', STUDENT, insertReview('boundary-old'));
+    await asRole(db, 'authenticated', ADMIN, "SELECT public.approve_review('boundary-old')");
+    const request = (await asRole(db, 'authenticated', STUDENT, `
+      SELECT public.submit_governance_request(
+        'review_withdrawal', '合成测试：撤回后应释放业务键，不删除历史行。',
+        NULL, 'boundary-old', NULL, NULL, NULL
+      ) AS result
+    `)).rows[0].result;
+    await asRole(db, 'authenticated', ADMIN,
+      `SELECT public.process_governance_request('${request.id}', 'accepted', '合成测试通过')`);
+    await assert.rejects(
+      asRole(db, 'authenticated', STUDENT, insertReview('boundary-new')),
+      /duplicate key|unique/i,
+    );
+    await db.exec(fs.readFileSync(new URL('../supabase/upgrades/20261024-governance-boundary.sql', import.meta.url), 'utf8'));
+    await asRole(db, 'authenticated', STUDENT, insertReview('boundary-new'));
+    assert.equal((await db.query("SELECT count(*)::int AS n FROM public.reviews WHERE id IN ('boundary-old','boundary-new')")).rows[0].n, 2);
+    const predicate = (await db.query("SELECT indexdef FROM pg_indexes WHERE indexname='reviews_business_key_uidx'")).rows[0].indexdef;
+    assert.match(predicate, /status.*withdrawn/);
+  } finally {
+    await db.close();
+  }
+});
+
+test('accepted corrections write back, archive diffs, reject conflicts and survive re-import', async () => {
+  const db = await createDB();
+  try {
+    const teacherRequest = (await asRole(db, 'authenticated', STUDENT, `
+      SELECT public.submit_governance_request(
+        'teacher_profile_correction', '学院官网人事页面显示姓名和职称需要纠正。',
+        '${TEACHER}', NULL, NULL, NULL, '学院官网教师名录截图已线下核对'
+      ) AS result
+    `)).rows[0].result;
+
+    // A status change alone is not a completed correction.
+    await assert.rejects(
+      asRole(db, 'authenticated', ADMIN,
+        `SELECT public.process_governance_request('${teacherRequest.id}', 'accepted', '仅修改状态')`),
+      /实际写回/,
+    );
+    await assert.rejects(
+      asRoleWithAal(db, 'authenticated', ADMIN, 'aal1',
+        `SELECT public.apply_governance_correction('${teacherRequest.id}',
+          '{"teacher":{"name":"测试教师乙"}}'::jsonb, '学院官网教师名录截图已线下核对')`),
+      /AAL2/,
+    );
+    await assert.rejects(
+      asRole(db, 'authenticated', STUDENT,
+        `SELECT public.apply_governance_correction('${teacherRequest.id}',
+          '{"teacher":{"name":"测试教师乙"}}'::jsonb, '学院官网教师名录截图已线下核对')`),
+      /无审核权限/,
+    );
+    await assert.rejects(
+      asRole(db, 'authenticated', ADMIN,
+        `SELECT public.apply_governance_correction('${teacherRequest.id}',
+          '{"teacher":{"name":"测试教师甲"}}'::jsonb, '学院官网教师名录截图已线下核对')`),
+      /未检测到实际变更/,
+    );
+
+    const teacherApplied = (await asRole(db, 'authenticated', ADMIN, `
+      SELECT public.apply_governance_correction('${teacherRequest.id}',
+        '{"teacher":{"name":"测试教师乙","title":"副教授","campus":"古镇口校区"}}'::jsonb,
+        '学院官网教师名录 2026-10-24') AS result
+    `)).rows[0].result;
+    assert.equal(teacherApplied.success, true);
+    assert.equal(teacherApplied.status, 'completed');
+    assert.deepEqual([...teacherApplied.changed_fields].sort(), ['campus', 'name', 'title']);
+    const teacher = (await db.query(`SELECT name, title, campus FROM public.teachers WHERE id='${TEACHER}'`)).rows[0];
+    assert.deepEqual(teacher, { name: '测试教师乙', title: '副教授', campus: '古镇口校区' });
+    const requestRow = (await db.query(`SELECT status, resolved_at FROM public.governance_requests WHERE id='${teacherRequest.id}'`)).rows[0];
+    assert.equal(requestRow.status, 'completed');
+    assert.ok(requestRow.resolved_at);
+    const ledger = (await db.query(`SELECT target_type, target_id, action, before_data, after_data, source_basis,
+      request_id FROM private.upc_data_corrections WHERE request_id='${teacherRequest.id}'`)).rows[0];
+    assert.equal(ledger.target_type, 'teacher');
+    assert.equal(ledger.target_id, TEACHER);
+    assert.equal(ledger.action, 'update');
+    assert.equal(ledger.before_data.name, '测试教师甲');
+    assert.equal(ledger.after_data.name, '测试教师乙');
+    assert.match(ledger.source_basis, /教师名录/);
+    assert.equal((await db.query(`SELECT count(*)::int AS n FROM private.upc_correction_pins
+      WHERE target_table='teachers' AND target_id='${TEACHER}'`)).rows[0].n, 3);
+    await assert.rejects(
+      asRole(db, 'authenticated', ADMIN,
+        `SELECT public.apply_governance_correction('${teacherRequest.id}',
+          '{"teacher":{"name":"测试教师丙"}}'::jsonb, '学院官网教师名录 2026-10-24')`),
+      /已写回/,
+    );
+
+    const reimport = {
+      schemaVersion: 1,
+      dataset: 'correction-reimport',
+      source: 'synthetic re-import for automated tests only',
+      term: { code: 'test-term-1', name: '测试学期', isCurrent: true },
+      teachers: [{
+        sourceId: 'fixture-teacher-001', name: '测试教师甲', title: '教授',
+        collegeCode: 'upc-12', campus: '唐岛湾校区',
+        courses: [{ code: 'TEST-MATH-101', name: '测试高等数学' }],
+      }],
+    };
+    const teacherImport = (await db.query(
+      'SELECT public.import_upc_dataset($1::jsonb, $2, false) AS result',
+      [JSON.stringify(reimport), 'b'.repeat(64)],
+    )).rows[0].result;
+    assert.ok(teacherImport.teachers.protectedFields >= 1);
+    assert.deepEqual(
+      (await db.query(`SELECT name, title, campus FROM public.teachers WHERE id='${TEACHER}'`)).rows[0],
+      { name: '测试教师乙', title: '副教授', campus: '古镇口校区' },
+    );
+
+    // Course corrections update the catalog and prevent an old-name re-import
+    // from being rejected or silently undoing the corrected name.
+    const courseRequest = (await asRole(db, 'authenticated', STUDENT, `
+      SELECT public.submit_governance_request(
+        'course_offering_correction', '教务系统课程名称需要按官方全称纠正。',
+        NULL, NULL, '${COURSE}', NULL, '教务处课程目录'
+      ) AS result
+    `)).rows[0].result;
+    await asRole(db, 'authenticated', ADMIN, `
+      SELECT public.apply_governance_correction('${courseRequest.id}',
+        '{"course":{"name":"测试高等数学（纠正）"}}'::jsonb, '教务处课程目录 2026-10-24')`);
+    assert.equal((await db.query(`SELECT name FROM public.courses WHERE id='${COURSE}'`)).rows[0].name, '测试高等数学（纠正）');
+    const courseImport = (await db.query(
+      'SELECT public.import_upc_dataset($1::jsonb, $2, false) AS result',
+      [JSON.stringify(reimport), 'c'.repeat(64)],
+    )).rows[0].result;
+    assert.ok(courseImport.courses.protectedFields >= 1);
+    assert.equal((await db.query(`SELECT name FROM public.courses WHERE id='${COURSE}'`)).rows[0].name, '测试高等数学（纠正）');
+
+    // Removing an offering with review references must fail closed.
+    await asRole(db, 'authenticated', STUDENT, insertReview('correction-review'));
+    const offeringId = (await db.query(`SELECT id FROM public.course_offerings
+      WHERE teacher_id='${TEACHER}' AND course_id='${COURSE}' AND term_id='${TERM}'`)).rows[0].id;
+    const offeringRequest = (await asRole(db, 'authenticated', STUDENT, `
+      SELECT public.submit_governance_request(
+        'course_offering_correction', '该授课关系为误录，请核对后删除。',
+        NULL, NULL, NULL, '${offeringId}', '教务处开课目录'
+      ) AS result
+    `)).rows[0].result;
+    await assert.rejects(
+      asRole(db, 'authenticated', ADMIN, `
+        SELECT public.apply_governance_correction('${offeringRequest.id}',
+          '{"offering":{"action":"remove"}}'::jsonb, '教务处开课目录 2026-10-24')`),
+      /仍关联 1 条评价.*拒绝自动删除或转移/,
+    );
+    assert.equal((await db.query(`SELECT count(*)::int AS n FROM public.course_offerings WHERE id='${offeringId}'`)).rows[0].n, 1);
+
+    await db.exec("DELETE FROM public.reviews WHERE id='correction-review'");
+    const offeringApplied = (await asRole(db, 'authenticated', ADMIN, `
+      SELECT public.apply_governance_correction('${offeringRequest.id}',
+        '{"offering":{"action":"remove"}}'::jsonb, '教务处开课目录 2026-10-24') AS result
+    `)).rows[0].result;
+    assert.equal(offeringApplied.action, 'remove');
+    assert.equal((await db.query(`SELECT count(*)::int AS n FROM public.course_offerings WHERE id='${offeringId}'`)).rows[0].n, 0);
+    const protectedImport = (await db.query(
+      'SELECT public.import_upc_dataset($1::jsonb, $2, false) AS result',
+      [JSON.stringify(reimport), 'd'.repeat(64)],
+    )).rows[0].result;
+    assert.ok(protectedImport.offerings.protectedRelations >= 1);
+    assert.equal((await db.query(`SELECT count(*)::int AS n FROM public.course_offerings
+      WHERE teacher_id='${TEACHER}' AND course_id='${COURSE}' AND term_id='${TERM}'`)).rows[0].n, 0);
+
+    // Rejection keeps the catalog unchanged and still records a resolution.
+    const rejectRequest = (await asRole(db, 'authenticated', STUDENT, `
+      SELECT public.submit_governance_request(
+        'teacher_profile_correction', '提交一项最终被驳回的资料纠错申请。',
+        '${TEACHER}', NULL, NULL, NULL, '无有效来源')
+      AS result
+    `)).rows[0].result;
+    await asRole(db, 'authenticated', ADMIN,
+      `SELECT public.process_governance_request('${rejectRequest.id}', 'rejected', '来源不足，驳回')`);
+    assert.equal((await db.query(`SELECT status FROM public.governance_requests WHERE id='${rejectRequest.id}'`)).rows[0].status, 'rejected');
+    assert.equal((await db.query(`SELECT name FROM public.teachers WHERE id='${TEACHER}'`)).rows[0].name, '测试教师乙');
+  } finally {
+    await db.close();
+  }
+});
+
+test('account deletion detaches correction evidence without undoing the correction', async () => {
+  const db = await createDB();
+  try {
+    await db.exec(`INSERT INTO auth.users(id,email,email_confirmed_at)
+      VALUES ('${DELETED}','deleted@s.upc.edu.cn',now())`);
+    const request = (await asRole(db, 'authenticated', DELETED, `
+      SELECT public.submit_governance_request(
+        'teacher_profile_correction', '合成测试：账户注销前提交的教师资料纠错。',
+        '${TEACHER}', NULL, NULL, NULL, '学院官网教师名录'
+      ) AS result
+    `)).rows[0].result;
+    await asRole(db, 'authenticated', ADMIN, `
+      SELECT public.apply_governance_correction('${request.id}',
+        '{"teacher":{"title":"兼职教授"}}'::jsonb, '学院官网教师名录 2026-10-24')`);
+    // The deletion utility removes the requester's governance request. The
+    // correction ledger and pin survive because they are catalog evidence, not
+    // applicant content, and the request link is set to NULL by the FK.
+    await db.exec(`DELETE FROM public.governance_requests WHERE id='${request.id}'`);
+    const ledger = (await db.query(`SELECT request_id, after_data
+      FROM private.upc_data_corrections WHERE target_id='${TEACHER}'`)).rows[0];
+    assert.equal(ledger.request_id, null);
+    assert.equal(ledger.after_data.title, '兼职教授');
+    const pin = (await db.query(`SELECT request_id, corrected_value
+      FROM private.upc_correction_pins
+      WHERE target_table='teachers' AND target_id='${TEACHER}' AND field_name='title'`)).rows[0];
+    assert.equal(pin.request_id, null);
+    assert.equal(pin.corrected_value, '兼职教授');
+    assert.equal((await db.query(`SELECT title FROM public.teachers WHERE id='${TEACHER}'`)).rows[0].title, '兼职教授');
+    assert.equal((await db.query(`SELECT count(*)::int AS n FROM public.governance_requests WHERE id='${request.id}'`)).rows[0].n, 0);
+  } finally {
+    await db.close();
+  }
+});
+
+test('controlled administrator MFA recovery is service-role-only and audited', async () => {
+  const db = await createDB();
+  try {
+    const result = await asServiceRole(db, `
+      SELECT public.record_admin_mfa_recovery(
+        '${ADMIN}', '隔离演练操作员',
+        '合成管理员丢失 TOTP 设备，线下身份核验完成',
+        ARRAY['factor-1']::text[]
+      ) AS result
+    `);
+    assert.equal(result.rows[0].result.success, true);
+    assert.equal(result.rows[0].result.sessions_revoked, 1);
+    assert.equal(result.rows[0].result.role, 'super_admin');
+    assert.equal((await db.query(`SELECT count(*)::int AS n FROM auth.sessions WHERE user_id='${ADMIN}'`)).rows[0].n, 0);
+    const audit = (await db.query(`SELECT action, reason, metadata
+      FROM private.upc_admin_audit_log WHERE action='admin_mfa_recovery'`)).rows[0];
+    assert.equal(audit.reason, '合成管理员丢失 TOTP 设备，线下身份核验完成');
+    assert.equal(audit.metadata.operator, '隔离演练操作员');
+    assert.deepEqual(audit.metadata.factor_ids, ['factor-1']);
+    assert.equal(audit.metadata.sessions_revoked, 1);
+    assert.equal((await db.query(`SELECT role FROM public.admin_users WHERE user_id='${ADMIN}'`)).rows[0].role, 'super_admin');
+    await assert.rejects(
+      asRole(db, 'authenticated', ADMIN, `
+        SELECT public.record_admin_mfa_recovery(
+          '${ADMIN}', 'administrator', 'administrator must not self-recover an account',
+          ARRAY['factor-1']::text[]
+        )`),
+      /permission denied|仅受控后台服务/,
+    );
+    await assert.rejects(
+      asServiceRole(db, `
+        SELECT public.record_admin_mfa_recovery(
+          '${STUDENT}', '隔离演练操作员',
+          '普通用户不能通过恢复接口提升权限，必须继续拒绝',
+          ARRAY['factor-1']::text[]
+        )`),
+      /目标不是已登记管理员/,
+    );
+  } finally {
+    await db.close();
+  }
+});
+
+test('a revoked AAL2 session cannot act and a new session restores admin access', async () => {
+  const db = await createDB();
+  try {
+    const before = await asRole(db, 'authenticated', ADMIN, `
+      SELECT public.approve_review('missing-review') AS r
+    `);
+    assert.equal(before.rows[0].r.success, false);
+    assert.match(before.rows[0].r.message, /评价不存在/);
+
+    await db.exec(`DELETE FROM auth.sessions WHERE id = '${SESSION_ADMIN}'`);
+    await assert.rejects(
+      asRole(db, 'authenticated', ADMIN, `SELECT public.approve_review('missing-review')`),
+      /无审核权限/,
+    );
+    await assert.rejects(
+      asRole(db, 'authenticated', ADMIN, `
+        SELECT public.create_admin_invite('stale-${Date.now()}@gmail.com', 1)
+      `),
+      /无审核权限/,
+    );
+    const staleStatus = await asRole(db, 'authenticated', ADMIN, `
+      SELECT public.get_my_admin_status() AS status
+    `);
+    assert.equal(staleStatus.rows[0].status.is_admin, false);
+    const staleQueue = await asRole(db, 'authenticated', ADMIN, `
+      SELECT count(*)::int AS n FROM public.admin_review_queue
+    `);
+    assert.equal(staleQueue.rows[0].n, 0);
+
+    const NEW_SESSION = '60000000-0000-0000-0000-000000000004';
+    await db.exec(`INSERT INTO auth.sessions(id, user_id) VALUES ('${NEW_SESSION}', '${ADMIN}')`);
+    const freshStatus = await asRoleWithAal(db, 'authenticated', ADMIN, 'aal2', `
+      SELECT public.get_my_admin_status() AS status
+    `, NEW_SESSION);
+    assert.equal(freshStatus.rows[0].status.is_admin, true);
+    const freshInvite = await asRoleWithAal(db, 'authenticated', ADMIN, 'aal2', `
+      SELECT public.create_admin_invite('fresh-${Date.now()}@gmail.com', 1) AS result
+    `, NEW_SESSION);
+    assert.equal(freshInvite.rows[0].result.success, true);
+  } finally {
+    await db.close();
+  }
+});
+
 test('a second current term is rejected by the database', async () => {
   const db = await createDB();
   try {
@@ -703,4 +1340,26 @@ test('a second current term is rejected by the database', async () => {
   } finally {
     await db.close();
   }
+});
+
+
+test('teacher scoring appeals are retired without deleting historical requests', async () => {
+  const db = await createDB();
+  try {
+    assert.equal((await db.query("SELECT to_regprocedure('public.create_proxy_teacher_appeal(text,text,text)') AS f")).rows[0].f, null);
+    await assert.rejects(db.exec(`INSERT INTO public.governance_requests(request_type,statement)
+      VALUES ('teacher_appeal','retired request must never be created')`), /不支持的申请类型/);
+    // Simulate an existing installation with a historical appeal and its old CHECK.
+    await db.exec(`ALTER TABLE public.governance_requests DROP CONSTRAINT governance_requests_request_type_check;
+      ALTER TABLE public.governance_requests DISABLE TRIGGER governance_request_type_guard;
+      INSERT INTO public.governance_requests(id,request_type,statement)
+      VALUES ('90000000-0000-0000-0000-000000000099','teacher_appeal','historical request must remain intact');
+      ALTER TABLE public.governance_requests ENABLE TRIGGER governance_request_type_guard;`);
+    const patch = fs.readFileSync(new URL('../supabase/upgrades/20261024-remove-teacher-appeal.sql', import.meta.url), 'utf8');
+    await db.exec(patch);
+    await db.exec(patch);
+    await db.exec("UPDATE public.governance_requests SET status='completed' WHERE id='90000000-0000-0000-0000-000000000099'");
+    assert.equal((await db.query("SELECT statement FROM public.governance_requests WHERE id='90000000-0000-0000-0000-000000000099'")).rows[0].statement, 'historical request must remain intact');
+    await assert.rejects(db.exec("INSERT INTO public.governance_requests(request_type,statement) VALUES ('teacher_appeal','still refused on upgraded installations')"), /不支持的申请类型/);
+  } finally { await db.close(); }
 });

@@ -36,9 +36,11 @@ schule2026-2027-1/supabase-web-import/00-create-upload-table.sql
 
 迁移后最终基线：
 
-- `npm run schema:build`：生成 5 段 SQL（基础表、学院种子、权限、触发器、导入 RPC）。
+- `npm run schema:build`：安全治理上线后生成 7 段 SQL（基础表、学院种子、安全增量、权限、
+  治理、触发器、导入 RPC）。
 - `npm run lint`：通过。
-- `npm test`：40/40 通过（分页查询、UPC schema/导入、UPC 服务、真实课表批次与升级）。
+- `npm test`：基线当时 40/40；治理边界收尾后 48/48（分页、Schema/导入、服务、真实批次、
+  邮箱、Gmail 邀请、历史评价治理、withdrawn 键与门槛回填）。
 - `npm run build`：通过；产物无 AI/通知/课表 chunk。
 - `npm run test:server`：18/18 通过。
 - 未配置首屏在 Edge headless 下渲染为“环境配置检查”，无旧校/mock 文本。

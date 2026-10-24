@@ -20,6 +20,8 @@ interface MobileUserProfileProps {
   myReviews: Review[];
   teachers: Teacher[];
   onOpenAdminAudit?: () => void;
+  onOpenGovernance?: () => void;
+  onOpenGovernanceForReview?: (review: Review) => void;
   onDeleteReview?: (reviewId: string) => void;
   onRefreshReviews?: () => Promise<void>;
   isUserAdmin?: boolean;
@@ -41,6 +43,8 @@ export const MobileUserProfile: React.FC<MobileUserProfileProps> = ({
   myReviews,
   teachers,
   onOpenAdminAudit,
+  onOpenGovernance,
+  onOpenGovernanceForReview,
   onDeleteReview,
   onRefreshReviews,
   isUserAdmin = false,
@@ -210,15 +214,15 @@ export const MobileUserProfile: React.FC<MobileUserProfileProps> = ({
               </div>
               <div>
                 <p className="text-xs font-bold text-gray-800">登录开启积分激励与特权</p>
-                <p className="text-3xs text-gray-500">新人注册送 100 积分 · 撰写评价 +20 分</p>
+                <p className="text-3xs text-gray-500">预发布阶段注册暂未开放 · 登录后可评价</p>
               </div>
             </div>
             <button
-              onClick={() => onOpenAuth('register')}
+              onClick={() => onOpenAuth('login')}
               className="px-3 py-1.5 rounded-xl bg-indigo-600 text-white text-xs font-bold shadow-xs hover:bg-indigo-700 flex items-center gap-1 shrink-0"
             >
               <Sparkles className="w-3 h-3" />
-              <span>注册</span>
+              <span>登录</span>
             </button>
           </div>
         )}
@@ -394,6 +398,14 @@ export const MobileUserProfile: React.FC<MobileUserProfileProps> = ({
                         <CheckCircle2 className="w-2.5 h-2.5" /> ✓ 已公示 (+20分)
                       </span>
                     )}
+                    {isApproved && onOpenGovernanceForReview && (
+                      <button
+                        onClick={() => onOpenGovernanceForReview(rev)}
+                        className="px-1.5 py-0.5 rounded text-3xs font-semibold text-gray-500 border border-gray-200"
+                      >
+                        撤回
+                      </button>
+                    )}
                     {isRejected && (
                       <span className="px-1.5 py-0.5 rounded text-3xs font-bold bg-rose-100 text-rose-700 border border-rose-200 flex items-center gap-0.5">
                         <XCircle className="w-2.5 h-2.5" /> ✕ 未通过
@@ -472,8 +484,18 @@ export const MobileUserProfile: React.FC<MobileUserProfileProps> = ({
           <span>小石子数据说明</span>
         </div>
         <p className="leading-relaxed">
-          本应用只展示已导入并核对过的教师、课程与评价数据。没有真实数据时显示空状态，不以示例教师、默认评分或旧校数据代替。
+          公开评价统一匿名。后台仅为学生邮箱验证、去重、审核、举报与申诉保留必要账户关联，
+          不解析或保存学号，也不承诺绝对无法追踪。
         </p>
+        {isLoggedIn && onOpenGovernance && (
+          <button
+            onClick={onOpenGovernance}
+            className="w-full py-2 rounded-xl bg-white border border-gray-200 text-indigo-700 text-2xs font-bold flex items-center justify-center gap-1"
+          >
+            <ShieldCheck className="w-3 h-3" />
+            治理申请记录 / 注销申请
+          </button>
+        )}
         <p className="text-3xs text-gray-400">学生共建 · 评价审核后公开 · 六维评分</p>
       </div>
     </div>

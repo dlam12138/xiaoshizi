@@ -59,13 +59,77 @@ export interface Review {
   userId?: string;
   userEmail?: string;
   isHistoricalMigrated?: boolean; // 2024年前老站迁移数据
-  status: 'approved' | 'pending' | 'rejected';
+  status: 'approved' | 'pending' | 'rejected' | 'withdrawn';
   rejectReason?: string; // DB column: reject_reason
   rejectionReason?: string; // Frontend compatibility alias
   reviewerId?: string;
   reviewedAt?: string;
   createdAt: string;
+  publicTime?: boolean; // public projection: createdAt is a week bucket, not exact time
+  riskFlags?: string[];
+  riskReason?: string;
+  isPublic?: boolean;
   likes: number;
+}
+
+export type GovernanceRequestType =
+  | 'teacher_profile_correction'
+  | 'course_offering_correction'
+  | 'review_report'
+  | 'review_withdrawal'
+  | 'account_deletion';
+
+export interface GovernanceRequest {
+  id: string;
+  requestType: GovernanceRequestType;
+  requesterKind: 'student' | 'teacher' | 'other' | 'staff_proxy';
+  source: 'user' | 'staff_proxy';
+  targetTeacherId?: string | null;
+  targetTeacherName?: string | null;
+  targetTeacherTitle?: string | null;
+  targetTeacherCollegeCode?: string | null;
+  targetTeacherCampus?: string | null;
+  targetReviewId?: string | null;
+  targetCourseId?: string | null;
+  targetCourseName?: string | null;
+  targetCourseCode?: string | null;
+  targetCourseCollegeCode?: string | null;
+  targetOfferingId?: string | null;
+  targetOfferingTeacherId?: string | null;
+  targetOfferingCourseId?: string | null;
+  targetOfferingTermId?: string | null;
+  targetOfferingSourceId?: string | null;
+  statement: string;
+  evidenceSummary?: string | null;
+  status: 'submitted' | 'triaged' | 'in_review' | 'accepted' | 'rejected' | 'withdrawn' | 'completed';
+  resolution?: string | null;
+  assignedAdminId?: string | null;
+  externalCaseRef?: string | null;
+  createdAt: string;
+  updatedAt: string;
+  resolvedAt?: string | null;
+}
+
+export interface OfferingRatingStat {
+  teacherId: string;
+  courseId: string;
+  termId: string;
+  courseName?: string;
+  yearTerm?: string;
+  reviewCount: number;
+  independentReviewerCount: number;
+  ratingPublic: boolean;
+  overallScore: number | null;
+}
+
+export interface AdminAuditEntry {
+  id: number;
+  action: string;
+  target_type: string;
+  target_id: string | null;
+  reason: string | null;
+  metadata: Record<string, unknown>;
+  created_at: string;
 }
 
 export interface College {
@@ -108,6 +172,8 @@ export interface Teacher {
   isTeachingThisTerm: boolean; // 由 course_offerings 关联 terms (is_current = true) 获得
   overallScore: number | null;
   reviewCount: number;
+  independentReviewerCount?: number;
+  ratingVisible?: boolean;
   dimensions: TeacherRatingDimensions;
   hasHistoricalData: boolean; // 是否包含2024年前迁移数据
   tags: string[];

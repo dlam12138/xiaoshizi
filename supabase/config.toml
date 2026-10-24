@@ -43,7 +43,23 @@ enabled = true
 site_url = "http://localhost:3000"
 additional_redirect_urls = ["http://localhost:3000", "http://127.0.0.1:3000"]
 enable_signup = true
+enable_anonymous_sign_ins = false
 minimum_password_length = 8
+
+# The SQL hook allows exact student addresses and Gmail only when a private
+# address-specific administrator invite exists. Enabling the hook in this file
+# does not prove Auth called it; the local acceptance test uses the public key
+# against the real Auth endpoint.
+[auth.hook.before_user_created]
+enabled = true
+uri = "pg-functions://postgres/public/before_user_created_hook"
+
+[auth.mfa]
+max_enrolled_factors = 10
+
+[auth.mfa.totp]
+enroll_enabled = true
+verify_enabled = true
 
 [auth.email]
 enable_signup = true

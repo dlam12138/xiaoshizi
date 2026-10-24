@@ -3,7 +3,9 @@
 本文件用于**云端独立测试项目**的联调。**本机 native Supabase 已初始化、导入并完成
 真实 Auth/RLS/页面验收**；本机入口与复现命令见 `docs/upc-local-supabase.md`。
 
-云端独立项目、外部 SMTP 和生产部署仍未执行；不要把本机键当作云端验收。
+托管项目 `your-project-ref` 已完成 schema/正式数据/Auth Hook/TOTP/URL 迁移和
+云端管理员创建；外部 SMTP、完整云端 E2E、生产部署仍未完成。新迁移记录见
+`docs/upc-cloud-migration-runbook.md` 第 9 节。不要把本机键当作云端验收。
 
 ## 1. 范围
 
@@ -56,16 +58,21 @@ npm run check:supabase:remote -- --strict
 全库教师 campus 为空和至少 1 条导入批次。当前本机全局为 1,555 教师身份 / 1,342 课程 /
 2,946 关系；云端按同一清单核对，不硬编码化学单学院总量。
 
-## 3. 云端初始化或升级数据库（二选一）
+## 3. 云端初始化或升级数据库（历史说明，实际迁移已改用 cloud bundle）
+
+> 2026-10-24 实际执行使用 `supabase/cloud/upc-cloud-schema.sql` + 正式数据包，
+> **没有在托管项目执行 `upc-init.sql`**，因为它含 colleges seed，会生成新 UUID。
+> 本节的旧 upc-init 步骤仅保留作历史参考，不得再用于当前云端项目。
 
 本机数据库已经初始化并导入，**不要再次 init**；本节只用于云端项目。先运行：
 
 ```powershell
 npm run schema:build
+npm run schema:cloud
 ```
 
-新空库：在独立测试项目的 SQL Editor 整份执行 `supabase/upc-init.sql`（包含
-16 个教学院部和独立教学单位 `upc-17` 种子）。
+新空库：使用 `supabase/cloud/upc-cloud-schema.sql`，再加载
+`temp/cloud/upc-cloud-data.sql`；不要执行含 seed 的 `upc-init.sql`。
 
 已初始化的 UPC 测试库：执行完整升级文件
 `supabase/upgrades/20261022-course-code-identity.sql`，并执行
@@ -167,17 +174,16 @@ Get-ChildItem .\data\upc\timetables-2026-2027-1\units\*\import.json |
 状态必须分开写：
 
 - 本机真实 Supabase 验收通过（已完成，见 `docs/upc-local-supabase.md`）；
-- 云端独立测试项目验收通过（未执行）；
+- 云端托管项目数据库/Auth 已迁移（2026-10-24，见
+  `docs/upc-cloud-migration-runbook.md` 第 9 节）；完整 79 项 E2E 未执行；
 - 正式上线（未执行）。
 
-云端仍需的输入（当前本机 env 已配置好，不要用本机键冒充云端）：
+云端当前仍缺：
 
-1. 云端项目的 `VITE_SUPABASE_URL`、公开 anon/publishable key，以及
-   `VITE_CACHE_API_ENABLED=false`；
-2. 同一云端项目的 `SUPABASE_URL`、仅服务端 `SUPABASE_SERVICE_ROLE_KEY`；
-3. 云端项目 SQL 执行权限或数据库连接；
-4. 云端测试用户/管理员邮箱与外部 SMTP 配置；
-5. 云端 Auth Site URL / Redirect URLs，本机联调用 `http://localhost:3000`。
+1. `operator@example.com` 云端密码和 TOTP（MFA factor 仍为 0）；
+2. 外部 SMTP、发信域名/DNS、真实投递和邮件链接点击；
+3. 正式域名/TLS 和最终 Auth redirect allow-list；
+4. 云端完整 79 项 E2E、服务器发布、云端备份/回滚演练。
 
-没有第 1–3 项时不能执行云端数据库导入；没有第 4 项时外部邮件投递只能待验收。
+云端 URL/公开 key/服务端 key/数据库执行已在 `temp/cloud/cloud.env`，不得进入前端或提交。
 本机 Mailpit 验证只代表本机邮件链路。

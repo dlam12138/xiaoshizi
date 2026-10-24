@@ -5,7 +5,7 @@ import {
 } from '../lib/ratings';
 import React, { useState, useEffect, useMemo } from 'react';
 import { Teacher, Review, Term } from '../types';
-import { X, ShieldCheck, AlertTriangle, EyeOff, User } from 'lucide-react';
+import { X, ShieldCheck, AlertTriangle, EyeOff } from 'lucide-react';
 import { motion } from 'motion/react';
 import { AnimatedDropdown } from './AnimatedDropdown';
 import { supabaseService } from '../services/supabaseService';
@@ -42,10 +42,6 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
   const [termsError, setTermsError] = useState<string | null>(null);
   const [termId, setTermId] = useState('');
   const [yearTerm, setYearTerm] = useState('');
-  const [isAnonymous, setIsAnonymous] = useState<boolean>(true);
-  const [customNickname, setCustomNickname] = useState<string>(
-    currentUser?.user_metadata?.nickname || '石大学子'
-  );
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
   const [successNotice, setSuccessNotice] = useState<boolean>(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
@@ -224,9 +220,7 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
         yearTerm,
         dimensions: nextDimensions,
         comment: undefined,
-        authorNickname: isAnonymous
-          ? '匿名石大学子'
-          : (customNickname.trim() || currentUser?.user_metadata?.nickname || '石大学子'),
+        authorNickname: '匿名石大学子',
         isHistoricalMigrated: false,
         status: 'pending', // <--- Initial status: pending
       });
@@ -413,50 +407,14 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
                   )}
                 </div>
                 <div>
-                  <label className="block text-xs font-bold text-gray-700 mb-1">发布身份</label>
-                  <div className="flex items-center gap-1.5 p-1 bg-gray-50 rounded-xl border border-gray-200">
-                    <button
-                      type="button"
-                      onClick={() => setIsAnonymous(true)}
-                      className={`flex-1 flex items-center justify-center gap-1.5 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
-                        isAnonymous
-                          ? 'bg-white text-indigo-700 shadow-2xs border border-indigo-100 font-bold'
-                          : 'text-gray-500 hover:text-gray-700'
-                      }`}
-                    >
-                      <EyeOff className="w-3.5 h-3.5" />
-                      <span>匿名评价</span>
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setIsAnonymous(false)}
-                      className={`flex-1 flex items-center justify-center gap-1.5 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
-                        !isAnonymous
-                          ? 'bg-white text-indigo-700 shadow-2xs border border-indigo-100 font-bold'
-                          : 'text-gray-500 hover:text-gray-700'
-                      }`}
-                    >
-                      <User className="w-3.5 h-3.5" />
-                      <span>公开昵称</span>
-                    </button>
+                  <label className="block text-xs font-bold text-gray-700 mb-1">公开身份</label>
+                  <div className="flex items-center gap-2 px-3 py-2.5 bg-gray-50 rounded-xl border border-gray-200 text-xs text-gray-600">
+                    <EyeOff className="w-4 h-4 text-indigo-600 shrink-0" />
+                    <span>所有评价统一署名<strong className="text-gray-900">「匿名石大学子」</strong>，不提供公开昵称。</span>
                   </div>
-                  <div className="mt-1 flex items-center justify-between text-2xs text-gray-400 px-0.5">
-                    {isAnonymous ? (
-                      <span>对外署名：<strong className="text-gray-600 font-medium">匿名学子</strong>（保护隐私）</span>
-                    ) : (
-                      <span className="flex items-center gap-1">
-                        <span>对外署名：</span>
-                        <input
-                          type="text"
-                          value={customNickname}
-                          onChange={(e) => setCustomNickname(e.target.value)}
-                          placeholder="公开昵称"
-                          maxLength={12}
-                          className="px-2 py-0.5 bg-white border border-gray-200 rounded text-gray-800 text-2xs font-medium w-28 focus:outline-hidden focus:border-indigo-500"
-                        />
-                      </span>
-                    )}
-                  </div>
+                  <p className="mt-1 text-2xs text-gray-400">
+                    后台仅为邮箱验证、去重、审核、举报与撤回处理保留必要账户关联。
+                  </p>
                 </div>
               </div>
 
@@ -515,7 +473,8 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
               <div className="p-3 bg-blue-50/60 rounded-xl border border-blue-100 flex items-start gap-2 text-2xs text-blue-800">
                 <ShieldCheck className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
                 <span>
-                  <strong>社区公约：</strong>严禁注水评价（如仅输入“很好”）及人身攻击、虚假编造事实。宽松审核，真实体验即可通过。
+                  <strong>评分规则：</strong>本期只开放六维客观评分，不开放文字评论。请基于真实上课体验填写；
+                  同一教师×课程×学期只能保留一条评价，可修改待审/被驳回记录。
                 </span>
               </div>
             </div>

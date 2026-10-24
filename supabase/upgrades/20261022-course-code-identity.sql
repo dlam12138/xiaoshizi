@@ -85,11 +85,14 @@ DECLARE
   v_teacher_inserted INT := 0;
   v_teacher_updated INT := 0;
   v_teacher_skipped INT := 0;
+  v_teacher_protected INT := 0;
   v_course_inserted INT := 0;
   v_course_updated INT := 0;
   v_course_skipped INT := 0;
+  v_course_protected INT := 0;
   v_offering_inserted INT := 0;
   v_offering_skipped INT := 0;
+  v_offering_protected INT := 0;
   v_source_id TEXT;
   v_teacher_id TEXT;
   v_name TEXT;
@@ -97,6 +100,18 @@ DECLARE
   v_campus TEXT;
   v_college_code TEXT;
   v_college_id UUID;
+  v_current_name TEXT;
+  v_current_title TEXT;
+  v_current_campus TEXT;
+  v_current_college_id UUID;
+  v_pin_name BOOLEAN;
+  v_pin_title BOOLEAN;
+  v_pin_campus BOOLEAN;
+  v_pin_college BOOLEAN;
+  v_pin_course_name BOOLEAN;
+  v_pin_course_code BOOLEAN;
+  v_pin_course_college BOOLEAN;
+  v_pinned_code_course_id UUID;
   v_course_code TEXT;
   v_course_name TEXT;
   v_course_college_code TEXT;
@@ -215,6 +230,40 @@ BEGIN
       VALUES (v_teacher_id, v_source_id, v_name, v_title, v_college_id, v_campus, 2);
       v_teacher_inserted := v_teacher_inserted + 1;
     ELSE
+      SELECT name, title, college_id, campus
+      INTO v_current_name, v_current_title, v_current_college_id, v_current_campus
+      FROM public.teachers WHERE id = v_teacher_id;
+
+      -- Confirmed governance corrections are authoritative. A later batch may
+      -- leave protected fields untouched but must never silently undo them.
+      SELECT
+        coalesce(bool_or(field_name = 'name'), false),
+        coalesce(bool_or(field_name = 'title'), false),
+        coalesce(bool_or(field_name = 'campus'), false),
+        coalesce(bool_or(field_name = 'college_id'), false)
+      INTO v_pin_name, v_pin_title, v_pin_campus, v_pin_college
+      FROM private.upc_correction_pins
+      WHERE target_table = 'teachers' AND target_id = v_teacher_id;
+
+      IF v_pin_name AND v_name IS DISTINCT FROM v_current_name THEN
+        v_name := v_current_name;
+        v_teacher_protected := v_teacher_protected + 1;
+      END IF;
+      IF v_pin_title AND v_title IS DISTINCT FROM v_current_title THEN
+        v_title := v_current_title;
+        v_teacher_protected := v_teacher_protected + 1;
+      END IF;
+      IF v_pin_campus AND v_campus IS DISTINCT FROM v_current_campus THEN
+        v_campus := v_current_campus;
+        v_teacher_protected := v_teacher_protected + 1;
+      END IF;
+      IF v_pin_college THEN
+        IF v_college_id IS DISTINCT FROM v_current_college_id THEN
+          v_teacher_protected := v_teacher_protected + 1;
+        END IF;
+        v_college_id := v_current_college_id;
+      END IF;
+
       SELECT (name = v_name
               AND title IS NOT DISTINCT FROM v_title
               AND college_id = v_college_id
@@ -273,15 +322,48 @@ BEGIN
         FROM public.courses WHERE code = v_course_code;
 
         IF v_course_id IS NOT NULL THEN
+          SELECT
+            coalesce(bool_or(field_name = 'name'), false),
+            coalesce(bool_or(field_name = 'code'), false),
+            coalesce(bool_or(field_name = 'college_id'), false)
+          INTO v_pin_course_name, v_pin_course_code, v_pin_course_college
+          FROM private.upc_correction_pins
+          WHERE target_table = 'courses' AND target_id = v_course_id::text;
+
           IF v_existing_course_name IS DISTINCT FROM v_course_name THEN
-            RAISE EXCEPTION '课程代码 % 已存在名称 %，与本次名称 % 冲突',
-              v_course_code, v_existing_course_name, v_course_name;
+            IF v_pin_course_name THEN
+              v_course_name := v_existing_course_name;
+              v_course_protected := v_course_protected + 1;
+            ELSE
+              RAISE EXCEPTION '课程代码 % 已存在名称 %，与本次名称 % 冲突',
+                v_course_code, v_existing_course_name, v_course_name;
+            END IF;
           END IF;
           IF v_existing_course_college IS DISTINCT FROM v_course_college_id THEN
-            RAISE EXCEPTION '课程代码 % 已归属其他学院，不能静默改归属', v_course_code;
+            IF v_pin_course_college THEN
+              v_course_college_id := v_existing_course_college;
+              v_course_protected := v_course_protected + 1;
+            ELSE
+              RAISE EXCEPTION '课程代码 % 已归属其他学院，不能静默改归属', v_course_code;
+            END IF;
           END IF;
           v_course_skipped := v_course_skipped + 1;
         ELSE
+          -- A governance correction may have pinned this course's code. If the
+          -- incoming source still uses the old code, fail closed instead of
+          -- creating a duplicate course under the corrected catalog.
+          SELECT c.id INTO v_pinned_code_course_id
+          FROM private.upc_correction_pins p
+          JOIN public.courses c ON c.id::text = p.target_id
+          WHERE p.target_table = 'courses' AND p.field_name = 'code'
+            AND c.name = v_course_name AND c.college_id = v_course_college_id
+            AND p.corrected_value IS DISTINCT FROM to_jsonb(v_course_code)
+          LIMIT 1;
+          IF v_pinned_code_course_id IS NOT NULL THEN
+            RAISE EXCEPTION '课程 % 的编码已由治理纠正固定，本次导入编码 % 与纠正结果冲突，请人工核对',
+              v_course_name, v_course_code;
+          END IF;
+
           -- Adopt a single uncoded course with the same name/college. If a coded
           -- same-name course also exists, the uncoded record is ambiguous.
           SELECT id INTO v_course_id
@@ -333,14 +415,26 @@ BEGIN
       IF v_term_id IS NULL THEN
         RAISE EXCEPTION '教师 % 有课程但 term 未能建立', v_source_id;
       END IF;
-      INSERT INTO public.course_offerings (teacher_id, course_id, term_id)
-      VALUES (v_teacher_id, v_course_id, v_term_id)
-      ON CONFLICT (teacher_id, course_id, term_id) DO NOTHING;
-      GET DIAGNOSTICS v_rows = ROW_COUNT;
-      IF v_rows = 1 THEN
-        v_offering_inserted := v_offering_inserted + 1;
+      -- A confirmed removal is recorded as a relation pin. Re-import must not
+      -- silently resurrect a relation that governance decided to delete.
+      IF EXISTS (
+        SELECT 1 FROM private.upc_correction_pins
+        WHERE target_table = 'course_offerings'
+          AND target_id = v_teacher_id || '|' || v_course_id::text || '|' || v_term_id::text
+          AND field_name = 'relation'
+          AND corrected_value->>'action' = 'removed'
+      ) THEN
+        v_offering_protected := v_offering_protected + 1;
       ELSE
-        v_offering_skipped := v_offering_skipped + 1;
+        INSERT INTO public.course_offerings (teacher_id, course_id, term_id)
+        VALUES (v_teacher_id, v_course_id, v_term_id)
+        ON CONFLICT (teacher_id, course_id, term_id) DO NOTHING;
+        GET DIAGNOSTICS v_rows = ROW_COUNT;
+        IF v_rows = 1 THEN
+          v_offering_inserted := v_offering_inserted + 1;
+        ELSE
+          v_offering_skipped := v_offering_skipped + 1;
+        END IF;
       END IF;
     END LOOP;
   END LOOP;
@@ -359,16 +453,19 @@ BEGIN
     'teachers', jsonb_build_object(
       'inserted', v_teacher_inserted,
       'updated', v_teacher_updated,
-      'skipped', v_teacher_skipped
+      'skipped', v_teacher_skipped,
+      'protectedFields', v_teacher_protected
     ),
     'courses', jsonb_build_object(
       'inserted', v_course_inserted,
       'updated', v_course_updated,
-      'skipped', v_course_skipped
+      'skipped', v_course_skipped,
+      'protectedFields', v_course_protected
     ),
     'offerings', jsonb_build_object(
       'inserted', v_offering_inserted,
-      'skipped', v_offering_skipped
+      'skipped', v_offering_skipped,
+      'protectedRelations', v_offering_protected
     )
   );
 

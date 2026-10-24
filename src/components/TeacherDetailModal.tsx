@@ -7,7 +7,7 @@ import { Pagination, PageFeedback } from './Pagination';
 import { ReviewListSkeleton } from './Skeletons';
 import React, { useState, useEffect } from 'react';
 import { Teacher, Review } from '../types';
-import { X, Star, Heart, Award, Sparkles, MessageSquarePlus, ThumbsUp, CheckCircle2 } from 'lucide-react';
+import { X, Star, MessageSquarePlus, ThumbsUp, CheckCircle2, Flag, Pencil } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 interface TeacherDetailModalProps {
@@ -20,6 +20,9 @@ interface TeacherDetailModalProps {
   pendingLikeIds: Set<string>;
   likesLoading: boolean;
   refreshToken?: number;
+  onReportReview?: (review: Review) => void;
+  onCorrectTeacher?: (teacher: Teacher) => void;
+  onCorrectOffering?: (teacher: Teacher, courseId: string, termId: string, label: string) => void;
 }
 
 export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
@@ -27,9 +30,14 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
   reviews,
   onClose,
   onOpenReview,
-  onLikeReview, likedReviewIds, pendingLikeIds, likesLoading, refreshToken,
+  onLikeReview, likedReviewIds, pendingLikeIds, likesLoading, refreshToken, onReportReview,
+  onCorrectTeacher, onCorrectOffering,
 }) => {
   const [activeTab, setActiveTab] = useState<'reviews' | 'dimensions'>('dimensions');
+  const [offeringStats, setOfferingStats] = useState<Array<{
+    courseId: string; termId: string; courseName?: string; yearTerm?: string;
+    reviewCount: number; independentReviewerCount: number; ratingPublic: boolean; overallScore: number | null;
+  }>>([]);
 
   const page = usePagedQuery<Review>(
     teacher?.id || '',
@@ -41,6 +49,14 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
     likedReviewIds,
   );
   useEffect(() => { page.reload(); }, [refreshToken]);
+  useEffect(() => {
+    if (!teacher) { setOfferingStats([]); return; }
+    let active = true;
+    supabaseService.getOfferingRatingStats(teacher.id)
+      .then((rows) => { if (active) setOfferingStats(rows); })
+      .catch(() => { if (active) setOfferingStats([]); });
+    return () => { active = false; };
+  }, [teacher?.id, refreshToken]);
 
   if (!teacher) return null;
 
@@ -112,11 +128,15 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
         <div className="shrink-0 px-5 py-3 bg-gray-50/70 border-b border-gray-100 flex flex-wrap gap-2 items-center justify-between text-xs">
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-1 font-bold text-amber-600">
-              <Star className={`w-4 h-4 ${isRating(teacher.overallScore) ? 'fill-amber-400 text-amber-400' : 'text-gray-400'}`} />
-              <span className={isRating(teacher.overallScore) ? 'text-base' : 'text-sm text-gray-500'}>{formatRating(teacher.overallScore)}</span>
-              {isRating(teacher.overallScore) && <span className="text-gray-400 font-normal">/ 5.0</span>}
+              <Star className={`w-4 h-4 ${teacher.ratingVisible && isRating(teacher.overallScore) ? 'fill-amber-400 text-amber-400' : 'text-gray-400'}`} />
+              <span className={teacher.ratingVisible && isRating(teacher.overallScore) ? 'text-base' : 'text-sm text-gray-500'}>
+                {teacher.reviewCount > 0 && teacher.ratingVisible === false
+                  ? '评价样本不足'
+                  : formatRating(teacher.overallScore)}
+              </span>
+              {teacher.ratingVisible && isRating(teacher.overallScore) && <span className="text-gray-400 font-normal">/ 5.0</span>}
             </div>
-            {isRating(teacher.overallScore) && <div className="flex items-center gap-0.5">
+            {teacher.ratingVisible && isRating(teacher.overallScore) && <div className="flex items-center gap-0.5">
               {[1, 2, 3, 4, 5].map((s) => (
                 <Star
                   key={s}
@@ -130,7 +150,10 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
             </div>}
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-gray-500">评价数: {teacher.reviewCount}条</span>
+            <span className="text-gray-500">
+              评价数: {teacher.reviewCount}条
+              {teacher.ratingVisible === false && teacher.reviewCount > 0 ? '（独立人数不足5人）' : ''}
+            </span>
           </div>
         </div>
 
@@ -179,13 +202,76 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
               <div>
                 <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">主讲课程</h4>
                 <div className="flex flex-wrap gap-1.5">
-                  {teacher.courses.map((course, idx) => (
-                    <span key={idx} className="px-2.5 py-1 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-lg text-xs font-medium transition-colors">
-                      {course}
+                  {(teacher.courseOfferings?.length
+                    ? teacher.courseOfferings.slice(0, 12).map((offering, idx) => ({
+                      key: `${offering.courseId}:${offering.termId || idx}`,
+                      label: offering.courseName,
+                      suffix: offering.yearTerm,
+                      courseId: offering.courseId,
+                      termId: offering.termId || '',
+                    }))
+                    : teacher.courses.map((course, idx) => ({
+                      key: `name:${idx}`,
+                      label: course,
+                      suffix: undefined,
+                      courseId: '',
+                      termId: '',
+                    }))
+                  ).map((course) => (
+                    <span key={course.key} className="inline-flex items-center gap-1 px-2.5 py-1 bg-gray-100 text-gray-800 rounded-lg text-xs font-medium">
+                      {course.label}{course.suffix ? ` · ${course.suffix}` : ''}
+                      {onCorrectOffering && course.courseId && (
+                        <button
+                          onClick={() => onCorrectOffering(
+                            teacher, course.courseId, course.termId,
+                            `${course.label}${course.suffix ? ` · ${course.suffix}` : ''}`,
+                          )}
+                          className="text-3xs text-indigo-600 hover:text-indigo-800 underline"
+                        >
+                          纠错
+                        </button>
+                      )}
                     </span>
                   ))}
                 </div>
               </div>
+
+              {offeringStats.length > 0 && (
+                <div>
+                  <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">
+                    按课程 × 学期
+                  </h4>
+                  <div className="space-y-1.5">
+                    {offeringStats.slice(0, 8).map((stat) => (
+                      <div key={`${stat.courseId}:${stat.termId}`}
+                        className="flex items-center justify-between gap-2 px-2.5 py-1.5 rounded-lg bg-gray-50 border border-gray-100 text-2xs">
+                        <span className="text-gray-700 truncate">
+                          {stat.courseName || '课程'} · {stat.yearTerm || '学期'}
+                        </span>
+                        <span className={stat.ratingPublic ? 'font-bold text-amber-700' : 'text-gray-400'}>
+                          {stat.ratingPublic && isRating(stat.overallScore)
+                            ? `${stat.overallScore.toFixed(1)} 分`
+                            : `样本不足（${stat.independentReviewerCount} 人）`}
+                        </span>
+                        {onCorrectOffering && (
+                          <button
+                            onClick={() => onCorrectOffering(
+                              teacher, stat.courseId, stat.termId,
+                              `${stat.courseName || '课程'} · ${stat.yearTerm || '学期'}`,
+                            )}
+                            className="shrink-0 text-3xs text-indigo-600 hover:text-indigo-800 underline"
+                          >
+                            纠错
+                          </button>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                  <p className="text-3xs text-gray-400 mt-1.5">
+                    独立账户数达到 5 人后才显示该课程×学期评分；教师总览为跨课程/学期去重汇总。
+                  </p>
+                </div>
+              )}
 
               {/* Tags */}
               <div className="flex flex-wrap gap-1.5 pt-1">
@@ -196,7 +282,19 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
                 ))}
               </div>
 
-              <RatingRadar dimensions={teacher.dimensions} />
+              {teacher.ratingVisible === false && teacher.reviewCount > 0 && (
+                <div className="p-3 rounded-xl bg-amber-50 border border-amber-200 text-xs text-amber-900 leading-relaxed">
+                  该教师当前独立评价账户不足 5 人。为降低小样本识别风险，暂不展示综合分、六维均值、雷达图和单条评分。
+                  人数达到门槛后自动恢复展示。
+                </div>
+              )}
+              <RatingRadar dimensions={teacher.ratingVisible === false ? {
+                attendanceStrictness: null, gradingLeniency: null, effortMatters: null,
+                workloadDifficulty: null, approachability: null, teachingQuality: null,
+              } : teacher.dimensions} />
+              <p className="text-2xs text-gray-400">
+                综合分为跨课程/学期去重汇总，覆盖该教师全部有效公开评价；具体课程人数见学院与课程信息。
+              </p>
             </div>
           ) : (
             <div className="space-y-3">
@@ -205,8 +303,16 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
                 <ReviewListSkeleton count={3} />
               ) : page.error ? null : teacherReviews.length === 0 ? (
                 <div className="text-center py-10 text-gray-400">
-                  <p className="text-sm">暂无该老师的评价</p>
-                  <p className="text-xs mt-1">成为第一个评价的人，审核通过可得 +20 积分！</p>
+                  <p className="text-sm">
+                    {teacher.reviewCount > 0 && teacher.ratingVisible === false
+                      ? '该课程/学期评价样本不足 5 人'
+                      : '暂无该老师的评价'}
+                  </p>
+                  <p className="text-xs mt-1">
+                    {teacher.reviewCount > 0 && teacher.ratingVisible === false
+                      ? '为保护小样本匿名性，暂不展示单条评分。'
+                      : '成为第一个评价的人，审核通过可得 +20 积分！'}
+                  </p>
                 </div>
               ) : (
                 teacherReviews.map((rev) => {
@@ -228,7 +334,7 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
                           {reviewDate && (
                             <>
                               <span className="text-gray-300 text-3xs">·</span>
-                              <span className="text-2xs text-gray-400">{reviewDate}</span>
+                              <span className="text-2xs text-gray-400">评价周 {reviewDate}</span>
                             </>
                           )}
                         </div>
@@ -264,13 +370,20 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
                         </div>
                       )}
 
-                      {rev.comment && (
-                        <p className="text-xs text-gray-700 leading-relaxed whitespace-pre-wrap">
-                          {rev.comment}
-                        </p>
-                      )}
                       <div className="flex items-center justify-between pt-1 border-t border-gray-100/60 text-xs">
                         <span className="text-2xs text-gray-400">课程：{rev.courseName}</span>
+                        <div className="flex items-center gap-1">
+                          {onReportReview && (
+                            <button
+                              type="button"
+                              onClick={() => onReportReview(rev)}
+                              className="min-h-11 px-2 flex items-center gap-1 rounded-lg text-gray-400 hover:text-rose-600 transition-colors"
+                              title="举报该评价"
+                            >
+                              <Flag className="w-3.5 h-3.5" />
+                              <span className="text-2xs">举报</span>
+                            </button>
+                          )}
                         <motion.button
                           whileTap={{ scale: 0.9 }}
                           onClick={async () => { await onLikeReview(rev.id); page.reload(); }}
@@ -283,6 +396,7 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
                           <ThumbsUp className="w-3.5 h-3.5" />
                           <span>{rev.likes}</span>
                         </motion.button>
+                        </div>
                       </div>
                     </div>
                   );
@@ -298,16 +412,28 @@ export const TeacherDetailModal: React.FC<TeacherDetailModalProps> = ({
           <div className="text-xs text-gray-500">
             真实上课体验可获审核积分
           </div>
-          <motion.button
-            id="write-teacher-review-btn"
-            whileTap={{ scale: 0.94 }}
-            whileHover={{ scale: 1.02 }}
-            onClick={() => onOpenReview(teacher)}
-            className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-white rounded-xl text-sm font-semibold flex items-center gap-1.5 shadow-md shadow-indigo-100 transition-colors"
-          >
-            <MessageSquarePlus className="w-4 h-4" />
-            评价这位老师 (+20分)
-          </motion.button>
+          <div className="flex items-center gap-2">
+            {onCorrectTeacher && (
+              <motion.button
+                whileTap={{ scale: 0.94 }}
+                onClick={() => onCorrectTeacher(teacher)}
+                className="px-3 py-2.5 bg-white border border-gray-200 text-gray-700 rounded-xl text-xs font-semibold flex items-center gap-1.5 hover:bg-gray-50 transition-colors"
+              >
+                <Pencil className="w-3.5 h-3.5" />
+                资料纠错
+              </motion.button>
+            )}
+            <motion.button
+              id="write-teacher-review-btn"
+              whileTap={{ scale: 0.94 }}
+              whileHover={{ scale: 1.02 }}
+              onClick={() => onOpenReview(teacher)}
+              className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-white rounded-xl text-sm font-semibold flex items-center gap-1.5 shadow-md shadow-indigo-100 transition-colors"
+            >
+              <MessageSquarePlus className="w-4 h-4" />
+              评价这位老师 (+20分)
+            </motion.button>
+          </div>
         </div>
       </motion.div>
     </ModalFrame>

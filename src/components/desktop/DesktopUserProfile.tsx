@@ -20,6 +20,8 @@ interface DesktopUserProfileProps {
   myReviews: Review[];
   teachers: Teacher[];
   onOpenAdminAudit?: () => void;
+  onOpenGovernance?: () => void;
+  onOpenGovernanceForReview?: (review: Review) => void;
   onDeleteReview?: (reviewId: string) => void;
   onRefreshReviews?: () => Promise<void>;
   isUserAdmin?: boolean;
@@ -41,6 +43,8 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
   myReviews,
   teachers,
   onOpenAdminAudit,
+  onOpenGovernance,
+  onOpenGovernanceForReview,
   onDeleteReview,
   onRefreshReviews,
   isUserAdmin = false,
@@ -207,7 +211,7 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
                       </>
                     ) : (
                       <>
-                        <Sparkles className="w-3.5 h-3.5" />
+                        <LogIn className="w-3.5 h-3.5" />
                         <span>每日签到 (+5分)</span>
                       </>
                     )}
@@ -228,16 +232,16 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
                   </div>
                   <div>
                     <h4 className="text-sm font-bold text-gray-900">登录开启学生积分与全部特权</h4>
-                    <p className="text-xs text-gray-500 mt-0.5">新人注册即赠 100 初始积分 · 评价过审再领 20 分</p>
+                    <p className="text-xs text-gray-500 mt-0.5">预发布阶段注册暂未开放；登录后可签到、评价并领取积分</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2 pt-1">
                   <button
-                    onClick={() => onOpenAuth('register')}
+                    onClick={() => onOpenAuth('login')}
                     className="flex-1 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold shadow-xs flex items-center justify-center gap-1.5 transition-all"
                   >
-                    <Sparkles className="w-3.5 h-3.5" />
-                    <span>立即注册 (赠送 100 积分)</span>
+                    <LogIn className="w-3.5 h-3.5" />
+                    <span>登录账号</span>
                   </button>
                   <button
                     onClick={() => onOpenAuth('login')}
@@ -295,15 +299,25 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
             </div>
           </div>
 
-          {/* Identity Protection Assurance */}
+          {/* Privacy boundary and governance entry */}
           <div className="bg-white p-4 rounded-3xl border border-gray-100 shadow-2xs space-y-2 text-xs">
             <div className="flex items-center gap-2 font-bold text-gray-800">
               <ShieldAlert className="w-4 h-4 text-indigo-600" />
-              <span>学生反馈绝对隐私保护</span>
+              <span>对公众匿名，后台保留必要关联</span>
             </div>
             <p className="text-gray-500 text-2xs leading-relaxed">
-              根据系统匿名设计规范：所有发表的打分与评价，对外一律展示为「石大学子」。系统绝不记录或绑定您的真实学号与个人身份信息。
+              所有公开评价统一署名「匿名石大学子」。系统仅为学生邮箱验证、重复评价去重、审核、
+              举报与申诉保留必要账户关联；不解析或保存学号，也不承诺后台绝对无法追踪。
             </p>
+            {isLoggedIn && onOpenGovernance && (
+              <button
+                onClick={onOpenGovernance}
+                className="w-full mt-1 py-2 rounded-xl bg-gray-50 hover:bg-indigo-50 border border-gray-200 text-indigo-700 text-2xs font-bold flex items-center justify-center gap-1.5"
+              >
+                <ShieldCheck className="w-3.5 h-3.5" />
+                治理申请记录 / 注销申请
+              </button>
+            )}
           </div>
         </div>
 
@@ -462,6 +476,14 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
                           <span className="px-2 py-0.5 rounded-md text-3xs font-semibold bg-emerald-100 text-emerald-700 border border-emerald-200 flex items-center gap-1">
                             <CheckCircle2 className="w-2.5 h-2.5" /> ✓ 已公示 (+20分)
                           </span>
+                        )}
+                        {isApproved && onOpenGovernanceForReview && (
+                          <button
+                            onClick={() => onOpenGovernanceForReview(rev)}
+                            className="px-2 py-0.5 rounded-md text-3xs font-semibold text-gray-500 hover:text-rose-700 border border-gray-200 hover:border-rose-200"
+                          >
+                            申请撤回
+                          </button>
                         )}
 
                         {isRejected && (

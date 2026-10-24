@@ -8,6 +8,9 @@ import { Teacher, Review, UserPointTransaction } from './types';
 import { supabaseService } from './services/supabaseService';
 import { isSupabaseConfigured, supabaseConfiguration } from './lib/supabase';
 import { UPC_APP_NAME, UPC_APP_SHORT_NAME, UPC_SCHOOL_NAME } from './config/upc';
+import { isRegistrationOpen } from './lib/registrationGate.mjs';
+
+const registrationOpen = isRegistrationOpen(import.meta.env.VITE_REGISTRATION_OPEN);
 
 // Mobile Dedicated Views (Clean, pure Quark layout matching reference image)
 import { MobileQuarkHome } from './components/mobile/MobileQuarkHome';
@@ -32,6 +35,7 @@ const UserPointsModal = lazy(() => import('./components/UserPointsModal').then(m
 const CollegeListModal = lazy(() => import('./components/CollegeListModal').then(m => ({ default: m.CollegeListModal })));
 const AuthModal = lazy(() => import('./components/AuthModal').then(m => ({ default: m.AuthModal })));
 const AdminAuditModal = lazy(() => import('./components/AdminAuditModal').then(m => ({ default: m.AdminAuditModal })));
+const GovernanceModal = lazy(() => import('./components/GovernanceModal').then(m => ({ default: m.GovernanceModal })));
 
 // Modals are user-triggered, so the split chunk normally arrives immediately.
 // Rendering nothing avoids a flash of placeholder inside the open animation.
@@ -102,6 +106,8 @@ export default function App() {
   const [isCollegesModalOpen, setIsCollegesModalOpen] = useState<boolean>(false);
   const [colleges, setColleges] = useState<Array<{ id: string; name: string; code?: string }>>([]);
   const [isAdminAuditModalOpen, setIsAdminAuditModalOpen] = useState<boolean>(false);
+  const [isGovernanceModalOpen, setIsGovernanceModalOpen] = useState<boolean>(false);
+  const [governanceRequest, setGovernanceRequest] = useState<any | null>(null);
   const [isUserAdmin, setIsUserAdmin] = useState<boolean>(false);
   const [reviewRevision, setReviewRevision] = useState(0);
   const [pendingReviewCount, setPendingReviewCount] = useState(0);
@@ -354,8 +360,17 @@ export default function App() {
   }, [currentUser]);
 
   const handleOpenAuth = (mode: 'login' | 'register' = 'login') => {
-    setAuthModalMode(mode);
+    setAuthModalMode(!registrationOpen && mode === 'register' ? 'login' : mode);
     setIsAuthModalOpen(true);
+  };
+
+  const handleOpenGovernance = (request: any | null = null) => {
+    if (!currentUser) {
+      handleOpenAuth('login');
+      return;
+    }
+    setGovernanceRequest(request);
+    setIsGovernanceModalOpen(true);
   };
 
   const handleLogout = async () => {
@@ -622,6 +637,11 @@ export default function App() {
   return (
     <div className="min-h-screen bg-white sm:bg-slate-100/90 text-gray-900 flex flex-col items-center relative">
       {/* Top Floating Toast Notification Banner */}
+      {import.meta.env.VITE_PRE_RELEASE === 'true' && (
+        <div className="w-full bg-amber-500 text-white text-center text-2xs font-bold py-1 px-3 tracking-wide">
+          预发布站点 · 仅限受邀账号 · 注册暂未开放
+        </div>
+      )}
       <AnimatePresence>
         {appToast && (
           <motion.div
@@ -748,6 +768,13 @@ export default function App() {
                       myReviews={myReviews}
                       teachers={teachers}
                       onOpenAdminAudit={isUserAdmin ? () => setIsAdminAuditModalOpen(true) : undefined}
+                      onOpenGovernance={() => handleOpenGovernance(null)}
+                      onOpenGovernanceForReview={(review) => handleOpenGovernance({
+                        type: 'review_withdrawal',
+                        reviewId: review.id,
+                        teacherId: review.teacherId,
+                        statement: '',
+                      })}
                       onDeleteReview={handleDeleteReview}
                       onRefreshReviews={handleRefreshReviews}
                       isUserAdmin={isUserAdmin}
@@ -882,13 +909,15 @@ export default function App() {
                       <LogIn className="w-3.5 h-3.5 text-gray-500" />
                       <span>登录</span>
                     </button>
-                    <button
-                      onClick={() => handleOpenAuth('register')}
-                      className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition-all shadow-2xs"
-                    >
-                      <UserPlus className="w-3.5 h-3.5" />
-                      <span>注册 (+100积分)</span>
-                    </button>
+                    {registrationOpen && (
+                      <button
+                        onClick={() => handleOpenAuth('register')}
+                        className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition-all shadow-2xs"
+                      >
+                        <UserPlus className="w-3.5 h-3.5" />
+                        <span>注册 (+100积分)</span>
+                      </button>
+                    )}
                   </div>
                 )}
 
@@ -982,6 +1011,13 @@ export default function App() {
                     myReviews={myReviews}
                     teachers={teachers}
                     onOpenAdminAudit={isUserAdmin ? () => setIsAdminAuditModalOpen(true) : undefined}
+                    onOpenGovernance={() => handleOpenGovernance(null)}
+                      onOpenGovernanceForReview={(review) => handleOpenGovernance({
+                        type: 'review_withdrawal',
+                        reviewId: review.id,
+                        teacherId: review.teacherId,
+                        statement: '',
+                      })}
                     onDeleteReview={handleDeleteReview}
                     onRefreshReviews={handleRefreshReviews}
                     isUserAdmin={isUserAdmin}
@@ -1011,6 +1047,23 @@ export default function App() {
             pendingLikeIds={pendingLikeIds}
             refreshToken={reviewRevision}
             likesLoading={likesLoading}
+            onReportReview={(review) => handleOpenGovernance({
+              type: 'review_report',
+              reviewId: review.id,
+              teacherId: review.teacherId,
+              statement: '',
+            })}
+            onCorrectTeacher={(teacher) => handleOpenGovernance({
+              type: 'teacher_profile_correction',
+              teacherId: teacher.id,
+              statement: '',
+            })}
+            onCorrectOffering={(teacher, courseId, _termId, label) => handleOpenGovernance({
+              type: 'course_offering_correction',
+              teacherId: teacher.id,
+              courseId,
+              statement: `课程/授课关系纠错：${label}。`,
+            })}
           />
           </Suspense>
         )}
@@ -1102,6 +1155,20 @@ export default function App() {
             currentUserEmail={currentUser?.email}
             currentUserId={currentUser?.id}
           />
+          </Suspense>
+        )}
+      </AnimatePresence>
+
+      {/* 8. Private governance queue: corrections, reports, withdrawal and deletion */}
+      <AnimatePresence>
+        {isGovernanceModalOpen && (
+          <Suspense fallback={<LazyFallback />}>
+            <GovernanceModal
+              isOpen={isGovernanceModalOpen}
+              onClose={() => setIsGovernanceModalOpen(false)}
+              currentUser={currentUser}
+              initialRequest={governanceRequest}
+            />
           </Suspense>
         )}
       </AnimatePresence>

@@ -41,12 +41,20 @@ test('public review source reads the safe view instead of the base table', async
   assert.ok(!JSON.stringify(rows).includes('must-not-leak'));
 });
 
-test('public records strip identity and moderation fields, and exclude unapproved content', () => {
+test('public records strip identity, comments and exact timestamps, and exclude unapproved content', () => {
   const secret = { user_id: 'private', user_email: 'secret@example.test', reviewer_id: 'admin', reject_reason: 'private' };
-  const row = publicReview({ id: 'r', teacher_id: 't', status: 'approved', comment: 'public', ...secret, teachers: { name: 'Teacher', ...secret } });
-  assert.equal(row.comment, 'public');
+  const row = publicReview({
+    id: 'r', teacher_id: 't', status: 'approved', comment: 'should-not-be-public',
+    created_at: '2026-10-23T12:34:56Z', created_week: '2026-10-19', ...secret,
+    teachers: { name: 'Teacher', ...secret },
+  });
+  assert.equal(row.comment, undefined);
+  assert.equal(row.created_at, undefined);
+  assert.equal(row.created_week, '2026-10-19');
+  assert.equal(row.author_nickname, '匿名石大学子');
   assert.ok(!JSON.stringify(row).includes('private'));
   assert.ok(!JSON.stringify(row).includes('secret'));
+  assert.ok(!JSON.stringify(row).includes('should-not-be-public'));
   assert.equal(publicReview({ status: 'pending', comment: 'hidden' }), null);
   assert.ok(!JSON.stringify(publicTeacher({ id: 't', ...secret })).includes('private'));
 });
@@ -78,8 +86,12 @@ test('new rating payloads require six values in 4.0–5.0 with one decimal', () 
   assert.match(validateNewRatingPayload({ ...base, attendance_strictness: 5.1 }), /between 4.0 and 5.0/);
   assert.match(validateNewRatingPayload({ ...base, teaching_quality: undefined }), /required/);
 });
-test('review pagination preserves timestamp ordering and an ID tie breaker', () => {
-  const rows = [{ id: 'b', created_at: '2026-01-01T00:00:00Z' }, { id: 'a', created_at: '2026-01-01T00:00:00Z' }, { id: 'c', created_at: '2026-02-01T00:00:00Z' }];
+test('review pagination preserves week ordering and an ID tie breaker', () => {
+  const rows = [
+    { id: 'b', created_week: '2026-01-05' },
+    { id: 'a', created_week: '2026-01-05' },
+    { id: 'c', created_week: '2026-02-02' },
+  ];
   assert.deepEqual(reviewPage(rows, { page: 0, pageSize: 2 }).items.map(r => r.id), ['c', 'a']);
   assert.deepEqual(reviewPage(rows, { page: 1, pageSize: 2 }).items.map(r => r.id), ['b']);
 });

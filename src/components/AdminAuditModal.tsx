@@ -3,11 +3,11 @@ import { isSupabaseConfigured } from '../lib/supabase';
 import { Pagination, PageFeedback } from './Pagination';
 import { ModalFrame } from './ModalFrame';
 import React, { useState, useEffect } from 'react';
-import { Review, Teacher } from '../types';
+import { GovernanceRequest, Review, Teacher } from '../types';
 import { 
   X, ShieldCheck, CheckCircle2, XCircle, AlertTriangle, 
   Search, Filter, Clock, Eye, Trash2, Send, Lock, UserCheck, Sparkles, MessageSquare,
-  Users, UserPlus, Database, RefreshCw, Check, Copy, UserCog
+  Users, UserPlus, Database, RefreshCw, Check, Copy, UserCog, FileText
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { checkSensitiveContent } from '../utils/sensitiveFilter';
@@ -44,7 +44,7 @@ const PRESET_REJECTION_REASONS = [
   '涉嫌广告营销、代考代写或外部联系方式引流',
   '泄露教师或学生个人隐私（如电话、微信、住址等）',
   '评价内容与课程实际教学无关，属于无意义刷屏灌水',
-  '评语过于简略敷衍（建议补充具体考核形式与授课特点）',
+  '评分模式异常或疑似重复刷分，需人工核验',
 ];
 
 export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
@@ -60,12 +60,18 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
   currentUserId,
 }) => {
   // Navigation between Reviews Audit and Admin Users Config
-  const [activeSection, setActiveSection] = useState<'reviews' | 'admins'>('reviews');
+  const [activeSection, setActiveSection] = useState<'reviews' | 'governance' | 'admins'>('reviews');
 
   // Access is derived only from the authenticated server response.
   const [isAdminAuthenticated, setIsAdminAuthenticated] = useState(false);
   const [isCheckingAdmin, setIsCheckingAdmin] = useState(true);
   const [adminRole, setAdminRole] = useState<string>('');
+  const [needsMfa, setNeedsMfa] = useState(false);
+  const [mfaFactors, setMfaFactors] = useState<Array<{ id: string; status: string; friendly_name?: string }>>([]);
+  const [mfaEnrollment, setMfaEnrollment] = useState<{ id: string; secret: string; qr: string } | null>(null);
+  const [mfaCode, setMfaCode] = useState('');
+  const [mfaBusy, setMfaBusy] = useState(false);
+  const [mfaError, setMfaError] = useState<string | null>(null);
 
   // Status feedback toast
   const [toastNotice, setToastNotice] = useState<{ type: 'success' | 'error' | 'warning'; text: string } | null>(null);
@@ -78,11 +84,31 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
   };
 
   // Dynamic Supabase Admin List state
-  const [adminList, setAdminList] = useState<Array<{ id: string; email: string; role: string; nickname: string; is_active: boolean; created_at: string }>>([]);
+  const [adminList, setAdminList] = useState<Array<{ id: string; user_id: string; role: string; nickname: string; is_active: boolean; can_investigate_identity: boolean; created_at: string }>>([]);
   const [isLoadingAdmins, setIsLoadingAdmins] = useState<boolean>(false);
-  const [newAdminEmail, setNewAdminEmail] = useState('');
+  const [newAdminId, setNewAdminId] = useState('');
   const [newAdminNickname, setNewAdminNickname] = useState('');
   const [newAdminRole, setNewAdminRole] = useState<'super_admin' | 'admin' | 'moderator'>('admin');
+  const [newAdminInvestigator, setNewAdminInvestigator] = useState(false);
+  const [governance, setGovernance] = useState<GovernanceRequest[]>([]);
+  const [isLoadingGovernance, setIsLoadingGovernance] = useState(false);
+  const [governanceResolution, setGovernanceResolution] = useState<Record<string, string>>({});
+  const [correctionDrafts, setCorrectionDrafts] = useState<Record<string, {
+    teacherName: string;
+    teacherTitle: string;
+    teacherCollegeCode: string;
+    teacherCampus: string;
+    courseName: string;
+    courseCode: string;
+    courseCollegeCode: string;
+    offeringAction: 'remove' | 'add';
+    offeringTeacherId: string;
+    offeringCourseId: string;
+    offeringTermId: string;
+    offeringSourceId: string;
+    sourceBasis: string;
+  }>>({});
+  const [applyingCorrectionId, setApplyingCorrectionId] = useState<string | null>(null);
   const [adminActionMsg, setAdminActionMsg] = useState<{ text: string; isError?: boolean } | null>(null);
   const [copiedSql, setCopiedSql] = useState(false);
   const [copiedRlsSql, setCopiedRlsSql] = useState(false);
@@ -94,7 +120,7 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
   const [processingId, setProcessingId] = useState<string | null>(null);
 
   const [reviewRevision, setReviewRevision] = useState(0);
-  const [reviewCounts, setReviewCounts] = useState({ pending: 0, approved: 0, rejected: 0 });
+  const [reviewCounts, setReviewCounts] = useState({ pending: 0, approved: 0, rejected: 0, withdrawn: 0 });
   const reviewPage = usePagedQuery<Review>(JSON.stringify([currentUserId, currentTab, searchKeyword]),
     (page, signal) => supabaseService.getAdminReviewsPage({ status: currentTab, query: searchKeyword, page }, signal),
     isSupabaseConfigured && isOpen && isAdminAuthenticated && activeSection === 'reviews', reviewRevision);
@@ -116,12 +142,26 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
     setIsAdminAuthenticated(false);
     setIsCheckingAdmin(true);
     setAdminRole('');
+    setNeedsMfa(false);
+    setMfaEnrollment(null);
+    setMfaCode('');
+    setMfaError(null);
     setActiveSection('reviews');
-    supabaseService.checkIsAdmin().then((res) => {
+    supabaseService.checkIsAdmin().then(async (res) => {
       if (!active) return;
       setIsAdminAuthenticated(res.isAdmin);
       setAdminRole(res.role || '');
+      const requiresMfa = Boolean(res.isAdmin && res.mfaRequired !== false && !res.completedAal2);
+      setNeedsMfa(requiresMfa);
       setIsCheckingAdmin(false);
+      if (requiresMfa) {
+        try {
+          const factors = await supabaseService.listMfaFactors();
+          if (active) setMfaFactors((factors as any)?.totp || []);
+        } catch {
+          if (active) setMfaFactors([]);
+        }
+      }
     });
     return () => { active = false; };
   }, [currentUserId, currentUserEmail]);
@@ -139,43 +179,210 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
     }
   };
 
+  const handleMfaEnroll = async () => {
+    setMfaBusy(true);
+    setMfaError(null);
+    try {
+      const enrolled = await supabaseService.enrollTotp();
+      setMfaEnrollment({
+        id: enrolled.id,
+        secret: enrolled.totp.secret,
+        qr: enrolled.totp.qr_code,
+      });
+    } catch (err: any) {
+      setMfaError(err?.message || 'TOTP 绑定失败');
+    } finally {
+      setMfaBusy(false);
+    }
+  };
+
+  const handleMfaVerify = async () => {
+    const factorId = mfaEnrollment?.id || mfaFactors.find((factor) => factor.status === 'verified')?.id;
+    if (!factorId) {
+      setMfaError('请先绑定 TOTP 验证器');
+      return;
+    }
+    if (!/^\d{6}$/.test(mfaCode.trim())) {
+      setMfaError('请输入 6 位动态验证码');
+      return;
+    }
+    setMfaBusy(true);
+    setMfaError(null);
+    try {
+      await supabaseService.verifyTotp(factorId, mfaCode);
+      const res = await supabaseService.checkIsAdmin();
+      if (!res.isAdmin || !res.completedAal2) {
+        setMfaError('验证已提交，但 AAL2 会话未生效，请重新登录后再试');
+        return;
+      }
+      setNeedsMfa(false);
+      setMfaCode('');
+      setMfaEnrollment(null);
+      showToast('success', '已通过 TOTP 强验证（AAL2）');
+    } catch (err: any) {
+      setMfaError(err?.message || '验证码校验失败');
+    } finally {
+      setMfaBusy(false);
+    }
+  };
+
+  const loadGovernance = async () => {
+    setIsLoadingGovernance(true);
+    try {
+      const rows = await supabaseService.getAdminGovernanceQueue();
+      setGovernance(rows);
+      setCorrectionDrafts((prev) => {
+        const next = { ...prev };
+        for (const request of rows) {
+          if (next[request.id]) continue;
+          next[request.id] = {
+            teacherName: request.targetTeacherName || '',
+            teacherTitle: request.targetTeacherTitle || '',
+            teacherCollegeCode: request.targetTeacherCollegeCode || '',
+            teacherCampus: request.targetTeacherCampus || '',
+            courseName: request.targetCourseName || '',
+            courseCode: request.targetCourseCode || '',
+            courseCollegeCode: request.targetCourseCollegeCode || '',
+            offeringAction: 'remove',
+            offeringTeacherId: request.targetOfferingTeacherId || request.targetTeacherId || '',
+            offeringCourseId: request.targetOfferingCourseId || request.targetCourseId || '',
+            offeringTermId: request.targetOfferingTermId || '',
+            offeringSourceId: request.targetOfferingSourceId || '',
+            sourceBasis: '',
+          };
+        }
+        return next;
+      });
+    } catch (e) {
+      console.warn('Failed to load governance queue:', e);
+    } finally {
+      setIsLoadingGovernance(false);
+    }
+  };
+
   useEffect(() => {
     if (activeSection === 'admins' && isAdminAuthenticated && adminRole === 'super_admin') {
       loadAdmins();
+    }
+    if (activeSection === 'governance' && isAdminAuthenticated) {
+      loadGovernance();
     }
   }, [activeSection, isAdminAuthenticated, adminRole]);
 
   // Add new admin handler
   const handleAddAdmin = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!newAdminEmail.trim() || !newAdminEmail.includes('@')) {
-      setAdminActionMsg({ text: '请输入合法的管理员邮箱地址', isError: true });
+    if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(newAdminId.trim())) {
+      setAdminActionMsg({ text: '请输入目标账号稳定的 Auth 用户 UUID', isError: true });
       return;
     }
 
     setAdminActionMsg(null);
-    const success = await supabaseService.addAdminUser(
-      newAdminEmail.trim(),
+    const result = await supabaseService.setAdminRole(
+      newAdminId.trim(),
       newAdminRole,
-      newAdminNickname.trim() || '反馈审核员'
+      newAdminNickname.trim() || '反馈审核员',
+      newAdminInvestigator,
     );
 
-    if (success) {
-      setAdminActionMsg({ text: `已成功添加/授权管理员：${newAdminEmail.trim()}` });
-      setNewAdminEmail('');
+    if (result.success) {
+      setAdminActionMsg({ text: '管理员角色已绑定到该 Auth 用户。' });
+      setNewAdminId('');
       setNewAdminNickname('');
       loadAdmins();
     } else {
-      setAdminActionMsg({ text: '保存失败，请检查 Supabase 表 public.admin_users 是否已建表并授权。', isError: true });
+      setAdminActionMsg({ text: result.message || '保存失败，请确认目标账号已验证。', isError: true });
     }
   };
 
-  // Toggle admin active status
-  const handleToggleAdminStatus = async (email: string, currentStatus: boolean) => {
-    const success = await supabaseService.toggleAdminStatus(email, !currentStatus);
+  // Toggle admin active status by immutable Auth subject.
+  const handleToggleAdminStatus = async (userId: string, currentStatus: boolean) => {
+    const success = await supabaseService.toggleAdminStatus(userId, !currentStatus);
     if (success) {
       loadAdmins();
     }
+  };
+
+  const isCorrectionRequest = (request: GovernanceRequest) =>
+    request.requestType === 'teacher_profile_correction'
+    || request.requestType === 'course_offering_correction';
+
+  const updateCorrectionDraft = (requestId: string, patch: Partial<typeof correctionDrafts[string]>) => {
+    setCorrectionDrafts((prev) => ({
+      ...prev,
+      [requestId]: { ...prev[requestId], ...patch },
+    }));
+  };
+
+  const handleApplyCorrection = async (request: GovernanceRequest) => {
+    const draft = correctionDrafts[request.id];
+    if (!draft) return;
+    const sourceBasis = draft.sourceBasis.trim();
+    if (sourceBasis.length < 10) {
+      showToast('error', '请填写至少 10 个字的来源依据');
+      return;
+    }
+    let patch: Record<string, unknown>;
+    if (request.requestType === 'teacher_profile_correction') {
+      patch = {
+        teacher: {
+          id: request.targetTeacherId,
+          name: draft.teacherName.trim(),
+          title: draft.teacherTitle.trim() || null,
+          collegeCode: draft.teacherCollegeCode.trim(),
+          campus: draft.teacherCampus.trim() || null,
+        },
+      };
+    } else if (request.targetOfferingId) {
+      patch = {
+        offering: draft.offeringAction === 'remove'
+          ? { action: 'remove', offeringId: request.targetOfferingId }
+          : {
+            action: 'add',
+            teacherId: draft.offeringTeacherId.trim(),
+            courseId: draft.offeringCourseId.trim(),
+            termId: draft.offeringTermId.trim(),
+            sourceId: draft.offeringSourceId.trim() || null,
+          },
+      };
+    } else {
+      patch = {
+        course: {
+          id: request.targetCourseId,
+          name: draft.courseName.trim(),
+          code: draft.courseCode.trim() || null,
+          collegeCode: draft.courseCollegeCode.trim(),
+        },
+      };
+    }
+
+    setApplyingCorrectionId(request.id);
+    try {
+      const result = await supabaseService.applyGovernanceCorrection(request.id, patch, sourceBasis);
+      if (!result.success) {
+        showToast('error', result.message || '资料纠正写回失败');
+        return;
+      }
+      showToast('success', `资料已写回并完成：${(result.changedFields || []).join('、') || '已记录'}`);
+      await loadGovernance();
+    } finally {
+      setApplyingCorrectionId(null);
+    }
+  };
+
+  const handleGovernanceProcess = async (request: GovernanceRequest, status: GovernanceRequest['status']) => {
+    const resolution = (governanceResolution[request.id] || '').trim();
+    if (['accepted', 'rejected', 'completed'].includes(status) && resolution.length < 2) {
+      showToast('error', '接受、驳回或完成时必须填写处理结论');
+      return;
+    }
+    const result = await supabaseService.processGovernanceRequest(request.id, status, resolution);
+    if (!result.success) {
+      showToast('error', result.message || '处理失败');
+      return;
+    }
+    showToast('success', '治理申请状态已更新');
+    loadGovernance();
   };
 
   const copyMigrationInstructions = async (kind: 'schema' | 'rls') => {
@@ -210,6 +417,7 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
   const pendingCount = isSupabaseConfigured ? reviewCounts.pending : reviews.filter((r) => r.status === 'pending').length;
   const approvedCount = isSupabaseConfigured ? reviewCounts.approved : reviews.filter((r) => r.status === 'approved').length;
   const rejectedCount = isSupabaseConfigured ? reviewCounts.rejected : reviews.filter((r) => r.status === 'rejected').length;
+  const withdrawnCount = isSupabaseConfigured ? reviewCounts.withdrawn : reviews.filter((r) => r.status === 'withdrawn').length;
 
   // Filter reviews
   const filteredReviews = isSupabaseConfigured ? reviews : reviews.filter((r) => {
@@ -322,6 +530,22 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
                   )}
                 </button>
                 <button
+                  onClick={() => setActiveSection('governance')}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
+                    activeSection === 'governance'
+                      ? 'bg-indigo-600 text-white shadow-xs'
+                      : 'text-slate-400 hover:text-slate-200'
+                  }`}
+                >
+                  <FileText className="w-3.5 h-3.5" />
+                  <span>纠错与举报</span>
+                  {governance.filter((g) => !['completed', 'rejected', 'withdrawn'].includes(g.status)).length > 0 && (
+                    <span className="px-1.5 py-0.2 bg-amber-500 text-slate-950 rounded-full text-4xs font-black">
+                      {governance.filter((g) => !['completed', 'rejected', 'withdrawn'].includes(g.status)).length}
+                    </span>
+                  )}
+                </button>
+                <button
                   disabled={adminRole !== 'super_admin'}
                   title={adminRole === 'super_admin' ? '管理审核团队' : '仅超级管理员可管理名单'}
                   onClick={() => setActiveSection('admins')}
@@ -387,6 +611,238 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
             </div>
 
           </div>
+        ) : needsMfa ? (
+          <div className="flex-1 overflow-y-auto p-6 sm:p-10 bg-slate-50">
+            <div className="max-w-md mx-auto bg-white rounded-3xl border border-gray-200 p-6 space-y-4">
+              <div className="w-12 h-12 rounded-2xl bg-indigo-50 text-indigo-700 flex items-center justify-center">
+                <Lock className="w-6 h-6" />
+              </div>
+              <div>
+                <h4 className="text-base font-bold text-gray-900">管理员强验证（AAL2）</h4>
+                <p className="text-xs text-gray-500 mt-1 leading-relaxed">
+                  管理员敏感操作需要 TOTP 动态验证码。未完成强验证的会话不能读取私有审核队列或执行审核。
+                </p>
+              </div>
+              {mfaError && <div className="p-2.5 rounded-xl bg-rose-50 text-rose-700 text-xs">{mfaError}</div>}
+              {!mfaEnrollment && mfaFactors.some((factor) => factor.status === 'verified') ? (
+                <div className="space-y-2">
+                  <label className="text-xs font-semibold text-gray-700">输入验证器中的 6 位动态码</label>
+                  <input
+                    value={mfaCode}
+                    onChange={(e) => setMfaCode(e.target.value.replace(/\D/g, '').slice(0, 6))}
+                    inputMode="numeric"
+                    className="w-full px-3 py-2.5 rounded-xl border border-gray-200 font-mono tracking-[0.3em] text-center"
+                    placeholder="000000"
+                  />
+                </div>
+              ) : mfaEnrollment ? (
+                <div className="space-y-3 text-xs">
+                  <p className="text-gray-600">用验证器扫描二维码，或手动输入密钥，然后填写 6 位动态码。</p>
+                  <img src={mfaEnrollment.qr} alt="TOTP 绑定二维码" className="w-40 h-40 mx-auto rounded-xl border" />
+                  <div className="p-2.5 rounded-xl bg-gray-50 font-mono text-2xs break-all">{mfaEnrollment.secret}</div>
+                  <input
+                    value={mfaCode}
+                    onChange={(e) => setMfaCode(e.target.value.replace(/\D/g, '').slice(0, 6))}
+                    inputMode="numeric"
+                    className="w-full px-3 py-2.5 rounded-xl border border-gray-200 font-mono tracking-[0.3em] text-center"
+                    placeholder="000000"
+                  />
+                </div>
+              ) : (
+                <button
+                  onClick={handleMfaEnroll}
+                  disabled={mfaBusy}
+                  className="w-full py-2.5 rounded-xl bg-indigo-600 text-white text-xs font-bold disabled:opacity-50"
+                >
+                  {mfaBusy ? '正在创建 TOTP...' : '绑定 TOTP 验证器'}
+                </button>
+              )}
+              {(mfaEnrollment || mfaFactors.some((factor) => factor.status === 'verified')) && (
+                <button
+                  onClick={handleMfaVerify}
+                  disabled={mfaBusy || mfaCode.length !== 6}
+                  className="w-full py-2.5 rounded-xl bg-slate-900 text-white text-xs font-bold disabled:opacity-50"
+                >
+                  {mfaBusy ? '验证中...' : '完成强验证并进入后台'}
+                </button>
+              )}
+            </div>
+          </div>
+        ) : activeSection === 'governance' ? (
+          <div className="flex-1 overflow-y-auto p-4 sm:p-6 bg-slate-50 space-y-3">
+            <div className="flex items-center justify-between">
+              <div>
+                <h4 className="text-sm font-bold text-gray-900">私有治理队列</h4>
+                <p className="text-2xs text-gray-500 mt-0.5">教师/课程纠错、举报、撤回、注销申请。申请文字不公开。</p>
+              </div>
+              <button onClick={loadGovernance} disabled={isLoadingGovernance} className="px-3 py-1.5 rounded-xl bg-white border border-gray-200 text-xs font-bold text-indigo-700 flex items-center gap-1">
+                <RefreshCw className={`w-3.5 h-3.5 ${isLoadingGovernance ? 'animate-spin' : ''}`} /> 刷新
+              </button>
+            </div>
+            {governance.length === 0 ? (
+              <div className="py-10 text-center text-xs text-gray-400">暂无治理申请</div>
+            ) : governance.map((request) => {
+              const draft = correctionDrafts[request.id];
+              const canWriteBack = isCorrectionRequest(request)
+                && !['completed', 'rejected', 'withdrawn'].includes(request.status);
+              return (
+                <div key={request.id} className="bg-white rounded-2xl border border-gray-100 p-4 space-y-2">
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <div className="text-xs font-bold text-gray-900">
+                      {request.requestType} · {request.targetTeacherName || request.targetCourseName || request.targetReviewId || '账户申请'}
+                    </div>
+                    <span className="px-2 py-0.5 rounded-full bg-slate-100 text-slate-700 text-3xs font-bold">
+                      {request.status}
+                    </span>
+                  </div>
+                  <p className="text-2xs text-gray-700 whitespace-pre-wrap bg-gray-50 rounded-xl p-2.5">{request.statement}</p>
+                  {request.evidenceSummary && <p className="text-3xs text-gray-500">材料说明：{request.evidenceSummary}</p>}
+
+                  {canWriteBack && draft && (
+                    <div className="rounded-xl border border-indigo-100 bg-indigo-50/50 p-3 space-y-2">
+                      <div className="text-2xs font-bold text-indigo-800">
+                        实际写回资料（不会仅修改申请状态）
+                      </div>
+                      {request.requestType === 'teacher_profile_correction' ? (
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                          <input
+                            value={draft.teacherName}
+                            onChange={(e) => updateCorrectionDraft(request.id, { teacherName: e.target.value })}
+                            placeholder="教师姓名"
+                            className="px-3 py-1.5 rounded-xl border border-gray-200 text-xs"
+                          />
+                          <input
+                            value={draft.teacherTitle}
+                            onChange={(e) => updateCorrectionDraft(request.id, { teacherTitle: e.target.value })}
+                            placeholder="职称（可留空清除）"
+                            className="px-3 py-1.5 rounded-xl border border-gray-200 text-xs"
+                          />
+                          <input
+                            value={draft.teacherCollegeCode}
+                            onChange={(e) => updateCorrectionDraft(request.id, { teacherCollegeCode: e.target.value })}
+                            placeholder="学院编码，例如 upc-12"
+                            className="px-3 py-1.5 rounded-xl border border-gray-200 text-xs"
+                          />
+                          <input
+                            value={draft.teacherCampus}
+                            onChange={(e) => updateCorrectionDraft(request.id, { teacherCampus: e.target.value })}
+                            placeholder="校区（可留空清除）"
+                            className="px-3 py-1.5 rounded-xl border border-gray-200 text-xs"
+                          />
+                        </div>
+                      ) : request.targetOfferingId ? (
+                        <div className="space-y-2">
+                          <select
+                            value={draft.offeringAction}
+                            onChange={(e) => updateCorrectionDraft(request.id, {
+                              offeringAction: e.target.value as 'remove' | 'add',
+                            })}
+                            className="px-3 py-1.5 rounded-xl border border-gray-200 text-xs bg-white"
+                          >
+                            <option value="remove">删除误录授课关系</option>
+                            <option value="add">新增缺失授课关系</option>
+                          </select>
+                          {draft.offeringAction === 'remove' ? (
+                            <p className="text-3xs text-amber-800 bg-amber-50 border border-amber-200 rounded-lg p-2">
+                              删除前会检查评价与公开统计引用；存在引用时整笔拒绝，不自动删除或转移评价。
+                            </p>
+                          ) : (
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                              <input
+                                value={draft.offeringTeacherId}
+                                onChange={(e) => updateCorrectionDraft(request.id, { offeringTeacherId: e.target.value })}
+                                placeholder="教师 ID，例如 upc:..."
+                                className="px-3 py-1.5 rounded-xl border border-gray-200 text-xs"
+                              />
+                              <input
+                                value={draft.offeringCourseId}
+                                onChange={(e) => updateCorrectionDraft(request.id, { offeringCourseId: e.target.value })}
+                                placeholder="课程 UUID"
+                                className="px-3 py-1.5 rounded-xl border border-gray-200 text-xs"
+                              />
+                              <input
+                                value={draft.offeringTermId}
+                                onChange={(e) => updateCorrectionDraft(request.id, { offeringTermId: e.target.value })}
+                                placeholder="学期 UUID"
+                                className="px-3 py-1.5 rounded-xl border border-gray-200 text-xs"
+                              />
+                              <input
+                                value={draft.offeringSourceId}
+                                onChange={(e) => updateCorrectionDraft(request.id, { offeringSourceId: e.target.value })}
+                                placeholder="来源标识（可选）"
+                                className="px-3 py-1.5 rounded-xl border border-gray-200 text-xs"
+                              />
+                            </div>
+                          )}
+                        </div>
+                      ) : (
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                          <input
+                            value={draft.courseName}
+                            onChange={(e) => updateCorrectionDraft(request.id, { courseName: e.target.value })}
+                            placeholder="课程名称"
+                            className="px-3 py-1.5 rounded-xl border border-gray-200 text-xs"
+                          />
+                          <input
+                            value={draft.courseCode}
+                            onChange={(e) => updateCorrectionDraft(request.id, { courseCode: e.target.value })}
+                            placeholder="课程编码（可留空清除）"
+                            className="px-3 py-1.5 rounded-xl border border-gray-200 text-xs"
+                          />
+                          <input
+                            value={draft.courseCollegeCode}
+                            onChange={(e) => updateCorrectionDraft(request.id, { courseCollegeCode: e.target.value })}
+                            placeholder="开课学院编码"
+                            className="px-3 py-1.5 rounded-xl border border-gray-200 text-xs sm:col-span-2"
+                          />
+                        </div>
+                      )}
+                      <div className="flex flex-col sm:flex-row gap-2">
+                        <input
+                          value={draft.sourceBasis}
+                          onChange={(e) => updateCorrectionDraft(request.id, { sourceBasis: e.target.value })}
+                          placeholder="来源依据（至少 10 字，例如教务处页面已核对）"
+                          className="flex-1 px-3 py-1.5 rounded-xl border border-gray-200 text-xs"
+                        />
+                        <button
+                          onClick={() => handleApplyCorrection(request)}
+                          disabled={applyingCorrectionId === request.id}
+                          className="px-3 py-1.5 rounded-xl bg-indigo-600 text-white text-xs font-bold disabled:opacity-50 flex items-center justify-center gap-1"
+                        >
+                          {applyingCorrectionId === request.id && <RefreshCw className="w-3.5 h-3.5 animate-spin" />}
+                          写回并完成
+                        </button>
+                      </div>
+                    </div>
+                  )}
+
+                  <div className="flex flex-col sm:flex-row gap-2 sm:items-center">
+                    <input
+                      value={governanceResolution[request.id] || ''}
+                      onChange={(e) => setGovernanceResolution((prev) => ({ ...prev, [request.id]: e.target.value }))}
+                      placeholder="处理结论（驳回时必填）"
+                      className="flex-1 px-3 py-1.5 rounded-xl border border-gray-200 text-xs"
+                    />
+                    <div className="flex flex-wrap gap-1.5">
+                      {(isCorrectionRequest(request)
+                        ? ['triaged', 'in_review', 'rejected']
+                        : ['triaged', 'in_review', 'accepted', 'rejected', 'completed']
+                      ).map((status) => (
+                        <button
+                          key={status}
+                          onClick={() => handleGovernanceProcess(request, status as GovernanceRequest['status'])}
+                          className="px-2.5 py-1 rounded-lg border border-gray-200 text-3xs font-semibold hover:bg-indigo-50 hover:text-indigo-700"
+                        >
+                          {status}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                  {request.resolution && <p className="text-3xs text-emerald-700">结论：{request.resolution}</p>}
+                </div>
+              );
+            })}
+          </div>
         ) : activeSection === 'admins' && adminRole === 'super_admin' ? (
           /* Dynamic Admin Database Management Workspace */
           <div className="flex-1 flex flex-col overflow-y-auto p-6 bg-slate-50 space-y-6">
@@ -404,7 +860,7 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
                     </span>
                   </div>
                   <p className="text-xs text-gray-500 mt-0.5">
-                    添加至该表的邮箱用户在登录系统时，将自动获取管理员审核权限，无需每次输入验证码。
+                    管理员权限绑定不可变 Auth 用户 UUID；邮箱仅用于登录和联系，不再是授权键。变更或停用立即影响服务端授权。
                   </p>
                 </div>
               </div>
@@ -446,14 +902,14 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
 
               <form onSubmit={handleAddAdmin} className="grid grid-cols-1 sm:grid-cols-12 gap-3 items-end">
                 <div className="sm:col-span-5 space-y-1">
-                  <label className="text-xs font-semibold text-gray-700">管理员邮箱 (Supabase 登录账号)</label>
+                  <label className="text-xs font-semibold text-gray-700">管理员 Auth 用户 UUID（稳定主体）</label>
                   <input
-                    type="email"
+                    type="text"
                     required
-                    placeholder="如: admin@example.edu.cn"
-                    value={newAdminEmail}
-                    onChange={(e) => setNewAdminEmail(e.target.value)}
-                    className="w-full px-3 py-2 text-xs rounded-xl border border-gray-200 focus:outline-none focus:border-indigo-600 bg-gray-50 focus:bg-white"
+                    placeholder="已验证账号的 UUID，不使用可变邮箱授权"
+                    value={newAdminId}
+                    onChange={(e) => setNewAdminId(e.target.value)}
+                    className="w-full px-3 py-2 text-xs rounded-xl border border-gray-200 focus:outline-none focus:border-indigo-600 bg-gray-50 focus:bg-white font-mono"
                   />
                 </div>
 
@@ -479,6 +935,10 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
                     <option value="super_admin">站长超管 (super_admin)</option>
                     <option value="moderator">助理审核员 (moderator)</option>
                   </select>
+                  <label className="flex items-center gap-1 text-3xs text-gray-500 mt-1">
+                    <input type="checkbox" checked={newAdminInvestigator} onChange={(e) => setNewAdminInvestigator(e.target.checked)} />
+                    允许敏感身份调查
+                  </label>
                 </div>
 
                 <div className="sm:col-span-2">
@@ -512,14 +972,15 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
                   </div>
                 ) : (
                   adminList.map((adm) => (
-                    <div key={adm.id || adm.email} className="p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 hover:bg-gray-50/60 transition-colors">
+                    <div key={adm.id || adm.user_id} className="p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 hover:bg-gray-50/60 transition-colors">
                       <div className="flex items-center gap-3">
                         <div className="w-9 h-9 rounded-xl bg-indigo-50 text-indigo-700 flex items-center justify-center font-bold text-xs">
                           {adm.nickname?.slice(0, 1) || '管'}
                         </div>
                         <div>
                           <div className="flex items-center gap-2">
-                            <span className="text-xs font-bold text-gray-900">{adm.email}</span>
+                            <span className="text-xs font-bold text-gray-900">{adm.nickname}</span>
+                            <span className="text-3xs text-gray-400 font-mono">{adm.user_id.slice(0, 8)}…</span>
                             {adm.role === 'super_admin' ? (
                               <span className="px-2 py-0.5 bg-amber-100 text-amber-800 rounded-md text-3xs font-bold">
                                 👑 站长超管
@@ -544,14 +1005,15 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
                             )}
                           </div>
                           <p className="text-2xs text-gray-500 mt-0.5">
-                            身份昵称：{adm.nickname} · 登记时间：{new Date(adm.created_at || Date.now()).toLocaleDateString()}
+                            登记时间：{new Date(adm.created_at || Date.now()).toLocaleDateString()}
+                            {adm.can_investigate_identity ? ' · 可调查身份' : ''}
                           </p>
                         </div>
                       </div>
 
                       <div className="flex items-center gap-2 self-end sm:self-auto">
                         <button
-                          onClick={() => handleToggleAdminStatus(adm.email, adm.is_active)}
+                          onClick={() => handleToggleAdminStatus(adm.user_id, adm.is_active)}
                           className={`px-3 py-1 rounded-lg text-xs font-semibold transition-colors ${
                             adm.is_active 
                               ? 'bg-gray-100 hover:bg-rose-50 hover:text-rose-600 text-gray-600'
@@ -794,6 +1256,12 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
                           <div className="text-xs text-gray-400 italic">（该学生仅提交了六维客观评分，未填写文本评价）</div>
                         )}
 
+                        {(rev.riskFlags?.length || rev.riskReason) && (
+                          <div className="p-2.5 rounded-xl bg-rose-50 border border-rose-200 text-xs text-rose-800">
+                            <strong>风控待审：</strong>{rev.riskReason || rev.riskFlags?.join('、')}
+                          </div>
+                        )}
+
                         {/* Automated Sensitive Scan Alert */}
                         {!sensitiveScan.isClean && (
                           <div className="p-2.5 rounded-xl bg-amber-50 border border-amber-200 text-xs text-amber-800 flex items-start gap-2">
@@ -827,13 +1295,9 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
                       {/* Author & Action Bar */}
                       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-2">
                         <div className="text-2xs text-gray-500 flex items-center gap-2">
-                          <span>作者昵称：<strong>{rev.authorNickname}</strong></span>
-                          {rev.userEmail && (
-                            <>
-                              <span>·</span>
-                              <span className="text-gray-400 font-mono">{rev.userEmail}</span>
-                            </>
-                          )}
+                          <span>公开署名：<strong>匿名石大学子</strong></span>
+                          <span className="text-gray-300">·</span>
+                          <span>审核队列不展示评价者邮箱/账户 ID</span>
                         </div>
 
                         {/* Actions */}
@@ -891,9 +1355,15 @@ export const AdminAuditModal: React.FC<AdminAuditModalProps> = ({
                           {/* Delete */}
                           <button
                             onClick={async () => {
-                              if (confirm('确定要彻底删除此条评价吗？')) {
-                                await onDeleteReview(rev.id);
-                                  setReviewRevision(value => value + 1);
+                              const reason = prompt('删除原因（写入不可变审计日志）', '管理员删除违规评价');
+                              if (reason !== null) {
+                                const result = await supabaseService.deleteReviewAsAdmin(rev.id, reason || '管理员删除违规评价');
+                                if (!result.success) {
+                                  showToast('error', result.message || '删除失败');
+                                } else {
+                                  showToast('success', '评价已删除，审计日志已记录');
+                                }
+                                setReviewRevision(value => value + 1);
                               }
                             }}
                             className="p-1.5 text-gray-400 hover:text-rose-600 rounded-lg hover:bg-gray-100 transition-colors"

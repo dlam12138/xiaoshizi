@@ -25,6 +25,7 @@ function setup(options = {}) {
   const tables = {
     teachers: options.teachers || [],
     reviews: options.reviews || [],
+    admin_review_queue: options.adminReviews || [],
     review_feed: options.feed || [],
     terms: options.terms || [],
     courses: options.courses || [],
@@ -122,7 +123,9 @@ function setup(options = {}) {
     auth: {
       getUser: async () => options.authError
         ? { data: { user: null }, error: options.authError }
-        : { data: { user: options.user ?? { id: 'student' } }, error: null },
+        : { data: { user: options.user ?? {
+          id: 'student', email: 'student@s.upc.edu.cn', email_confirmed_at: '2026-10-01T00:00:00Z',
+        } }, error: null },
       updateUser: async payload => {
         calls.push({ name: 'updateUser', payload });
         return options.updateError
@@ -156,6 +159,13 @@ function setup(options = {}) {
     normalizeRatingRecord: null,
     readRating: null,
     RATING_VERSION: 2,
+    validateStudentEmail: (value) => {
+      const email = typeof value === 'string' ? value.trim() : '';
+      return email.includes('@') && email.split('@').length === 2
+        && email.split('@')[1].toLowerCase() === 's.upc.edu.cn'
+        ? { ok: true, email }
+        : { ok: false, email, message: '仅限 @s.upc.edu.cn 学生邮箱' };
+    },
     console: { warn() {}, error() {} },
     setTimeout,
     URLSearchParams,
@@ -214,16 +224,17 @@ test('public reviews read the safe view and non-public status is refused', async
   await assert.rejects(f.service.getReviewsPage({ status: 'pending' }), /管理员审核接口/);
 });
 
-test('admin reviews read the base table and keep moderation filters', async () => {
-  const f = setup({ reviews: [
+test('admin reviews read the controlled queue and keep moderation filters', async () => {
+  const f = setup({ adminReviews: [
     { id: 'pending-1', teacher_id: 't1', course_id: 'c1', term_id: 'term', year_term: '2026', status: 'pending', created_at: '2026-10-01', rating_version: 2 },
     { id: 'approved-1', teacher_id: 't1', course_id: 'c1', term_id: 'term', year_term: '2026', status: 'approved', created_at: '2026-10-02', rating_version: 2 },
   ] });
   const page = await f.service.getAdminReviewsPage({ status: 'pending' });
   assert.equal(page.total, 1);
   assert.equal(page.items[0].status, 'pending');
-  assert.equal(f.queries[0].table, 'reviews');
+  assert.equal(f.queries[0].table, 'admin_review_queue');
   assert.ok(f.queries[0].filters.some(([key, , value]) => key === 'status' && value === 'pending'));
+  assert.equal(Object.hasOwn(page.items[0], 'userEmail'), false);
 });
 
 test('submission requires a real term and teacher offering and writes v2 pending data', async () => {
@@ -249,7 +260,9 @@ test('submission requires a real term and teacher offering and writes v2 pending
   assert.equal(payload.likes, 0);
   assert.equal(payload.user_id, 'student');
   assert.equal(payload.course_id, 'c1');
-  assert.equal(payload.comment, null);
+  assert.equal(Object.hasOwn(payload, 'comment'), false);
+  assert.equal(payload.author_nickname, '匿名石大学子');
+  assert.equal(Object.hasOwn(payload, 'created_at'), false);
 
   const invalid = await f.service.submitReview({ ...review, id: 'review-415',
     dimensions: { ...review.dimensions, attendanceStrictness: 4.15 } });

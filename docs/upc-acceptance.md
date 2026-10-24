@@ -1,13 +1,28 @@
 # UPC 一期验收记录
 
-更新：2026-10-23。严格区分三层状态：
+更新：2026-10-24。严格区分三层状态：
 
-- **本机真实 Supabase 验收**：WSL native Supabase（Postgres/Auth/PostgREST/Studio/Mailpit）
-  上的真实数据、真实用户会话、RLS、页面闭环；**已通过**。
-- **云端独立测试项目验收**：独立云端 UPC Supabase 项目 + 外部 SMTP；**未执行**。
+- **本机真实 Supabase 旧功能基线**：WSL native Supabase 上的真实数据、会话、RLS、页面闭环；
+  **已通过**。该库已于 2026-10-24 应用五份安全补丁，数据计数保持不变；旧管理员已停用，账户/角色/MFA 保留但不再有管理员权限。
+- **隔离新策略验收**：独立 native Supabase 栈完成 79 项管理员/邮箱变更/注销/失败恢复/纠错写回、
+  26 项 SEC-G0 补充和 23 项 MFA 恢复演练；真实连接并发 12 项、桌面/移动浏览器 17 项；
+  **已通过**。不是现有库、云端或生产。
+- **WSL 目标库升级验收**：`0499...`（54321/54322）已执行五补丁并通过 post-check；
+  专用账号会话失效验收 10/10；新 Gmail 管理员已建 Auth 账户，已激活并绑定 1 个 verified TOTP。
+- **云端托管项目**：`your-project-ref`（ap-southeast-2，Postgres 17.11）已完成
+  schema/正式业务数据迁移、Auth Hook/TOTP/URL 配置和云端管理员激活；会话/角色/
+  评价/浏览器/核心生命周期/纠错专项检查通过。**外部 SMTP、完整 79 项 E2E、正式域名/TLS、
+  服务器部署未执行**。
 - **正式上线**：生产域名、TLS、备份、发布与回滚演练；**未执行**。
 
 本机环境不是云端项目，Mailpit 不代表外部 SMTP 投递，也不代表生产上线。
+
+新增 [上线前安全与治理工作包](upc-launch-security-plan.md)：Gmail-only 管理员策略、治理边界、
+教师申诉移除、资料纠错闭环和管理员 MFA 受控恢复已在代码及隔离环境完成，见
+[实施记录第 8–13 节](upc-security-delivery.md#8-2026-10-24-管理员策略纠正与治理边界收尾)
+与 [SEC-G0 矩阵](upc-sec-g0-acceptance.md)。
+WSL 目标库已升级；P1-02 运营信息已冻结，云端项目、外部 SMTP、生产发布仍未完成；
+原功能基线不自动涵盖这些新增验收。
 
 ## 本机验收证据
 
@@ -16,12 +31,12 @@
 | 本机栈健康 | `npm run supabase:status` | native；API 54321、Studio 54323、Mailpit 54324 |
 | 配置一致性 | `npm run check:supabase` | 通过；同一本机项目、缓存关闭、service_role 未进入前端 |
 | 真实数据只读核对 | `npm run check:supabase:remote -- --strict` | 通过：全局 1,555 教师身份、1,342 课程、2,946 关系、133 组同名不同编码；其中官方 profile 1,382 + `tt-` 课表身份 173（含化学扩展 7）；化学基线子集 136/129/271/16，化学扩展独立 7/12/13；`is_current=false`；campus 全空 |
-| API/Auth/RLS | `npm run test:supabase:local` | 8 组真实检查通过；`temp/supabase-local/acceptance.json` |
+| API/Auth/RLS（旧策略，本轮未重跑） | 旧 `npm run test:supabase:local` | 14 项旧 Auth + 30 项旧 DB/并发；**含已废止员工邀请，不能作为 Gmail 新策略证据** |
 | 页面 Auth | 本机 runner | 可空校区注册、未确认邮件拒绝、Mailpit 验证、recovery 改密、旧密码拒绝、session 退出、URL token 清理；`ui-auth-report.json` |
 | 页面评价闭环 | 本机 runner | 桌面 1440×1000、移动 390×844；搜索丁雪→详情→真实课程/学期→六维评价→管理员审核→+20→匿名公开→他人点赞/取消→管理员删除→评分清空；`ui-review-report.json` |
 | 当前界面 smoke | `temp/upc-browser/visual-smoke.mjs` | 等待 Framer Motion 面板 opacity=1、transform 连续 13 帧稳定；真实 panel/关闭/底部按钮均在视口内；`ui-visual-smoke.json` |
 | 截图完整性 | 5 张闭环截图 + 2 张稳定详情图 | 旧 `upc-local-*-detail.png` 是入场动画帧，不作为最终视觉证据；稳定详情见 `temp/supabase-local/current-*-detail.png` |
-| 根测试/构建 | `npm run verify:local` | 通过（schema → lint → 40 根测试 → build → 18 服务测试） |
+| 根测试/构建 | `npm run verify:local` | 通过（schema → lint → 48 根测试 → build → 18 服务测试） |
 | 解析/身份测试 | `npm run test:parser` | 12/12 通过（含课程编码、跨院证据、中心单位和批次一致性） |
 | 化学导入 JSON | `npm run import:upc -- data/upc/chemistry-2026-2027-1/import.json --validate-only` | 136 教师 / 271 教师-课程行 |
 | 多单位导入 JSON | 16 个 `timetables-2026-2027-1/units/*/import.json`（15 学院 + 训练中心） | 全部 validate-only、dry-run、正式导入、重复导入通过；新增 1,234/1,150/2,363 |
@@ -33,7 +48,7 @@
 | 无资料/真同名 smoke | `temp/upc-browser/same-name-153-smoke.mjs` | 桌面/移动：刘相无个人资料仍显示课表身份/化学工程学院/化学工程基础，无“职称待核实”；课程搜索打开王艳，数学分析/常微分方程随真实课程区分；4 张截图、无运行时错误；`same-name-153-ui-smoke.json` |
 | 现有数据保护 | 导入前备份 + 隔离库规范化内容哈希 | 原 136 教师、129 化学课程、271 化学关系、profiles/积分 ledger/reviews/likes/admin/auth 和原 16 学院行均 `equal=true`；仅输出布尔/计数；`existing-data-protection.json` |
 | 品牌统一 | `src/config/upc.ts` + 页面回归 | 小石子；首页、导航、登录、个人中心、管理台、标题/描述无“石大评教/教师评价”；`feedback-10-23-ui-report.json` |
-| 4.0–5.0 评分输入 | 前端/服务/DB 测试 + 本机直连 SQL | 六项空输入、逐项错误、4/5 失焦格式化、4.0/4.1/4.9/5.0 接受；空值/3.9/5.1/4.15 拒绝；DB 列 NUMERIC 无 typmod，4.15 不被静默舍入；旧 1–5 可读；根测试 40/40、服务 18/18 |
+| 4.0–5.0 评分输入 | 前端/服务/DB 测试 + 本机直连 SQL | 六项空输入、逐项错误、4/5 失焦格式化、4.0/4.1/4.9/5.0 接受；空值/3.9/5.1/4.15 拒绝；DB 列 NUMERIC 无 typmod，4.15 不被静默舍入；旧 1–5 可读；当前根测试 53/53、服务 18/18 |
 | 无文字提交闭环 | `temp/upc-browser/feedback-10-23-qa.mjs` | 无 textarea；空文字提交→管理员审核→六维聚合→+20 积分仅一次；删除临时评价后评分清空；`feedback-10-23-ui-report.json` |
 | 取消评分排序 | `server/data.mjs` + 桌面/移动搜索 | UI 无排序控件；查询层按 name + id；首页/缓存/部署核对不按评分；两页 20+20 无重复，重复请求稳定；`feedback-10-23-layout-report.json` |
 | 评分/雷达截图 | 1440×1000、390×844 | 首页、搜索、评分弹窗、雷达（空/有数据）共 10 张，字体/动画稳定，无横向溢出；`output/playwright/feedback-10-23-*.png` |
@@ -41,6 +56,15 @@
 | 首页文案精简 | 桌面/移动首页回归 | 删除数据来源 docs 路径句、主标题下副标题和导航品牌下重复小字；无空占位；`release-home-desktop.png` / `release-home-mobile.png` |
 | 公开目录发布包 | `data/upc/release/` | 17 学院/1 学期/1555 教师/1342 课程/2946 关系/44 批次；文件 SHA-256；不含 auth/user/review/points/imported_by/dump/联系方式，`upc-release.test.mjs` 通过 |
 | 空白检查 | `git diff --check` | 通过 |
+| SEC 隔离 E2E（Gmail 新策略） | `temp/isolated-supabase/e2e.mjs` | 79/79；Gmail 邀请/拒绝、AAL1/普通管理员隔离、邮箱变更确认落地、纠错写回、重导入保护、合成注销全链路、失败恢复；`e2e-report.md` |
+| SEC-G0 补充回归 | `temp/isolated-supabase/sec-g0.mjs` | 26/26；目录筛选/分页/空态/请求失败、评价改审/驳回/重提、举报、moderator、退出/找回、移动目录；`sec-g0-report.md` |
+| MFA 丢失恢复演练 | `temp/isolated-supabase/mfa-recovery-drill.mjs` | 23/23；service-role-only、撤会话、审计、重绑 AAL2、拒绝越权；`mfa-recovery-report.json` |
+| 旧库升级预检 | `supabase/upgrades/20261024-preflight.sql` | 旧克隆/升级前目标库：旧申诉 RPC 存在、纠错 RPC/表不存在、重复组 0、6/1555/1342/2946/1/0；只读 |
+| 现有库升级操作单 | `docs/upc-existing-db-upgrade-runbook.md` | **WSL 目标库已执行**；备份/恢复核对、post-check、计数不变 |
+| WSL 目标库会话验收 | `temp/isolated-supabase/target-session-drill.mjs` | **10/10**；专用账号撤会话后旧 AAL2 token 拒绝，重新登录+MFA 恢复；`wsl-target-session-report.json` |
+| SEC 页面桌面/移动 | `temp/upc-browser/security-ui-qa.mjs` | 8/8；上一轮；本轮未改 UI |
+| 管理员 AAL2 页面门 | `temp/upc-browser/admin-mfa-ui.mjs` | 3/3；上一轮；管理员策略以隔离 E2E 为准 |
+| SEC 旧策略证据 | `supabase/upgrades/20261024-security-governance.sql` | 备份哈希 `508f88...310c`；旧迁移/重跑成功；WSL 已应用新版五补丁 |
 
 详情截图 QA 使用 Playwright 连续帧稳定性、真实 panel bounds、OCR 和图像非空/尺寸统计完成。
 旧 `output/playwright/upc-local-desktop-detail.png`、`upc-local-mobile-detail.png` 拍在
@@ -156,27 +180,27 @@ validate-only → dry-run → 正式导入 → 重复导入；重复导入业务
 recovery 邮件设置新密码、旧密码失败、新密码成功、退出恢复 session、URL token 清理。
 页面评价在桌面和移动两个视口均完成。
 
-## 云端独立测试项目（未执行）
+## 云端托管项目（数据库已迁移，部署未执行）
 
-需要单独提供：
+2026-10-24 已对新建项目 `your-project-ref`（ap-southeast-2，Postgres 17.11）执行：
 
-1. 云端 UPC 测试 Supabase 项目的 URL、anon/publishable key；
-2. 仅服务端的 service_role key；
-3. 云端项目 SQL Editor/数据库执行权限；
-4. 外部 SMTP 或云端 Auth 邮件配置；
-5. 云端测试用户/管理员和本地回调地址。
+1. 只读确认 public/auth 为空；
+2. 应用 `supabase/cloud/upc-cloud-schema.sql`，不执行含 seed 的 `upc-init.sql`；
+3. 加载正式业务数据：17 学院 / 1 学期 / 1,555 教师 / 1,342 课程 / 2,946 关系；
+   不加载测试评价、测试账号、积分、治理申请、旧管理员；
+4. 配置 Before User Created Hook、TOTP、Site URL/redirect；
+5. 创建 `operator@example.com` 云端 `super_admin`；已完成密码、1 个 verified TOTP；
+   未迁移 `example.test`；
+6. 修复 hosted 表权限缺失（`cloud/grants.sql`）；
+7. 云端 Hook 1、会话 10/10、角色 6/6、评价提交 4/4、浏览器 5/5、核心生命周期
+   25/25、纠错 4/4；
+8. 清理合成账号/评价/welcome 数据；当前 Auth 1、管理员 1、评价 0、积分 0；
+   不可篡改审计保留 16 条测试日志。
 
-云端步骤：
-
-1. `npm run check:supabase`，确认前端与导入指向同一个云端项目；
-2. 新空库整份执行 `supabase/upc-init.sql`；已初始化库执行完整升级
-   `supabase/upgrades/20261022-course-code-identity.sql`；先记录基线并备份；
-3. validate-only → dry-run → 正式导入，并重复导入验证幂等；
-4. `npm run check:supabase:remote -- --strict`；
-5. 在云端完成注册/邮件、普通用户/作者/另一用户/管理员权限和页面闭环；
-6. 记录项目 host、备份、导入批次、截图和结果。
-
-本机 key 不能当作云端验收；本机 Mailpit 不能当作外部 SMTP 验收。
+未完成：外部 SMTP/真实邮件、正式域名/TLS、云端完整 79 项 E2E、
+服务器 Nginx/静态发布、云端备份/恢复/回滚演练。详见
+`docs/upc-cloud-migration-runbook.md` 第 9 节和
+[`upc-cloud-e2e-coverage.md`](upc-cloud-e2e-coverage.md)。
 
 ## 逐项状态
 
@@ -185,21 +209,21 @@ recovery 邮件设置新密码、旧密码失败、新密码成功、退出恢�
 | P0 基线/隔离 | 完成 | — | 旧默认连接、缓存、任务已切断 |
 | P0-2 数据资产 | 16 来源单位完成 | 云端待扩展 | 逐单位原始课表/哈希/块数已记录；含外国语 665 块 |
 | P1 品牌/去 AI | 完成 | — | AI/通知/攻略入口和依赖已移除 |
-| P2-1 初始化 | 本机通过 | 云端待执行 | 本机已初始化，禁止再次 init |
-| P2-2 学院字典 | 完成 | 云端待核对 | 16 个教学院部 + 独立教学单位 `upc-17` |
-| P2-3 教师主数据 | 本机通过 | 云端待复验 | 1,382 官方 profile + 173 `tt-` 课表身份；教师身份未解决 0；3 条课程关系为 inferred/可纠正 |
-| P2-4 课程/开课 | 本机通过 | 云端待复验 | 1,342 课程、2,946 关系；新增 23 条冲突关系排除，保留化学 1 条 |
-| P2-5 学期 | 本机通过 | 云端待确认 | `2026-2027-1`，`is_current=false` |
-| P2-6 导入 | 本机通过 | 云端待执行 | 原子、幂等、dry-run、摘要已验证 |
-| P2-7 冷启动 | 本机通过 | 云端待验收 | 真实本机数据，无 mock/默认分 |
-| P2-8 鉴权/管理员 | 本机通过 | 外部 SMTP/云端待验收 | Auth + Mailpit + 管理员审核已通过 |
-| P2-9 真实闭环 | 本机通过 | 云端待验收 | API/RLS + 桌面/移动页面均通过 |
+| P2-1 初始化 | 本机通过 | 云端已完成 | 使用 cloud bundle，不执行含 seed 的 upc-init；public 迁移前为空 |
+| P2-2 学院字典 | 完成 | 云端已完成 | 16 个教学院部 + 独立教学单位 `upc-17` |
+| P2-3 教师主数据 | 本机通过 | 云端已完成 | 1,382 官方 profile + 173 `tt-` 课表身份；教师身份未解决 0；3 条课程关系为 inferred/可纠正 |
+| P2-4 课程/开课 | 本机通过 | 云端已完成 | 1,342 课程、2,946 关系；新增 23 条冲突关系排除，保留化学 1 条 |
+| P2-5 学期 | 本机通过 | 云端已完成 | `2026-2027-1`，`is_current=false` |
+| P2-6 导入 | 本机通过 | 数据已直接迁移；导入 RPC 流程未跑 | 原子、幂等、dry-run、摘要已验证 |
+| P2-7 冷启动 | 本机通过 | 云端 public smoke 5/5 | 真实本机数据，无 mock/默认分 |
+| P2-8 鉴权/管理员 | 本机通过 | 云端管理员 MFA 1/verified；SMTP 未配 | Auth + Mailpit + 管理员审核已通过 |
+| P2-9 真实闭环 | 本机通过 | 云端评价提交 4/4；审核闭环未跑 | API/RLS + 桌面/移动页面均通过 |
 | P2-10 扩量 | 15 学院 + 训练中心 + 173 课表身份已导入 | 未开始全校 | 外国语官方 89 + 课表 11；训练中心 8 + 5 |
 | P3 课表/通知 | 一期隐藏 | 未开始 | 旧代码/入口已移除 |
-| P4-1 部署配置 | 本机可运行 | 生产未部署 | Nginx/systemd/健康检查模板已备 |
-| P4-2 构建/数据路径 | 本机通过 | 云端/生产未验收 | 前端直连本机 Supabase |
-| P4-3 端到端 | 本机页面通过 | 云端/生产未验收 | 桌面/移动真实页面证据 |
-| P4-4 权限边界 | 本机 RLS 通过 | 云端未验收 | 需在云端角色下复验 |
+| P4-1 部署配置 | 本机可运行 | 云端前端包已生成；生产未部署 | Nginx/systemd/健康检查模板已备 |
+| P4-2 构建/数据路径 | 本机通过 | 云端 DB/前端构建通过；生产未验 | 托管项目静态包已生成 |
+| P4-3 端到端 | 本机页面通过 | 云端 26 项 + 核心 25 + 纠错 4；完整 79 未跑 | 桌面/移动真实页面证据 |
+| P4-4 权限边界 | 本机 RLS 通过 | 云端角色 6/6、会话 10/10 | 完整角色矩阵未跑 |
 | P4-5 发布回滚 | 未演练 | 未演练 | 无生产备份/回滚实测 |
 | X-1 测试同步 | 完成 | — | 旧测试移除，新增本机真实 Supabase 验收 |
 | X-2 文档同步 | 完成 | — | 本机/云端/生产分层记录 |
@@ -207,9 +231,19 @@ recovery 邮件设置新密码、旧密码失败、新密码成功、退出恢�
 | X-4 可观察性 | 完成 | — | `/health`、导入摘要、错误定位 |
 | X-5 进度记录 | 完成 | — | 本文件与迁移清单 |
 
+## SEC-G0 与隔离新策略状态
+
+- **SEC-G0 隔离通过**：79 E2E + 12 并发 + 17 浏览器 + 26 补充 + 23 MFA 恢复；
+  逐项见 [`upc-sec-g0-acceptance.md`](upc-sec-g0-acceptance.md)。
+- **WSL 目标库已升级**：五份补丁已执行，post-check 通过，计数不变；专用账号会话验收
+  10/10。新 `operator@example.com` 已建 Auth 账户和 `super_admin`，已激活并绑定 1 个 verified TOTP。
+- **云端数据库/Auth 已迁移**：hook、会话、角色、评价提交和浏览器专项通过；完整 79 E2E/真实邮件/部署未完成。
+- **P1-02 运营信息冻结**：本轮不修改、不再追问；仍不是已发布政策。
+- 教师评分申诉不在当前范围，不恢复入口、类型、代录 RPC 或外部渠道。
+
 ## 明确未完成
 
-- 云端独立测试项目未创建/未执行；本机 native 栈不等于云端项目。
+- 云端托管项目 `your-project-ref` 已迁移数据库/Auth；完整 79 项 E2E、服务器部署和云端回滚未执行，不能等同于生产。
 - 外部 SMTP 投递、真实邮件域名和云端 Auth 回调未验收；Mailpit 只是本机邮件链路。
 - 教师身份未解决 0；3 条课程关系已按研究方向暂定（inferred）、6 条文法 `OTH` 冲突关系排除；
   不能把当前 1,555 个教师身份都称为官方已核实

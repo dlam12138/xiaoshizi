@@ -1,0 +1,5 @@
+purpose,type,aliyun_host,value,priority,ttl,verified_in_resend,live_dns_observed
+"DKIM","TXT","resend._domainkey.auth","p=REPLACE_WITH_PROVIDER_DKIM_PUBLIC_KEY","","Auto","true","present"
+"SPF return-path (MX)","MX","send.auth","feedback-smtp.ap-northeast-1.amazonses.com","10","Auto","true","present"
+"SPF","TXT","send.auth","v=spf1 include:amazonses.com ~all","","Auto","true","present"
+"Resend routing","CNAME","rsend.auth","send.forge.rmta.net","","Auto","true","present (target resolves to v=spf1 ip4:52.3.252.119 ip4:44.222.39.36 ip4:199.249.231.0/24 ~all)"

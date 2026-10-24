@@ -277,12 +277,12 @@ export const DesktopQuarkHome: React.FC<DesktopQuarkHomeProps> = ({
 
           {!isLoggedIn && (
             <button
-              onClick={() => onOpenAuth?.('register')}
+              onClick={() => onOpenAuth?.('login')}
               className="w-full p-4 bg-gradient-to-r from-blue-900 to-blue-800 text-white rounded-3xl text-left shadow-md shadow-blue-200/60 hover:shadow-lg transition-all"
             >
-              <span className="text-sm font-bold block">注册参与课堂反馈</span>
+              <span className="text-sm font-bold block">登录参与课堂反馈</span>
               <span className="text-2xs text-blue-100 mt-1 block">
-                新用户赠送 100 积分，可签到和评价获取更多积分
+                使用账号登录后可提交课堂反馈；预发布阶段注册暂未开放
               </span>
             </button>
           )}

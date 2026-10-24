@@ -1,3 +1,6 @@
+// Legacy pre-security acceptance runner. It creates non-student accounts and
+// writes comment text, so it is not compatible with the launch rules. Use
+// `npm run test:supabase:local` (auth + database security checks) instead.
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import { randomBytes, randomUUID } from 'node:crypto';

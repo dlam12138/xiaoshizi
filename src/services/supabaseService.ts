@@ -1,9 +1,11 @@
 import { supabase, isSupabaseConfigured } from '../lib/supabase';
 import {
   Teacher, Review, UserPointTransaction, Course, Term, PointRule, TeacherCourseOffering,
-  TeacherQuery, ReviewQuery, DataPage,
+  TeacherQuery, ReviewQuery, DataPage, GovernanceRequest, GovernanceRequestType, AdminAuditEntry,
+  OfferingRatingStat,
 } from '../types';
 import { normalizeRatingRecord, readRating, RATING_VERSION, validateNewRatingDimensions } from '../lib/ratings';
+import { validateStudentEmail } from '../lib/studentEmail';
 import { cacheApiEnabled, cacheQuery, cacheRequest } from '../lib/cacheApi';
 
 /**
@@ -21,8 +23,17 @@ const DEFAULT_ACTION_LABELS: Record<string, string> = {
 
 const TEACHER_SELECT =
   '*,colleges(id,name),course_offerings(course_id,courses(id,name),term_id,terms(id,year_term,is_current))';
-const REVIEW_SELECT = '*,courses(id,name),teachers(name)';
+const AUTHOR_REVIEW_SELECT = '*,courses(id,name),teachers(name)';
+const ADMIN_REVIEW_SELECT = '*';
+const PUBLIC_REVIEW_SELECT =
+  'id,teacher_id,course_id,term_id,year_term,attendance_strictness,grading_leniency,effort_matters,'
+  + 'workload_difficulty,approachability,teaching_quality,author_nickname,status,created_week,likes,'
+  + 'rating_version,course_name,teacher_name';
 const CAMPUS_VALUES = new Set(['唐岛湾校区', '古镇口校区', '东营科教园区']);
+const GOVERNANCE_TYPES: GovernanceRequestType[] = [
+  'teacher_profile_correction', 'course_offering_correction', 'review_report',
+  'review_withdrawal', 'account_deletion',
+];
 
 const searchPattern = (text: string) => `%${text.replace(/[\\%_*]/g, '\\$&')}%`;
 const filterValue = (value: string) => `"${value.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
@@ -132,8 +143,10 @@ function mapTeacherRow(row: any): Teacher {
     courses: Array.from(courseNames),
     courseOfferings: offerings,
     isTeachingThisTerm: isTeachingCurrentTerm,
-    overallScore: rating(row.overall_score),
+    overallScore: row.rating_public === false ? null : rating(row.overall_score),
     reviewCount: Number(row.review_count) || 0,
+    independentReviewerCount: Number(row.independent_reviewer_count) || 0,
+    ratingVisible: row.rating_public !== false && rating(row.overall_score) !== null,
     dimensions: {
       attendanceStrictness: rating(row.attendance_strictness),
       gradingLeniency: rating(row.grading_leniency),
@@ -148,7 +161,7 @@ function mapTeacherRow(row: any): Teacher {
   });
 }
 
-function mapReviewRow(row: any): Review {
+function mapReviewRow(row: any, publicProjection = false): Review {
   return normalizeRatingRecord({
     ratingVersion: decodeRatingVersion(row.rating_version),
     remote: true,
@@ -166,19 +179,57 @@ function mapReviewRow(row: any): Review {
       approachability: row.approachability,
       teachingQuality: row.teaching_quality,
     },
-    comment: row.comment || '',
-    authorNickname: row.author_nickname || '匿名石大学子',
-    userId: row.user_id,
+    // The public projection never contains comment or a real nickname.
+    comment: publicProjection ? '' : (row.comment || ''),
+    authorNickname: publicProjection ? '匿名石大学子' : (row.author_nickname || '匿名石大学子'),
+    userId: publicProjection ? undefined : row.user_id,
     isHistoricalMigrated: Boolean(row.is_historical_migrated),
     status: row.status || 'pending',
-    rejectReason: row.reject_reason || undefined,
-    rejectionReason: row.reject_reason || undefined,
-    reviewerId: row.reviewer_id || undefined,
-    reviewedAt: row.reviewed_at || undefined,
-    createdAt: row.created_at || new Date().toISOString(),
+    rejectReason: publicProjection ? undefined : (row.reject_reason || undefined),
+    rejectionReason: publicProjection ? undefined : (row.reject_reason || undefined),
+    reviewerId: publicProjection ? undefined : (row.reviewer_id || undefined),
+    reviewedAt: publicProjection ? undefined : (row.reviewed_at || undefined),
+    createdAt: publicProjection ? (row.created_week || '') : (row.created_at || new Date().toISOString()),
+    publicTime: publicProjection,
+    riskFlags: publicProjection ? undefined : (row.risk_flags || []),
+    riskReason: publicProjection ? undefined : (row.risk_reason || undefined),
+    isPublic: row.is_public !== false,
     likes: Number(row.likes) || 0,
     teacherName: row.teachers?.name || row.teacher_name,
   });
+}
+
+function mapGovernanceRow(row: any): GovernanceRequest {
+  return {
+    id: row.id,
+    requestType: row.request_type,
+    requesterKind: row.requester_kind,
+    source: row.source,
+    targetTeacherId: row.target_teacher_id,
+    targetTeacherName: row.target_teacher_name,
+    targetTeacherTitle: row.target_teacher_title,
+    targetTeacherCollegeCode: row.target_teacher_college_code,
+    targetTeacherCampus: row.target_teacher_campus,
+    targetReviewId: row.target_review_id,
+    targetCourseId: row.target_course_id,
+    targetCourseName: row.target_course_name,
+    targetCourseCode: row.target_course_code,
+    targetCourseCollegeCode: row.target_course_college_code,
+    targetOfferingId: row.target_offering_id,
+    targetOfferingTeacherId: row.target_offering_teacher_id,
+    targetOfferingCourseId: row.target_offering_course_id,
+    targetOfferingTermId: row.target_offering_term_id,
+    targetOfferingSourceId: row.target_offering_source_id,
+    statement: row.statement,
+    evidenceSummary: row.evidence_summary,
+    status: row.status,
+    resolution: row.resolution,
+    assignedAdminId: row.assigned_admin_id,
+    externalCaseRef: row.external_case_ref,
+    createdAt: row.created_at,
+    updatedAt: row.updated_at,
+    resolvedAt: row.resolved_at,
+  };
 }
 
 function requireDatabase() {
@@ -232,6 +283,27 @@ export const supabaseService = {
     return data ? mapTeacherRow(data) : null;
   },
 
+  async getOfferingRatingStats(teacherId: string): Promise<OfferingRatingStat[]> {
+    const db = requireDatabase();
+    const { data, error } = await db.from('offering_rating_stats')
+      .select('teacher_id,course_id,term_id,review_count,independent_reviewer_count,rating_public,overall_score,courses(name),terms(year_term)')
+      .eq('teacher_id', teacherId)
+      .order('term_id', { ascending: false })
+      .order('course_id', { ascending: true });
+    if (error) throw new Error(error.message);
+    return (data || []).map((row: any) => ({
+      teacherId: row.teacher_id,
+      courseId: row.course_id,
+      termId: row.term_id,
+      courseName: row.courses?.name || '',
+      yearTerm: row.terms?.year_term || '',
+      reviewCount: Number(row.review_count) || 0,
+      independentReviewerCount: Number(row.independent_reviewer_count) || 0,
+      ratingPublic: Boolean(row.rating_public),
+      overallScore: row.rating_public ? readRating(row.overall_score) : null,
+    }));
+  },
+
   async getTeachers(): Promise<Teacher[]> {
     const db = requireDatabase();
     const rows = await readAllRows((from, to) =>
@@ -247,14 +319,14 @@ export const supabaseService = {
     const db = requireDatabase();
     const rows = await readAllRows((from, to) => {
       let query = db.from('reviews')
-        .select(REVIEW_SELECT, { count: from === 0 ? 'exact' : undefined })
+        .select(AUTHOR_REVIEW_SELECT, { count: from === 0 ? 'exact' : undefined })
         .order('created_at', { ascending: false })
         .order('id', { ascending: true });
       if (teacherId) query = query.eq('teacher_id', teacherId);
       if (scope?.userId) query = query.eq('user_id', scope.userId);
       return query.range(from, to);
     });
-    return rows.map(mapReviewRow);
+    return rows.map((row) => mapReviewRow(row, false));
   },
 
   async getReviewsPage(options: ReviewQuery, signal?: AbortSignal): Promise<DataPage<Review>> {
@@ -267,53 +339,56 @@ export const supabaseService = {
         `/teachers/${encodeURIComponent(options.teacherId)}/reviews?${query}`,
         { signal },
       );
-      return { items: data.items.map(mapReviewRow), total: data.total };
+      return { items: data.items.map((row) => mapReviewRow(row, true)), total: data.total };
     }
     const db = requireDatabase();
     const { from, to } = pageBounds(options.page, options.pageSize);
-    // review_feed exposes only approved, non-identifying columns. The base table
-    // is reserved for the author and active reviewers.
-    let query = db.from('review_feed').select('*', { count: 'exact' });
+    // review_feed exposes only approved, non-identifying columns and only when
+    // the offering has reached the independent-reviewer threshold. Ordering by
+    // the week bucket avoids leaking the exact submission order through a
+    // hidden timestamp.
+    let query = db.from('review_feed').select(PUBLIC_REVIEW_SELECT, { count: 'exact' });
     if (options.teacherId) query = query.eq('teacher_id', options.teacherId);
-    query = query.order('created_at', { ascending: false }).order('id', { ascending: true }).range(from, to);
+    query = query.order('created_week', { ascending: false }).order('id', { ascending: true }).range(from, to);
     if (signal) query = query.abortSignal(signal);
     const { data, error, count } = await query;
     if (error) throw new Error(error.message);
-    return { items: (data || []).map(mapReviewRow), total: count ?? 0 };
+    return { items: (data || []).map((row) => mapReviewRow(row, true)), total: count ?? 0 };
   },
 
   async getAdminReviewsPage(options: ReviewQuery, signal?: AbortSignal): Promise<DataPage<Review>> {
     const db = requireDatabase();
     const { from, to } = pageBounds(options.page, options.pageSize);
     const text = options.query?.trim();
-    let query = db.from('reviews').select(
-      REVIEW_SELECT + (text ? ',teacher_match:teachers(),course_match:courses()' : ''),
-      { count: 'exact' },
-    );
+    // Reviewers use a controlled view: no applicant user_id/email, but enough
+    // moderation fields to approve, reject or inspect risk flags.
+    let query = db.from('admin_review_queue').select(ADMIN_REVIEW_SELECT, { count: 'exact' });
     if (options.teacherId) query = query.eq('teacher_id', options.teacherId);
-    if (options.userId) query = query.eq('user_id', options.userId);
     if (options.status && options.status !== 'all') query = query.eq('status', options.status);
     if (text) {
       const pattern = searchPattern(text);
-      query = query.ilike('teacher_match.name', pattern).ilike('course_match.name', pattern)
-        .or(`comment.ilike.${filterValue(pattern)},author_nickname.ilike.${filterValue(pattern)},teacher_match.not.is.null,course_match.not.is.null`);
+      query = query.or(
+        `comment.ilike.${filterValue(pattern)},teacher_name.ilike.${filterValue(pattern)},course_name.ilike.${filterValue(pattern)}`,
+      );
     }
     query = query.order('created_at', { ascending: false }).order('id', { ascending: true }).range(from, to);
     if (signal) query = query.abortSignal(signal);
     const { data, error, count } = await query;
     if (error) throw new Error(error.message);
-    return { items: (data || []).map(mapReviewRow), total: count ?? 0 };
+    return { items: (data || []).map((row) => mapReviewRow(row, false)), total: count ?? 0 };
   },
 
-  async getReviewCounts(): Promise<Record<Review['status'], number>> {
+  async getReviewCounts(): Promise<Record<'pending' | 'approved' | 'rejected' | 'withdrawn', number>> {
     const db = requireDatabase();
-    const statuses = ['pending', 'approved', 'rejected'] as const;
-    const results = await Promise.all(
-      statuses.map((status) =>
-        db.from('reviews').select('id', { count: 'exact', head: true }).eq('status', status)),
-    );
-    for (const result of results) if (result.error) throw new Error(result.error.message);
-    return Object.fromEntries(statuses.map((status, i) => [status, results[i].count ?? 0])) as Record<Review['status'], number>;
+    const { data, error } = await db.rpc('get_admin_review_counts');
+    if (error) throw new Error(error.message);
+    const source = data && typeof data === 'object' ? data : {};
+    return {
+      pending: Number(source.pending) || 0,
+      approved: Number(source.approved) || 0,
+      rejected: Number(source.rejected) || 0,
+      withdrawn: Number(source.withdrawn) || 0,
+    };
   },
 
   async getCoursesPage(text: string, signal?: AbortSignal): Promise<DataPage<Course>> {
@@ -392,6 +467,15 @@ export const supabaseService = {
     try {
       const sessionUser = (await supabase.auth.getUser())?.data?.user;
       if (!sessionUser) return { success: false, message: '提交未通过安全校验：请先登录后再提交反馈。' };
+      if (!sessionUser.email_confirmed_at) {
+        return { success: false, message: '请先完成学生邮箱验证后再提交评价。' };
+      }
+      if (!validateStudentEmail(sessionUser.email).ok) {
+        return { success: false, message: '仅已验证的中国石油大学（华东）学生邮箱账户可提交评价。' };
+      }
+      if (review.comment?.trim()) {
+        return { success: false, message: '文字评论未开放，请仅提交六维评分。' };
+      }
 
       if (!review.teacherId) return { success: false, message: '提交失败：请选择教师。' };
       if (!review.courseId) return { success: false, message: '提交失败：请选择该教师的开课课程。' };
@@ -406,10 +490,6 @@ export const supabaseService = {
         return { success: false, message: '提交失败：所选课程不在该教师的开课关系中，请刷新后重新选择。' };
       }
 
-      const validCreatedAt = review.createdAt && !Number.isNaN(Date.parse(review.createdAt))
-        ? new Date(review.createdAt).toISOString()
-        : new Date().toISOString();
-
       const insertPayload: any = {
         rating_version: RATING_VERSION,
         id: review.id,
@@ -423,19 +503,19 @@ export const supabaseService = {
         workload_difficulty: review.dimensions.workloadDifficulty,
         approachability: review.dimensions.approachability,
         teaching_quality: review.dimensions.teachingQuality,
-        comment: review.comment?.trim() || null,
-        author_nickname: review.authorNickname,
+        author_nickname: '匿名石大学子',
         user_id: sessionUser.id,
         is_historical_migrated: false,
         status: 'pending',
-        created_at: validCreatedAt,
         likes: 0,
       };
 
       const { error } = await supabase.from('reviews').insert(insertPayload);
       if (error) {
         let userMsg = error.message;
-        if (error.code === '42501' || userMsg.includes('row-level security')) {
+        if (error.code === '23505' || userMsg.includes('reviews_business_key_uidx')) {
+          userMsg = '你已评价过该教师×课程×学期；请到个人中心修改原评价，不能重复提交。';
+        } else if (error.code === '42501' || userMsg.includes('row-level security')) {
           userMsg = '数据库安全策略拒绝了写入，请确认已登录且评价字段符合当前规则。';
         }
         return { success: false, message: userMsg };
@@ -451,6 +531,12 @@ export const supabaseService = {
     try {
       const sessionUser = (await supabase.auth.getUser())?.data?.user;
       if (!sessionUser) return { success: false, message: '请先登录' };
+      if (!sessionUser.email_confirmed_at || !validateStudentEmail(sessionUser.email).ok) {
+        return { success: false, message: '仅已验证学生邮箱账户可修改评价。' };
+      }
+      if (review.comment?.trim()) {
+        return { success: false, message: '文字评论未开放，请仅提交六维评分。' };
+      }
 
       if (!review.courseId) return { success: false, message: '请选择该教师的开课课程' };
       const ratingError = validateNewRatingDimensions(review.dimensions);
@@ -472,7 +558,6 @@ export const supabaseService = {
         workload_difficulty: review.dimensions.workloadDifficulty,
         approachability: review.dimensions.approachability,
         teaching_quality: review.dimensions.teachingQuality,
-        comment: review.comment?.trim() || null,
         status: 'pending',
         reject_reason: null,
       };
@@ -484,7 +569,15 @@ export const supabaseService = {
       } else {
         const { error } = await supabase.from('reviews').update(updatePayload)
           .eq('id', review.id).eq('user_id', sessionUser.id);
-        if (error) return { success: false, message: error.message };
+        if (error) {
+          const duplicate = error.code === '23505' || error.message.includes('reviews_business_key_uidx');
+          return {
+            success: false,
+            message: duplicate
+              ? '修改后的教师×课程×学期与另一条评价重复，请保留一条并先撤回另一条。'
+              : error.message,
+          };
+        }
       }
       return { success: true };
     } catch (err: any) {
@@ -581,6 +674,28 @@ export const supabaseService = {
     }
   },
 
+  async deleteReviewAsAdmin(reviewId: string, reason: string): Promise<{ success: boolean; message?: string }> {
+    if (!isSupabaseConfigured || !supabase) return { success: false, message: '数据库未连接' };
+    try {
+      if (cacheApiEnabled) {
+        await cacheRequest(`/reviews/${encodeURIComponent(reviewId)}/admin-delete`, {
+          method: 'POST', authenticated: true, body: { reason },
+        });
+        return { success: true };
+      }
+      const { data, error } = await supabase.rpc('delete_review_as_admin', {
+        p_review_id: reviewId,
+        p_reason: reason || '管理员删除违规评价',
+      });
+      if (error || data?.success !== true) {
+        return { success: false, message: error?.message || '删除未完成' };
+      }
+      return { success: true };
+    } catch (err: any) {
+      return { success: false, message: err?.message || '删除结果无法确认' };
+    }
+  },
+
   subscribeToReviews(onChange: () => void): { unsubscribe: () => void } {
     if (!isSupabaseConfigured || !supabase) return { unsubscribe: () => {} };
     try {
@@ -661,8 +776,10 @@ export const supabaseService = {
 
   async signUp(email: string, password: string, metadata?: { nickname?: string; college?: string; campus?: string }) {
     const db = requireDatabase();
+    const checked = validateStudentEmail(email);
+    if (!checked.ok) throw new Error(checked.message || '仅限学校邮箱注册');
     const { data, error } = await db.auth.signUp({
-      email,
+      email: checked.email,
       password,
       options: {
         data: {
@@ -705,6 +822,21 @@ export const supabaseService = {
     } catch {
       // Ignore history restrictions; the recovery session is already consumed.
     }
+    return data;
+  },
+
+  /**
+   * Email changes are a separate Auth path. The browser mirrors the server
+   * domain rule, but the auth.users trigger is the authoritative guard.
+   */
+  async updateStudentEmail(email: string) {
+    const db = requireDatabase();
+    const checked = validateStudentEmail(email);
+    if (!checked.ok) throw new Error(checked.message || '仅允许学生邮箱');
+    const user = (await db.auth.getUser())?.data?.user;
+    if (!user) throw new Error('请先登录');
+    const { data, error } = await db.auth.updateUser({ email: checked.email });
+    if (error) throw error;
     return data;
   },
 
@@ -755,47 +887,209 @@ export const supabaseService = {
     return supabase.auth.onAuthStateChange(callback);
   },
 
-  async checkIsAdmin(_email?: string, _userMetadata?: any): Promise<{ isAdmin: boolean; role?: string; nickname?: string }> {
+  async checkIsAdmin(_email?: string, _userMetadata?: any): Promise<{
+    isAdmin: boolean; role?: string; nickname?: string;
+    canInvestigateIdentity?: boolean; completedAal2?: boolean; mfaRequired?: boolean;
+  }> {
     if (!isSupabaseConfigured || !supabase) return { isAdmin: false };
     try {
       const { data, error } = await supabase.rpc('get_my_admin_status');
       if (error || data?.is_admin !== true || !['super_admin', 'admin', 'moderator'].includes(data.role)) {
         return { isAdmin: false };
       }
-      return { isAdmin: true, role: data.role, nickname: data.nickname || undefined };
+      return {
+        isAdmin: true,
+        role: data.role,
+        nickname: data.nickname || undefined,
+        canInvestigateIdentity: Boolean(data.can_investigate_identity),
+        completedAal2: Boolean(data.completed_aal2),
+        mfaRequired: data.mfa_required !== false,
+      };
     } catch {
       return { isAdmin: false };
     }
   },
 
-  async getAdminList(): Promise<Array<{ id: string; email: string; role: string; nickname: string; is_active: boolean; created_at: string }>> {
+  async listMfaFactors() {
     const db = requireDatabase();
-    const { data, error } = await db.from('admin_users').select('*').order('created_at', { ascending: false });
+    const { data, error } = await db.auth.mfa.listFactors();
+    if (error) throw error;
+    return data;
+  },
+
+  async enrollTotp() {
+    const db = requireDatabase();
+    const { data, error } = await db.auth.mfa.enroll({
+      factorType: 'totp',
+      friendlyName: '小石子管理员',
+    });
+    if (error) throw error;
+    return data;
+  },
+
+  async verifyTotp(factorId: string, code: string) {
+    const db = requireDatabase();
+    const challenge = await db.auth.mfa.challenge({ factorId });
+    if (challenge.error) throw challenge.error;
+    const verified = await db.auth.mfa.verify({
+      factorId,
+      challengeId: challenge.data.id,
+      code: code.trim(),
+    });
+    if (verified.error) throw verified.error;
+    return verified.data;
+  },
+
+  async getAdminList(): Promise<Array<{
+    id: string; user_id: string; role: string; nickname: string; is_active: boolean;
+    can_investigate_identity: boolean; created_at: string;
+  }>> {
+    const db = requireDatabase();
+    const { data, error } = await db.from('admin_directory').select('*').order('created_at', { ascending: false });
     if (error) throw new Error(error.message);
     return data || [];
   },
 
-  async addAdminUser(email: string, role: string = 'admin', nickname: string = '反馈审核员'): Promise<boolean> {
-    if (!email || !isSupabaseConfigured || !supabase || !['super_admin', 'admin', 'moderator'].includes(role)) return false;
+  async setAdminRole(
+    userId: string, role: string = 'admin', nickname: string = '反馈审核员',
+    canInvestigateIdentity = false,
+  ): Promise<{ success: boolean; message?: string }> {
+    if (!userId || !isSupabaseConfigured || !supabase || !['super_admin', 'admin', 'moderator'].includes(role)) {
+      return { success: false, message: '参数不完整' };
+    }
     try {
-      const { data, error } = await supabase.from('admin_users').upsert({
-        email: email.trim().toLowerCase(), role, nickname, is_active: true,
-      }, { onConflict: 'email' }).select('id');
-      return !error && data?.length === 1;
+      const { data, error } = await supabase.rpc('set_admin_role', {
+        p_user_id: userId,
+        p_role: role,
+        p_nickname: nickname,
+        p_can_investigate_identity: canInvestigateIdentity,
+      });
+      if (error || data?.success !== true) return { success: false, message: error?.message || '保存失败' };
+      return { success: true };
+    } catch (err: any) {
+      return { success: false, message: err?.message || '保存失败' };
+    }
+  },
+
+  async toggleAdminStatus(userId: string, isActive: boolean): Promise<boolean> {
+    if (!userId || !isSupabaseConfigured || !supabase) return false;
+    try {
+      const { data, error } = await supabase.rpc('set_admin_active', {
+        p_user_id: userId,
+        p_active: isActive,
+      });
+      return !error && data?.success === true;
     } catch {
       return false;
     }
   },
 
-  async toggleAdminStatus(email: string, isActive: boolean): Promise<boolean> {
-    if (!email || !isSupabaseConfigured || !supabase) return false;
+  async createAdminInvite(email: string, hours = 24): Promise<{ success: boolean; message?: string }> {
+    const db = requireDatabase();
+    const { data, error } = await db.rpc('create_admin_invite', {
+      p_email: email.trim().toLowerCase(),
+      p_hours: hours,
+    });
+    if (error || data?.success !== true) return { success: false, message: error?.message || '邀请创建失败' };
+    return { success: true };
+  },
+
+  async getAdminAuditLog(limit = 100): Promise<AdminAuditEntry[]> {
+    const db = requireDatabase();
+    const { data, error } = await db.rpc('get_admin_audit_log', { p_limit: limit });
+    if (error) throw new Error(error.message);
+    return Array.isArray(data) ? data : [];
+  },
+
+  async getMyGovernanceRequests(): Promise<GovernanceRequest[]> {
+    const db = requireDatabase();
+    const { data, error } = await db.from('governance_requests').select('*')
+      .order('created_at', { ascending: false });
+    if (error) throw new Error(error.message);
+    return (data || []).map(mapGovernanceRow);
+  },
+
+  async submitGovernanceRequest(input: {
+    type: GovernanceRequestType;
+    statement: string;
+    targetTeacherId?: string | null;
+    targetReviewId?: string | null;
+    targetCourseId?: string | null;
+    targetOfferingId?: string | null;
+    evidenceSummary?: string | null;
+  }): Promise<{ success: boolean; id?: string; message?: string }> {
+    if (!isSupabaseConfigured || !supabase) return { success: false, message: '数据库未连接' };
+    if (!GOVERNANCE_TYPES.includes(input.type)) return { success: false, message: '不支持的申请类型' };
+    if (input.statement.trim().length < 10) return { success: false, message: '申请说明至少 10 个字符' };
     try {
-      const { data, error } = await supabase.from('admin_users').update({ is_active: isActive })
-        .eq('email', email.trim().toLowerCase()).select('id');
-      return !error && data?.length === 1;
-    } catch {
-      return false;
+      const { data, error } = await supabase.rpc('submit_governance_request', {
+        p_type: input.type,
+        p_statement: input.statement.trim(),
+        p_target_teacher_id: input.targetTeacherId || null,
+        p_target_review_id: input.targetReviewId || null,
+        p_target_course_id: input.targetCourseId || null,
+        p_target_offering_id: input.targetOfferingId || null,
+        p_evidence_summary: input.evidenceSummary?.trim() || null,
+      });
+      if (error || data?.success !== true) return { success: false, message: error?.message || '提交失败' };
+      return { success: true, id: data.id };
+    } catch (err: any) {
+      return { success: false, message: err?.message || '提交失败' };
     }
+  },
+
+  async withdrawGovernanceRequest(requestId: string): Promise<{ success: boolean; message?: string }> {
+    const db = requireDatabase();
+    const { data, error } = await db.rpc('withdraw_governance_request', { p_request_id: requestId });
+    if (error || data?.success !== true) return { success: false, message: error?.message || '撤回失败' };
+    return { success: true };
+  },
+
+  async getAdminGovernanceQueue(): Promise<GovernanceRequest[]> {
+    const db = requireDatabase();
+    const { data, error } = await db.from('admin_governance_queue').select('*')
+      .order('created_at', { ascending: false });
+    if (error) throw new Error(error.message);
+    return (data || []).map(mapGovernanceRow);
+  },
+
+  async processGovernanceRequest(
+    requestId: string, status: GovernanceRequest['status'], resolution: string,
+  ): Promise<{ success: boolean; message?: string }> {
+    const db = requireDatabase();
+    const { data, error } = await db.rpc('process_governance_request', {
+      p_request_id: requestId,
+      p_status: status,
+      p_resolution: resolution,
+    });
+    if (error || data?.success !== true) return { success: false, message: error?.message || '处理失败' };
+    return { success: true };
+  },
+
+  async applyGovernanceCorrection(
+    requestId: string, patch: Record<string, unknown>, sourceBasis: string,
+  ): Promise<{
+    success: boolean;
+    message?: string;
+    changedFields?: string[];
+    targetType?: string;
+    before?: Record<string, unknown>;
+    after?: Record<string, unknown>;
+  }> {
+    const db = requireDatabase();
+    const { data, error } = await db.rpc('apply_governance_correction', {
+      p_request_id: requestId,
+      p_patch: patch,
+      p_source_basis: sourceBasis,
+    });
+    if (error || data?.success !== true) return { success: false, message: error?.message || '写回失败' };
+    return {
+      success: true,
+      changedFields: Array.isArray(data.changed_fields) ? data.changed_fields : [],
+      targetType: data.target_type,
+      before: data.before,
+      after: data.after,
+    };
   },
 
   async getMyLikedReviewIds(): Promise<string[]> {

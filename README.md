@@ -38,6 +38,23 @@ node --env-file=.env.import.local scripts/export-upc-release.mjs
 详见 `data/upc/release/README.md`。云端独立测试项目、外部 SMTP、生产域名、TLS、
 发布与回滚演练仍未验收。
 
+新增 [上线前安全与治理计划](docs/upc-launch-security-plan.md)：管理员改为运营者手动指定的
+Gmail 私有邀请，学生邮箱、匿名、唯一性、限频、资料纠错写回、治理边界、5 人门槛、TOTP/AAL2
+和 MFA 受控恢复已在独立 Supabase 栈完成 79 项 E2E、12 项真实连接并发、17 项桌面/移动浏览器、
+26 项 SEC-G0 和 23 项 MFA 演练；根测试 53/53。SEC-G0 已按有限清单在隔离环境通过，
+见 [SEC-G0 矩阵](docs/upc-sec-g0-acceptance.md)。教师评分申诉已移除，历史记录保留；
+**WSL 原库已于 2026-10-24 应用五份安全补丁并通过 post-check，数据计数不变**；
+旧管理员已停用，新 `operator@example.com` 已建 Auth 账户和 `super_admin`，已激活并绑定 1 个 verified TOTP。
+详见 [实施记录第 8–13 节](docs/upc-security-delivery.md#8-2026-10-24-管理员策略纠正与治理边界收尾)
+和 [托管迁移操作单](docs/upc-cloud-migration-runbook.md)。
+托管项目 `your-project-ref` 已完成 schema/正式数据/Auth 迁移和专项检查；
+云端 `operator` 已完成密码和 TOTP；核心评价/审核/积分/点赞/撤回/纠错已在云端通过。
+外部 SMTP、完整 79 项云端 E2E 和生产部署未完成。详见
+[云端覆盖对照](docs/upc-cloud-e2e-coverage.md)、
+[Resend 准备](docs/upc-email-resend.md)、
+[服务器发布准备](docs/upc-server-deployment-prep.md)。
+隔离/WSL 验收不代表云端生产上线已通过。
+
 缺个人资料不再阻塞展示：183 个原未解决来源条目中，153 个无 profile/名单无 URL/
 集体页条目已按“课表来源学院+规范姓名”保留为 `tt-`，加上此前 20 个共 **173 个**；
 当前教师身份未解决 **0 条**。其中 5 组同院页面经邮箱/电话/履历核实为同一人，
@@ -156,6 +173,7 @@ npm run verify:local
 - `supabase/`：SQL 源文件、学院种子、生成的完整初始化文件。
 - `data/upc/`：可核对的学院/校区数据与导入格式说明；不含真实个人数据。
 - `docs/upc-local-supabase.md`：本机 native Supabase 的启停、入口、真实数据与验收证据。
+- `docs/upc-launch-security-plan.md`：上线前安全与治理差距审计、P0/P1 实施顺序、迁移和验收要求。
 - `docs/`：迁移基线、数据缺口、品牌口径、部署与验收记录；`docs/legacy/` 为旧校历史资料。
 - `scripts/build-schema.mjs`：生成 `supabase/upc-init.sql` 和根目录 `supabase_schema.sql`。
 - `scripts/import-upc-data.mjs`：调用原子导入 RPC。

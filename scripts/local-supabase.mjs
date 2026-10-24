@@ -34,8 +34,32 @@ export function runLocalCli(args) {
   return runLocalProcess('exec "$HOME/.local/bin/supabase" "$@"', ['--workdir', linuxRoot, ...args]);
 }
 
+function currentStackId() {
+  try {
+    const state = JSON.parse(runLocalCli(['stack', 'list', '--output-format', 'json']));
+    const stacks = (state.stacks || []).filter((stack) => stack.project_root === linuxRoot);
+    return (stacks.find((stack) => stack.owner === 'reachable') || stacks[0])?.id || null;
+  } catch {
+    return null;
+  }
+}
+
+function localState() {
+  try {
+    const direct = JSON.parse(runLocalCli(['status', '--output-format', 'json']));
+    // Some CLI versions return an empty env object for the compatibility
+    // status command. The stack status command contains the actual endpoints.
+    if (direct.env && Object.keys(direct.env).length) return direct;
+  } catch {
+    // Fall through to the managed-stack status command.
+  }
+  const stackId = currentStackId();
+  if (!stackId) throw new Error('No managed local Supabase stack was found.');
+  return JSON.parse(runLocalCli(['stack', 'status', '--stack-id', stackId, '--output-format', 'json']));
+}
+
 function runLocalSqlFile(file) {
-  const state = JSON.parse(runLocalCli(['status', '--output-format', 'json']));
+  const state = localState();
   if (state.runtime !== 'native' || !['127.0.0.1', 'localhost', '[::1]'].includes(new URL(state.env.DB_URL).hostname)) {
     throw new Error('SQL initialization is restricted to the local native stack.');
   }
@@ -84,7 +108,11 @@ function writeConfiguration(state) {
 
 function main() {
   if (action === 'start') {
-    const state = JSON.parse(runLocalCli(['start', '--runtime', 'native', '--eager', '--output-format', 'json']));
+    const stackId = currentStackId();
+    const args = stackId
+      ? ['stack', 'start', '--stack-id', stackId, '--runtime', 'native', '--eager', '--output-format', 'json']
+      : ['start', '--runtime', 'native', '--eager', '--output-format', 'json'];
+    const state = JSON.parse(runLocalCli(args));
     writeConfiguration(state);
     console.log(JSON.stringify({
       ok: true, runtime: state.runtime, api: state.env.API_URL,
@@ -99,10 +127,11 @@ function main() {
     runLocalCli(['db', 'query', '--local', "NOTIFY pgrst, 'reload schema'"]);
     console.log('Local UPC database initialized.');
   } else if (action === 'stop') {
-    runLocalCli(['stop']);
+    const stackId = currentStackId();
+    runLocalCli(stackId ? ['stack', 'stop', '--stack-id', stackId] : ['stop']);
     console.log('Local Supabase stopped; database data is preserved.');
   } else if (action === 'status') {
-    const state = JSON.parse(runLocalCli(['status', '--output-format', 'json']));
+    const state = localState();
     console.log(JSON.stringify({ runtime: state.runtime, api: state.env.API_URL,
       studio: state.env.STUDIO_URL, mail: state.env.MAILPIT_URL }, null, 2));
   } else {

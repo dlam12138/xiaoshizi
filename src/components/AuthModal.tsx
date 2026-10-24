@@ -16,7 +16,9 @@ import {
   ShieldCheck
 } from 'lucide-react';
 import { supabaseService } from '../services/supabaseService';
+import { STUDENT_EMAIL_HINT, validateStudentEmail } from '../lib/studentEmail';
 import { UPC_APP_NAME, UPC_CAMPUSES, UPC_COLLEGES } from '../config/upc';
+import { isRegistrationOpen, registrationUiState } from '../lib/registrationGate.mjs';
 
 type AuthMode = 'login' | 'register' | 'forgot' | 'recovery';
 
@@ -33,7 +35,14 @@ export const AuthModal: React.FC<AuthModalProps> = ({
   onAuthSuccess,
   initialMode = 'login',
 }) => {
-  const [mode, setMode] = useState<AuthMode>(initialMode);
+  const registrationOpen = isRegistrationOpen(import.meta.env.VITE_REGISTRATION_OPEN);
+  const registrationState = registrationUiState({
+    registrationOpen,
+    preRelease: import.meta.env.VITE_PRE_RELEASE === 'true',
+  });
+  const [mode, setMode] = useState<AuthMode>(
+    !registrationOpen && initialMode === 'register' ? 'login' : initialMode,
+  );
   
   // Form fields
   const [email, setEmail] = useState('');
@@ -53,7 +62,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
 
   useEffect(() => {
     if (!isOpen) return;
-    setMode(initialMode);
+    setMode(!registrationOpen && initialMode === 'register' ? 'login' : initialMode);
     setErrorMsg(null);
     setSuccessMsg(null);
     if (initialMode === 'recovery') {
@@ -65,7 +74,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
         if (user?.email) setRecoveryEmail(user.email);
       }).catch(() => {});
     }
-  }, [isOpen, initialMode]);
+  }, [isOpen, initialMode, registrationOpen]);
 
   if (!isOpen) return null;
 
@@ -80,7 +89,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({
     setCanResendVerification(false);
   };
 
-  const handleSwitchMode = (newMode: AuthMode) => {
+  const handleSwitchMode = (nextMode: AuthMode) => {
+    const newMode = !registrationOpen && nextMode === 'register' ? 'login' : nextMode;
     if (mode === 'recovery' && newMode !== 'recovery') {
       // Do not leave a recovery-authenticated session behind when the user
       // abandons the reset and returns to normal login.
@@ -162,12 +172,20 @@ export const AuthModal: React.FC<AuthModalProps> = ({
       return;
     }
 
-    // Email validation
+    // Register uses the exact student domain. Login/recovery keep accepting an
+    // existing legacy account so it can sign in and request deletion.
     const cleanEmail = email.trim();
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!cleanEmail || !emailRegex.test(cleanEmail)) {
-      setErrorMsg('请输入合规有效的邮箱地址（如常用邮箱或学校邮箱）');
+      setErrorMsg('请输入完整有效的邮箱地址');
       return;
+    }
+    if (mode === 'register') {
+      const checked = validateStudentEmail(cleanEmail);
+      if (!checked.ok) {
+        setErrorMsg(checked.message || STUDENT_EMAIL_HINT);
+        return;
+      }
     }
 
     // Forgot password flow
@@ -197,6 +215,10 @@ export const AuthModal: React.FC<AuthModalProps> = ({
     }
 
     if (mode === 'register') {
+      if (!registrationState.canRegister) {
+        setErrorMsg(registrationState.banner || '注册暂未开放');
+        return;
+      }
       if (password !== confirmPassword) {
         setErrorMsg('两次输入的密码不一致');
         return;
@@ -281,7 +303,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({
       } else if (message.includes('email rate limit exceeded') || message.includes('over_email_send_rate_limit')) {
         message = '邮件发信过于频繁（系统每小时限制），请稍后再试或联系系统管理员';
       } else if (message.includes('email_address_invalid') || message.includes('Unable to validate email address')) {
-        message = '请输入真实有效的邮箱地址（如常用邮箱或学校邮箱）';
+        message = '请输入真实有效的学校邮箱地址';
+      } else if (message.includes('s.upc.edu.cn') || message.includes('学生邮箱')) {
+        message = STUDENT_EMAIL_HINT;
       } else if (message.includes('Password should be at least') || message.includes('weak_password')) {
         message = '密码强度不足，长度必须至少 6 个字符';
       } else if (message.includes('Failed to fetch') || message.includes('NetworkError')) {
@@ -363,17 +387,24 @@ export const AuthModal: React.FC<AuthModalProps> = ({
               >
                 密码登录
               </button>
-              <button
-                type="button"
-                onClick={() => handleSwitchMode('register')}
-                className={`py-2 rounded-xl transition-all ${
-                  mode === 'register' 
-                    ? 'bg-white text-indigo-700 shadow-2xs' 
-                    : 'text-gray-600 hover:text-gray-900'
-                }`}
-              >
-                邮箱注册 (+100积分)
-              </button>
+              {registrationState.showRegisterTab ? (
+                <button
+                  type="button"
+                  onClick={() => handleSwitchMode('register')}
+                  className={`py-2 rounded-xl transition-all ${
+                    mode === 'register'
+                      ? 'bg-white text-indigo-700 shadow-2xs'
+                      : 'text-gray-600 hover:text-gray-900'
+                  }`}
+                >
+                  邮箱注册 (+100积分)
+                </button>
+              ) : (
+                <span className="py-2 rounded-xl text-gray-500 flex items-center justify-center gap-1">
+                  <Lock className="w-3 h-3" />
+                  注册暂未开放
+                </span>
+              )}
             </div>
           )}
         </div>
@@ -381,6 +412,12 @@ export const AuthModal: React.FC<AuthModalProps> = ({
         {/* Form Body */}
         <div className="flex-1 overflow-y-auto p-5 space-y-4">
           {/* Top Banner for Register */}
+          {!registrationState.canRegister && (
+            <div className="p-3 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 text-xs flex items-start gap-2.5">
+              <Lock className="w-4 h-4 shrink-0 mt-0.5" />
+              <span>{registrationState.banner}</span>
+            </div>
+          )}
           {mode === 'register' && (
             <div className="p-3 bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl border border-amber-200/80 text-amber-900 text-xs flex items-start gap-2.5 shadow-2xs">
               <Sparkles className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
@@ -464,14 +501,14 @@ export const AuthModal: React.FC<AuthModalProps> = ({
             {mode !== 'recovery' && (
             <div>
               <label className="block text-xs font-semibold text-gray-700 mb-1.5">
-                常用邮箱 / 学校邮箱
+                {mode === 'register' ? '学校学生邮箱（@s.upc.edu.cn）' : '邮箱'}
               </label>
               <div className="relative">
                 <Mail className="w-4 h-4 text-gray-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
                 <input
                   type="email"
                   required
-                  placeholder="如: 常用邮箱或学校邮箱"
+                  placeholder={mode === 'register' ? '学号或别名@s.upc.edu.cn' : '注册邮箱'}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="w-full pl-10 pr-3.5 py-2.5 bg-gray-50 border border-gray-200 rounded-2xl text-xs sm:text-sm text-gray-900 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500/30 focus:border-indigo-500 transition-all"
@@ -637,7 +674,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
           {/* Privacy Note */}
           <div className="pt-2 flex items-center justify-center gap-1.5 text-2xs text-gray-400">
             <ShieldCheck className="w-3.5 h-3.5 text-indigo-500" />
-            <span>数据直连 Supabase 安全鉴权 · 评价完全匿名保护</span>
+            <span>仅限 @s.upc.edu.cn 学生邮箱 · 评价对公众匿名，后台保留必要账户关联</span>
           </div>
         </div>
       </motion.div>

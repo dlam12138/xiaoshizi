@@ -109,6 +109,13 @@ dry-run 不留下业务数据或批次。
 ## 本机 Auth 与验收
 
 - 邮箱注册/确认、登录、recovery 邮件由本机 GoTrue + Mailpit 验证。
+- **WSL 原库已于 2026-10-24 应用五份安全补丁**（`0499...`，54321/54322）；
+  Gmail 管理员、治理边界、教师申诉移除、纠错闭环、会话绑定和 MFA 受控恢复均已生效。
+  升级前备份和 post-check 见 `docs/upc-security-delivery.md` 第 11 节。
+- 新 `operator@example.com` 已建 Auth 账户和 `super_admin` 行；已完成密码设置和 TOTP 绑定。旧
+  `example.test` 管理员已停用；账户/角色/MFA 保留，迁移不得恢复权限。
+- 隔离栈仍保留 79 E2E、26 SEC-G0、23 MFA、12 并发、17 浏览器证据；目标库另行完成
+  10 项会话失效/恢复验收。
 - Mailpit 只证明本机邮件链路，**不代表外部 SMTP 投递验收**。
 - 三测试账号和页面测试账号只在 `.env.test.local`，不得输出或提交。
 - 本机验收覆盖：
@@ -125,8 +132,19 @@ dry-run 不留下业务数据或批次。
 
 证据：
 
-- `temp/supabase-local/acceptance.json`
-- `temp/supabase-local/ui-auth-report.json`
+- `temp/isolated-supabase/e2e-report.md`（Gmail 管理员、邮箱变更落地、纠错写回、重导入保护、
+  合成注销、失败恢复，79 项）
+- `temp/isolated-supabase/concurrency-report.json`（真实独立连接唯一性/限频/奖励/门槛，12 项）
+- `temp/isolated-supabase/ui-flow-report.json`（桌面/移动注册、搜索、详情、签到、评分、审核、
+  积分、点赞、纠错，17 项）
+- `temp/isolated-supabase/sec-g0-report.json`（目录筛选/分页/空/失败、评价改审/举报、
+  moderator、退出/找回、移动目录，26 项）
+- `temp/isolated-supabase/mfa-recovery-report.json`（受控 MFA 恢复/审计/重绑，23 项）
+- `temp/supabase-local/auth-security-report.md`（旧策略真实 Hook/邮箱变更，仅历史）
+- `temp/supabase-local/security-db-report.md`（旧策略真实连接并发/AAL2/治理，仅历史）
+- `temp/supabase-local/security-ui-report.md`（桌面/移动安全页面）
+- `temp/supabase-local/security-admin-ui-report.json`（管理员 AAL2 门）
+- `temp/supabase-local/acceptance.json`（安全治理前的历史记录）
 - `temp/supabase-local/ui-review-report.json`
 - `temp/supabase-local/ui-visual-smoke.json`
 - `temp/supabase-local/new-college-ui-smoke.json`
@@ -149,7 +167,7 @@ dry-run 不留下业务数据或批次。
 ```powershell
 npm run check:supabase
 npm run check:supabase:remote -- --strict
-npm run test:supabase:local
+npm run test:supabase:local   # 真实 Auth + DB/并发；原 8 组脚本已弃用
 npm run data:all-colleges
 npm run test:parser
 npm run verify:local
@@ -161,8 +179,9 @@ npm run verify:local
 ## 与云端/生产的关系
 
 - **本机真实 Supabase 验收：已通过**。
-- **云端独立测试项目：尚未验收**。需要云端项目 URL、anon key、service_role key
-  和 SQL 执行权限；本机键不能当作云端验收。
+- **云端托管项目：数据库/Auth 已迁移**（`your-project-ref`）；完成 schema、正式数据、
+  Auth Hook/TOTP/URL、云端管理员和专项会话/角色/评价/浏览器检查。外部 SMTP、完整 79 项
+  E2E、正式域名/TLS、服务器部署仍未完成；本机键不能当作云端生产验收。
 - **生产上线：尚未执行**，没有生产写入、部署、备份恢复或回滚演练。
 
 本机 native 栈只用于开发与验收；没有公网暴露、TLS、外部 SMTP 或生产备份承诺。
