@@ -58,7 +58,7 @@ function localState() {
   return JSON.parse(runLocalCli(['stack', 'status', '--stack-id', stackId, '--output-format', 'json']));
 }
 
-function runLocalSqlFile(file) {
+export function runLocalSqlFile(file) {
   const state = localState();
   if (state.runtime !== 'native' || !['127.0.0.1', 'localhost', '[::1]'].includes(new URL(state.env.DB_URL).hostname)) {
     throw new Error('SQL initialization is restricted to the local native stack.');

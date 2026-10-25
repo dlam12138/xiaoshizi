@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { randomBytes, randomUUID } from 'node:crypto';
-import { spawnSync } from 'node:child_process';
+import { runLocalSqlFile } from './local-supabase.mjs';
 import { parse } from 'dotenv';
 import { createClient } from '@supabase/supabase-js';
 import { ensureAdminAal2 } from './mfa-test-helpers.mjs';
@@ -39,21 +39,7 @@ function runSql(sql) {
   const file = path.join('temp', 'security-test.sql');
   fs.mkdirSync('temp', { recursive: true });
   fs.writeFileSync(file, sql);
-  const script = `set -e
-ROOT=/path/to/xiaoshizi
-STACK=$(ls -d /home/operator/.supabase/stacks/0499* | head -1)
-PW=$(python3 - "$STACK/state.json" <<'PY'
-import json,sys
-print(json.load(open(sys.argv[1]))["credentials"]["databasePassword"])
-PY
-)
-PSQL=$(ls /home/operator/.supabase/cache/stack/slim-services/postgres/*/linux-*/*/bin/psql | head -1)
-PGPASSWORD="$PW" "$PSQL" "postgresql://postgres@127.0.0.1:54322/postgres" -v ON_ERROR_STOP=1 --file "$ROOT/temp/security-test.sql"`;
-  const result = spawnSync('wsl.exe', ['-d', 'Ubuntu-24.04', '--exec', 'sh', '-lc', script], {
-    encoding: 'utf8', windowsHide: true, maxBuffer: 4 * 1024 * 1024,
-  });
-  if (result.status !== 0) throw new Error(`Local SQL failed: ${result.stderr || result.stdout}`);
-  return result.stdout;
+  return runLocalSqlFile(file.split(path.sep).join('/'));
 }
 
 async function createStudent(label) {
