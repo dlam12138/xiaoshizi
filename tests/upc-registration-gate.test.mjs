@@ -30,3 +30,25 @@ test('open gate has no regression banner', () => {
   assert.equal(state.banner, null);
   assert.equal(state.headerBadge, null);
 });
+
+test('public launch keeps the register tab and shows no notice', () => {
+  const state = registrationUiState({ registrationOpen: true, preRelease: false });
+  assert.equal(state.showRegisterTab, true);
+  assert.equal(state.headerBadge, null);
+  assert.equal(state.banner, null);
+});
+
+test('open registration during pre-release drops the pre-release badge', () => {
+  const state = registrationUiState({ registrationOpen: true, preRelease: true });
+  assert.equal(state.canRegister, true);
+  assert.equal(state.headerBadge, null);
+});
+
+test('closed registration never reports an open tab', () => {
+  for (const preRelease of [true, false]) {
+    const state = registrationUiState({ registrationOpen: false, preRelease });
+    assert.equal(state.showRegisterTab, false);
+    assert.equal(state.canRegister, false);
+    assert.ok(state.banner);
+  }
+});
