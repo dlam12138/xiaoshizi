@@ -1,13 +1,14 @@
 # 历史脱敏、依赖修复与 Turnstile 人机验证
 
-更新：2026-10-25。运营者授权重写历史脱敏，并提供 Turnstile site key。本文记录实际执行与证据。
+更新：2026-10-25。本文保留历史执行记录；其中早先的“残留 0 处”只对应当时扫描范围，
+不包含提交作者元数据，也不代表之后的提交没有重新引入信息。最新复核见[公开准备审计](upc-publication-audit.md)。
 
 ## 1. 历史重写脱敏
 
 | 项 | 结果 |
 | --- | --- |
 | 工具 | `git filter-repo 2.47.0` |
-| 替换 | `207422055+dlam12138@users.noreply.github.com` → `operator@example.com`；`/home/operator` → `%USERPROFILE%` |
+| 替换 | [redacted operator email] → `operator@example.com`；[redacted local user path] → `%USERPROFILE%` |
 | 提交数 | 50 个全部重写 |
 | 历史残留 | 邮箱 0 处、本机路径 0 处、私钥标记 0 处 |
 | 主分支 | `98594c8`（重写后） |

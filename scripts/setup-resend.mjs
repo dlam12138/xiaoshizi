@@ -9,8 +9,9 @@ const privateDir = path.join(root, 'temp/cloud');
 const envFile = path.join(privateDir, 'cloud.env');
 const env = fs.existsSync(envFile) ? parse(fs.readFileSync(envFile, 'utf8')) : {};
 const get = (name) => process.env[name] || env[name] || '';
-const domainName = 'auth.example.org';
-const projectRef = 'your-project-ref';
+const domainName = get('RESEND_DOMAIN');
+const projectRef = get('SUPABASE_PROJECT_REF');
+const zoneName = get('DNS_ZONE');
 const action = process.argv[2] || 'plan';
 const setupKey = get('RESEND_SETUP_API_KEY');
 const sendingKey = get('RESEND_API_KEY');
@@ -50,10 +51,15 @@ async function findDomain() {
 
 async function main() {
   if (!['plan', 'domain', 'smtp'].includes(action)) throw new Error('Usage: node scripts/setup-resend.mjs [plan|domain|smtp]');
-  if (get('SUPABASE_PROJECT_REF') && get('SUPABASE_PROJECT_REF') !== projectRef) throw new Error('Unexpected project reference.');
   if (action === 'plan') {
     console.log(JSON.stringify({ domain: domainName, projectRef, setupKeyPresent: Boolean(setupKey), sendingKeyPresent: Boolean(sendingKey), supabaseTokenPresent: Boolean(token), testEmailSent: false }));
     return;
+  }
+  if (!domainName || !projectRef || !zoneName) {
+    throw new Error('Set RESEND_DOMAIN, SUPABASE_PROJECT_REF and DNS_ZONE for your own deployment.');
+  }
+  if (domainName !== `auth.${zoneName}`) {
+    throw new Error('RESEND_DOMAIN must be the auth subdomain of DNS_ZONE.');
   }
   if (!setupKey) throw new Error('Save RESEND_SETUP_API_KEY in temp/cloud/cloud.env first (Full access, setup only).');
   let domain = await findDomain();
@@ -65,7 +71,7 @@ async function main() {
     const quote = (value) => `"${String(value ?? '').replaceAll('"', '""')}"`;
     const rows = [['purpose', 'type', 'aliyun_host', 'value', 'priority', 'ttl', 'status'], ...(domain.records || []).map((r) => {
       const rawName = r.name.replace(/\.$/, '');
-      const host = rawName.endsWith('.example.org') ? rawName.slice(0, -'.example.org'.length) : rawName;
+      const host = rawName.endsWith(`.${zoneName}`) ? rawName.slice(0, -`.${zoneName}`.length) : rawName;
       if (host !== 'auth' && !host.endsWith('.auth')) throw new Error('DNS record is outside the intended auth subdomain.');
       return [r.record, r.type, host, r.value, r.priority, 600, r.status];
     })];

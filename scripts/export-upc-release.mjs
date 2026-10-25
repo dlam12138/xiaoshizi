@@ -119,7 +119,7 @@ const manifest = {
   },
   rebuild: {
     schema: 'supabase/upc-init.sql',
-    import: 'npm run data:import -- data/upc/chemistry-2026-2027-1/import.json',
+    import: 'npm run import:upc -- data/upc/chemistry-2026-2027-1/import.json',
   },
 };
 write('manifest.json', manifest);

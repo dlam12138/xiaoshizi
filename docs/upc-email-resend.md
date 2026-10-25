@@ -1,5 +1,9 @@
 # UPC Resend 域名发信（已配置，待邮件头/链接验收）
 
+> 这是已脱敏的历史记录。域名、IP、DNS 公钥和服务商记录 ID 已改为占位符；不能直接当作 DNS 配置。
+> `scripts/setup-resend.mjs` 需要通过受控环境配置 `RESEND_DOMAIN`、`DNS_ZONE` 和 `SUPABASE_PROJECT_REF`，
+> 例如 `auth.example.org`、`example.org`、自己的项目引用；脚本不会再默认操作作者的项目。
+
 更新：2026-10-24。目标发信子域 `auth.example.org`，拟定发件人
 `noreply@auth.example.org`。**当前已有 Resend 域名、SMTP 和单封投递证据；
 本文不编造 DKIM/SPF/MX 值，也不代表邮件已验收。**

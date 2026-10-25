@@ -12,7 +12,7 @@
 | `courses.json` | 1342 门课程 |
 | `course-offerings.json` | 2946 条教师—课程—学期关系 |
 | `import-batches.json` | 44 个导入批次的公开数据集名、校验和、时间与计数；不包含 `imported_by` |
-| `manifest.json` | 计数、文件 SHA-256、来源与排除范围；校验和对应仓库当前版本的 LF 文件字节 |
+| `manifest.json` | 计数、JSON 内容 SHA-256、来源与排除范围；校验前先解析 JSON，再以 `JSON.stringify` 序列化，不包含缩进或换行 |
 
 教师身份包括 1382 个公开官方 profile 身份和 173 个 `tt-` 课表来源身份；不代表全校完整教师库。
 所有批次 `is_current=false`，因为尚未取得正式校历确认。
@@ -50,7 +50,8 @@ npm run import:upc -- data/upc/chemistry-2026-2027-1/import.json
 需先初始化空库，并配置 `.env.import.local`。以上只导入化学基线；多学院与身份补充批次的
 执行顺序见[数据导入说明](../../../docs/upc-data-import.md)。脚本每次接收一个明确的 JSON 路径，
 不支持直接传入 `units/*/import.json` 通配符。原始文件生成时间见清单的 `generatedAt`，
-SHA-256 已按当前仓库文件重新核对，不代表数据库实时状态。
+SHA-256 按导出脚本的 JSON 内容口径核对，不代表数据库实时状态。可运行
+`node --test tests/upc-release.test.mjs` 校验内容、计数与关联完整性；不要直接用文件字节的哈希比较清单。
 
 完整来源、原始课表哈希、解析/映射/缺口见：
 

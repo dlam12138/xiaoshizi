@@ -1,2 +1,2 @@
-# Keep public-directory SHA-256 checks reproducible on Windows and Unix.
+# Keep public-directory JSON line endings consistent on Windows and Unix.
 data/upc/release/*.json text eol=lf

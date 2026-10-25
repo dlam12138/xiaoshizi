@@ -8,7 +8,7 @@
 
 - 服务器：`203.0.113.10`（阿里云东京；运营者描述 2C/2G Ubuntu）
 - SSH：22 开放，`OpenSSH_9.6p1 Ubuntu-3ubuntu13.20`
-- 已试用户 `root`、`ubuntu`、`ecs-user`、`admin`、`operator`、`dlam12138`：
+- 已试用户 `root`、`ubuntu`、`ecs-user`、`admin`、`operator`、`operator`：
   全部 `Permission denied (publickey,password)`
 - 因此无法读取内存/磁盘/进程/监听端口/Nginx 配置/证书/example-site 进程
 - HTTP 80 开放，返回 Nginx 1.24 默认页；**443 未监听**

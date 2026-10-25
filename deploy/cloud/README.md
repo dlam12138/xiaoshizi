@@ -1,5 +1,7 @@
 # UPC 云端前端部署包（准备稿）
 
+> 本目录的域名与 IP 均为示例占位符，必须替换为自己的部署配置，不能用于访问原作者服务器。
+
 本轮不发布服务器、不修改正式域名或 example-site。目标：`upc.example.org` 限制访问预发布站。
 完整方案见 `docs/upc-preview-deployment.md`。
 

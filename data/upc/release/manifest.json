@@ -12,12 +12,12 @@
     "importBatches": 44
   },
   "files": {
-    "colleges.json": "36caaf2c53312f09e9563b063ac1db066bf1242fa66c73b596103fc8681b2a74",
-    "terms.json": "bdd79bfcbfa4861158ffc34dd9a1a4adc3b41915bc67f8d8aac2263c1c6b7046",
-    "teachers.json": "6f41d8a2c6dd243e4c7df314d2f8d442cbe38e0ef96636f2ba44ae185c19e58a",
-    "courses.json": "e1f6122cb68681b66e0456ad0243bd82ec9f95675d59ad49f25753093260e3a4",
-    "course-offerings.json": "7f888fb2fefdce26adb0e01ee81d9009b67e037c06eef91ea03d951cee7a529a",
-    "import-batches.json": "103911ca7e529af7aafee8108d9f2eb2102fd11a29221909a23f7721a898f811"
+    "colleges.json": "0b1a39da2d5e9177cc887cb8672e2dda13cb6b9a6455421bf9df6ab531c6bcbd",
+    "terms.json": "83d150abd0dcae0a82daf76d6e76559efef843a0f3151496df6e49c98cb888c5",
+    "teachers.json": "66eb4b420c4e59cf78fa1c406d4e9d0eba6db3c6267b4ec2b8259c7214092d33",
+    "courses.json": "ade7be56eea1653c2e282318090e50c4076c8ba0de5ed2554131fa4aa55d742a",
+    "course-offerings.json": "f840ab05c93b1908d0a9d2b63507a5cb131df94b0a4aed4109e9bcab4acb9fba",
+    "import-batches.json": "ea6ed3080413cb9582a93330b13480bcf9aefa76624b788b30d5732b5b94cf9c"
   },
   "sourceData": [
     "data/upc/colleges.json",

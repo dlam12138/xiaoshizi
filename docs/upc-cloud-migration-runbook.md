@@ -230,7 +230,7 @@ npm run build
 
 ### 9.1 项目与迁移前状态
 
-- 项目：`your-project-ref`，名称 `dlam12138's Project`；
+- 项目：`your-project-ref`，名称 `operator's Project`；
 - 区域 `ap-southeast-2`；数据库版本 `17.11.0.003`；状态 `ACTIVE_HEALTHY`；
 - 迁移前只读检查：`public` 关系 0、`auth.users=0`、`auth.identities=0`、
   `mfa_factors=0`、`auth.sessions=0`；无 `private` schema、无纠错 RPC。
