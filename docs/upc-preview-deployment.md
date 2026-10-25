@@ -51,7 +51,7 @@
    ```
    本机公钥内容：
    `%USERPROFILE%\.ssh\id_rsa.pub`
-  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCb9uc0TbFhlufoi6KZ5QorMrqDBHAnDADBsZvZvQaXxESDycHD/TSADGp0dmPj3GsnnipHqyY9XQhTKtL1AQO2oicLfPwvWeAVml1OBSg6eQG9l2JljAV5F+okZBgObU6c6t7wLIi4IJnoMFn/Nf//cZ6d/ojzFzFvbuEn1LLTXWBINerS/d7N8i64dtHGxmEZXjFjdVy/BPtMXgXB91mtGC8QAzCztDCLDtsRmbNA2v/XlqIQ/hSnxfWxYFrB8mg1UQpHlBMXf74Rw7FS7fIAXEFM1Bb/ojHgFG6mnIM3OtMl9EI6gq24yvCw2ibj9gMw/Tn3cnvUEeQwRiEnHVNJyRkEh7rVG8uf2Xjm+8fN2faVi+wU4ZmEbB8tyKmni1kXwMc8FmMbU5tMy/U5qT9tQJOycFDNZ96d/4oVg5a+0qEktiSZiAQslaMjbAKfCQ2gOOG7anOQsGjfbjVgSQyR8b35Ee2xIRVDSwiBnaBcPnJULLqEm6joxARoeavDtk8= operator@example.com
+  <在此粘贴你的 SSH 公钥>
 5. 确认 `/etc/ssh/sshd_config` 含：
    ```
    PubkeyAuthentication yes
