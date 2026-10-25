@@ -3,6 +3,9 @@ import { UserPointTransaction, Review, Teacher } from '../../types';
 import { Coins, MessageSquare, Info, History, ArrowUpRight, CheckCircle2, ShieldAlert, Sparkles, User, Database, LogIn, LogOut, Lock, Clock, XCircle, ShieldCheck, Trash2, Edit3, AlertCircle, RotateCw } from 'lucide-react';
 import { isSupabaseConfigured } from '../../lib/supabase';
 import { isRating, RATING_DIMENSIONS } from '../../lib/ratings';
+import { isRegistrationOpen } from '../../lib/registrationGate.mjs';
+
+const registrationOpen = isRegistrationOpen(import.meta.env.VITE_REGISTRATION_OPEN);
 
 interface DesktopUserProfileProps {
   currentUser: any | null;
@@ -232,16 +235,16 @@ export const DesktopUserProfile: React.FC<DesktopUserProfileProps> = ({
                   </div>
                   <div>
                     <h4 className="text-sm font-bold text-gray-900">登录开启学生积分与全部特权</h4>
-                    <p className="text-xs text-gray-500 mt-0.5">预发布阶段注册暂未开放；登录后可签到、评价并领取积分</p>
+                    <p className="text-xs text-gray-500 mt-0.5">{registrationOpen ? '新人注册即赠 100 初始积分 · 评价过审再领 20 分' : '预发布阶段注册暂未开放；登录后可签到、评价并领取积分'}</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2 pt-1">
                   <button
-                    onClick={() => onOpenAuth('login')}
+                    onClick={() => onOpenAuth(registrationOpen ? 'register' : 'login')}
                     className="flex-1 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold shadow-xs flex items-center justify-center gap-1.5 transition-all"
                   >
-                    <LogIn className="w-3.5 h-3.5" />
-                    <span>登录账号</span>
+                    {registrationOpen ? <Sparkles className="w-3.5 h-3.5" /> : <LogIn className="w-3.5 h-3.5" />}
+                    <span>{registrationOpen ? '立即注册 (赠送 100 积分)' : '登录账号'}</span>
                   </button>
                   <button
                     onClick={() => onOpenAuth('login')}

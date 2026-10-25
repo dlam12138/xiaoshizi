@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { UserPointTransaction, Review, Teacher } from '../../types';
 import { Coins, MessageSquare, Info, History, CheckCircle2, ArrowUpRight, Database, LogIn, LogOut, Lock, User, Sparkles, Clock, XCircle, ShieldCheck, AlertCircle, Edit3, Trash2, RotateCw, Star } from 'lucide-react';
 import { isSupabaseConfigured } from '../../lib/supabase';
+import { isRegistrationOpen } from '../../lib/registrationGate.mjs';
+
+const registrationOpen = isRegistrationOpen(import.meta.env.VITE_REGISTRATION_OPEN);
 import { isRating, RATING_DIMENSIONS } from '../../lib/ratings';
 
 interface MobileUserProfileProps {
@@ -135,7 +138,7 @@ export const MobileUserProfile: React.FC<MobileUserProfileProps> = ({
               className="px-3 py-1.5 rounded-xl bg-indigo-600 text-white font-bold text-xs shadow-xs hover:bg-indigo-700 transition-all flex items-center gap-1"
             >
               <LogIn className="w-3.5 h-3.5" />
-              <span>登录</span>
+              <span>{registrationOpen ? '注册' : '登录'}</span>
             </button>
           )}
         </div>
@@ -214,15 +217,15 @@ export const MobileUserProfile: React.FC<MobileUserProfileProps> = ({
               </div>
               <div>
                 <p className="text-xs font-bold text-gray-800">登录开启积分激励与特权</p>
-                <p className="text-3xs text-gray-500">预发布阶段注册暂未开放 · 登录后可评价</p>
+                <p className="text-3xs text-gray-500">{registrationOpen ? '新人注册送 100 积分 · 撰写评价 +20 分' : '预发布阶段注册暂未开放 · 登录后可评价'}</p>
               </div>
             </div>
             <button
-              onClick={() => onOpenAuth('login')}
+              onClick={() => onOpenAuth(registrationOpen ? 'register' : 'login')}
               className="px-3 py-1.5 rounded-xl bg-indigo-600 text-white text-xs font-bold shadow-xs hover:bg-indigo-700 flex items-center gap-1 shrink-0"
             >
               <Sparkles className="w-3 h-3" />
-              <span>登录</span>
+              <span>{registrationOpen ? '注册' : '登录'}</span>
             </button>
           </div>
         )}
