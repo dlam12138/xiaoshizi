@@ -774,7 +774,12 @@ export const supabaseService = {
     }
   },
 
-  async signUp(email: string, password: string, metadata?: { nickname?: string; college?: string; campus?: string }) {
+  async signUp(
+    email: string,
+    password: string,
+    metadata?: { nickname?: string; college?: string; campus?: string },
+    captchaToken?: string,
+  ) {
     const db = requireDatabase();
     const checked = validateStudentEmail(email);
     if (!checked.ok) throw new Error(checked.message || '仅限学校邮箱注册');
@@ -787,6 +792,7 @@ export const supabaseService = {
           ...(metadata?.college ? { college: metadata.college } : {}),
           ...(metadata?.campus ? { campus: metadata.campus } : {}),
         },
+        ...(captchaToken ? { captchaToken } : {}),
       },
     });
     if (error) throw error;
@@ -797,12 +803,13 @@ export const supabaseService = {
     return data;
   },
 
-  async resetPassword(email: string) {
+  async resetPassword(email: string, captchaToken?: string) {
     const db = requireDatabase();
     const { data, error } = await db.auth.resetPasswordForEmail(email, {
       // Supabase appends its recovery token to this URL. The app must handle
       // PASSWORD_RECOVERY and let the user set a new password before leaving.
       redirectTo: typeof window !== 'undefined' ? window.location.origin : undefined,
+      ...(captchaToken ? { captchaToken } : {}),
     });
     if (error) throw error;
     return data;
@@ -853,9 +860,13 @@ export const supabaseService = {
     return data;
   },
 
-  async signIn(email: string, password: string) {
+  async signIn(email: string, password: string, captchaToken?: string) {
     const db = requireDatabase();
-    const { data, error } = await db.auth.signInWithPassword({ email, password });
+    const { data, error } = await db.auth.signInWithPassword({
+      email,
+      password,
+      ...(captchaToken ? { options: { captchaToken } } : {}),
+    });
     if (error) throw error;
     return data;
   },

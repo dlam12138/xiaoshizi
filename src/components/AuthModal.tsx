@@ -16,6 +16,8 @@ import {
   ShieldCheck
 } from 'lucide-react';
 import { supabaseService } from '../services/supabaseService';
+import TurnstileWidget from './TurnstileWidget';
+import { isTurnstileEnabled } from '../lib/turnstile';
 import { STUDENT_EMAIL_HINT, validateStudentEmail } from '../lib/studentEmail';
 import { UPC_APP_NAME, UPC_CAMPUSES, UPC_COLLEGES } from '../config/upc';
 import { isRegistrationOpen, registrationUiState } from '../lib/registrationGate.mjs';
@@ -55,6 +57,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({
 
   // Status
   const [loading, setLoading] = useState(false);
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
+  const [captchaReset, setCaptchaReset] = useState(0);
   const [resending, setResending] = useState(false);
   const [canResendVerification, setCanResendVerification] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
@@ -79,6 +83,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({
   if (!isOpen) return null;
 
   const resetForm = () => {
+    setCaptchaToken(null);
+    setCaptchaReset((value) => value + 1);
     setEmail('');
     setRecoveryEmail('');
     setPassword('');
@@ -97,6 +103,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({
       supabaseService.signOut().catch(() => {});
     }
     setMode(newMode);
+    setCaptchaToken(null);
+    setCaptchaReset((value) => value + 1);
     setErrorMsg(null);
     setSuccessMsg(null);
     setCanResendVerification(false);
@@ -188,14 +196,21 @@ export const AuthModal: React.FC<AuthModalProps> = ({
       }
     }
 
+    if (isTurnstileEnabled && mode !== 'recovery' && !captchaToken) {
+      setErrorMsg('请先完成下方的人机验证');
+      return;
+    }
+
     // Forgot password flow
     if (mode === 'forgot') {
       setLoading(true);
       try {
-        await supabaseService.resetPassword(cleanEmail);
+        await supabaseService.resetPassword(cleanEmail, captchaToken || undefined);
         setSuccessMsg('密码重置邮件已发送！请查收邮件并按照提示重设您的密码。');
       } catch (err: any) {
         console.error('[Reset Password Error]', err);
+        setCaptchaToken(null);
+        setCaptchaReset((value) => value + 1);
         let msg = err.message || '发送重置邮件失败，请重试';
         if (msg.includes('rate limit') || msg.includes('over_email_send_rate_limit')) {
           msg = '发送过于频繁，系统每小时发信次数受限，请稍后再试';
@@ -233,7 +248,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
 
     try {
       if (mode === 'login') {
-        const res = await supabaseService.signIn(cleanEmail, password);
+        const res = await supabaseService.signIn(cleanEmail, password, captchaToken || undefined);
         setSuccessMsg('登录成功！正在加载个人反馈档案...');
         setTimeout(() => {
           if (res.user) {
@@ -244,11 +259,12 @@ export const AuthModal: React.FC<AuthModalProps> = ({
         }, 500);
       } else {
         const finalNickname = nickname.trim() || '石大学子';
-        const res = await supabaseService.signUp(cleanEmail, password, {
-          nickname: finalNickname,
-          college,
-          campus,
-        });
+        const res = await supabaseService.signUp(
+          cleanEmail,
+          password,
+          { nickname: finalNickname, college, campus },
+          captchaToken || undefined,
+        );
 
         // Check anti-enumeration: existing user returned with empty identities
         const isAlreadyRegistered = Boolean(
@@ -625,6 +641,10 @@ export const AuthModal: React.FC<AuthModalProps> = ({
                   </div>
                 </div>
               </>
+            )}
+
+            {(mode === 'login' || mode === 'register' || mode === 'forgot') && (
+              <TurnstileWidget action={mode} onToken={setCaptchaToken} resetKey={captchaReset} />
             )}
 
             {/* Submit Button */}
